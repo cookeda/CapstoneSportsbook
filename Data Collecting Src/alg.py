@@ -11,9 +11,9 @@ def generalAlg(stat):
         type2 = "OU"
 
     result_dict = {}
-    with open("../data/" + stat.lower() + "/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
-        with open("../data/" + stat.lower() + "/SortedAllTime" + type2 + ".jl", 'r') as all:
-            with open("../data/" + stat.lower() + "/Sorted10Year" + type2 + ".jl", 'r') as ten:
+    with open("../data/" + stat.lower() + "/general/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
+        with open("../data/" + stat.lower() + "/general/SortedAllTime" + type2 + ".jl", 'r') as all:
+            with open("../data/" + stat.lower() + "/general/Sorted10Year" + type2 + ".jl", 'r') as ten:
                 for sixty, tenp, thirty in zip(current, all, ten):
                     team = (((str(thirty).split(':')[1]).split(',')[0]).rstrip('\"'))
                     sixtyPercent    = float(sixty[-8:-4])/100
