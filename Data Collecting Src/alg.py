@@ -11,9 +11,9 @@ def alg(stat):
         type2 = "OU"
 
     result_dict = {}
-    with open("../data/" + type.lower() + "/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
-        with open("../data/" + type.lower() + "/SortedAllTime" + type2 + ".jl", 'r') as all:
-            with open("../data/" + type.lower() + "/Sorted10Year" + type2 + ".jl", 'r') as ten:
+    with open("../data/" + stat.lower() + "/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
+        with open("../data/" + stat.lower() + "/SortedAllTime" + type2 + ".jl", 'r') as all:
+            with open("../data/" + stat.lower() + "/Sorted10Year" + type2 + ".jl", 'r') as ten:
                 for sixty, tenp, thirty in zip(current, all, ten):
                     team = (((str(thirty).split(':')[1]).split(',')[0]).rstrip('\"'))
                     sixtyPercent    = float(sixty[-8:-4])/100
@@ -28,16 +28,17 @@ def alg(stat):
 
 
 def bestOdds(result_dict, stat):
-    # bestChance = -99
+    bestChance = -99
     bestTeam = "Nobody"
-    for team in dict:
-        percent = float(dict[team])
-        if percent > bestOdds:
-            # bestChance = percent
+    for team in result_dict:
+        percent = float(result_dict[team])
+        if percent > bestChance:
+            bestChance = percent
             bestTeam = team
-    if type == "Cover":
+    if stat == "Cover":
         print("The Most Likely Team to Cover is: " + bestTeam)
-    if type == "Over":
+        
+    if stat == "Over":
         print("The Most Likely Team to go Over is: " + bestTeam)
 
 

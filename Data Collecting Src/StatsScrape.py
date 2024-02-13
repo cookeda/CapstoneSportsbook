@@ -12,6 +12,7 @@ import os
 # Global Variables
 options = Options()
 options.add_experimental_option("detach", True)
+options.add_experimental_option("excludeSwitches", ["disable-popup-blocking"])
 driver = webdriver.Chrome(options=options)
 link = "https://www.teamrankings.com/nba/trends/"
 
@@ -49,25 +50,26 @@ def cleanfile(file):
 # Add implementation for other stuff (ex: home and away etc)
 # Might have to break this into different classes due to weird runtime issues
 def main():
-    # Start
-    # This Year's Cover and O/U
+    # Clean Files
     cleanfile("../data/cover/CurrentSeasonCover.jl")
     cleanfile("../data/over/CurrentSeasonOU.jl")
+    cleanfile("../data/cover/10YearCover.jl")
+    cleanfile("../data/over/10YearOU.jl")
+    cleanfile("../data/cover/AllTimeCover.jl")
+    cleanfile("../data/over/AllTimeOU.jl")
+
+    # This Year's Cover and O/U
     print("Starting This Year's Stats")
     scrape(link + "ou_trends/?range=yearly_2023_2024", "../data/over/CurrentSeasonOU.jl", "Over")
     scrape(link + "ats_trends/?range=yearly_2023_2024", "../data/cover/CurrentSeasonCover.jl", "Cover")
 
 
     # Last 10 Years Cover and O/U
-    cleanfile("../data/cover/10YearCover.jl")
-    cleanfile("../data/over/10YearOU.jl")
     print("Starting Last 10 Years")
     scrape(link + "ats_trends/?range=yearly_since_2013_2014", "../data/cover/10YearCover.jl", "Cover")
     scrape(link + "ou_trends/?range=yearly_since_2013_2014", "../data/over/10YearOU.jl", "Over")
 
     # All Time Cover and O/U
-    cleanfile("../data/cover/AllTimeCover.jl")
-    cleanfile("../data/over/AllTimeOU.jl")
     print("Starting All Time Stats")
     scrape(link + "ats_trends/?range=yearly_all", "../data/cover/AllTimeCover.jl", "Cover")
     scrape(link + "ou_trends/?range=yearly_all", "../data/over/AllTimeOU.jl", "Over")
