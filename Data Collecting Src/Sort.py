@@ -5,18 +5,25 @@ import os
 # Must specify stat as type (ex: Cover, Over, etc)
 def sortFile(file, type):
     if type == "cover":
+        cleanfile("../data/cover/Sorted" + file)
         with open("../data/cover/" + file, 'r') as r:
             for line in sorted(r):
                 with open("../data/cover/" + "Sorted" + file, 'a') as s:
                     s.write(line)
-        os.remove("../data/cover/" + file)
+        cleanfile("../data/cover/" + file)
 
     if type == "over":
+        cleanfile("../data/over/Sorted" + file)
         with open("../data/over/" + file, 'r') as r:
             for line in sorted(r):
                 with open("../data/over/" + "Sorted" + file, 'a') as s:
                     s.write(line)
-        os.remove("../data/over/" + file)
+        cleanfile("../data/over/" + file)
+def cleanfile(file):
+    try:
+        os.remove(file)
+    except FileNotFoundError:
+        open(file, 'a')
 
 # Calls all method for each file
 def main():

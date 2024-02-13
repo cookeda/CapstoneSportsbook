@@ -37,7 +37,7 @@ def bestOdds(result_dict, stat):
             bestTeam = team
     if stat == "Cover":
         print("The Most Likely Team to Cover is: " + bestTeam)
-        
+
     if stat == "Over":
         print("The Most Likely Team to go Over is: " + bestTeam)
 
