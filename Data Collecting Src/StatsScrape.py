@@ -57,6 +57,8 @@ def main():
     cleanfile("../data/over/10YearOU.jl")
     cleanfile("../data/cover/AllTimeCover.jl")
     cleanfile("../data/over/AllTimeOU.jl")
+    cleanfile("../data/cover/home/homeCover.jl")
+    cleanfile("../data/over/home/homeOver.jl")
 
     # This Year's Cover and O/U
     print("Starting This Year's Stats")
@@ -73,8 +75,13 @@ def main():
     print("Starting All Time Stats")
     scrape(link + "ats_trends/?range=yearly_all", "../data/cover/AllTimeCover.jl", "Cover")
     scrape(link + "ou_trends/?range=yearly_all", "../data/over/AllTimeOU.jl", "Over")
-    driver.close()
+
+    print("Starting Current Home Stats")
+    scrape(link + "ats_trends/?sc=is_home", "../data/cover/home/homeCover.jl", "Cover")
+    scrape(link + "/ou_trends/?sc=is_home", "../data/over/home/homeOver.jl", "Over")
+
     # End
+    driver.close()
 
 # Runs Program
 if __name__ == '__main__':

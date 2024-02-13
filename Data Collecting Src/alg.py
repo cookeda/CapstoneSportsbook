@@ -26,8 +26,8 @@ def generalAlg(stat):
                     result_dict[team] = perChance
                 return result_dict
 
-
-def bestOdds(result_dict, stat):
+# Generates best team for a general stat
+def bestOddsGeneral(result_dict, stat):
     bestChance = -99
     bestTeam = "Nobody"
     for team in result_dict:
@@ -41,15 +41,37 @@ def bestOdds(result_dict, stat):
     if stat == "Over":
         print("Generally, the most likely team to go over is: " + bestTeam + " Chance: " + str(bestChance))
 
+# Generates best team for a specified stat
+def bestOdds(result_dict, stat, spec):
+    bestChance = -99
+    bestTeam = "Nobody"
+    for team in result_dict:
+        percent = float(result_dict[team])
+        if percent > bestChance:
+            bestChance = percent
+            bestTeam = team
+    print("Best team at " + spec + " for the stat: " + stat + "is " + bestTeam + "at " + bestChance)
+def getDict(file):
+    result_dict = {}
+    for line in file:
+        team = (((str(line).split(':')[1]).split(',')[0]).rstrip('\"'))
+        percent = float(line[-8:-4])/100
+        result_dict[team] = percent
+    print(result_dict)
 
 def main():
     # Very basic prediction calculating on account for
     # current season, last 10 years, and all time
     generalCover = generalAlg("Cover")
     generalOver = generalAlg("Over")
-    bestOdds(generalCover, "Cover")
-    bestOdds(generalOver, "Over")
+    bestOddsGeneral(generalCover, "Cover")
+    bestOddsGeneral(generalOver, "Over")
 
+    # For Home
+    homeCover = getDict("../data/cover/home/homeCover.jl")
+    bestOdds(homeCover, "Cover", "Home")
+    homeOver = getDict("../data/over/home/homeOver.jl")
+    bestOdds(homeOver, "Over", "Home")
 
 
 if __name__ == '__main__':
