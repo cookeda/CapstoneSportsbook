@@ -1,54 +1,52 @@
-import json
-#60% Current + 30% 10 Year + 10% All Time
-# For Atlanta = (.6 * .28) + (.3 * .485) + (.1 * .484)
-#             = (.168)     + (.1455)     + (.0484)      = .3619
-# 36.19% Chance at Covering
-
-# For Denver OU = (.6 * .373)   + (.3 * .517) + (.1 * .515)
-#               = (.2238)       + (.1551)     + (.0515)     = .4304 DOES NOT WORK FOR OU CURRENT
-# TODO FIX ABOVE
-
-def mathStuff(type):
+# Algorithm for determining likelihood
+# Should be updated to reflect per bet and compare if a bet is good or bad
+# Should take into consideration home advantage, etc. down the line
+# Pretty sure the math is right currently
+def alg(stat):
     type2 = ""
-    if type == "Cover":
-        type2 = type
+    if stat == "Cover":
+        type2 = stat
 
-    if type == "Over":
+    if stat == "Over":
         type2 = "OU"
 
-    dict = {}
-    with open("data/" + type.lower() + "/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
-        with open("data/" + type.lower() + "/SortedAllTime" + type2 + ".jl", 'r') as all:
-            with open("data/" + type.lower() + "/Sorted10Year" + type2 + ".jl", 'r') as ten:
-                for sixty in current:
-                    for tenp in all:
-                        for thirty in ten:
-                            team = (((str(thirty).split(':')[1]).split(',')[0]).rstrip('\"'))
-                            print(sixty[-8:-4])
-                          #  print(thirty[-8:-4])
-                          #  print(tenp[-8:-4])
-                            perChance = (.6 * (float(sixty[-8:-4]) / 100)) + \
-                                        (.3 * (float(thirty[-8:-4]) / 100)) + \
-                                        (.1 * (float(tenp[-8:-4]) / 100))
-                            dict[team] = perChance
-                print(dict)
-                return dict
+    result_dict = {}
+    with open("../data/" + type.lower() + "/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
+        with open("../data/" + type.lower() + "/SortedAllTime" + type2 + ".jl", 'r') as all:
+            with open("../data/" + type.lower() + "/Sorted10Year" + type2 + ".jl", 'r') as ten:
+                for sixty, tenp, thirty in zip(current, all, ten):
+                    team = (((str(thirty).split(':')[1]).split(',')[0]).rstrip('\"'))
+                    sixtyPercent    = float(sixty[-8:-4])/100
+                    thirtyPercent   = float(thirty[-8:-4])/100
+                    tenPercent      = float(tenp[-8:-4])/100
+                    perChance = (.6 * sixtyPercent) + \
+                                (.3 * thirtyPercent) + \
+                                (.1 * tenPercent)
 
-def bestOdds(dict, type):
-    bestOdds = -99
+                    result_dict[team] = perChance
+                return result_dict
+
+
+def bestOdds(result_dict, stat):
+    # bestChance = -99
     bestTeam = "Nobody"
     for team in dict:
         percent = float(dict[team])
         if percent > bestOdds:
-            bestOdds = percent
+            # bestChance = percent
             bestTeam = team
-    print("The best team to bet on any given night is " + bestTeam + " percent: " + str(bestOdds))
+    if type == "Cover":
+        print("The Most Likely Team to Cover is: " + bestTeam)
+    if type == "Over":
+        print("The Most Likely Team to go Over is: " + bestTeam)
+
 
 def main():
-    dict1 = mathStuff("Cover")
-    #   dict2 = mathStuff("Over")
+    dict1 = alg("Cover")
+    dict2 = alg("Over")
     bestOdds(dict1, "Cover")
-    #    bestOdds(dict2, "Over")
+    bestOdds(dict2, "Over")
+
 
 if __name__ == '__main__':
     main()
