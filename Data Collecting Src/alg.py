@@ -50,14 +50,15 @@ def bestOdds(result_dict, stat, spec):
         if percent > bestChance:
             bestChance = percent
             bestTeam = team
-    print("Best team at " + spec + " for the stat: " + stat + "is " + bestTeam + "at " + bestChance)
+    print("Best team at " + spec + " for the stat: " + stat + " is " + bestTeam + " at " + str(bestChance))
 def getDict(file):
     result_dict = {}
-    for line in file:
-        team = (((str(line).split(':')[1]).split(',')[0]).rstrip('\"'))
-        percent = float(line[-8:-4])/100
-        result_dict[team] = percent
-    print(result_dict)
+    with open(file, 'r') as fr:
+        for line in fr:
+            team = (((str(line).split(':')[1]).split(',')[0]).rstrip('\"'))
+            percent = float(line[-8:-4])/100
+            result_dict[team] = percent
+        return result_dict
 
 def main():
     # Very basic prediction calculating on account for
@@ -68,9 +69,9 @@ def main():
     bestOddsGeneral(generalOver, "Over")
 
     # For Home
-    homeCover = getDict("../data/cover/home/homeCover.jl")
+    homeCover = getDict("../data/cover/home/SortedhomeCover.jl")
     bestOdds(homeCover, "Cover", "Home")
-    homeOver = getDict("../data/over/home/homeOver.jl")
+    homeOver = getDict("../data/over/home/SortedhomeOver.jl")
     bestOdds(homeOver, "Over", "Home")
 
 

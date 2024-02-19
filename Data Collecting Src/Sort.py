@@ -13,7 +13,7 @@ def sortFile(file, type, location):
         cleanfile("../data/cover/" + file)
 
     if type == "over":
-        cleanfile("../data/over" + location + "Sorted" + file)
+        cleanfile("../data/over/" + location + "/Sorted" + file)
         with open("../data/over/" + file, 'r') as r:
             for line in sorted(r):
                 with open("../data/over/" + location + "/Sorted" + file, 'a') as s:
@@ -26,6 +26,10 @@ def cleanfile(file):
         open(file, 'a')
 
 # Calls all method for each file
+# TODO: Make it to where sortFile scans for all available files and sorts them
+# TODO: IE: 1 line of code that calls sortFile and sorts everything regardless of what is there or not
+# TODO: This will make it easier when implementing new data
+# TODO: Maybe do this same in alg.py?
 def main():
     sortFile("10YearCover.jl", "cover", "general")
     sortFile("AllTimeCover.jl", "cover", "general")

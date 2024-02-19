@@ -77,8 +77,13 @@ def main():
     scrape(link + "ou_trends/?range=yearly_all", "../data/over/AllTimeOU.jl", "Over")
 
     print("Starting Current Home Stats")
-    scrape(link + "ats_trends/?sc=is_home", "../data/cover/home/homeCover.jl", "Cover")
-    scrape(link + "/ou_trends/?sc=is_home", "../data/over/home/homeOver.jl", "Over")
+    scrape(link + "ats_trends/?sc=is_home", "../data/cover/homeCover.jl", "Cover")
+    scrape(link + "/ou_trends/?sc=is_home", "../data/over/homeOver.jl", "Over")
+
+    print("Starting Current Away Stats")
+    scrape(link + "ats_trends/?sc=is_away", "../data/cover/awayCover.jl", "Cover")
+    scrape(link + "/ou_trends/?sc=is_away", "../data/cover/awayOver.jl", "Over")
+
 
     # End
     driver.close()
