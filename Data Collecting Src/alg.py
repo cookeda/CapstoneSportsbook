@@ -70,14 +70,31 @@ def getDict(file):
 # Uses bestOdds to get best team on this combination
 def combine(dict1, dict2, dec1, dec2, stat, spec):
     if((dec1 + dec2) == 1):
-        gen_home_cover = {}
+        final_dict = {}
         for team1, team2 in zip(dict1, dict2):
             fifty1 = dict1[team1]
             fifty2 = dict2[team2]
             perchance = (dec1 * fifty1) + (dec2 * fifty2)
-            gen_home_cover[team1] = perchance
+            final_dict[team1] = perchance
 
-        bestOdds(gen_home_cover, stat, spec)
+        bestOdds(final_dict, stat, spec)
+        print(final_dict)
+
+def combineOnRanking(dict1, dict2):
+    return_dict = {}
+    for team1 in dict1:
+        if team1 in dict2:
+            both = (dict1[team1] + dict2[team1])/2
+            return_dict[team1] = both
+    print(return_dict)
+    sorted_dict = sorted(return_dict.items(), key=lambda item: item[1], reverse=False)
+    print(sorted_dict)
+
+def sortByRank(input_dict):
+    sorted_dict = sorted(input_dict.items(), key=lambda item: item[1], reverse=True)
+    ranked_dict = {team: rank for rank, (team, percent) in enumerate(sorted_dict, start=1)}
+    return ranked_dict
+
 def main():
     # Very basic prediction calculating on account for
     # current season, last 10 years, and all time
@@ -105,8 +122,10 @@ def main():
     print("COMBINED (MOST ACCURATE): ")
     combine(generalCover, homeCover, .3, .7, "Cover", "Home")
     combine(generalOver, homeOver, .3, .7, "Over", "Home")
-    combine(generalCover, awayCover, .3, .7, "Cover", "Home")
+    combine(generalCover, awayCover, .3, .7, "Cover", "Away")
     combine(generalOver, awayOver, .3, .7, "Over", "Away")
+    # TODO: THIS DOES NOT SEEM TO BE WORKING
+    combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
 
     # TARGET ALG?
     # .5 Advanced Stats + .3 Spec Stats + .2 General Stats
