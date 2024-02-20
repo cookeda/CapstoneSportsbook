@@ -2,6 +2,9 @@
 # Should be updated to reflect per bet and compare if a bet is good or bad
 # Should take into consideration home advantage, etc. down the line
 # Pretty sure the math is right currently
+
+# Determines general percentage on the basis of
+# 60% Current, 30% Over The Last 10 Years, 10% All Time
 def generalAlg(stat):
     type2 = ""
     if stat == "Cover":
@@ -26,7 +29,7 @@ def generalAlg(stat):
                     result_dict[team] = perChance
                 return result_dict
 
-# Generates best team for a general stat
+# Generates best team for a general stat (Cover or OU)
 def bestOddsGeneral(result_dict, stat):
     bestChance = -99
     bestTeam = "Nobody"
@@ -41,16 +44,19 @@ def bestOddsGeneral(result_dict, stat):
     if stat == "Over":
         print("Generally, the most likely team to go over is: " + bestTeam + " Chance: " + str(bestChance))
 
-# Generates best team for a specified stat
+# Generates best team for a specified stat (Away, Home)
 def bestOdds(result_dict, stat, spec):
     bestChance = -99
     bestTeam = "Nobody"
+    i = 1
     for team in result_dict:
         percent = float(result_dict[team])
         if percent > bestChance:
             bestChance = percent
             bestTeam = team
     print("Best team at " + spec + " for the stat: " + stat + " is " + bestTeam + " at " + str(bestChance))
+
+# Gets python dictionary from a file
 def getDict(file):
     result_dict = {}
     with open(file, 'r') as fr:
@@ -60,26 +66,50 @@ def getDict(file):
             result_dict[team] = percent
         return result_dict
 
+# Combines different dictionaries to create a new one
+# Uses bestOdds to get best team on this combination
+def combine(dict1, dict2, dec1, dec2, stat, spec):
+    if((dec1 + dec2) == 1):
+        gen_home_cover = {}
+        for team1, team2 in zip(dict1, dict2):
+            fifty1 = dict1[team1]
+            fifty2 = dict2[team2]
+            perchance = (dec1 * fifty1) + (dec2 * fifty2)
+            gen_home_cover[team1] = perchance
+
+        bestOdds(gen_home_cover, stat, spec)
 def main():
     # Very basic prediction calculating on account for
     # current season, last 10 years, and all time
+    print("General (LEAST ACCURATE): ")
     generalCover = generalAlg("Cover")
     generalOver = generalAlg("Over")
     bestOddsGeneral(generalCover, "Cover")
     bestOddsGeneral(generalOver, "Over")
 
     # For Home
+    print("CURRENT HOME ODDS: ")
     homeCover = getDict("../data/cover/home/SortedhomeCover.jl")
     bestOdds(homeCover, "Cover", "Home")
     homeOver = getDict("../data/over/home/SortedhomeOver.jl")
     bestOdds(homeOver, "Over", "Home")
 
     # For Away
+    print("CURRENT AWAY ODDS: ")
     awayCover = getDict("../data/cover/away/SortedawayCover.jl")
     bestOdds(awayCover, "Cover", "Away")
     awayOver = getDict("../data/over/away/SortedawayOver.jl")
     bestOdds(awayOver, "Over", "Away")
 
+    # testing new stuff
+    print("COMBINED (MOST ACCURATE): ")
+    combine(generalCover, homeCover, .3, .7, "Cover", "Home")
+    combine(generalOver, homeOver, .3, .7, "Over", "Home")
+    combine(generalCover, awayCover, .3, .7, "Cover", "Home")
+    combine(generalOver, awayOver, .3, .7, "Over", "Away")
+
+    # TARGET ALG?
+    # .5 Advanced Stats + .3 Spec Stats + .2 General Stats
 if __name__ == '__main__':
     main()
 
