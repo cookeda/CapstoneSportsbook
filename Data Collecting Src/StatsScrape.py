@@ -59,6 +59,8 @@ def main():
     cleanfile("../data/over/AllTimeOU.jl")
     cleanfile("../data/cover/home/homeCover.jl")
     cleanfile("../data/over/home/homeOver.jl")
+    cleanfile("../data/cover/away/awayCover.jl")
+    cleanfile("../data/over/away/awayOver.jl")
 
     # This Year's Cover and O/U
     print("Starting This Year's Stats")
@@ -76,13 +78,15 @@ def main():
     scrape(link + "ats_trends/?range=yearly_all", "../data/cover/AllTimeCover.jl", "Cover")
     scrape(link + "ou_trends/?range=yearly_all", "../data/over/AllTimeOU.jl", "Over")
 
+    # Current season home Cover and OU
     print("Starting Current Home Stats")
     scrape(link + "ats_trends/?sc=is_home", "../data/cover/homeCover.jl", "Cover")
     scrape(link + "/ou_trends/?sc=is_home", "../data/over/homeOver.jl", "Over")
 
+    # Current season Away Cover and OU
     print("Starting Current Away Stats")
     scrape(link + "ats_trends/?sc=is_away", "../data/cover/awayCover.jl", "Cover")
-    scrape(link + "/ou_trends/?sc=is_away", "../data/cover/awayOver.jl", "Over")
+    scrape(link + "/ou_trends/?sc=is_away", "../data/over/awayOver.jl", "Over")
 
 
     # End

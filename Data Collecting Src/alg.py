@@ -74,6 +74,11 @@ def main():
     homeOver = getDict("../data/over/home/SortedhomeOver.jl")
     bestOdds(homeOver, "Over", "Home")
 
+    # For Away
+    awayCover = getDict("../data/cover/away/SortedawayCover.jl")
+    bestOdds(awayCover, "Cover", "Away")
+    awayOver = getDict("../data/over/away/SortedawayOver.jl")
+    bestOdds(awayOver, "Over", "Away")
 
 if __name__ == '__main__':
     main()

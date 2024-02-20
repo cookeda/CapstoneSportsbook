@@ -6,24 +6,31 @@ import os
 def sortFile(file, type, location):
     if type == "cover":
         cleanfile("../data/cover/" + location + "/Sorted" + file)
-        with open("../data/cover/" + file, 'r') as r:
-            for line in sorted(r):
-                with open("../data/cover/" + location + "/Sorted" + file, 'a') as s:
-                    s.write(line)
-        cleanfile("../data/cover/" + file)
+        try:
+            with open("../data/cover/" + file, 'r') as r:
+                for line in sorted(r):
+                    with open("../data/cover/" + location + "/Sorted" + file, 'a') as s:
+                        s.write(line)
+            cleanfile("../data/cover/" + file)
+        except FileNotFoundError:
+            print("File not found")
 
     if type == "over":
         cleanfile("../data/over/" + location + "/Sorted" + file)
-        with open("../data/over/" + file, 'r') as r:
-            for line in sorted(r):
-                with open("../data/over/" + location + "/Sorted" + file, 'a') as s:
-                    s.write(line)
-        cleanfile("../data/over/" + file)
+        try:
+            with open("../data/over/" + file, 'r') as r:
+                for line in sorted(r):
+                    with open("../data/over/" + location + "/Sorted" + file, 'a') as s:
+                        s.write(line)
+            cleanfile("../data/over/" + file)
+        except FileNotFoundError:
+            print("File not found")
 def cleanfile(file):
     try:
         os.remove(file)
     except FileNotFoundError:
         open(file, 'a')
+
 
 # Calls all method for each file
 # TODO: Make it to where sortFile scans for all available files and sorts them
@@ -39,6 +46,8 @@ def main():
     sortFile("CurrentSeasonOU.jl", "over", "general")
     sortFile("homeCover.jl", "cover", "home")
     sortFile("homeOver.jl", "over", "home")
+    sortFile("awayCover.jl", "cover", "away")
+    sortFile("awayOver.jl", "over", "away")
 
 
 if __name__ == '__main__':
