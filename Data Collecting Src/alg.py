@@ -5,6 +5,9 @@
 
 # Determines general percentage on the basis of
 # 60% Current, 30% Over The Last 10 Years, 10% All Time
+
+
+
 def generalAlg(stat):
     type2 = ""
     if stat == "Cover":
@@ -78,7 +81,7 @@ def combine(dict1, dict2, dec1, dec2, stat, spec):
             final_dict[team1] = perchance
 
         bestOdds(final_dict, stat, spec)
-        print(final_dict)
+        #print(final_dict)
 
 def combineOnRanking(dict1, dict2):
     return_dict = {}
@@ -86,18 +89,59 @@ def combineOnRanking(dict1, dict2):
         if team1 in dict2:
             both = (dict1[team1] + dict2[team1])/2
             return_dict[team1] = both
-    print(return_dict)
+    #print(return_dict)
     sorted_dict = sorted(return_dict.items(), key=lambda item: item[1], reverse=False)
     print(sorted_dict)
+    return dict(sorted_dict)
 
 def sortByRank(input_dict):
     sorted_dict = sorted(input_dict.items(), key=lambda item: item[1], reverse=True)
     ranked_dict = {team: rank for rank, (team, percent) in enumerate(sorted_dict, start=1)}
     return ranked_dict
 
+def gameInput(homeTeam, awayTeam):
+    homeTeam = (' "' + homeTeam)
+    awayTeam = (' "' + awayTeam)
+
+    # Rankings for team
+    coverHome = cho[homeTeam]
+    coverAway = cac[awayTeam]
+    overHome = chc[homeTeam]
+    overAway = cao[awayTeam]
+
+    print("For " + awayTeam + " At " + homeTeam + ":")
+
+    # Over
+    if overHome <= 10 and overAway <= 10:
+        print("Take the over!")
+    elif overHome > 20 and overAway > 20:
+        print("Take the under!")
+    else:
+        print("Don't bet on O/U")
+
+    # Cover
+    if coverHome <= 10 and coverAway> 20:
+        print("Bet on" + homeTeam + "to Cover!")
+    if coverHome > 20 and coverAway <= 10:
+        print("Bet on" + awayTeam + "to Cover!")
+    else:
+        print("Don't bet on Cover")
+
+
 def main():
     # Very basic prediction calculating on account for
     # current season, last 10 years, and all time
+    global generalOver
+    global generalCover
+    global homeOver
+    global homeCover
+    global awayOver
+    global awayCover
+    global cho
+    global chc
+    global cao
+    global cac
+
     print("General (LEAST ACCURATE): ")
     generalCover = generalAlg("Cover")
     generalOver = generalAlg("Over")
@@ -125,8 +169,22 @@ def main():
     combine(generalCover, awayCover, .3, .7, "Cover", "Away")
     combine(generalOver, awayOver, .3, .7, "Over", "Away")
     # TODO: THIS DOES NOT SEEM TO BE WORKING
-    combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
+    print("Scores for home over: ")
+    cho = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
+    print("Scores for home cover: ")
+    chc = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
+    print("Scores for away over: ")
+    cao = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
+    print("Scores for away cover: ")
+    cac = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
 
+    # test
+    gameInput('Indiana', "Toronto")
+    gameInput('New York', 'Detroit')
+    gameInput('Memphis', 'Brooklyn')
+    gameInput('Sacramento', 'Miami')
+    # Maybe add a "Here is your parlay" output
+    
     # TARGET ALG?
     # .5 Advanced Stats + .3 Spec Stats + .2 General Stats
 if __name__ == '__main__':

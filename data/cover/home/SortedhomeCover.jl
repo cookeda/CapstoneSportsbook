@@ -1,30 +1,30 @@
-{"Team": "Atlanta", "Cover %": "28.6%"}
+{"Team": "Atlanta", "Cover %": "30.0%"}
 {"Team": "Boston", "Cover %": "51.7%"}
 {"Team": "Brooklyn", "Cover %": "55.6%"}
 {"Team": "Charlotte", "Cover %": "44.8%"}
-{"Team": "Chicago", "Cover %": "53.9%"}
-{"Team": "Cleveland", "Cover %": "50.0%"}
-{"Team": "Dallas", "Cover %": "43.3%"}
-{"Team": "Denver", "Cover %": "48.0%"}
-{"Team": "Detroit", "Cover %": "46.2%"}
-{"Team": "Golden State", "Cover %": "40.7%"}
-{"Team": "Houston", "Cover %": "66.7%"}
-{"Team": "Indiana", "Cover %": "53.9%"}
-{"Team": "LA Clippers", "Cover %": "53.9%"}
-{"Team": "LA Lakers", "Cover %": "48.2%"}
-{"Team": "Memphis", "Cover %": "40.7%"}
+{"Team": "Chicago", "Cover %": "51.9%"}
+{"Team": "Cleveland", "Cover %": "48.2%"}
+{"Team": "Dallas", "Cover %": "45.2%"}
+{"Team": "Denver", "Cover %": "50.0%"}
+{"Team": "Detroit", "Cover %": "48.2%"}
+{"Team": "Golden State", "Cover %": "43.3%"}
+{"Team": "Houston", "Cover %": "65.5%"}
+{"Team": "Indiana", "Cover %": "57.1%"}
+{"Team": "LA Clippers", "Cover %": "51.9%"}
+{"Team": "LA Lakers", "Cover %": "46.4%"}
+{"Team": "Memphis", "Cover %": "42.9%"}
 {"Team": "Miami", "Cover %": "42.9%"}
 {"Team": "Milwaukee", "Cover %": "42.9%"}
-{"Team": "Minnesota", "Cover %": "59.1%"}
-{"Team": "New Orleans", "Cover %": "57.7%"}
-{"Team": "New York", "Cover %": "57.7%"}
-{"Team": "Okla City", "Cover %": "66.7%"}
+{"Team": "Minnesota", "Cover %": "58.3%"}
+{"Team": "New Orleans", "Cover %": "55.2%"}
+{"Team": "New York", "Cover %": "55.6%"}
+{"Team": "Okla City", "Cover %": "69.0%"}
 {"Team": "Orlando", "Cover %": "68.0%"}
-{"Team": "Philadelphia", "Cover %": "57.1%"}
-{"Team": "Phoenix", "Cover %": "39.3%"}
-{"Team": "Portland", "Cover %": "42.3%"}
-{"Team": "Sacramento", "Cover %": "45.8%"}
+{"Team": "Philadelphia", "Cover %": "54.8%"}
+{"Team": "Phoenix", "Cover %": "41.4%"}
+{"Team": "Portland", "Cover %": "39.3%"}
+{"Team": "Sacramento", "Cover %": "44.0%"}
 {"Team": "San Antonio", "Cover %": "46.2%"}
-{"Team": "Toronto", "Cover %": "44.4%"}
-{"Team": "Utah", "Cover %": "66.7%"}
-{"Team": "Washington", "Cover %": "30.8%"}
+{"Team": "Toronto", "Cover %": "46.4%"}
+{"Team": "Utah", "Cover %": "65.5%"}
+{"Team": "Washington", "Cover %": "33.3%"}
