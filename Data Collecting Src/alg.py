@@ -55,9 +55,9 @@ def generalAlg(stat):
             with open("../data/" + stat.lower() + "/general/Sorted10Year" + type2 + ".jl", 'r') as ten:
                 for sixty, tenp, thirty in zip(current, all, ten):
                     team = (((str(thirty).split(':')[1]).split(',')[0]).rstrip('\"'))
-                    sixtyPercent    = float(sixty[-8:-4])/100
-                    thirtyPercent   = float(thirty[-8:-4])/100
-                    tenPercent      = float(tenp[-8:-4])/100
+                    sixtyPercent    = float(sixty[-13:-9])/100
+                    thirtyPercent   = float(thirty[-13:-9])/100
+                    tenPercent      = float(tenp[-13:-9])/100
                     perChance = (.6 * sixtyPercent) + \
                                 (.3 * thirtyPercent) + \
                                 (.1 * tenPercent)
@@ -98,7 +98,7 @@ def getDict(file):
     with open(file, 'r') as fr:
         for line in fr:
             team = (((str(line).split(':')[1]).split(',')[0]).rstrip('\"'))
-            percent = float(line[-8:-4])/100
+            percent = float(line[-13:-9])/100
             result_dict[team] = percent
         return result_dict
 

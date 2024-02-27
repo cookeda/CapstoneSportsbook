@@ -29,11 +29,14 @@ def scrape(link, file, type):
     while i <= 30:
         team = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a").text
         percent = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]").text
+        plusminus = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]").text
+        if plusminus == "0.0":
+            plusminus = "+0.0"
         cover["Team"] = team
         cover[type + " %"] = percent
         i += 1
         with open(file, 'a') as fp:
-            fp.write(json.dumps(cover) + '\n')
+            fp.write(json.dumps(cover) + " " + plusminus + '\n')
             print(str(i-1) + "/30")
     print("Done")
 
@@ -51,8 +54,8 @@ def cleanfile(file):
 # Might have to break this into different classes due to weird runtime issues
 def main():
     # Clean Files
-    cleanfile("../data/cover/CurrentSeasonCover.jl")
     cleanfile("../data/over/CurrentSeasonOU.jl")
+    cleanfile("../data/cover/CurrentSeasonCover.jl")
     cleanfile("../data/cover/10YearCover.jl")
     cleanfile("../data/over/10YearOU.jl")
     cleanfile("../data/cover/AllTimeCover.jl")
