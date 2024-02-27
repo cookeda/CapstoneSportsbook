@@ -9,7 +9,7 @@
 {"Team": "Detroit", "Over %": "49.6%"}
 {"Team": "Golden State", "Over %": "49.6%"}
 {"Team": "Houston", "Over %": "48.5%"}
-{"Team": "Indiana", "Over %": "49.3%"}
+{"Team": "Indiana", "Over %": "49.4%"}
 {"Team": "LA Clippers", "Over %": "49.5%"}
 {"Team": "LA Lakers", "Over %": "49.5%"}
 {"Team": "Memphis", "Over %": "47.7%"}
@@ -17,7 +17,7 @@
 {"Team": "Milwaukee", "Over %": "52.0%"}
 {"Team": "Minnesota", "Over %": "51.0%"}
 {"Team": "New Orleans", "Over %": "49.4%"}
-{"Team": "New York", "Over %": "49.2%"}
+{"Team": "New York", "Over %": "49.1%"}
 {"Team": "Okla City", "Over %": "50.1%"}
 {"Team": "Orlando", "Over %": "48.2%"}
 {"Team": "Philadelphia", "Over %": "49.4%"}

@@ -13,7 +13,7 @@
 {"Team": "LA Clippers", "Cover %": "49.1%"}
 {"Team": "LA Lakers", "Cover %": "47.0%"}
 {"Team": "Memphis", "Cover %": "51.2%"}
-{"Team": "Miami", "Cover %": "51.3%"}
+{"Team": "Miami", "Cover %": "51.4%"}
 {"Team": "Milwaukee", "Cover %": "49.1%"}
 {"Team": "Minnesota", "Cover %": "46.9%"}
 {"Team": "New Orleans", "Cover %": "50.3%"}

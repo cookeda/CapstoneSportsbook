@@ -6,7 +6,40 @@
 # Determines general percentage on the basis of
 # 60% Current, 30% Over The Last 10 Years, 10% All Time
 
+import json
 
+teamDict = {
+    'Hawks': 'Atlanta',
+    'Celtics': 'Boston',
+    'Nets': 'Brooklyn',
+    'Hornets': 'Charlotte',
+    'Bulls': 'Chicago',
+    'Cavaliers': 'Cleveland',
+    'Mavericks': 'Dallas',
+    'Nuggets': 'Denver',
+    'Pistons': 'Detroit',
+    'Warriors': 'Golden State',
+    'Rockets': 'Houston',
+    'Pacers': 'Indiana',
+    'Clippers': 'LA Clippers',
+    'Lakers': 'LA Lakers',
+    'Grizzlies': 'Memphis',
+    'Heat': 'Miami',
+    'Bucks': 'Milwaukee',
+    'Timberwolves': 'Minnesota',
+    'Pelicans': 'New Orleans',
+    'Knicks': 'New York',
+    'Thunder': 'Okla City',
+    'Magic': 'Orlando',
+    '76ers': 'Philadelphia',
+    'Suns': 'Phoenix',
+    'Trail Blazers': 'Portland',
+    'Kings': 'Sacramento',
+    'Spurs': 'San Antonio',
+    'Raptors': 'Toronto',
+    'Jazz': 'Utah',
+    'Wizards': 'Washington'
+}
 
 def generalAlg(stat):
     type2 = ""
@@ -57,7 +90,7 @@ def bestOdds(result_dict, stat, spec):
         if percent > bestChance:
             bestChance = percent
             bestTeam = team
-    print("Best team at " + spec + " for the stat: " + stat + " is " + bestTeam + " at " + str(bestChance))
+    #print("Best team at " + spec + " for the stat: " + stat + " is " + bestTeam + " at " + str(bestChance))
 
 # Gets python dictionary from a file
 def getDict(file):
@@ -91,7 +124,7 @@ def combineOnRanking(dict1, dict2):
             return_dict[team1] = both
     #print(return_dict)
     sorted_dict = sorted(return_dict.items(), key=lambda item: item[1], reverse=False)
-    print(sorted_dict)
+    #print(sorted_dict)
     return dict(sorted_dict)
 
 def sortByRank(input_dict):
@@ -100,8 +133,10 @@ def sortByRank(input_dict):
     return ranked_dict
 
 def gameInput(homeTeam, awayTeam):
+    print("-----------------------------")
     homeTeam = (' "' + homeTeam)
     awayTeam = (' "' + awayTeam)
+
 
     # Rankings for team
     coverHome = cho[homeTeam]
@@ -113,78 +148,109 @@ def gameInput(homeTeam, awayTeam):
 
     # Over
     if overHome <= 10 and overAway <= 10:
+        if overHome <= 5 and overAway <= 5:
+            print("LOCK ALERT!")
         print("Take the over!")
+        parlay.append(awayTeam + " At " + homeTeam + ": Over")
     elif overHome > 20 and overAway > 20:
+        if overHome > 25 and overAway > 25:
+            print("LOCK ALERT!")
         print("Take the under!")
+        parlay.append(awayTeam + " At " + homeTeam + ": Under")
     else:
         print("Don't bet on O/U")
 
     # Cover
-    if coverHome <= 10 and coverAway> 20:
-        print("Bet on" + homeTeam + "to Cover!")
-    if coverHome > 20 and coverAway <= 10:
-        print("Bet on" + awayTeam + "to Cover!")
+    if coverHome <= 10 and coverAway > 20:
+        if coverHome <= 5 and coverAway > 25:
+            print("LOCK ALERT!")
+        print("Bet on " + homeTeam + " to Cover!")
+        parlay.append(homeTeam + ": Cover")
+    elif coverHome > 20 and coverAway <= 10:
+        if coverHome <= 5 and coverAway > 25:
+            print("LOCK ALERT!")
+        print("Bet on " + awayTeam + " to Cover!")
+        parlay.append(awayTeam + ": Cover")
     else:
         print("Don't bet on Cover")
 
+def gameInputFromJSON(file):
+    with open(file, 'r') as j:
+        games = json.load(j)
+    for game in games:
+        homeTeam = teamDict[game["Home Team"].title()]
+        awayTeam = teamDict[game["Away Team"].title()]
+        gameInput(homeTeam, awayTeam)
 
 def main():
-    # Very basic prediction calculating on account for
-    # current season, last 10 years, and all time
-    global generalOver
-    global generalCover
-    global homeOver
-    global homeCover
-    global awayOver
-    global awayCover
-    global cho
-    global chc
-    global cao
-    global cac
+    global generalOver  # General Over Dict
+    global generalCover # General Cover Dict
+    global homeOver     # Home Over Dict
+    global homeCover    # Home Cover Dict
+    global awayOver     # Away Over Dict
+    global awayCover    # Away Cover Dict
+    global cho          # Combined Home Over
+    global chc          # Combined Home Cover
+    global cao          # Combined Away Over
+    global cac          # Combined Away Cover
+    global parlay       # Parlay List
+    global teamDict     # Team Dictionary in form City: Team Name
 
-    print("General (LEAST ACCURATE): ")
+    parlay = []
+    #print("General (LEAST ACCURATE): ")
     generalCover = generalAlg("Cover")
     generalOver = generalAlg("Over")
-    bestOddsGeneral(generalCover, "Cover")
-    bestOddsGeneral(generalOver, "Over")
+    #bestOddsGeneral(generalCover, "Cover")
+    #bestOddsGeneral(generalOver, "Over")
 
     # For Home
-    print("CURRENT HOME ODDS: ")
+    #print("CURRENT HOME ODDS: ")
     homeCover = getDict("../data/cover/home/SortedhomeCover.jl")
-    bestOdds(homeCover, "Cover", "Home")
+    #bestOdds(homeCover, "Cover", "Home")
     homeOver = getDict("../data/over/home/SortedhomeOver.jl")
-    bestOdds(homeOver, "Over", "Home")
+    #bestOdds(homeOver, "Over", "Home")
 
     # For Away
-    print("CURRENT AWAY ODDS: ")
+    #print("CURRENT AWAY ODDS: ")
     awayCover = getDict("../data/cover/away/SortedawayCover.jl")
-    bestOdds(awayCover, "Cover", "Away")
+    #bestOdds(awayCover, "Cover", "Away")
     awayOver = getDict("../data/over/away/SortedawayOver.jl")
-    bestOdds(awayOver, "Over", "Away")
+    #bestOdds(awayOver, "Over", "Away")
 
     # testing new stuff
-    print("COMBINED (MOST ACCURATE): ")
+    #print("COMBINED (MOST ACCURATE): ")
     combine(generalCover, homeCover, .3, .7, "Cover", "Home")
     combine(generalOver, homeOver, .3, .7, "Over", "Home")
     combine(generalCover, awayCover, .3, .7, "Cover", "Away")
     combine(generalOver, awayOver, .3, .7, "Over", "Away")
-    # TODO: THIS DOES NOT SEEM TO BE WORKING
-    print("Scores for home over: ")
+    # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
+    #print("Scores for home over: ")
     cho = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
-    print("Scores for home cover: ")
+    #print("Scores for home cover: ")
     chc = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
-    print("Scores for away over: ")
+    #print("Scores for away over: ")
     cao = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
-    print("Scores for away cover: ")
+    #print("Scores for away cover: ")
     cac = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
 
     # test
-    gameInput('Indiana', "Toronto")
-    gameInput('New York', 'Detroit')
-    gameInput('Memphis', 'Brooklyn')
-    gameInput('Sacramento', 'Miami')
-    # Maybe add a "Here is your parlay" output
-    
+    #gameInput('Milwaukee', "Charlotte")
+    #gameInput('Washington', 'Golden State')
+    #gameInput('Cleveland', 'Dallas')
+    #gameInput('Orlando', 'Brooklyn')
+    #gameInput('New York', 'New Orleans')
+    #gameInput('Boston', 'Philadelphia')
+    #gameInput('Atlanta', 'Utah')
+    #gameInput('Minnesota', 'San Antonio')
+    #gameInput('Chicago', 'Detroit')
+    #gameInput('Okla City', 'Houston')
+    #gameInput('Portland', 'Miami')
+
+    gameInputFromJSON("../dk.json")
+
+    print("Your Parlay: ")
+    print(parlay)
+
     # TARGET ALG?
     # .5 Advanced Stats + .3 Spec Stats + .2 General Stats
 if __name__ == '__main__':

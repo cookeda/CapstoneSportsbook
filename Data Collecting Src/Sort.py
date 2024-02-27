@@ -13,7 +13,7 @@ def sortFile(file, type, location):
                         s.write(line)
             cleanfile("../data/cover/" + file)
         except FileNotFoundError:
-            print("File not found")
+            print("File not found" + file)
 
     if type == "over":
         cleanfile("../data/over/" + location + "/Sorted" + file)
@@ -24,7 +24,7 @@ def sortFile(file, type, location):
                         s.write(line)
             cleanfile("../data/over/" + file)
         except FileNotFoundError:
-            print("File not found")
+            print("File not found: " + file)
 def cleanfile(file):
     try:
         os.remove(file)
