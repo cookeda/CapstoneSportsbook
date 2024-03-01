@@ -13,6 +13,8 @@ import json
 def clean_team(raw_team):
     team = raw_team.split(" ")
     team = team[1].upper()
+    if team[2]:
+        team.append(team[1].upper(), team[2].upper())
     return team
 
 def generate_game_id(away_team, home_team):

@@ -29,11 +29,14 @@ def scrape(link, file, type):
     while i <= 30:
         team = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a").text
         percent = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]").text
+        plusminus = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]").text
+        if plusminus == "0.0":
+            plusminus = "+0.0"
         cover["Team"] = team
         cover[type + " %"] = percent
         i += 1
         with open(file, 'a') as fp:
-            fp.write(json.dumps(cover) + '\n')
+            fp.write(json.dumps(cover) + " " + plusminus + '\n')
             print(str(i-1) + "/30")
     print("Done")
 
@@ -51,12 +54,16 @@ def cleanfile(file):
 # Might have to break this into different classes due to weird runtime issues
 def main():
     # Clean Files
-    cleanfile("../data/cover/CurrentSeasonCover.jl")
     cleanfile("../data/over/CurrentSeasonOU.jl")
+    cleanfile("../data/cover/CurrentSeasonCover.jl")
     cleanfile("../data/cover/10YearCover.jl")
     cleanfile("../data/over/10YearOU.jl")
     cleanfile("../data/cover/AllTimeCover.jl")
     cleanfile("../data/over/AllTimeOU.jl")
+    cleanfile("../data/cover/home/homeCover.jl")
+    cleanfile("../data/over/home/homeOver.jl")
+    cleanfile("../data/cover/away/awayCover.jl")
+    cleanfile("../data/over/away/awayOver.jl")
 
     # This Year's Cover and O/U
     print("Starting This Year's Stats")
@@ -73,8 +80,20 @@ def main():
     print("Starting All Time Stats")
     scrape(link + "ats_trends/?range=yearly_all", "../data/cover/AllTimeCover.jl", "Cover")
     scrape(link + "ou_trends/?range=yearly_all", "../data/over/AllTimeOU.jl", "Over")
-    driver.close()
+
+    # Current season home Cover and OU
+    print("Starting Current Home Stats")
+    scrape(link + "ats_trends/?sc=is_home", "../data/cover/homeCover.jl", "Cover")
+    scrape(link + "/ou_trends/?sc=is_home", "../data/over/homeOver.jl", "Over")
+
+    # Current season Away Cover and OU
+    print("Starting Current Away Stats")
+    scrape(link + "ats_trends/?sc=is_away", "../data/cover/awayCover.jl", "Cover")
+    scrape(link + "/ou_trends/?sc=is_away", "../data/over/awayOver.jl", "Over")
+
+
     # End
+    driver.close()
 
 # Runs Program
 if __name__ == '__main__':
