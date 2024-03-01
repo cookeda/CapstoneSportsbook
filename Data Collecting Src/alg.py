@@ -7,6 +7,7 @@
 # 60% Current, 30% Over The Last 10 Years, 10% All Time
 
 import json
+import re
 
 teamDict = {
     'Hawks': 'Atlanta',
@@ -33,7 +34,7 @@ teamDict = {
     'Magic': 'Orlando',
     '76ers': 'Philadelphia',
     'Suns': 'Phoenix',
-    'Trail Blazers': 'Portland',
+    'Trailblazers': 'Portland',
     'Kings': 'Sacramento',
     'Spurs': 'San Antonio',
     'Raptors': 'Toronto',
@@ -41,7 +42,7 @@ teamDict = {
     'Wizards': 'Washington'
 }
 
-def generalAlg(stat):
+def generalAlg(stat, league):
     type2 = ""
     if stat == "Cover":
         type2 = stat
@@ -50,12 +51,14 @@ def generalAlg(stat):
         type2 = "OU"
 
     result_dict = {}
-    with open("../data/" + stat.lower() + "/general/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
-        with open("../data/" + stat.lower() + "/general/SortedAllTime" + type2 + ".jl", 'r') as all:
-            with open("../data/" + stat.lower() + "/general/Sorted10Year" + type2 + ".jl", 'r') as ten:
+    with open("../data/" + league + "/" + stat.lower() + "/general/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
+        with open("../data/" + league + "/" + stat.lower() + "/general/SortedAllTime" + type2 + ".jl", 'r') as all:
+            with open("../data/" + league + "/" + stat.lower() + "/general/Sorted10Year" + type2 + ".jl", 'r') as ten:
                 for sixty, tenp, thirty in zip(current, all, ten):
-                    team = (((str(thirty).split(':')[1]).split(',')[0]).rstrip('\"'))
-                    sixtyPercent    = float(sixty[-13:-9])/100
+                    team_search = re.search(r'"Team":\s*"([^"]+)"', thirty)
+                    team = team_search.group(1).strip()
+                    match = re.search(r"\b\d+\.\d+\b", sixty)
+                    sixtyPercent = float(match.group())/100
                     thirtyPercent   = float(thirty[-13:-9])/100
                     tenPercent      = float(tenp[-13:-9])/100
                     perChance = (.6 * sixtyPercent) + \
@@ -97,10 +100,14 @@ def getDict(file):
     result_dict = {}
     with open(file, 'r') as fr:
         for line in fr:
-            team = (((str(line).split(':')[1]).split(',')[0]).rstrip('\"'))
-            percent = float(line[-13:-9])/100
+            team_search = re.search(r'"Team":\s*"([^"]+)"', line)
+            team = team_search.group(1) if team_search else "Unknown"
+
+            percent_search = re.search(r"\b\d+\.\d+\b", line)
+            percent = float(percent_search.group()) / 100 if percent_search else 0.0
+
             result_dict[team] = percent
-        return result_dict
+    return result_dict
 
 # Combines different dictionaries to create a new one
 # Uses bestOdds to get best team on this combination
@@ -132,45 +139,69 @@ def sortByRank(input_dict):
     ranked_dict = {team: rank for rank, (team, percent) in enumerate(sorted_dict, start=1)}
     return ranked_dict
 
-def gameInput(homeTeam, awayTeam):
+def gameInput(homeTeam, awayTeam, league):
     print("-----------------------------")
-    homeTeam = (' "' + homeTeam)
-    awayTeam = (' "' + awayTeam)
-
 
     # Rankings for team
-    coverHome = cho[homeTeam]
-    coverAway = cac[awayTeam]
-    overHome = chc[homeTeam]
-    overAway = cao[awayTeam]
+    if league == 'NBA':
+        numTeams = len(choNBA)
+        coverHome = choNBA[homeTeam]
+        coverAway = cacNBA[awayTeam]
+        overHome = chcNBA[homeTeam]
+        overAway = caoNBA[awayTeam]
+
+    elif league == 'CBB':
+        numTeams = len(choCBB)
+        coverHome = choCBB[homeTeam]
+        coverAway = cacCBB[awayTeam]
+        overHome = chcCBB[homeTeam]
+        overAway = caoCBB[awayTeam]
+
+    topTier = numTeams * 0.20  # Top 10%
+    midTier = numTeams * 0.30  # Top 30%
+    lowTier = numTeams * 0.70  # Starting point for Bottom 30%
+    ass = numTeams * 0.80  # Bottom 10%
+    print(topTier, midTier, lowTier, ass)
 
     print("For " + awayTeam + " At " + homeTeam + ":")
 
     # Over
-    if overHome <= 10 and overAway <= 10:
-        if overHome <= 5 and overAway <= 5:
+    if overHome <= midTier and overAway <= midTier:
+        if overHome <= topTier and overAway <= topTier:
             print("LOCK ALERT!")
+            lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
         print("Take the over!")
-        parlay.append(awayTeam + " At " + homeTeam + ": Over")
-    elif overHome > 20 and overAway > 20:
-        if overHome > 25 and overAway > 25:
+        print("Home Rank :" + str(overHome))
+        print("Away Rank: " + str(overAway))
+        parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
+    elif overHome > lowTier and overAway > lowTier:
+        if overHome > ass and overAway > ass:
             print("LOCK ALERT!")
+            lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
         print("Take the under!")
-        parlay.append(awayTeam + " At " + homeTeam + ": Under")
+        print("Home Rank :" + str(overHome))
+        print("Away Rank: " +str(overAway))
+        parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
     else:
         print("Don't bet on O/U")
 
     # Cover
-    if coverHome <= 10 and coverAway > 20:
-        if coverHome <= 5 and coverAway > 25:
+    if coverHome <= midTier and coverAway > lowTier:
+        if coverHome <= topTier and coverAway > ass:
             print("LOCK ALERT!")
+            lockparlay.append(league + ": " +homeTeam + ": Cover")
         print("Bet on " + homeTeam + " to Cover!")
-        parlay.append(homeTeam + ": Cover")
-    elif coverHome > 20 and coverAway <= 10:
-        if coverHome <= 5 and coverAway > 25:
+        print("Home Rank :" + str(coverHome))
+        print("Away Rank: " + str(coverAway))
+        parlay.append(league + ": " +homeTeam + ": Cover")
+    elif coverHome > lowTier and coverAway <= midTier:
+        if coverHome > ass and coverAway <= topTier:
             print("LOCK ALERT!")
+            lockparlay.append(league + ": " +awayTeam + ": Cover")
         print("Bet on " + awayTeam + " to Cover!")
-        parlay.append(awayTeam + ": Cover")
+        print("Home Rank :" + str(coverHome))
+        print("Away Rank: " + str(coverAway))
+        parlay.append(league + ": " + awayTeam + ": Cover")
     else:
         print("Don't bet on Cover")
 
@@ -178,78 +209,137 @@ def gameInputFromJSON(file):
     with open(file, 'r') as j:
         games = json.load(j)
     for game in games:
-        homeTeam = teamDict[game["Home Team"].title()]
-        awayTeam = teamDict[game["Away Team"].title()]
+        if game["Home Team"] == '76ERS':
+            homeTeam = teamDict['76ers']
+        elif game["Away Team"] == '76ERS':
+            awayTeam = teamDict['76ers']
+        else:
+            homeTeam = teamDict[game["Home Team"].title()]
+            awayTeam = teamDict[game["Away Team"].title()]
         gameInput(homeTeam, awayTeam)
 
 def main():
     global generalOver  # General Over Dict
+    global generalOver2
     global generalCover # General Cover Dict
+    global generalCover2
     global homeOver     # Home Over Dict
+    global homeOver2
     global homeCover    # Home Cover Dict
+    global homeCover2
     global awayOver     # Away Over Dict
+    global awayOver2
     global awayCover    # Away Cover Dict
-    global cho          # Combined Home Over
-    global chc          # Combined Home Cover
-    global cao          # Combined Away Over
-    global cac          # Combined Away Cover
+    global awayCover2
+    global choNBA          # Combined Home Over
+    global choCBB
+    global chcNBA          # Combined Home Cover
+    global chcCBB
+    global caoNBA          # Combined Away Over
+    global caoCBB
+    global cacNBA          # Combined Away Cover
+    global cacCBB
     global parlay       # Parlay List
+    global lockparlay
     global teamDict     # Team Dictionary in form City: Team Name
 
     parlay = []
+    lockparlay = []
     #print("General (LEAST ACCURATE): ")
-    generalCover = generalAlg("Cover")
-    generalOver = generalAlg("Over")
+    generalCover = generalAlg("Cover", "NBA")
+    print(generalCover)
+    generalOver = generalAlg("Over", "NBA")
+    generalCover2 = generalAlg("Cover", "CBB")
+    generalOver2 = generalAlg("Over", "CBB")
     #bestOddsGeneral(generalCover, "Cover")
     #bestOddsGeneral(generalOver, "Over")
 
     # For Home
     #print("CURRENT HOME ODDS: ")
-    homeCover = getDict("../data/cover/home/SortedhomeCover.jl")
+    homeCover = getDict("../data/NBA/cover/home/SortedhomeCover.jl")
+    homeCover2 = getDict("../data/CBB/cover/home/SortedhomeCover.jl")
     #bestOdds(homeCover, "Cover", "Home")
-    homeOver = getDict("../data/over/home/SortedhomeOver.jl")
+    homeOver = getDict("../data/NBA/over/home/SortedhomeOver.jl")
+    homeOver2 = getDict("../data/CBB/over/home/SortedhomeOver.jl")
     #bestOdds(homeOver, "Over", "Home")
 
     # For Away
     #print("CURRENT AWAY ODDS: ")
-    awayCover = getDict("../data/cover/away/SortedawayCover.jl")
+    awayCover = getDict("../data/NBA/cover/away/SortedawayCover.jl")
+    awayCover2 = getDict("../data/CBB/cover/away/SortedawayCover.jl")
     #bestOdds(awayCover, "Cover", "Away")
-    awayOver = getDict("../data/over/away/SortedawayOver.jl")
+    awayOver = getDict("../data/NBA/over/away/SortedawayOver.jl")
+    awayOver2 = getDict("../data/CBB/over/away/SortedawayOver.jl")
     #bestOdds(awayOver, "Over", "Away")
 
     # testing new stuff
     #print("COMBINED (MOST ACCURATE): ")
-    combine(generalCover, homeCover, .3, .7, "Cover", "Home")
-    combine(generalOver, homeOver, .3, .7, "Over", "Home")
-    combine(generalCover, awayCover, .3, .7, "Cover", "Away")
-    combine(generalOver, awayOver, .3, .7, "Over", "Away")
+    #combine(generalCover, homeCover, .3, .7, "Cover", "Home")
+    #combine(generalOver, homeOver, .3, .7, "Over", "Home")
+    #combine(generalCover, awayCover, .3, .7, "Cover", "Away")
+    #combine(generalOver, awayOver, .3, .7, "Over", "Away")
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
     #print("Scores for home over: ")
-    cho = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
+    choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
+    choCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(homeOver2))
     #print("Scores for home cover: ")
-    chc = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
+    chcNBA = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
+    chcCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(homeCover2))
     #print("Scores for away over: ")
-    cao = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
+    caoNBA = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
+    caoCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(awayOver2))
     #print("Scores for away cover: ")
-    cac = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
+    cacNBA = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
+    cacCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(awayCover2))
 
-    # test
-    #gameInput('Milwaukee', "Charlotte")
-    #gameInput('Washington', 'Golden State')
-    #gameInput('Cleveland', 'Dallas')
-    #gameInput('Orlando', 'Brooklyn')
-    #gameInput('New York', 'New Orleans')
-    #gameInput('Boston', 'Philadelphia')
-    #gameInput('Atlanta', 'Utah')
-    #gameInput('Minnesota', 'San Antonio')
-    #gameInput('Chicago', 'Detroit')
-    #gameInput('Okla City', 'Houston')
-    #gameInput('Portland', 'Miami')
+    # Run Manually NBA
+    #print(choNBA)
+    gameInput('Philadelphia', 'Charlotte', 'NBA')
+    gameInput('Detroit', 'Cleveland', 'NBA')
+    gameInput('Boston', 'Dallas', 'NBA')
+    gameInput('Toronto', 'Golden State', 'NBA')
+    gameInput('Memphis', 'Portland', 'NBA')
+    gameInput('New Orleans', 'Indiana', 'NBA')
+    gameInput('Minnesota', 'Sacramento', 'NBA')
+    gameInput('Chicago', "Milwaukee", 'NBA')
+    gameInput('LA Clippers', 'Washington', 'NBA')
 
-    gameInputFromJSON("../dk.json")
+    # Run Manually CBB
+    gameInput('Bowling Grn', 'Ohio', 'CBB')
+    gameInput('Arkansas St', 'App State', 'CBB')
+    gameInput('Manhattan', 'Siena', 'CBB')
+    gameInput('Rider', 'Niagara', 'CBB')
+    gameInput('Quinnipiac', 'Iona', 'CBB')
+    gameInput('Fairfield', 'Marist', 'CBB')
+    gameInput('Mt St Marys', 'Canisius', 'CBB')
+    gameInput('Fla Gulf Cst', 'Jacksonville', 'CBB')
+    gameInput('Dartmouth', 'Yale', 'CBB')
+    gameInput('Marshall', 'Georgia St', 'CBB')
+    gameInput('Old Dominion', 'GA Southern', 'CBB')
+    gameInput('Harvard', 'Brown', 'CBB')
+    gameInput('Stetson', 'N Florida', 'CBB')
+    gameInput('Kennesaw St', 'Queens', 'CBB')
+    gameInput('James Mad', 'Coastal Car', 'CBB')
+    gameInput('N Alabama', 'Central Ark', 'CBB')
+    gameInput('Cornell', 'U Penn', 'CBB')
+    gameInput('Columbia', 'Princeton', 'CBB')
+    gameInput('UL Monroe', 'S Alabama', 'CBB')
+    gameInput('E Kentucky', 'Lipscomb', 'CBB')
+    gameInput('Bellarmine', 'Austin Peay', 'CBB')
+    gameInput('Troy', 'Texas St', 'CBB')
+    gameInput('S Mississippi', 'Louisiana', 'CBB')
+    gameInput('Dayton', 'Loyola-Chi', 'CBB')
+    gameInput('Fresno St', 'Nevada', 'CBB')
+    gameInput('Air Force', 'Utah St', 'CBB')
 
-    print("Your Parlay: ")
+    #gameInputFromJSON("../dk.json")
+
+    # 7/7 So Far
+    print("Risky Parlay: ")
     print(parlay)
+
+    print("Lock Parlay: ")
+    print(lockparlay)
 
     # TARGET ALG?
     # .5 Advanced Stats + .3 Spec Stats + .2 General Stats
