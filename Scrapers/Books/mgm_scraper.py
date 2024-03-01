@@ -47,15 +47,16 @@ def scrape(matchup_num):
                'Home Team' : home, 'MGM Home Odds': {'Spread': home_spread, 'Spread Odds': home_spread_odds, 'Home ML': home_ml},
                'Game': {'Start Time': start_time, 'Total': clean_total, 'Over Total Odds': over_total_odds, 'Under Total Odds': under_total_odds, 'GameID' : generate_game_id(away, home)}
     }
+    print(matchup)
     return matchup
 
 
 driver = uc.Chrome()
 
 driver.get("https://sports.az.betmgm.com/en/sports?wm=7006663&btag=&tdpeh=&pid=")
-time.sleep(5)
+time.sleep(15)
 #Still need a live number of games
-number_of_games = 2
+number_of_games = 1
 all_matchups = []
 for z in range(1, number_of_games):
     all_matchups.append(scrape(z))

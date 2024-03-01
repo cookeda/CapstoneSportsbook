@@ -10,11 +10,13 @@ import pandas as pd
 from time import process_time
 import json
 
+match = {}
+
 def clean_team(raw_team):
     team = raw_team.split(" ")
     team = team[1].upper()
-    if team[2]:
-        team.append(team[1].upper(), team[2].upper())
+    if team == 'TRAIL':
+        team = 'TRAILBLAZERS'
     return team
 
 def generate_game_id(away_team, home_team):
@@ -26,6 +28,7 @@ def scrape(matchup_num):
     matchup_num *= 2
     x = matchup_num - 1
     y = matchup_num
+
     away_team = driver.find_element(By.XPATH, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(x)}]/th/a/div/div[2]/div/div/div/div/div').text
     home_team = driver.find_element(By.XPATH, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(y)}]/th/a/div/div[2]/div/div/div/div/div').text
     away_spread = driver.find_element(By.XPATH, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(x)}]/td[1]/div/div/div/div[1]/span').text 
@@ -42,10 +45,11 @@ def scrape(matchup_num):
     away = clean_team(away_team)
     home = clean_team(home_team)    
 
-    matchup = {'Away Team' : away, 'Away Odds': {'Spread': away_spread, 'Spread Odds': away_spread_odds, 'Away ML': away_ml}, 
-               'Home Team' : home, 'Home Odds': {'Spread': home_spread, 'Spread Odds': home_spread_odds, 'Home ML': home_ml},
+    matchup = {'Away Team' : away, 'DK Away Odds': {'Spread': away_spread, 'Spread Odds': away_spread_odds, 'Away ML': away_ml}, 
+               'Home Team' : home, 'DK Home Odds': {'Spread': home_spread, 'Spread Odds': home_spread_odds, 'Home ML': home_ml},
                'Game': {'Start Time': start_time, 'Total': total, 'Over Total Odds': over_total_odds, 'Under Total Odds': under_total_odds, 'GameID' : generate_game_id(away, home)}
     }
+    #print(matchup, matchup_num)
     return matchup
 
 
@@ -54,9 +58,16 @@ driver = uc.Chrome()
 driver.get("https://sportsbook.draftkings.com/leagues/basketball/nba")
 time.sleep(5)
 #Still need a live number of games
-number_of_games = 7
+number_of_games = 9
 all_matchups = []
-for z in range(1, number_of_games):
-    all_matchups.append(scrape(z))
-with open('dk.json', 'w') as fp:
-    json.dump(all_matchups, fp)
+
+for z in range(1, number_of_games + 1):
+    matchup = scrape(z)
+    if matchup:
+        all_matchups.append(matchup)
+try:
+    with open('dk.json', 'w') as fp:
+        json.dump(all_matchups, fp, indent=4)
+except Exception as e:
+    print(f"Error writing to file: {e}")
+driver.quit()
