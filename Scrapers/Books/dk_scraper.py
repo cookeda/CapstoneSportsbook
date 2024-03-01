@@ -19,6 +19,7 @@ def clean_team(raw_team):
         team = 'TRAILBLAZERS'
     return team
 
+#Hashes game id using a concat of team names, cleaned for the format of CELTICS, NETS, (Team name only all caps)
 def generate_game_id(away_team, home_team):
     combined_string = away_team + home_team
     hash_object = hashlib.md5(combined_string.encode())
@@ -26,8 +27,8 @@ def generate_game_id(away_team, home_team):
 
 def scrape(matchup_num):
     matchup_num *= 2
-    x = matchup_num - 1
-    y = matchup_num
+    x = matchup_num - 1 #Indicates Aqay Team
+    y = matchup_num #Indicates Home Team
 
     away_team = driver.find_element(By.XPATH, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(x)}]/th/a/div/div[2]/div/div/div/div/div').text
     home_team = driver.find_element(By.XPATH, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(y)}]/th/a/div/div[2]/div/div/div/div/div').text
@@ -49,7 +50,6 @@ def scrape(matchup_num):
                'Home Team' : home, 'DK Home Odds': {'Spread': home_spread, 'Spread Odds': home_spread_odds, 'Home ML': home_ml},
                'Game': {'Start Time': start_time, 'Total': total, 'Over Total Odds': over_total_odds, 'Under Total Odds': under_total_odds, 'GameID' : generate_game_id(away, home)}
     }
-    #print(matchup, matchup_num)
     return matchup
 
 
