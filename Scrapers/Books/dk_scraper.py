@@ -56,9 +56,10 @@ def scrape(matchup_num):
 driver = uc.Chrome()
 
 driver.get("https://sportsbook.draftkings.com/leagues/basketball/nba")
+#driver.get("https://sportsbook.draftkings.com/leagues/basketball/ncaab")
 time.sleep(5)
 #Still need a live number of games
-number_of_games = 9
+number_of_games = 5
 all_matchups = []
 
 for z in range(1, number_of_games + 1):
