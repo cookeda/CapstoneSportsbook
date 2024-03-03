@@ -3,26 +3,26 @@ import os
 # Sorts unsorted file containing team stats
 # Removes unsorted folder
 # Must specify stat as type (ex: Cover, Over, etc)
-def sortFile(file, type, location):
+def sortFile(file, type, location, league):
     if type == "cover":
-        cleanfile("../data/cover/" + location + "/Sorted" + file)
+        cleanfile("../data/" + league + "/cover/" + location + "/Sorted" + file)
         try:
-            with open("../data/cover/" + file, 'r') as r:
+            with open("../data/" + league + "/cover/" + file, 'r') as r:
                 for line in sorted(r):
-                    with open("../data/cover/" + location + "/Sorted" + file, 'a') as s:
+                    with open("../data/" + league + "/cover/" + location + "/Sorted" + file, 'a') as s:
                         s.write(line)
-            cleanfile("../data/cover/" + file)
+            cleanfile("../data/" + league + "/cover/" + file)
         except FileNotFoundError:
-            print("File not found" + file)
+            print("File not found " + file)
 
     if type == "over":
-        cleanfile("../data/over/" + location + "/Sorted" + file)
+        cleanfile("../data/" + league + "/over/" + location + "/Sorted" + file)
         try:
-            with open("../data/over/" + file, 'r') as r:
+            with open("../data/" + league + "/over/" + file, 'r') as r:
                 for line in sorted(r):
-                    with open("../data/over/" + location + "/Sorted" + file, 'a') as s:
+                    with open("../data/" + league + "/over/" + location + "/Sorted" + file, 'a') as s:
                         s.write(line)
-            cleanfile("../data/over/" + file)
+            cleanfile("../data/" + league + "/over/" + file)
         except FileNotFoundError:
             print("File not found: " + file)
 def cleanfile(file):
@@ -38,17 +38,21 @@ def cleanfile(file):
 # TODO: This will make it easier when implementing new data
 # TODO: Maybe do this same in alg.py?
 def main():
-    sortFile("10YearCover.jl", "cover", "general")
-    sortFile("AllTimeCover.jl", "cover", "general")
-    sortFile("CurrentSeasonCover.jl", "cover", "general")
-    sortFile("10YearOU.jl", "over", "general")
-    sortFile("AllTimeOU.jl", "over", "general")
-    sortFile("CurrentSeasonOU.jl", "over", "general")
-    sortFile("homeCover.jl", "cover", "home")
-    sortFile("homeOver.jl", "over", "home")
-    sortFile("awayCover.jl", "cover", "away")
-    sortFile("awayOver.jl", "over", "away")
-
+    i = 0
+    league = "NBA"
+    while i < 2:
+        sortFile("10YearCover.jl", "cover", "general", league)
+        sortFile("AllTimeCover.jl", "cover", "general", league)
+        sortFile("CurrentSeasonCover.jl", "cover", "general", league)
+        sortFile("10YearOU.jl", "over", "general", league)
+        sortFile("AllTimeOU.jl", "over", "general", league)
+        sortFile("CurrentSeasonOU.jl", "over", "general", league)
+        sortFile("homeCover.jl", "cover", "home", league)
+        sortFile("homeOver.jl", "over", "home", league)
+        sortFile("awayCover.jl", "cover", "away", league)
+        sortFile("awayOver.jl", "over", "away", league)
+        i += 1
+        league = "CBB"
 
 if __name__ == '__main__':
     main()
