@@ -2,7 +2,7 @@ import json
 
 # List of school names (replace with your actual school names)
 #schools = [f"School{i}" for i in range(1, 301)]
-schools = [
+ncaa_schools = [
     "Abilene Christian Wildcats", "Air Force Falcons", "Akron Zips",
     "Alabama A&M Bulldogs", "Alabama Crimson Tide", "Alabama St. Hornets",
     "Albany Great Danes", "Alcorn St. Braves", "American Eagles",
@@ -126,14 +126,46 @@ schools = [
     "Yale Bulldogs", "Youngstown St. Penguins"
 ]
 
+league = [
+    "Atlanta",
+    "Boston",
+    "Brooklyn",
+    "Charlotte",
+    "Chicago",
+    "Cleveland",
+    "Dallas",
+    "Denver",
+    "Detroit",
+    "Golden State",
+    "Houston",
+    "Indiana",
+    "LA Clippers",
+    "LA Lakers",
+    "Memphis",
+    "Miami",
+    "Milwaukee",
+    "Minnesota",
+    "New Orleans",
+    "New York",
+    "Okla City",
+    "Orlando",
+    "Philadelphia",
+    "Phoenix",
+    "Portland",
+    "Sacramento",
+    "San Antonio",
+    "Toronto",
+    "Utah",
+    "Washington"
+]
 
 # Dictionary to hold all the data
 list = []
 
 # Populate the dictionary with school names and blank stats
-for x in range(0, len(schools)):
+for team in league:
     list.append({
-        "Team Rankings Name": schools[x],
+        "Team Rankings Name": team,
         "DraftKings Name": "",
         "FanDuel Name": "",
         "BetMGM Name": "",
