@@ -128,21 +128,21 @@ schools = [
 
 
 # Dictionary to hold all the data
-data = {}
+list = []
 
 # Populate the dictionary with school names and blank stats
 for x in range(0, len(schools)):
-    data[x]={
+    list.append({
         "Team Rankings Name": schools[x],
         "DraftKings Name": "",
         "FanDuel Name": "",
         "BetMGM Name": "",
         "Pinnacle Name": "",
         "TeamID": ""
-    }
+    })
 
 # Save the dictionary to a JSON file
-with open('College/NCAAB_Teams.json', 'w') as f:
-    json.dump(data, f, indent=4)
+with open('skeleton.json', 'w') as f:
+    json.dump(list, f, indent=4)
 
 print("Skeleton JSON file created successfully.")
