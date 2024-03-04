@@ -25,11 +25,13 @@ def scrape(link, file, type):
     wait.until(EC.presence_of_element_located((By.XPATH, first_team_xpath)))
 
     cover = {}
+    teams = []
     i = 1
     while i <= 362:
         team = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a").text
         percent = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]").text
         plusminus = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]").text
+        teams.append[team]
         if plusminus == "0.0":
             plusminus = "+0.0"
         cover["Team"] = team
@@ -38,6 +40,8 @@ def scrape(link, file, type):
         with open(file, 'a') as fp:
             fp.write(json.dumps(cover) + " " + plusminus + '\n')
             print(str(i-1) + "/362")
+        with open('team list', 'a') as fa: 
+            fa.write(json.dumps(teams))
     print("Done")
 
 # Removes file if it already exists for a clean start
