@@ -92,7 +92,6 @@ def main():
     scrape(link + "ats_trends/?sc=is_away", "../data/CBB/cover/awayCover.jl", "Cover")
     scrape(link + "/ou_trends/?sc=is_away", "../data/CBB/over/awayOver.jl", "Over")
 
-
     # End
     driver.close()
 
