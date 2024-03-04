@@ -66,34 +66,33 @@ def main():
     cleanfile(direct + "/cover/awayCover.jl")
     cleanfile(direct + "/over/awayOver.jl")
 
-    # This Year's Cover and O/U
-    print("Starting This Year's Stats")
-    scrape(link + "ou_trends/?range=yearly_2023_2024", "../data/NBA/over/CurrentSeasonOU.jl", "Over")
-    scrape(link + "ats_trends/?range=yearly_2023_2024", "../data/NBA/cover/CurrentSeasonCover.jl", "Cover")
+    tasks = [
+        {"message": "Starting This Year's Stats", "url": "ou_trends/?range=yearly_2023_2024",
+         "file": "../data/NBA/over/CurrentSeasonOU.jl", "type": "Over"},
+        {"message": "Starting This Year's Stats", "url": "ats_trends/?range=yearly_2023_2024",
+         "file": "../data/NBA/cover/CurrentSeasonCover.jl", "type": "Cover"},
+        {"message": "Starting Last 10 Years", "url": "ats_trends/?range=yearly_since_2013_2014",
+         "file": "../data/NBA/cover/10YearCover.jl", "type": "Cover"},
+        {"message": "Starting Last 10 Years", "url": "ou_trends/?range=yearly_since_2013_2014",
+         "file": "../data/NBA/over/10YearOU.jl", "type": "Over"},
+        {"message": "Starting All Time Stats", "url": "ats_trends/?range=yearly_all",
+         "file": "../data/NBA/cover/AllTimeCover.jl", "type": "Cover"},
+        {"message": "Starting All Time Stats", "url": "ou_trends/?range=yearly_all",
+         "file": "../data/NBA/over/AllTimeOU.jl", "type": "Over"},
+        {"message": "Starting Current Home Stats", "url": "ats_trends/?sc=is_home",
+         "file": "../data/NBA/cover/homeCover.jl", "type": "Cover"},
+        {"message": "Starting Current Home Stats", "url": "ou_trends/?sc=is_home",
+         "file": "../data/NBA/over/homeOver.jl", "type": "Over"},
+        {"message": "Starting Current Away Stats", "url": "ats_trends/?sc=is_away",
+         "file": "../data/NBA/cover/awayCover.jl", "type": "Cover"},
+        {"message": "Starting Current Away Stats", "url": "ou_trends/?sc=is_away",
+         "file": "../data/NBA/over/awayOver.jl", "type": "Over"}
+    ]
 
+    for task in tasks:
+            print(task["message"])
+            scrape(link + task["url"], task["file"], task["type"])
 
-    # Last 10 Years Cover and O/U
-    print("Starting Last 10 Years")
-    scrape(link + "ats_trends/?range=yearly_since_2013_2014", "../data/NBA/cover/10YearCover.jl", "Cover")
-    scrape(link + "ou_trends/?range=yearly_since_2013_2014", "../data/NBA/over/10YearOU.jl", "Over")
-
-    # All Time Cover and O/U
-    print("Starting All Time Stats")
-    scrape(link + "ats_trends/?range=yearly_all", "../data/NBA/cover/AllTimeCover.jl", "Cover")
-    scrape(link + "ou_trends/?range=yearly_all", "../data/NBA/over/AllTimeOU.jl", "Over")
-
-    # Current season home Cover and OU
-    print("Starting Current Home Stats")
-    scrape(link + "ats_trends/?sc=is_home", "../data/NBA/cover/homeCover.jl", "Cover")
-    scrape(link + "/ou_trends/?sc=is_home", "../data/NBA/over/homeOver.jl", "Over")
-
-    # Current season Away Cover and OU
-    print("Starting Current Away Stats")
-    scrape(link + "ats_trends/?sc=is_away", "../data/NBA/cover/awayCover.jl", "Cover")
-    scrape(link + "/ou_trends/?sc=is_away", "../data/NBA/over/awayOver.jl", "Over")
-
-
-    # End
     driver.close()
 
 # Runs Program
