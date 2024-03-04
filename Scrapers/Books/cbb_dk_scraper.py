@@ -79,7 +79,7 @@ def scrape(matchup_num):
         print(f"Failed to scrape matchup {matchup_num//2}")#: {e}")
         return None  # Return None if there's an issue, allowing the loop to continue
 
-driver = webdriver.Edge()
+driver = webdriver.Firefox()
 driver.get("https://sportsbook.draftkings.com/leagues/basketball/ncaab")
 
 
