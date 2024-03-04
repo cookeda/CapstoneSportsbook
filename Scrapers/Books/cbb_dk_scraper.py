@@ -10,6 +10,16 @@ import pandas as pd
 from time import process_time
 import json
 
+with open('Dictionary/College/NCAAB Teams.json', 'r') as file:
+    team_mappings = json.load(file)
+
+def find_team_rank_name(dk_team_name):
+    for team_mapping in team_mappings:
+        if team_mapping["DraftKings Name"] == dk_team_name:
+            return team_mapping["Team Rankings Name"]
+    return "Unknown"  # Return a default value if not found
+
+
 match = {}
 
 def clean_team(raw_team):
@@ -67,8 +77,11 @@ def scrape(matchup_num):
             EC.visibility_of_element_located((By.XPATH,  f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(x)}]/th/a/div/div[1]/span'))
         )
       
-        matchup = {'Away Team' : away_team_element.text, 'DK Away Odds': {'Spread': away_spread_element.text, 'Spread Odds': away_spread_odds_element.text, 'Away ML': away_ml_element.text}, 
-                   'Home Team' : home_team_element.text, 'DK Home Odds': {'Spread': home_spread_element.text, 'Spread Odds': home_spread_odds_element.text, 'Home ML': home_ml_element.text},
+        away_team_rank_name = find_team_rank_name(away_team_element.text)
+        home_team_rank_name = find_team_rank_name(home_team_element.text)
+
+        matchup = {'Away Team' : away_team_element.text, 'Away Team Rank Name': away_team_rank_name, 'DK Away Odds': {'Spread': away_spread_element.text, 'Spread Odds': away_spread_odds_element.text, 'Away ML': away_ml_element.text}, 
+                   'Home Team' : home_team_element.text, 'Home Team Rank Name': home_team_rank_name, 'DK Home Odds': {'Spread': home_spread_element.text, 'Spread Odds': home_spread_odds_element.text, 'Home ML': home_ml_element.text},
                    'Game': {'Start Time': start_time_element.text, 'Total': total_element.text, 'Over Total Odds': over_total_odds_element.text, 'Under Total Odds': under_total_odds_element.text},# 'GameID' : generate_game_id(away, home)}
         }
 
