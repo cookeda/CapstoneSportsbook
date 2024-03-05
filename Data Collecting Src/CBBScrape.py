@@ -28,10 +28,16 @@ def scrape(link, file, type):
     teams = []
     i = 1
     while i <= 362:
-        team = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a").text
-        percent = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]").text
-        plusminus = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]").text
-        teams.append[team]
+        team = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a"))
+        ).text
+        percent = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]"))
+        ).text
+        plusminus = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]"))
+        ).text
+        teams.append(team)
         if plusminus == "0.0":
             plusminus = "+0.0"
         cover["Team"] = team
@@ -70,31 +76,34 @@ def main():
     cleanfile(direct + "/cover/awayCover.jl")
     cleanfile(direct + "/over/awayOver.jl")
 
-    # This Year's Cover and O/U
-    print("Starting This Year's Stats")
-    scrape(link + "ou_trends/?range=yearly_2023_2024", "../data/CBB/over/CurrentSeasonOU.jl", "Over")
-    scrape(link + "ats_trends/?range=yearly_2023_2024", "../data/CBB/cover/CurrentSeasonCover.jl", "Cover")
+    tasks = [
+        {"message": "Starting This Year's Stats", "url": "ou_trends/?range=yearly_2023_2024",
+         "file": "../data/CBB/over/CurrentSeasonOU.jl", "type": "Over"},
+        {"message": "Starting This Year's Stats", "url": "ats_trends/?range=yearly_2023_2024",
+         "file": "../data/CBB/cover/CurrentSeasonCover.jl", "type": "Cover"},
+        {"message": "Starting Last 10 Years", "url": "ats_trends/?range=yearly_since_2013_2014",
+         "file": "../data/CBB/cover/10YearCover.jl", "type": "Cover"},
+        {"message": "Starting Last 10 Years", "url": "ou_trends/?range=yearly_since_2013_2014",
+         "file": "../data/CBB/over/10YearOU.jl", "type": "Over"},
+        {"message": "Starting All Time Stats", "url": "ats_trends/?range=yearly_all",
+         "file": "../data/CBB/cover/AllTimeCover.jl", "type": "Cover"},
+        {"message": "Starting All Time Stats", "url": "ou_trends/?range=yearly_all",
+         "file": "../data/CBB/over/AllTimeOU.jl", "type": "Over"},
+        {"message": "Starting Current Home Stats", "url": "ats_trends/?sc=is_home",
+         "file": "../data/CBB/cover/homeCover.jl", "type": "Cover"},
+        {"message": "Starting Current Home Stats", "url": "ou_trends/?sc=is_home",
+         "file": "../data/CBB/over/homeOver.jl", "type": "Over"},
+        {"message": "Starting Current Away Stats", "url": "ats_trends/?sc=is_away",
+         "file": "../data/CBB/cover/awayCover.jl", "type": "Cover"},
+        {"message": "Starting Current Away Stats", "url": "ou_trends/?sc=is_away",
+         "file": "../data/CBB/over/awayOver.jl", "type": "Over"}
+    ]
 
+    for task in tasks:
+        print(task["message"])
+        scrape(link + task["url"], task["file"], task["type"])
 
-    # Last 10 Years Cover and O/U
-    print("Starting Last 10 Years")
-    scrape(link + "ats_trends/?range=yearly_since_2013_2014", "../data/CBB/cover/10YearCover.jl", "Cover")
-    scrape(link + "ou_trends/?range=yearly_since_2013_2014", "../data/CBB/over/10YearOU.jl", "Over")
-
-    # All Time Cover and O/U
-    print("Starting All Time Stats")
-    scrape(link + "ats_trends/?range=yearly_all", "../data/CBB/cover/AllTimeCover.jl", "Cover")
-    scrape(link + "ou_trends/?range=yearly_all", "../data/CBB/over/AllTimeOU.jl", "Over")
-
-    # Current season home Cover and OU
-    print("Starting Current Home Stats")
-    scrape(link + "ats_trends/?sc=is_home", "../data/CBB/cover/homeCover.jl", "Cover")
-    scrape(link + "/ou_trends/?sc=is_home", "../data/CBB/over/homeOver.jl", "Over")
-
-    # Current season Away Cover and OU
-    print("Starting Current Away Stats")
-    scrape(link + "ats_trends/?sc=is_away", "../data/CBB/cover/awayCover.jl", "Cover")
-    scrape(link + "/ou_trends/?sc=is_away", "../data/CBB/over/awayOver.jl", "Over")
+    driver.close()
 
 
     # End
