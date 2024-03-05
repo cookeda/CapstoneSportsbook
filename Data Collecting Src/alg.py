@@ -295,7 +295,7 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    #gameInputFromJSON("../dk.json")
+    gameInputFromJSON("../dk.json")
 
     # 7/7 So Far
     print("Risky Parlay: ")
