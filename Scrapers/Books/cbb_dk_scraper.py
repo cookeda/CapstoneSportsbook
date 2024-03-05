@@ -86,6 +86,7 @@ def scrape(matchup_num):
         }
 
         #matchup = {'Away Team': away_team_element.text, 'Home Team': home_team_element.text}
+        print(f'{away_team_element.text}, {home_team_element.text}')
         return matchup
 
     except Exception as e:

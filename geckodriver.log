@@ -192,3 +192,96 @@ JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/nba, li
 nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:38:15607
 
 Dynamically enable window occlusion 1
+1709664984261	geckodriver	INFO	Listening on 127.0.0.1:64460
+1709664987329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "64461" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofile53o6GG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709664987676	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709664987756	Marionette	INFO	Listening on port 64468
+WebDriver BiDi listening on ws://127.0.0.1:64461
+Read port: 64468
+1709664988012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64461/devtools/browser/67a57d36-ab39-4731-aa08-0d849868354a
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-3.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6823
+
+1709665011839	Marionette	INFO	Stopped listening on port 64468
+JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/nba, line 38: Script terminated by timeout at:
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:38:15607
+
+Dynamically enable window occlusion 1
+1709665023342	geckodriver	INFO	Listening on 127.0.0.1:64617
+1709665026433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "64618" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofilemEmBQ5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709665026777	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709665026860	Marionette	INFO	Listening on port 64626
+WebDriver BiDi listening on ws://127.0.0.1:64618
+Read port: 64626
+1709665027085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64618/devtools/browser/158ae15d-e9da-456c-ada5-fc398bc819b6
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-3.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js, line 1: Script terminated by timeout at:
+w/<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:6216
+w@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:6187
+T/this.onMessage/</<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:6525
+T/this.onMessage/<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:6929
+next@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:349
+a@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:815
+r/</</s</<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:1145
+r/</</s<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:881
+next@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:349
+a@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:815
+r/</</s</<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:1145
+r/</</s<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:881
+next@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:349
+s@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:4683
+
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6823
+
+1709665057546	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709665074080	Marionette	INFO	Stopped listening on port 64626
+JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/ncaab, line 48: Script terminated by timeout at:
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/ncaab:48:15607
+
+Dynamically enable window occlusion 1
+1709665126806	geckodriver	INFO	Listening on 127.0.0.1:64794
+1709665129866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "64795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofilejwxI7E"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709665130212	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709665130291	Marionette	INFO	Listening on port 64804
+WebDriver BiDi listening on ws://127.0.0.1:64795
+Read port: 64804
+1709665130528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64795/devtools/browser/eb5317b0-124a-47ce-b256-77fc49e98e28
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-3.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/4kJ628/W1/C1/hQjH/b2RLkmQyFX/9uaiGNVhNJ3Oi9/V0wzEwE/FBI_bj17/c0o, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6823
+
+1709665160423	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709665176585	Marionette	INFO	Stopped listening on port 64804
+JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/ncaab, line 48: Script terminated by timeout at:
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/ncaab:48:15607
+
+Dynamically enable window occlusion 1
