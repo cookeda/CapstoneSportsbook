@@ -203,20 +203,20 @@ def gameInput(homeTeam, awayTeam, league):
         print("Away Rank: " + str(coverAway))
         parlay.append(league + ": " + awayTeam + ": Cover")
     else:
-        print("Don't bet on Cover")
-
-def gameInputFromJSON(file):
+        print("We do not recommend but you do you")
+        if coverHome > coverAway:
+            print("Bet on " + homeTeam + " to Cover!")
+        elif coverAway > coverHome:
+            print("Bet on " + awayTeam + " to Cover!")
+        else:
+            print("EVEN ODDS DON'T BET")
+def gameInputFromJSON(file, league):
     with open(file, 'r') as j:
         games = json.load(j)
     for game in games:
-        if game["Home Team Rank Name"] == '76ERS':
-            homeTeam = teamDict['76ers']
-        elif game["Away Team Rank Name"] == '76ERS':
-            awayTeam = teamDict['76ers']
-        else:
-            homeTeam = teamDict[game["Home Team Rank Name"].title()]
-            awayTeam = teamDict[game["Away Team Rank Name"].title()]
-        gameInput(homeTeam, awayTeam)
+        homeTeam = game["Home Team Rank Name"]
+        awayTeam = game["Away Team Rank Name"]
+        gameInput(homeTeam, awayTeam, league)
 
 def main():
     global generalOver  # General Over Dict
@@ -295,13 +295,14 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    gameInputFromJSON("../dk.json")
+    gameInputFromJSON("../Scrapers/Data/nbadk.json", 'NBA')
+    gameInputFromJSON("../Scrapers/Data/cbbdk.json", 'CBB')
 
     # 7/7 So Far
-    print("Risky Parlay: ")
+    print("Recommended Bets: ")
     print(parlay)
 
-    print("Lock Parlay: ")
+    print("Locks: ")
     print(lockparlay)
 
     # TARGET ALG?
