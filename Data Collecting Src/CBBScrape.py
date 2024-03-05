@@ -28,9 +28,15 @@ def scrape(link, file, type):
     teams = []
     i = 1
     while i <= 362:
-        team = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a").text
-        percent = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]").text
-        plusminus = driver.find_element(By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]").text
+        team = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a"))
+        ).text
+        percent = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]"))
+        ).text
+        plusminus = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]"))
+        ).text
         teams.append(team)
         if plusminus == "0.0":
             plusminus = "+0.0"

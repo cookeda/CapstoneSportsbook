@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-{"Team": "Boston", "Cover %": "54.0%"} +0.9
-{"Team": "Okla City", "Cover %": "52.4%"} +0.2
-{"Team": "Philadelphia", "Cover %": "51.5%"} +0.3
-{"Team": "LA Clippers", "Cover %": "51.4%"} +0.4
-{"Team": "Miami", "Cover %": "51.3%"} +0.0
-{"Team": "Dallas", "Cover %": "51.1%"} +0.3
-{"Team": "Golden State", "Cover %": "51.0%"} +0.0
-=======
 {"Team": "Boston", "Cover %": "54.0%"} +0.9
 {"Team": "Okla City", "Cover %": "52.4%"} +0.2
 {"Team": "Philadelphia", "Cover %": "51.5%"} +0.3
@@ -37,4 +28,3 @@
 {"Team": "LA Lakers", "Cover %": "47.3%"} -0.3
 {"Team": "Cleveland", "Cover %": "47.2%"} -0.4
 {"Team": "Minnesota", "Cover %": "47.1%"} +0.0
->>>>>>> 8927109f5a727cf27cd52340659956c641dc05ec
