@@ -10,7 +10,7 @@ import pandas as pd
 from time import process_time
 import json
 
-with open('Dictionary/College/NCAAB Teams.json', 'r') as file:
+with open('Dictionary/Pro/NBA.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
@@ -83,7 +83,7 @@ def scrape(matchup_num):
             'Total': total_text, 
             'Over Total Odds': over_total_odds_text, 
             'Under Total Odds': under_total_odds_text,
-            'League' : 'NCAAB'
+            'League': 'NBA'
         }
     }
 
@@ -91,7 +91,7 @@ def scrape(matchup_num):
     return matchup
 
 driver = webdriver.Firefox()
-driver.get("https://sportsbook.draftkings.com/leagues/basketball/ncaab")
+driver.get("https://sportsbook.draftkings.com/leagues/basketball/nba")
 
 
 time.sleep(10)  # Reduced sleep time after initial load
@@ -108,7 +108,7 @@ for z in range(1, int(number_of_games)+1):
         
 #Writes to JSON
 try:
-    with open('Scrapers/Data/cbbdk.json', 'w') as fp:
+    with open('Scrapers/Data/nbadk.json', 'w') as fp:
         json.dump(all_matchups, fp, indent=4)
 except Exception as e:
     print(f"Error writing to file: {e}")
