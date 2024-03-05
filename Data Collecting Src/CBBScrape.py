@@ -1,43 +1,28 @@
-import time
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from selenium import webdriver
-from selenium.webdriver.common.by import By
+import requests
 webdriver.Chrome
 from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
 import json
 import os
 
 # Global Variables
 options = Options()
-options.add_experimental_option("detach", True)
-options.add_experimental_option("excludeSwitches", ["disable-popup-blocking"])
 driver = webdriver.Chrome(options=options)
+options.headless = True
 link = "https://www.teamrankings.com/ncb/trends/"
 
 # Gets every team's % for a given stat (type)
 def scrape(link, file, type):
     driver.get(link)
-
-    wait = WebDriverWait(driver, 10)
-    first_team_xpath = "//*[@id='DataTables_Table_0']/tbody/tr[1]/td[1]/a"
-    wait.until(EC.presence_of_element_located((By.XPATH, first_team_xpath)))
+    source = driver.page_source
+    soup = BeautifulSoup(source, 'html.parser')
 
     cover = {}
-    teams = []
-    i = 1
-    while i <= 362:
-        team = WebDriverWait(driver, 10).until(
-            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[1]/a"))
-        ).text
-        percent = WebDriverWait(driver, 10).until(
-            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[3]"))
-        ).text
-        plusminus = WebDriverWait(driver, 10).until(
-            EC.visibility_of_element_located((By.XPATH, "//*[@id='DataTables_Table_0']/tbody/tr[" + str(i) + "]/td[5]"))
-        ).text
-        teams.append(team)
+    for i, tr in enumerate(soup.select('#DataTables_Table_0 tbody tr'), start=1):
+        team = tr.select_one('td:nth-of-type(1) a').text.strip()
+        percent = tr.select_one('td:nth-of-type(3)').text.strip()
+        plusminus = tr.select_one('td:nth-of-type(5)').text.strip()
         if plusminus == "0.0":
             plusminus = "+0.0"
         cover["Team"] = team
@@ -45,9 +30,7 @@ def scrape(link, file, type):
         i += 1
         with open(file, 'a') as fp:
             fp.write(json.dumps(cover) + " " + plusminus + '\n')
-            print(str(i-1) + "/362")
-        with open('team list', 'a') as fa: 
-            fa.write(json.dumps(teams))
+        if i >= 363: break
     print("Done")
 
 # Removes file if it already exists for a clean start
@@ -103,11 +86,6 @@ def main():
         print(task["message"])
         scrape(link + task["url"], task["file"], task["type"])
 
-    driver.close()
-
-
-    # End
-    driver.close()
 
 # Runs Program
 if __name__ == '__main__':
