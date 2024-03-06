@@ -4,13 +4,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
-import undetected_chromedriver as uc
 import time
 import pandas as pd
 from time import process_time
 import json
+# For Connor
+webdriver.chrome
 
-with open('Dictionary/College/NCAAB Teams.json', 'r') as file:
+with open('../../Dictionary/College/NCAAB Teams.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
@@ -90,7 +91,12 @@ def scrape(matchup_num):
     print(f'{away_team_text}, {home_team_text}')
     return matchup
 
-driver = webdriver.Firefox()
+# For Devin
+#driver = webdriver.Firefox()
+
+# For Connor
+driver = webdriver.Chrome()
+
 driver.get("https://sportsbook.draftkings.com/leagues/basketball/ncaab")
 
 
@@ -108,7 +114,7 @@ for z in range(1, int(number_of_games)+1):
         
 #Writes to JSON
 try:
-    with open('Scrapers/Data/cbbdk.json', 'w') as fp:
+    with open('../Data/cbbdk.json', 'w') as fp:
         json.dump(all_matchups, fp, indent=4)
 except Exception as e:
     print(f"Error writing to file: {e}")
