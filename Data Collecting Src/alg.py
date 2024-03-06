@@ -8,6 +8,7 @@
 
 import json
 import re
+import os
 
 teamDict = {
     'Hawks': 'Atlanta',
@@ -141,6 +142,11 @@ def sortByRank(input_dict):
 
 def gameInput(homeTeam, awayTeam, league):
     print("-----------------------------")
+    try:
+        with open('../data/results.txt', 'a') as fp:
+            fp.write("-----------------------------" + '\n')
+    except Exception as e:
+        print(f"Error writing to file: {e}")
 
     # Rankings for team
     if league == 'NBA':
@@ -164,52 +170,124 @@ def gameInput(homeTeam, awayTeam, league):
     print(topTier, midTier, lowTier, ass)
 
     print("For " + awayTeam + " At " + homeTeam + ":")
+    try:
+        with open('../data/results.txt', 'a') as fp:
+            fp.write("For " + awayTeam + " At " + homeTeam + ":" + '\n')
+    except Exception as e:
+        print(f"Error writing to file: {e}")
 
     # Over
     if overHome <= midTier and overAway <= midTier:
         if overHome <= topTier and overAway <= topTier:
+            try:
+                with open('../data/results.txt', 'a') as fp:
+                    fp.write("Lock ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
             print("LOCK ALERT!")
             lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
+        try:
+            with open('../data/results.txt', 'a') as fp:
+                fp.write("Take the over!" + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
         print("Take the over!")
         print("Home Rank :" + str(overHome))
         print("Away Rank: " + str(overAway))
         parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
+
     elif overHome > lowTier and overAway > lowTier:
         if overHome > ass and overAway > ass:
+            try:
+                with open('../data/results.txt', 'a') as fp:
+                    fp.write("Lock ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
             print("LOCK ALERT!")
             lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
+        try:
+            with open('../data/results.txt', 'a') as fp:
+                fp.write("Take the over!" + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
         print("Take the under!")
         print("Home Rank :" + str(overHome))
         print("Away Rank: " +str(overAway))
         parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
+
     else:
         print("Don't bet on O/U")
+        try:
+            with open('../data/results.txt', 'a') as fp:
+                fp.write("Don't bet on O/U" + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
 
     # Cover
     if coverHome <= midTier and coverAway > lowTier:
         if coverHome <= topTier and coverAway > ass:
             print("LOCK ALERT!")
-            lockparlay.append(league + ": " +homeTeam + ": Cover")
+            try:
+                with open('../data/results.txt', 'a') as fp:
+                    fp.write("LOCK ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
+            lockparlay.append(league + ": " + homeTeam + ": Cover")
         print("Bet on " + homeTeam + " to Cover!")
+        try:
+            with open('../data/results.txt', 'a') as fp:
+                fp.write("Bet on " + homeTeam + " to Cover!" + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
         print("Home Rank :" + str(coverHome))
         print("Away Rank: " + str(coverAway))
-        parlay.append(league + ": " +homeTeam + ": Cover")
+        parlay.append(league + ": " + homeTeam + ": Cover")
     elif coverHome > lowTier and coverAway <= midTier:
         if coverHome > ass and coverAway <= topTier:
             print("LOCK ALERT!")
-            lockparlay.append(league + ": " +awayTeam + ": Cover")
+            try:
+                with open('../data/results.txt', 'a') as fp:
+                    fp.write("LOCK ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
+            lockparlay.append(league + ": " + awayTeam + ": Cover")
         print("Bet on " + awayTeam + " to Cover!")
+        try:
+            with open('../data/results.txt', 'a') as fp:
+                fp.write("Bet on " + awayTeam + " to Cover!" + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
         print("Home Rank :" + str(coverHome))
         print("Away Rank: " + str(coverAway))
         parlay.append(league + ": " + awayTeam + ": Cover")
     else:
-        print("We do not recommend but you do you")
+        print("We do not recommend, but you do you")
+        try:
+            with open('../data/results.txt', 'a') as fp:
+                fp.write("We do not recommend, but you do you" + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
         if coverHome > coverAway:
             print("Bet on " + homeTeam + " to Cover!")
+            try:
+                with open('../data/results.txt', 'a') as fp:
+                    fp.write("Bet on " + homeTeam + " to Cover!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
         elif coverAway > coverHome:
             print("Bet on " + awayTeam + " to Cover!")
+            try:
+                with open('../data/results.txt', 'a') as fp:
+                    fp.write("Bet on " + awayTeam + " to Cover!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
         else:
             print("EVEN ODDS DON'T BET")
+            try:
+                with open('../data/results.txt', 'a') as fp:
+                    fp.write("EVEN ODDS DON'T BET" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
 def gameInputFromJSON(file, league):
     with open(file, 'r') as j:
         games = json.load(j)
@@ -217,6 +295,12 @@ def gameInputFromJSON(file, league):
         homeTeam = game["Home Team Rank Name"]
         awayTeam = game["Away Team Rank Name"]
         gameInput(homeTeam, awayTeam, league)
+
+def cleanfile(file):
+    try:
+        os.remove(file)
+    except FileNotFoundError:
+        open(file, 'a')
 
 def main():
     global generalOver  # General Over Dict
@@ -243,6 +327,7 @@ def main():
     global lockparlay
     global teamDict     # Team Dictionary in form City: Team Name
 
+    cleanfile("../data/results.txt")
     parlay = []
     lockparlay = []
     #print("General (LEAST ACCURATE): ")
@@ -301,9 +386,19 @@ def main():
     # 7/7 So Far
     print("Recommended Bets: ")
     print(parlay)
+    try:
+        with open('../data/results.txt', 'a') as fp:
+            fp.write("-----------------------------\nRecommended Bets:\n" + json.dumps(parlay))
+    except Exception as e:
+        print(f"Error writing to file: {e}")
 
     print("Locks: ")
     print(lockparlay)
+    try:
+        with open('../data/results.txt', 'a') as fp:
+            fp.write("\nLocks: " + '\n' + json.dumps(lockparlay))
+    except Exception as e:
+        print(f"Error writing to file: {e}")
 
     # TARGET ALG?
     # .5 Advanced Stats + .3 Spec Stats + .2 General Stats
