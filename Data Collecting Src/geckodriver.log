@@ -1,0 +1,52 @@
+1709671262581	geckodriver	INFO	Listening on 127.0.0.1:60126
+1709671265644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "60127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofileAmcDNA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709671266104	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709671266206	Marionette	INFO	Listening on port 60135
+WebDriver BiDi listening on ws://127.0.0.1:60127
+Read port: 60135
+1709671266437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60127/devtools/browser/6e80df35-a417-481c-bc60-0a296b1e0099
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6823
+
+JavaScript warning: https://sportsbook.fanduel.com/JMCVuBG8/init.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1709671296138	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709671319920	geckodriver	INFO	Listening on 127.0.0.1:60267
+1709671322953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "60268" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofileyCtWxn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709671323344	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709671323458	Marionette	INFO	Listening on port 60276
+WebDriver BiDi listening on ws://127.0.0.1:60268
+Read port: 60276
+1709671323816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60268/devtools/browser/8d31bd17-97fb-4e42-b6d5-56d4df253d1c
+1709671328999	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671329011	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671329021	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671329035	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671329048	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://sportsbook.fanduel.com/JMCVuBG8/init.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1709671347065	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671347078	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671347088	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671347096	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671347106	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://sportsbook.fanduel.com/JMCVuBG8/init.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1709671354560	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709671357740	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671357757	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671357766	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671357776	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709671357788	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://sportsbook.fanduel.com/JMCVuBG8/init.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1709671358602	Marionette	INFO	Stopped listening on port 60276
+JavaScript warning: https://sportsbook.fanduel.com/JMCVuBG8/init.js, line 5: Script terminated by timeout at:
+Nm@https://sportsbook.fanduel.com/JMCVuBG8/init.js:5:10932
+
+Dynamically enable window occlusion 1

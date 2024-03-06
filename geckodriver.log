@@ -285,3 +285,82 @@ JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/ncaab, 
 nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/ncaab:48:15607
 
 Dynamically enable window occlusion 1
+1709693933313	geckodriver	INFO	Listening on 127.0.0.1:57247
+1709693936381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "57248" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofileWZvrQK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709693937123	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709693937279	Marionette	INFO	Listening on port 57255
+Read port: 57255
+WebDriver BiDi listening on ws://127.0.0.1:57248
+1709693937426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57248/devtools/browser/b9b7dcc8-a2bb-4c54-b4e6-86971eefab4b
+JavaScript warning: https://sportsbook.draftkings.com/WHJD/dzcM/lCv/Edp/_B-A/rEaJrhwXtL/Y3R7TH0B/Ek/15ZwMVABM, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-3.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/WHJD/dzcM/lCv/Edp/_B-A/rEaJrhwXtL/Y3R7TH0B/Ek/15ZwMVABM, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/WHJD/dzcM/lCv/Edp/_B-A/rEaJrhwXtL/Y3R7TH0B/Ek/15ZwMVABM, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/WHJD/dzcM/lCv/Edp/_B-A/rEaJrhwXtL/Y3R7TH0B/Ek/15ZwMVABM, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6823
+
+JavaScript warning: https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js, line 1: Script terminated by timeout at:
+n@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:11870
+dispatch/<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:12185
+dispatch@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:11937
+send@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:11812
+send@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:5755
+@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:72281
+T/this.onMessage/</<@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:6797
+o@https://apps.rokt.com/wsdk/controller/index.3d3d9a026741222b844e.js:1:6244
+
+JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/ncaab, line 48: Script terminated by timeout at:
+p@https://sportsbook.draftkings.com/leagues/basketball/ncaab:48:7334
+7817/g/<@https://sportsbook.draftkings.com/leagues/basketball/ncaab:48:45631
+
+1709693954915	Marionette	INFO	Stopped listening on port 57255
+Dynamically enable window occlusion 1
+1709694015212	geckodriver	INFO	Listening on 127.0.0.1:57427
+1709694018255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "57428" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofilegZOk5M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709694018917	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709694019056	Marionette	INFO	Listening on port 57435
+Read port: 57435
+WebDriver BiDi listening on ws://127.0.0.1:57428
+1709694019190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57428/devtools/browser/b98c2624-43c7-4b6e-a391-880a2735ca45
+1709694049678	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Listening on 127.0.0.1:57561
+1709694066997	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "57562" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofileSiRaXs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709694067578	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709694067721	Marionette	INFO	Listening on port 57569
+WebDriver BiDi listening on ws://127.0.0.1:57562
+Read port: 57569
+1709694068078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57562/devtools/browser/437ff3b6-1239-4591-8cb1-5e46c97752f9
+1709694098000	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1709694163249	geckodriver	INFO	Listening on 127.0.0.1:57788
+1709694166302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "57789" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofilew8v396"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709694166941	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709694167083	Marionette	INFO	Listening on port 57799
+WebDriver BiDi listening on ws://127.0.0.1:57789
+Read port: 57799
+1709694167226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57789/devtools/browser/90105aaa-879c-4e1a-b1cd-eea88a0c428c
+1709694197001	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
