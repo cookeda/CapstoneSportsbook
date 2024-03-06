@@ -294,6 +294,8 @@ def gameInputFromJSON(file, league):
     for game in games:
         homeTeam = game["Home Team Rank Name"]
         awayTeam = game["Away Team Rank Name"]
+        homeSpread = game['DK Home Odds']['Spread']
+        awaySpread = game['DK Away Odds']['Spread']
         gameInput(homeTeam, awayTeam, league)
 
 def cleanfile(file):
