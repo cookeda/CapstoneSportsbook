@@ -8,8 +8,8 @@ import os
 
 # Global Variables
 options = Options()
-driver = webdriver.Chrome(options=options)
 options.headless = True
+driver = webdriver.Chrome(options=options)
 link = "https://www.teamrankings.com/ncb/trends/"
 
 # Gets every team's % for a given stat (type)

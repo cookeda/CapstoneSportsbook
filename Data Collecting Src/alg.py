@@ -188,7 +188,7 @@ def gameInput(homeTeam, awayTeam, league):
             lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
         try:
             with open('../data/results.txt', 'a') as fp:
-                fp.write("Take the over!" + '\n')
+                fp.write("Take the over!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
         print("Take the over!")
@@ -207,7 +207,7 @@ def gameInput(homeTeam, awayTeam, league):
             lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
         try:
             with open('../data/results.txt', 'a') as fp:
-                fp.write("Take the over!" + '\n')
+                fp.write("Take the under!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
         print("Take the under!")
@@ -236,7 +236,7 @@ def gameInput(homeTeam, awayTeam, league):
         print("Bet on " + homeTeam + " to Cover!")
         try:
             with open('../data/results.txt', 'a') as fp:
-                fp.write("Bet on " + homeTeam + " to Cover!" + '\n')
+                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
         print("Home Rank :" + str(coverHome))
@@ -254,7 +254,7 @@ def gameInput(homeTeam, awayTeam, league):
         print("Bet on " + awayTeam + " to Cover!")
         try:
             with open('../data/results.txt', 'a') as fp:
-                fp.write("Bet on " + awayTeam + " to Cover!" + '\n')
+                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
         print("Home Rank :" + str(coverHome))
