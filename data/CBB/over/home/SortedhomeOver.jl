@@ -26,7 +26,7 @@
 {"Team": "Binghamton", "Over %": "75.0%"} +4.2
 {"Team": "Boise St", "Over %": "64.3%"} +4.6
 {"Team": "Boston Col", "Over %": "68.8%"} +5.0
-{"Team": "Boston U", "Over %": "71.4%"} +9.4
+{"Team": "Boston U", "Over %": "73.3%"} +10.6
 {"Team": "Bowling Grn", "Over %": "64.3%"} +3.0
 {"Team": "Bradley", "Over %": "73.3%"} +4.7
 {"Team": "Brown", "Over %": "63.6%"} +2.6
@@ -55,7 +55,7 @@
 {"Team": "Cleveland St", "Over %": "40.0%"} +1.0
 {"Team": "Coastal Car", "Over %": "52.9%"} -0.5
 {"Team": "Col Charlestn", "Over %": "64.3%"} +2.5
-{"Team": "Colgate", "Over %": "38.5%"} -3.5
+{"Team": "Colgate", "Over %": "42.9%"} -3.2
 {"Team": "Colorado St", "Over %": "53.3%"} +1.3
 {"Team": "Colorado", "Over %": "70.6%"} +4.9
 {"Team": "Columbia", "Over %": "58.3%"} +0.8
@@ -123,10 +123,10 @@
 {"Team": "Illinois", "Over %": "55.6%"} +0.6
 {"Team": "Incar Word", "Over %": "45.5%"} -1.9
 {"Team": "Indiana St", "Over %": "69.2%"} +2.1
-{"Team": "Indiana", "Over %": "56.3%"} +0.3
+{"Team": "Indiana", "Over %": "52.9%"} -0.4
 {"Team": "Iona", "Over %": "42.9%"} -0.3
 {"Team": "Iowa St", "Over %": "50.0%"} -0.9
-{"Team": "Iowa", "Over %": "68.8%"} +5.1
+{"Team": "Iowa", "Over %": "64.7%"} +2.6
 {"Team": "Jackson St", "Over %": "25.0%"} -4.1
 {"Team": "Jacksonville", "Over %": "45.5%"} -7.7
 {"Team": "James Mad", "Over %": "35.7%"} -5.7
@@ -171,7 +171,7 @@
 {"Team": "Miami (OH)", "Over %": "53.9%"} -1.8
 {"Team": "Miami", "Over %": "52.9%"} -2.4
 {"Team": "Michigan St", "Over %": "38.9%"} -3.6
-{"Team": "Michigan", "Over %": "64.3%"} +4.9
+{"Team": "Michigan", "Over %": "66.7%"} +4.9
 {"Team": "Middle Tenn", "Over %": "33.3%"} +0.1
 {"Team": "Minnesota", "Over %": "50.0%"} +0.5
 {"Team": "Miss State", "Over %": "53.3%"} +4.4
@@ -229,7 +229,7 @@
 {"Team": "Oregon St", "Over %": "64.7%"} +4.5
 {"Team": "Oregon", "Over %": "56.3%"} -0.8
 {"Team": "Pacific", "Over %": "46.7%"} +2.3
-{"Team": "Penn St", "Over %": "64.3%"} +2.6
+{"Team": "Penn St", "Over %": "66.7%"} +3.1
 {"Team": "Pepperdine", "Over %": "42.9%"} -6.8
 {"Team": "Pittsburgh", "Over %": "58.8%"} -3.4
 {"Team": "Portland St", "Over %": "30.0%"} -3.1
@@ -238,7 +238,7 @@
 {"Team": "Presbyterian", "Over %": "75.0%"} +9.8
 {"Team": "Princeton", "Over %": "70.0%"} +3.2
 {"Team": "Providence", "Over %": "44.4%"} +1.8
-{"Team": "Purdue", "Over %": "73.3%"} +10.9
+{"Team": "Purdue", "Over %": "75.0%"} +10.3
 {"Team": "Queens", "Over %": "66.7%"} +4.3
 {"Team": "Quinnipiac", "Over %": "33.3%"} +2.0
 {"Team": "Radford", "Over %": "54.6%"} +2.3
@@ -247,7 +247,7 @@
 {"Team": "Richmond", "Over %": "53.3%"} -0.6
 {"Team": "Rider", "Over %": "66.7%"} -0.2
 {"Team": "Rob Morris", "Over %": "50.0%"} +5.0
-{"Team": "Rutgers", "Over %": "25.0%"} -8.9
+{"Team": "Rutgers", "Over %": "23.5%"} -9.1
 {"Team": "S Alabama", "Over %": "57.1%"} +9.8
 {"Team": "S Car State", "Over %": "45.5%"} +0.5
 {"Team": "S Carolina", "Over %": "41.2%"} -3.6
@@ -286,7 +286,7 @@
 {"Team": "St. Thomas", "Over %": "54.6%"} -0.4
 {"Team": "Stanford", "Over %": "81.3%"} +8.5
 {"Team": "Ste F Austin", "Over %": "53.9%"} -0.9
-{"Team": "Stetson", "Over %": "41.7%"} +2.6
+{"Team": "Stetson", "Over %": "46.2%"} +5.5
 {"Team": "Stonehill", "Over %": "27.3%"} -5.3
 {"Team": "Stony Brook", "Over %": "50.0%"} +2.3
 {"Team": "Syracuse", "Over %": "56.3%"} +1.4
@@ -314,7 +314,7 @@
 {"Team": "Tulsa", "Over %": "43.8%"} +0.4
 {"Team": "U Mass", "Over %": "43.8%"} -2.1
 {"Team": "U Penn", "Over %": "50.0%"} +4.2
-{"Team": "UAB", "Over %": "60.0%"} +5.6
+{"Team": "UAB", "Over %": "56.3%"} +4.7
 {"Team": "UC Davis", "Over %": "35.7%"} -4.1
 {"Team": "UC Irvine", "Over %": "83.3%"} +11.9
 {"Team": "UC Riverside", "Over %": "64.3%"} +3.9
@@ -325,7 +325,7 @@
 {"Team": "UL Monroe", "Over %": "58.3%"} +0.6
 {"Team": "UNLV", "Over %": "46.2%"} -4.1
 {"Team": "USC", "Over %": "60.0%"} +0.9
-{"Team": "UTSA", "Over %": "64.3%"} +4.1
+{"Team": "UTSA", "Over %": "66.7%"} +4.7
 {"Team": "Utah St", "Over %": "46.2%"} +4.5
 {"Team": "Utah Tech", "Over %": "38.5%"} +1.7
 {"Team": "Utah Valley", "Over %": "33.3%"} -2.4
