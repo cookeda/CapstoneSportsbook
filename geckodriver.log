@@ -364,3 +364,28 @@ DevTools listening on ws://127.0.0.1:57789/devtools/browser/90105aaa-879c-4e1a-b
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1710509868785	geckodriver	INFO	Listening on 127.0.0.1:61831
+1710509871867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "61832" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dc116\\AppData\\Local\\Temp\\rust_mozprofilesO0TYJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710509873003	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710509873172	Marionette	INFO	Listening on port 61839
+Read port: 61839
+WebDriver BiDi listening on ws://127.0.0.1:61832
+1710509873322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61832/devtools/browser/054e7d00-9a82-4c78-ade9-af36ae75a8e1
+JavaScript warning: https://sportsbook.draftkings.com/XGxcd2/dYJWkA/7Z75/xcdpa4/a4JNw/N3JYbrhLLw1uOE/ATJQAQ/GV/BCe29MLjo, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-3.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/XGxcd2/dYJWkA/7Z75/xcdpa4/a4JNw/N3JYbrhLLw1uOE/ATJQAQ/GV/BCe29MLjo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/XGxcd2/dYJWkA/7Z75/xcdpa4/a4JNw/N3JYbrhLLw1uOE/ATJQAQ/GV/BCe29MLjo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/XGxcd2/dYJWkA/7Z75/xcdpa4/a4JNw/N3JYbrhLLw1uOE/ATJQAQ/GV/BCe29MLjo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: Script terminated by timeout at:
+
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6823
+
+1710509903075	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1710509956479	Marionette	INFO	Stopped listening on port 61839
+Dynamically enable window occlusion 1
