@@ -55,7 +55,7 @@
 {"Team": "Cleveland St", "Cover %": "46.7%"} -0.4
 {"Team": "Coastal Car", "Cover %": "56.3%"} -2.0
 {"Team": "Col Charlestn", "Cover %": "57.1%"} -1.6
-{"Team": "Colgate", "Cover %": "42.9%"} +0.2
+{"Team": "Colgate", "Cover %": "46.7%"} +0.9
 {"Team": "Colorado St", "Cover %": "53.3%"} +0.9
 {"Team": "Colorado", "Cover %": "58.8%"} +2.1
 {"Team": "Columbia", "Cover %": "45.5%"} +0.2
@@ -163,11 +163,11 @@
 {"Team": "Maryland BC", "Cover %": "42.9%"} +0.1
 {"Team": "Maryland ES", "Cover %": "55.6%"} +2.4
 {"Team": "Maryland", "Cover %": "35.3%"} -1.3
-{"Team": "Mass Lowell", "Cover %": "18.2%"} -5.0
-{"Team": "McNeese St", "Cover %": "58.3%"} +1.8
+{"Team": "Mass Lowell", "Cover %": "18.2%"} -4.5
+{"Team": "McNeese St", "Cover %": "57.1%"} +1.9
 {"Team": "Memphis", "Cover %": "33.3%"} -2.3
 {"Team": "Mercer", "Cover %": "61.5%"} +1.2
-{"Team": "Merrimack", "Cover %": "58.3%"} +2.5
+{"Team": "Merrimack", "Cover %": "53.9%"} +1.2
 {"Team": "Miami (OH)", "Cover %": "53.9%"} +1.0
 {"Team": "Miami", "Cover %": "50.0%"} -1.6
 {"Team": "Michigan St", "Cover %": "61.1%"} +0.2
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Cover %": "35.7%"} -3.3
 {"Team": "Santa Clara", "Cover %": "50.0%"} -0.6
 {"Team": "Seattle", "Cover %": "52.9%"} +0.5
-{"Team": "Seton Hall", "Cover %": "52.9%"} +3.0
+{"Team": "Seton Hall", "Cover %": "50.0%"} +2.0
 {"Team": "Siena", "Cover %": "28.6%"} -7.4
 {"Team": "South Dakota", "Cover %": "54.6%"} -0.1
 {"Team": "Southern", "Cover %": "70.0%"} +3.7
@@ -323,7 +323,7 @@
 {"Team": "UCSB", "Cover %": "23.1%"} -7.0
 {"Team": "UCSD", "Cover %": "71.4%"} +1.9
 {"Team": "UL Monroe", "Cover %": "33.3%"} +0.2
-{"Team": "UNLV", "Cover %": "69.2%"} -2.2
+{"Team": "UNLV", "Cover %": "71.4%"} -2.0
 {"Team": "USC", "Cover %": "46.7%"} -1.8
 {"Team": "UTSA", "Cover %": "53.3%"} -0.1
 {"Team": "Utah St", "Cover %": "61.5%"} +1.4
@@ -335,7 +335,7 @@
 {"Team": "VMI", "Cover %": "45.5%"} -2.9
 {"Team": "Valparaiso", "Cover %": "37.5%"} -3.0
 {"Team": "Vanderbilt", "Cover %": "44.4%"} -4.5
-{"Team": "Vermont", "Cover %": "38.5%"} -1.0
+{"Team": "Vermont", "Cover %": "35.7%"} -1.5
 {"Team": "Villanova", "Cover %": "60.0%"} +0.8
 {"Team": "Virginia", "Cover %": "62.5%"} +2.7
 {"Team": "W Carolina", "Cover %": "41.7%"} +2.1

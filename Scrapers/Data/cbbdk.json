@@ -1,205 +1,619 @@
 [
     {
-        "Away Team": "Towson",
-        "Away Team Rank Name": "Towson",
+        "Away Team": "Michigan State",
+        "Away Team Rank Name": "Michigan St",
         "DK Away Odds": {
-            "Spread": "+6",
+            "Spread": "+7.5",
             "Spread Odds": "\u2212110",
-            "Away ML": "+200"
+            "Away ML": "+280"
         },
-        "Home Team": "Charleston",
-        "Home Team Rank Name": "Col Charlestn",
+        "Home Team": "Purdue",
+        "Home Team Rank Name": "Purdue",
         "DK Home Odds": {
-            "Spread": "-6",
+            "Spread": "-7.5",
             "Spread Odds": "\u2212110",
-            "Home ML": "\u2212245"
+            "Home ML": "\u2212355"
         },
         "Game": {
-            "Start Time": "6:00PM",
-            "Total": "139",
+            "Start Time": "12:05PM",
+            "Total": "143",
+            "Over Total Odds": "\u2212108",
+            "Under Total Odds": "\u2212112",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "UTEP",
+        "Away Team Rank Name": "TX El Paso",
+        "DK Away Odds": {
+            "Spread": "+4.5",
+            "Spread Odds": "\u2212105",
+            "Away ML": "+180"
+        },
+        "Home Team": "Sam Houston",
+        "Home Team Rank Name": "Sam Hous St",
+        "DK Home Odds": {
+            "Spread": "-4.5",
+            "Spread Odds": "\u2212115",
+            "Home ML": "\u2212218"
+        },
+        "Game": {
+            "Start Time": "12:30PM",
+            "Total": "133.5",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Mississippi State",
+        "Away Team Rank Name": "Miss State",
+        "DK Away Odds": {
+            "Spread": "+10",
+            "Spread Odds": "\u2212108",
+            "Away ML": "+425"
+        },
+        "Home Team": "Tennessee",
+        "Home Team Rank Name": "Tennessee",
+        "DK Home Odds": {
+            "Spread": "-10",
+            "Spread Odds": "\u2212112",
+            "Home ML": "\u2212575"
+        },
+        "Game": {
+            "Start Time": "1:05PM",
+            "Total": "142",
             "Over Total Odds": "\u2212112",
             "Under Total Odds": "\u2212108",
             "League": "NCAAB"
         }
     },
     {
-        "Away Team": "New Orleans",
-        "Away Team Rank Name": "New Orleans",
+        "Away Team": "East Carolina",
+        "Away Team Rank Name": "E Carolina",
         "DK Away Odds": {
-            "Spread": "+9.5",
-            "Spread Odds": "\u2212110",
-            "Away ML": "+360"
+            "Spread": "+7",
+            "Spread Odds": "\u2212105",
+            "Away ML": "+260"
         },
-        "Home Team": "Lamar",
-        "Home Team Rank Name": "Lamar",
+        "Home Team": "South Florida",
+        "Home Team Rank Name": "S Florida",
         "DK Home Odds": {
-            "Spread": "-9.5",
-            "Spread Odds": "\u2212110",
-            "Home ML": "\u2212470"
+            "Spread": "-7",
+            "Spread Odds": "\u2212115",
+            "Home ML": "\u2212325"
         },
         "Game": {
-            "Start Time": "6:00PM",
-            "Total": "156.5",
+            "Start Time": "1:05PM",
+            "Total": "137",
+            "Over Total Odds": "\u2212108",
+            "Under Total Odds": "\u2212112",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Wisconsin",
+        "Away Team Rank Name": "Wisconsin",
+        "DK Away Odds": {
+            "Spread": "-3.5",
+            "Spread Odds": "\u2212118",
+            "Away ML": "\u2212180"
+        },
+        "Home Team": "Northwestern",
+        "Home Team Rank Name": "Northwestern",
+        "DK Home Odds": {
+            "Spread": "+3.5",
+            "Spread Odds": "\u2212102",
+            "Home ML": "+150"
+        },
+        "Game": {
+            "Start Time": "2:35PM",
+            "Total": "136",
+            "Over Total Odds": "\u2212112",
+            "Under Total Odds": "\u2212108",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Middle Tennessee",
+        "Away Team Rank Name": "Middle Tenn",
+        "DK Away Odds": {
+            "Spread": "+6",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+210"
+        },
+        "Home Team": "Western Kentucky",
+        "Home Team Rank Name": "W Kentucky",
+        "DK Home Odds": {
+            "Spread": "-6",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212258"
+        },
+        "Game": {
+            "Start Time": "3:00PM",
+            "Total": "147",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Bethune-Cookman",
+        "Away Team Rank Name": "Beth-Cook",
+        "DK Away Odds": {
+            "Spread": "+3",
+            "Spread Odds": "\u2212115",
+            "Away ML": "+136"
+        },
+        "Home Team": "Grambling",
+        "Home Team Rank Name": "Grambling St",
+        "DK Home Odds": {
+            "Spread": "-3",
+            "Spread Odds": "\u2212105",
+            "Home ML": "\u2212162"
+        },
+        "Game": {
+            "Start Time": "3:00PM",
+            "Total": "127",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Wichita State",
+        "Away Team Rank Name": "Wichita St",
+        "DK Away Odds": {
+            "Spread": "+5.5",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+190"
+        },
+        "Home Team": "UAB",
+        "Home Team Rank Name": "UAB",
+        "DK Home Odds": {
+            "Spread": "-5.5",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212230"
+        },
+        "Game": {
+            "Start Time": "3:05PM",
+            "Total": "146.5",
+            "Over Total Odds": "\u2212105",
+            "Under Total Odds": "\u2212115",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "South Carolina",
+        "Away Team Rank Name": "S Carolina",
+        "DK Away Odds": {
+            "Spread": "+7.5",
+            "Spread Odds": "\u2212105",
+            "Away ML": "+275"
+        },
+        "Home Team": "Auburn",
+        "Home Team Rank Name": "Auburn",
+        "DK Home Odds": {
+            "Spread": "-7.5",
+            "Spread Odds": "\u2212115",
+            "Home ML": "\u2212345"
+        },
+        "Game": {
+            "Start Time": "3:35PM",
+            "Total": "142",
+            "Over Total Odds": "\u2212108",
+            "Under Total Odds": "\u2212112",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Kent State",
+        "Away Team Rank Name": "Kent St",
+        "DK Away Odds": {
+            "Spread": "-2",
+            "Spread Odds": "\u2212112",
+            "Away ML": "\u2212135"
+        },
+        "Home Team": "Bowling Green",
+        "Home Team Rank Name": "Bowling Grn",
+        "DK Home Odds": {
+            "Spread": "+2",
+            "Spread Odds": "\u2212108",
+            "Home ML": "+114"
+        },
+        "Game": {
+            "Start Time": "5:05PM",
+            "Total": "138",
             "Over Total Odds": "\u2212115",
             "Under Total Odds": "\u2212105",
             "League": "NCAAB"
         }
     },
     {
-        "Away Team": "ETSU",
-        "Away Team Rank Name": "E Tenn St",
+        "Away Team": "Saint Johns",
+        "Away Team Rank Name": "St Johns",
         "DK Away Odds": {
-            "Spread": "+10.5",
-            "Spread Odds": "\u2212118",
-            "Away ML": "+400"
-        },
-        "Home Team": "Samford",
-        "Home Team Rank Name": "Samford",
-        "DK Home Odds": {
-            "Spread": "-10.5",
-            "Spread Odds": "\u2212102",
-            "Home ML": "\u2212535"
-        },
-        "Game": {
-            "Start Time": "7:00PM",
-            "Total": "148.5",
-            "Over Total Odds": "\u2212120",
-            "Under Total Odds": "+100",
-            "League": "NCAAB"
-        }
-    },
-    {
-        "Away Team": "Arkansas State",
-        "Away Team Rank Name": "Arkansas St",
-        "DK Away Odds": {
-            "Spread": "+5.5",
-            "Spread Odds": "\u2212108",
-            "Away ML": "+205"
-        },
-        "Home Team": "James Madison",
-        "Home Team Rank Name": "James Mad",
-        "DK Home Odds": {
-            "Spread": "-5.5",
+            "Spread": "+9.5",
             "Spread Odds": "\u2212112",
-            "Home ML": "\u2212250"
+            "Away ML": "+380"
+        },
+        "Home Team": "UConn",
+        "Home Team Rank Name": "Connecticut",
+        "DK Home Odds": {
+            "Spread": "-9.5",
+            "Spread Odds": "\u2212108",
+            "Home ML": "\u2212500"
         },
         "Game": {
-            "Start Time": "7:00PM",
-            "Total": "153.5",
-            "Over Total Odds": "\u2212110",
-            "Under Total Odds": "\u2212110",
+            "Start Time": "5:35PM",
+            "Total": "146.5",
+            "Over Total Odds": "\u2212108",
+            "Under Total Odds": "\u2212112",
             "League": "NCAAB"
         }
     },
     {
-        "Away Team": "Cleveland State",
-        "Away Team Rank Name": "Cleveland St",
+        "Away Team": "Howard",
+        "Away Team Rank Name": "Howard",
+        "DK Away Odds": {
+            "Spread": "+3.5",
+            "Spread Odds": "\u2212105",
+            "Away ML": "N/A"
+        },
+        "Home Team": "Norfolk State",
+        "Home Team Rank Name": "Norfolk St",
+        "DK Home Odds": {
+            "Spread": "-3.5",
+            "Spread Odds": "\u2212115",
+            "Home ML": "N/A"
+        },
+        "Game": {
+            "Start Time": "6:05PM",
+            "Total": "135.5",
+            "Over Total Odds": "\u2212115",
+            "Under Total Odds": "\u2212105",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Ohio State",
+        "Away Team Rank Name": "Ohio St",
+        "DK Away Odds": {
+            "Spread": "+5",
+            "Spread Odds": "\u2212115",
+            "Away ML": "+154"
+        },
+        "Home Team": "Illinois",
+        "Home Team Rank Name": "Illinois",
+        "DK Home Odds": {
+            "Spread": "-5",
+            "Spread Odds": "\u2212105",
+            "Home ML": "\u2212185"
+        },
+        "Game": {
+            "Start Time": "6:35PM",
+            "Total": "152.5",
+            "Over Total Odds": "\u2212115",
+            "Under Total Odds": "\u2212105",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "North Texas",
+        "Away Team Rank Name": "North Texas",
         "DK Away Odds": {
             "Spread": "+5.5",
-            "Spread Odds": "\u2212110",
+            "Spread Odds": "\u2212105",
             "Away ML": "+200"
         },
-        "Home Team": "Oakland",
-        "Home Team Rank Name": "Oakland",
+        "Home Team": "Florida Atlantic",
+        "Home Team Rank Name": "Fla Atlantic",
         "DK Home Odds": {
             "Spread": "-5.5",
-            "Spread Odds": "\u2212110",
+            "Spread Odds": "\u2212115",
             "Home ML": "\u2212245"
         },
         "Game": {
             "Start Time": "7:00PM",
-            "Total": "144",
-            "Over Total Odds": "\u2212118",
-            "Under Total Odds": "\u2212102",
+            "Total": "137",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
             "League": "NCAAB"
         }
     },
     {
-        "Away Team": "Saint Thomas MN",
-        "Away Team Rank Name": "St. Thomas",
+        "Away Team": "Texas Tech",
+        "Away Team Rank Name": "Texas Tech",
+        "DK Away Odds": {
+            "Spread": "+8.5",
+            "Spread Odds": "\u2212108",
+            "Away ML": "+320"
+        },
+        "Home Team": "Houston",
+        "Home Team Rank Name": "Houston",
+        "DK Home Odds": {
+            "Spread": "-8.5",
+            "Spread Odds": "\u2212112",
+            "Home ML": "\u2212410"
+        },
+        "Game": {
+            "Start Time": "7:05PM",
+            "Total": "132",
+            "Over Total Odds": "\u2212108",
+            "Under Total Odds": "\u2212112",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Pittsburgh",
+        "Away Team Rank Name": "Pittsburgh",
+        "DK Away Odds": {
+            "Spread": "+7.5",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+270"
+        },
+        "Home Team": "North Carolina",
+        "Home Team Rank Name": "N Carolina",
+        "DK Home Odds": {
+            "Spread": "-7.5",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212340"
+        },
+        "Game": {
+            "Start Time": "7:05PM",
+            "Total": "147",
+            "Over Total Odds": "\u2212112",
+            "Under Total Odds": "\u2212108",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Texas A&M",
+        "Away Team Rank Name": "Texas A&M",
+        "DK Away Odds": {
+            "Spread": "+5.5",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+195"
+        },
+        "Home Team": "Kentucky",
+        "Home Team Rank Name": "Kentucky",
+        "DK Home Odds": {
+            "Spread": "-5.5",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212238"
+        },
+        "Game": {
+            "Start Time": "7:05PM",
+            "Total": "160",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Ohio",
+        "Away Team Rank Name": "Ohio",
         "DK Away Odds": {
             "Spread": "+2",
             "Spread Odds": "\u2212110",
-            "Away ML": "+110"
+            "Away ML": "+114"
         },
-        "Home Team": "South Dakota State",
-        "Home Team Rank Name": "S Dakota St",
+        "Home Team": "Akron",
+        "Home Team Rank Name": "Akron",
         "DK Home Odds": {
             "Spread": "-2",
             "Spread Odds": "\u2212110",
-            "Home ML": "\u2212130"
-        },
-        "Game": {
-            "Start Time": "7:00PM",
-            "Total": "140",
-            "Over Total Odds": "\u2212110",
-            "Under Total Odds": "\u2212110",
-            "League": "NCAAB"
-        }
-    },
-    {
-        "Away Team": "Montana State",
-        "Away Team Rank Name": "Montana St",
-        "DK Away Odds": {
-            "Spread": "+6.5",
-            "Spread Odds": "\u2212110",
-            "Away ML": "+225"
-        },
-        "Home Team": "Weber State",
-        "Home Team Rank Name": "Weber St",
-        "DK Home Odds": {
-            "Spread": "-6.5",
-            "Spread Odds": "\u2212110",
-            "Home ML": "\u2212278"
+            "Home ML": "\u2212135"
         },
         "Game": {
             "Start Time": "7:30PM",
-            "Total": "142",
+            "Total": "141.5",
             "Over Total Odds": "\u2212110",
             "Under Total Odds": "\u2212110",
             "League": "NCAAB"
         }
     },
     {
-        "Away Team": "Stony Brook",
-        "Away Team Rank Name": "Stony Brook",
+        "Away Team": "Providence",
+        "Away Team Rank Name": "Providence",
         "DK Away Odds": {
-            "Spread": "+7",
+            "Spread": "+5",
             "Spread Odds": "\u2212112",
-            "Away ML": "+240"
+            "Away ML": "+170"
         },
-        "Home Team": "Hofstra",
-        "Home Team Rank Name": "Hofstra",
+        "Home Team": "Marquette",
+        "Home Team Rank Name": "Marquette",
         "DK Home Odds": {
-            "Spread": "-7",
+            "Spread": "-5",
             "Spread Odds": "\u2212108",
-            "Home ML": "\u2212298"
+            "Home ML": "\u2212205"
         },
         "Game": {
-            "Start Time": "8:30PM",
-            "Total": "139.5",
-            "Over Total Odds": "\u2212120",
-            "Under Total Odds": "+100",
+            "Start Time": "8:00PM",
+            "Total": "137.5",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
             "League": "NCAAB"
         }
     },
     {
-        "Away Team": "Texas A&M-Commerce",
-        "Away Team Rank Name": "TX A&M-Com",
+        "Away Team": "Delaware State",
+        "Away Team Rank Name": "Delaware St",
         "DK Away Odds": {
-            "Spread": "+5.5",
-            "Spread Odds": "\u2212105",
-            "Away ML": "+205"
+            "Spread": "+4.5",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+170"
         },
-        "Home Team": "Nicholls State",
-        "Home Team Rank Name": "Nicholls",
+        "Home Team": "North Carolina Central",
+        "Home Team Rank Name": "NC Central",
         "DK Home Odds": {
-            "Spread": "-5.5",
-            "Spread Odds": "\u2212115",
-            "Home ML": "\u2212250"
+            "Spread": "-4.5",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212205"
         },
         "Game": {
-            "Start Time": "8:30PM",
+            "Start Time": "8:00PM",
+            "Total": "138",
+            "Over Total Odds": "\u2212108",
+            "Under Total Odds": "\u2212112",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Oregon",
+        "Away Team Rank Name": "Oregon",
+        "DK Away Odds": {
+            "Spread": "+11",
+            "Spread Odds": "\u2212108",
+            "Away ML": "N/A"
+        },
+        "Home Team": "Arizona",
+        "Home Team Rank Name": "Arizona",
+        "DK Home Odds": {
+            "Spread": "-11",
+            "Spread Odds": "\u2212112",
+            "Home ML": "N/A"
+        },
+        "Game": {
+            "Start Time": "8:05PM",
+            "Total": "155",
+            "Over Total Odds": "\u2212112",
+            "Under Total Odds": "\u2212108",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Long Beach State",
+        "Away Team Rank Name": "Lg Beach St",
+        "DK Away Odds": {
+            "Spread": "+7",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+245"
+        },
+        "Home Team": "UC Irvine",
+        "Home Team Rank Name": "UC Irvine",
+        "DK Home Odds": {
+            "Spread": "-7",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212305"
+        },
+        "Game": {
+            "Start Time": "9:00PM",
+            "Total": "148.5",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Seattle",
+        "Away Team Rank Name": "Seattle",
+        "DK Away Odds": {
+            "Spread": "+5.5",
+            "Spread Odds": "\u2212108",
+            "Away ML": "+200"
+        },
+        "Home Team": "Grand Canyon",
+        "Home Team Rank Name": "Grd Canyon",
+        "DK Home Odds": {
+            "Spread": "-5.5",
+            "Spread Odds": "\u2212112",
+            "Home ML": "\u2212245"
+        },
+        "Game": {
+            "Start Time": "9:00PM",
+            "Total": "138",
+            "Over Total Odds": "\u2212112",
+            "Under Total Odds": "\u2212108",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Florida",
+        "Away Team Rank Name": "Florida",
+        "DK Away Odds": {
+            "Spread": "+4",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+154"
+        },
+        "Home Team": "Alabama",
+        "Home Team Rank Name": "Alabama",
+        "DK Home Odds": {
+            "Spread": "-4",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212185"
+        },
+        "Game": {
+            "Start Time": "9:30PM",
+            "Total": "171",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "North Carolina State",
+        "Away Team Rank Name": "NC State",
+        "DK Away Odds": {
+            "Spread": "+2.5",
+            "Spread Odds": "\u2212105",
+            "Away ML": "+124"
+        },
+        "Home Team": "Virginia",
+        "Home Team Rank Name": "Virginia",
+        "DK Home Odds": {
+            "Spread": "-2.5",
+            "Spread Odds": "\u2212115",
+            "Home ML": "\u2212148"
+        },
+        "Game": {
+            "Start Time": "9:30PM",
+            "Total": "121.5",
+            "Over Total Odds": "\u2212105",
+            "Under Total Odds": "\u2212115",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Temple",
+        "Away Team Rank Name": "Temple",
+        "DK Away Odds": {
+            "Spread": "+7",
+            "Spread Odds": "\u2212110",
+            "Away ML": "+240"
+        },
+        "Home Team": "Charlotte",
+        "Home Team Rank Name": "Charlotte",
+        "DK Home Odds": {
+            "Spread": "-7",
+            "Spread Odds": "\u2212110",
+            "Home ML": "\u2212298"
+        },
+        "Game": {
+            "Start Time": "9:30PM",
+            "Total": "130.5",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "San Diego State",
+        "Away Team Rank Name": "San Diego St",
+        "DK Away Odds": {
+            "Spread": "-3.5",
+            "Spread Odds": "\u2212112",
+            "Away ML": "\u2212166"
+        },
+        "Home Team": "Utah State",
+        "Home Team Rank Name": "Utah St",
+        "DK Home Odds": {
+            "Spread": "+3.5",
+            "Spread Odds": "\u2212108",
+            "Home ML": "+140"
+        },
+        "Game": {
+            "Start Time": "9:35PM",
             "Total": "137",
             "Over Total Odds": "\u2212112",
             "Under Total Odds": "\u2212108",
@@ -207,117 +621,117 @@
         }
     },
     {
-        "Away Team": "Santa Clara",
-        "Away Team Rank Name": "Santa Clara",
-        "DK Away Odds": {
-            "Spread": "+9",
-            "Spread Odds": "\u2212108",
-            "Away ML": "+370"
-        },
-        "Home Team": "Saint Marys",
-        "Home Team Rank Name": "St Marys",
-        "DK Home Odds": {
-            "Spread": "-9",
-            "Spread Odds": "\u2212112",
-            "Home ML": "\u2212485"
-        },
-        "Game": {
-            "Start Time": "9:00PM",
-            "Total": "134.5",
-            "Over Total Odds": "\u2212110",
-            "Under Total Odds": "\u2212110",
-            "League": "NCAAB"
-        }
-    },
-    {
-        "Away Team": "Milwaukee",
-        "Away Team Rank Name": "WI-Milwkee",
+        "Away Team": "Baylor",
+        "Away Team Rank Name": "Baylor",
         "DK Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "\u2212115",
-            "Away ML": "+100"
+            "Spread Odds": "\u2212110",
+            "Away ML": "+110"
         },
-        "Home Team": "Northern Kentucky",
-        "Home Team Rank Name": "N Kentucky",
+        "Home Team": "Iowa State",
+        "Home Team Rank Name": "Iowa St",
         "DK Home Odds": {
             "Spread": "-1.5",
-            "Spread Odds": "\u2212105",
-            "Home ML": "\u2212120"
-        },
-        "Game": {
-            "Start Time": "9:30PM",
-            "Total": "151",
-            "Over Total Odds": "\u2212112",
-            "Under Total Odds": "\u2212108",
-            "League": "NCAAB"
-        }
-    },
-    {
-        "Away Team": "Denver",
-        "Away Team Rank Name": "Denver",
-        "DK Away Odds": {
-            "Spread": "+1",
             "Spread Odds": "\u2212110",
-            "Away ML": "\u2212102"
-        },
-        "Home Team": "Omaha",
-        "Home Team Rank Name": "Neb Omaha",
-        "DK Home Odds": {
-            "Spread": "-1",
-            "Spread Odds": "\u2212110",
-            "Home ML": "\u2212118"
+            "Home ML": "\u2212130"
         },
         "Game": {
-            "Start Time": "9:30PM",
-            "Total": "155",
-            "Over Total Odds": "\u2212105",
-            "Under Total Odds": "\u2212115",
-            "League": "NCAAB"
-        }
-    },
-    {
-        "Away Team": "Portland State",
-        "Away Team Rank Name": "Portland St",
-        "DK Away Odds": {
-            "Spread": "+7.5",
-            "Spread Odds": "\u2212112",
-            "Away ML": "+260"
-        },
-        "Home Team": "Montana",
-        "Home Team Rank Name": "Montana",
-        "DK Home Odds": {
-            "Spread": "-7.5",
-            "Spread Odds": "\u2212108",
-            "Home ML": "\u2212325"
-        },
-        "Game": {
-            "Start Time": "10:00PM",
-            "Total": "145.5",
+            "Start Time": "9:35PM",
+            "Total": "134",
             "Over Total Odds": "\u2212110",
             "Under Total Odds": "\u2212110",
             "League": "NCAAB"
         }
     },
     {
-        "Away Team": "San Francisco",
-        "Away Team Rank Name": "San Francisco",
+        "Away Team": "Alabama A&M",
+        "Away Team Rank Name": "Alab A&M",
         "DK Away Odds": {
-            "Spread": "+8.5",
-            "Spread Odds": "\u2212110",
-            "Away ML": "+320"
+            "Spread": "+5",
+            "Spread Odds": "\u2212108",
+            "Away ML": "+180"
         },
-        "Home Team": "Gonzaga",
-        "Home Team Rank Name": "Gonzaga",
+        "Home Team": "Texas Southern",
+        "Home Team Rank Name": "TX Southern",
         "DK Home Odds": {
-            "Spread": "-8.5",
-            "Spread Odds": "\u2212110",
-            "Home ML": "\u2212410"
+            "Spread": "-5",
+            "Spread Odds": "\u2212112",
+            "Home ML": "\u2212218"
+        },
+        "Game": {
+            "Start Time": "9:35PM",
+            "Total": "134.5",
+            "Over Total Odds": "\u2212115",
+            "Under Total Odds": "\u2212105",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Colorado",
+        "Away Team Rank Name": "Colorado",
+        "DK Away Odds": {
+            "Spread": "-2",
+            "Spread Odds": "\u2212112",
+            "Away ML": "\u2212135"
+        },
+        "Home Team": "Washington State",
+        "Home Team Rank Name": "Wash State",
+        "DK Home Odds": {
+            "Spread": "+2",
+            "Spread Odds": "\u2212108",
+            "Home ML": "+114"
+        },
+        "Game": {
+            "Start Time": "10:30PM",
+            "Total": "138.5",
+            "Over Total Odds": "\u2212108",
+            "Under Total Odds": "\u2212112",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "Hawaii",
+        "Away Team Rank Name": "Hawaii",
+        "DK Away Odds": {
+            "Spread": "-1",
+            "Spread Odds": "\u2212112",
+            "Away ML": "\u2212120"
+        },
+        "Home Team": "UC Davis",
+        "Home Team Rank Name": "UC Davis",
+        "DK Home Odds": {
+            "Spread": "+1",
+            "Spread Odds": "\u2212108",
+            "Home ML": "+100"
         },
         "Game": {
             "Start Time": "11:30PM",
-            "Total": "149",
-            "Over Total Odds": "\u2212108",
-            "Under Total Odds": "\u2212112",
+            "Total": "135.5",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
+            "League": "NCAAB"
+        }
+    },
+    {
+        "Away Team": "UT Arlington",
+        "Away Team Rank Name": "TX-Arlington",
+        "DK Away Odds": {
+            "Spread": "-1.5",
+            "Spread Odds": "\u2212112",
+            "Away ML": "\u2212130"
+        },
+        "Home Team": "Tarleton State",
+        "Home Team Rank Name": "Tarleton St",
+        "DK Home Odds": {
+            "Spread": "+1.5",
+            "Spread Odds": "\u2212108",
+            "Home ML": "+110"
+        },
+        "Game": {
+            "Start Time": "11:30PM",
+            "Total": "145",
+            "Over Total Odds": "\u2212110",
+            "Under Total Odds": "\u2212110",
             "League": "NCAAB"
         }
     }
