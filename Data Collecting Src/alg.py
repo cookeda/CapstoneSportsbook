@@ -9,6 +9,8 @@
 import json
 import re
 import os
+import time
+from datetime import date as dt
 
 teamDict = {
     'Hawks': 'Atlanta',
@@ -332,6 +334,7 @@ def main():
     cleanfile("../data/results.txt")
     parlay = []
     lockparlay = []
+    d = dt.today()
     #print("General (LEAST ACCURATE): ")
     generalCover = generalAlg("Cover", "NBA")
     print(generalCover)
@@ -382,7 +385,15 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    gameInputFromJSON("../Scrapers/Data/nbadk.json", 'NBA')
+    #gameInputFromJSON("../Scrapers/Data/nbadk.json", 'NBA')
+
+    gameInput("Charlotte", "Phoenix", "NBA")
+    gameInput("Detroit", "Miami", "NBA")
+    gameInput("Toronto", "Orlando", "NBA")
+    gameInput("New Orleans", "LA Clippers", "NBA")
+    gameInput("San Antonio", "Denver", "NBA")
+    gameInput("Utah", "Atlanta", "NBA")
+
     gameInputFromJSON("../Scrapers/Data/cbbdk.json", 'CBB')
 
     # 7/7 So Far
@@ -396,9 +407,11 @@ def main():
 
     print("Locks: ")
     print(lockparlay)
+    print("Date: ", d)
     try:
         with open('../data/results.txt', 'a') as fp:
-            fp.write("\nLocks: " + '\n' + json.dumps(lockparlay))
+            fp.write("\nLocks: " + '\n' + json.dumps(lockparlay) + '\n')
+            fp.write("Date: " + str(d))
     except Exception as e:
         print(f"Error writing to file: {e}")
 

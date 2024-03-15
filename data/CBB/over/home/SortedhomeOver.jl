@@ -55,7 +55,7 @@
 {"Team": "Cleveland St", "Over %": "40.0%"} +1.0
 {"Team": "Coastal Car", "Over %": "52.9%"} -0.5
 {"Team": "Col Charlestn", "Over %": "64.3%"} +2.5
-{"Team": "Colgate", "Over %": "42.9%"} -3.2
+{"Team": "Colgate", "Over %": "40.0%"} -3.4
 {"Team": "Colorado St", "Over %": "53.3%"} +1.3
 {"Team": "Colorado", "Over %": "70.6%"} +4.9
 {"Team": "Columbia", "Over %": "58.3%"} +0.8
@@ -163,11 +163,11 @@
 {"Team": "Maryland BC", "Over %": "42.9%"} -4.8
 {"Team": "Maryland ES", "Over %": "44.4%"} -0.3
 {"Team": "Maryland", "Over %": "35.3%"} +2.4
-{"Team": "Mass Lowell", "Over %": "54.6%"} +2.8
-{"Team": "McNeese St", "Over %": "81.8%"} +4.5
+{"Team": "Mass Lowell", "Over %": "50.0%"} +1.7
+{"Team": "McNeese St", "Over %": "76.9%"} +5.6
 {"Team": "Memphis", "Over %": "53.3%"} +1.6
 {"Team": "Mercer", "Over %": "46.2%"} +1.2
-{"Team": "Merrimack", "Over %": "41.7%"} -5.5
+{"Team": "Merrimack", "Over %": "38.5%"} -6.5
 {"Team": "Miami (OH)", "Over %": "53.9%"} -1.8
 {"Team": "Miami", "Over %": "52.9%"} -2.4
 {"Team": "Michigan St", "Over %": "38.9%"} -3.6
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Over %": "85.7%"} +9.8
 {"Team": "Santa Clara", "Over %": "21.4%"} -9.2
 {"Team": "Seattle", "Over %": "35.3%"} -2.0
-{"Team": "Seton Hall", "Over %": "50.0%"} +4.6
+{"Team": "Seton Hall", "Over %": "52.9%"} +5.4
 {"Team": "Siena", "Over %": "42.9%"} -2.1
 {"Team": "South Dakota", "Over %": "63.6%"} +1.4
 {"Team": "Southern", "Over %": "0.0%"} -15.6
@@ -323,7 +323,7 @@
 {"Team": "UCSB", "Over %": "71.4%"} +4.7
 {"Team": "UCSD", "Over %": "42.9%"} +2.0
 {"Team": "UL Monroe", "Over %": "58.3%"} +0.6
-{"Team": "UNLV", "Over %": "46.2%"} -4.1
+{"Team": "UNLV", "Over %": "50.0%"} -3.1
 {"Team": "USC", "Over %": "60.0%"} +0.9
 {"Team": "UTSA", "Over %": "66.7%"} +4.7
 {"Team": "Utah St", "Over %": "46.2%"} +4.5
@@ -335,7 +335,7 @@
 {"Team": "VMI", "Over %": "27.3%"} -4.4
 {"Team": "Valparaiso", "Over %": "50.0%"} -1.6
 {"Team": "Vanderbilt", "Over %": "22.2%"} -1.7
-{"Team": "Vermont", "Over %": "15.4%"} -9.6
+{"Team": "Vermont", "Over %": "14.3%"} -9.8
 {"Team": "Villanova", "Over %": "40.0%"} -2.1
 {"Team": "Virginia", "Over %": "35.3%"} -8.8
 {"Team": "W Carolina", "Over %": "41.7%"} +4.6
