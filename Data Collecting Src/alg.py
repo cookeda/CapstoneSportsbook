@@ -309,24 +309,35 @@ def cleanfile(file):
 def main():
     global generalOver  # General Over Dict
     global generalOver2
+    global generalOver3
     global generalCover # General Cover Dict
     global generalCover2
+    global generalCover3
     global homeOver     # Home Over Dict
     global homeOver2
+    global homeOver3
     global homeCover    # Home Cover Dict
     global homeCover2
+    global homeCover3
     global awayOver     # Away Over Dict
     global awayOver2
+    global awayOver3
     global awayCover    # Away Cover Dict
     global awayCover2
+    global awayCover3
     global choNBA          # Combined Home Over
     global choCBB
+    global choMLB
     global chcNBA          # Combined Home Cover
     global chcCBB
+    global chcMLB
     global caoNBA          # Combined Away Over
     global caoCBB
+    global caoMLB
     global cacNBA          # Combined Away Cover
     global cacCBB
+    global cacMLB
+
     global parlay       # Parlay List
     global lockparlay
     global teamDict     # Team Dictionary in form City: Team Name
@@ -335,68 +346,56 @@ def main():
     parlay = []
     lockparlay = []
     d = dt.today()
-    #print("General (LEAST ACCURATE): ")
     generalCover = generalAlg("Cover", "NBA")
-    print(generalCover)
     generalOver = generalAlg("Over", "NBA")
     generalCover2 = generalAlg("Cover", "CBB")
     generalOver2 = generalAlg("Over", "CBB")
-    #bestOddsGeneral(generalCover, "Cover")
-    #bestOddsGeneral(generalOver, "Over")
+    generalCover3 = generalAlg("Cover", "MLB")
+    generalOver3 = generalAlg("Over", "MLB")
 
     # For Home
-    #print("CURRENT HOME ODDS: ")
     homeCover = getDict("../data/NBA/cover/home/SortedhomeCover.jl")
     homeCover2 = getDict("../data/CBB/cover/home/SortedhomeCover.jl")
-    #bestOdds(homeCover, "Cover", "Home")
+    homeCover3 = getDict("../data/MLB/cover/home/SortedhomeCover.jl")
+
     homeOver = getDict("../data/NBA/over/home/SortedhomeOver.jl")
     homeOver2 = getDict("../data/CBB/over/home/SortedhomeOver.jl")
-    #bestOdds(homeOver, "Over", "Home")
+    homeOver3 = getDict("../data/MLB/over/home/SortedHomeOver.jl")
 
     # For Away
-    #print("CURRENT AWAY ODDS: ")
     awayCover = getDict("../data/NBA/cover/away/SortedawayCover.jl")
     awayCover2 = getDict("../data/CBB/cover/away/SortedawayCover.jl")
-    #bestOdds(awayCover, "Cover", "Away")
+    awayCover3 = getDict("../data/MLB/cover/away/SortedawayCover.jl")
+
     awayOver = getDict("../data/NBA/over/away/SortedawayOver.jl")
     awayOver2 = getDict("../data/CBB/over/away/SortedawayOver.jl")
-    #bestOdds(awayOver, "Over", "Away")
+    awayOver3 = getDict("../data/MLB/over/away/SortedawayOver.jl")
 
-    # testing new stuff
-    #print("COMBINED (MOST ACCURATE): ")
-    #combine(generalCover, homeCover, .3, .7, "Cover", "Home")
-    #combine(generalOver, homeOver, .3, .7, "Over", "Home")
-    #combine(generalCover, awayCover, .3, .7, "Cover", "Away")
-    #combine(generalOver, awayOver, .3, .7, "Over", "Away")
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
-    #print("Scores for home over: ")
     choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
     choCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(homeOver2))
-    #print("Scores for home cover: ")
+    choMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
+
     chcNBA = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
     chcCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(homeCover2))
-    #print("Scores for away over: ")
+    chcMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(homeCover3))
+
     caoNBA = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
     caoCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(awayOver2))
-    #print("Scores for away cover: ")
+    caoMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
+
     cacNBA = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
     cacCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(awayCover2))
+    cacMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(awayCover3))
 
     # Run Manually
     #gameInput(home, away, league)
 
-    #gameInputFromJSON("../Scrapers/Data/nbadk.json", 'NBA')
-
-    gameInput("Charlotte", "Phoenix", "NBA")
-    gameInput("Detroit", "Miami", "NBA")
-    gameInput("Toronto", "Orlando", "NBA")
-    gameInput("New Orleans", "LA Clippers", "NBA")
-    gameInput("San Antonio", "Denver", "NBA")
-    gameInput("Utah", "Atlanta", "NBA")
-
+    gameInputFromJSON("../Scrapers/Data/nbadk.json", 'NBA')
     gameInputFromJSON("../Scrapers/Data/cbbdk.json", 'CBB')
+    # Not supported yet
+    # gameInputFromJSON("../Scrapers/Data/mlbdk.json", 'MLB')
 
-    # 7/7 So Far
     print("Recommended Bets: ")
     print(parlay)
     try:
@@ -415,8 +414,6 @@ def main():
     except Exception as e:
         print(f"Error writing to file: {e}")
 
-    # TARGET ALG?
-    # .5 Advanced Stats + .3 Spec Stats + .2 General Stats
 if __name__ == '__main__':
     main()
 

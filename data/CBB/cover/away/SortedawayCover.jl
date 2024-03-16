@@ -279,7 +279,7 @@
 {"Team": "Southern", "Cover %": "38.9%"} +0.1
 {"Team": "St Bonavent", "Cover %": "54.6%"} +1.6
 {"Team": "St Fran (PA)", "Cover %": "50.0%"} -0.5
-{"Team": "St Johns", "Cover %": "58.3%"} +3.2
+{"Team": "St Johns", "Cover %": "54.6%"} +2.1
 {"Team": "St Josephs", "Cover %": "41.7%"} -0.8
 {"Team": "St Marys", "Cover %": "77.8%"} +8.9
 {"Team": "St Peters", "Cover %": "62.5%"} +2.8

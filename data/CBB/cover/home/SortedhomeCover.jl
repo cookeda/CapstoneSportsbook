@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Cover %": "35.7%"} -3.3
 {"Team": "Santa Clara", "Cover %": "50.0%"} -0.6
 {"Team": "Seattle", "Cover %": "52.9%"} +0.5
-{"Team": "Seton Hall", "Cover %": "50.0%"} +2.0
+{"Team": "Seton Hall", "Cover %": "52.9%"} +3.0
 {"Team": "Siena", "Cover %": "28.6%"} -7.4
 {"Team": "South Dakota", "Cover %": "54.6%"} -0.1
 {"Team": "Southern", "Cover %": "70.0%"} +3.7
