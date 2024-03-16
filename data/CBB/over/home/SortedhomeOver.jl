@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Over %": "85.7%"} +9.8
 {"Team": "Santa Clara", "Over %": "21.4%"} -9.2
 {"Team": "Seattle", "Over %": "35.3%"} -2.0
-{"Team": "Seton Hall", "Over %": "52.9%"} +5.4
+{"Team": "Seton Hall", "Over %": "50.0%"} +4.6
 {"Team": "Siena", "Over %": "42.9%"} -2.1
 {"Team": "South Dakota", "Over %": "63.6%"} +1.4
 {"Team": "Southern", "Over %": "0.0%"} -15.6

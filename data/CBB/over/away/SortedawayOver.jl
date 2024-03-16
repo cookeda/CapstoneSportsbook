@@ -279,7 +279,7 @@
 {"Team": "Southern", "Over %": "44.4%"} +1.5
 {"Team": "St Bonavent", "Over %": "54.6%"} +1.5
 {"Team": "St Fran (PA)", "Over %": "25.0%"} -3.8
-{"Team": "St Johns", "Over %": "72.7%"} +5.0
+{"Team": "St Johns", "Over %": "70.0%"} +3.8
 {"Team": "St Josephs", "Over %": "75.0%"} +5.5
 {"Team": "St Marys", "Over %": "44.4%"} -2.8
 {"Team": "St Peters", "Over %": "50.0%"} -1.8
