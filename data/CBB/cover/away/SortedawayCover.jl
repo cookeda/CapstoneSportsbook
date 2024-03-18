@@ -163,7 +163,7 @@
 {"Team": "Maryland BC", "Cover %": "70.6%"} +3.8
 {"Team": "Maryland ES", "Cover %": "46.7%"} -4.0
 {"Team": "Maryland", "Cover %": "50.0%"} +1.5
-{"Team": "Mass Lowell", "Cover %": "62.5%"} +2.5
+{"Team": "Mass Lowell", "Cover %": "64.7%"} +2.6
 {"Team": "McNeese St", "Cover %": "50.0%"} +6.0
 {"Team": "Memphis", "Cover %": "38.5%"} +1.1
 {"Team": "Mercer", "Cover %": "58.3%"} +2.2

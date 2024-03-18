@@ -163,7 +163,7 @@
 {"Team": "Maryland BC", "Over %": "64.7%"} +7.4
 {"Team": "Maryland ES", "Over %": "26.7%"} -5.7
 {"Team": "Maryland", "Over %": "50.0%"} -4.0
-{"Team": "Mass Lowell", "Over %": "50.0%"} +0.3
+{"Team": "Mass Lowell", "Over %": "47.1%"} -0.3
 {"Team": "McNeese St", "Over %": "42.9%"} -4.6
 {"Team": "Memphis", "Over %": "75.0%"} +10.0
 {"Team": "Mercer", "Over %": "76.9%"} +5.5

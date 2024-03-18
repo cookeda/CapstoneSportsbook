@@ -335,7 +335,7 @@
 {"Team": "VMI", "Over %": "27.3%"} -4.4
 {"Team": "Valparaiso", "Over %": "50.0%"} -1.6
 {"Team": "Vanderbilt", "Over %": "22.2%"} -1.7
-{"Team": "Vermont", "Over %": "14.3%"} -9.8
+{"Team": "Vermont", "Over %": "13.3%"} -9.8
 {"Team": "Villanova", "Over %": "40.0%"} -2.1
 {"Team": "Virginia", "Over %": "35.3%"} -8.8
 {"Team": "W Carolina", "Over %": "41.7%"} +4.6
