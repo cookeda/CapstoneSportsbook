@@ -1,4 +1,6 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-/geckodriver.log
+#Ignores driver log no matter what folder its in
+geckodriver.log
+chromedriver.exe

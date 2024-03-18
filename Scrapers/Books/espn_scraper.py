@@ -43,13 +43,19 @@ def find_element_text_or_not_found(driver, xpath, wait_time=10):
     except:
         return 'N/A'
 
+#Espn has +100 odds set to 'Even'
+def check_even(text):
+    if text == 'Even':
+        return '+100'
+    return text
+
 def scrape(matchup_num):
     matchup_num *= 2
     x = matchup_num - 1  # Indicates Away Team
     y = matchup_num      # Indicates Home Team
 
-    away_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div[2]/div[2]/div[{matchup_num}]/div/div[2]/div[1]/button/div[1]/div/div')
-    home_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div[2]/div[2]/div[{matchup_num}]/div/div[3]/div[1]/button/div[1]/div/div')
+    away_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div/div/div[{x}]/div[1]/button/div/div/div[1]v')
+    home_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div/div/div[{y}]/div[1]/button/div/div/div[1]')
     away_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div[2]/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[1]/span[1]')
     away_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div[2]/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[1]/span[2]')
     total_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div[2]/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[2]/span[1]')
@@ -62,27 +68,29 @@ def scrape(matchup_num):
     start_time_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div[2]/div[2]/div[{matchup_num}]/div/div[1]/button/span')
     #away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
     #home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
+    # List of all the odds text variables
+    
 
     matchup = {
         'Away Team': away_team_text, 
     #    'Away Team Rank Name': away_team_rank_name, 
         'DK Away Odds': {
             'Spread': away_spread_text, 
-            'Spread Odds': away_spread_odds_text, 
-            'Away ML': away_ml_text
+            'Spread Odds': check_even(away_spread_odds_text), 
+            'Away ML': check_even(away_ml_text)
         }, 
         'Home Team': home_team_text, 
     #    'Home Team Rank Name': home_team_rank_name, 
         'DK Home Odds': {
             'Spread': home_spread_text, 
-            'Spread Odds': home_spread_odds_text, 
-            'Home ML': home_ml_text
+            'Spread Odds': check_even(home_spread_odds_text), 
+            'Home ML': check_even(home_ml_text)
         },
         'Game': {
             'Start Time': start_time_text, 
             'Total': total_text, 
-            'Over Total Odds': over_total_odds_text, 
-            'Under Total Odds': under_total_odds_text,
+            'Over Total Odds': check_even(over_total_odds_text), 
+            'Under Total Odds': check_even(under_total_odds_text),
             'League' : 'NBA'
         }
     }
@@ -91,16 +99,16 @@ def scrape(matchup_num):
     return matchup
 
 driver = webdriver.Chrome()
-driver.get("https://espnbet.com/sport/basketball/organization/united-states/competition/nba/featured-page")
+driver.get("https://espnbet.com/sport/baseball/organization/united-states/competition/mlb/featured-page")
 
 
 time.sleep(10)  # Reduced sleep time after initial load
 #specific_tbody = driver.find_element(By.CSS_SELECTOR, 'tbody.sportsbook-table__body')
 
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
-number_of_games = 14# num_rows/2
+number_of_games = 1# num_rows/2
 all_matchups = []
-for z in range(6, 14):
+for z in range(number_of_games - 1, number_of_games + 1):
     print(f'{z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:
@@ -108,11 +116,9 @@ for z in range(6, 14):
         
 #Writes to JSON
 try:
-    with open('Scrapers/Data/espn.json', 'w') as fp:
+    with open('Scrapers/Data/ESPN/MLB.json', 'w') as fp:
         json.dump(all_matchups, fp, indent=4)
 except Exception as e:
     print(f"Error writing to file: {e}")
 
 driver.quit()
-
-git 
