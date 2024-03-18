@@ -1,1 +1,18 @@
-PLAN: Scrape multiple books to exploit price differences, along with algorithm to predict best NBA Team bets to place. Develop into app after
+DegenBets
+=
+##### Details: Uses an algorithm to process team's historic stats and finds bets that are worth taking in two categories
+- Recommended
+- Locks
+
+Books
+-
+- DraftKings
+- BetMGM
+- ESPNBet
+  - Possibles
+    - Bet365
+    - Pinnacle
+    - FanDuel
+    - Ceasers
+
+Generate into iOS app is the last step.
