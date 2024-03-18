@@ -335,7 +335,7 @@
 {"Team": "VMI", "Cover %": "45.5%"} -2.9
 {"Team": "Valparaiso", "Cover %": "37.5%"} -3.0
 {"Team": "Vanderbilt", "Cover %": "44.4%"} -4.5
-{"Team": "Vermont", "Cover %": "35.7%"} -1.5
+{"Team": "Vermont", "Cover %": "33.3%"} -1.7
 {"Team": "Villanova", "Cover %": "60.0%"} +0.8
 {"Team": "Virginia", "Cover %": "62.5%"} +2.7
 {"Team": "W Carolina", "Cover %": "41.7%"} +2.1
