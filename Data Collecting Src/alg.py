@@ -86,18 +86,6 @@ def bestOddsGeneral(result_dict, stat):
     if stat == "Over":
         print("Generally, the most likely team to go over is: " + bestTeam + " Chance: " + str(bestChance))
 
-# Generates best team for a specified stat (Away, Home)
-def bestOdds(result_dict, stat, spec):
-    bestChance = -99
-    bestTeam = "Nobody"
-    i = 1
-    for team in result_dict:
-        percent = float(result_dict[team])
-        if percent > bestChance:
-            bestChance = percent
-            bestTeam = team
-    #print("Best team at " + spec + " for the stat: " + stat + " is " + bestTeam + " at " + str(bestChance))
-
 # Gets python dictionary from a file
 def getDict(file):
     result_dict = {}
@@ -111,20 +99,6 @@ def getDict(file):
 
             result_dict[team] = percent
     return result_dict
-
-# Combines different dictionaries to create a new one
-# Uses bestOdds to get best team on this combination
-def combine(dict1, dict2, dec1, dec2, stat, spec):
-    if((dec1 + dec2) == 1):
-        final_dict = {}
-        for team1, team2 in zip(dict1, dict2):
-            fifty1 = dict1[team1]
-            fifty2 = dict2[team2]
-            perchance = (dec1 * fifty1) + (dec2 * fifty2)
-            final_dict[team1] = perchance
-
-        bestOdds(final_dict, stat, spec)
-        #print(final_dict)
 
 def combineOnRanking(dict1, dict2):
     return_dict = {}
@@ -395,7 +369,6 @@ def main():
     gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
     # TODO: MLB NOT SUPPORTED
     #gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB')
-
     print("Recommended Bets: ")
     print(parlay)
     try:
