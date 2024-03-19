@@ -25,6 +25,7 @@ def scrape(link, file, type):
         if plusminus == "0.0":
             plusminus = "+0.0"
         cover["Team"] = team
+        #print(team)
         cover[type + " %"] = percent
         i += 1
         with open(file, 'a') as fp:
