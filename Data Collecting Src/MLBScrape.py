@@ -47,7 +47,10 @@ def cleanfile(file):
 # Might have to break this into different classes due to weird runtime issues
 def main():
     # Clean Files
-    direct = "../data/MLB"
+    # Connor
+    # direct = "../data/MLB"
+    # Devin
+    direct = "data/MLB"
     cleanfile(direct + "/over/CurrentSeasonOU.jl")
     cleanfile(direct + "/cover/CurrentSeasonCover.jl")
     cleanfile(direct + "/cover/10YearCover.jl")
@@ -61,25 +64,25 @@ def main():
 
     tasks = [
         {"message": "Starting This Year's Stats", "url": "ou_trends/?range=yearly_2023_2024",
-         "file": "../data/MLB/over/CurrentSeasonOU.jl", "type": "Over"},
+         "file": direct + "/over/CurrentSeasonOU.jl", "type": "Over"},
         {"message": "Starting This Year's Stats", "url": "ats_trends/?range=yearly_2023_2024",
-         "file": "../data/MLB/cover/CurrentSeasonCover.jl", "type": "Cover"},
+         "file": direct + "/cover/CurrentSeasonCover.jl", "type": "Cover"},
         {"message": "Starting Last 10 Years", "url": "ats_trends/?range=yearly_since_2013_2014",
-         "file": "../data/MLB/cover/10YearCover.jl", "type": "Cover"},
+         "file": direct + "/cover/10YearCover.jl", "type": "Cover"},
         {"message": "Starting Last 10 Years", "url": "ou_trends/?range=yearly_since_2013_2014",
-         "file": "../data/MLB/over/10YearOU.jl", "type": "Over"},
+         "file": direct + "/over/10YearOU.jl", "type": "Over"},
         {"message": "Starting All Time Stats", "url": "ats_trends/?range=yearly_all",
-         "file": "../data/MLB/cover/AllTimeCover.jl", "type": "Cover"},
+         "file": direct + "/cover/AllTimeCover.jl", "type": "Cover"},
         {"message": "Starting All Time Stats", "url": "ou_trends/?range=yearly_all",
-         "file": "../data/MLB/over/AllTimeOU.jl", "type": "Over"},
+         "file": direct + "/over/AllTimeOU.jl", "type": "Over"},
         {"message": "Starting Current Home Stats", "url": "ats_trends/?sc=is_home",
-         "file": "../data/MLB/cover/homeCover.jl", "type": "Cover"},
+         "file": direct + "/cover/homeCover.jl", "type": "Cover"},
         {"message": "Starting Current Home Stats", "url": "ou_trends/?sc=is_home",
-         "file": "../data/MLB/over/homeOver.jl", "type": "Over"},
+         "file": direct + "/over/homeOver.jl", "type": "Over"},
         {"message": "Starting Current Away Stats", "url": "ats_trends/?sc=is_away",
-         "file": "../data/MLB/cover/awayCover.jl", "type": "Cover"},
+         "file": direct + "/cover/awayCover.jl", "type": "Cover"},
         {"message": "Starting Current Away Stats", "url": "ou_trends/?sc=is_away",
-         "file": "../data/MLB/over/awayOver.jl", "type": "Over"}
+         "file": direct + "/over/awayOver.jl", "type": "Over"}
     ]
 
     for task in tasks:

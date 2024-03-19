@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"Team": "Atlanta", "Cover %": "35.3%"} -2.5
 {"Team": "Boston", "Cover %": "51.6%"} +1.3
 {"Team": "Brooklyn", "Cover %": "33.3%"} -3.4
@@ -28,3 +29,5 @@
 {"Team": "Toronto", "Cover %": "50.0%"} -1.5
 {"Team": "Utah", "Cover %": "40.6%"} -5.6
 {"Team": "Washington", "Cover %": "55.6%"} -0.6
+=======
+>>>>>>> b89df92ec3a42646cea1f677c4b52a67a7f0c6e7
