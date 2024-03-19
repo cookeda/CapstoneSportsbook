@@ -11,7 +11,7 @@ import json
 # For Connor
 webdriver.chrome
 
-with open('Dictionary/College/NCAAB Teams.json', 'r') as file:
+with open('../../../Dictionary/College/NCAAB Teams.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
@@ -113,7 +113,7 @@ for z in range(1, int(number_of_games)+1):
         
 #Writes to JSON
 try:
-    with open('Scrapers/Data/DK/MLB.json', 'w', encoding='utf-8') as fp:
+    with open('../../Data/DK/MLB.json', 'w', encoding='utf-8') as fp:
         json.dump(all_matchups, fp, indent=4, ensure_ascii=False)
 except Exception as e:
     print(f"Error writing to file: {e}")

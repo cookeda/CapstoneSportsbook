@@ -391,10 +391,10 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    gameInputFromJSON("../Scrapers/Data/nbadk.json", 'NBA')
-    gameInputFromJSON("../Scrapers/Data/cbbdk.json", 'CBB')
-    # Not supported yet
-    # gameInputFromJSON("../Scrapers/Data/mlbdk.json", 'MLB')
+    gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA')
+    gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
+    # TODO: MLB NOT SUPPORTED
+    #gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB')
 
     print("Recommended Bets: ")
     print(parlay)
