@@ -4,25 +4,30 @@ import os
 # Removes unsorted folder
 # Must specify stat as type (ex: Cover, Over, etc)
 def sortFile(file, type, location, league):
+    #Connor
+    #direct = "../data"
+    #Devin
+    direct = "data/"
     if type == "cover":
-        cleanfile("../data/" + league + "/cover/" + location + "/Sorted" + file)
+
+        cleanfile(direct + league + "/cover/" + location + "/Sorted" + file)
         try:
-            with open("../data/" + league + "/cover/" + file, 'r') as r:
+            with open(direct + league + "/cover/" + file, 'r') as r:
                 for line in sorted(r):
-                    with open("../data/" + league + "/cover/" + location + "/Sorted" + file, 'a') as s:
+                    with open(direct + league + "/cover/" + location + "/Sorted" + file, 'a') as s:
                         s.write(line)
-            cleanfile("../data/" + league + "/cover/" + file)
+            cleanfile(direct + league + "/cover/" + file)
         except FileNotFoundError:
             print("File not found " + file)
 
     if type == "over":
-        cleanfile("../data/" + league + "/over/" + location + "/Sorted" + file)
+        cleanfile(direct  + league + "/over/" + location + "/Sorted" + file)
         try:
-            with open("../data/" + league + "/over/" + file, 'r') as r:
+            with open(direct + league + "/over/" + file, 'r') as r:
                 for line in sorted(r):
-                    with open("../data/" + league + "/over/" + location + "/Sorted" + file, 'a') as s:
+                    with open(direct + league + "/over/" + location + "/Sorted" + file, 'a') as s:
                         s.write(line)
-            cleanfile("../data/" + league + "/over/" + file)
+            cleanfile(direct + league + "/over/" + file)
         except FileNotFoundError:
             print("File not found: " + file)
 def cleanfile(file):
