@@ -9,8 +9,13 @@
 {"Team": "San Diego", "Cover %": "49.4%"} -0.5
 {"Team": "Minnesota", "Cover %": "48.2%"} -0.4
 {"Team": "Pittsburgh", "Cover %": "48.2%"} -0.4
+<<<<<<< HEAD
 {"Team": "Oakland", "Cover %": "48.2%"} -0.7
 {"Team": "NY Mets", "Cover %": "48.2%"} -0.4
+=======
+{"Team": "NY Mets", "Cover %": "48.2%"} -0.4
+{"Team": "Oakland", "Cover %": "48.2%"} -0.7
+>>>>>>> b89df92ec3a42646cea1f677c4b52a67a7f0c6e7
 {"Team": "Atlanta", "Cover %": "47.0%"} -0.2
 {"Team": "Baltimore", "Cover %": "47.0%"} -0.5
 {"Team": "Cleveland", "Cover %": "46.9%"} -0.6

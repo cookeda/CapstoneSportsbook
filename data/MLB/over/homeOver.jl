@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 {"Team": "Texas", "Over %": "63.8%"} +2.0
 {"Team": "Tampa Bay", "Over %": "63.8%"} +1.1
+=======
+{"Team": "Tampa Bay", "Over %": "63.8%"} +1.1
+{"Team": "Texas", "Over %": "63.8%"} +2.0
+>>>>>>> b89df92ec3a42646cea1f677c4b52a67a7f0c6e7
 {"Team": "Atlanta", "Over %": "59.8%"} +1.1
 {"Team": "Pittsburgh", "Over %": "59.5%"} +0.5
 {"Team": "Houston", "Over %": "58.1%"} +0.8

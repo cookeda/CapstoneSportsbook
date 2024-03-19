@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"Team": "Sacramento", "Over %": "62.5%"} +4.0
 {"Team": "Golden State", "Over %": "60.0%"} +2.5
 {"Team": "Indiana", "Over %": "58.3%"} +3.3
@@ -13,6 +14,23 @@
 {"Team": "Philadelphia", "Over %": "50.0%"} -1.2
 {"Team": "Charlotte", "Over %": "48.5%"} -2.6
 {"Team": "Boston", "Over %": "47.1%"} +1.1
+=======
+{"Team": "Sacramento", "Over %": "61.3%"} +3.7
+{"Team": "Indiana", "Over %": "60.0%"} +3.8
+{"Team": "Golden State", "Over %": "58.8%"} +2.0
+{"Team": "Utah", "Over %": "57.6%"} +5.7
+{"Team": "Milwaukee", "Over %": "57.6%"} +3.5
+{"Team": "Atlanta", "Over %": "56.3%"} +5.9
+{"Team": "Cleveland", "Over %": "54.6%"} +1.6
+{"Team": "Okla City", "Over %": "53.1%"} +1.7
+{"Team": "San Antonio", "Over %": "53.1%"} +1.5
+{"Team": "Brooklyn", "Over %": "52.9%"} -0.9
+{"Team": "Chicago", "Over %": "52.9%"} +1.6
+{"Team": "Philadelphia", "Over %": "51.4%"} -0.7
+{"Team": "LA Lakers", "Over %": "50.0%"} -0.1
+{"Team": "Boston", "Over %": "48.5%"} +1.4
+{"Team": "Charlotte", "Over %": "48.5%"} -2.6
+>>>>>>> b89df92ec3a42646cea1f677c4b52a67a7f0c6e7
 {"Team": "Phoenix", "Over %": "47.1%"} -1.2
 {"Team": "Houston", "Over %": "46.9%"} +0.5
 {"Team": "Miami", "Over %": "46.9%"} +1.5

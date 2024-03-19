@@ -63,7 +63,6 @@
 {"Team": "St Peters", "Cover %": "62.5%"} +2.8
 {"Team": "UC Irvine", "Cover %": "62.5%"} +2.8
 {"Team": "Austin Peay", "Cover %": "62.5%"} +0.7
-{"Team": "W Kentucky", "Cover %": "61.5%"} +3.8
 {"Team": "Murray St", "Cover %": "61.5%"} +5.9
 {"Team": "Buffalo", "Cover %": "61.5%"} +2.7
 {"Team": "Yale", "Cover %": "61.5%"} +1.6
@@ -322,40 +321,6 @@
 {"Team": "Marshall", "Cover %": "33.3%"} -4.6
 {"Team": "Oklahoma", "Cover %": "33.3%"} -1.2
 {"Team": "SE Missouri", "Cover %": "33.3%"} -3.7
-{"Team": "Stonehill", "Cover %": "31.6%"} -3.6
-{"Team": "IUPUI", "Cover %": "31.3%"} -6.0
-{"Team": "Drexel", "Cover %": "31.3%"} -2.2
-{"Team": "Utah Tech", "Cover %": "31.3%"} -2.5
-{"Team": "San Jose St", "Cover %": "30.8%"} -4.3
-{"Team": "Florida Intl", "Cover %": "30.8%"} -2.8
-{"Team": "Portland", "Cover %": "30.8%"} -6.5
-{"Team": "U Penn", "Cover %": "30.8%"} -3.1
-{"Team": "Kent St", "Cover %": "30.8%"} -2.9
-{"Team": "Fla Atlantic", "Cover %": "30.0%"} -6.1
-{"Team": "Kansas", "Cover %": "30.0%"} -6.7
-{"Team": "Wichita St", "Cover %": "30.0%"} -1.2
-{"Team": "Utah St", "Cover %": "30.0%"} +0.2
-{"Team": "BYU", "Cover %": "30.0%"} -2.9
-{"Team": "Incar Word", "Cover %": "29.4%"} -1.7
-{"Team": "Pacific", "Cover %": "28.6%"} -6.8
-{"Team": "Kennesaw St", "Cover %": "28.6%"} -4.4
-{"Team": "N Mex State", "Cover %": "28.6%"} -7.2
-{"Team": "Furman", "Cover %": "28.6%"} -2.1
-{"Team": "Wake Forest", "Cover %": "27.3%"} -2.0
-{"Team": "Utah", "Cover %": "27.3%"} -8.1
-{"Team": "TX El Paso", "Cover %": "27.3%"} -1.2
-{"Team": "TN State", "Cover %": "26.7%"} -3.2
-{"Team": "Charlotte", "Cover %": "25.0%"} -2.3
-{"Team": "Wisconsin", "Cover %": "25.0%"} -5.0
-{"Team": "Old Dominion", "Cover %": "25.0%"} -3.4
-{"Team": "Ste F Austin", "Cover %": "23.1%"} -4.3
-{"Team": "Dartmouth", "Cover %": "23.1%"} -5.2
-{"Team": "W Virginia", "Cover %": "22.2%"} -6.2
-{"Team": "SIU Edward", "Cover %": "21.4%"} -5.1
-{"Team": "San Diego St", "Cover %": "21.4%"} -2.0
-{"Team": "Tulsa", "Cover %": "20.0%"} -5.8
-{"Team": "Houston", "Cover %": "20.0%"} -2.5
-{"Team": "Miss State", "Cover %": "20.0%"} -3.8
 {"Team": "Michigan", "Cover %": "18.2%"} -4.4
 {"Team": "VA Tech", "Cover %": "18.2%"} -5.5
 {"Team": "Liberty", "Cover %": "10.0%"} -8.1

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"Team": "Arizona", "Over %": "40.2%"} -0.1
 {"Team": "Atlanta", "Over %": "59.8%"} +1.1
 {"Team": "Baltimore", "Over %": "45.5%"} +0.0
@@ -28,3 +29,5 @@
 {"Team": "Texas", "Over %": "63.8%"} +2.0
 {"Team": "Toronto", "Over %": "42.1%"} -0.3
 {"Team": "Washington", "Over %": "52.6%"} +0.7
+=======
+>>>>>>> b89df92ec3a42646cea1f677c4b52a67a7f0c6e7

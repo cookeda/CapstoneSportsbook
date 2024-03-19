@@ -16,14 +16,24 @@
 {"Team": "NY Yankees", "Cover %": "50.6%"} -0.5
 {"Team": "Cincinnati", "Cover %": "50.6%"} +0.5
 {"Team": "SF Giants", "Cover %": "48.8%"} -0.3
+<<<<<<< HEAD
 {"Team": "Detroit", "Cover %": "48.2%"} +0.3
 {"Team": "Boston", "Cover %": "48.2%"} +0.0
+=======
+{"Team": "Boston", "Cover %": "48.2%"} +0.0
+{"Team": "Detroit", "Cover %": "48.2%"} +0.3
+>>>>>>> b89df92ec3a42646cea1f677c4b52a67a7f0c6e7
 {"Team": "Cleveland", "Cover %": "46.9%"} -0.2
 {"Team": "Pittsburgh", "Cover %": "46.9%"} +0.3
 {"Team": "NY Mets", "Cover %": "46.3%"} -0.2
 {"Team": "LA Angels", "Cover %": "45.1%"} -0.4
+<<<<<<< HEAD
 {"Team": "St. Louis", "Cover %": "43.8%"} -0.7
 {"Team": "Washington", "Cover %": "43.8%"} +0.4
+=======
+{"Team": "Washington", "Cover %": "43.8%"} +0.4
+{"Team": "St. Louis", "Cover %": "43.8%"} -0.7
+>>>>>>> b89df92ec3a42646cea1f677c4b52a67a7f0c6e7
 {"Team": "Chi Sox", "Cover %": "37.7%"} -0.6
 {"Team": "Colorado", "Cover %": "36.4%"} -0.2
 {"Team": "Kansas City", "Cover %": "34.6%"} +0.0
