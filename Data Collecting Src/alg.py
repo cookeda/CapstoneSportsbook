@@ -54,9 +54,9 @@ def generalAlg(stat, league):
         type2 = "OU"
 
     result_dict = {}
-    with open("../data/" + league + "/" + stat.lower() + "/general/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
-        with open("../data/" + league + "/" + stat.lower() + "/general/SortedAllTime" + type2 + ".jl", 'r') as all:
-            with open("../data/" + league + "/" + stat.lower() + "/general/Sorted10Year" + type2 + ".jl", 'r') as ten:
+    with open(direct + league + "/" + stat.lower() + "/general/SortedCurrentSeason" + type2 + ".jl", 'r') as current:
+        with open(direct + league + "/" + stat.lower() + "/general/SortedAllTime" + type2 + ".jl", 'r') as all:
+            with open(direct + league + "/" + stat.lower() + "/general/Sorted10Year" + type2 + ".jl", 'r') as ten:
                 for sixty, tenp, thirty in zip(current, all, ten):
                     team_search = re.search(r'"Team":\s*"([^"]+)"', thirty)
                     team = team_search.group(1).strip()
@@ -145,7 +145,7 @@ def sortByRank(input_dict):
 def gameInput(homeTeam, awayTeam, league):
     print("-----------------------------")
     try:
-        with open('../data/results.txt', 'a') as fp:
+        with open(direct + 'results.txt', 'a') as fp:
             fp.write("-----------------------------" + '\n')
     except Exception as e:
         print(f"Error writing to file: {e}")
@@ -173,7 +173,7 @@ def gameInput(homeTeam, awayTeam, league):
 
     print("For " + awayTeam + " At " + homeTeam + ":")
     try:
-        with open('../data/results.txt', 'a') as fp:
+        with open(direct + 'results.txt', 'a') as fp:
             fp.write("For " + awayTeam + " At " + homeTeam + ":" + '\n')
     except Exception as e:
         print(f"Error writing to file: {e}")
@@ -182,14 +182,14 @@ def gameInput(homeTeam, awayTeam, league):
     if overHome <= midTier and overAway <= midTier:
         if overHome <= topTier and overAway <= topTier:
             try:
-                with open('../data/results.txt', 'a') as fp:
+                with open(direct + 'results.txt', 'a') as fp:
                     fp.write("Lock ALERT!" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
             print("LOCK ALERT!")
             lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
         try:
-            with open('../data/results.txt', 'a') as fp:
+            with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Take the over!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
@@ -201,14 +201,14 @@ def gameInput(homeTeam, awayTeam, league):
     elif overHome > lowTier and overAway > lowTier:
         if overHome > ass and overAway > ass:
             try:
-                with open('../data/results.txt', 'a') as fp:
+                with open(direct + 'results.txt', 'a') as fp:
                     fp.write("Lock ALERT!" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
             print("LOCK ALERT!")
             lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
         try:
-            with open('../data/results.txt', 'a') as fp:
+            with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Take the under!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
@@ -220,7 +220,7 @@ def gameInput(homeTeam, awayTeam, league):
     else:
         print("Don't bet on O/U")
         try:
-            with open('../data/results.txt', 'a') as fp:
+            with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Don't bet on O/U" + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
@@ -230,14 +230,14 @@ def gameInput(homeTeam, awayTeam, league):
         if coverHome <= topTier and coverAway > ass:
             print("LOCK ALERT!")
             try:
-                with open('../data/results.txt', 'a') as fp:
+                with open(direct + 'results.txt', 'a') as fp:
                     fp.write("LOCK ALERT!" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
             lockparlay.append(league + ": " + homeTeam + ": Cover")
         print("Bet on " + homeTeam + " to Cover!")
         try:
-            with open('../data/results.txt', 'a') as fp:
+            with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
@@ -248,14 +248,14 @@ def gameInput(homeTeam, awayTeam, league):
         if coverHome > ass and coverAway <= topTier:
             print("LOCK ALERT!")
             try:
-                with open('../data/results.txt', 'a') as fp:
+                with open(direct + 'results.txt', 'a') as fp:
                     fp.write("LOCK ALERT!" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
             lockparlay.append(league + ": " + awayTeam + ": Cover")
         print("Bet on " + awayTeam + " to Cover!")
         try:
-            with open('../data/results.txt', 'a') as fp:
+            with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
@@ -265,28 +265,28 @@ def gameInput(homeTeam, awayTeam, league):
     else:
         print("We do not recommend, but you do you")
         try:
-            with open('../data/results.txt', 'a') as fp:
+            with open(direct + 'results.txt', 'a') as fp:
                 fp.write("We do not recommend, but you do you" + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
         if coverHome > coverAway:
             print("Bet on " + homeTeam + " to Cover!")
             try:
-                with open('../data/results.txt', 'a') as fp:
+                with open(direct + 'results.txt', 'a') as fp:
                     fp.write("Bet on " + homeTeam + " to Cover!" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
         elif coverAway > coverHome:
             print("Bet on " + awayTeam + " to Cover!")
             try:
-                with open('../data/results.txt', 'a') as fp:
+                with open(direct + 'results.txt', 'a') as fp:
                     fp.write("Bet on " + awayTeam + " to Cover!" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
         else:
             print("EVEN ODDS DON'T BET")
             try:
-                with open('../data/results.txt', 'a') as fp:
+                with open(direct + 'results.txt', 'a') as fp:
                     fp.write("EVEN ODDS DON'T BET" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
@@ -341,8 +341,13 @@ def main():
     global parlay       # Parlay List
     global lockparlay
     global teamDict     # Team Dictionary in form City: Team Name
+    global direct
+    # Connor
+    #direct = "../data/"
+    # Devin
+    direct = "data/"
 
-    cleanfile("../data/results.txt")
+    cleanfile(direct + "results.txt")
     parlay = []
     lockparlay = []
     d = dt.today()
@@ -354,22 +359,22 @@ def main():
     generalOver3 = generalAlg("Over", "MLB")
 
     # For Home
-    homeCover = getDict("../data/NBA/cover/home/SortedhomeCover.jl")
-    homeCover2 = getDict("../data/CBB/cover/home/SortedhomeCover.jl")
-    homeCover3 = getDict("../data/MLB/cover/home/SortedhomeCover.jl")
+    homeCover = getDict(direct + "NBA/cover/home/SortedhomeCover.jl")
+    homeCover2 = getDict(direct + "CBB/cover/home/SortedhomeCover.jl")
+    homeCover3 = getDict(direct + "MLB/cover/home/SortedhomeCover.jl")
 
-    homeOver = getDict("../data/NBA/over/home/SortedhomeOver.jl")
-    homeOver2 = getDict("../data/CBB/over/home/SortedhomeOver.jl")
-    homeOver3 = getDict("../data/MLB/over/home/SortedHomeOver.jl")
+    homeOver = getDict(direct + "NBA/over/home/SortedhomeOver.jl")
+    homeOver2 = getDict(direct + "CBB/over/home/SortedhomeOver.jl")
+    homeOver3 = getDict(direct + "MLB/over/home/SortedHomeOver.jl")
 
     # For Away
-    awayCover = getDict("../data/NBA/cover/away/SortedawayCover.jl")
-    awayCover2 = getDict("../data/CBB/cover/away/SortedawayCover.jl")
-    awayCover3 = getDict("../data/MLB/cover/away/SortedawayCover.jl")
+    awayCover = getDict(direct + "NBA/cover/away/SortedawayCover.jl")
+    awayCover2 = getDict(direct + "CBB/cover/away/SortedawayCover.jl")
+    awayCover3 = getDict(direct + "MLB/cover/away/SortedawayCover.jl")
 
-    awayOver = getDict("../data/NBA/over/away/SortedawayOver.jl")
-    awayOver2 = getDict("../data/CBB/over/away/SortedawayOver.jl")
-    awayOver3 = getDict("../data/MLB/over/away/SortedawayOver.jl")
+    awayOver = getDict(direct + "NBA/over/away/SortedawayOver.jl")
+    awayOver2 = getDict(direct + "CBB/over/away/SortedawayOver.jl")
+    awayOver3 = getDict(direct + "MLB/over/away/SortedawayOver.jl")
 
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
     choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
@@ -399,7 +404,7 @@ def main():
     print("Recommended Bets: ")
     print(parlay)
     try:
-        with open('../data/results.txt', 'a') as fp:
+        with open(direct + 'results.txt', 'a') as fp:
             fp.write("-----------------------------\nRecommended Bets:\n" + json.dumps(parlay))
     except Exception as e:
         print(f"Error writing to file: {e}")
@@ -408,7 +413,7 @@ def main():
     print(lockparlay)
     print("Date: ", d)
     try:
-        with open('../data/results.txt', 'a') as fp:
+        with open(direct + 'results.txt', 'a') as fp:
             fp.write("\nLocks: " + '\n' + json.dumps(lockparlay) + '\n')
             fp.write("Date: " + str(d))
     except Exception as e:
