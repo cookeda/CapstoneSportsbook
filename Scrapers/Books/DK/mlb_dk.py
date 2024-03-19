@@ -95,7 +95,9 @@ def scrape(matchup_num):
 #driver = webdriver.Firefox()
 
 #For Connor
-driver = webdriver.Chrome()
+options = Options()
+options.headless = True
+driver = webdriver.Chrome(options=options)
 driver.get("https://sportsbook.draftkings.com/leagues/baseball/mlb")
 
 
