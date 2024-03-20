@@ -10,10 +10,10 @@ import json
 import re
 import os
 
-global topTier
-global midTier
-global lowTier
-global ass
+#global topTier
+#global midTier
+#global lowTier
+#global ass
 
 
 teamDict = {
@@ -127,12 +127,18 @@ def gameInput(homeTeam, awayTeam, league):
             fp.write("-----------------------------" + '\n')
     except Exception as e:
         print(f"Error writing to file: {e}")
+    if awayTeam == "New" or homeTeam == "New":
+        return
+    if awayTeam == "Oklahoma":
+        awayTeam = "Okla City"
+    if homeTeam == "Oklahoma":
+        homeTeam = "Okla City"
 
-        numTeams = len(choNBA)
-        coverHome = choNBA[homeTeam]
-        coverAway = cacNBA[awayTeam]
-        overHome = chcNBA[homeTeam]
-        overAway = caoNBA[awayTeam]
+    numTeams = len(choNBA)
+    coverHome = choNBA[homeTeam]
+    coverAway = cacNBA[awayTeam]
+    overHome = chcNBA[homeTeam]
+    overAway = caoNBA[awayTeam]
 
     topTier = numTeams * 0.177  # Top 10% Change to 20
     midTier = numTeams * 0.322  # Top 30% Change to 30
@@ -247,7 +253,11 @@ def gameInput(homeTeam, awayTeam, league):
 
 
 def gameInputFromJSON(file, league):
-    recNumerator, recDenomiator, lockNumerator, lockDenominator, missCounter = 0
+    recNumerator = 0
+    recDenomiator = 0
+    lockNumerator = 0
+    lockDenominator = 0
+    missCounter = 0
     with open(file, 'r') as j:
         games = json.load(j)
     for game in games:
@@ -257,7 +267,7 @@ def gameInputFromJSON(file, league):
         awayTeam = game["Away Team"]
         awaySpread = game['Away Spread']
         awayScore = game['Away Score']
-        ouResult = game["OUResult"]
+        ouResult = game["OU Result"]
 
         typeOfBet = gameInput(homeTeam, awayTeam, league)
         itHit = didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet)
@@ -280,9 +290,6 @@ def gameInputFromJSON(file, league):
         else:
             print("ERROR: GAME INPUT RETURNED SOMETHING UNEXPECTED: " + str(typeOfBet))
 
-    print("Low Tier: " + lowTier + "Mid Tier" + midTier + "Top Tier: " + topTier + "Ass: " + ass)
-    with open('../data/ACCURACYresults.txt', 'a') as fp:
-        fp.write("\nLow Tier: " + lowTier + "Mid Tier" + midTier + "Top Tier: " + topTier + "Ass: " + ass)
     print("Recommended Bets %: " + str(recNumerator/recDenomiator))
     with open('../data/ACCURACYresults.txt', 'a') as fp:
         fp.write("Recommended Bets %: " + str(recNumerator/recDenomiator) + '\n')
@@ -355,7 +362,7 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    gameInputFromJSON("DIRECTORY", 'NBA')
+    gameInputFromJSON("../OddsHistory/nba.json", 'NBA')
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("-----------------------------\nRecommended Bets:\n" + json.dumps(parlay))

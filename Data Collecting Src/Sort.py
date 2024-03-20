@@ -5,9 +5,9 @@ import os
 # Must specify stat as type (ex: Cover, Over, etc)
 def sortFile(file, type, location, league):
     #Connor
-    #direct = "../data"
+    direct = "../data/"
     #Devin
-    direct = "data/"
+    #direct = "data/"
     if type == "cover":
 
         cleanfile(direct + league + "/cover/" + location + "/Sorted" + file)
