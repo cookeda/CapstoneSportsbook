@@ -62,8 +62,10 @@ def generalAlg(stat, league):
                     team = team_search.group(1).strip()
                     match = re.search(r"\b\d+\.\d+\b", sixty)
                     sixtyPercent = float(match.group())/100
-                    thirtyPercent   = float(thirty[-13:-9])/100
-                    tenPercent      = float(tenp[-13:-9])/100
+                    match = re.search(r"\b\d+\.\d+\b", thirty)
+                    thirtyPercent   = float(match.group())/100
+                    match = re.search(r"\b\d+\.\d+\b", tenp)
+                    tenPercent      = float(match.group())/100
                     perChance = (.6 * sixtyPercent) + \
                                 (.3 * thirtyPercent) + \
                                 (.1 * tenPercent)
@@ -317,9 +319,9 @@ def main():
     global teamDict     # Team Dictionary in form City: Team Name
     global direct
     # Connor
-    #direct = "../data/"
+    direct = "../data/"
     # Devin
-    direct = "data/"
+    #direct = "data/"
 
     cleanfile(direct + "results.txt")
     parlay = []
@@ -335,37 +337,37 @@ def main():
     # For Home
     homeCover = getDict(direct + "NBA/cover/home/SortedhomeCover.jl")
     homeCover2 = getDict(direct + "CBB/cover/home/SortedhomeCover.jl")
-    homeCover3 = getDict(direct + "MLB/cover/home/SortedhomeCover.jl")
+    #homeCover3 = getDict(direct + "MLB/cover/home/SortedhomeCover.jl")
 
     homeOver = getDict(direct + "NBA/over/home/SortedhomeOver.jl")
     homeOver2 = getDict(direct + "CBB/over/home/SortedhomeOver.jl")
-    homeOver3 = getDict(direct + "MLB/over/home/SortedHomeOver.jl")
+    #homeOver3 = getDict(direct + "MLB/over/home/SortedHomeOver.jl")
 
     # For Away
     awayCover = getDict(direct + "NBA/cover/away/SortedawayCover.jl")
     awayCover2 = getDict(direct + "CBB/cover/away/SortedawayCover.jl")
-    awayCover3 = getDict(direct + "MLB/cover/away/SortedawayCover.jl")
+    #awayCover3 = getDict(direct + "MLB/cover/away/SortedawayCover.jl")
 
     awayOver = getDict(direct + "NBA/over/away/SortedawayOver.jl")
     awayOver2 = getDict(direct + "CBB/over/away/SortedawayOver.jl")
-    awayOver3 = getDict(direct + "MLB/over/away/SortedawayOver.jl")
+    #awayOver3 = getDict(direct + "MLB/over/away/SortedawayOver.jl")
 
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
     choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
     choCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(homeOver2))
-    choMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
+    #choMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
 
     chcNBA = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
     chcCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(homeCover2))
-    chcMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(homeCover3))
+    #chcMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(homeCover3))
 
     caoNBA = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
     caoCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(awayOver2))
-    caoMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
+    #caoMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
 
     cacNBA = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
     cacCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(awayCover2))
-    cacMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(awayCover3))
+    #cacMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(awayCover3))
 
     # Run Manually
     #gameInput(home, away, league)

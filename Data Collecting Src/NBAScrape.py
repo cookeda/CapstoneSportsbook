@@ -47,9 +47,9 @@ def cleanfile(file):
 def main():
     # Clean Files
     # Connor
-    #direct = "../data/NBA"
+    direct = "../data/NBA"
     # Devin
-    direct = "data/NBA"
+    #direct = "data/NBA"
     cleanfile(direct + "/over/CurrentSeasonOU.jl")
     cleanfile(direct + "/cover/CurrentSeasonCover.jl")
     cleanfile(direct + "/cover/10YearCover.jl")

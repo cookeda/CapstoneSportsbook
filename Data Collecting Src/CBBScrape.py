@@ -48,9 +48,9 @@ def cleanfile(file):
 def main():
     # Clean Files
     # Connor
-    #direct = "../data/CBB"
+    direct = "../data/CBB"
     # Devin
-    direct = "data/CBB"
+    #direct = "data/CBB"
     cleanfile(direct + "/over/CurrentSeasonOU.jl")
     cleanfile(direct + "/cover/CurrentSeasonCover.jl")
     cleanfile(direct + "/cover/10YearCover.jl")

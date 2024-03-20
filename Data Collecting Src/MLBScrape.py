@@ -25,7 +25,7 @@ def scrape(link, file, type):
         if plusminus == "0.0":
             plusminus = "+0.0"
         cover["Team"] = team
-        #print(team)
+        print(team)
         cover[type + " %"] = percent
         i += 1
         with open(file, 'a') as fp:
@@ -48,9 +48,9 @@ def cleanfile(file):
 def main():
     # Clean Files
     # Connor
-    # direct = "../data/MLB"
+    direct = "../data/MLB"
     # Devin
-    direct = "data/MLB"
+    #direct = "data/MLB"
     cleanfile(direct + "/over/CurrentSeasonOU.jl")
     cleanfile(direct + "/cover/CurrentSeasonCover.jl")
     cleanfile(direct + "/cover/10YearCover.jl")
