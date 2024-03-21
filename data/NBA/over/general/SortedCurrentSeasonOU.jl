@@ -1,30 +1,30 @@
 {"Team": "Atlanta", "Over %": "52.2%"} +3.0
-{"Team": "Boston", "Over %": "47.1%"} +0.1
+{"Team": "Boston", "Over %": "47.8%"} +0.3
 {"Team": "Brooklyn", "Over %": "48.5%"} -0.4
 {"Team": "Charlotte", "Over %": "46.4%"} -2.4
 {"Team": "Chicago", "Over %": "55.9%"} +3.2
-{"Team": "Cleveland", "Over %": "44.8%"} -1.3
+{"Team": "Cleveland", "Over %": "45.6%"} -1.2
 {"Team": "Dallas", "Over %": "48.5%"} +0.0
 {"Team": "Denver", "Over %": "39.1%"} -2.3
-{"Team": "Detroit", "Over %": "49.3%"} +2.1
-{"Team": "Golden State", "Over %": "50.8%"} +2.5
+{"Team": "Detroit", "Over %": "48.5%"} +2.0
+{"Team": "Golden State", "Over %": "51.5%"} +2.9
 {"Team": "Houston", "Over %": "47.0%"} +1.2
-{"Team": "Indiana", "Over %": "50.0%"} +1.3
-{"Team": "LA Clippers", "Over %": "41.5%"} -0.4
+{"Team": "Indiana", "Over %": "49.3%"} +1.1
+{"Team": "LA Clippers", "Over %": "42.4%"} -0.3
 {"Team": "LA Lakers", "Over %": "55.1%"} +2.2
-{"Team": "Memphis", "Over %": "45.6%"} -3.2
-{"Team": "Miami", "Over %": "35.3%"} -3.1
-{"Team": "Milwaukee", "Over %": "47.8%"} +1.7
+{"Team": "Memphis", "Over %": "46.4%"} -2.7
+{"Team": "Miami", "Over %": "36.2%"} -3.0
+{"Team": "Milwaukee", "Over %": "48.5%"} +1.9
 {"Team": "Minnesota", "Over %": "50.0%"} -2.0
 {"Team": "New Orleans", "Over %": "43.3%"} -2.3
 {"Team": "New York", "Over %": "36.8%"} -3.8
-{"Team": "Okla City", "Over %": "56.3%"} +0.5
+{"Team": "Okla City", "Over %": "55.4%"} +0.4
 {"Team": "Orlando", "Over %": "45.6%"} -3.3
-{"Team": "Philadelphia", "Over %": "51.5%"} -1.0
-{"Team": "Phoenix", "Over %": "44.8%"} -0.6
-{"Team": "Portland", "Over %": "48.5%"} -0.6
-{"Team": "Sacramento", "Over %": "51.6%"} -0.2
+{"Team": "Philadelphia", "Over %": "50.7%"} -1.1
+{"Team": "Phoenix", "Over %": "44.1%"} -0.7
+{"Team": "Portland", "Over %": "49.3%"} -0.6
+{"Team": "Sacramento", "Over %": "50.8%"} -0.5
 {"Team": "San Antonio", "Over %": "47.8%"} -1.4
-{"Team": "Toronto", "Over %": "50.8%"} +2.3
-{"Team": "Utah", "Over %": "55.2%"} +4.3
+{"Team": "Toronto", "Over %": "50.0%"} +1.9
+{"Team": "Utah", "Over %": "54.4%"} +4.2
 {"Team": "Washington", "Over %": "51.5%"} -0.2
