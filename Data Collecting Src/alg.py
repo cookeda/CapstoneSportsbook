@@ -141,10 +141,11 @@ def gameInput(homeTeam, awayTeam, league):
         overHome = chcCBB[homeTeam]
         overAway = caoCBB[awayTeam]
 
-    topTier = numTeams * 0.177  # Top 10% Change to 20
+    topTier = numTeams * 0.10  # Top 10% Change to 20
     midTier = numTeams * 0.322  # Top 30% Change to 30
-    lowTier = numTeams * 0.688  # Starting point for Bottom 30% Change to 70
+    lowTier = numTeams * 0.70  # Starting point for Bottom 30% Change to 70
     ass = numTeams * 0.833  # Bottom 10% Change to 80
+
     print(topTier, midTier, lowTier, ass)
 
     print("For " + awayTeam + " At " + homeTeam + ":")
