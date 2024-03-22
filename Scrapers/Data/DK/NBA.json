@@ -1,24 +1,70 @@
 [
     {
-        "Away Team": "SAC Kings",
-        "Away Team Rank Name": "Sacramento",
+        "Away Team": "BOS Celtics",
+        "Away Team Rank Name": "Boston",
         "DK Away Odds": {
-            "Spread": "-11",
-            "Spread Odds": "−112",
-            "Away ML": "−650"
-        },
-        "Home Team": "WAS Wizards",
-        "Home Team Rank Name": "Washington",
-        "DK Home Odds": {
-            "Spread": "+11",
+            "Spread": "-14.5",
             "Spread Odds": "−108",
-            "Home ML": "+470"
+            "Away ML": "−1200"
+        },
+        "Home Team": "DET Pistons",
+        "Home Team Rank Name": "Detroit",
+        "DK Home Odds": {
+            "Spread": "+14.5",
+            "Spread Odds": "−112",
+            "Home ML": "+750"
         },
         "Game": {
             "Start Time": "7:10PM",
-            "Total": "236.5",
+            "Total": "223",
             "Over Total Odds": "−110",
             "Under Total Odds": "−110",
+            "League": "NBA"
+        }
+    },
+    {
+        "Away Team": "OKC Thunder",
+        "Away Team Rank Name": "Okla City",
+        "DK Away Odds": {
+            "Spread": "-15.5",
+            "Spread Odds": "−110",
+            "Away ML": "−1350"
+        },
+        "Home Team": "TOR Raptors",
+        "Home Team Rank Name": "Toronto",
+        "DK Home Odds": {
+            "Spread": "+15.5",
+            "Spread Odds": "−110",
+            "Home ML": "+800"
+        },
+        "Game": {
+            "Start Time": "7:10PM",
+            "Total": "231.5",
+            "Over Total Odds": "−108",
+            "Under Total Odds": "−112",
+            "League": "NBA"
+        }
+    },
+    {
+        "Away Team": "MEM Grizzlies",
+        "Away Team Rank Name": "Memphis",
+        "DK Away Odds": {
+            "Spread": "+6",
+            "Spread Odds": "−108",
+            "Away ML": "+195"
+        },
+        "Home Team": "SA Spurs",
+        "Home Team Rank Name": "San Antonio",
+        "DK Home Odds": {
+            "Spread": "-6",
+            "Spread Odds": "−112",
+            "Home ML": "−238"
+        },
+        "Game": {
+            "Start Time": "8:10PM",
+            "Total": "216",
+            "Over Total Odds": "−112",
+            "Under Total Odds": "−108",
             "League": "NBA"
         }
     },
@@ -26,137 +72,114 @@
         "Away Team": "NO Pelicans",
         "Away Team Rank Name": "New Orleans",
         "DK Away Odds": {
-            "Spread": "-3",
-            "Spread Odds": "−108",
-            "Away ML": "−142"
-        },
-        "Home Team": "ORL Magic",
-        "Home Team Rank Name": "Orlando",
-        "DK Home Odds": {
             "Spread": "+3",
-            "Spread Odds": "−112",
-            "Home ML": "+120"
+            "Spread Odds": "−110",
+            "Away ML": "+124"
+        },
+        "Home Team": "MIA Heat",
+        "Home Team Rank Name": "Miami",
+        "DK Home Odds": {
+            "Spread": "-3",
+            "Spread Odds": "−110",
+            "Home ML": "−148"
         },
         "Game": {
-            "Start Time": "7:10PM",
-            "Total": "207.5",
+            "Start Time": "8:10PM",
+            "Total": "210",
             "Over Total Odds": "−110",
             "Under Total Odds": "−110",
             "League": "NBA"
         }
     },
     {
-        "Away Team": "CHI Bulls",
-        "Away Team Rank Name": "Chicago",
+        "Away Team": "CLE Cavaliers",
+        "Away Team Rank Name": "Cleveland",
         "DK Away Odds": {
-            "Spread": "+4",
-            "Spread Odds": "−112",
-            "Away ML": "+142"
+            "Spread": "+7.5",
+            "Spread Odds": "−115",
+            "Away ML": "+230"
         },
-        "Home Team": "HOU Rockets",
-        "Home Team Rank Name": "Houston",
+        "Home Team": "MIN Timberwolves",
+        "Home Team Rank Name": "Minnesota",
         "DK Home Odds": {
-            "Spread": "-4",
-            "Spread Odds": "−108",
-            "Home ML": "−170"
+            "Spread": "-7.5",
+            "Spread Odds": "−105",
+            "Home ML": "−285"
         },
         "Game": {
             "Start Time": "8:10PM",
-            "Total": "219.5",
+            "Total": "206.5",
             "Over Total Odds": "−112",
             "Under Total Odds": "−108",
             "League": "NBA"
         }
     },
     {
-        "Away Team": "BKN Nets",
-        "Away Team Rank Name": "Brooklyn",
+        "Away Team": "IND Pacers",
+        "Away Team Rank Name": "Indiana",
         "DK Away Odds": {
-            "Spread": "+10",
-            "Spread Odds": "−112",
-            "Away ML": "+350"
+            "Spread": "+5",
+            "Spread Odds": "−115",
+            "Away ML": "+160"
         },
-        "Home Team": "MIL Bucks",
-        "Home Team Rank Name": "Milwaukee",
+        "Home Team": "GS Warriors",
+        "Home Team Rank Name": "Golden State",
         "DK Home Odds": {
-            "Spread": "-10",
-            "Spread Odds": "−108",
-            "Home ML": "−455"
+            "Spread": "-5",
+            "Spread Odds": "−105",
+            "Home ML": "−192"
         },
         "Game": {
-            "Start Time": "8:10PM",
-            "Total": "221",
-            "Over Total Odds": "−108",
-            "Under Total Odds": "−112",
-            "League": "NBA"
-        }
-    },
-    {
-        "Away Team": "UTA Jazz",
-        "Away Team Rank Name": "Utah",
-        "DK Away Odds": {
-            "Spread": "+14.5",
-            "Spread Odds": "−112",
-            "Away ML": "+650"
-        },
-        "Home Team": "DAL Mavericks",
-        "Home Team Rank Name": "Dallas",
-        "DK Home Odds": {
-            "Spread": "-14.5",
-            "Spread Odds": "−108",
-            "Home ML": "−1000"
-        },
-        "Game": {
-            "Start Time": "8:40PM",
-            "Total": "237.5",
-            "Over Total Odds": "−108",
-            "Under Total Odds": "−112",
-            "League": "NBA"
-        }
-    },
-    {
-        "Away Team": "NY Knicks",
-        "Away Team Rank Name": "New York",
-        "DK Away Odds": {
-            "Spread": "+9.5",
-            "Spread Odds": "−108",
-            "Away ML": "+330"
-        },
-        "Home Team": "DEN Nuggets",
-        "Home Team Rank Name": "Denver",
-        "DK Home Odds": {
-            "Spread": "-9.5",
-            "Spread Odds": "−112",
-            "Home ML": "−425"
-        },
-        "Game": {
-            "Start Time": "9:10PM",
-            "Total": "207.5",
+            "Start Time": "10:10PM",
+            "Total": "240",
             "Over Total Odds": "−110",
             "Under Total Odds": "−110",
             "League": "NBA"
         }
     },
     {
-        "Away Team": "ATL Hawks",
-        "Away Team Rank Name": "Atlanta",
+        "Away Team": "LA Clippers",
+        "Away Team Rank Name": "LA Clippers",
         "DK Away Odds": {
-            "Spread": "+9.5",
-            "Spread Odds": "−115",
-            "Away ML": "+330"
+            "Spread": "-13.5",
+            "Spread Odds": "−108",
+            "Away ML": "−1050"
         },
-        "Home Team": "PHO Suns",
-        "Home Team Rank Name": "Phoenix",
+        "Home Team": "POR Trail Blazers",
+        "Home Team Rank Name": "Portland",
         "DK Home Odds": {
-            "Spread": "-9.5",
-            "Spread Odds": "−105",
-            "Home ML": "−425"
+            "Spread": "+13.5",
+            "Spread Odds": "−112",
+            "Home ML": "+675"
+        },
+        "Game": {
+            "Start Time": "10:10PM",
+            "Total": "216.5",
+            "Over Total Odds": "−110",
+            "Under Total Odds": "−110",
+            "League": "NBA"
+        }
+    },
+    {
+        "Away Team": "PHI 76ers",
+        "Away Team Rank Name": "Philadelphia",
+        "DK Away Odds": {
+            "Spread": "+7",
+            "Spread Odds": "−108",
+            "Away ML": "+245"
+        },
+        "Home Team": "LA Lakers",
+        "Home Team Rank Name": "LA Lakers",
+        "DK Home Odds": {
+            "Spread": "-7",
+            "Spread Odds": "−112",
+            "Home ML": "−305"
         },
         "Game": {
             "Start Time": "10:40PM",
-            "Total": "225.5",
-            "Over Total Odds": "−108",
-            "Under Total Odds": "−112",
+            "Total": "225",
+            "Over Total Odds": "−110",
+            "Under Total Odds": "−110",
             "League": "NBA"
         }
     }
