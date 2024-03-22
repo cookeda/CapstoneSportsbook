@@ -47,8 +47,11 @@ class NbaSpider(scrapy.Spider):
                 team_name_part = team_href.split('/')[-2]
                 # Split the team name part by hyphens and take the first part as the city name
                 # This assumes the city name does not contain hyphens
-                city_name = (team_name_part.split('-')[0])
-
+                parts = team_name_part.split('-')
+                if len(team_name_part.split('-')) == 2:
+                    city_name = parts[0]
+                else:
+                    city_name = f'{parts[0]} {parts[1]}' if len(parts) > 1 else parts[0]
                 ou_result = str(data[7])
 
 
