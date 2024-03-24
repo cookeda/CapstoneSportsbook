@@ -2,7 +2,7 @@
 {"Team": "Abl Christian", "Cover %": "53.3%"} -1.9
 {"Team": "Air Force", "Cover %": "53.9%"} +4.5
 {"Team": "Akron", "Cover %": "38.5%"} +0.0
-{"Team": "Alab A&M", "Cover %": "50.0%"} -0.8
+{"Team": "Alab A&M", "Cover %": "47.4%"} -1.1
 {"Team": "Alabama St", "Cover %": "56.3%"} +1.1
 {"Team": "Alabama", "Cover %": "50.0%"} -3.8
 {"Team": "Albany", "Cover %": "47.1%"} +1.7
@@ -28,7 +28,7 @@
 {"Team": "Boston Col", "Cover %": "46.2%"} +2.5
 {"Team": "Boston U", "Cover %": "43.8%"} +3.6
 {"Team": "Bowling Grn", "Cover %": "50.0%"} -2.7
-{"Team": "Bradley", "Cover %": "41.7%"} +0.7
+{"Team": "Bradley", "Cover %": "38.5%"} -0.2
 {"Team": "Brown", "Cover %": "64.3%"} +1.9
 {"Team": "Bryant", "Cover %": "47.1%"} -0.3
 {"Team": "Bucknell", "Cover %": "68.4%"} +6.5
@@ -215,7 +215,7 @@
 {"Team": "Nicholls", "Cover %": "66.7%"} +4.2
 {"Team": "Norfolk St", "Cover %": "42.9%"} -2.1
 {"Team": "North Dakota", "Cover %": "60.0%"} +4.2
-{"Team": "North Texas", "Cover %": "72.7%"} +3.2
+{"Team": "North Texas", "Cover %": "66.7%"} +2.1
 {"Team": "Northeastrn", "Cover %": "37.5%"} -1.9
 {"Team": "Northwestern", "Cover %": "60.0%"} -0.5
 {"Team": "Notre Dame", "Cover %": "66.7%"} +2.8
@@ -330,7 +330,7 @@
 {"Team": "Utah Tech", "Cover %": "31.3%"} -2.5
 {"Team": "Utah Valley", "Cover %": "66.7%"} +0.9
 {"Team": "Utah", "Cover %": "27.3%"} -8.1
-{"Team": "VA Tech", "Cover %": "18.2%"} -5.5
+{"Team": "VA Tech", "Cover %": "16.7%"} -5.2
 {"Team": "VCU", "Cover %": "80.0%"} +2.9
 {"Team": "VMI", "Cover %": "33.3%"} -4.3
 {"Team": "Valparaiso", "Cover %": "85.7%"} +3.4

@@ -2,7 +2,7 @@
 {"Team": "Abl Christian", "Over %": "42.9%"} -2.8
 {"Team": "Air Force", "Over %": "66.7%"} +4.6
 {"Team": "Akron", "Over %": "46.2%"} +0.9
-{"Team": "Alab A&M", "Over %": "52.9%"} +0.6
+{"Team": "Alab A&M", "Over %": "55.6%"} +0.8
 {"Team": "Alabama St", "Over %": "43.8%"} -1.6
 {"Team": "Alabama", "Over %": "80.0%"} +12.3
 {"Team": "Albany", "Over %": "52.9%"} +2.1
@@ -28,7 +28,7 @@
 {"Team": "Boston Col", "Over %": "46.2%"} -3.4
 {"Team": "Boston U", "Over %": "17.7%"} -9.7
 {"Team": "Bowling Grn", "Over %": "41.7%"} -6.9
-{"Team": "Bradley", "Over %": "50.0%"} +2.7
+{"Team": "Bradley", "Over %": "46.2%"} +1.5
 {"Team": "Brown", "Over %": "35.7%"} -3.0
 {"Team": "Bryant", "Over %": "33.3%"} -5.9
 {"Team": "Bucknell", "Over %": "44.4%"} -0.5
@@ -215,7 +215,7 @@
 {"Team": "Nicholls", "Over %": "50.0%"} +7.5
 {"Team": "Norfolk St", "Over %": "42.9%"} -0.3
 {"Team": "North Dakota", "Over %": "40.0%"} +2.2
-{"Team": "North Texas", "Over %": "54.6%"} +2.4
+{"Team": "North Texas", "Over %": "50.0%"} +1.9
 {"Team": "Northeastrn", "Over %": "75.0%"} +7.1
 {"Team": "Northwestern", "Over %": "60.0%"} +2.0
 {"Team": "Notre Dame", "Over %": "41.7%"} -1.3
@@ -330,7 +330,7 @@
 {"Team": "Utah Tech", "Over %": "58.8%"} +2.8
 {"Team": "Utah Valley", "Over %": "53.3%"} -3.4
 {"Team": "Utah", "Over %": "63.6%"} +1.9
-{"Team": "VA Tech", "Over %": "70.0%"} +3.0
+{"Team": "VA Tech", "Over %": "72.7%"} +3.0
 {"Team": "VCU", "Over %": "30.0%"} +0.3
 {"Team": "VMI", "Over %": "53.3%"} +1.0
 {"Team": "Valparaiso", "Over %": "57.1%"} -1.5
