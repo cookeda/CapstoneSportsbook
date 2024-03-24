@@ -11,14 +11,14 @@ import json
 # For Connor
 webdriver.chrome
 
-with open('../../../Dictionary/College/NCAAB Teams.json', 'r') as file:
-    team_mappings = json.load(file)
+# with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
+#     team_mappings = json.load(file)
 
-def find_team_rank_name(dk_team_name):
-    for team_mapping in team_mappings:
-        if team_mapping["DraftKings Name"] == dk_team_name:
-            return team_mapping["Team Rankings Name"]
-    return "Unknown"  # Return a default value if not found
+# def find_team_rank_name(dk_team_name):
+#     for team_mapping in team_mappings:
+#         if team_mapping["DraftKings Name"] == dk_team_name:
+#             return team_mapping["Team Rankings Name"]
+#     return "Unknown"  # Return a default value if not found
 
 
 match = {}
@@ -61,15 +61,15 @@ def scrape(matchup_num):
     under_total_odds_text = find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({y}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
     home_ml_text = find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({y}) > td:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)')
     start_time_text = find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2)')
-    away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
-    home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
+    #away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
+    #home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
 
     matchup = {
         'Away Team': away_team_text, 
         #'Away Team Rank Name': away_team_rank_name, 
         'DK Away Odds': {
             'Spread': away_spread_text, 
-            'Spread Odds': away_spread_odds_text, 
+            'Spread Odds': away_spread_odds_text,
             'Away ML': away_ml_text
         }, 
         'Home Team': home_team_text, 

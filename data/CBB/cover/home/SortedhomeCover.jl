@@ -49,7 +49,7 @@
 {"Team": "Charlotte", "Cover %": "71.4%"} +3.0
 {"Team": "Chattanooga", "Cover %": "53.9%"} -0.4
 {"Team": "Chicago St", "Cover %": "25.0%"} -3.1
-{"Team": "Cincinnati", "Cover %": "45.0%"} +1.7
+{"Team": "Cincinnati", "Cover %": "47.6%"} +2.1
 {"Team": "Citadel", "Cover %": "60.0%"} +2.0
 {"Team": "Clemson", "Cover %": "53.3%"} +0.4
 {"Team": "Cleveland St", "Cover %": "46.7%"} -0.4
@@ -213,14 +213,14 @@
 {"Team": "New Orleans", "Cover %": "22.2%"} -5.9
 {"Team": "Niagara", "Cover %": "30.8%"} -7.0
 {"Team": "Nicholls", "Cover %": "66.7%"} -0.2
-{"Team": "Norfolk St", "Cover %": "33.3%"} +3.4
+{"Team": "Norfolk St", "Cover %": "40.0%"} +3.6
 {"Team": "North Dakota", "Cover %": "45.5%"} -1.1
 {"Team": "North Texas", "Cover %": "61.5%"} +1.3
 {"Team": "Northeastrn", "Cover %": "45.5%"} -2.4
 {"Team": "Northwestern", "Cover %": "56.3%"} +1.7
 {"Team": "Notre Dame", "Cover %": "47.1%"} +1.6
 {"Team": "Oakland", "Cover %": "46.2%"} -0.2
-{"Team": "Ohio St", "Cover %": "41.2%"} -1.0
+{"Team": "Ohio St", "Cover %": "44.4%"} -0.8
 {"Team": "Ohio", "Cover %": "64.3%"} -0.4
 {"Team": "Oklahoma St", "Cover %": "37.5%"} -1.5
 {"Team": "Oklahoma", "Cover %": "50.0%"} +0.8
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Cover %": "35.7%"} -3.3
 {"Team": "Santa Clara", "Cover %": "50.0%"} -0.6
 {"Team": "Seattle", "Cover %": "52.9%"} +0.5
-{"Team": "Seton Hall", "Cover %": "50.0%"} +2.6
+{"Team": "Seton Hall", "Cover %": "52.6%"} +2.9
 {"Team": "Siena", "Cover %": "28.6%"} -7.4
 {"Team": "South Dakota", "Cover %": "54.6%"} -0.1
 {"Team": "Southern", "Cover %": "70.0%"} +3.7

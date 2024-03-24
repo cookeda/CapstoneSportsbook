@@ -17,10 +17,12 @@ def scrape(link, file, type):
     source = driver.page_source
     soup = BeautifulSoup(source, 'html.parser')
 
+
     cover = {}
     for i, tr in enumerate(soup.select('#DataTables_Table_0 tbody tr'), start=1):
-        team = tr.select_one('td:nth-of-type(1) a').text.strip()
+        team = tr.select_one('td:nth-of-type(1) a')#.text.strip()
         if team:
+            team=team.text.strip()
             percent = tr.select_one('td:nth-of-type(3)').text.strip()
             plusminus = tr.select_one('td:nth-of-type(5)').text.strip()
             if plusminus == "0.0":

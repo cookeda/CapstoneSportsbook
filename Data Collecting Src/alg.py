@@ -332,8 +332,8 @@ def main():
     generalOver = generalAlg("Over", "NBA")
     generalCover2 = generalAlg("Cover", "CBB")
     generalOver2 = generalAlg("Over", "CBB")
-    generalCover3 = generalAlg("Cover", "MLB")
-    generalOver3 = generalAlg("Over", "MLB")
+    #generalCover3 = generalAlg("Cover", "MLB")
+    #generalOver3 = generalAlg("Over", "MLB")
 
     # For Home
     homeCover = getDict(direct + "NBA/cover/home/SortedhomeCover.jl")
