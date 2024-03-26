@@ -134,7 +134,6 @@ def sortByRank(input_dict):
     return ranked_dict
 
 def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
-    entered = 0
     print("-----------------------------")
     try:
         with open(direct + 'results.txt', 'a') as fp:
@@ -161,6 +160,15 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
         movHome = homeMOV2[homeTeam]
         movAway = awayMOV2[awayTeam]
 
+    elif league == 'MLB':
+        numTeams = len(choMLB)
+        coverHome = choMLB[homeTeam]
+        coverAway = cacMLB[awayTeam]
+        overHome = chcMLB[homeTeam]
+        overAway = caoMLB[awayTeam]
+        movHome = homeMOV3[homeTeam]
+        movAway = awayMOV3[awayTeam]
+
     topTier = numTeams * 0.10  # Top 10% Change to 20
     midTier = numTeams * 0.322  # Top 30% Change to 30
     lowTier = numTeams * 0.70  # Starting point for Bottom 30% Change to 70
@@ -173,118 +181,13 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
     except Exception as e:
         print(f"Error writing to file: {e}")
 
-    # Over
-    if overHome <= midTier and overAway <= midTier:
-        if overHome <= topTier and overAway <= topTier:
-            try:
-                with open(direct + 'results.txt', 'a') as fp:
-                    fp.write("Lock ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            print("LOCK ALERT!")
-            lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
-        try:
-            with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Take the over!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        print("Take the over!")
-        print("Home Rank :" + str(overHome))
-        print("Away Rank: " + str(overAway))
-        parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
+    # Predict over or under or none
+    overunder(league, homeTeam, overHome, awayTeam, overAway, ass, lowTier, midTier, topTier)
+    # Predict cover | Goes to MOV predictions if not sucessful
+    goToMov = coverNormal(league, homeTeam, overHome, awayTeam, overAway, ass, lowTier, midTier, topTier)
+    if goToMov is True:
+        basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
 
-    elif overHome > lowTier and overAway > lowTier:
-        if overHome > ass and overAway > ass:
-            try:
-                with open(direct + 'results.txt', 'a') as fp:
-                    fp.write("Lock ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            print("LOCK ALERT!")
-            lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
-        try:
-            with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Take the under!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        print("Take the under!")
-        print("Home Rank :" + str(overHome))
-        print("Away Rank: " +str(overAway))
-        parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
-
-    else:
-        print("Don't bet on O/U")
-        try:
-            with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Don't bet on O/U" + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-
-    # Cover
-    print("HOME: " + "MOV: " + str(movHome) + " Spread: " + str(homeSpread))
-    print("AWAY: " + "MOV: " + str(movAway) + " Spread: " + str(awaySpread))
-    if coverHome <= midTier and coverAway > lowTier:
-        if coverHome <= topTier and coverAway > ass:
-            print("LOCK ALERT!")
-            try:
-                with open(direct + 'results.txt', 'a') as fp:
-                    fp.write("LOCK ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            lockparlay.append(league + ": " + homeTeam + ": Cover")
-        print("Bet on " + homeTeam + " to Cover!")
-        try:
-            with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(coverHome) + '\n' +"Away Rank: " + str(coverAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        print("Home Rank :" + str(coverHome))
-        print("Away Rank: " + str(coverAway))
-        parlay.append(league + ": " + homeTeam + ": Cover")
-    elif coverHome > lowTier and coverAway <= midTier:
-        if coverHome > ass and coverAway <= topTier:
-            print("LOCK ALERT!")
-            try:
-                with open(direct + 'results.txt', 'a') as fp:
-                    fp.write("LOCK ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            lockparlay.append(league + ": " + awayTeam + ": Cover")
-        print("Bet on " + awayTeam + " to Cover!")
-        try:
-            with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(coverHome) + '\n' +"Away Rank: " + str(coverAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        print("Home Rank :" + str(coverHome))
-        print("Away Rank: " + str(coverAway))
-        parlay.append(league + ": " + awayTeam + ": Cover")
-    basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
-def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway):
-    # Home Bet
-    if ((float(movHome) + float(homeSpread)) > 0) and (coverHome < coverAway):
-        print("Bet on " + homeTeam + " to Cover!")
-        try:
-            with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(
-                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        print("Home Rank :" + str(coverHome))
-        print("Away Rank: " + str(coverAway))
-        parlay.append(league + ": " + homeTeam + ": Cover")
-    # Away Bet
-    if ((float(movAway) + float(awaySpread)) > 0) and (coverAway < coverHome):
-        print("Bet on " + awayTeam + " to Cover!")
-        try:
-            with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(
-                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        print("Home Rank :" + str(coverHome))
-        print("Away Rank: " + str(coverAway))
-        parlay.append(league + ": " + awayTeam + ": Cover")
 
 def gameInputFromJSON(file, league):
     with open(file, 'r') as j:
@@ -301,11 +204,13 @@ def gameInputFromJSON(file, league):
             awaySpread = "0"
         gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league)
 
+
 def cleanfile(file):
     try:
         os.remove(file)
     except FileNotFoundError:
         open(file, 'a')
+
 
 def main():
     global generalOver  # General Over Dict
@@ -432,6 +337,133 @@ def main():
             fp.write("Date: " + str(d))
     except Exception as e:
         print(f"Error writing to file: {e}")
+
+
+def coverNormal(league, homeTeam, coverHome, awayTeam, coverAway, ass, lowTier, midTier, topTier):
+    # Cover | Returns false when sucessful to tell gameInput to go to MOV/Spread data
+    if coverHome <= midTier and coverAway > lowTier:
+        if coverHome <= topTier and coverAway > ass:
+            print("LOCK ALERT!")
+            try:
+                with open(direct + 'results.txt', 'a') as fp:
+                    fp.write("LOCK ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
+            lockparlay.append(league + ": " + homeTeam + ": Cover")
+            return False
+        print("Bet on " + homeTeam + " to Cover!")
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Home Rank :" + str(coverHome))
+        print("Away Rank: " + str(coverAway))
+        parlay.append(league + ": " + homeTeam + ": Cover")
+        return False
+    elif coverHome > lowTier and coverAway <= midTier:
+        if coverHome > ass and coverAway <= topTier:
+            print("LOCK ALERT!")
+            try:
+                with open(direct + 'results.txt', 'a') as fp:
+                    fp.write("LOCK ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
+            lockparlay.append(league + ": " + awayTeam + ": Cover")
+            return False
+        print("Bet on " + awayTeam + " to Cover!")
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Home Rank :" + str(coverHome))
+        print("Away Rank: " + str(coverAway))
+        parlay.append(league + ": " + awayTeam + ": Cover")
+        return False
+    return True
+
+
+def overunder(league, homeTeam, overHome, awayTeam, overAway, ass, lowTier, midTier, topTier, ):
+    # Over
+    if overHome <= midTier and overAway <= midTier:
+        if overHome <= topTier and overAway <= topTier:
+            try:
+                with open(direct + 'results.txt', 'a') as fp:
+                    fp.write("Lock ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
+            print("LOCK ALERT!")
+            lockparlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Take the over!" + '\n' + "Home Rank :" + str(overHome) + '\n' + "Away Rank: " + str(
+                    overAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Take the over!")
+        print("Home Rank :" + str(overHome))
+        print("Away Rank: " + str(overAway))
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
+
+    elif overHome > lowTier and overAway > lowTier:
+        if overHome > ass and overAway > ass:
+            try:
+                with open(direct + 'results.txt', 'a') as fp:
+                    fp.write("Lock ALERT!" + '\n')
+            except Exception as e:
+                print(f"Error writing to file: {e}")
+            print("LOCK ALERT!")
+            lockparlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Take the under!" + '\n' + "Home Rank :" + str(overHome) + '\n' + "Away Rank: " + str(
+                    overAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Take the under!")
+        print("Home Rank :" + str(overHome))
+        print("Away Rank: " + str(overAway))
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
+
+    else:
+        print("Don't bet on O/U")
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Don't bet on O/U" + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+
+
+def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway):
+    # Home Bet
+    print("HOME: " + "MOV: " + str(movHome) + " Spread: " + str(homeSpread))
+    print("AWAY: " + "MOV: " + str(movAway) + " Spread: " + str(awaySpread))
+    if ((float(movHome) + float(homeSpread)) > 0) and (coverHome < coverAway):
+        print("Bet on " + homeTeam + " to Cover!")
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Home Rank :" + str(coverHome))
+        print("Away Rank: " + str(coverAway))
+        parlay.append(league + ": " + homeTeam + ": Cover")
+    # Away Bet
+    if ((float(movAway) + float(awaySpread)) > 0) and (coverAway < coverHome):
+        print("Bet on " + awayTeam + " to Cover!")
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Home Rank :" + str(coverHome))
+        print("Away Rank: " + str(coverAway))
+        parlay.append(league + ": " + awayTeam + ": Cover")
 
 if __name__ == '__main__':
     main()
