@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 import undetected_chromedriver as uc
 import time
 import pandas as pd
@@ -98,7 +99,9 @@ def scrape(matchup_num):
     print(f'{away_team_text}, {home_team_text}')
     return matchup
 
-driver = webdriver.Chrome()
+options = Options()
+options.headless = True
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 driver.get("https://espnbet.com/sport/baseball/organization/united-states/competition/mlb/featured-page")
 
 

@@ -4,6 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
+
+
 import time
 import pandas as pd
 from time import process_time
@@ -97,7 +100,7 @@ def scrape(matchup_num):
 #For Connor
 options = Options()
 options.headless = True
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 driver.get("https://sportsbook.draftkings.com/leagues/basketball/nba")
 
 
