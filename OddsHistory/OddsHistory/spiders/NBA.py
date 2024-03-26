@@ -38,6 +38,7 @@ class NbaSpider(scrapy.Spider):
                 # Extract text from each cell
                 # This creates a list of the cell texts
                 data = [col.text.strip() for col in columns]
+                date = data[0]
                 team_href = response.meta['href']
                 location = data[3]
                 opponent = data[1]
@@ -56,6 +57,7 @@ class NbaSpider(scrapy.Spider):
 
 
                 if location == 'Away':
+                    
                     home_team = opponent
                     home_score = match.group(1)
                     away_score = match.group(2)
@@ -78,18 +80,9 @@ class NbaSpider(scrapy.Spider):
                 # Assuming the first column is the team name and the rest are data points
                 # Adjust the dictionary keys according to your table's structure
                 if data:
-                    # yield {
-                    #     'team': response.meta['href'],
-                    #     'opponent': data[1],  # Example: team name in the first column
-                    #     'result': data[2], 
-                    #     'location': data[3],
-                    #     'spread': data[6],
-                    #     'total': data[7],
-                    #     'ml': data[8]
-                    #     # Add more fields according to the number of columns
-                    #     # Example: 'score': data[1], 'other_info': data[2], ...
-                    # }
+                    date = data[0]
                     yield {
+                        'Date': date,
                         'Home Team': home_team,
                         'Home Spread': home_spread,
                         'Home Score': home_score,
