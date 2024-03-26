@@ -71,6 +71,7 @@ def generalAlg(stat, league):
                     thirtyPercent = float(match.group()) / 100
                     match = re.search(r"\b\d+\.\d+\b", tenp)
                     tenPercent = float(match.group()) / 100
+                    # Changes Accuracy
                     perChance = (.6 * sixtyPercent) + \
                                 (.3 * thirtyPercent) + \
                                 (.1 * tenPercent)
@@ -112,6 +113,10 @@ def combineOnRanking(dict1, dict2):
     return_dict = {}
     for team1 in dict1:
         if team1 in dict2:
+            # Changes Accuracy
+            #first = dict1[team1] * .3
+            #second = dict2[team1] * .7
+            #both = first + second
             both = (dict1[team1] + dict2[team1])/2
             return_dict[team1] = both
     #print(return_dict)
@@ -154,7 +159,7 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
     movHome = homeMOV[homeTeam]
     movAway = awayMOV[awayTeam]
 
-
+    # Changes Accuracy
     topTier = numTeams * 0.10  # Top 10%
     midTier = numTeams * 0.322  # Top 32.2%
     lowTier = numTeams * 0.70  # Bottom 70%
