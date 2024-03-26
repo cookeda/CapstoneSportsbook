@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "Away Team": "Cleveland State",
         "Away Team Rank Name": "Cleveland St",
         "DK Away Odds": {
@@ -63,22 +64,51 @@
         "Game": {
             "Start Time": "1:00PM",
             "Total": "150",
+=======
+        "Away Team": "Georgia",
+        "Away Team Rank Name": "Georgia",
+        "DK Away Odds": {
+            "Spread": "+8.5",
+            "Spread Odds": "−110",
+            "Away ML": "+320"
+        },
+        "Home Team": "Ohio State",
+        "Home Team Rank Name": "Ohio St",
+        "DK Home Odds": {
+            "Spread": "-8.5",
+            "Spread Odds": "-8.5",
+            "Home ML": "−410"
+        },
+        "Game": {
+            "Start Time": "7:00PM",
+            "Total": "150.5",
+>>>>>>> bd3e58b8b64ee768f0516f274278dc2e84e6a7c7
             "Over Total Odds": "−110",
             "Under Total Odds": "−110",
             "League": "NCAAB"
         }
     },
     {
+<<<<<<< HEAD
         "Away Team": "Minnesota",
         "Away Team Rank Name": "Minnesota",
         "DK Away Odds": {
             "Spread": "+7.5",
             "Spread Odds": "−112",
             "Away ML": "+245"
+=======
+        "Away Team": "Cincinnati",
+        "Away Team Rank Name": "Cincinnati",
+        "DK Away Odds": {
+            "Spread": "+3.5",
+            "Spread Odds": "−110",
+            "Away ML": "+140"
+>>>>>>> bd3e58b8b64ee768f0516f274278dc2e84e6a7c7
         },
         "Home Team": "Indiana State",
         "Home Team Rank Name": "Indiana St",
         "DK Home Odds": {
+<<<<<<< HEAD
             "Spread": "-7.5",
             "Spread Odds": "-7.5",
             "Home ML": "−305"
@@ -316,10 +346,20 @@
         "Game": {
             "Start Time": "8:40PM",
             "Total": "134.5",
+=======
+            "Spread": "-3.5",
+            "Spread Odds": "-3.5",
+            "Home ML": "−166"
+        },
+        "Game": {
+            "Start Time": "9:00PM",
+            "Total": "154.5",
+>>>>>>> bd3e58b8b64ee768f0516f274278dc2e84e6a7c7
             "Over Total Odds": "−110",
             "Under Total Odds": "−110",
             "League": "NCAAB"
         }
+<<<<<<< HEAD
     },
     {
         "Away Team": "Iowa",
@@ -389,5 +429,7 @@
             "Under Total Odds": "−110",
             "League": "NCAAB"
         }
+=======
+>>>>>>> bd3e58b8b64ee768f0516f274278dc2e84e6a7c7
     }
 ]
