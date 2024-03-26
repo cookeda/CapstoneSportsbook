@@ -115,7 +115,7 @@
 {"Team": "Howard", "Cover %": "35.7%"} -5.5
 {"Team": "Hsn Christian", "Cover %": "53.3%"} -19.0
 {"Team": "IL-Chicago", "Cover %": "41.7%"} -7.5
-{"Team": "IPFW", "Cover %": "60.0%"} 3.3
+{"Team": "IPFW", "Cover %": "62.5%"} 3.1
 {"Team": "IUPUI", "Cover %": "31.3%"} -20.1
 {"Team": "Idaho St", "Cover %": "47.1%"} -6.1
 {"Team": "Idaho", "Cover %": "42.9%"} -9.3

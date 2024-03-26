@@ -209,8 +209,7 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
             print(f"Error writing to file: {e}")
 
     # Cover
-    print("Margin: " + str(movHome) + " Spread: " + str(homeSpread))
-    if (coverHome <= midTier and coverAway > lowTier) or ((float(movHome) + float(homeSpread)) > 0):
+    if (coverHome <= midTier and coverAway > lowTier):
         if (coverHome <= topTier and coverAway > ass):
             try:
                 with open('../data/ACCURACYresults.txt', 'a') as fp:
@@ -226,7 +225,7 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
             print(f"Error writing to file: {e}")
         parlay.append(league + ": " + homeTeam + ": Cover")
         return "recHC"
-    elif coverHome > lowTier and coverAway <= midTier or ((float(movAway) + float(awaySpread)) > 0):
+    elif coverHome > lowTier and coverAway <= midTier:
         if coverHome > ass and coverAway <= topTier:
             try:
                 with open('../data/ACCURACYresults.txt', 'a') as fp:
@@ -266,9 +265,30 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
                     fp.write("EVEN ODDS DON'T BET" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
-        return 0
+        return basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
 
-
+def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway):
+    # Home Bet
+    if ((float(movHome) + float(homeSpread)) > 0) and (coverHome < coverAway):
+        try:
+            with open('../data/ACCURACYresults.txt', 'a') as fp:
+                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        parlay.append(league + ": " + homeTeam + ": Cover")
+        return "recHC"
+    # Away Bet
+    if ((float(movAway) + float(awaySpread)) > 0) and (coverAway < coverHome):
+        try:
+            with open('../data/ACCURACYresults.txt', 'a') as fp:
+                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        parlay.append(league + ": " + awayTeam + ": Cover")
+        return "recAC"
+    return 0
 def gameInputFromJSON(file, league):
     recNumerator = 0
     recDenomiator = 0
@@ -347,10 +367,6 @@ def didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet):
 
     else:
         return False
-
-def compare(movAverage, gameSpread):
-    return 0
-
 
 def cleanfile(file):
     try:

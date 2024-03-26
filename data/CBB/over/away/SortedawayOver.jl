@@ -115,7 +115,7 @@
 {"Team": "Howard", "Over %": "64.3%"} 35.7%
 {"Team": "Hsn Christian", "Over %": "43.8%"} 56.3%
 {"Team": "IL-Chicago", "Over %": "30.8%"} 69.2%
-{"Team": "IPFW", "Over %": "56.3%"} 43.8%
+{"Team": "IPFW", "Over %": "52.9%"} 47.1%
 {"Team": "IUPUI", "Over %": "57.1%"} 42.9%
 {"Team": "Idaho St", "Over %": "75.0%"} 25.0%
 {"Team": "Idaho", "Over %": "64.3%"} 35.7%

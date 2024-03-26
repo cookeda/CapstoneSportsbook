@@ -300,7 +300,7 @@
 {"Team": "TX Southern", "Over %": "50.0%"} 50.0%
 {"Team": "TX-Arlington", "Over %": "69.2%"} 30.8%
 {"Team": "TX-Pan Am", "Over %": "58.3%"} 41.7%
-{"Team": "Tarleton St", "Over %": "53.9%"} 46.2%
+{"Team": "Tarleton St", "Over %": "50.0%"} 50.0%
 {"Team": "Temple", "Over %": "76.9%"} 23.1%
 {"Team": "Tennessee", "Over %": "43.8%"} 56.3%
 {"Team": "Texas A&M", "Over %": "46.7%"} 53.3%
