@@ -20,6 +20,7 @@ def scrape(link, file, type):
 
     cover = {}
     for i, tr in enumerate(soup.select('#DataTables_Table_0 tbody tr'), start=1):
+<<<<<<< HEAD
         team = tr.select_one('td:nth-of-type(1) a')#.text.strip()
         if team:
             team=team.text.strip()
@@ -34,6 +35,20 @@ def scrape(link, file, type):
             with open(file, 'a') as fp:
                 fp.write(json.dumps(cover) + " " + plusminus + '\n')
             if i >= 31: break
+=======
+        team = tr.select_one('td:nth-of-type(1) a').text.strip()
+        percent = tr.select_one('td:nth-of-type(3)').text.strip()
+        mov = tr.select_one('td:nth-of-type(4)').text.strip()
+        if mov == "0.0":
+            mov = "+0.0"
+        cover["Team"] = team
+        print(team)
+        cover[type + " %"] = percent
+        i += 1
+        with open(file, 'a') as fp:
+            fp.write(json.dumps(cover) + " " + mov + '\n')
+        if i >= 31: break
+>>>>>>> bd3e58b8b64ee768f0516f274278dc2e84e6a7c7
     print("Done")
 
 # Removes file if it already exists for a clean start

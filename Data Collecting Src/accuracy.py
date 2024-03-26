@@ -66,9 +66,12 @@ def generalAlg(stat, league):
                     team_search = re.search(r'"Team":\s*"([^"]+)"', thirty)
                     team = team_search.group(1).strip()
                     match = re.search(r"\b\d+\.\d+\b", sixty)
-                    sixtyPercent = float(match.group())/100
-                    thirtyPercent   = float(thirty[-13:-9])/100
-                    tenPercent      = float(tenp[-13:-9])/100
+                    sixtyPercent = float(match.group()) / 100
+                    match = re.search(r"\b\d+\.\d+\b", thirty)
+                    thirtyPercent = float(match.group()) / 100
+                    match = re.search(r"\b\d+\.\d+\b", tenp)
+                    tenPercent = float(match.group()) / 100
+                    # Changes Accuracy
                     perChance = (.6 * sixtyPercent) + \
                                 (.3 * thirtyPercent) + \
                                 (.1 * tenPercent)
@@ -76,23 +79,8 @@ def generalAlg(stat, league):
                     result_dict[team] = perChance
                 return result_dict
 
-# Generates best team for a general stat (Cover or OU)
-def bestOddsGeneral(result_dict, stat):
-    bestChance = -99
-    bestTeam = "Nobody"
-    for team in result_dict:
-        percent = float(result_dict[team])
-        if percent > bestChance:
-            bestChance = percent
-            bestTeam = team
-    if stat == "Cover":
-        print("Generally, the most likely team to cover is: " + bestTeam + " Chance: " + str(bestChance))
-
-    if stat == "Over":
-        print("Generally, the most likely team to go over is: " + bestTeam + " Chance: " + str(bestChance))
-
 # Gets python dictionary from a file
-def getDict(file):
+def getDictPercent(file):
     result_dict = {}
     with open(file, 'r') as fr:
         for line in fr:
@@ -105,10 +93,30 @@ def getDict(file):
             result_dict[team] = percent
     return result_dict
 
+
+def getDictMOV(file):
+    result_dict = {}
+    with open(file, 'r') as fr:
+        for line in fr:
+            # First, extract the team name from the JSON-like structure
+            team_search = re.search(r'"Team":\s*"([^"]+)"', line)
+            team = team_search.group(1) if team_search else "Unknown"
+
+            # Now, extract the MOV value from the end of the line
+            mov_search = re.search(r'([-]?\d+\.\d+)$', line)
+            mov = float(mov_search.group(1)) if mov_search else 0.0
+
+            result_dict[team] = mov
+    return result_dict
+
 def combineOnRanking(dict1, dict2):
     return_dict = {}
     for team1 in dict1:
         if team1 in dict2:
+            # Changes Accuracy
+            #first = dict1[team1] * .3
+            #second = dict2[team1] * .7
+            #both = first + second
             both = (dict1[team1] + dict2[team1])/2
             return_dict[team1] = both
     #print(return_dict)
@@ -121,7 +129,7 @@ def sortByRank(input_dict):
     ranked_dict = {team: rank for rank, (team, percent) in enumerate(sorted_dict, start=1)}
     return ranked_dict
 
-def gameInput(homeTeam, awayTeam, league):
+def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("-----------------------------" + '\n')
@@ -148,6 +156,10 @@ def gameInput(homeTeam, awayTeam, league):
     overHome = chcNBA[homeTeam]
     overAway = caoNBA[awayTeam]
 
+    movHome = homeMOV[homeTeam]
+    movAway = awayMOV[awayTeam]
+
+    # Changes Accuracy
     topTier = numTeams * 0.10  # Top 10%
     midTier = numTeams * 0.322  # Top 32.2%
     lowTier = numTeams * 0.70  # Bottom 70%
@@ -202,8 +214,8 @@ def gameInput(homeTeam, awayTeam, league):
             print(f"Error writing to file: {e}")
 
     # Cover
-    if coverHome <= midTier and coverAway > lowTier:
-        if coverHome <= topTier and coverAway > ass:
+    if (coverHome <= midTier and coverAway > lowTier):
+        if (coverHome <= topTier and coverAway > ass):
             try:
                 with open('../data/ACCURACYresults.txt', 'a') as fp:
                     fp.write("LOCK ALERT!" + '\n')
@@ -258,9 +270,30 @@ def gameInput(homeTeam, awayTeam, league):
                     fp.write("EVEN ODDS DON'T BET" + '\n')
             except Exception as e:
                 print(f"Error writing to file: {e}")
-        return 0
+        return basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
 
-
+def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway):
+    # Home Bet
+    if ((float(movHome) + float(homeSpread)) > 0) and (coverHome < coverAway):
+        try:
+            with open('../data/ACCURACYresults.txt', 'a') as fp:
+                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        parlay.append(league + ": " + homeTeam + ": Cover")
+        return "recHC"
+    # Away Bet
+    if ((float(movAway) + float(awaySpread)) > 0) and (coverAway < coverHome):
+        try:
+            with open('../data/ACCURACYresults.txt', 'a') as fp:
+                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(
+                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        parlay.append(league + ": " + awayTeam + ": Cover")
+        return "recAC"
+    return 0
 def gameInputFromJSON(file, league):
     recNumerator = 0
     recDenomiator = 0
@@ -280,7 +313,13 @@ def gameInputFromJSON(file, league):
         awayScore = game['Away Score']
         ouResult = game["OU Result"]
 
-        typeOfBet = gameInput(homeTeam, awayTeam, league)
+        if homeSpread == "Pick)" or homeSpread == "-Pick)":
+            homeSpread = "0"
+
+        if awaySpread == "Pick" or awaySpread == "-Pick":
+            awaySpread = "0"
+
+        typeOfBet = gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league)
         itHit = didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet)
 
         if typeOfBet == "recHC" or typeOfBet == "recAC" or typeOfBet == "recO" or typeOfBet == "recU":
@@ -310,35 +349,29 @@ def gameInputFromJSON(file, league):
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("Recommended Bets %: " + str(recNumerator/recDenomiator) + '\n')
     if lockDenominator != 0:
-        print("Lock Bets %: " + str(lockNumerator / lockDenominator) + "(" + str(lockCounter) + "games)")
+        print("Lock Bets %: " + str(lockNumerator / lockDenominator) + " (" + str(lockCounter) + " Games)")
         with open('../data/ACCURACYresults.txt', 'a') as fp:
-            fp.write("Lock Bets %: " + str(lockNumerator / lockDenominator) + "(" + str(lockCounter) + "games)" + '\n')
-    print("Amount of games passed on: " + str(missCounter))
+            fp.write("Lock Bets %: " + str(lockNumerator / lockDenominator) + " (" + str(lockCounter) + " Games)" + '\n')
+    print("Amount of games passed on: " + str(missCounter) + " Games")
     with open('../data/ACCURACYresults.txt', 'a') as fp:
-        fp.write("Amount of games passed on: " + str(missCounter) + '\n')
+        fp.write("Amount of games passed on: " + str(missCounter) + " Games" + '\n')
 
 
 def didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet):
-    print("Game Input Return: " + str(typeOfBet))
     if (typeOfBet == "lockO" or typeOfBet == "recO") and (ouResult == "O"):
-        print("hit1")
         return True
 
     elif (typeOfBet == "lockU" or typeOfBet == "recU") and (ouResult == "U"):
-        print("hit2")
         return True
 
     elif (typeOfBet == "lockHC" or typeOfBet == "recHC") and ((homeScore + homeSpread) > awayScore):
-        print("hit3")
         return True
 
     elif (typeOfBet == "lockAC" or typeOfBet == "recAC") and ((awayScore + awaySpread) > homeScore):
-        print("hit4")
         return True
 
     else:
         return False
-
 
 def cleanfile(file):
     try:
@@ -347,12 +380,14 @@ def cleanfile(file):
         open(file, 'a')
 
 def main():
-    global generalOver  # General Over Dict
-    global generalCover # General Cover Dict
-    global homeOver     # Home Over Dict
-    global homeCover    # Home Cover Dict
-    global awayOver     # Away Over Dict
-    global awayCover    # Away Cover Dict
+    global generalOver      # General Over Dict
+    global generalCover     # General Cover Dict
+    global homeOver         # Home Over Dict
+    global homeCover        # Home Cover Dict
+    global homeMOV          # Home Margin of Victory
+    global awayOver         # Away Over Dict
+    global awayCover        # Away Cover Dict
+    global awayMOV          # Away Margin of Victory
     global choNBA          # Combined Home Over
     global chcNBA          # Combined Home Cover
     global caoNBA          # Combined Away Over
@@ -368,12 +403,14 @@ def main():
     generalOver = generalAlg("Over", "NBA")
 
     # For Home
-    homeCover = getDict("../data/NBA/cover/home/SortedhomeCover.jl")
-    homeOver = getDict("../data/NBA/over/home/SortedhomeOver.jl")
+    homeCover = getDictPercent("../data/NBA/cover/home/SortedhomeCover.jl")
+    homeMOV = getDictMOV("../data/NBA/cover/home/SortedhomeCover.jl")
+    homeOver = getDictPercent("../data/NBA/over/home/SortedhomeOver.jl")
 
     # For Away
-    awayCover = getDict("../data/NBA/cover/away/SortedawayCover.jl")
-    awayOver = getDict("../data/NBA/over/away/SortedawayOver.jl")
+    awayCover = getDictPercent("../data/NBA/cover/away/SortedawayCover.jl")
+    awayMOV = getDictMOV("../data/NBA/cover/away/SortedawayCover.jl")
+    awayOver = getDictPercent("../data/NBA/over/away/SortedawayOver.jl")
 
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
     choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
