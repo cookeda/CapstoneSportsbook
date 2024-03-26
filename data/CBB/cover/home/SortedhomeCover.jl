@@ -300,7 +300,7 @@
 {"Team": "TX Southern", "Cover %": "50.0%"} 8.3
 {"Team": "TX-Arlington", "Cover %": "69.2%"} 10.7
 {"Team": "TX-Pan Am", "Cover %": "36.4%"} 0.1
-{"Team": "Tarleton St", "Cover %": "61.5%"} 13.0
+{"Team": "Tarleton St", "Cover %": "57.1%"} 12.2
 {"Team": "Temple", "Cover %": "46.2%"} 0.1
 {"Team": "Tennessee", "Cover %": "66.7%"} 19.8
 {"Team": "Texas A&M", "Cover %": "33.3%"} 7.9
