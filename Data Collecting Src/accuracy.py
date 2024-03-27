@@ -10,11 +10,6 @@ import json
 import re
 import os
 
-#global topTier
-#global midTier
-#global lowTier
-#global ass
-
 
 teamDict = {
     'Hawks': 'Atlanta',
@@ -129,7 +124,7 @@ def sortByRank(input_dict):
     ranked_dict = {team: rank for rank, (team, percent) in enumerate(sorted_dict, start=1)}
     return ranked_dict
 
-def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid, top):
+def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, low, mid):
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("-----------------------------" + '\n')
@@ -160,10 +155,8 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid,
     movAway = awayMOV[awayTeam]
 
     # Changes Accuracy
-    topTier = numTeams * top  # Top 10%    | GPT SAID .2
     midTier = numTeams * mid  # Top 32.2% | GPT SAID .3
     lowTier = numTeams * low  # Bottom 70% | GPT SAID .7
-    ass = numTeams * ass  # Bottom 83.3% | GPT SAID .8
 
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
@@ -173,14 +166,6 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid,
 
     # Over
     if overHome <= midTier and overAway <= midTier:
-        if overHome <= topTier and overAway <= topTier:
-            try:
-                with open('../data/ACCURACYresults.txt', 'a') as fp:
-                    fp.write("Lock ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
-            return "lockO"
         try:
             with open('../data/ACCURACYresults.txt', 'a') as fp:
                 fp.write("Take the over!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
@@ -190,14 +175,6 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid,
         return "recO"
 
     elif overHome > lowTier and overAway > lowTier:
-        if overHome > ass and overAway > ass:
-            try:
-                with open('../data/ACCURACYresults.txt', 'a') as fp:
-                    fp.write("Lock ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            lockparlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
-            return "lockU"
         try:
             with open('../data/ACCURACYresults.txt', 'a') as fp:
                 fp.write("Take the under!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
@@ -215,14 +192,6 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid,
 
     # Cover
     if (coverHome <= midTier and coverAway > lowTier):
-        if (coverHome <= topTier and coverAway > ass):
-            try:
-                with open('../data/ACCURACYresults.txt', 'a') as fp:
-                    fp.write("LOCK ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            lockparlay.append(league + ": " + homeTeam + ": Cover")
-            return "lockHC"
         try:
             with open('../data/ACCURACYresults.txt', 'a') as fp:
                 fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
@@ -231,14 +200,6 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid,
         parlay.append(league + ": " + homeTeam + ": Cover")
         return "recHC"
     elif coverHome > lowTier and coverAway <= midTier:
-        if coverHome > ass and coverAway <= topTier:
-            try:
-                with open('../data/ACCURACYresults.txt', 'a') as fp:
-                    fp.write("LOCK ALERT!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-            lockparlay.append(league + ": " + awayTeam + ": Cover")
-            return "lockAC"
         try:
             with open('../data/ACCURACYresults.txt', 'a') as fp:
                 fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
@@ -294,13 +255,10 @@ def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, a
         parlay.append(league + ": " + awayTeam + ": Cover")
         return "recAC"
     return 0
-def gameInputFromJSON(file, league, ass, low, mid, top):
+def gameInputFromJSON(file, league, low, mid):
     recNumerator = 0
     recDenomiator = 0
-    lockNumerator = 0
-    lockDenominator = 0
     missCounter = 0
-    lockCounter = 0
     recCounter = 0
     with open(file, 'r') as j:
         games = json.load(j)
@@ -319,7 +277,7 @@ def gameInputFromJSON(file, league, ass, low, mid, top):
         if awaySpread == "Pick)" or awaySpread == "-Pick)":
             awaySpread = "0"
 
-        typeOfBet = gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid, top)
+        typeOfBet = gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, low, mid)
         itHit = didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet)
 
         if typeOfBet == "recHC" or typeOfBet == "recAC" or typeOfBet == "recO" or typeOfBet == "recU":
@@ -329,16 +287,6 @@ def gameInputFromJSON(file, league, ass, low, mid, top):
                 recCounter += 1
             else:
                 recDenomiator += 1
-        elif typeOfBet == "lockHC" or typeOfBet == "lockAC" or typeOfBet == "lockO" or typeOfBet == "lockU":
-            if itHit is True:
-                lockNumerator += 1
-                lockDenominator += 1
-                recNumerator += 1
-                recDenomiator += 1
-                recCounter +=1
-                lockCounter += 1
-            else:
-                lockDenominator += 1
         elif typeOfBet == 0:
             missCounter += 1
 
@@ -349,26 +297,22 @@ def gameInputFromJSON(file, league, ass, low, mid, top):
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("Recommended Bets %: " + str(recNumerator/recDenomiator) + '\n')
             return recNumerator/recDenomiator
-    if lockDenominator != 0:
-        print("Lock Bets %: " + str(lockNumerator / lockDenominator) + " (" + str(lockCounter) + " Games)")
-        with open('../data/ACCURACYresults.txt', 'a') as fp:
-            fp.write("Lock Bets %: " + str(lockNumerator / lockDenominator) + " (" + str(lockCounter) + " Games)" + '\n')
     print("Amount of games passed on: " + str(missCounter) + " Games")
     with open('../data/ACCURACYresults.txt', 'a') as fp:
         fp.write("Amount of games passed on: " + str(missCounter) + " Games" + '\n')
 
 
 def didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet):
-    if (typeOfBet == "lockO" or typeOfBet == "recO") and (ouResult == "O"):
+    if (typeOfBet == "recO") and (ouResult == "O"):
         return True
 
-    elif (typeOfBet == "lockU" or typeOfBet == "recU") and (ouResult == "U"):
+    elif (typeOfBet == "recU") and (ouResult == "U"):
         return True
 
-    elif (typeOfBet == "lockHC" or typeOfBet == "recHC") and ((homeScore + homeSpread) > awayScore):
+    elif (typeOfBet == "recHC") and ((homeScore + homeSpread) > awayScore):
         return True
 
-    elif (typeOfBet == "lockAC" or typeOfBet == "recAC") and ((awayScore + awaySpread) > homeScore):
+    elif (typeOfBet == "recAC") and ((awayScore + awaySpread) > homeScore):
         return True
 
     else:
@@ -395,11 +339,9 @@ def main():
     global cacNBA          # Combined Away Cover
 
     global parlay       # Parlay List
-    global lockparlay
     global teamDict     # Team Dictionary in form City: Team Name
 
     parlay = []
-    lockparlay = []
     generalCover = generalAlg("Cover", "NBA")
     generalOver = generalAlg("Over", "NBA")
 
@@ -422,33 +364,22 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    ass = 1
-    bestAss = 0     # .75
-    bestLow = 0     # .75
-    bestMid = 0     # .35
-    bestTop = 0     # .3
+    bestLow = 0  # .75
+    bestMid = 0  # .35
     best = 0
-    while ass > .7:
-        low = .9
-        while low > .6:
-            mid = .6
-            while mid > .3:
-                top = .3
-                while top > 0:
-                    acc = gameInputFromJSON("../OddsHistory/nba.json", 'NBA', ass, low, mid, top)
-                    print("Percent " + str(acc) + " Top: " + str(top) + " Mid: " + str(mid) + " Low: " + str(
-                        low) + " Ass: " + str(ass))
-                    if acc > best:
-                        best = acc
-                        bestTop = top
-                        bestMid = mid
-                        bestLow = low
-                        bestAss = ass
-                    top -= 0.05
-                mid -= 0.05
-            low -= 0.05
-        ass -= 0.05
-    print("Percent " + str(best) + " Top: " + str(bestTop) + " Mid: " + str(bestMid) + " Low: " + str(bestLow) + " Ass: " + str(bestAss))
+    low = .9
+    while low > .6:
+        mid = .6
+        while mid > .3:
+            acc = gameInputFromJSON("../OddsHistory/nba.json", 'NBA', low, mid)
+            print("Percent " + str(acc) + " Mid: " + str(mid) + " Low: " + str(low))
+            if acc > best:
+                best = acc
+                bestMid = mid
+                bestLow = low
+            mid -= 0.05
+        low -= 0.05
+    print("Percent " + str(best) + " Mid: " + str(bestMid) + " Low: " + str(bestLow))
 
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
@@ -456,11 +387,6 @@ def main():
     except Exception as e:
         print(f"Error writing to file: {e}")
 
-    try:
-        with open('../data/ACCURACYresults.txt', 'a') as fp:
-            fp.write("\nLocks: " + '\n' + json.dumps(lockparlay) + '\n')
-    except Exception as e:
-        print(f"Error writing to file: {e}")
 
 if __name__ == '__main__':
     main()
