@@ -94,7 +94,7 @@ def scrape(matchup_num):
             'Total': total_text[2:], 
             'Over Total Odds': check_even(over_total_odds_text), 
             'Under Total Odds': check_even(under_total_odds_text),
-            'League' : 'NBA'
+            'League' : 'MLB'
         }
     }
 
