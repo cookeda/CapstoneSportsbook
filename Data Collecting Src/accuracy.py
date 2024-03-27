@@ -72,8 +72,8 @@ def generalAlg(stat, league):
                     match = re.search(r"\b\d+\.\d+\b", tenp)
                     tenPercent = float(match.group()) / 100
                     # Changes Accuracy
-                    perChance = (.6 * sixtyPercent) + \
-                                (.3 * thirtyPercent) + \
+                    perChance = (.7 * sixtyPercent) + \
+                                (.2 * thirtyPercent) + \
                                 (.1 * tenPercent)
 
                     result_dict[team] = perChance
@@ -114,10 +114,10 @@ def combineOnRanking(dict1, dict2):
     for team1 in dict1:
         if team1 in dict2:
             # Changes Accuracy
-            #first = dict1[team1] * .3
-            #second = dict2[team1] * .7
-            #both = first + second
-            both = (dict1[team1] + dict2[team1])/2
+            first = dict1[team1] * .7
+            second = dict2[team1] * .3
+            both = first + second
+            #both = (dict1[team1] + dict2[team1])/2
             return_dict[team1] = both
     #print(return_dict)
     sorted_dict = sorted(return_dict.items(), key=lambda item: item[1], reverse=False)
@@ -129,7 +129,7 @@ def sortByRank(input_dict):
     ranked_dict = {team: rank for rank, (team, percent) in enumerate(sorted_dict, start=1)}
     return ranked_dict
 
-def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
+def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid, top):
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("-----------------------------" + '\n')
@@ -160,10 +160,10 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
     movAway = awayMOV[awayTeam]
 
     # Changes Accuracy
-    topTier = numTeams * 0.10  # Top 10%
-    midTier = numTeams * 0.322  # Top 32.2%
-    lowTier = numTeams * 0.70  # Bottom 70%
-    ass = numTeams * 0.833  # Bottom 83.3%
+    topTier = numTeams * top  # Top 10%    | GPT SAID .2
+    midTier = numTeams * mid  # Top 32.2% | GPT SAID .3
+    lowTier = numTeams * low  # Bottom 70% | GPT SAID .7
+    ass = numTeams * ass  # Bottom 83.3% | GPT SAID .8
 
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
@@ -294,7 +294,7 @@ def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, a
         parlay.append(league + ": " + awayTeam + ": Cover")
         return "recAC"
     return 0
-def gameInputFromJSON(file, league):
+def gameInputFromJSON(file, league, ass, low, mid, top):
     recNumerator = 0
     recDenomiator = 0
     lockNumerator = 0
@@ -316,10 +316,10 @@ def gameInputFromJSON(file, league):
         if homeSpread == "Pick)" or homeSpread == "-Pick)":
             homeSpread = "0"
 
-        if awaySpread == "Pick" or awaySpread == "-Pick":
+        if awaySpread == "Pick)" or awaySpread == "-Pick)":
             awaySpread = "0"
 
-        typeOfBet = gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league)
+        typeOfBet = gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, ass, low, mid, top)
         itHit = didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet)
 
         if typeOfBet == "recHC" or typeOfBet == "recAC" or typeOfBet == "recO" or typeOfBet == "recU":
@@ -348,6 +348,7 @@ def gameInputFromJSON(file, league):
         print("Recommended Bets %: " + str(recNumerator/recDenomiator) + " (" + str(recCounter) + " Games)")
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("Recommended Bets %: " + str(recNumerator/recDenomiator) + '\n')
+            return recNumerator/recDenomiator
     if lockDenominator != 0:
         print("Lock Bets %: " + str(lockNumerator / lockDenominator) + " (" + str(lockCounter) + " Games)")
         with open('../data/ACCURACYresults.txt', 'a') as fp:
@@ -421,7 +422,34 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    gameInputFromJSON("../OddsHistory/nba.json", 'NBA')
+    ass = 1
+    bestAss = 0     # .75
+    bestLow = 0     # .75
+    bestMid = 0     # .35
+    bestTop = 0     # .3
+    best = 0
+    while ass > .7:
+        low = .9
+        while low > .6:
+            mid = .6
+            while mid > .3:
+                top = .3
+                while top > 0:
+                    acc = gameInputFromJSON("../OddsHistory/nba.json", 'NBA', ass, low, mid, top)
+                    print("Percent " + str(acc) + " Top: " + str(top) + " Mid: " + str(mid) + " Low: " + str(
+                        low) + " Ass: " + str(ass))
+                    if acc > best:
+                        best = acc
+                        bestTop = top
+                        bestMid = mid
+                        bestLow = low
+                        bestAss = ass
+                    top -= 0.05
+                mid -= 0.05
+            low -= 0.05
+        ass -= 0.05
+    print("Percent " + str(best) + " Top: " + str(bestTop) + " Mid: " + str(bestMid) + " Low: " + str(bestLow) + " Ass: " + str(bestAss))
+
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("-----------------------------\nRecommended Bets:\n" + json.dumps(parlay))
