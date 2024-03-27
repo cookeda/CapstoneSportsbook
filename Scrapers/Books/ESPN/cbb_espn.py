@@ -53,57 +53,55 @@ def check_even(text):
     return text
 
 def scrape(matchup_num, stop_event):
-    try:
-        #matchup_num *= 2
-        #x = matchup_num - 1  # Indicates Away Team
-        #y = matchup_num      # Indicates Home Team
+    #matchup_num *= 2
+    #x = matchup_num - 1  # Indicates Away Team
+    #y = matchup_num      # Indicates Home Team
 
-        away_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[1]/button/div/div/div[1]')
-        home_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[1]/button/div/div/div[1]')
-        away_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[1]/span[1]')
-        away_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[1]/span[2]')
-        total_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[2]/span[1]')
-        over_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[2]/span[2]')
-        away_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[3]/span[2]')
-        home_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[1]/span[1]')
-        home_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[1]/span[2]')
-        under_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[2]/span[2]')
-        home_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[3]/span[2]')
-        start_time_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[1]/button/span')
-        away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
-        home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
-        # List of all the odds text variables
-        if stop_event.is_set():
-            return None
-
-        matchup = {
-            'Away Team': away_team_text, 
-            'Away Team Rank Name': away_team_rank_name, 
-            'ESPN Away Odds': {
-                'Spread': away_spread_text, 
-                'Spread Odds': check_even(away_spread_odds_text), 
-                'Away ML': check_even(away_ml_text)
-            }, 
-            'Home Team': home_team_text, 
-            'Home Team Rank Name': home_team_rank_name, 
-            'ESPN Home Odds': {
-                'Spread': home_spread_text, 
-                'Spread Odds': check_even(home_spread_odds_text), 
-                'Home ML': check_even(home_ml_text)
-            },
-            'Game': {
-                'Start Time': start_time_text, 
-                'Total': total_text[2:], 
-                'Over Total Odds': check_even(over_total_odds_text), 
-                'Under Total Odds': check_even(under_total_odds_text),
-                'League' : 'CBB'
-            }
-        }
-
-        print(f'{away_team_text}, {home_team_text}')
-        return matchup
-    except NoSuchElementException | TimeoutException: 
+    away_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[1]/button/div/div/div[1]')
+    home_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[1]/button/div/div/div[1]')
+    away_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[1]/span[1]')
+    away_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[1]/span[2]')
+    total_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[2]/span[1]')
+    over_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[2]/span[2]')
+    away_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[2]/button[3]/span[2]')
+    home_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[1]/span[1]')
+    home_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[1]/span[2]')
+    under_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[2]/span[2]')
+    home_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[3]/span[2]')
+    start_time_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[1]/button/span')
+    away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
+    home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
+    # List of all the odds text variables
+    if stop_event.is_set():
         return None
+
+    matchup = {
+        'Away Team': away_team_text, 
+        'Away Team Rank Name': away_team_rank_name, 
+        'ESPN Away Odds': {
+            'Spread': away_spread_text, 
+            'Spread Odds': check_even(away_spread_odds_text), 
+            'Away ML': check_even(away_ml_text)
+        }, 
+        'Home Team': home_team_text, 
+        'Home Team Rank Name': home_team_rank_name, 
+        'ESPN Home Odds': {
+            'Spread': home_spread_text, 
+            'Spread Odds': check_even(home_spread_odds_text), 
+            'Home ML': check_even(home_ml_text)
+        },
+        'Game': {
+            'Start Time': start_time_text, 
+            'Total': total_text[2:], 
+            'Over Total Odds': check_even(over_total_odds_text), 
+            'Under Total Odds': check_even(under_total_odds_text),
+            'League' : 'CBB'
+        }
+    }
+
+    print(f'{away_team_text}, {home_team_text}')
+    return matchup
+
 
 
 def managed_webdriver(*args, **kwargs):
