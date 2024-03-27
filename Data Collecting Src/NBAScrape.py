@@ -2,13 +2,14 @@ from selenium import webdriver
 webdriver.Chrome
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
+from webdriver_manager.chrome import ChromeDriverManager
 import json
 import os
 
 # Global Variables
 options = Options()
 options.headless = True
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 link = "https://www.teamrankings.com/nba/trends/"
 
 # Gets every team's % for a given stat (type)
