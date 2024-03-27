@@ -169,10 +169,10 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
         movHome = homeMOV3[homeTeam]
         movAway = awayMOV3[awayTeam]
 
-    topTier = numTeams * 0.10  # Top 10% Change to 20
-    midTier = numTeams * 0.322  # Top 30% Change to 30
-    lowTier = numTeams * 0.70  # Starting point for Bottom 30% Change to 70
-    ass = numTeams * 0.833  # Bottom 10% Change to 80
+    topTier = numTeams * 0.3  # Top 10% Change to 20
+    midTier = numTeams * 0.35  # Top 30% Change to 30
+    lowTier = numTeams * 0.75  # Starting point for Bottom 30% Change to 70
+    ass = numTeams * 0.75  # Bottom 10% Change to 80
 
     print("For " + awayTeam + " At " + homeTeam + ":")
     try:
@@ -467,10 +467,3 @@ def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, a
 
 if __name__ == '__main__':
     main()
-
-# Idea for new Algorithm:
-# Pass 3 (or more) parameters through that you want to use to determine the algorithm
-# For Example
-# alg(Team, Location, Type, Stat)         alg(Magic, Home, Cover, 2.5)
-# Calculates how well the Magic do at home against the spread
-# Compares that value to the value of 2.5, returns how likely it is to hit
