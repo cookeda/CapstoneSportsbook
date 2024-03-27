@@ -13,7 +13,7 @@ import pandas as pd
 from time import process_time
 import json
 
-with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
+with open('../../../Dictionary/College/NCAAB Teams.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
@@ -52,7 +52,7 @@ def check_even(text):
         return '+100'
     return text
 
-def scrape(matchup_num):
+def scrape(matchup_num, stop_event):
     #matchup_num *= 2
     #x = matchup_num - 1  # Indicates Away Team
     #y = matchup_num      # Indicates Home Team
@@ -72,7 +72,8 @@ def scrape(matchup_num):
     away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
     home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
     # List of all the odds text variables
-    
+    if stop_event.is_set():
+        return None
 
     matchup = {
         'Away Team': away_team_text, 
@@ -94,36 +95,49 @@ def scrape(matchup_num):
             'Total': total_text[2:], 
             'Over Total Odds': check_even(over_total_odds_text), 
             'Under Total Odds': check_even(under_total_odds_text),
-            'League' : 'MLB'
+            'League' : 'CBB'
         }
     }
 
     print(f'{away_team_text}, {home_team_text}')
     return matchup
 
+
+
+def managed_webdriver(*args, **kwargs):
+    driver = webdriver.Chrome(*args, **kwargs)
+    try:
+        yield driver
+    finally:
+        driver.quit()
+        
+
 def scrape_with_timeout(z, timeout=7):
     # This will hold the result of the scrape function
+    stop_event = threading.Event()
     result = [None]
     
     def target():
         # Call the scrape function and store the result in the nonlocal list
-        result[0] = scrape(z)
+        result[0] = scrape(z, stop_event)
         
-    # Set up the thread to run the scrape function
+    result = [None]
     thread = threading.Thread(target=target)
     thread.start()
-    thread.join(timeout)  # Wait for the time limit
+    thread.join(timeout)
+ # Wait for the time limit
     if thread.is_alive():
-        print(f"Scraping took too long, moving on to the next matchup.")
-        driver.quit()
+        print(f"Scraping took too long, exiting scraping process.")
+        stop_event.set()
+        # Give the thread a little time to stop gracefully (if necessary)
+        thread.join(1) 
         return None  # Ensure the thread has finished before returning
         
     return result[0]
-
 options = Options()
 options.headless = True
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-driver.get("https://espnbet.com/sport/baseball/organization/united-states/competition/mlb/featured-page")
+driver.get("https://espnbet.com/sport/basketball/organization/united-states/competition/ncaab/featured-page")
 
 
 time.sleep(10)  # Reduced sleep time after initial load
@@ -131,29 +145,34 @@ time.sleep(10)  # Reduced sleep time after initial load
 
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
 
-number_of_games = 1# num_rows/2
+
+
 all_matchups = []
-z = 1  # Start with the first matchup
-
-
+matchup_num = 1
 
 while True:
-    print(f'Scraping matchup number: {z}')
-    matchup = scrape_with_timeout(z)
-    if matchup:
-        all_matchups.append(matchup)
-        z += 1  # Increment only if a matchup was found
-    else:
-        # If scrape_with_timeout returns None or empty, it indicates no more matchups or timeout
+    print(f'Scraping matchup number: {matchup_num}')
+    matchup = scrape(driver, matchup_num)
+    if matchup is None:
+        # This condition is now explicitly tied to the absence of more matchups or encountering an issue.
+        print("No more matchups found or timeout occurred. Ending scraping process.")
         break
+    else:
+        all_matchups.append(matchup)
+        matchup_num += 1  # Proceed to next matchup
 
 print(f'Total matchups scraped: {len(all_matchups)}')
+driver.quit()
 
 #Writes to JSON
 try:
-    with open('../../Data/ESPN/MLB.json', 'w') as fp:
+    with open('../../Data/ESPN/CBB.json', 'w') as fp:
         json.dump(all_matchups, fp, indent=4)
 except Exception as e:
     print(f"Error writing to file: {e}")
 
+
+#TODO: Only Scrape todays matches
+#TODO: Fix freeze bug
+#TODO: Fix dictionary for ESPN
 #driver.quit()
