@@ -8,11 +8,12 @@ from webdriver_manager.chrome import ChromeDriverManager
 import requests
 import undetected_chromedriver as uc
 import time
+import threading
 import pandas as pd
 from time import process_time
 import json
 
-with open('../../../Dictionary/College/NCAAB Teams.json', 'r') as file:
+with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
@@ -52,9 +53,9 @@ def check_even(text):
     return text
 
 def scrape(matchup_num):
-    matchup_num *= 2
-    x = matchup_num - 1  # Indicates Away Team
-    y = matchup_num      # Indicates Home Team
+    #matchup_num *= 2
+    #x = matchup_num - 1  # Indicates Away Team
+    #y = matchup_num      # Indicates Home Team
 
     away_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[2]/div[1]/button/div/div/div[1]')
     home_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[1]/button/div/div/div[1]')
@@ -68,21 +69,21 @@ def scrape(matchup_num):
     under_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[2]/span[2]')
     home_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[3]/div[2]/button[3]/span[2]')
     start_time_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/div/div[2]/div[{matchup_num}]/div/div[1]/button/span')
-    #away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
-    #home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
+    away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
+    home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
     # List of all the odds text variables
     
 
     matchup = {
         'Away Team': away_team_text, 
-    #    'Away Team Rank Name': away_team_rank_name, 
+        'Away Team Rank Name': away_team_rank_name, 
         'ESPN Away Odds': {
             'Spread': away_spread_text, 
             'Spread Odds': check_even(away_spread_odds_text), 
             'Away ML': check_even(away_ml_text)
         }, 
         'Home Team': home_team_text, 
-    #    'Home Team Rank Name': home_team_rank_name, 
+        'Home Team Rank Name': home_team_rank_name, 
         'ESPN Home Odds': {
             'Spread': home_spread_text, 
             'Spread Odds': check_even(home_spread_odds_text), 
@@ -90,7 +91,7 @@ def scrape(matchup_num):
         },
         'Game': {
             'Start Time': start_time_text, 
-            'Total': total_text, 
+            'Total': total_text[2:], 
             'Over Total Odds': check_even(over_total_odds_text), 
             'Under Total Odds': check_even(under_total_odds_text),
             'League' : 'NBA'
@@ -99,6 +100,25 @@ def scrape(matchup_num):
 
     print(f'{away_team_text}, {home_team_text}')
     return matchup
+
+def scrape_with_timeout(z, timeout=7):
+    # This will hold the result of the scrape function
+    result = [None]
+    
+    def target():
+        # Call the scrape function and store the result in the nonlocal list
+        result[0] = scrape(z)
+        
+    # Set up the thread to run the scrape function
+    thread = threading.Thread(target=target)
+    thread.start()
+    thread.join(timeout)  # Wait for the time limit
+    if thread.is_alive():
+        print(f"Scraping took too long, moving on to the next matchup.")
+        driver.quit()
+        return None  # Ensure the thread has finished before returning
+        
+    return result[0]
 
 options = Options()
 options.headless = True
@@ -110,30 +130,25 @@ time.sleep(10)  # Reduced sleep time after initial load
 #specific_tbody = driver.find_element(By.CSS_SELECTOR, 'tbody.sportsbook-table__body')
 
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
+
 number_of_games = 1# num_rows/2
 all_matchups = []
 z = 1  # Start with the first matchup
 
+
+
 while True:
     print(f'Scraping matchup number: {z}')
-    try:
-        matchup = scrape(z)
-        if matchup:
-            all_matchups.append(matchup)
-            z += 1  # Increment only if a matchup was found
-        else:
-            # If scrape returns None or empty, it indicates no more matchups
-            break
-    except Exception as e:
-        # If an exception is thrown, assume no more matchups can be found
-        print(f"An error occurred: {e}")
+    matchup = scrape_with_timeout(z)
+    if matchup:
+        all_matchups.append(matchup)
+        z += 1  # Increment only if a matchup was found
+    else:
+        # If scrape_with_timeout returns None or empty, it indicates no more matchups or timeout
         break
 
 print(f'Total matchups scraped: {len(all_matchups)}')
 
-#all_matchups.append(scrape(1))
-
-#print(len(driver.find_elements_by_class_name('b-divider')))
 #Writes to JSON
 try:
     with open('../../Data/ESPN/MLB.json', 'w') as fp:
@@ -141,4 +156,4 @@ try:
 except Exception as e:
     print(f"Error writing to file: {e}")
 
-driver.quit()
+#driver.quit()
