@@ -104,6 +104,13 @@ def getDictMOV(file):
             result_dict[team] = mov
     return result_dict
 
+def getListPPG(file):
+    result_list = []
+    with open(file, 'r') as fr:
+        for line in fr:
+            result_list.append(line.strip())
+    return result_list
+
 def combineOnRanking(dict1, dict2):
     return_dict = {}
     for team1 in dict1:
@@ -125,13 +132,20 @@ def sortByRank(input_dict):
     return ranked_dict
 
 def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, low, mid):
+    # only used for special total
+    with open("../OddsHistory/nba.json", 'r') as j:
+        games = json.load(j)
+    for game in games:
+        homeScore = game['Home Score']
+        awayScore = game['Away Score']
+
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("-----------------------------" + '\n')
     except Exception as e:
         print(f"Error writing to file: {e}")
     if awayTeam == "New" or homeTeam == "New" or awayTeam == "Los" or homeTeam == "Los":
-        return 0
+        return "N", "N"
     if awayTeam == "Oklahoma":
         awayTeam = "Okla City"
     elif homeTeam == "Oklahoma":
@@ -150,111 +164,88 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, low, mid):
     coverAway = cacNBA[awayTeam]
     overHome = chcNBA[homeTeam]
     overAway = caoNBA[awayTeam]
-
     movHome = homeMOV[homeTeam]
     movAway = awayMOV[awayTeam]
+    ppg = ppgNBA
 
     # Changes Accuracy
     midTier = numTeams * mid  # Top 32.2% | GPT SAID .3
     lowTier = numTeams * low  # Bottom 70% | GPT SAID .7
 
-    try:
-        with open('../data/ACCURACYresults.txt', 'a') as fp:
-            fp.write("For " + awayTeam + " At " + homeTeam + ":" + '\n')
-    except Exception as e:
-        print(f"Error writing to file: {e}")
+    ncres = normalCover(league, homeTeam, coverHome, awayTeam, coverAway, lowTier, midTier)
+    movres = basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
+    if (ncres == "recHC") or (movres == "recHC"):
+        coverResult = "recHC"
+    elif (ncres == "recAC") or (movres == "recAC"):
+        coverResult = "recAC"
+    else:
+        coverResult = "N"
 
-    # Over
+    nores = normalOver(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier)
+    total = homeScore + awayScore
+    ppgres = basedOnPGG(league, homeTeam, awayTeam, ppg, total)
+    if (nores == "recO") or (ppgres == "recO"):
+        overResult = "recO"
+    elif (nores == "recU") or (ppgres == "recU"):
+        overResult = "recU"
+    else:
+        overResult = "N"
+    return coverResult, overResult
+def normalCover(league, homeTeam, coverHome, awayTeam, coverAway, lowTier, midTier):
+    if (coverHome <= midTier and coverAway > lowTier):
+        parlay.append(league + ": " + homeTeam + ": Cover")
+        return "recHC"
+
+    elif coverHome > lowTier and coverAway <= midTier:
+        parlay.append(league + ": " + awayTeam + ": Cover")
+        return "recAC"
+    return "N"
+
+def normalOver(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier):
     if overHome <= midTier and overAway <= midTier:
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("Take the over!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Over")
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
         return "recO"
 
     elif overHome > lowTier and overAway > lowTier:
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("Take the under!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        parlay.append(league + ": " +awayTeam + " At " + homeTeam + ": Under")
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
         return "recU"
-
-    else:
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("Don't bet on O/U" + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-
-    # Cover
-    if (coverHome <= midTier and coverAway > lowTier):
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        parlay.append(league + ": " + homeTeam + ": Cover")
-        return "recHC"
-    elif coverHome > lowTier and coverAway <= midTier:
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(overHome) + '\n' +"Away Rank: " + str(overAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        parlay.append(league + ": " + awayTeam + ": Cover")
-        return "recAC"
-    else:
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("We do not recommend, but you do you" + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
-        if coverHome > coverAway:
-            try:
-                with open('../data/ACCURACYresults.txt', 'a') as fp:
-                    fp.write("Bet on " + homeTeam + " to Cover!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-        elif coverAway > coverHome:
-            try:
-                with open('../data/ACCURACYresults.txt', 'a') as fp:
-                    fp.write("Bet on " + awayTeam + " to Cover!" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-        else:
-            try:
-                with open('../data/ACCURACYresults.txt', 'a') as fp:
-                    fp.write("EVEN ODDS DON'T BET" + '\n')
-            except Exception as e:
-                print(f"Error writing to file: {e}")
-        return basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
+    return "N"
 
 def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway):
     # Home Bet
     if ((float(movHome) + float(homeSpread)) > 0) and (coverHome < coverAway):
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(
-                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
         parlay.append(league + ": " + homeTeam + ": Cover")
         return "recHC"
+
     # Away Bet
     if ((float(movAway) + float(awaySpread)) > 0) and (coverAway < coverHome):
-        try:
-            with open('../data/ACCURACYresults.txt', 'a') as fp:
-                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(
-                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
-        except Exception as e:
-            print(f"Error writing to file: {e}")
         parlay.append(league + ": " + awayTeam + ": Cover")
         return "recAC"
-    return 0
+    return "N"
+
+
+def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
+    for team in ppg:
+        tdict = json.loads(team)
+        if tdict["Team"] == homeTeam:
+            homeTotalAVG = float(tdict["PPG"]) * .25
+            homeL3 = float(tdict["Last 3"]) * .25
+            homeAVG = float(tdict["Home"]) * .5
+            myAverageHome = homeTotalAVG + homeL3 + homeAVG
+
+        if tdict["Team"] == awayTeam:
+            awayTotalAVG = float(tdict["PPG"]) * .25
+            awayL3 = float(tdict["Last 3"]) * .25
+            awayAVG = float(tdict["Away"]) * .5
+            myAverageAway = awayTotalAVG + awayL3 + awayAVG
+
+    if (myAverageHome + myAverageAway) > float(total):
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
+        return "recO"
+
+    else:
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
+        return "recU"
 def gameInputFromJSON(file, league, low, mid):
     recNumerator = 0
     recDenomiator = 0
@@ -278,20 +269,36 @@ def gameInputFromJSON(file, league, low, mid):
             awaySpread = "0"
 
         typeOfBet = gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, low, mid)
-        itHit = didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, typeOfBet)
+        coverResult, overResult = typeOfBet
 
-        if typeOfBet == "recHC" or typeOfBet == "recAC" or typeOfBet == "recO" or typeOfBet == "recU":
+        itHit = didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, coverResult)
+        if coverResult == "recHC" or coverResult == "recAC":
             if itHit is True:
                 recNumerator += 1
                 recDenomiator += 1
                 recCounter += 1
             else:
                 recDenomiator += 1
-        elif typeOfBet == 0:
+        elif coverResult == "N":
             missCounter += 1
 
-        else:
-            print("ERROR: GAME INPUT RETURNED SOMETHING UNEXPECTED: " + str(typeOfBet))
+        #else:
+            #print("ERROR: GAME INPUT RETURNED SOMETHING UNEXPECTED: " + str(coverResult))
+
+        itHit = didItHit(homeSpread, homeScore, awaySpread, awayScore, ouResult, overResult)
+        if overResult == "recO" or overResult == "recU":
+            if itHit is True:
+                recNumerator += 1
+                recDenomiator += 1
+                recCounter += 1
+            else:
+                recDenomiator += 1
+        elif overResult == "N":
+            missCounter += 1
+
+        #else:
+            #print("ERROR: GAME INPUT RETURNED SOMETHING UNEXPECTED: " + str(overResult))
+
     if recDenomiator != 0:
         print("Recommended Bets %: " + str(recNumerator/recDenomiator) + " (" + str(recCounter) + " Games)")
         with open('../data/ACCURACYresults.txt', 'a') as fp:
@@ -333,6 +340,7 @@ def main():
     global awayOver         # Away Over Dict
     global awayCover        # Away Cover Dict
     global awayMOV          # Away Margin of Victory
+    global ppgNBA           # PPG NBA STATS
     global choNBA          # Combined Home Over
     global chcNBA          # Combined Home Cover
     global caoNBA          # Combined Away Over
@@ -344,6 +352,7 @@ def main():
     parlay = []
     generalCover = generalAlg("Cover", "NBA")
     generalOver = generalAlg("Over", "NBA")
+    ppgNBA = getListPPG("../data/NBA/over/general/SortedPointAverages.jl")
 
     # For Home
     homeCover = getDictPercent("../data/NBA/cover/home/SortedhomeCover.jl")
@@ -380,7 +389,6 @@ def main():
             mid -= 0.05
         low -= 0.05
     print("Percent " + str(best) + " Mid: " + str(bestMid) + " Low: " + str(bestLow))
-
     try:
         with open('../data/ACCURACYresults.txt', 'a') as fp:
             fp.write("-----------------------------\nRecommended Bets:\n" + json.dumps(parlay))
