@@ -83,7 +83,7 @@ def scrape(matchup_num):
             'Away ML': check_even(away_ml_text)
         }, 
         'Home Team': home_team_text, 
-        'Home TeamID': home_team_rank_name, 
+        'Home Team Rank Name': home_team_rank_name, 
         'ESPN Home Odds': {
             'Spread': home_spread_text, 
             'Spread Odds': check_even(home_spread_odds_text), 
