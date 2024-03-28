@@ -18,8 +18,8 @@ with open('../../../Dictionary/Pro/NBA.json', 'r') as file:
 
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
-        if team_mapping["DraftKings Name"] == dk_team_name:
-            return team_mapping["Team Rankings Name"]
+        if team_mapping["ESPNBet"] == dk_team_name:
+            return team_mapping["TeamID"]
     return "Unknown"  # Return a default value if not found
 
 
@@ -130,7 +130,7 @@ driver.get("https://espnbet.com/sport/basketball/organization/united-states/comp
 
 time.sleep(10)  # Wait for page to load
 
-number_of_games = 12#num_rows/2
+number_of_games = 2#num_rows/2
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
     print(f'{z}/{int(number_of_games)}')

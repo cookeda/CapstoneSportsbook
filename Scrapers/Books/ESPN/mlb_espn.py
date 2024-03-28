@@ -18,8 +18,8 @@ with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
 
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
-        if team_mapping["DraftKings Name"] == dk_team_name:
-            return team_mapping["Team Rankings Name"]
+        if team_mapping["ESPNBet"] == dk_team_name:
+            return team_mapping["TeamID"]
     return "Unknown"  # Return a default value if not found
 
 
@@ -76,14 +76,14 @@ def scrape(matchup_num):
 
     matchup = {
         'Away Team': away_team_text, 
-        'Away Team Rank Name': away_team_rank_name, 
+        'Away TeamID': away_team_rank_name, 
         'ESPN Away Odds': {
             'Spread': away_spread_text, 
             'Spread Odds': check_even(away_spread_odds_text), 
             'Away ML': check_even(away_ml_text)
         }, 
         'Home Team': home_team_text, 
-        'Home Team Rank Name': home_team_rank_name, 
+        'Home TeamID': home_team_rank_name, 
         'ESPN Home Odds': {
             'Spread': home_spread_text, 
             'Spread Odds': check_even(home_spread_odds_text), 
@@ -131,21 +131,19 @@ time.sleep(10)  # Reduced sleep time after initial load
 
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
 
-number_of_games = 1# num_rows/2
+number_of_games = 15# num_rows/2
+#all_matchups = []
+#z = 15  # Start with the first matchup
+
+
+
+#number_of_games = num_rows/2
 all_matchups = []
-z = 1  # Start with the first matchup
-
-
-
-while True:
-    print(f'Scraping matchup number: {z}')
-    matchup = scrape_with_timeout(z)
+for z in range(1, int(number_of_games)+1):
+    print(f'{z}/{int(number_of_games)}')
+    matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)
-        z += 1  # Increment only if a matchup was found
-    else:
-        # If scrape_with_timeout returns None or empty, it indicates no more matchups or timeout
-        break
 
 print(f'Total matchups scraped: {len(all_matchups)}')
 

@@ -1,347 +1,347 @@
 [
     {
-        "Away Team": "MIL Brewers",
-        "Away Team Rank Name": "Milwaukee",
+        "Away Team": "LA Angels",
+        "Away TeamID": "fe8acdeb",
         "ESPN Away Odds": {
-            "Spread": "-1.5",
-            "Spread Odds": "+160",
-            "Away ML": "-110"
-        },
-        "Home Team": "NY Mets",
-        "Home Team Rank Name": "NY Mets",
-        "ESPN Home Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "-190",
-            "Home ML": "-110"
+            "Spread Odds": "-145",
+            "Away ML": "+150"
+        },
+        "Home Team": "BAL Orioles",
+        "Home TeamID": "e8bdce10",
+        "ESPN Home Odds": {
+            "Spread": "-1.5",
+            "Spread Odds": "+125",
+            "Home ML": "-175"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 1:10 PM",
+            "Start Time": "Today \u00b7 3:05 PM",
             "Total": "7.5",
             "Over Total Odds": "-110",
             "Under Total Odds": "-110",
-            "League": "NBA"
+            "League": "MLB"
         }
     },
     {
-        "Away Team": "ATL Braves",
-        "Away Team Rank Name": "Atlanta",
+        "Away Team": "DET Tigers",
+        "Away TeamID": "18a9d733",
+        "ESPN Away Odds": {
+            "Spread": "-1.5",
+            "Spread Odds": "+105",
+            "Away ML": "-165"
+        },
+        "Home Team": "CHI White Sox",
+        "Home TeamID": "ea799920",
+        "ESPN Home Odds": {
+            "Spread": "+1.5",
+            "Spread Odds": "-125",
+            "Home ML": "+140"
+        },
+        "Game": {
+            "Start Time": "Today \u00b7 4:10 PM",
+            "Total": "7.5",
+            "Over Total Odds": "-115",
+            "Under Total Odds": "-105",
+            "League": "MLB"
+        }
+    },
+    {
+        "Away Team": "MIN Twins",
+        "Away TeamID": "f5328492",
         "ESPN Away Odds": {
             "Spread": "-1.5",
             "Spread Odds": "+135",
             "Away ML": "-130"
         },
-        "Home Team": "PHI Phillies",
-        "Home Team Rank Name": "Philadelphia",
+        "Home Team": "KC Royals",
+        "Home TeamID": "db2ee960",
         "ESPN Home Odds": {
             "Spread": "+1.5",
             "Spread Odds": "-160",
             "Home ML": "+110"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 3:05 PM",
-            "Total": "7.5",
-            "Over Total Odds": "+100",
-            "Under Total Odds": "-120",
-            "League": "NBA"
-        }
-    },
-    {
-        "Away Team": "LA Angels",
-        "Away Team Rank Name": "LA Angels",
-        "ESPN Away Odds": {
-            "Spread": "+1.5",
-            "Spread Odds": "-135",
-            "Away ML": "+155"
-        },
-        "Home Team": "BAL Orioles",
-        "Home Team Rank Name": "Baltimore",
-        "ESPN Home Odds": {
-            "Spread": "-1.5",
-            "Spread Odds": "+115",
-            "Home ML": "-185"
-        },
-        "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 3:05 PM",
-            "Total": "7.5",
-            "Over Total Odds": "-115",
-            "Under Total Odds": "-105",
-            "League": "NBA"
-        }
-    },
-    {
-        "Away Team": "DET Tigers",
-        "Away Team Rank Name": "Detroit",
-        "ESPN Away Odds": {
-            "Spread": "-1.5",
-            "Spread Odds": "-105",
-            "Away ML": "-175"
-        },
-        "Home Team": "CHI White Sox",
-        "Home Team Rank Name": "Chi Sox",
-        "ESPN Home Odds": {
-            "Spread": "+1.5",
-            "Spread Odds": "-115",
-            "Home ML": "+150"
-        },
-        "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
-            "Total": "7.5",
-            "Over Total Odds": "-115",
-            "Under Total Odds": "-105",
-            "League": "NBA"
-        }
-    },
-    {
-        "Away Team": "MIN Twins",
-        "Away Team Rank Name": "Minnesota",
-        "ESPN Away Odds": {
-            "Spread": "-1.5",
-            "Spread Odds": "+145",
-            "Away ML": "-115"
-        },
-        "Home Team": "KC Royals",
-        "Home Team Rank Name": "Kansas City",
-        "ESPN Home Odds": {
-            "Spread": "+1.5",
-            "Spread Odds": "-175",
-            "Home ML": "-105"
-        },
-        "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
-            "Total": "7.5",
-            "Over Total Odds": "-115",
-            "Under Total Odds": "-105",
-            "League": "NBA"
+            "Start Time": "Today \u00b7 4:10 PM",
+            "Total": "8.5",
+            "Over Total Odds": "+110",
+            "Under Total Odds": "-130",
+            "League": "MLB"
         }
     },
     {
         "Away Team": "TOR Blue Jays",
-        "Away Team Rank Name": "Toronto",
+        "Away TeamID": "8714ddbe",
         "ESPN Away Odds": {
             "Spread": "+1.5",
             "Spread Odds": "-190",
             "Away ML": "+115"
         },
         "Home Team": "TB Rays",
-        "Home Team Rank Name": "Tampa Bay",
+        "Home TeamID": "16f4bf06",
         "ESPN Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "+160",
             "Home ML": "-135"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
+            "Start Time": "Today \u00b7 4:10 PM",
             "Total": "7.5",
             "Over Total Odds": "-115",
             "Under Total Odds": "-105",
-            "League": "NBA"
+            "League": "MLB"
         }
     },
     {
         "Away Team": "NY Yankees",
-        "Away Team Rank Name": "NY Yankees",
+        "Away TeamID": "6424b504",
         "ESPN Away Odds": {
             "Spread": "+1.5",
             "Spread Odds": "-160",
             "Away ML": "+130"
         },
         "Home Team": "HOU Astros",
-        "Home Team Rank Name": "Houston",
+        "Home TeamID": "4005c299",
         "ESPN Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "+135",
             "Home ML": "-150"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
+            "Start Time": "Today \u00b7 4:10 PM",
             "Total": "8.5",
-            "Over Total Odds": "-120",
-            "Under Total Odds": "+100",
-            "League": "NBA"
+            "Over Total Odds": "-115",
+            "Under Total Odds": "-105",
+            "League": "MLB"
         }
     },
     {
         "Away Team": "SF Giants",
-        "Away Team Rank Name": "SF Giants",
+        "Away TeamID": "486a5e3b",
         "ESPN Away Odds": {
             "Spread": "-1.5",
             "Spread Odds": "+160",
             "Away ML": "-110"
         },
         "Home Team": "SD Padres",
-        "Home Team Rank Name": "Unknown",
+        "Home TeamID": "3f4235d4",
         "ESPN Home Odds": {
             "Spread": "+1.5",
             "Spread Odds": "-190",
             "Home ML": "-110"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
+            "Start Time": "Today \u00b7 4:10 PM",
             "Total": "7.5",
             "Over Total Odds": "-110",
             "Under Total Odds": "-110",
-            "League": "NBA"
+            "League": "MLB"
         }
     },
     {
         "Away Team": "PIT Pirates",
-        "Away Team Rank Name": "Pittsburgh",
+        "Away TeamID": "9666114b",
         "ESPN Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "-190",
-            "Away ML": "+115"
+            "Spread Odds": "-200",
+            "Away ML": "+110"
         },
         "Home Team": "MIA Marlins",
-        "Home Team Rank Name": "Miami",
+        "Home TeamID": "8d47be6d",
         "ESPN Home Odds": {
             "Spread": "-1.5",
-            "Spread Odds": "+160",
-            "Home ML": "-135"
+            "Spread Odds": "+165",
+            "Home ML": "-130"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
+            "Start Time": "Today \u00b7 4:10 PM",
             "Total": "7.5",
             "Over Total Odds": "-105",
             "Under Total Odds": "-115",
-            "League": "NBA"
+            "League": "MLB"
         }
     },
     {
         "Away Team": "WSH Nationals",
-        "Away Team Rank Name": "Unknown",
+        "Away TeamID": "dd4357ee",
         "ESPN Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "-160",
+            "Spread Odds": "-150",
             "Away ML": "+135"
         },
         "Home Team": "CIN Reds",
-        "Home Team Rank Name": "Cincinnati",
+        "Home TeamID": "fdd0d44c",
         "ESPN Home Odds": {
             "Spread": "-1.5",
-            "Spread Odds": "+135",
+            "Spread Odds": "+130",
             "Home ML": "-155"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
+            "Start Time": "Today \u00b7 4:10 PM",
             "Total": "8.5",
-            "Over Total Odds": "-125",
-            "Under Total Odds": "+105",
-            "League": "NBA"
+            "Over Total Odds": "-130",
+            "Under Total Odds": "+110",
+            "League": "MLB"
         }
     },
     {
         "Away Team": "STL Cardinals",
-        "Away Team Rank Name": "St. Louis",
+        "Away TeamID": "ccadb94e",
         "ESPN Away Odds": {
             "Spread": "+1.5",
             "Spread Odds": "-105",
             "Away ML": "+195"
         },
         "Home Team": "LA Dodgers",
-        "Home Team Rank Name": "LA Dodgers",
+        "Home TeamID": "4e2f3aa1",
         "ESPN Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-115",
             "Home ML": "-230"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 4:10 PM",
+            "Start Time": "Today \u00b7 4:10 PM",
             "Total": "8.5",
-            "Over Total Odds": "-120",
-            "Under Total Odds": "+100",
-            "League": "NBA"
+            "Over Total Odds": "-115",
+            "Under Total Odds": "-105",
+            "League": "MLB"
         }
     },
     {
         "Away Team": "CHI Cubs",
-        "Away Team Rank Name": "Chi Cubs",
+        "Away TeamID": "d10f1db8",
         "ESPN Away Odds": {
             "Spread": "-1.5",
             "Spread Odds": "+170",
             "Away ML": "+100"
         },
         "Home Team": "TEX Rangers",
-        "Home Team Rank Name": "Texas",
+        "Home TeamID": "e841daaf",
         "ESPN Home Odds": {
             "Spread": "+1.5",
             "Spread Odds": "-215",
             "Home ML": "-120"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 7:35 PM",
+            "Start Time": "Today \u00b7 7:35 PM",
             "Total": "8.5",
             "Over Total Odds": "+100",
             "Under Total Odds": "-120",
-            "League": "NBA"
+            "League": "MLB"
         }
     },
     {
         "Away Team": "CLE Guardians",
-        "Away Team Rank Name": "Cleveland",
+        "Away TeamID": "5a31e1ff",
         "ESPN Away Odds": {
             "Spread": "-1.5",
-            "Spread Odds": "+110",
+            "Spread Odds": "+115",
             "Away ML": "-155"
         },
         "Home Team": "OAK Athletics",
-        "Home Team Rank Name": "Oakland",
+        "Home TeamID": "8b214a89",
         "ESPN Home Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "-130",
+            "Spread Odds": "-135",
             "Home ML": "+135"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 10:07 PM",
+            "Start Time": "Today \u00b7 10:07 PM",
             "Total": "7.5",
             "Over Total Odds": "+100",
             "Under Total Odds": "-120",
-            "League": "NBA"
+            "League": "MLB"
         }
     },
     {
         "Away Team": "COL Rockies",
-        "Away Team Rank Name": "Colorado",
+        "Away TeamID": "8f2512bc",
         "ESPN Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "-105",
-            "Away ML": "+200"
+            "Spread Odds": "-110",
+            "Away ML": "+180"
         },
         "Home Team": "ARI Diamondbacks",
-        "Home Team Rank Name": "Arizona",
+        "Home TeamID": "2b1ac347",
         "ESPN Home Odds": {
             "Spread": "-1.5",
-            "Spread Odds": "-115",
-            "Home ML": "-240"
+            "Spread Odds": "-110",
+            "Home ML": "-215"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 10:10 PM",
+            "Start Time": "Today \u00b7 10:10 PM",
             "Total": "8.5",
             "Over Total Odds": "-110",
             "Under Total Odds": "-110",
-            "League": "NBA"
+            "League": "MLB"
         }
     },
     {
         "Away Team": "BOS Red Sox",
-        "Away Team Rank Name": "Boston",
+        "Away TeamID": "8a2d1e91",
         "ESPN Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "-150",
-            "Away ML": "+145"
+            "Spread Odds": "-160",
+            "Away ML": "+140"
         },
         "Home Team": "SEA Mariners",
-        "Home Team Rank Name": "Seattle",
+        "Home TeamID": "300faa7b",
         "ESPN Home Odds": {
             "Spread": "-1.5",
-            "Spread Odds": "+130",
-            "Home ML": "-170"
+            "Spread Odds": "+135",
+            "Home ML": "-165"
         },
         "Game": {
-            "Start Time": "Mar 28, 2024 \u00b7 10:10 PM",
+            "Start Time": "Today \u00b7 10:10 PM",
             "Total": "7.5",
             "Over Total Odds": "-105",
             "Under Total Odds": "-115",
-            "League": "NBA"
+            "League": "MLB"
+        }
+    },
+    {
+        "Away Team": "MIL Brewers",
+        "Away TeamID": "c5227021",
+        "ESPN Away Odds": {
+            "Spread": "-1.5",
+            "Spread Odds": "+150",
+            "Away ML": "-115"
+        },
+        "Home Team": "NY Mets",
+        "Home TeamID": "c625b23e",
+        "ESPN Home Odds": {
+            "Spread": "+1.5",
+            "Spread Odds": "-180",
+            "Home ML": "-105"
+        },
+        "Game": {
+            "Start Time": "Mar 29, 2024 \u00b7 1:40 PM",
+            "Total": "7.5",
+            "Over Total Odds": "-105",
+            "Under Total Odds": "-115",
+            "League": "MLB"
+        }
+    },
+    {
+        "Away Team": "ATL Braves",
+        "Away TeamID": "354ef58",
+        "ESPN Away Odds": {
+            "Spread": "-1.5",
+            "Spread Odds": "+135",
+            "Away ML": "-130"
+        },
+        "Home Team": "PHI Phillies",
+        "Home TeamID": "fe2ec146",
+        "ESPN Home Odds": {
+            "Spread": "+1.5",
+            "Spread Odds": "-160",
+            "Home ML": "+110"
+        },
+        "Game": {
+            "Start Time": "Mar 29, 2024 \u00b7 3:05 PM",
+            "Total": "7.5",
+            "Over Total Odds": "+100",
+            "Under Total Odds": "-120",
+            "League": "MLB"
         }
     }
 ]
