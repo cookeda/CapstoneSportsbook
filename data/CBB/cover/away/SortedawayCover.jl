@@ -115,7 +115,7 @@
 {"Team": "Howard", "Cover %": "35.7%"} -5.5
 {"Team": "Hsn Christian", "Cover %": "53.3%"} -19.0
 {"Team": "IL-Chicago", "Cover %": "41.7%"} -7.5
-{"Team": "IPFW", "Cover %": "62.5%"} 3.1
+{"Team": "IPFW", "Cover %": "58.8%"} 2.5
 {"Team": "IUPUI", "Cover %": "31.3%"} -20.1
 {"Team": "Idaho St", "Cover %": "47.1%"} -6.1
 {"Team": "Idaho", "Cover %": "42.9%"} -9.3
@@ -323,7 +323,7 @@
 {"Team": "UCSB", "Cover %": "46.2%"} -1.3
 {"Team": "UCSD", "Cover %": "57.1%"} 5.2
 {"Team": "UL Monroe", "Cover %": "53.3%"} -12.4
-{"Team": "UNLV", "Cover %": "72.7%"} 4.8
+{"Team": "UNLV", "Cover %": "66.7%"} 2.5
 {"Team": "USC", "Cover %": "50.0%"} -7.3
 {"Team": "UTSA", "Cover %": "46.7%"} -8.4
 {"Team": "Utah St", "Cover %": "30.0%"} 1.8
