@@ -213,7 +213,7 @@
 {"Team": "New Orleans", "Over %": "77.8%"} 22.2%
 {"Team": "Niagara", "Over %": "61.5%"} 38.5%
 {"Team": "Nicholls", "Over %": "55.6%"} 44.4%
-{"Team": "Norfolk St", "Over %": "40.0%"} 60.0%
+{"Team": "Norfolk St", "Over %": "36.4%"} 63.6%
 {"Team": "North Dakota", "Over %": "60.0%"} 40.0%
 {"Team": "North Texas", "Over %": "61.5%"} 38.5%
 {"Team": "Northeastrn", "Over %": "33.3%"} 66.7%
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Over %": "85.7%"} 14.3%
 {"Team": "Santa Clara", "Over %": "21.4%"} 78.6%
 {"Team": "Seattle", "Over %": "35.3%"} 64.7%
-{"Team": "Seton Hall", "Over %": "44.4%"} 55.6%
+{"Team": "Seton Hall", "Over %": "47.4%"} 52.6%
 {"Team": "Siena", "Over %": "42.9%"} 57.1%
 {"Team": "South Dakota", "Over %": "63.6%"} 36.4%
 {"Team": "Southern", "Over %": "0.0%"} 100.0%

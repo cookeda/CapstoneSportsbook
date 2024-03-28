@@ -99,7 +99,7 @@ def scrape(matchup_num):
 #For Connor
 options = Options()
 options.headless = True
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://sportsbook.draftkings.com/leagues/basketball/ncaab")
 
 

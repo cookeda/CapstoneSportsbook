@@ -108,14 +108,14 @@
 {"Team": "Hampton", "Over %": "51.6%"} 48.4%
 {"Team": "Harvard", "Over %": "50.3%"} 49.7%
 {"Team": "Hawaii", "Over %": "49.2%"} 50.8%
-{"Team": "High Point", "Over %": "50.4%"} 49.6%
+{"Team": "High Point", "Over %": "50.2%"} 49.8%
 {"Team": "Hofstra", "Over %": "53.1%"} 46.9%
 {"Team": "Holy Cross", "Over %": "51.8%"} 48.2%
 {"Team": "Houston", "Over %": "47.5%"} 52.5%
 {"Team": "Howard", "Over %": "52.8%"} 47.2%
 {"Team": "Hsn Christian", "Over %": "55.1%"} 45.0%
 {"Team": "IL-Chicago", "Over %": "51.5%"} 48.5%
-{"Team": "IPFW", "Over %": "53.0%"} 47.0%
+{"Team": "IPFW", "Over %": "52.8%"} 47.2%
 {"Team": "IUPUI", "Over %": "49.5%"} 50.5%
 {"Team": "Idaho St", "Over %": "56.3%"} 43.7%
 {"Team": "Idaho", "Over %": "52.1%"} 47.9%
@@ -213,7 +213,7 @@
 {"Team": "New Orleans", "Over %": "58.8%"} 41.2%
 {"Team": "Niagara", "Over %": "49.9%"} 50.1%
 {"Team": "Nicholls", "Over %": "49.7%"} 50.3%
-{"Team": "Norfolk St", "Over %": "49.4%"} 50.6%
+{"Team": "Norfolk St", "Over %": "49.2%"} 50.8%
 {"Team": "North Dakota", "Over %": "56.9%"} 43.1%
 {"Team": "North Texas", "Over %": "49.2%"} 50.8%
 {"Team": "Northeastrn", "Over %": "52.0%"} 48.0%
@@ -272,8 +272,8 @@
 {"Team": "San Francisco", "Over %": "48.8%"} 51.2%
 {"Team": "San Jose St", "Over %": "49.7%"} 50.3%
 {"Team": "Santa Clara", "Over %": "52.9%"} 47.2%
-{"Team": "Seattle", "Over %": "45.4%"} 54.6%
-{"Team": "Seton Hall", "Over %": "48.4%"} 51.6%
+{"Team": "Seattle", "Over %": "45.2%"} 54.8%
+{"Team": "Seton Hall", "Over %": "48.5%"} 51.5%
 {"Team": "Siena", "Over %": "47.6%"} 52.4%
 {"Team": "South Dakota", "Over %": "54.2%"} 45.8%
 {"Team": "Southern", "Over %": "43.1%"} 56.9%
@@ -323,7 +323,7 @@
 {"Team": "UCSB", "Over %": "47.6%"} 52.4%
 {"Team": "UCSD", "Over %": "57.7%"} 42.3%
 {"Team": "UL Monroe", "Over %": "49.3%"} 50.7%
-{"Team": "UNLV", "Over %": "52.3%"} 47.7%
+{"Team": "UNLV", "Over %": "52.4%"} 47.6%
 {"Team": "USC", "Over %": "47.7%"} 52.4%
 {"Team": "UTSA", "Over %": "54.4%"} 45.6%
 {"Team": "Utah St", "Over %": "51.1%"} 48.9%

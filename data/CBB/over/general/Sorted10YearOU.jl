@@ -108,14 +108,14 @@
 {"Team": "Hampton", "Over %": "53.8%"} 46.2%
 {"Team": "Harvard", "Over %": "50.2%"} 49.8%
 {"Team": "Hawaii", "Over %": "50.5%"} 49.5%
-{"Team": "High Point", "Over %": "49.5%"} 50.5%
+{"Team": "High Point", "Over %": "49.3%"} 50.7%
 {"Team": "Hofstra", "Over %": "52.2%"} 47.8%
 {"Team": "Holy Cross", "Over %": "51.3%"} 48.7%
 {"Team": "Houston", "Over %": "45.4%"} 54.6%
 {"Team": "Howard", "Over %": "54.3%"} 45.7%
 {"Team": "Hsn Christian", "Over %": "56.0%"} 44.0%
 {"Team": "IL-Chicago", "Over %": "48.9%"} 51.1%
-{"Team": "IPFW", "Over %": "53.6%"} 46.4%
+{"Team": "IPFW", "Over %": "53.4%"} 46.6%
 {"Team": "IUPUI", "Over %": "49.0%"} 51.0%
 {"Team": "Idaho St", "Over %": "54.2%"} 45.8%
 {"Team": "Idaho", "Over %": "52.1%"} 47.9%
@@ -213,7 +213,7 @@
 {"Team": "New Orleans", "Over %": "63.0%"} 37.0%
 {"Team": "Niagara", "Over %": "49.0%"} 51.0%
 {"Team": "Nicholls", "Over %": "50.9%"} 49.2%
-{"Team": "Norfolk St", "Over %": "50.9%"} 49.1%
+{"Team": "Norfolk St", "Over %": "50.7%"} 49.3%
 {"Team": "North Dakota", "Over %": "57.1%"} 43.0%
 {"Team": "North Texas", "Over %": "48.4%"} 51.6%
 {"Team": "Northeastrn", "Over %": "51.9%"} 48.1%
@@ -272,8 +272,8 @@
 {"Team": "San Francisco", "Over %": "48.2%"} 51.8%
 {"Team": "San Jose St", "Over %": "50.7%"} 49.4%
 {"Team": "Santa Clara", "Over %": "53.4%"} 46.7%
-{"Team": "Seattle", "Over %": "45.8%"} 54.2%
-{"Team": "Seton Hall", "Over %": "47.3%"} 52.8%
+{"Team": "Seattle", "Over %": "45.7%"} 54.3%
+{"Team": "Seton Hall", "Over %": "47.4%"} 52.6%
 {"Team": "Siena", "Over %": "44.9%"} 55.1%
 {"Team": "South Dakota", "Over %": "54.5%"} 45.5%
 {"Team": "Southern", "Over %": "42.9%"} 57.1%
@@ -323,7 +323,7 @@
 {"Team": "UCSB", "Over %": "49.0%"} 51.0%
 {"Team": "UCSD", "Over %": "57.7%"} 42.3%
 {"Team": "UL Monroe", "Over %": "48.8%"} 51.2%
-{"Team": "UNLV", "Over %": "54.7%"} 45.3%
+{"Team": "UNLV", "Over %": "54.9%"} 45.1%
 {"Team": "USC", "Over %": "48.5%"} 51.5%
 {"Team": "UTSA", "Over %": "52.6%"} 47.4%
 {"Team": "Utah St", "Over %": "51.7%"} 48.3%

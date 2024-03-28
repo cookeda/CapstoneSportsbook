@@ -115,7 +115,7 @@
 {"Team": "Howard", "Over %": "64.3%"} 35.7%
 {"Team": "Hsn Christian", "Over %": "43.8%"} 56.3%
 {"Team": "IL-Chicago", "Over %": "30.8%"} 69.2%
-{"Team": "IPFW", "Over %": "52.9%"} 47.1%
+{"Team": "IPFW", "Over %": "50.0%"} 50.0%
 {"Team": "IUPUI", "Over %": "57.1%"} 42.9%
 {"Team": "Idaho St", "Over %": "75.0%"} 25.0%
 {"Team": "Idaho", "Over %": "64.3%"} 35.7%
@@ -323,7 +323,7 @@
 {"Team": "UCSB", "Over %": "46.2%"} 53.9%
 {"Team": "UCSD", "Over %": "57.1%"} 42.9%
 {"Team": "UL Monroe", "Over %": "53.3%"} 46.7%
-{"Team": "UNLV", "Over %": "54.6%"} 45.5%
+{"Team": "UNLV", "Over %": "58.3%"} 41.7%
 {"Team": "USC", "Over %": "66.7%"} 33.3%
 {"Team": "UTSA", "Over %": "66.7%"} 33.3%
 {"Team": "Utah St", "Over %": "91.7%"} 8.3%
