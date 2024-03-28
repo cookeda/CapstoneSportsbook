@@ -1,18 +1,18 @@
 [
     {
         "Away Team": "LA Angels",
-        "Away Team Rank Name": "LA Angels",
+        "Away Team Rank Name": "fe8acdeb",
         "DK Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "−130",
-            "Away ML": "+160"
+            "Spread Odds": "−135",
+            "Away ML": "+145"
         },
         "Home Team": "BAL Orioles",
-        "Home Team Rank Name": "Baltimore",
+        "Home Team Rank Name": "e8bdce10",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
-            "Home ML": "−192"
+            "Home ML": "−175"
         },
         "Game": {
             "Start Time": "3:05PM",
@@ -24,14 +24,14 @@
     },
     {
         "Away Team": "STL Cardinals",
-        "Away Team Rank Name": "St. Louis",
+        "Away Team Rank Name": "ccadb94e",
         "DK Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "−102",
+            "Spread Odds": "+100",
             "Away ML": "+190"
         },
         "Home Team": "LA Dodgers",
-        "Home Team Rank Name": "LA Dodgers",
+        "Home Team Rank Name": "4e2f3aa1",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
@@ -47,14 +47,14 @@
     },
     {
         "Away Team": "NY Yankees",
-        "Away Team Rank Name": "NY Yankees",
+        "Away Team Rank Name": "6424b504",
         "DK Away Odds": {
             "Spread": "+1.5",
             "Spread Odds": "−155",
             "Away ML": "+130"
         },
         "Home Team": "HOU Astros",
-        "Home Team Rank Name": "Houston",
+        "Home Team Rank Name": "4005c299",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
@@ -63,21 +63,21 @@
         "Game": {
             "Start Time": "4:10PM",
             "Total": "8.5",
-            "Over Total Odds": "−115",
-            "Under Total Odds": "−105",
+            "Over Total Odds": "−118",
+            "Under Total Odds": "−102",
             "League": "MLB"
         }
     },
     {
         "Away Team": "TOR Blue Jays",
-        "Away Team Rank Name": "Toronto",
+        "Away Team Rank Name": "8714ddbe",
         "DK Away Odds": {
             "Spread": "+1.5",
             "Spread Odds": "−185",
             "Away ML": "+114"
         },
         "Home Team": "TB Rays",
-        "Home Team Rank Name": "Tampa Bay",
+        "Home Team Rank Name": "16f4bf06",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
@@ -93,14 +93,14 @@
     },
     {
         "Away Team": "PIT Pirates",
-        "Away Team Rank Name": "Pittsburgh",
+        "Away Team Rank Name": "9666114b",
         "DK Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "−192",
+            "Spread Odds": "−198",
             "Away ML": "+110"
         },
         "Home Team": "MIA Marlins",
-        "Home Team Rank Name": "Miami",
+        "Home Team Rank Name": "8d47be6d",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
@@ -109,21 +109,44 @@
         "Game": {
             "Start Time": "4:10PM",
             "Total": "7.5",
-            "Over Total Odds": "−105",
-            "Under Total Odds": "−115",
+            "Over Total Odds": "−108",
+            "Under Total Odds": "−112",
+            "League": "MLB"
+        }
+    },
+    {
+        "Away Team": "MIN Twins",
+        "Away Team Rank Name": "f5328492",
+        "DK Away Odds": {
+            "Spread": "-1.5",
+            "Spread Odds": "+136",
+            "Away ML": "−125"
+        },
+        "Home Team": "KC Royals",
+        "Home Team Rank Name": "db2ee960",
+        "DK Home Odds": {
+            "Spread": "+1.5",
+            "Spread Odds": "+1.5",
+            "Home ML": "+105"
+        },
+        "Game": {
+            "Start Time": "4:10PM",
+            "Total": "8",
+            "Over Total Odds": "−118",
+            "Under Total Odds": "−102",
             "League": "MLB"
         }
     },
     {
         "Away Team": "WAS Nationals",
-        "Away Team Rank Name": "Washington",
+        "Away Team Rank Name": "dd4357ee",
         "DK Away Odds": {
             "Spread": "+1.5",
             "Spread Odds": "−162",
             "Away ML": "+130"
         },
         "Home Team": "CIN Reds",
-        "Home Team Rank Name": "Cincinnati",
+        "Home Team Rank Name": "fdd0d44c",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
@@ -132,25 +155,48 @@
         "Game": {
             "Start Time": "4:10PM",
             "Total": "9",
+            "Over Total Odds": "−122",
+            "Under Total Odds": "+102",
+            "League": "MLB"
+        }
+    },
+    {
+        "Away Team": "SF Giants",
+        "Away Team Rank Name": "486a5e3b",
+        "DK Away Odds": {
+            "Spread": "-1.5",
+            "Spread Odds": "+164",
+            "Away ML": "−108"
+        },
+        "Home Team": "SD Padres",
+        "Home Team Rank Name": "3f4235d4",
+        "DK Home Odds": {
+            "Spread": "+1.5",
+            "Spread Odds": "+1.5",
+            "Home ML": "−112"
+        },
+        "Game": {
+            "Start Time": "4:10PM",
+            "Total": "7.5",
             "Over Total Odds": "−110",
             "Under Total Odds": "−110",
             "League": "MLB"
         }
     },
     {
-        "Away Team": "MIN Twins",
-        "Away Team Rank Name": "Minnesota",
+        "Away Team": "DET Tigers",
+        "Away Team Rank Name": "18a9d733",
         "DK Away Odds": {
             "Spread": "-1.5",
-            "Spread Odds": "+140",
-            "Away ML": "−122"
+            "Spread Odds": "+100",
+            "Away ML": "−170"
         },
-        "Home Team": "KC Royals",
-        "Home Team Rank Name": "Kansas City",
+        "Home Team": "CHI White Sox",
+        "Home Team Rank Name": "ea799920",
         "DK Home Odds": {
             "Spread": "+1.5",
             "Spread Odds": "+1.5",
-            "Home ML": "+102"
+            "Home ML": "+142"
         },
         "Game": {
             "Start Time": "4:10PM",
@@ -161,65 +207,19 @@
         }
     },
     {
-        "Away Team": "DET Tigers",
-        "Away Team Rank Name": "Detroit",
-        "DK Away Odds": {
-            "Spread": "-1.5",
-            "Spread Odds": "−110",
-            "Away ML": "−185"
-        },
-        "Home Team": "CHI White Sox",
-        "Home Team Rank Name": "Chi Sox",
-        "DK Home Odds": {
-            "Spread": "+1.5",
-            "Spread Odds": "+1.5",
-            "Home ML": "+154"
-        },
-        "Game": {
-            "Start Time": "4:10PM",
-            "Total": "7.5",
-            "Over Total Odds": "−112",
-            "Under Total Odds": "−108",
-            "League": "MLB"
-        }
-    },
-    {
-        "Away Team": "SF Giants",
-        "Away Team Rank Name": "SF Giants",
-        "DK Away Odds": {
-            "Spread": "-1.5",
-            "Spread Odds": "+160",
-            "Away ML": "−105"
-        },
-        "Home Team": "SD Padres",
-        "Home Team Rank Name": "Unknown",
-        "DK Home Odds": {
-            "Spread": "+1.5",
-            "Spread Odds": "+1.5",
-            "Home ML": "−115"
-        },
-        "Game": {
-            "Start Time": "4:10PM",
-            "Total": "7.5",
-            "Over Total Odds": "−110",
-            "Under Total Odds": "−110",
-            "League": "MLB"
-        }
-    },
-    {
         "Away Team": "CHI Cubs",
-        "Away Team Rank Name": "Chi Cubs",
+        "Away Team Rank Name": "d10f1db8",
         "DK Away Odds": {
             "Spread": "-1.5",
             "Spread Odds": "+164",
-            "Away ML": "−102"
+            "Away ML": "+100"
         },
         "Home Team": "TEX Rangers",
-        "Home Team Rank Name": "Texas",
+        "Home Team Rank Name": "e841daaf",
         "DK Home Odds": {
             "Spread": "+1.5",
             "Spread Odds": "+1.5",
-            "Home ML": "−118"
+            "Home ML": "−120"
         },
         "Game": {
             "Start Time": "7:35PM",
@@ -231,14 +231,14 @@
     },
     {
         "Away Team": "CLE Guardians",
-        "Away Team Rank Name": "Cleveland",
+        "Away Team Rank Name": "5a31e1ff",
         "DK Away Odds": {
             "Spread": "-1.5",
             "Spread Odds": "+110",
             "Away ML": "−162"
         },
         "Home Team": "OAK Athletics",
-        "Home Team Rank Name": "Oakland",
+        "Home Team Rank Name": "8b214a89",
         "DK Home Odds": {
             "Spread": "+1.5",
             "Spread Odds": "+1.5",
@@ -254,47 +254,47 @@
     },
     {
         "Away Team": "COL Rockies",
-        "Away Team Rank Name": "Colorado",
+        "Away Team Rank Name": "8f2512bc",
         "DK Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "−105",
-            "Away ML": "+200"
+            "Spread Odds": "−112",
+            "Away ML": "+185"
         },
         "Home Team": "ARI Diamondbacks",
-        "Home Team Rank Name": "Arizona",
+        "Home Team Rank Name": "2b1ac347",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
-            "Home ML": "−245"
+            "Home ML": "−225"
         },
         "Game": {
             "Start Time": "10:10PM",
             "Total": "8.5",
-            "Over Total Odds": "−112",
-            "Under Total Odds": "−108",
+            "Over Total Odds": "−110",
+            "Under Total Odds": "−110",
             "League": "MLB"
         }
     },
     {
         "Away Team": "BOS Red Sox",
-        "Away Team Rank Name": "Boston",
+        "Away Team Rank Name": "8a2d1e91",
         "DK Away Odds": {
             "Spread": "+1.5",
-            "Spread Odds": "−142",
-            "Away ML": "+145"
+            "Spread Odds": "−155",
+            "Away ML": "+136"
         },
         "Home Team": "SEA Mariners",
-        "Home Team Rank Name": "Seattle",
+        "Home Team Rank Name": "300faa7b",
         "DK Home Odds": {
             "Spread": "-1.5",
             "Spread Odds": "-1.5",
-            "Home ML": "−175"
+            "Home ML": "−162"
         },
         "Game": {
             "Start Time": "10:10PM",
             "Total": "7.5",
-            "Over Total Odds": "−108",
-            "Under Total Odds": "−112",
+            "Over Total Odds": "−105",
+            "Under Total Odds": "−115",
             "League": "MLB"
         }
     }

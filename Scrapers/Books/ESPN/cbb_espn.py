@@ -13,7 +13,7 @@ import pandas as pd
 from time import process_time
 import json
 
-with open('../../../Dictionary/College/NCAAB Teams.json', 'r') as file:
+with open('../../../Dictionary/College/CBB.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
@@ -146,27 +146,19 @@ time.sleep(10)  # Reduced sleep time after initial load
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
 
 
-
+number_of_games = 4
 all_matchups = []
-matchup_num = 1
-
-while True:
-    print(f'Scraping matchup number: {matchup_num}')
-    matchup = scrape(driver, matchup_num)
-    if matchup is None:
-        # This condition is now explicitly tied to the absence of more matchups or encountering an issue.
-        print("No more matchups found or timeout occurred. Ending scraping process.")
-        break
-    else:
+for z in range(1, int(number_of_games)+1):
+    print(f'{z}/{int(number_of_games)}')
+    matchup = scrape(z)
+    if matchup:
         all_matchups.append(matchup)
-        matchup_num += 1  # Proceed to next matchup
 
 print(f'Total matchups scraped: {len(all_matchups)}')
-driver.quit()
 
 #Writes to JSON
 try:
-    with open('../../Data/ESPN/CBB.json', 'w') as fp:
+    with open('../../Data/ESPN/CBB.json', 'w', encoding='utf-8') as fp:
         json.dump(all_matchups, fp, indent=4)
 except Exception as e:
     print(f"Error writing to file: {e}")
@@ -175,4 +167,4 @@ except Exception as e:
 #TODO: Only Scrape todays matches
 #TODO: Fix freeze bug
 #TODO: Fix dictionary for ESPN
-#driver.quit()
+driver.quit()
