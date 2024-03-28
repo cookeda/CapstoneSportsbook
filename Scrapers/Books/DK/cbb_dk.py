@@ -13,13 +13,13 @@ import json
 # For Connor
 webdriver.chrome
 
-with open('../../../Dictionary/College/NCAAB Teams.json', 'r') as file:
+with open('../../../Dictionary/College/CBB.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
         if team_mapping["DraftKings Name"] == dk_team_name:
-            return team_mapping["Team Rankings Name"]
+            return team_mapping["TeamID"]
     return "Unknown"  # Return a default value if not found
 
 
@@ -86,7 +86,7 @@ def scrape(matchup_num):
             'Total': total_text, 
             'Over Total Odds': over_total_odds_text, 
             'Under Total Odds': under_total_odds_text,
-            'League': 'NCAAB'
+            'League': 'CBB'
         }
     }
 

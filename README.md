@@ -8,11 +8,10 @@ Books
 - DraftKings
 - BetMGM
 - ESPNBet
+- Ceasers
   - Possibles
     - Bet365
     - Pinnacle
-    - FanDuel
-    - Ceasers
 
 Program will generate best bets then search for best odds based on the books we scrape
 

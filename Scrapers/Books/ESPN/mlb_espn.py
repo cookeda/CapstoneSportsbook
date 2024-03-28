@@ -149,7 +149,7 @@ print(f'Total matchups scraped: {len(all_matchups)}')
 
 #Writes to JSON
 try:
-    with open('../../Data/ESPN/MLB.json', 'w') as fp:
+    with open('../../Data/ESPN/MLB.json', 'w', encoding='utf-8') as fp:
         json.dump(all_matchups, fp, indent=4)
 except Exception as e:
     print(f"Error writing to file: {e}")
