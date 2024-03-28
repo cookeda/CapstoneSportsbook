@@ -16,6 +16,23 @@ webdriver.chrome
 with open('../../../Dictionary/College/CBB.json', 'r') as file:
     team_mappings = json.load(file)
 
+def encode_bet_table_id(matchup_id, book_name):
+    if matchup_id and book_name:
+        return f'{book_name}_{matchup_id}'
+    return "Unknown" 
+
+def encode_matchup_id(away_id, home_id, league):
+    if away_id and home_id:
+        return f'{away_id}_{home_id}_{league}'
+    return "Unkown"
+
+def find_team_id(team_name):
+    for team_mapping in team_mappings:
+        if team_mapping["DraftKings Name"] == team_name:
+            return team_mapping["TeamID"]
+    return "Unknown"  # Return a default value if not found
+
+
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
         if team_mapping["DraftKings Name"] == dk_team_name:
@@ -65,33 +82,42 @@ def scrape(matchup_num):
     start_time_text = find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2)')
     away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
     home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
-
-    matchup = {
-        'Away Team': away_team_text, 
-        'Away Team Rank Name': away_team_rank_name, 
-        'DK Away Odds': {
-            'Spread': away_spread_text, 
-            'Spread Odds': away_spread_odds_text, 
-            'Away ML': away_ml_text
-        }, 
-        'Home Team': home_team_text, 
-        'Home Team Rank Name': home_team_rank_name, 
-        'DK Home Odds': {
-            'Spread': home_spread_text, 
-            'Spread Odds': home_spread_odds_text, 
-            'Home ML': home_ml_text
-        },
-        'Game': {
-            'Start Time': start_time_text, 
-            'Total': total_text, 
-            'Over Total Odds': over_total_odds_text, 
-            'Under Total Odds': under_total_odds_text,
-            'League': 'CBB'
-        }
-    }
-
+    away_team_id = find_team_id(away_team_text) #Team
+    home_team_id = find_team_id(home_team_text) #Team
+    matchup_id = encode_matchup_id(away_team_id, home_team_id, 'CBB')
+    bet_table_id = encode_bet_table_id(matchup_id, 'DK')
+    
+    info = [ 
+        {
+            'BetTableId': bet_table_id,
+            'Odds Table': {
+                'Book Name': 'DK',
+                'Away Spread': away_spread_text, 
+                'Away Spread Odds': away_spread_odds_text,
+                'Away ML': (away_ml_text),
+                'Home Spread': home_spread_text, 
+                'Home Spread Odds': home_spread_odds_text,
+                'Home ML': (home_ml_text),
+                'Total': total_text[2:], 
+                'Over Total Odds': (over_total_odds_text), 
+                'Under Total Odds': (under_total_odds_text),
+            },
+            'MatchupID': matchup_id,
+            'Info Table': {                
+                    'Away Team': away_team_text, 
+                    'Away Team Rank Name': away_team_rank_name, 
+                    'Away ID': away_team_id,
+                    'Home Team': home_team_text, 
+                    'Home Team Rank Name': home_team_rank_name,
+                    'Home ID': home_team_id, 
+                    'Start Time': start_time_text, 
+                    'League': 'MLB'
+                }
+            }
+        
+    ]
     print(f'{away_team_text}, {home_team_text}')
-    return matchup
+    return info
 
 #For Devin
 #driver = webdriver.Firefox()

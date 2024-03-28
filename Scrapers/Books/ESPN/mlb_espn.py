@@ -72,9 +72,37 @@ def scrape(matchup_num):
     away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
     home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
     # List of all the odds text variables
-    
+
+    info = [
+        {
+            'bet_table': 
+            {
+                'Book Name': 'ESPN',
+                'Away Spread': away_spread_text, 
+                'Away Spread Odds': away_spread_odds_text,
+                'Away ML': check_even(away_ml_text),
+                'Home Spread': home_spread_text, 
+                'Home Spread Odds': home_spread_odds_text,
+                'Home ML': check_even(home_ml_text),
+                'Total': total_text[2:], 
+                'Over Total Odds': check_even(over_total_odds_text), 
+                'Under Total Odds': check_even(under_total_odds_text),
+            },
+            'matchup': 
+            {
+                'Away Team': away_team_text, 
+                'Away Team Rank Name': away_team_rank_name, 
+                'Home Team': home_team_text, 
+                'Home Team Rank Name': home_team_rank_name, 
+                'Matchup ID': 1,
+                'Date': 1,
+                'League': 'MLB'
+            }
+        }
+    ]
 
     matchup = {
+        'Book Name': 'DK',
         'Away Team': away_team_text, 
         'Away Team Rank Name': away_team_rank_name, 
         'ESPN Away Odds': {
