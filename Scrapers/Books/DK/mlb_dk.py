@@ -20,7 +20,7 @@ with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
         if team_mapping["DraftKings Name"] == dk_team_name:
-            return team_mapping["TeamID"]
+            return team_mapping["Team Rankings Name"]
     return "Unknown"  # Return a default value if not found
 
 

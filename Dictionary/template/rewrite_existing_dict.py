@@ -17,9 +17,9 @@ def reformat_data(input_filename, output_filename):
         new_item = {
             "Team Rankings Name": item["Team Rankings Name"],
             "DraftKings Name": item["DraftKings Name"],
-            "ESPNBet": "Value1",  # Placeholder value
-            "BetMGM": "Value2",   # Placeholder value
-            "TeamID": get_hash(item["Team Rankings Name"])
+            "ESPNBet": item["ESPNBet"],  
+            "BetMGM": item["BetMGM"],  
+            "TeamID": (item["TeamID"])
         }
         reformatted_data.append(new_item)
 

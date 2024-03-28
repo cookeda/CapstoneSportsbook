@@ -5,6 +5,7 @@ set start_time=%time%
 :: Scrape Adv League Data
 cd OddsHistory
 scrapy crawl NBA -o NBA.json
+#scrapy crawl MLB -o MLB.json
 :: Scrape Matchups
 cd ../
 cd Scrapers/Books

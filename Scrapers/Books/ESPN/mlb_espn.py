@@ -19,7 +19,7 @@ with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
         if team_mapping["ESPNBet"] == dk_team_name:
-            return team_mapping["TeamID"]
+            return team_mapping["Team Rankings Name"]
     return "Unknown"  # Return a default value if not found
 
 
@@ -76,7 +76,7 @@ def scrape(matchup_num):
 
     matchup = {
         'Away Team': away_team_text, 
-        'Away TeamID': away_team_rank_name, 
+        'Away Team Rank Name': away_team_rank_name, 
         'ESPN Away Odds': {
             'Spread': away_spread_text, 
             'Spread Odds': check_even(away_spread_odds_text), 
