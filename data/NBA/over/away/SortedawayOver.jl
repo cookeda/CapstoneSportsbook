@@ -21,10 +21,10 @@
 {"Team": "Okla City", "Over %": "57.1%"} 42.9%
 {"Team": "Orlando", "Over %": "45.7%"} 54.3%
 {"Team": "Philadelphia", "Over %": "50.0%"} 50.0%
-{"Team": "Phoenix", "Over %": "42.9%"} 57.1%
+{"Team": "Phoenix", "Over %": "41.7%"} 58.3%
 {"Team": "Portland", "Over %": "51.4%"} 48.6%
 {"Team": "Sacramento", "Over %": "37.1%"} 62.9%
-{"Team": "San Antonio", "Over %": "44.1%"} 55.9%
+{"Team": "San Antonio", "Over %": "45.7%"} 54.3%
 {"Team": "Toronto", "Over %": "62.9%"} 37.1%
 {"Team": "Utah", "Over %": "52.8%"} 47.2%
 {"Team": "Washington", "Over %": "52.6%"} 47.4%

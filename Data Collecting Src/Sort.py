@@ -48,6 +48,7 @@ def main():
     while i < 3:
         sortFile("10YearCover.jl", "cover", "general", league)
         sortFile("AllTimeCover.jl", "cover", "general", league)
+        sortFile("PointAverages.jl", "over", "general", league) # New
         sortFile("CurrentSeasonCover.jl", "cover", "general", league)
         sortFile("10YearOU.jl", "over", "general", league)
         sortFile("AllTimeOU.jl", "over", "general", league)

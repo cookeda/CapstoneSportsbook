@@ -331,7 +331,7 @@
 {"Team": "Utah Valley", "Over %": "53.3%"} 46.7%
 {"Team": "Utah", "Over %": "63.6%"} 36.4%
 {"Team": "VA Tech", "Over %": "72.7%"} 27.3%
-{"Team": "VCU", "Over %": "27.3%"} 72.7%
+{"Team": "VCU", "Over %": "25.0%"} 75.0%
 {"Team": "VMI", "Over %": "53.3%"} 46.7%
 {"Team": "Valparaiso", "Over %": "57.1%"} 42.9%
 {"Team": "Vanderbilt", "Over %": "50.0%"} 50.0%
