@@ -329,9 +329,9 @@
 {"Team": "Utah St", "Over %": "51.7%"} 48.3%
 {"Team": "Utah Tech", "Over %": "48.1%"} 51.9%
 {"Team": "Utah Valley", "Over %": "49.2%"} 50.8%
-{"Team": "Utah", "Over %": "51.0%"} 49.0%
+{"Team": "Utah", "Over %": "50.9%"} 49.1%
 {"Team": "VA Tech", "Over %": "50.0%"} 50.0%
-{"Team": "VCU", "Over %": "46.9%"} 53.1%
+{"Team": "VCU", "Over %": "46.8%"} 53.2%
 {"Team": "VMI", "Over %": "52.6%"} 47.4%
 {"Team": "Valparaiso", "Over %": "46.0%"} 54.0%
 {"Team": "Vanderbilt", "Over %": "49.4%"} 50.6%

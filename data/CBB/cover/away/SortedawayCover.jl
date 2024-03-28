@@ -331,7 +331,7 @@
 {"Team": "Utah Valley", "Cover %": "66.7%"} -4.5
 {"Team": "Utah", "Cover %": "27.3%"} -10.2
 {"Team": "VA Tech", "Cover %": "16.7%"} -8.0
-{"Team": "VCU", "Cover %": "81.8%"} 1.7
+{"Team": "VCU", "Cover %": "75.0%"} -0.1
 {"Team": "VMI", "Cover %": "33.3%"} -21.4
 {"Team": "Valparaiso", "Cover %": "85.7%"} -10.9
 {"Team": "Vanderbilt", "Cover %": "55.6%"} -13.9

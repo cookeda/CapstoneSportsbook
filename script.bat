@@ -16,6 +16,7 @@ python NBAScrape.py
 python CBBScrape.py
 python Sort.py
 python alg.py
+cd ../
 
 :: Capture end time
 set end_time=%time%

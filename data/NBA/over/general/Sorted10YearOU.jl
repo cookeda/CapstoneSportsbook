@@ -26,5 +26,5 @@
 {"Team": "Sacramento", "Over %": "49.9%"} 50.1%
 {"Team": "San Antonio", "Over %": "51.8%"} 48.2%
 {"Team": "Toronto", "Over %": "52.1%"} 47.9%
-{"Team": "Utah", "Over %": "49.2%"} 50.8%
+{"Team": "Utah", "Over %": "49.3%"} 50.7%
 {"Team": "Washington", "Over %": "53.8%"} 46.2%
