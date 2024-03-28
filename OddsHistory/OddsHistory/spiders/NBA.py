@@ -76,12 +76,19 @@ class NbaSpider(scrapy.Spider):
                     away_spread = home_spread[1:] if home_spread[0] == '-' else f'-{home_spread}'
                     total = ou_result[0]
                 
+                #Hard coded team city for the LA teams. 
                 if home_team == "La Clippers": home_team = 'LA Clippers'
                 if away_team == "La Clippers": away_team = 'LA Clippers'
                 
                 if home_team == "La Lakers": home_team = 'LA Lakers'
                 if away_team == "La Lakers": away_team = 'LA Lakers'
 
+                #Hard coded team city for the LA teams when the tem is the one seleceted. 
+                if team_href == '/nba/team/los-angeles-clippers/' and location == 'Home': home_team = 'LA Clippers'
+                if team_href == '/nba/team/los-angeles-clippers/' and location == 'Away': away_team = 'LA Clippers'
+                if team_href == '/nba/team/los-angeles-lakers/' and location == 'Home': home_team = 'LA Lakers'
+                if team_href == '/nba/team/los-angeles-lakers/' and location == 'Away': away_team = 'LA Lakers'
+                if team_href == '/nba/team/los-angeles-lakers/' and home_team == 'Los Angeles' and location == 'Neutral': home_team = 'LA Lakers'
 
                 # Assuming the first column is the team name and the rest are data points
                 # Adjust the dictionary keys according to your table's structure

@@ -93,19 +93,19 @@ def main():
     cleanfile(direct + "/over/PointAverages.jl")
 
     tasks = [
-        {"message": "Starting This Year's Stats", "url": "trends/ou_trends/?range=yearly_2023_2024",
+        {"message": "Starting This Year's Stats", "url": "trends/ou_trends/?range=yearly_mlb_2024",
          "file": direct + "/over/CurrentSeasonOU.jl", "type": "Over"},
-        {"message": "Starting This Year's Stats", "url": "trends/ats_trends/?range=yearly_2023_2024",
+        {"message": "Starting This Year's Stats", "url": "trends/ats_trends/?range=yearly_mlb_2024",
          "file": direct + "/cover/CurrentSeasonCover.jl", "type": "Cover"},
-        {"message": "Starting Last 10 Years", "url": "trends/ats_trends/?range=yearly_since_2013_2014",
+        {"message": "Starting Last 10 Years", "url": "trends/ats_trends/?range=yearly_mlb_2014",
          "file": direct + "/cover/10YearCover.jl", "type": "Cover"},
-        {"message": "Starting Last 10 Years", "url": "trends/ou_trends/?range=yearly_since_2013_2014",
+        {"message": "Starting Last 10 Years", "url": "trends/ou_trends/?range=yearly_mlb_2014",
          "file": direct + "/over/10YearOU.jl", "type": "Over"},
-        {"message": "Starting All Time Stats", "url": "trends/ats_trends/?range=yearly_all",
+        {"message": "Starting All Time Stats", "url": "trends/ats_trends/?range=yearly_mlb_since_2007",
          "file": direct + "/cover/AllTimeCover.jl", "type": "Cover"},
-        {"message": "Starting All Time Stats", "url": "trends/ou_trends/?range=yearly_all",
+        {"message": "Starting All Time Stats", "url": "trends/ou_trends/?range=yearly_mlb_since_2007",
          "file": direct + "/over/AllTimeOU.jl", "type": "Over"},
-        {"message": "Starting Current Home Stats", "url": "trends/ats_trends/?sc=is_home",
+        {"message": "Starting Current Home Stats", "url": "trends/ats_trends/?range=yearly_mlb_2024&sc=is_home",
          "file": direct + "/cover/homeCover.jl", "type": "Cover"},
         {"message": "Starting Current Home Stats", "url": "trends/ou_trends/?sc=is_home",
          "file": direct + "/over/homeOver.jl", "type": "Over"},
@@ -113,7 +113,7 @@ def main():
          "file": direct + "/cover/awayCover.jl", "type": "Cover"},
         {"message": "Starting Current Away Stats", "url": "trends/ou_trends/?sc=is_away",
          "file": direct + "/over/awayOver.jl", "type": "Over"},
-        {"message": "Starting Point Averages", "url": "stat/points-per-game",
+        {"message": "Starting Point Averages", "url": "stat/runs-per-game",
          "file": direct + "/over/PointAverages.jl", "type": "Over"}
     ]
 
