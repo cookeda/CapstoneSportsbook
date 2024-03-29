@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 
 import time
 import pandas as pd
@@ -13,7 +14,7 @@ import json
 # For Connor
 webdriver.chrome
 
-with open('../../../Dictionary/College/NCAAB Teams.json', 'r') as file:
+with open('../../../Dictionary/College/CBB.json', 'r') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):
@@ -86,7 +87,7 @@ def scrape(matchup_num):
             'Total': total_text, 
             'Over Total Odds': over_total_odds_text, 
             'Under Total Odds': under_total_odds_text,
-            'League': 'NCAAB'
+            'League': 'CBB'
         }
     }
 
@@ -95,11 +96,19 @@ def scrape(matchup_num):
 
 #For Devin
 #driver = webdriver.Firefox()
-
 #For Connor
+
 options = Options()
-options.headless = True
-driver = webdriver.Chrome(ChromeDriverManager().install())
+options.add_argument('--headless')
+options.add_argument('log-level=3')
+
+# Initialize the Service
+service = Service(ChromeDriverManager().install())
+
+# Initialize WebDriver without the 'desired_capabilities' argument
+driver = webdriver.Chrome(service=service, options=options)
+
+
 driver.get("https://sportsbook.draftkings.com/leagues/basketball/ncaab")
 
 
