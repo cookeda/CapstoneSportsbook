@@ -360,9 +360,10 @@ def main():
 
     #gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA')
     gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA')
-    #gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
+    gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB')
     # TODO: MLB NOT SUPPORTED
     #gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB')
+    #gameInputFromLite("../Scrapers/Data/DK/MLB_Lite.json", 'MLB)
 
     duplicateCount = Counter(parlay)
     lockList = []

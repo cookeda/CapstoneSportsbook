@@ -10,6 +10,7 @@ scrapy crawl NBA -o NBA.json
 cd ../
 cd Scrapers/Books
 python book_scripts.py
+
 :: Scrape League Data
 cd ../../Data Collecting Src/
 python MLBScrape.py
