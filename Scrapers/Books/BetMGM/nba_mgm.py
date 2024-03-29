@@ -92,7 +92,8 @@ def scrape(matchup_num):
     return matchup
 
 options = Options()
-options.headless = True
+options.add_argument('--headless')
+options.add_argument('log-level=3')
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://sports.nc.betmgm.com/en/sports/basketball-7")
 
