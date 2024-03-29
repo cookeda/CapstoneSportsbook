@@ -143,7 +143,7 @@ time.sleep(10)  # Reduced sleep time after initial load
 
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
 
-number_of_games = 15# num_rows/2
+number_of_games = 10# num_rows/2
 #all_matchups = []
 #z = 15  # Start with the first matchup
 
