@@ -5,6 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+
+
 import requests
 import undetected_chromedriver as uc
 import time
@@ -135,8 +138,15 @@ def scrape_with_timeout(z, timeout=7):
         
     return result[0]
 options = Options()
-options.headless = True
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+options.add_argument('--headless')
+options.add_argument('log-level=3')
+
+# Initialize the Service
+service = Service(ChromeDriverManager().install())
+
+# Initialize WebDriver without the 'desired_capabilities' argument
+driver = webdriver.Chrome(service=service, options=options)
+
 driver.get("https://espnbet.com/sport/basketball/organization/united-states/competition/ncaab/featured-page")
 
 
@@ -153,8 +163,6 @@ for z in range(1, int(number_of_games)+1):
     matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)
-    else: 
-        break
 
 print(f'Total matchups scraped: {len(all_matchups)}')
 
