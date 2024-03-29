@@ -172,8 +172,10 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, low, mid):
     midTier = numTeams * mid  # Top 32.2% | GPT SAID .3
     lowTier = numTeams * low  # Bottom 70% | GPT SAID .7
 
-    ncres = normalCover(league, homeTeam, coverHome, awayTeam, coverAway, lowTier, midTier)
-    movres = basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
+    #ncres = normalCover(league, homeTeam, coverHome, awayTeam, coverAway, lowTier, midTier)
+    ncres = ".55"
+    #movres = basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
+    movres = ".54"
     if (ncres == "recHC") or (movres == "recHC"):
         coverResult = "recHC"
     elif (ncres == "recAC") or (movres == "recAC"):
@@ -181,9 +183,11 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league, low, mid):
     else:
         coverResult = "N"
 
-    nores = normalOver(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier)
+    #nores = normalOver(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier)
+    nores = "58.2"
     total = homeScore + awayScore
-    ppgres = basedOnPGG(league, homeTeam, awayTeam, ppg, total)
+    #ppgres = basedOnPGG(league, homeTeam, awayTeam, ppg, total)
+    ppgres = "50.8"
     if (nores == "recO") or (ppgres == "recO"):
         overResult = "recO"
     elif (nores == "recU") or (ppgres == "recU"):
@@ -239,13 +243,14 @@ def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
             awayAVG = float(tdict["Away"]) * .5
             myAverageAway = awayTotalAVG + awayL3 + awayAVG
 
-    if (myAverageHome + myAverageAway) > float(total):
+    if (myAverageHome + myAverageAway - 20) > float(total):
         parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
         return "recO"
 
-    else:
-        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
+    elif (myAverageHome + myAverageAway + 10) < float(total):
         return "recU"
+    else:
+        return "N"
 def gameInputFromJSON(file, league, low, mid):
     recNumerator = 0
     recDenomiator = 0
@@ -295,7 +300,6 @@ def gameInputFromJSON(file, league, low, mid):
                 recDenomiator += 1
         elif overResult == "N":
             missCounter += 1
-
         #else:
             #print("ERROR: GAME INPUT RETURNED SOMETHING UNEXPECTED: " + str(overResult))
 
@@ -377,9 +381,9 @@ def main():
     bestMid = 0  # .35
     best = 0
     low = .9
-    while low > .6:
-        mid = .6
-        while mid > .3:
+    while low > 0:
+        mid = .9
+        while mid > .25:
             acc = gameInputFromJSON("../OddsHistory/nba.json", 'NBA', low, mid)
             print("Percent " + str(acc) + " Mid: " + str(mid) + " Low: " + str(low))
             if acc > best:

@@ -1,30 +1,30 @@
-{"Team": "Arizona", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
+{"Team": "Arizona", "PPG": "16.00", "Last 3": "16.00", "Home": "16.00", "Away": "--"}
 {"Team": "Atlanta", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Baltimore", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Boston", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Chi Cubs", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Chi Sox", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Cincinnati", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Cleveland", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Colorado", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Detroit", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Houston", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Kansas City", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "LA Angels", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "LA Dodgers", "PPG": "8.00", "Last 3": "8.00", "Home": "--", "Away": "8.00"}
-{"Team": "Miami", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
+{"Team": "Baltimore", "PPG": "11.00", "Last 3": "11.00", "Home": "11.00", "Away": "--"}
+{"Team": "Boston", "PPG": "6.00", "Last 3": "6.00", "Home": "--", "Away": "6.00"}
+{"Team": "Chi Cubs", "PPG": "3.00", "Last 3": "3.00", "Home": "--", "Away": "3.00"}
+{"Team": "Chi Sox", "PPG": "0.00", "Last 3": "0.00", "Home": "0.00", "Away": "--"}
+{"Team": "Cincinnati", "PPG": "8.00", "Last 3": "8.00", "Home": "8.00", "Away": "--"}
+{"Team": "Cleveland", "PPG": "8.00", "Last 3": "8.00", "Home": "--", "Away": "8.00"}
+{"Team": "Colorado", "PPG": "1.00", "Last 3": "1.00", "Home": "--", "Away": "1.00"}
+{"Team": "Detroit", "PPG": "1.00", "Last 3": "1.00", "Home": "--", "Away": "1.00"}
+{"Team": "Houston", "PPG": "4.00", "Last 3": "4.00", "Home": "4.00", "Away": "--"}
+{"Team": "Kansas City", "PPG": "1.00", "Last 3": "1.00", "Home": "1.00", "Away": "--"}
+{"Team": "LA Angels", "PPG": "3.00", "Last 3": "3.00", "Home": "--", "Away": "3.00"}
+{"Team": "LA Dodgers", "PPG": "7.67", "Last 3": "7.67", "Home": "7.00", "Away": "8.00"}
+{"Team": "Miami", "PPG": "5.00", "Last 3": "5.00", "Home": "5.00", "Away": "--"}
 {"Team": "Milwaukee", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Minnesota", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
+{"Team": "Minnesota", "PPG": "4.00", "Last 3": "4.00", "Home": "--", "Away": "4.00"}
 {"Team": "NY Mets", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "NY Yankees", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Oakland", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
+{"Team": "NY Yankees", "PPG": "5.00", "Last 3": "5.00", "Home": "--", "Away": "5.00"}
+{"Team": "Oakland", "PPG": "0.00", "Last 3": "0.00", "Home": "0.00", "Away": "--"}
 {"Team": "Philadelphia", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Pittsburgh", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "SF Giants", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "San Diego", "PPG": "8.50", "Last 3": "8.50", "Home": "--", "Away": "8.50"}
-{"Team": "Seattle", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "St. Louis", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Tampa Bay", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Texas", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Toronto", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
-{"Team": "Washington", "PPG": "--", "Last 3": "--", "Home": "--", "Away": "--"}
+{"Team": "Pittsburgh", "PPG": "6.00", "Last 3": "6.00", "Home": "--", "Away": "6.00"}
+{"Team": "SF Giants", "PPG": "4.00", "Last 3": "4.00", "Home": "--", "Away": "4.00"}
+{"Team": "San Diego", "PPG": "7.67", "Last 3": "7.67", "Home": "6.00", "Away": "8.50"}
+{"Team": "Seattle", "PPG": "4.00", "Last 3": "4.00", "Home": "4.00", "Away": "--"}
+{"Team": "St. Louis", "PPG": "1.00", "Last 3": "1.00", "Home": "--", "Away": "1.00"}
+{"Team": "Tampa Bay", "PPG": "2.00", "Last 3": "2.00", "Home": "2.00", "Away": "--"}
+{"Team": "Texas", "PPG": "4.00", "Last 3": "4.00", "Home": "4.00", "Away": "--"}
+{"Team": "Toronto", "PPG": "8.00", "Last 3": "8.00", "Home": "--", "Away": "8.00"}
+{"Team": "Washington", "PPG": "2.00", "Last 3": "2.00", "Home": "--", "Away": "2.00"}

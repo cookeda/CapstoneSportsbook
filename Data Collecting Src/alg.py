@@ -181,9 +181,11 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league):
         movAway = awayMOV3[awayTeam]
         ppg = ppgMLB
 
-    midTier = numTeams * 0.5  # Top 30% Change to 30
-    lowTier = numTeams * 0.9  # Starting point for Bottom 30% Change to 70
-    print("midTier: " + str(midTier) + " lowTier: " + str(lowTier))
+    oumidTier = numTeams * .35 # Top 30% Change to 30
+    oulowTier = numTeams * .75  # Starting point for Bottom 30% Change to 70
+
+    covermidTier = numTeams * .7
+    coverlowTier = numTeams * .85
 
     print("For " + awayTeam + " At " + homeTeam + ":")
     try:
@@ -198,7 +200,7 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league):
             fp.write("*      TOTALS:      *\n")
     except Exception as e:
         print(f"Error writing to file: {e}")
-    overunder(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier)
+    overunder(league, homeTeam, overHome, awayTeam, overAway, oulowTier, oumidTier)
     basedOnPGG(league, homeTeam, awayTeam, ppg, total)
     print("*      COVER:      *")
     try:
@@ -206,7 +208,7 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league):
             fp.write("*      COVER:      *\n")
     except Exception as e:
         print(f"Error writing to file: {e}")
-    coverNormal(league, homeTeam, coverHome, awayTeam, coverAway, lowTier, midTier)
+    coverNormal(league, homeTeam, coverHome, awayTeam, coverAway, coverlowTier, covermidTier)
     basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
 
 
@@ -487,7 +489,7 @@ def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
             awayAVG = float(tdict["Away"]) * .5
             myAverageAway = awayTotalAVG + awayL3 + awayAVG
 
-    if (myAverageHome + myAverageAway) > float(total):
+    if ((myAverageHome + myAverageAway) - 10) > float(total):
         try:
             with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Take the over!\n" + "Book Total: " + str(total) + " Our Projected Total: " +
@@ -501,7 +503,7 @@ def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
         print("Away Average: " + str(myAverageAway))
         parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
 
-    else:
+    elif((myAverageHome + myAverageAway + 10) <= float(total)):
         try:
             with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Take the under!" + "Book Total: " + str(total) + " Our Projected Total: " +
@@ -514,8 +516,8 @@ def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
         print("Home Average :" + str(myAverageHome))
         print("Away Average: " + str(myAverageAway))
         parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
-
-
+    else:
+        print("Don't Take OU")
 
 
 if __name__ == '__main__':
