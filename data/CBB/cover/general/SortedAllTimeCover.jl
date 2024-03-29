@@ -4,7 +4,7 @@
 {"Team": "Akron", "Cover %": "51.8%"} 5.1
 {"Team": "Alab A&M", "Cover %": "48.1%"} -4.7
 {"Team": "Alabama St", "Cover %": "49.3%"} -2.8
-{"Team": "Alabama", "Cover %": "49.7%"} 4.4
+{"Team": "Alabama", "Cover %": "49.8%"} 4.4
 {"Team": "Albany", "Cover %": "49.8%"} -0.5
 {"Team": "Alcorn St", "Cover %": "47.8%"} -5.4
 {"Team": "American", "Cover %": "49.0%"} -1.1
@@ -120,12 +120,12 @@
 {"Team": "Idaho St", "Cover %": "45.9%"} -4.0
 {"Team": "Idaho", "Cover %": "50.2%"} -2.7
 {"Team": "Illinois St", "Cover %": "46.8%"} 1.1
-{"Team": "Illinois", "Cover %": "50.2%"} 6.3
+{"Team": "Illinois", "Cover %": "50.3%"} 6.3
 {"Team": "Incar Word", "Cover %": "47.0%"} -3.5
 {"Team": "Indiana St", "Cover %": "50.8%"} +0.0
 {"Team": "Indiana", "Cover %": "49.5%"} 4.6
 {"Team": "Iona", "Cover %": "47.8%"} 3.4
-{"Team": "Iowa St", "Cover %": "53.0%"} 4.1
+{"Team": "Iowa St", "Cover %": "52.9%"} 4.1
 {"Team": "Iowa", "Cover %": "49.0%"} 4.3
 {"Team": "Jackson St", "Cover %": "51.3%"} -2.8
 {"Team": "Jacksonville", "Cover %": "49.8%"} -1.0
@@ -267,7 +267,7 @@
 {"Team": "Saint Louis", "Cover %": "52.3%"} 1.9
 {"Team": "Sam Hous St", "Cover %": "56.0%"} 4.9
 {"Team": "Samford", "Cover %": "48.8%"} 0.5
-{"Team": "San Diego St", "Cover %": "52.7%"} 5.4
+{"Team": "San Diego St", "Cover %": "52.6%"} 5.4
 {"Team": "San Diego", "Cover %": "49.0%"} -0.6
 {"Team": "San Francisco", "Cover %": "49.3%"} 1.7
 {"Team": "San Jose St", "Cover %": "46.4%"} -6.3

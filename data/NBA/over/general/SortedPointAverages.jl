@@ -1,5 +1,5 @@
-{"Team": "Atlanta", "PPG": "119.2", "Last 3": "124.0", "Home": "122.7", "Away": "115.7"}
-{"Team": "Boston", "PPG": "121.1", "Last 3": "123.7", "Home": "123.3", "Away": "119.0"}
+{"Team": "Atlanta", "PPG": "119.2", "Last 3": "121.0", "Home": "122.7", "Away": "115.7"}
+{"Team": "Boston", "PPG": "121.1", "Last 3": "121.3", "Home": "123.3", "Away": "119.1"}
 {"Team": "Brooklyn", "PPG": "111.0", "Last 3": "103.7", "Home": "113.2", "Away": "109.1"}
 {"Team": "Charlotte", "PPG": "106.3", "Last 3": "100.3", "Home": "108.3", "Away": "104.6"}
 {"Team": "Chicago", "PPG": "112.2", "Last 3": "114.3", "Home": "111.8", "Away": "112.7"}
@@ -14,9 +14,9 @@
 {"Team": "LA Lakers", "PPG": "118.1", "Last 3": "138.0", "Home": "118.8", "Away": "117.5"}
 {"Team": "Memphis", "PPG": "106.1", "Last 3": "108.7", "Home": "103.9", "Away": "108.3"}
 {"Team": "Miami", "PPG": "109.3", "Last 3": "100.3", "Home": "111.6", "Away": "107.1"}
-{"Team": "Milwaukee", "PPG": "120.6", "Last 3": "119.0", "Home": "123.0", "Away": "118.2"}
+{"Team": "Milwaukee", "PPG": "120.3", "Last 3": "114.0", "Home": "123.0", "Away": "117.7"}
 {"Team": "Minnesota", "PPG": "113.1", "Last 3": "108.0", "Home": "111.4", "Away": "114.6"}
-{"Team": "New Orleans", "PPG": "115.7", "Last 3": "112.3", "Home": "116.5", "Away": "115.0"}
+{"Team": "New Orleans", "PPG": "115.6", "Last 3": "111.0", "Home": "116.2", "Away": "115.0"}
 {"Team": "New York", "PPG": "112.4", "Last 3": "124.7", "Home": "110.7", "Away": "114.2"}
 {"Team": "Okla City", "PPG": "120.4", "Last 3": "112.7", "Home": "122.8", "Away": "118.0"}
 {"Team": "Orlando", "PPG": "110.6", "Last 3": "107.0", "Home": "112.9", "Away": "108.4"}
