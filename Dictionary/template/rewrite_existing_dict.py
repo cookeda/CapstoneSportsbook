@@ -37,4 +37,4 @@ def reformat_data(input_filename, output_filename):
 
 # Replace 'input.json' with the path to your actual input file and
 # 'output.json' with your desired output file name.
-reformat_data('../College/CBB.json', '../CBB.json')
+reformat_data('../test/CBB.json', '../CBB.json')

@@ -11,6 +11,8 @@ process1.wait() # Wait for process1 to finish (basically wait for script to fini
 process2.wait()
 process3.wait()
 
+process4 = subprocess.Popen(["python", "master_dk_lite.py"])
+
 #time.sleep(5)
 
 #process4 = subprocess.Popen(["python", "Sort.py"])

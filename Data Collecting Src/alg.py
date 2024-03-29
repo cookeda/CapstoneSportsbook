@@ -11,6 +11,7 @@ import re
 import os
 import time
 from datetime import date as dt
+from collections import Counter
 
 teamDict = {
     'Hawks': 'Atlanta',
@@ -117,6 +118,13 @@ def getDictMOV(file):
             result_dict[team] = mov
     return result_dict
 
+def getListPPG(file):
+    result_list = []
+    with open(file, 'r') as fr:
+        for line in fr:
+            result_list.append(line.strip())
+    return result_list
+
 def combineOnRanking(dict1, dict2):
     return_dict = {}
     for team1 in dict1:
@@ -133,7 +141,7 @@ def sortByRank(input_dict):
     ranked_dict = {team: rank for rank, (team, percent) in enumerate(sorted_dict, start=1)}
     return ranked_dict
 
-def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
+def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league):
     print("-----------------------------")
     try:
         with open(direct + 'results.txt', 'a') as fp:
@@ -150,6 +158,8 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
         overAway = caoNBA[awayTeam]
         movHome = homeMOV[homeTeam]
         movAway = awayMOV[awayTeam]
+        ppg = ppgNBA
+
 
     elif league == 'CBB':
         numTeams = len(choCBB)
@@ -159,6 +169,7 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
         overAway = caoCBB[awayTeam]
         movHome = homeMOV2[homeTeam]
         movAway = awayMOV2[awayTeam]
+        ppg = ppgCBB
 
     elif league == 'MLB':
         numTeams = len(choMLB)
@@ -168,9 +179,11 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
         overAway = caoMLB[awayTeam]
         movHome = homeMOV3[homeTeam]
         movAway = awayMOV3[awayTeam]
+        ppg = ppgMLB
 
-    midTier = numTeams * 0.35  # Top 30% Change to 30
-    lowTier = numTeams * 0.75  # Starting point for Bottom 30% Change to 70
+    midTier = numTeams * 0.5  # Top 30% Change to 30
+    lowTier = numTeams * 0.9  # Starting point for Bottom 30% Change to 70
+    print("midTier: " + str(midTier) + " lowTier: " + str(lowTier))
 
     print("For " + awayTeam + " At " + homeTeam + ":")
     try:
@@ -179,12 +192,22 @@ def gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league):
     except Exception as e:
         print(f"Error writing to file: {e}")
 
-    # Predict over or under or none
+    print("*      TOTALS:      *")
+    try:
+        with open(direct + 'results.txt', 'a') as fp:
+            fp.write("*      TOTALS:      *\n")
+    except Exception as e:
+        print(f"Error writing to file: {e}")
     overunder(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier)
-    # Predict cover | Goes to MOV predictions if not sucessful
-    goToMov = coverNormal(league, homeTeam, overHome, awayTeam, overAway,lowTier, midTier)
-    if goToMov is True:
-        basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
+    basedOnPGG(league, homeTeam, awayTeam, ppg, total)
+    print("*      COVER:      *")
+    try:
+        with open(direct + 'results.txt', 'a') as fp:
+            fp.write("*      COVER:      *\n")
+    except Exception as e:
+        print(f"Error writing to file: {e}")
+    coverNormal(league, homeTeam, coverHome, awayTeam, coverAway, lowTier, midTier)
+    basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway)
 
 
 def gameInputFromJSON(file, league):
@@ -195,13 +218,29 @@ def gameInputFromJSON(file, league):
         awayTeam = game["Away Team Rank Name"]
         homeSpread = game['DK Home Odds']['Spread']
         awaySpread = game['DK Away Odds']['Spread']
+        total = game['Game']['Total']
         if homeSpread == "Pick)" or homeSpread == "-Pick)":
             homeSpread = "0"
 
         if awaySpread == "Pick" or awaySpread == "-Pick":
             awaySpread = "0"
-        gameInput(homeTeam, homeSpread, awayTeam, awaySpread, league)
+        gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league)
 
+#Cleaned my data to be able to search for matchup_id in O(1), this is only from nba dk as of now, could median the book lite data together?
+def gameInputFromLite(file, league):
+    with open(file, 'r') as j:
+        games = json.load(j)
+    
+    # Processing each game using its Matchup ID as the key
+    for matchup_id, game_info in games.items():
+        homeTeam = game_info["Home Team"]
+        awayTeam = game_info["Away Team"]
+        homeSpread = game_info["Home Spread"]
+        awaySpread = game_info["Away Spread"]
+        total = game_info["Total Points"]
+
+        # Adjusting for 
+        gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league)
 
 def cleanfile(file):
     try:
@@ -247,6 +286,9 @@ def main():
     global cacNBA          # Combined Away Cover
     global cacCBB
     global cacMLB
+    global ppgNBA       # PPG stats
+    global ppgCBB
+    global ppgMLB
     global parlay       # Parlay List
     global teamDict     # Team Dictionary in form City: Team Name
     global direct
@@ -291,6 +333,10 @@ def main():
     awayMOV2 = getDictMOV("../data/CBB/cover/away/SortedawayCover.jl")
     #awayMOV3 = getDictMOV("../data/MLB/cover/away/SortedawayCover.jl")
 
+    ppgNBA = getListPPG("../data/NBA/over/general/SortedPointAverages.jl")
+    ppgCBB = getListPPG("../data/CBB/over/general/SortedPointAverages.jl")
+    #ppgMLB = getDictPPG("../data/MLB/over/general/SortedPointAverages.jl")
+
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
     choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
     choCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(homeOver2))
@@ -308,18 +354,41 @@ def main():
     cacCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(awayCover2))
     #cacMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(awayCover3))
 
+
     # Run Manually
     #gameInput(home, away, league)
 
-    gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA')
-    gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
+    #gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA')
+    gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA')
+    #gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
     # TODO: MLB NOT SUPPORTED
     #gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB')
-    print("Recommended Bets: ")
+
+    duplicateCount = Counter(parlay)
+    lockList = []
+    processed_items = set()
+
+    # Iterate through the list backwards to avoid index issues when removing items
+    for item in parlay[:]:  # Make a shallow copy of the list for safe iteration
+        if duplicateCount[item] > 1 and item not in processed_items:
+            # Keep only one instance in 'parlay' and move the rest to 'lockList'
+            while parlay.count(item) > 1:
+                parlay.remove(item)
+                lockList.append(item)
+            processed_items.add(item)  # Mark as processed
+
+    print("-----------------------------")
+    print("Total Bet Count: " + str(len(parlay)))
+    print("Silver Bets")
     print(parlay)
+
+    print("Gold Bets")
+    print(lockList)
     try:
         with open(direct + 'results.txt', 'a') as fp:
-            fp.write("-----------------------------\nRecommended Bets:\n" + json.dumps(parlay))
+            fp.write("Total Bet Count: " + str(len(parlay)) + "\n")
+            fp.write("-----------------------------\nSilver Bets:\n" + json.dumps(parlay))
+            fp.write("-----------------------------\nGold Bets:\n" + json.dumps(lockList))
     except Exception as e:
         print(f"Error writing to file: {e}")
     print("Date: ", d)
@@ -351,7 +420,9 @@ def coverNormal(league, homeTeam, coverHome, awayTeam, coverAway, lowTier, midTi
         print("Away Rank: " + str(coverAway))
         parlay.append(league + ": " + awayTeam + ": Cover")
         return False
-    return True
+    else:
+        print("Don't Bet On Spread")
+        return True
 
 
 def overunder(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier):
@@ -367,6 +438,7 @@ def overunder(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier):
         print("Home Rank :" + str(overHome))
         print("Away Rank: " + str(overAway))
         parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
+        return False
 
     elif overHome > lowTier and overAway > lowTier:
         try:
@@ -379,6 +451,7 @@ def overunder(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier):
         print("Home Rank :" + str(overHome))
         print("Away Rank: " + str(overAway))
         parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
+        return False
 
     else:
         print("Don't bet on O/U")
@@ -387,6 +460,7 @@ def overunder(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier):
                 fp.write("Don't bet on O/U" + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
+        return True
 
 
 def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, awaySpread, coverHome, coverAway):
@@ -397,25 +471,68 @@ def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, a
         print("Bet on " + homeTeam + " to Cover!")
         try:
             with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Bet on " + homeTeam + " to Cover!" + '\n' + "Home Rank :" + str(
-                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+                fp.write("Bet on " + homeTeam + " to Cover!")
         except Exception as e:
             print(f"Error writing to file: {e}")
-        print("Home Rank :" + str(coverHome))
-        print("Away Rank: " + str(coverAway))
         parlay.append(league + ": " + homeTeam + ": Cover")
+        return True
     # Away Bet
     if ((float(movAway) + float(awaySpread)) > 0) and (coverAway < coverHome):
         print("Bet on " + awayTeam + " to Cover!")
         try:
             with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Bet on " + awayTeam + " to Cover!" + '\n' + "Home Rank :" + str(
-                    coverHome) + '\n' + "Away Rank: " + str(coverAway) + '\n')
+                fp.write("Bet on " + awayTeam + " to Cover!")
         except Exception as e:
             print(f"Error writing to file: {e}")
-        print("Home Rank :" + str(coverHome))
-        print("Away Rank: " + str(coverAway))
         parlay.append(league + ": " + awayTeam + ": Cover")
+        return True
+    return False
+
+def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
+    for team in ppg:
+        tdict = json.loads(team)
+        if tdict["Team"] == homeTeam:
+            homeTotalAVG = float(tdict["PPG"]) * .25
+            homeL3 = float(tdict["Last 3"]) * .25
+            homeAVG = float(tdict["Home"]) * .5
+            myAverageHome = homeTotalAVG + homeL3 + homeAVG
+
+        if tdict["Team"] == awayTeam:
+            awayTotalAVG = float(tdict["PPG"]) * .25
+            awayL3 = float(tdict["Last 3"]) * .25
+            awayAVG = float(tdict["Away"]) * .5
+            myAverageAway = awayTotalAVG + awayL3 + awayAVG
+
+    if (myAverageHome + myAverageAway) > float(total):
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Take the over!\n" + "Book Total: " + str(total) + " Our Projected Total: " +
+                         str(myAverageHome + myAverageAway) + '\n' + "Home Average :" +
+                         str(myAverageHome) + '\n' + "Away Average: " + str(myAverageAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Take the over!")
+        print("Book Total: " + str(total) + " Our Projected Total: " + str(myAverageHome + myAverageAway))
+        print("Home Average :" + str(myAverageHome))
+        print("Away Average: " + str(myAverageAway))
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
+
+    else:
+        try:
+            with open(direct + 'results.txt', 'a') as fp:
+                fp.write("Take the under!" + "Book Total: " + str(total) + " Our Projected Total: " +
+                         str(myAverageHome + myAverageAway) + '\n' + "Home Average :" +
+                         str(myAverageHome) + '\n' + "Away Average: " + str(myAverageAway) + '\n')
+        except Exception as e:
+            print(f"Error writing to file: {e}")
+        print("Take the under!")
+        print("Book Total: " + str(total) + " Our Projected Total: " + str(myAverageHome + myAverageAway))
+        print("Home Average :" + str(myAverageHome))
+        print("Away Average: " + str(myAverageAway))
+        parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
+
+
+
 
 if __name__ == '__main__':
     main()

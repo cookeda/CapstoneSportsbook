@@ -13,6 +13,9 @@ import json
 # For Connor
 webdriver.chrome
 
+league = 'CBB'
+book = 'DK'
+
 with open('../../../Dictionary/College/CBB.json', 'r') as file:
     team_mappings = json.load(file)
 
@@ -84,8 +87,8 @@ def scrape(matchup_num):
     home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
     away_team_id = find_team_id(away_team_text) #Team
     home_team_id = find_team_id(home_team_text) #Team
-    matchup_id = encode_matchup_id(away_team_id, home_team_id, 'CBB')
-    bet_table_id = encode_bet_table_id(matchup_id, 'DK')
+    matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
+    bet_table_id = encode_bet_table_id(matchup_id, book)
     
     info = [ 
         {
@@ -111,14 +114,13 @@ def scrape(matchup_num):
                     'Home Team Rank Name': home_team_rank_name,
                     'Home ID': home_team_id, 
                     'Start Time': start_time_text, 
-                    'League': 'MLB'
+                    'League': league
                 }
             }
         
     ]
     print(f'{away_team_text}, {home_team_text}')
     return info
-
 #For Devin
 #driver = webdriver.Firefox()
 

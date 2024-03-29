@@ -14,6 +14,10 @@ import json
 # For Connor
 webdriver.chrome
 
+league = 'NBA'
+book = 'DK'
+
+
 with open('../../../Dictionary/Pro/NBA.json', 'r') as file:
     team_mappings = json.load(file)
 
@@ -65,6 +69,49 @@ def find_element_text_or_not_found(driver, xpath, wait_time=10):
     except:
         return 'N/A'
 
+
+def clean_matchup(matchup_num):
+    matchup_num *= 2
+    x = matchup_num - 1  # Indicates Away Team
+    y = matchup_num      # Indicates Home Team
+
+    away_team_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)')
+    home_team_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)')
+    away_spread_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)')
+    away_spread_odds_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+    total_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(3)')
+    over_total_odds_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+    away_ml_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)')
+    home_spread_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)')
+    home_spread_odds_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+    under_total_odds_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+    home_ml_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)')
+    start_time_text = find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2)')
+    away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
+    home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
+    away_team_id = find_team_id(away_team_text) #Team
+    home_team_id = find_team_id(home_team_text) #Team
+    matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
+    bet_table_id = encode_bet_table_id(matchup_id, book)
+
+    info = [
+        {
+            'MatchupID': matchup_id,
+            'Info Table': {                
+                    'Away Team': away_team_text, 
+                    'Away Team Rank Name': away_team_rank_name, 
+                    'Away ID': away_team_id,
+                    'Home Team': home_team_text, 
+                    'Home Team Rank Name': home_team_rank_name,
+                    'Home ID': home_team_id, 
+                    'Start Time': start_time_text, 
+                    'League': league}
+        }
+
+    ]
+    return info
+
+
 def scrape(matchup_num):
     matchup_num *= 2
     x = matchup_num - 1  # Indicates Away Team
@@ -86,8 +133,8 @@ def scrape(matchup_num):
     home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
     away_team_id = find_team_id(away_team_text) #Team
     home_team_id = find_team_id(home_team_text) #Team
-    matchup_id = encode_matchup_id(away_team_id, home_team_id, 'NBA')
-    bet_table_id = encode_bet_table_id(matchup_id, 'DK')
+    matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
+    bet_table_id = encode_bet_table_id(matchup_id, book)
     
     info = [ 
         {
@@ -113,7 +160,7 @@ def scrape(matchup_num):
                     'Home Team Rank Name': home_team_rank_name,
                     'Home ID': home_team_id, 
                     'Start Time': start_time_text, 
-                    'League': 'MLB'
+                    'League': league
                 }
             }
         
@@ -145,7 +192,7 @@ for z in range(1, int(number_of_games)+1):
         
 #Writes to JSON
 try:
-    with open('../../NBA/NBA.json', 'w', encoding='utf-8') as fp:
+    with open('../../Data/DK/NBA.json', 'w', encoding='utf-8') as fp:
         json.dump(all_matchups, fp, indent=4, ensure_ascii=False)
 except Exception as e:
     print(f"Error writing to file: {e}")
