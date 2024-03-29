@@ -1,10 +1,10 @@
 import subprocess
 import time
 
-directory_path = 'dk'
+directory_path = 'DK'
 
 process1 = subprocess.Popen(["python", "script.py"], cwd=directory_path) # Create and launch process pop.py using python interpreter
-
+process2 = subprocess.Popen(["python", "script.py"], cwd='ESPN') # Create and launch
 
 process1.wait() 
 

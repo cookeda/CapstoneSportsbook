@@ -5,6 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+
+
 import requests
 import undetected_chromedriver as uc
 import time
@@ -18,7 +21,7 @@ with open('../../../Dictionary/Pro/NBA.json', 'r') as file:
 
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
-        if team_mapping["DraftKings Name"] == dk_team_name:
+        if team_mapping["ESPNBet"] == dk_team_name:
             return team_mapping["Team Rankings Name"]
     return "Unknown"  # Return a default value if not found
 
@@ -124,13 +127,21 @@ def scrape_with_timeout(z, timeout=7):
     return result[0]
 
 options = Options()
-options.headless = True
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+options.add_argument('--headless')
+options.add_argument('log-level=3')
+
+# Initialize the Service
+service = Service(ChromeDriverManager().install())
+
+# Initialize WebDriver without the 'desired_capabilities' argument
+driver = webdriver.Chrome(service=service, options=options)
+
+
 driver.get("https://espnbet.com/sport/basketball/organization/united-states/competition/nba/featured-page")
 
 time.sleep(10)  # Wait for page to load
 
-number_of_games = 12#num_rows/2
+number_of_games = 2#num_rows/2
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
     print(f'{z}/{int(number_of_games)}')
