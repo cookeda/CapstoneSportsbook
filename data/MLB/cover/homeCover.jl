@@ -5,8 +5,9 @@
 {"Team": "Baltimore", "Cover %": "100.0%"} +6.5
 {"Team": "Chi Sox", "Cover %": "100.0%"} +0.5
 {"Team": "Miami", "Cover %": "0.0%"} -2.5
-{"Team": "Texas", "Cover %": "0.0%"} -0.5
-{"Team": "Houston", "Cover %": "0.0%"} -2.5
 {"Team": "Oakland", "Cover %": "0.0%"} -6.5
+{"Team": "Houston", "Cover %": "0.0%"} -2.5
+{"Team": "Seattle", "Cover %": "0.0%"} -3.5
+{"Team": "Texas", "Cover %": "0.0%"} -0.5
 {"Team": "Tampa Bay", "Cover %": "0.0%"} -7.5
 {"Team": "Kansas City", "Cover %": "0.0%"} -1.5

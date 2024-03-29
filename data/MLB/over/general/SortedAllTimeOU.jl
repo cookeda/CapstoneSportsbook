@@ -22,7 +22,7 @@
 {"Team": "Pittsburgh", "Over %": "49.9%"} +0.5
 {"Team": "SF Giants", "Over %": "48.6%"} +0.4
 {"Team": "San Diego", "Over %": "49.9%"} +0.5
-{"Team": "Seattle", "Over %": "49.3%"} +0.4
+{"Team": "Seattle", "Over %": "49.4%"} +0.4
 {"Team": "St. Louis", "Over %": "49.0%"} +0.4
 {"Team": "Tampa Bay", "Over %": "48.6%"} +0.4
 {"Team": "Texas", "Over %": "48.8%"} +0.5

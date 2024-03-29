@@ -1,5 +1,6 @@
 {"Team": "Arizona", "Over %": "100.0%"} +9.0
 {"Team": "Baltimore", "Over %": "100.0%"} +6.0
+{"Team": "Boston", "Over %": "100.0%"} +2.5
 {"Team": "Chi Cubs", "Over %": "0.0%"} -1.5
 {"Team": "Chi Sox", "Over %": "0.0%"} -6.5
 {"Team": "Cincinnati", "Over %": "100.0%"} +0.5
@@ -17,6 +18,7 @@
 {"Team": "Pittsburgh", "Over %": "100.0%"} +3.5
 {"Team": "SF Giants", "Over %": "100.0%"} +2.5
 {"Team": "San Diego", "Over %": "66.7%"} +6.0
+{"Team": "Seattle", "Over %": "100.0%"} +2.5
 {"Team": "St. Louis", "Over %": "0.0%"} -1.0
 {"Team": "Tampa Bay", "Over %": "100.0%"} +2.5
 {"Team": "Texas", "Over %": "0.0%"} -1.5
