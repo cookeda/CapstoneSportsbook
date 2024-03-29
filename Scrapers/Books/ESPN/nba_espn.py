@@ -141,7 +141,7 @@ driver.get("https://espnbet.com/sport/basketball/organization/united-states/comp
 
 time.sleep(10)  # Wait for page to load
 
-number_of_games = 2#num_rows/2
+number_of_games = 12#num_rows/2
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
     print(f'{z}/{int(number_of_games)}')

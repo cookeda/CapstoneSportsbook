@@ -3,13 +3,22 @@ webdriver.Chrome
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+
 import json
 import os
 
 # Global Variables
 options = Options()
-options.headless = True
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+options.add_argument('--headless')
+options.add_argument('log-level=3')
+
+# Initialize the Service
+service = Service(ChromeDriverManager().install())
+
+# Initialize WebDriver without the 'desired_capabilities' argument
+driver = webdriver.Chrome(service=service, options=options)
+
 link = "https://www.teamrankings.com/mlb/"
 
 # Gets every team's % for a given stat (type)
@@ -38,7 +47,17 @@ def scrape(link, file, type):
     print("Done")
 
 def scrapePPG(link, file):
-    driver = webdriver.Chrome()  # Make sure to set up your driver correctly
+    #options = Options()
+    #options.add_argument('--headless')
+    #options.add_argument('log-level=3')
+
+    # Initialize the Service
+    #service = Service(ChromeDriverManager().install())
+
+    # Initialize WebDriver without the 'desired_capabilities' argument
+    #driver = webdriver.Chrome(service=service, options=options)  # Make sure to set up your driver correctly
+    driver = webdriver.Chrome()
+
     driver.get(link)
     source = driver.page_source
     soup = BeautifulSoup(source, 'html.parser')
