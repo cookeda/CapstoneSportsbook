@@ -368,6 +368,7 @@ def main():
     print(parlay)
 
     print("Gold Bets")
+    print("Gold Count: " + str(len(lockList)))
     print(lockList)
     try:
         with open(direct + 'results.txt', 'a') as fp:
@@ -440,6 +441,8 @@ def overunder(league, homeTeam, overHome, awayTeam, overAway, lowTier, midTier):
 
     else:
         print("Don't bet on O/U")
+        print("Home Rank :" + str(overHome))
+        print("Away Rank: " + str(overAway))
         try:
             with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Don't bet on O/U" + '\n')
