@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "Cover %": "48.5%"} 2.6
 {"Team": "Colorado", "Cover %": "48.6%"} 2.8
 {"Team": "Columbia", "Cover %": "49.7%"} -1.6
-{"Team": "Connecticut", "Cover %": "51.9%"} 8.6
+{"Team": "Connecticut", "Cover %": "52.0%"} 8.6
 {"Team": "Coppin St", "Cover %": "47.8%"} -6.0
 {"Team": "Cornell", "Cover %": "52.8%"} -0.9
 {"Team": "Creighton", "Cover %": "53.3%"} 7.2
@@ -120,7 +120,7 @@
 {"Team": "Idaho St", "Cover %": "45.9%"} -4.0
 {"Team": "Idaho", "Cover %": "50.2%"} -2.7
 {"Team": "Illinois St", "Cover %": "46.8%"} 1.1
-{"Team": "Illinois", "Cover %": "50.3%"} 6.3
+{"Team": "Illinois", "Cover %": "50.2%"} 6.3
 {"Team": "Incar Word", "Cover %": "47.0%"} -3.5
 {"Team": "Indiana St", "Cover %": "50.8%"} +0.0
 {"Team": "Indiana", "Cover %": "49.5%"} 4.6
