@@ -4,7 +4,7 @@
 {"Team": "Akron", "Over %": "47.2%"} 52.8%
 {"Team": "Alab A&M", "Over %": "44.2%"} 55.8%
 {"Team": "Alabama St", "Over %": "44.9%"} 55.1%
-{"Team": "Alabama", "Over %": "50.3%"} 49.7%
+{"Team": "Alabama", "Over %": "50.4%"} 49.6%
 {"Team": "Albany", "Over %": "46.6%"} 53.4%
 {"Team": "Alcorn St", "Over %": "52.4%"} 47.6%
 {"Team": "American", "Over %": "50.0%"} 50.0%
@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "Over %": "52.3%"} 47.7%
 {"Team": "Colorado", "Over %": "47.3%"} 52.7%
 {"Team": "Columbia", "Over %": "50.9%"} 49.1%
-{"Team": "Connecticut", "Over %": "48.8%"} 51.3%
+{"Team": "Connecticut", "Over %": "48.7%"} 51.3%
 {"Team": "Coppin St", "Over %": "50.0%"} 50.0%
 {"Team": "Cornell", "Over %": "49.1%"} 50.9%
 {"Team": "Creighton", "Over %": "48.3%"} 51.7%
@@ -120,7 +120,7 @@
 {"Team": "Idaho St", "Over %": "56.3%"} 43.7%
 {"Team": "Idaho", "Over %": "52.1%"} 47.9%
 {"Team": "Illinois St", "Over %": "48.9%"} 51.1%
-{"Team": "Illinois", "Over %": "46.0%"} 54.0%
+{"Team": "Illinois", "Over %": "46.0%"} 54.1%
 {"Team": "Incar Word", "Over %": "51.5%"} 48.5%
 {"Team": "Indiana St", "Over %": "52.2%"} 47.8%
 {"Team": "Indiana", "Over %": "50.1%"} 49.9%
