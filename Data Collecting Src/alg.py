@@ -347,7 +347,7 @@ def main():
 
     gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA')
     gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
-    gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB')
+    #gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB')
 
     duplicateCount = Counter(parlay)
     lockList = []
