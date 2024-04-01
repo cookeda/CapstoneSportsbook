@@ -156,7 +156,7 @@ time.sleep(10)  # Reduced sleep time after initial load
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
 
 
-number_of_games = 4
+number_of_games = 2
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
     print(f'{z}/{int(number_of_games)}')

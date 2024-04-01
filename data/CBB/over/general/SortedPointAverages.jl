@@ -4,7 +4,7 @@
 {"Team": "Akron", "PPG": "72.0", "Last 3": "62.3", "Home": "75.3", "Away": "70.0"}
 {"Team": "Alab A&M", "PPG": "69.0", "Last 3": "70.7", "Home": "72.8", "Away": "67.0"}
 {"Team": "Alabama St", "PPG": "66.1", "Last 3": "64.7", "Home": "65.1", "Away": "66.5"}
-{"Team": "Alabama", "PPG": "90.7", "Last 3": "90.0", "Home": "93.9", "Away": "88.0"}
+{"Team": "Alabama", "PPG": "90.6", "Last 3": "83.3", "Home": "93.9", "Away": "88.1"}
 {"Team": "Albany", "PPG": "78.0", "Last 3": "74.0", "Home": "83.4", "Away": "74.6"}
 {"Team": "Alcorn St", "PPG": "71.9", "Last 3": "80.3", "Home": "77.9", "Away": "69.5"}
 {"Team": "American", "PPG": "67.6", "Last 3": "65.0", "Home": "68.0", "Away": "67.4"}
@@ -51,7 +51,7 @@
 {"Team": "Chicago St", "PPG": "65.2", "Last 3": "74.7", "Home": "65.6", "Away": "65.1"}
 {"Team": "Cincinnati", "PPG": "74.7", "Last 3": "76.0", "Home": "77.7", "Away": "70.9"}
 {"Team": "Citadel", "PPG": "68.6", "Last 3": "73.0", "Home": "70.5", "Away": "67.4"}
-{"Team": "Clemson", "PPG": "77.2", "Last 3": "75.3", "Home": "80.2", "Away": "74.7"}
+{"Team": "Clemson", "PPG": "77.4", "Last 3": "77.0", "Home": "80.2", "Away": "75.1"}
 {"Team": "Cleveland St", "PPG": "74.7", "Last 3": "65.3", "Home": "77.7", "Away": "72.2"}
 {"Team": "Coastal Car", "PPG": "71.8", "Last 3": "72.3", "Home": "72.8", "Away": "70.4"}
 {"Team": "Col Charlestn", "PPG": "80.5", "Last 3": "79.7", "Home": "82.1", "Away": "79.4"}
@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "PPG": "74.0", "Last 3": "57.3", "Home": "78.7", "Away": "70.3"}
 {"Team": "Colorado", "PPG": "79.3", "Last 3": "79.7", "Home": "85.3", "Away": "74.3"}
 {"Team": "Columbia", "PPG": "73.6", "Last 3": "72.7", "Home": "74.1", "Away": "73.2"}
-{"Team": "Connecticut", "PPG": "81.6", "Last 3": "82.7", "Home": "84.6", "Away": "79.2"}
+{"Team": "Connecticut", "PPG": "81.4", "Last 3": "78.0", "Home": "84.6", "Away": "79.1"}
 {"Team": "Coppin St", "PPG": "57.9", "Last 3": "56.3", "Home": "64.5", "Away": "54.4"}
 {"Team": "Cornell", "PPG": "80.4", "Last 3": "79.3", "Home": "80.2", "Away": "80.5"}
 {"Team": "Creighton", "PPG": "80.4", "Last 3": "79.3", "Home": "86.5", "Away": "75.3"}
@@ -73,7 +73,7 @@
 {"Team": "Detroit", "PPG": "66.0", "Last 3": "68.0", "Home": "66.6", "Away": "65.6"}
 {"Team": "Drake", "PPG": "79.7", "Last 3": "72.3", "Home": "83.2", "Away": "76.9"}
 {"Team": "Drexel", "PPG": "71.9", "Last 3": "83.7", "Home": "76.0", "Away": "68.9"}
-{"Team": "Duke", "PPG": "79.0", "Last 3": "70.3", "Home": "82.6", "Away": "75.2"}
+{"Team": "Duke", "PPG": "78.6", "Last 3": "70.3", "Home": "82.6", "Away": "74.6"}
 {"Team": "Duquesne", "PPG": "69.9", "Last 3": "63.7", "Home": "68.8", "Away": "70.8"}
 {"Team": "E Carolina", "PPG": "68.6", "Last 3": "71.7", "Home": "70.7", "Away": "65.6"}
 {"Team": "E Illinois", "PPG": "65.3", "Last 3": "69.0", "Home": "65.6", "Away": "65.1"}
@@ -120,7 +120,7 @@
 {"Team": "Idaho St", "PPG": "69.4", "Last 3": "69.7", "Home": "71.5", "Away": "68.2"}
 {"Team": "Idaho", "PPG": "66.2", "Last 3": "59.3", "Home": "65.8", "Away": "66.6"}
 {"Team": "Illinois St", "PPG": "66.2", "Last 3": "66.7", "Home": "68.7", "Away": "63.9"}
-{"Team": "Illinois", "PPG": "84.2", "Last 3": "82.0", "Home": "82.8", "Away": "85.6"}
+{"Team": "Illinois", "PPG": "83.4", "Last 3": "71.0", "Home": "82.8", "Away": "83.9"}
 {"Team": "Incar Word", "PPG": "70.8", "Last 3": "62.7", "Home": "70.1", "Away": "71.2"}
 {"Team": "Indiana St", "PPG": "84.5", "Last 3": "87.3", "Home": "87.9", "Away": "81.8"}
 {"Team": "Indiana", "PPG": "72.3", "Last 3": "64.0", "Home": "73.8", "Away": "70.7"}
@@ -199,7 +199,7 @@
 {"Team": "N Mex State", "PPG": "65.9", "Last 3": "70.7", "Home": "69.2", "Away": "63.7"}
 {"Team": "NC A&T", "PPG": "65.6", "Last 3": "60.7", "Home": "63.8", "Away": "66.5"}
 {"Team": "NC Central", "PPG": "71.9", "Last 3": "74.7", "Home": "78.1", "Away": "68.8"}
-{"Team": "NC State", "PPG": "76.3", "Last 3": "75.3", "Home": "77.7", "Away": "75.2"}
+{"Team": "NC State", "PPG": "76.3", "Last 3": "74.0", "Home": "77.7", "Away": "75.2"}
 {"Team": "NC-Asheville", "PPG": "75.9", "Last 3": "67.3", "Home": "78.8", "Away": "74.4"}
 {"Team": "NC-Grnsboro", "PPG": "73.3", "Last 3": "75.7", "Home": "77.7", "Away": "70.4"}
 {"Team": "NC-Wilmgton", "PPG": "75.8", "Last 3": "63.0", "Home": "72.9", "Away": "77.1"}
@@ -238,7 +238,7 @@
 {"Team": "Presbyterian", "PPG": "72.0", "Last 3": "70.3", "Home": "75.2", "Away": "69.9"}
 {"Team": "Princeton", "PPG": "76.3", "Last 3": "87.7", "Home": "78.0", "Away": "75.1"}
 {"Team": "Providence", "PPG": "72.4", "Last 3": "67.7", "Home": "74.5", "Away": "69.9"}
-{"Team": "Purdue", "PPG": "83.8", "Last 3": "88.0", "Home": "89.6", "Away": "79.2"}
+{"Team": "Purdue", "PPG": "83.5", "Last 3": "86.0", "Home": "89.6", "Away": "78.8"}
 {"Team": "Queens", "PPG": "77.3", "Last 3": "77.0", "Home": "83.2", "Away": "73.6"}
 {"Team": "Quinnipiac", "PPG": "76.2", "Last 3": "66.3", "Home": "78.2", "Away": "74.5"}
 {"Team": "Radford", "PPG": "70.7", "Last 3": "64.0", "Home": "72.0", "Away": "70.1"}
@@ -302,7 +302,7 @@
 {"Team": "TX-Pan Am", "PPG": "68.2", "Last 3": "61.7", "Home": "72.2", "Away": "65.5"}
 {"Team": "Tarleton St", "PPG": "72.6", "Last 3": "80.0", "Home": "75.4", "Away": "70.4"}
 {"Team": "Temple", "PPG": "70.5", "Last 3": "67.0", "Home": "74.9", "Away": "67.8"}
-{"Team": "Tennessee", "PPG": "79.1", "Last 3": "75.7", "Home": "82.6", "Away": "76.3"}
+{"Team": "Tennessee", "PPG": "78.8", "Last 3": "70.0", "Home": "82.6", "Away": "75.8"}
 {"Team": "Texas A&M", "PPG": "76.0", "Last 3": "94.3", "Home": "74.7", "Away": "76.9"}
 {"Team": "Texas St", "PPG": "67.5", "Last 3": "72.3", "Home": "70.0", "Away": "66.3"}
 {"Team": "Texas Tech", "PPG": "75.3", "Last 3": "69.0", "Home": "77.1", "Away": "73.6"}
