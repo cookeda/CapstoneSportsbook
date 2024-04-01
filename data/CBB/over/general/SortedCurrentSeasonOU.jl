@@ -4,7 +4,7 @@
 {"Team": "Akron", "Over %": "36.4%"} 63.6%
 {"Team": "Alab A&M", "Over %": "50.0%"} 50.0%
 {"Team": "Alabama St", "Over %": "37.9%"} 62.1%
-{"Team": "Alabama", "Over %": "74.3%"} 25.7%
+{"Team": "Alabama", "Over %": "75.0%"} 25.0%
 {"Team": "Albany", "Over %": "55.2%"} 44.8%
 {"Team": "Alcorn St", "Over %": "54.8%"} 45.2%
 {"Team": "American", "Over %": "54.8%"} 45.2%
@@ -51,7 +51,7 @@
 {"Team": "Chicago St", "Over %": "48.3%"} 51.7%
 {"Team": "Cincinnati", "Over %": "51.4%"} 48.7%
 {"Team": "Citadel", "Over %": "50.0%"} 50.0%
-{"Team": "Clemson", "Over %": "48.6%"} 51.4%
+{"Team": "Clemson", "Over %": "50.0%"} 50.0%
 {"Team": "Cleveland St", "Over %": "52.9%"} 47.1%
 {"Team": "Coastal Car", "Over %": "55.2%"} 44.8%
 {"Team": "Col Charlestn", "Over %": "55.9%"} 44.1%
@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "Over %": "38.2%"} 61.8%
 {"Team": "Colorado", "Over %": "59.5%"} 40.5%
 {"Team": "Columbia", "Over %": "62.5%"} 37.5%
-{"Team": "Connecticut", "Over %": "44.4%"} 55.6%
+{"Team": "Connecticut", "Over %": "43.2%"} 56.8%
 {"Team": "Coppin St", "Over %": "37.9%"} 62.1%
 {"Team": "Cornell", "Over %": "60.7%"} 39.3%
 {"Team": "Creighton", "Over %": "51.4%"} 48.6%
@@ -73,7 +73,7 @@
 {"Team": "Detroit", "Over %": "58.1%"} 41.9%
 {"Team": "Drake", "Over %": "50.0%"} 50.0%
 {"Team": "Drexel", "Over %": "45.2%"} 54.8%
-{"Team": "Duke", "Over %": "37.1%"} 62.9%
+{"Team": "Duke", "Over %": "36.1%"} 63.9%
 {"Team": "Duquesne", "Over %": "28.6%"} 71.4%
 {"Team": "E Carolina", "Over %": "40.6%"} 59.4%
 {"Team": "E Illinois", "Over %": "34.6%"} 65.4%
@@ -120,7 +120,7 @@
 {"Team": "Idaho St", "Over %": "64.5%"} 35.5%
 {"Team": "Idaho", "Over %": "50.0%"} 50.0%
 {"Team": "Illinois St", "Over %": "45.2%"} 54.8%
-{"Team": "Illinois", "Over %": "70.3%"} 29.7%
+{"Team": "Illinois", "Over %": "68.4%"} 31.6%
 {"Team": "Incar Word", "Over %": "55.2%"} 44.8%
 {"Team": "Indiana St", "Over %": "58.3%"} 41.7%
 {"Team": "Indiana", "Over %": "54.6%"} 45.5%
@@ -199,7 +199,7 @@
 {"Team": "N Mex State", "Over %": "53.6%"} 46.4%
 {"Team": "NC A&T", "Over %": "46.9%"} 53.1%
 {"Team": "NC Central", "Over %": "59.3%"} 40.7%
-{"Team": "NC State", "Over %": "60.5%"} 39.5%
+{"Team": "NC State", "Over %": "59.0%"} 41.0%
 {"Team": "NC-Asheville", "Over %": "58.1%"} 41.9%
 {"Team": "NC-Grnsboro", "Over %": "58.6%"} 41.4%
 {"Team": "NC-Wilmgton", "Over %": "60.7%"} 39.3%
@@ -238,7 +238,7 @@
 {"Team": "Presbyterian", "Over %": "56.7%"} 43.3%
 {"Team": "Princeton", "Over %": "50.0%"} 50.0%
 {"Team": "Providence", "Over %": "44.1%"} 55.9%
-{"Team": "Purdue", "Over %": "63.9%"} 36.1%
+{"Team": "Purdue", "Over %": "62.2%"} 37.8%
 {"Team": "Queens", "Over %": "64.5%"} 35.5%
 {"Team": "Quinnipiac", "Over %": "36.4%"} 63.6%
 {"Team": "Radford", "Over %": "61.3%"} 38.7%
@@ -302,7 +302,7 @@
 {"Team": "TX-Pan Am", "Over %": "51.7%"} 48.3%
 {"Team": "Tarleton St", "Over %": "59.4%"} 40.6%
 {"Team": "Temple", "Over %": "50.0%"} 50.0%
-{"Team": "Tennessee", "Over %": "51.4%"} 48.6%
+{"Team": "Tennessee", "Over %": "50.0%"} 50.0%
 {"Team": "Texas A&M", "Over %": "63.9%"} 36.1%
 {"Team": "Texas St", "Over %": "48.5%"} 51.5%
 {"Team": "Texas Tech", "Over %": "58.8%"} 41.2%

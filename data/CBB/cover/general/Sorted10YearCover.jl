@@ -4,7 +4,7 @@
 {"Team": "Akron", "Cover %": "49.4%"} 5.6
 {"Team": "Alab A&M", "Cover %": "50.8%"} -7.6
 {"Team": "Alabama St", "Cover %": "48.7%"} -4.8
-{"Team": "Alabama", "Cover %": "50.0%"} 4.4
+{"Team": "Alabama", "Cover %": "50.1%"} 4.4
 {"Team": "Albany", "Cover %": "47.8%"} 1.3
 {"Team": "Alcorn St", "Cover %": "49.7%"} -4.3
 {"Team": "American", "Cover %": "49.6%"} -2.2
@@ -51,7 +51,7 @@
 {"Team": "Chicago St", "Cover %": "46.2%"} -12.2
 {"Team": "Cincinnati", "Cover %": "48.4%"} 8.2
 {"Team": "Citadel", "Cover %": "48.4%"} -3.9
-{"Team": "Clemson", "Cover %": "52.4%"} 4.6
+{"Team": "Clemson", "Cover %": "52.3%"} 4.5
 {"Team": "Cleveland St", "Cover %": "51.7%"} -0.5
 {"Team": "Coastal Car", "Cover %": "51.0%"} 3.4
 {"Team": "Col Charlestn", "Cover %": "46.3%"} 3.7
@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "Cover %": "46.3%"} 3.5
 {"Team": "Colorado", "Cover %": "48.1%"} 4.2
 {"Team": "Columbia", "Cover %": "46.1%"} -0.4
-{"Team": "Connecticut", "Cover %": "54.3%"} 7.2
+{"Team": "Connecticut", "Cover %": "54.4%"} 7.2
 {"Team": "Coppin St", "Cover %": "49.8%"} -10.0
 {"Team": "Cornell", "Cover %": "50.6%"} -1.8
 {"Team": "Creighton", "Cover %": "53.9%"} 7.2
@@ -73,7 +73,7 @@
 {"Team": "Detroit", "Cover %": "47.0%"} -3.6
 {"Team": "Drake", "Cover %": "50.6%"} 2.9
 {"Team": "Drexel", "Cover %": "48.4%"} -0.6
-{"Team": "Duke", "Cover %": "52.3%"} 11.9
+{"Team": "Duke", "Cover %": "52.1%"} 11.8
 {"Team": "Duquesne", "Cover %": "49.4%"} 0.2
 {"Team": "E Carolina", "Cover %": "48.5%"} -2.8
 {"Team": "E Illinois", "Cover %": "45.1%"} -2.7
@@ -120,7 +120,7 @@
 {"Team": "Idaho St", "Cover %": "48.6%"} -2.7
 {"Team": "Idaho", "Cover %": "48.5%"} -2.3
 {"Team": "Illinois St", "Cover %": "45.5%"} 0.1
-{"Team": "Illinois", "Cover %": "50.4%"} 4.6
+{"Team": "Illinois", "Cover %": "50.3%"} 4.5
 {"Team": "Incar Word", "Cover %": "47.0%"} -3.5
 {"Team": "Indiana St", "Cover %": "50.5%"} 1.9
 {"Team": "Indiana", "Cover %": "50.1%"} 4.6
@@ -199,7 +199,7 @@
 {"Team": "N Mex State", "Cover %": "52.0%"} 8.1
 {"Team": "NC A&T", "Cover %": "48.3%"} -4.8
 {"Team": "NC Central", "Cover %": "58.0%"} 6.8
-{"Team": "NC State", "Cover %": "48.0%"} 3.4
+{"Team": "NC State", "Cover %": "48.1%"} 3.4
 {"Team": "NC-Asheville", "Cover %": "49.5%"} 2.5
 {"Team": "NC-Grnsboro", "Cover %": "49.5%"} 4.5
 {"Team": "NC-Wilmgton", "Cover %": "49.5%"} 1.7
@@ -238,7 +238,7 @@
 {"Team": "Presbyterian", "Cover %": "51.3%"} -4.4
 {"Team": "Princeton", "Cover %": "50.8%"} 6.1
 {"Team": "Providence", "Cover %": "53.2%"} 3.5
-{"Team": "Purdue", "Cover %": "51.6%"} 9.3
+{"Team": "Purdue", "Cover %": "51.7%"} 9.3
 {"Team": "Queens", "Cover %": "53.5%"} 0.8
 {"Team": "Quinnipiac", "Cover %": "48.7%"} -0.3
 {"Team": "Radford", "Cover %": "48.9%"} 2.1
@@ -302,7 +302,7 @@
 {"Team": "TX-Pan Am", "Cover %": "46.9%"} -4.0
 {"Team": "Tarleton St", "Cover %": "51.9%"} 4.4
 {"Team": "Temple", "Cover %": "51.7%"} 0.1
-{"Team": "Tennessee", "Cover %": "51.4%"} 7.3
+{"Team": "Tennessee", "Cover %": "51.3%"} 7.3
 {"Team": "Texas A&M", "Cover %": "51.3%"} 3.6
 {"Team": "Texas St", "Cover %": "47.8%"} 2.8
 {"Team": "Texas Tech", "Cover %": "49.3%"} 6.3
