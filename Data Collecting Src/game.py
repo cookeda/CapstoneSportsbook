@@ -97,13 +97,14 @@ class Game:
 
         cover_stats_home = self.stats.getDictPercent(self.league, "Cover", "home")
         cover_stats_away = self.stats.getDictPercent(self.league, "Cover", "away")
-        over_stats_home = self.stats.getDictPercent("NBA", "Over", "home")
-        over_stats_away = self.stats.getDictPercent("NBA", "Over", "away")
+        over_stats_home = self.stats.getDictPercent(self.league, "Over", "home")
+        over_stats_away = self.stats.getDictPercent(self.league, "Over", "away")
 
         home_cover = (cover_stats_general.get(self.home_team, 0) + cover_stats_home.get(self.home_team, 0)) / 2
         away_cover = (cover_stats_general.get(self.away_team, 0) + cover_stats_away.get(self.away_team, 0)) / 2
 
         home_over = (over_stats_general.get(self.home_team, 0) + over_stats_home.get(self.home_team, 0)) / 2
+        print(self.home_team, over_stats_home.get(self.home_team, 0))
         away_over = (over_stats_general.get(self.away_team, 0) + over_stats_away.get(self.away_team, 0)) / 2
 
         home_cover_score = 1 + (home_cover * 9)  # Assuming cover stats are [0,1]
