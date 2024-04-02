@@ -5,6 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+import fasteners
+import os
 
 import undetected_chromedriver as uc
 import time
@@ -17,7 +20,7 @@ with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
 
 def find_team_rank_name(dk_team_name):
     for team_mapping in team_mappings:
-        if team_mapping["DraftKings Name"] == dk_team_name:
+        if team_mapping["BetMGM Name"] == dk_team_name:
             return team_mapping["Team Rankings Name"]
     return "Unknown"  # Return a default value if not found
 
@@ -36,10 +39,10 @@ def generate_game_id(away_team, home_team):
     hash_object = hashlib.md5(combined_string.encode())
     return hash_object.hexdigest()
 
-def find_element_text_or_not_found(driver, xpath, wait_time=10):
+def find_element_text_or_not_found(driver, path, wait_time=10):
     try:
         element = WebDriverWait(driver, wait_time).until(
-            EC.visibility_of_element_located((By.XPATH, xpath))
+            EC.visibility_of_element_located((By.CSS_SELECTOR, path))
         )
         return element.text
     except:
@@ -49,8 +52,8 @@ def scrape(matchup_num):
    # matchup_num *= 2
     x = matchup_num - 1  # Indicates Away Team
     y = matchup_num      # Indicates Home Team
-    away_team_text = find_element_text_or_not_found(driver, f'/html/body/vn-app/vn-dynamic-layout-slot[5]/vn-main/main/div/ms-main/div[1]/ng-scrollbar[2]/div/div/div/div/ms-main-column/div/ms-widget-layout/ms-widget-slot/ms-composable-widget/ms-widget-slot/ms-tabbed-grid-widget/ms-grid/div/ms-event-group/ms-six-pack-event[{matchup_num}]/div[2]/a/ms-event-detail/ms-event-name/ms-inline-tooltip/div/div[1]/div/div/div[1]/div')
-    home_team_text = find_element_text_or_not_found(driver, f'/html/body/vn-app/vn-dynamic-layout-slot[5]/vn-main/main/div/ms-main/div[1]/ng-scrollbar[2]/div/div/div/div/ms-main-column/div/ms-widget-layout/ms-widget-slot/ms-composable-widget/ms-widget-slot/ms-tabbed-grid-widget/ms-grid/div/ms-event-group/ms-six-pack-event[{matchup_num}]/div[2]/a/ms-event-detail/ms-event-name/ms-inline-tooltip/div/div[2]/div/div/div[1]/div')
+    away_team_text = find_element_text_or_not_found(driver, f'ms-six-pack-event.grid-event:nth-child({matchup_num}) > div:nth-child(2) > a:nth-child(1) > ms-event-detail:nth-child(1) > ms-event-name:nth-child(1) > ms-inline-tooltip:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)')
+    home_team_text = find_element_text_or_not_found(driver, f'ms-six-pack-event.grid-event:nth-child{matchup_num}) > div:nth-child(2) > a:nth-child(1) > ms-event-detail:nth-child(1) > ms-event-name:nth-child(1) > ms-inline-tooltip:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)')
     # away_spread_text = find_element_text_or_not_found(driver, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(x)}]/td[1]/div/div/div/div[1]/span')
     # away_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(x)}]/td[1]/div/div/div/div[2]/div[2]/span')
     # total_text = find_element_text_or_not_found(driver, f'/html/body/div[2]/div[2]/section/section[2]/section/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div/table/tbody/tr[{str(x)}]/td[2]/div/div/div/div[1]/span[3]')
@@ -91,15 +94,33 @@ def scrape(matchup_num):
     print(f'{away_team_text}, {home_team_text}')
     return matchup
 
+def read_games_count(game_type):
+    with lock:
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return data.get(game_type)
+        return None  # Or appropriate error handling/alternative return value
+
+
+
 options = Options()
 options.add_argument('--headless')
 options.add_argument('log-level=3')
-driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get("https://sports.nc.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75")
+service = Service(ChromeDriverManager().install())
 
+# Initialize WebDriver without the 'desired_capabilities' argument
+driver = webdriver.Chrome(service=service, options=options)
+driver.get("https://sports.nc.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75")
 
 time.sleep(10)  # Reduced sleep time after initial load
 #specific_tbody = driver.find_element(By.CSS_SELECTOR, 'tbody.sportsbook-table__body')
+
+data_file_path = '../games_count.json'
+lock_file_path = '../games_count.lock'
+lock = fasteners.InterProcessLock(lock_file_path)
+number_of_games = read_games_count('MLB')
+
 
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
 #number_of_games = num_rows/2
@@ -109,7 +130,7 @@ all_matchups = []
 #    matchup = scrape(z)
 #    if matchup:
 #        all_matchups.append(matchup)
-for x in range(1, 14):
+for x in range(1, int(number_of_games)+1):
     matchup = scrape(x)  
     if matchup:
         all_matchups.append(matchup)
