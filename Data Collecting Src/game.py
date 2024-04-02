@@ -73,6 +73,8 @@ class Game:
         self.league = league
         self.stats = stats
 
+    
+
     @classmethod
     def gameInputFromJSON(cls, file, league, stats):
         with open(file, 'r') as j:
