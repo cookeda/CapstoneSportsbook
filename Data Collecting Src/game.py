@@ -41,9 +41,17 @@ class Statistics:
                 result_dict[team] = percent
         return result_dict
 
-    def getDictMOV(self, file):
+    def getDictMOV(self, league, stat, hora):
+        if league == "NBA":
+            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
+        elif league == "CBB":
+            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
+        elif league == "MLB":
+            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
+        else:
+            print("Invalid League")
         result_dict = {}
-        with open(file, 'r') as fr:
+        with open(direct, 'r') as fr:
             for line in fr:
                 team = re.search(r'"Team":\s*"([^"]+)"', line).group(1)
                 mov = float(re.search(r'([-]?\d+\.\d+)$', line).group(1))
@@ -106,41 +114,50 @@ class Game:
     def analyze_game(self):
         # Example of using stats for analysis
         # Let's assume we're interested in the "Cover" stats for this analysis
-        cover_stats_general = self.stats.generalAlg("Cover", self.league)
         over_stats_general = self.stats.generalAlg("Over", self.league)
-
-        cover_stats_home = self.stats.getDictPercent(self.league, "Cover", "home")
-        cover_stats_away = self.stats.getDictPercent(self.league, "Cover", "away")
+        cover_stats_general = self.stats.generalAlg("Cover", self.league)
         over_stats_home = self.stats.getDictPercent(self.league, "Over", "home")
         over_stats_away = self.stats.getDictPercent(self.league, "Over", "away")
-
-        home_cover = (cover_stats_general.get(self.home_team, 0) + cover_stats_home.get(self.home_team, 0)) / 2
-        away_cover = (cover_stats_general.get(self.away_team, 0) + cover_stats_away.get(self.away_team, 0)) / 2
+        cover_stats_home = self.stats.getDictPercent(self.league, "Cover", "home")
+        cover_stats_away = self.stats.getDictPercent(self.league, "Cover", "away")
 
         home_over = (over_stats_general.get(self.home_team, 0) + over_stats_home.get(self.home_team, 0)) / 2
-        print(self.home_team, over_stats_home.get(self.home_team, 0))
         away_over = (over_stats_general.get(self.away_team, 0) + over_stats_away.get(self.away_team, 0)) / 2
-
-        home_cover_score = 1 + (home_cover * 9)  # Assuming cover stats are [0,1]
-        away_cover_score = 1 + (away_cover * 9)
+        home_cover_perc = (cover_stats_general.get(self.home_team, 0) + cover_stats_home.get(self.home_team, 0)) / 2
+        away_cover_perc = (cover_stats_general.get(self.away_team, 0) + cover_stats_away.get(self.away_team, 0)) / 2
         home_over_score = 1 + (home_over * 9)
         away_over_score = 1 + (away_over * 9)
-
         over_rating = (home_over_score + away_over_score) / 2
 
-        cover_difference = abs(home_cover_score - away_cover_score)
-        base_rating = (home_cover_score + away_cover_score) / 2
-        difference_adjustment = (10 - cover_difference) / 10
-        game_rating = base_rating * difference_adjustment
-        game_rating = max(1, min(game_rating, 10))
+        homeMOV = self.stats.getDictMOV(self.league, "Cover", "home")
+        awayMOV = self.stats.getDictMOV(self.league, "Cover", "away")
+
+        home_cover = homeMOV.get(self.home_team, 0) + self.home_spread
+        away_cover = awayMOV.get(self.away_team, 0) + self.away_spread
+
+        spread = abs(self.home_spread)
+
+        home_cover_score = home_cover / spread
+        away_cover_score = away_cover / spread
+
+        if home_cover_perc >= away_cover_perc:
+            home_cover_score += 5
+        else:
+            away_cover_score += 5
+
+        if(away_cover_score > home_cover_score):
+            favored_to_cover = self.away_team
+        else:
+            favored_to_cover = self.home_team
+        game_cover_score = abs(home_cover_score - away_cover_score)
+
+        game_rating = max(1, min(game_cover_score, 10))
 
         # Determine which team to bet on for the spread
-        favored_to_cover = self.home_team if home_cover_score > away_cover_score else self.away_team
         betting_advice = f"Bet on {favored_to_cover} to cover the spread."
 
         return {
             "matchup": f"{self.away_team} @ {self.home_team}",
-            "cover_scores": (home_cover_score, away_cover_score),
             "over_score": over_rating,
             "game_rating": max(1, game_rating),  # Ensure rating is at least 1
             "betting_advice": betting_advice
