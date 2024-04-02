@@ -228,6 +228,21 @@ def gameInputFromJSON(file, league):
             awaySpread = "0"
         gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league)
 
+def gameInputFromLite(file, league):
+    with open(file, 'r') as j:
+        games = json.load(j)
+    
+    # Processing each game using its Matchup ID as the key
+    for matchup_id, game_info in games.items():
+        homeTeam = game_info["Home Team"]
+        awayTeam = game_info["Away Team"]
+        homeSpread = game_info["Home Spread"]
+        awaySpread = game_info["Away Spread"]
+        total = game_info["Total Points"]
+
+        # Adjusting for 
+        gameInput(homeTeam, homeSpread, awayTeam, awaySpread, total, league)
+
 
 def cleanfile(file):
     try:
@@ -345,9 +360,13 @@ def main():
     # Run Manually
     #gameInput(home, away, league)
 
-    gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA')
-    gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
+    #gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA')
+    #gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB')
     #gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB')
+
+    #gameInputFromLite("../Scrapers/Data/DK/MLB.json", 'MLB')
+    gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB')
+    gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA')
 
     duplicateCount = Counter(parlay)
     lockList = []
