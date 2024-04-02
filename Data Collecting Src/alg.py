@@ -459,7 +459,9 @@ def basedOnSpreadMov(league, homeTeam, awayTeam, movHome, movAway, homeSpread, a
         print("Bet on " + homeTeam + " to Cover!")
         try:
             with open(direct + 'results.txt', 'a') as fp:
-                fp.write("Bet on " + homeTeam + " to Cover!")
+                fp.write("Bet on " + homeTeam + " to Cover! \n")
+                fp.write("HOME: " + "MOV: " + str(movHome) + " Spread: " + str(homeSpread) + "\n" + "AWAY: " +
+                         "MOV: " + str(movAway) + " Spread: " + str(awaySpread) + "\n")
         except Exception as e:
             print(f"Error writing to file: {e}")
         parlay.append(league + ": " + homeTeam + ": Cover")
