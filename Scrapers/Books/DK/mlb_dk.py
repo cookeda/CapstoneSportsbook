@@ -6,6 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+import fasteners
+import os
 
 
 
@@ -48,6 +50,31 @@ def find_element_text_or_not_found(driver, xpath, wait_time=10):
         return element.text
     except:
         return 'N/A'
+
+def update_games_count(game_type, number_of_games):
+    with lock:
+        # Check if the file exists and has content
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+        else:
+            data = {}
+        
+        # Update the data
+        data[game_type] = number_of_games
+        
+        # Write the updated data back to the file
+        with open(data_file_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, indent=4)
+
+def read_games_count(game_type):
+    with lock:
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return data.get(game_type)
+        return None  # Or appropriate error handling/alternative return value
+
 
 def scrape(matchup_num):
     matchup_num *= 2
@@ -125,7 +152,17 @@ for z in range(1, int(number_of_games)+1):
     matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)
-        
+
+driver.quit()
+
+
+data_file_path = '../games_count.json'
+lock_file_path = '../games_count.lock'
+
+
+lock = fasteners.InterProcessLock(lock_file_path)
+
+update_games_count('MLB', int(number_of_games))
 #Writes to JSON
 try:
     with open('../../Data/DK/MLB.json', 'w', encoding='utf-8') as fp:
@@ -133,5 +170,4 @@ try:
 except Exception as e:
     print(f"Error writing to file: {e}")
 
-driver.quit()
 

@@ -6,6 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+import fasteners
+import os
 
 
 import requests
@@ -126,6 +128,14 @@ def scrape_with_timeout(z, timeout=7):
         
     return result[0]
 
+def read_games_count(game_type):
+    with lock:
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return data.get(game_type)
+        return None  # Or appropriate error handling/alternative return value
+
 options = Options()
 options.add_argument('--headless')
 options.add_argument('log-level=3')
@@ -141,7 +151,12 @@ driver.get("https://espnbet.com/sport/basketball/organization/united-states/comp
 
 time.sleep(10)  # Wait for page to load
 
-number_of_games = 6#num_rows/2
+data_file_path = '../games_count.json'
+lock_file_path = '../games_count.lock'
+lock = fasteners.InterProcessLock(lock_file_path)
+
+
+number_of_games = read_games_count('NBA')
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
     print(f'{z}/{int(number_of_games)}')
