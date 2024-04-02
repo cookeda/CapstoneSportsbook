@@ -6,7 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
-
+import fasteners
+import os
 
 import requests
 import undetected_chromedriver as uc
@@ -55,7 +56,7 @@ def check_even(text):
         return '+100'
     return text
 
-def scrape(matchup_num, stop_event):
+def scrape(matchup_num):
     #matchup_num *= 2
     #x = matchup_num - 1  # Indicates Away Team
     #y = matchup_num      # Indicates Home Team
@@ -75,8 +76,6 @@ def scrape(matchup_num, stop_event):
     away_team_rank_name = find_team_rank_name(away_team_text) #Name from team rankings.com
     home_team_rank_name = find_team_rank_name(home_team_text) #Name from team rankings.com
     # List of all the odds text variables
-    if stop_event.is_set():
-        return None
 
     matchup = {
         'Away Team': away_team_text, 
@@ -115,28 +114,38 @@ def managed_webdriver(*args, **kwargs):
         driver.quit()
         
 
-def scrape_with_timeout(z, timeout=7):
-    # This will hold the result of the scrape function
-    stop_event = threading.Event()
-    result = [None]
+# def scrape_with_timeout(z, timeout=7):
+#     # This will hold the result of the scrape function
+#     stop_event = threading.Event()
+#     result = [None]
     
-    def target():
-        # Call the scrape function and store the result in the nonlocal list
-        result[0] = scrape(z, stop_event)
+#     def target():
+#         # Call the scrape function and store the result in the nonlocal list
+#         result[0] = scrape(z, stop_event)
         
-    result = [None]
-    thread = threading.Thread(target=target)
-    thread.start()
-    thread.join(timeout)
- # Wait for the time limit
-    if thread.is_alive():
-        print(f"Scraping took too long, exiting scraping process.")
-        stop_event.set()
-        # Give the thread a little time to stop gracefully (if necessary)
-        thread.join(1) 
-        return None  # Ensure the thread has finished before returning
+#     result = [None]
+#     thread = threading.Thread(target=target)
+#     thread.start()
+#     thread.join(timeout)
+#  # Wait for the time limit
+#     if thread.is_alive():
+#         print(f"Scraping took too long, exiting scraping process.")
+#         stop_event.set()
+#         # Give the thread a little time to stop gracefully (if necessary)
+#         thread.join(1) 
+#         return None  # Ensure the thread has finished before returning
         
-    return result[0]
+#     return result[0]
+
+def read_games_count(game_type):
+    with lock:
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return data.get(game_type)
+        return None  # Or appropriate error handling/alternative return value
+
+
 options = Options()
 options.add_argument('--headless')
 options.add_argument('log-level=3')
@@ -154,9 +163,12 @@ time.sleep(10)  # Reduced sleep time after initial load
 #specific_tbody = driver.find_element(By.CSS_SELECTOR, 'tbody.sportsbook-table__body')
 
 #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
+data_file_path = '../games_count.json'
+lock_file_path = '../games_count.lock'
+lock = fasteners.InterProcessLock(lock_file_path)
 
 
-number_of_games = 2
+number_of_games = read_games_count('CBB')
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
     print(f'{z}/{int(number_of_games)}')
@@ -165,6 +177,8 @@ for z in range(1, int(number_of_games)+1):
         all_matchups.append(matchup)
 
 print(f'Total matchups scraped: {len(all_matchups)}')
+driver.quit()
+
 
 #Writes to JSON
 try:
@@ -177,4 +191,3 @@ except Exception as e:
 #TODO: Only Scrape todays matches
 #TODO: Fix freeze bug
 #TODO: Fix dictionary for ESPN
-driver.quit()
