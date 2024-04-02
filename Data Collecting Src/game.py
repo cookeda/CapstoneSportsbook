@@ -85,6 +85,18 @@ class Game:
                     game['DK Away Odds']['Spread'].replace("Pick", "0").replace("-Pick", "0"),
                     game['Game']['Total'],
                     league, stats) for game in games_data]
+    
+    @classmethod
+    def gameInputFromLite(cls, file, league, stats):
+        with open(file, 'r') as j:
+            games_data = json.load(j)
+        return [cls(game_info["Home Team"],
+                    game_info["Away Team"],
+                    game_info["Home Spread"].replace("Pick)", "0").replace("-Pick)", "0"),
+                    game_info["Away Spread"].replace("Pick", "0").replace("-Pick", "0"),
+                    game_info["Total Points"],
+                    league, stats) for matchup_id, game_info in games_data.items()]
+       
 
     def print_details(self):
         print(f"League: {self.league}")
@@ -147,9 +159,12 @@ def main():
 
     # Load games from all leagues
     leagues = {
-        'NBA': Game.gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA', stats),
-        'CBB': Game.gameInputFromJSON("../Scrapers/Data/DK/CBB.json", 'CBB', stats),
-        'MLB': Game.gameInputFromJSON("../Scrapers/Data/DK/MLB.json", 'MLB', stats)
+        'NBA': Game.gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA', stats),
+        'CBB': Game.gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB', stats),
+        #'MLB': Game.gameInputFromLite("../Scrapers/Data/DK/MLB_Lite.json", 'MLB', stats)
+        # 'NFL': Game.gameInputFromJSON("../Scrapers/Data/DK/NFL.json", 'NFL', stats),
+        # 'NHL': Game.gameInputFromJSON("../Scrapers/Data/DK/NHL.json", 'NHL', stats),
+        # 'NBA': Game.gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA', stats)
     }
 
     cover_recommendations = []
