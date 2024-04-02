@@ -141,9 +141,9 @@ class Game:
         away_cover_score = away_cover / spread
 
         if home_cover_perc >= away_cover_perc:
-            home_cover_score += 5
+            home_cover_score += 3
         else:
-            away_cover_score += 5
+            away_cover_score += 3
 
         if(away_cover_score > home_cover_score):
             favored_to_cover = self.away_team
@@ -151,7 +151,7 @@ class Game:
             favored_to_cover = self.home_team
         game_cover_score = abs(home_cover_score - away_cover_score)
 
-        game_rating = max(1, min(game_cover_score, 10))
+        game_rating = game_cover_score
 
         # Determine which team to bet on for the spread
         betting_advice = f"Bet on {favored_to_cover} to cover the spread."
@@ -159,7 +159,7 @@ class Game:
         return {
             "matchup": f"{self.away_team} @ {self.home_team}",
             "over_score": over_rating,
-            "game_rating": max(1, game_rating),  # Ensure rating is at least 1
+            "game_rating": game_rating,
             "betting_advice": betting_advice
         }
 
