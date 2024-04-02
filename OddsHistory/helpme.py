@@ -1,5 +1,5 @@
 # Define the file path
-file_path = 'nba_new.json'
+file_path = 'NBA.json'
 
 # Read the first 2041 lines into memory
 with open(file_path, 'r') as file:
