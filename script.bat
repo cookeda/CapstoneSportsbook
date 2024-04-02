@@ -4,8 +4,8 @@ set start_time=%time%
 
 :: Scrape Adv League Data
 cd OddsHistory
-rm NBA.json
-rm MLB.json
+del NBA.json
+del MLB.json
 scrapy crawl NBA -o NBA.json
 scrapy crawl MLB -o MLB.json
 :: Scrape Matchups
@@ -19,6 +19,7 @@ python NBAScrape.py
 python CBBScrape.py
 python Sort.py
 python alg.py
+python game.py > game_results.txt
 cd ../
 
 :: Capture end time
