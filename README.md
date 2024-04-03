@@ -13,6 +13,6 @@ Books
     - Bet365
     - Pinnacle
 
-Program will generate best bets then search for best odds based on the books we scrape
+Program will generate best bets then search for best odds based on the books we scrape, then provide best unit sizes.
 
 Generate into basic iOS app is the last step.
