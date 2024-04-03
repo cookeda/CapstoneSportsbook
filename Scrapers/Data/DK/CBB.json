@@ -1,56 +1,28 @@
 [
     [
         {
-            "BetTableId": "DK_b1e0538c_c788c1ba_CBB",
+            "BetTableId": "DK_9b7fab83_c788c1ba_CBB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+3.5",
-                "Away Spread Odds": "−108",
-                "Away ML": "+145",
-                "Home Spread": "-3.5",
-                "Home Spread Odds": "-3.5",
-                "Home ML": "−175",
-                "Total": "162",
+                "Away Spread": "+3",
+                "Away Spread Odds": "−110",
+                "Away ML": "+136",
+                "Home Spread": "-3",
+                "Home Spread Odds": "-3",
+                "Home ML": "−162",
+                "Total": "158.5",
                 "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
             },
-            "MatchupID": "b1e0538c_c788c1ba_CBB",
+            "MatchupID": "9b7fab83_c788c1ba_CBB",
             "Info Table": {
-                "Away Team": "Utah",
-                "Away Team Rank Name": "Utah",
-                "Away ID": "b1e0538c",
+                "Away Team": "Seton Hall",
+                "Away Team Rank Name": "Seton Hall",
+                "Away ID": "9b7fab83",
                 "Home Team": "Indiana State",
                 "Home Team Rank Name": "Indiana St",
                 "Home ID": "c788c1ba",
                 "Start Time": "7:00PM",
-                "League": "CBB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_5dbfde6e_9b7fab83_CBB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+4.5",
-                "Away Spread Odds": "−108",
-                "Away ML": "+160",
-                "Home Spread": "-4.5",
-                "Home Spread Odds": "-4.5",
-                "Home ML": "−192",
-                "Total": "145",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
-            },
-            "MatchupID": "5dbfde6e_9b7fab83_CBB",
-            "Info Table": {
-                "Away Team": "Georgia",
-                "Away Team Rank Name": "Georgia",
-                "Away ID": "5dbfde6e",
-                "Home Team": "Seton Hall",
-                "Home Team Rank Name": "Seton Hall",
-                "Home ID": "9b7fab83",
-                "Start Time": "9:30PM",
                 "League": "CBB"
             }
         }

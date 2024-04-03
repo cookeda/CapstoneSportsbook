@@ -101,7 +101,7 @@
 {"Team": "Geo Wshgtn", "Cover %": "46.5%"} -0.2
 {"Team": "Georgetown", "Cover %": "45.3%"} -0.5
 {"Team": "Georgia St", "Cover %": "47.9%"} 4.7
-{"Team": "Georgia", "Cover %": "50.6%"} -0.4
+{"Team": "Georgia", "Cover %": "50.4%"} -0.4
 {"Team": "Gonzaga", "Cover %": "52.9%"} 17.3
 {"Team": "Grambling St", "Cover %": "49.0%"} -3.5
 {"Team": "Grd Canyon", "Cover %": "52.9%"} 6.3
@@ -122,7 +122,7 @@
 {"Team": "Illinois St", "Cover %": "45.5%"} 0.1
 {"Team": "Illinois", "Cover %": "50.3%"} 4.5
 {"Team": "Incar Word", "Cover %": "47.0%"} -3.5
-{"Team": "Indiana St", "Cover %": "50.5%"} 1.9
+{"Team": "Indiana St", "Cover %": "50.6%"} 1.9
 {"Team": "Indiana", "Cover %": "50.1%"} 4.6
 {"Team": "Iona", "Cover %": "48.5%"} 4.3
 {"Team": "Iowa St", "Cover %": "52.7%"} 5.1
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Cover %": "46.7%"} -8.3
 {"Team": "Santa Clara", "Cover %": "51.0%"} 0.3
 {"Team": "Seattle", "Cover %": "50.4%"} 2.8
-{"Team": "Seton Hall", "Cover %": "52.3%"} 3.6
+{"Team": "Seton Hall", "Cover %": "52.5%"} 3.7
 {"Team": "Siena", "Cover %": "49.7%"} -1.6
 {"Team": "South Dakota", "Cover %": "51.6%"} 1.6
 {"Team": "Southern", "Cover %": "51.7%"} 0.9
@@ -329,7 +329,7 @@
 {"Team": "Utah St", "Cover %": "52.4%"} 6.2
 {"Team": "Utah Tech", "Cover %": "53.4%"} -2.7
 {"Team": "Utah Valley", "Cover %": "55.1%"} 2.9
-{"Team": "Utah", "Cover %": "52.5%"} 5.8
+{"Team": "Utah", "Cover %": "52.4%"} 5.8
 {"Team": "VA Tech", "Cover %": "51.1%"} 3.9
 {"Team": "VCU", "Cover %": "52.7%"} 6.7
 {"Team": "VMI", "Cover %": "47.8%"} -3.3
