@@ -13,8 +13,9 @@ cd ../
 
 :: Run Algorithms
 cd ../../Data Collecting Src/
-python alg.py
-python game.py > game_results.txt
+
+python alg.py > ../Results/alg_results.txt
+python game.py > ../Results/game_results.txt
 
 :: Capture end time
 set end_time=%time%

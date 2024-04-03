@@ -1,6 +1,6 @@
 @echo off
 :: Capture start time
-set start_time=%time%
+set start_time0=%time%
 
 :: Scrape Adv League Data
 cd OddsHistory
@@ -20,8 +20,8 @@ cd ../
 Update.bat
 
 :: Capture end time
-set end_time=%time%
+set end_time0=%time%
 
 :: Display start and end times
-echo Start Time: %start_time%
-echo End Time: %end_time%
+echo Start Time: %start_time0%
+echo End Time: %end_time0%

@@ -101,7 +101,7 @@
 {"Team": "Geo Wshgtn", "Over %": "49.7%"} 50.3%
 {"Team": "Georgetown", "Over %": "52.3%"} 47.7%
 {"Team": "Georgia St", "Over %": "50.8%"} 49.2%
-{"Team": "Georgia", "Over %": "50.3%"} 49.7%
+{"Team": "Georgia", "Over %": "50.4%"} 49.6%
 {"Team": "Gonzaga", "Over %": "53.1%"} 46.9%
 {"Team": "Grambling St", "Over %": "47.2%"} 52.9%
 {"Team": "Grd Canyon", "Over %": "56.7%"} 43.3%
@@ -122,7 +122,7 @@
 {"Team": "Illinois St", "Over %": "49.9%"} 50.2%
 {"Team": "Illinois", "Over %": "48.0%"} 52.0%
 {"Team": "Incar Word", "Over %": "51.5%"} 48.5%
-{"Team": "Indiana St", "Over %": "53.0%"} 47.0%
+{"Team": "Indiana St", "Over %": "53.1%"} 46.9%
 {"Team": "Indiana", "Over %": "51.4%"} 48.6%
 {"Team": "Iona", "Over %": "49.3%"} 50.8%
 {"Team": "Iowa St", "Over %": "50.6%"} 49.4%
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Over %": "50.7%"} 49.4%
 {"Team": "Santa Clara", "Over %": "53.4%"} 46.7%
 {"Team": "Seattle", "Over %": "45.7%"} 54.3%
-{"Team": "Seton Hall", "Over %": "47.4%"} 52.6%
+{"Team": "Seton Hall", "Over %": "47.6%"} 52.5%
 {"Team": "Siena", "Over %": "44.9%"} 55.1%
 {"Team": "South Dakota", "Over %": "54.5%"} 45.5%
 {"Team": "Southern", "Over %": "42.9%"} 57.1%
@@ -329,7 +329,7 @@
 {"Team": "Utah St", "Over %": "51.7%"} 48.3%
 {"Team": "Utah Tech", "Over %": "48.1%"} 51.9%
 {"Team": "Utah Valley", "Over %": "49.2%"} 50.8%
-{"Team": "Utah", "Over %": "50.9%"} 49.1%
+{"Team": "Utah", "Over %": "51.0%"} 49.0%
 {"Team": "VA Tech", "Over %": "50.0%"} 50.0%
 {"Team": "VCU", "Over %": "46.8%"} 53.2%
 {"Team": "VMI", "Over %": "52.6%"} 47.4%

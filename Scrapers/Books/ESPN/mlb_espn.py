@@ -19,7 +19,7 @@ import pandas as pd
 from time import process_time
 import json
 
-league = 'CBB'
+league = 'MLB'
 book = 'ESPN'
 
 with open('../../../Dictionary/College/CBB.json', 'r') as file:
