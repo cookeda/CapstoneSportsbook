@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "DegenBets",
-    "slug": "DegenBets",
+    "slug": "degen-bets",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ab386521-d66b-41ea-b7ae-40c4e31bba97"
+      }
+    },
+    "owner": "cookeda",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ab386521-d66b-41ea-b7ae-40c4e31bba97"
     }
   }
 }
