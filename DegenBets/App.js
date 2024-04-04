@@ -4,7 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>This should be pushed to git and expo repos at the same time</Text>
+      <Text>Featured Matchups</Text>
+      <Text>Top Bets</Text>
       <StatusBar style="auto" />
     </View>
   );
