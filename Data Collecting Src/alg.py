@@ -516,13 +516,13 @@ def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
         try:
             with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Take the over!\n" + "Book Total: " + str(total) + " Our Projected Total: " +
-                         str(myAverageHome + myAverageAway) + '\n' + "Home Average :" +
+                         str(myAverageHome + myAverageAway) + '\n' + "Home Average: " +
                          str(myAverageHome) + '\n' + "Away Average: " + str(myAverageAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
         print("Take the over!")
         print("Book Total: " + str(total) + " Our Projected Total: " + str(myAverageHome + myAverageAway))
-        print("Home Average :" + str(myAverageHome))
+        print("Home Average: " + str(myAverageHome))
         print("Away Average: " + str(myAverageAway))
         parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Over")
 
@@ -530,13 +530,13 @@ def basedOnPGG(league, homeTeam, awayTeam, ppg, total):
         try:
             with open(direct + 'results.txt', 'a') as fp:
                 fp.write("Take the under!" + "Book Total: " + str(total) + " Our Projected Total: " +
-                         str(myAverageHome + myAverageAway) + '\n' + "Home Average :" +
+                         str(myAverageHome + myAverageAway) + '\n' + "Home Average: " +
                          str(myAverageHome) + '\n' + "Away Average: " + str(myAverageAway) + '\n')
         except Exception as e:
             print(f"Error writing to file: {e}")
         print("Take the under!")
         print("Book Total: " + str(total) + " Our Projected Total: " + str(myAverageHome + myAverageAway))
-        print("Home Average :" + str(myAverageHome))
+        print("Home Average: " + str(myAverageHome))
         print("Away Average: " + str(myAverageAway))
         parlay.append(league + ": " + awayTeam + " At " + homeTeam + ": Under")
     else:
