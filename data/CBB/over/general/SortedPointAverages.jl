@@ -122,7 +122,7 @@
 {"Team": "Illinois St", "PPG": "66.2", "Last 3": "66.7", "Home": "68.7", "Away": "63.9"}
 {"Team": "Illinois", "PPG": "83.4", "Last 3": "71.0", "Home": "82.8", "Away": "83.9"}
 {"Team": "Incar Word", "PPG": "70.8", "Last 3": "62.7", "Home": "70.1", "Away": "71.2"}
-{"Team": "Indiana St", "PPG": "84.9", "Last 3": "87.0", "Home": "87.9", "Away": "82.6"}
+{"Team": "Indiana St", "PPG": "84.7", "Last 3": "87.3", "Home": "87.9", "Away": "82.4"}
 {"Team": "Indiana", "PPG": "72.3", "Last 3": "64.0", "Home": "73.8", "Away": "70.7"}
 {"Team": "Iona", "PPG": "71.3", "Last 3": "63.7", "Home": "73.4", "Away": "69.8"}
 {"Team": "Iowa St", "PPG": "75.3", "Last 3": "72.7", "Home": "80.7", "Away": "70.2"}
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "PPG": "68.1", "Last 3": "60.7", "Home": "72.7", "Away": "64.3"}
 {"Team": "Santa Clara", "PPG": "76.0", "Last 3": "79.3", "Home": "74.1", "Away": "77.4"}
 {"Team": "Seattle", "PPG": "73.0", "Last 3": "74.3", "Home": "73.9", "Away": "72.2"}
-{"Team": "Seton Hall", "PPG": "73.6", "Last 3": "82.3", "Home": "78.2", "Away": "67.9"}
+{"Team": "Seton Hall", "PPG": "73.8", "Last 3": "84.7", "Home": "78.2", "Away": "68.6"}
 {"Team": "Siena", "PPG": "60.4", "Last 3": "59.3", "Home": "61.5", "Away": "59.6"}
 {"Team": "South Dakota", "PPG": "74.3", "Last 3": "72.0", "Home": "73.6", "Away": "74.8"}
 {"Team": "Southern", "PPG": "67.9", "Last 3": "59.7", "Home": "68.2", "Away": "67.7"}

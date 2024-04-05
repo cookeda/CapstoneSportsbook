@@ -122,7 +122,7 @@
 {"Team": "Illinois St", "Over %": "49.9%"} 50.2%
 {"Team": "Illinois", "Over %": "48.0%"} 52.0%
 {"Team": "Incar Word", "Over %": "51.5%"} 48.5%
-{"Team": "Indiana St", "Over %": "53.1%"} 46.9%
+{"Team": "Indiana St", "Over %": "52.9%"} 47.1%
 {"Team": "Indiana", "Over %": "51.4%"} 48.6%
 {"Team": "Iona", "Over %": "49.3%"} 50.8%
 {"Team": "Iowa St", "Over %": "50.6%"} 49.4%
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Over %": "50.7%"} 49.4%
 {"Team": "Santa Clara", "Over %": "53.4%"} 46.7%
 {"Team": "Seattle", "Over %": "45.7%"} 54.3%
-{"Team": "Seton Hall", "Over %": "47.6%"} 52.5%
+{"Team": "Seton Hall", "Over %": "47.4%"} 52.6%
 {"Team": "Siena", "Over %": "44.9%"} 55.1%
 {"Team": "South Dakota", "Over %": "54.5%"} 45.5%
 {"Team": "Southern", "Over %": "42.9%"} 57.1%

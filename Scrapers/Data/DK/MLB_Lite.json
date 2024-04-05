@@ -1,31 +1,66 @@
 {
-    "18a9d733_c625b23e_MLB": {
-        "Home Team": "NY Mets",
-        "Away Team": "Detroit",
+    "8714ddbe_6424b504_MLB": {
+        "Home Team": "NY Yankees",
+        "Away Team": "Toronto",
+        "Home Spread": "-1.5",
+        "Away Spread": "+1.5",
+        "Total Points": "8.5"
+    },
+    "8b214a89_18a9d733_MLB": {
+        "Home Team": "Detroit",
+        "Away Team": "Oakland",
         "Home Spread": "-1.5",
         "Away Spread": "+1.5",
         "Total Points": "7.5"
     },
-    "9666114b_dd4357ee_MLB": {
-        "Home Team": "Washington",
-        "Away Team": "Pittsburgh",
+    "4e2f3aa1_d10f1db8_MLB": {
+        "Home Team": "Chi Cubs",
+        "Away Team": "LA Dodgers",
         "Home Spread": "+1.5",
         "Away Spread": "-1.5",
-        "Total Points": "8.5"
-    },
-    "5a31e1ff_f5328492_MLB": {
-        "Home Team": "Minnesota",
-        "Away Team": "Cleveland",
-        "Home Spread": "-1.5",
-        "Away Spread": "+1.5",
         "Total Points": "7.5"
     },
-    "8d47be6d_ccadb94e_MLB": {
-        "Home Team": "St. Louis",
-        "Away Team": "Miami",
+    "16f4bf06_8f2512bc_MLB": {
+        "Home Team": "Colorado",
+        "Away Team": "Tampa Bay",
+        "Home Spread": "+1.5",
+        "Away Spread": "-1.5",
+        "Total Points": "13"
+    },
+    "e8bdce10_9666114b_MLB": {
+        "Home Team": "Pittsburgh",
+        "Away Team": "Baltimore",
+        "Home Spread": "+1.5",
+        "Away Spread": "-1.5",
+        "Total Points": "7.5"
+    },
+    "3f4235d4_486a5e3b_MLB": {
+        "Home Team": "SF Giants",
+        "Away Team": "San Diego",
+        "Home Spread": "+1.5",
+        "Away Spread": "-1.5",
+        "Total Points": "7.5"
+    },
+    "c625b23e_fdd0d44c_MLB": {
+        "Home Team": "Cincinnati",
+        "Away Team": "NY Mets",
         "Home Spread": "-1.5",
         "Away Spread": "+1.5",
-        "Total Points": "8.5"
+        "Total Points": "9"
+    },
+    "fe2ec146_dd4357ee_MLB": {
+        "Home Team": "Washington",
+        "Away Team": "Philadelphia",
+        "Home Spread": "+1.5",
+        "Away Spread": "-1.5",
+        "Total Points": "8"
+    },
+    "2b1ac347_354ef58_MLB": {
+        "Home Team": "Atlanta",
+        "Away Team": "Arizona",
+        "Home Spread": "-1.5",
+        "Away Spread": "+1.5",
+        "Total Points": "9"
     },
     "ea799920_db2ee960_MLB": {
         "Home Team": "Kansas City",
@@ -33,5 +68,26 @@
         "Home Spread": "-1.5",
         "Away Spread": "+1.5",
         "Total Points": "8"
+    },
+    "4005c299_e841daaf_MLB": {
+        "Home Team": "Texas",
+        "Away Team": "Houston",
+        "Home Spread": "+1.5",
+        "Away Spread": "-1.5",
+        "Total Points": "9.5"
+    },
+    "300faa7b_c5227021_MLB": {
+        "Home Team": "Milwaukee",
+        "Away Team": "Seattle",
+        "Home Spread": "-1.5",
+        "Away Spread": "+1.5",
+        "Total Points": "8"
+    },
+    "8a2d1e91_fe8acdeb_MLB": {
+        "Home Team": "LA Angels",
+        "Away Team": "Boston",
+        "Home Spread": "+1.5",
+        "Away Spread": "-1.5",
+        "Total Points": "9"
     }
 }

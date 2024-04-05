@@ -122,7 +122,7 @@
 {"Team": "Illinois St", "Cover %": "45.2%"} -1.2
 {"Team": "Illinois", "Cover %": "60.0%"} 10.0
 {"Team": "Incar Word", "Cover %": "34.5%"} -6.3
-{"Team": "Indiana St", "Cover %": "61.1%"} 12.0
+{"Team": "Indiana St", "Cover %": "59.5%"} 11.7
 {"Team": "Indiana", "Cover %": "48.4%"} -2.0
 {"Team": "Iona", "Cover %": "40.6%"} 0.8
 {"Team": "Iowa St", "Cover %": "69.4%"} 13.8
@@ -273,7 +273,7 @@
 {"Team": "San Jose St", "Cover %": "38.7%"} -5.5
 {"Team": "Santa Clara", "Cover %": "60.0%"} 4.7
 {"Team": "Seattle", "Cover %": "58.3%"} 7.0
-{"Team": "Seton Hall", "Cover %": "47.2%"} 3.9
+{"Team": "Seton Hall", "Cover %": "48.7%"} 3.9
 {"Team": "Siena", "Cover %": "43.8%"} -14.0
 {"Team": "South Dakota", "Cover %": "48.3%"} -3.2
 {"Team": "Southern", "Cover %": "48.3%"} 2.4
