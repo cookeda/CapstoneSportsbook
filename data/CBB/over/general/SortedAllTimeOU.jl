@@ -122,7 +122,7 @@
 {"Team": "Illinois St", "Over %": "48.9%"} 51.1%
 {"Team": "Illinois", "Over %": "46.0%"} 54.1%
 {"Team": "Incar Word", "Over %": "51.5%"} 48.5%
-{"Team": "Indiana St", "Over %": "52.3%"} 47.7%
+{"Team": "Indiana St", "Over %": "52.2%"} 47.8%
 {"Team": "Indiana", "Over %": "50.1%"} 49.9%
 {"Team": "Iona", "Over %": "50.3%"} 49.7%
 {"Team": "Iowa St", "Over %": "53.1%"} 46.9%

@@ -1,28 +1,56 @@
 [
     [
         {
-            "BetTableId": "DK_9b7fab83_c788c1ba_CBB",
+            "BetTableId": "DK_8f0a6f86_6d06d564_CBB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+3.5",
-                "Away Spread Odds": "−115",
-                "Away ML": "+140",
-                "Home Spread": "-3.5",
-                "Home Spread Odds": "-3.5",
-                "Home ML": "−166",
-                "Total": "159",
+                "Away Spread": "+9",
+                "Away Spread Odds": "−110",
+                "Away ML": "+340",
+                "Home Spread": "-9",
+                "Home Spread Odds": "-9",
+                "Home ML": "−440",
+                "Total": "146",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "8f0a6f86_6d06d564_CBB",
+            "Info Table": {
+                "Away Team": "North Carolina State",
+                "Away Team Rank Name": "NC State",
+                "Away ID": "8f0a6f86",
+                "Home Team": "Purdue",
+                "Home Team Rank Name": "Purdue",
+                "Home ID": "6d06d564",
+                "Start Time": "6:09PM",
+                "League": "CBB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_96a8ead4_722d49f_CBB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+11.5",
+                "Away Spread Odds": "−108",
+                "Away ML": "+525",
+                "Home Spread": "-11.5",
+                "Home Spread Odds": "-11.5",
+                "Home ML": "−750",
+                "Total": "160.5",
                 "Over Total Odds": "−112",
                 "Under Total Odds": "−108"
             },
-            "MatchupID": "9b7fab83_c788c1ba_CBB",
+            "MatchupID": "96a8ead4_722d49f_CBB",
             "Info Table": {
-                "Away Team": "Seton Hall",
-                "Away Team Rank Name": "Seton Hall",
-                "Away ID": "9b7fab83",
-                "Home Team": "Indiana State",
-                "Home Team Rank Name": "Indiana St",
-                "Home ID": "c788c1ba",
-                "Start Time": "7:00PM",
+                "Away Team": "Alabama",
+                "Away Team Rank Name": "Alabama",
+                "Away ID": "96a8ead4",
+                "Home Team": "UConn",
+                "Home Team Rank Name": "Connecticut",
+                "Home ID": "722d49f",
+                "Start Time": "8:49PM",
                 "League": "CBB"
             }
         }

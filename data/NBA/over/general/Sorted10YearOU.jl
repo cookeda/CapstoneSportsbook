@@ -5,12 +5,12 @@
 {"Team": "Chicago", "Over %": "47.8%"} 52.2%
 {"Team": "Cleveland", "Over %": "49.5%"} 50.5%
 {"Team": "Dallas", "Over %": "48.1%"} 51.9%
-{"Team": "Denver", "Over %": "51.6%"} 48.4%
+{"Team": "Denver", "Over %": "51.6%"} 48.5%
 {"Team": "Detroit", "Over %": "50.9%"} 49.1%
-{"Team": "Golden State", "Over %": "47.3%"} 52.7%
+{"Team": "Golden State", "Over %": "47.4%"} 52.6%
 {"Team": "Houston", "Over %": "49.6%"} 50.4%
 {"Team": "Indiana", "Over %": "49.6%"} 50.4%
-{"Team": "LA Clippers", "Over %": "49.6%"} 50.4%
+{"Team": "LA Clippers", "Over %": "49.5%"} 50.5%
 {"Team": "LA Lakers", "Over %": "49.9%"} 50.1%
 {"Team": "Memphis", "Over %": "48.2%"} 51.8%
 {"Team": "Miami", "Over %": "49.2%"} 50.8%
@@ -20,7 +20,7 @@
 {"Team": "New York", "Over %": "47.5%"} 52.5%
 {"Team": "Okla City", "Over %": "49.5%"} 50.5%
 {"Team": "Orlando", "Over %": "48.2%"} 51.8%
-{"Team": "Philadelphia", "Over %": "50.0%"} 50.1%
+{"Team": "Philadelphia", "Over %": "50.0%"} 50.0%
 {"Team": "Phoenix", "Over %": "50.3%"} 49.7%
 {"Team": "Portland", "Over %": "52.0%"} 48.0%
 {"Team": "Sacramento", "Over %": "49.9%"} 50.1%
