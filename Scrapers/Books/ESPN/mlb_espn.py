@@ -196,7 +196,7 @@ lock = fasteners.InterProcessLock(lock_file_path)
 number_of_games = read_games_count('MLB')
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
-    print(f'{z}/{int(number_of_games)}')
+    print(f'{league} - {book}: {z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)

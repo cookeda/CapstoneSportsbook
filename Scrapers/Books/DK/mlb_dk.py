@@ -177,7 +177,7 @@ num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
 number_of_games = num_rows/2
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
-    print(f'{z}/{int(number_of_games)}')
+    print(f'{league} - {book}: {z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)

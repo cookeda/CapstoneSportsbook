@@ -139,31 +139,6 @@ def managed_webdriver(*args, **kwargs):
         yield driver
     finally:
         driver.quit()
-        
-
-# def scrape_with_timeout(z, timeout=7):
-#     # This will hold the result of the scrape function
-#     stop_event = threading.Event()
-#     result = [None]
-    
-#     def target():
-#         # Call the scrape function and store the result in the nonlocal list
-#         result[0] = scrape(z, stop_event)
-        
-#     result = [None]
-#     thread = threading.Thread(target=target)
-#     thread.start()
-#     thread.join(timeout)
-#  # Wait for the time limit
-#     if thread.is_alive():
-#         print(f"Scraping took too long, exiting scraping process.")
-#         stop_event.set()
-#         # Give the thread a little time to stop gracefully (if necessary)
-#         thread.join(1) 
-#         return None  # Ensure the thread has finished before returning
-        
-#     return result[0]
-
 def read_games_count(game_type):
     with lock:
         if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
@@ -198,7 +173,7 @@ lock = fasteners.InterProcessLock(lock_file_path)
 number_of_games = read_games_count('CBB')
 all_matchups = []
 for z in range(1, int(number_of_games)+1):
-    print(f'{z}/{int(number_of_games)}')
+    print(f'{league} - {book}: {z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)
