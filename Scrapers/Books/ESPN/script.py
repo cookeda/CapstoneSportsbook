@@ -6,12 +6,13 @@ process2 = subprocess.Popen(["python", "mlb_espn.py"])
 process3 = subprocess.Popen(["python", "nba_espn.py"])
 
 print("Scraping ESPN for: CBB, NBA, MLB")
-
-process1.wait() # Wait for process1 to finish (basically wait for script to finish)
+process1.wait()
 process2.wait()
 process3.wait()
 
-#time.sleep(5)
+# After scraping is complete, process the data with lite_writer.py
+process5 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/ESPN/NBA.json", "../../Data/ESPN/NBA_Lite.json"])
+process6 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/ESPN/CBB.json", "../../Data/ESPN/CBB_Lite.json"])
+process4 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/ESPN/MLB.json", "../../Data/ESPN/MLB_Lite.json"])
 
-#process4 = subprocess.Popen(["python", "Sort.py"])
-#process5 = subprocess.Popen(["python", "alg.py"])
+print("ESPN Data processing complete.")

@@ -17,7 +17,15 @@ python CBBScrape.py
 python Sort.py
 cd ../
 
-Update.bat
+:: Scrape Matchups
+cd ./Scrapers/Books
+python daily_refresh.py
+
+:: Run Algorithms
+cd ../../Data Collecting Src/
+
+python alg.py > ../Results/alg_results.txt
+python game.py > ../Results/game_results.txt
 
 :: Capture end time
 set end_time0=%time%

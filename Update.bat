@@ -4,12 +4,12 @@ set start_time=%time%
 
 :: Scrape Matchups
 cd ./Scrapers/Books
-python book_scripts.py
-cd ./DK
-python dk_lite_writer.py ../../Data/DK/MLB.json ../../Data/DK/MLB_Lite.json
-python dk_lite_writer.py ../../Data/DK/NBA.json ../../Data/DK/NBA_Lite.json
-python dk_lite_writer.py ../../Data/DK/CBB.json ../../Data/DK/CBB_Lite.json
-cd ../
+python constant_refresh.py
+::cd ./DK
+::python dk_lite_writer.py ../../Data/DK/MLB.json ../../Data/DK/MLB_Lite.json
+::python dk_lite_writer.py ../../Data/DK/NBA.json ../../Data/DK/NBA_Lite.json
+::python dk_lite_writer.py ../../Data/DK/CBB.json ../../Data/DK/CBB_Lite.json
+::cd ../
 
 :: Run Algorithms
 cd ../../Data Collecting Src/
