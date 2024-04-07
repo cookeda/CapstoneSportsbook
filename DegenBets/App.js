@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   matchIdText: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#443',
     marginBottom: 5,
   },
   teamText: {
