@@ -1,20 +1,20 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import matchupsData from './NBA_Lite.json';
+import matchupsData from './Data/master/matchups.json'; // Adjust the path as necessary
 
 const MatchupStats = () => {
-  // Convert the matchupsData object into an array of its values
-  const matchups = Object.values(matchupsData);
+  // Convert the matchupsData object into an array of its entries
+  const matchups = Object.entries(matchupsData);
 
   return (
     <ScrollView style={styles.container}>
-      {matchups.map((matchup, index) => (
+      {matchups.map(([matchId, matchupDetails], index) => (
         <View key={index} style={styles.matchupContainer}>
-          <Text style={styles.teamText}>{matchup['Home Team']} vs. {matchup['Away Team']}</Text>
-          <Text>Home Spread: {matchup['Home Spread']}</Text>
-          <Text>Away Spread: {matchup['Away Spread']}</Text>
-          <Text>Total Points: {matchup['Total Points']}</Text>
-          <Text>MatchupID: {matchup['']}</Text>
+          <Text style={styles.matchIdText}>Match ID: {matchId}</Text>
+          <Text style={styles.teamText}>{matchupDetails['Home Team']} vs. {matchupDetails['Away Team']}</Text>
+          <Text style={{fontWeight: "bold"}}> Home Spread: {matchupDetails['Home Spread']}</Text>
+          <Text>Away Spread: {matchupDetails['Away Spread']}</Text>
+          <Text>Total Points: {matchupDetails['Total Points']}</Text>
         </View>
       ))}
     </ScrollView>
@@ -32,6 +32,12 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     marginHorizontal: 16,
     borderRadius: 5,
+  },
+  matchIdText: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 5,
   },
   teamText: {
     fontSize: 16,
