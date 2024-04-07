@@ -1,0 +1,30 @@
+name: Expo Update
+
+# Defines when the workflow should run
+on:
+  push:
+    branches:
+      - main  # Replace with your branch name
+
+# Jobs to run
+jobs:
+  update-expo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14'  # Specify the Node.js version you need
+
+    - name: Install Expo CLI
+      run: npm install -g expo-cli
+
+    - name: Run Expo Update
+      run: expo update
+
+    - 
+    # Add any other steps here, e.g., commit and push the updated package.json and yarn.lock or package-lock.json to the repo
