@@ -27,7 +27,7 @@ def extract_relevant_data(file_path):
 
 def main(input_file, output_file):
     reformatted_data = extract_relevant_data(input_file)
-    with open(output_file, 'w') as new_file:
+    with open(output_file, 'w', encoding='utf-8') as new_file:
         json.dump(reformatted_data, new_file, indent=4)
     print(f"Reformatted JSON saved to: {output_file}")
 
