@@ -11,8 +11,8 @@
                 "Home Spread Odds": "-125",
                 "Home ML": "-270",
                 "Total": ".5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Over Total Odds": "Even",
+                "Under Total Odds": "-120"
             },
             "MatchupID": "Unknown_Unknown_MLB",
             "Info Table": {
@@ -61,10 +61,10 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+145",
+                "Away Spread Odds": "+150",
                 "Away ML": "-110",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-175",
+                "Home Spread Odds": "-180",
                 "Home ML": "-110",
                 "Total": ".5",
                 "Over Total Odds": "-105",
@@ -150,9 +150,9 @@
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "-115",
                 "Home ML": "-210",
-                "Total": "0.5",
-                "Over Total Odds": "+105",
-                "Under Total Odds": "-125"
+                "Total": ".5",
+                "Over Total Odds": "-125",
+                "Under Total Odds": "+105"
             },
             "MatchupID": "Unknown_Unknown_MLB",
             "Info Table": {
@@ -162,7 +162,7 @@
                 "Home Team": "ATL Braves",
                 "Home Team Rank Name": "Unknown",
                 "Home ID": "Unknown",
-                "Start Time": "Today \u00b7 1:35 PM",
+                "Start Time": "Today \u00b7 7:20 PM",
                 "League": "MLB"
             }
         }
@@ -257,10 +257,10 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "-120",
+                "Away Spread Odds": "-115",
                 "Away ML": "-175",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "Even",
+                "Home Spread Odds": "-105",
                 "Home ML": "+150",
                 "Total": "0.5",
                 "Over Total Odds": "-120",
@@ -302,35 +302,7 @@
                 "Home Team": "LA Angels",
                 "Home Team Rank Name": "Unknown",
                 "Home ID": "Unknown",
-                "Start Time": "Today \u00b7 4:07 PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_Unknown_Unknown_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+150",
-                "Away ML": "-105",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "-180",
-                "Home ML": "-115",
-                "Total": "0.5",
-                "Over Total Odds": "+105",
-                "Under Total Odds": "-125"
-            },
-            "MatchupID": "Unknown_Unknown_MLB",
-            "Info Table": {
-                "Away Team": "HOU Astros",
-                "Away Team Rank Name": "Unknown",
-                "Away ID": "Unknown",
-                "Home Team": "TEX Rangers",
-                "Home Team Rank Name": "Unknown",
-                "Home ID": "Unknown",
-                "Start Time": "Today \u00b7 7:10 PM",
+                "Start Time": "Today \u00b7 9:38 PM",
                 "League": "MLB"
             }
         }
