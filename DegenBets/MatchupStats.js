@@ -25,6 +25,9 @@ const MatchupStats = () => {
           >
             <Text style={[styles.matchIdText, {color: theme === 'dark' ? '#FFF' : '#000'}]}>Match ID: {matchId}</Text>
             <Text style={[styles.teamText, {color: theme === 'dark' ? '#FFF' : '#000'}]}>{matchupDetails['Home Team']} vs {matchupDetails['Away Team']}</Text>
+            <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Home Spread: {matchupDetails['Home Spread']}</Text>
+            <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Away Spread: {matchupDetails['Away Spread']}</Text>
+            <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Total Points: {matchupDetails['Total Points']}</Text>
           </TouchableOpacity>
         ))}
       </ScrollView>
