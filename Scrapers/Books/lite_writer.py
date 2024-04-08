@@ -15,8 +15,13 @@ def extract_relevant_data(file_path):
                 'Home Team': matchup_info['Home Team Rank Name'],
                 'Away Team': matchup_info['Away Team Rank Name'],
                 'Home Spread': odds_info['Home Spread'],
+                'Home Spread Odds': odds_info['Home Spread Odds'],
                 'Away Spread': odds_info['Away Spread'],
-                'Total Points': odds_info['Total']
+                'Away Spread Odds': odds_info['Away Spread Odds'],
+                'Total Points': odds_info['Total'],
+                'Over Odds': odds_info['Over Total Odds'],
+                'Under Odds' : odds_info['Under Total Odds'],
+
             }
     return reformatted_games
 
