@@ -2,7 +2,7 @@ import json
 import sys
 
 def extract_relevant_data(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     reformatted_games = {}
@@ -28,7 +28,7 @@ def extract_relevant_data(file_path):
 def main(input_file, output_file):
     reformatted_data = extract_relevant_data(input_file)
     with open(output_file, 'w', encoding='utf-8') as new_file:
-        json.dump(reformatted_data, new_file, indent=4)
+        json.dump(reformatted_data, new_file, indent=4, ensure_ascii=False)
     print(f"Reformatted JSON saved to: {output_file}")
 
 if __name__ == "__main__":

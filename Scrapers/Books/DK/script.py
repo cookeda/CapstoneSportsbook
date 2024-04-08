@@ -9,7 +9,7 @@ print("Scraping DraftKings for: CBB, NBA, MLB")
 process1.wait()
 process2.wait()
 process3.wait()
-
+time.sleep(5)
 
 # After scraping is complete, process the data with lite_writer.py
 process5 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/DK/NBA.json", "../../Data/DK/NBA_Lite.json"])
