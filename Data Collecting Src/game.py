@@ -72,37 +72,32 @@ class Statistics:
 
 
 class Game:
-    def __init__(self, home_team, away_team, home_spread, away_spread, total, league, stats):
+    def __init__(self, home_team, away_team, home_spread, away_spread, total, home_spread_odds, away_spread_odds, over_odds, under_odds, league, stats):
         self.home_team = home_team
         self.away_team = away_team
         self.home_spread = float(home_spread)
         self.away_spread = float(away_spread)
         self.total = float(total)
+        self.home_spread_odds = home_spread_odds
+        self.away_spread_odds = away_spread_odds
+        self.over_odds = over_odds
+        self.under_odds = under_odds
         self.league = league
         self.stats = stats
-
-    
-
-    @classmethod
-    def gameInputFromJSON(cls, file, league, stats):
-        with open(file, 'r') as j:
-            games_data = json.load(j)
-        return [cls(game["Home Team Rank Name"],
-                    game["Away Team Rank Name"],
-                    game['DK Home Odds']['Spread'].replace("Pick)", "0").replace("-Pick)", "0"),
-                    game['DK Away Odds']['Spread'].replace("Pick", "0").replace("-Pick", "0"),
-                    game['Game']['Total'],
-                    league, stats) for game in games_data]
     
     @classmethod
     def gameInputFromLite(cls, file, league, stats):
-        with open(file, 'r') as j:
+        with open(file, 'r', encoding='utf-8') as j:
             games_data = json.load(j)
         return [cls(game_info["Home Team"],
                     game_info["Away Team"],
                     game_info["Home Spread"].replace("Pick)", "0").replace("-Pick)", "0"),
                     game_info["Away Spread"].replace("Pick", "0").replace("-Pick", "0"),
                     game_info["Total Points"],
+                    game_info["Home Spread Odds"],
+                    game_info["Away Spread Odds"],
+                    game_info["Over Odds"],
+                    game_info["Under Odds"],
                     league, stats) for matchup_id, game_info in games_data.items()]
        
 
@@ -127,6 +122,22 @@ class Game:
         away_cover_perc = (cover_stats_general.get(self.away_team, 0) + cover_stats_away.get(self.away_team, 0)) / 2
         home_over_score = 1 + (home_over * 9)
         away_over_score = 1 + (away_over * 9)
+
+        # Encoding fix for negative sign
+        self.over_odds = self.over_odds.replace('−', '-')
+        self.under_odds = self.under_odds.replace('−', '-')
+        self.home_spread_odds = self.home_spread_odds.replace('−', '-')
+        self.away_spread_odds = self.away_spread_odds.replace('−', '-')
+
+        if float(self.over_odds) <= -130:
+            home_over_score += 3
+        elif float(self.over_odds) >= 100:
+            home_over_score -= 2
+        if float(self.under_odds) <= -130:
+            away_over_score += 3
+        elif float(self.under_odds) >= 100:
+            away_over_score -= 2
+
         over_rating = (home_over_score + away_over_score) / 2
 
         homeMOV = self.stats.getDictMOV(self.league, "Cover", "home")
@@ -144,6 +155,16 @@ class Game:
             home_cover_score += 3
         else:
             away_cover_score += 3
+
+        if float(self.home_spread_odds) <= -130:
+            home_cover_score += 3
+        elif float(self.home_spread_odds) >= 100:
+            home_cover_score -= 2
+
+        if float(self.away_spread_odds) <= -130:
+            away_cover_score += 3
+        elif float(self.away_spread_odds) >= 100:
+            away_cover_score -= 2
 
         if(away_cover_score > home_cover_score):
             favored_to_cover = self.away_team
