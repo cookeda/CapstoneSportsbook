@@ -27,6 +27,10 @@ cd ../../Data Collecting Src/
 python alg.py > ../Results/alg_results.txt
 python game.py > ../Results/game_results.txt
 
+cd ../Results
+python summary.py
+
+
 :: Capture end time
 set end_time0=%time%
 
