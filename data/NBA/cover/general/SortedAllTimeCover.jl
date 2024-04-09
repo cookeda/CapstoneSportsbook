@@ -11,7 +11,7 @@
 {"Team": "Houston", "Cover %": "49.4%"} 1.3
 {"Team": "Indiana", "Cover %": "50.9%"} 0.6
 {"Team": "LA Clippers", "Cover %": "49.0%"} 0.8
-{"Team": "LA Lakers", "Cover %": "47.2%"} 0.3
+{"Team": "LA Lakers", "Cover %": "47.1%"} 0.3
 {"Team": "Memphis", "Cover %": "51.2%"} -0.4
 {"Team": "Miami", "Cover %": "51.4%"} 1.9
 {"Team": "Milwaukee", "Cover %": "49.1%"} 0.2

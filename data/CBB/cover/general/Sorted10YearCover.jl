@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "Cover %": "46.3%"} 3.5
 {"Team": "Colorado", "Cover %": "48.1%"} 4.2
 {"Team": "Columbia", "Cover %": "46.1%"} -0.4
-{"Team": "Connecticut", "Cover %": "54.6%"} 7.3
+{"Team": "Connecticut", "Cover %": "54.7%"} 7.3
 {"Team": "Coppin St", "Cover %": "49.8%"} -10.0
 {"Team": "Cornell", "Cover %": "50.6%"} -1.8
 {"Team": "Creighton", "Cover %": "53.9%"} 7.2
@@ -238,7 +238,7 @@
 {"Team": "Presbyterian", "Cover %": "51.3%"} -4.4
 {"Team": "Princeton", "Cover %": "50.8%"} 6.1
 {"Team": "Providence", "Cover %": "53.2%"} 3.5
-{"Team": "Purdue", "Cover %": "51.8%"} 9.3
+{"Team": "Purdue", "Cover %": "51.7%"} 9.2
 {"Team": "Queens", "Cover %": "53.5%"} 0.8
 {"Team": "Quinnipiac", "Cover %": "48.7%"} -0.3
 {"Team": "Radford", "Cover %": "48.9%"} 2.1

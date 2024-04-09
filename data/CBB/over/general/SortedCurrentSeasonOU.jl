@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "Over %": "38.2%"} 61.8%
 {"Team": "Colorado", "Over %": "59.5%"} 40.5%
 {"Team": "Columbia", "Over %": "62.5%"} 37.5%
-{"Team": "Connecticut", "Over %": "42.1%"} 57.9%
+{"Team": "Connecticut", "Over %": "41.0%"} 59.0%
 {"Team": "Coppin St", "Over %": "37.9%"} 62.1%
 {"Team": "Cornell", "Over %": "60.7%"} 39.3%
 {"Team": "Creighton", "Over %": "51.4%"} 48.6%
@@ -238,7 +238,7 @@
 {"Team": "Presbyterian", "Over %": "56.7%"} 43.3%
 {"Team": "Princeton", "Over %": "50.0%"} 50.0%
 {"Team": "Providence", "Over %": "44.1%"} 55.9%
-{"Team": "Purdue", "Over %": "60.5%"} 39.5%
+{"Team": "Purdue", "Over %": "59.0%"} 41.0%
 {"Team": "Queens", "Over %": "64.5%"} 35.5%
 {"Team": "Quinnipiac", "Over %": "36.4%"} 63.6%
 {"Team": "Radford", "Over %": "61.3%"} 38.7%
