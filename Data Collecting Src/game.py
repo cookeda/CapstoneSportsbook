@@ -2,6 +2,8 @@ import json
 import re
 import os
 from datetime import date as dt
+import pandas as pd
+
 
 class Statistics:
     def __init__(self, direct):
@@ -16,9 +18,9 @@ class Statistics:
         files = [open(path, 'r') for path in paths]
         for sixty, all, ten in zip(*files):
             team = re.search(r'"Team":\s*"([^"]+)"', ten).group(1).strip()
-            sixtyPercent = float(re.search(r"\b\d+\.\d+\b", sixty).group())/100
-            thirtyPercent = float(re.search(r"\b\d+\.\d+\b", all).group())/100
-            tenPercent = float(re.search(r"\b\d+\.\d+\b", ten).group())/100
+            sixtyPercent = float(re.search(r"\b\d+\.\d+\b", sixty).group()) / 100
+            thirtyPercent = float(re.search(r"\b\d+\.\d+\b", all).group()) / 100
+            tenPercent = float(re.search(r"\b\d+\.\d+\b", ten).group()) / 100
             perChance = (.6 * sixtyPercent) + (.3 * thirtyPercent) + (.1 * tenPercent)
             result_dict[team] = perChance
         [file.close() for file in files]
@@ -63,7 +65,7 @@ class Statistics:
             return [line.strip() for line in fr]
 
     def combineOnRanking(self, dict1, dict2):
-        return_dict = {team: (dict1[team] + dict2[team])/2 for team in dict1 if team in dict2}
+        return_dict = {team: (dict1[team] + dict2[team]) / 2 for team in dict1 if team in dict2}
         return dict(sorted(return_dict.items(), key=lambda item: item[1], reverse=False))
 
     def sortByRank(self, input_dict):
@@ -72,7 +74,8 @@ class Statistics:
 
 
 class Game:
-    def __init__(self, home_team, away_team, home_spread, away_spread, total, home_spread_odds, away_spread_odds, over_odds, under_odds, league, stats):
+    def __init__(self, home_team, away_team, home_spread, away_spread, total, home_spread_odds, away_spread_odds,
+                 over_odds, under_odds, league, stats):
         self.home_team = home_team
         self.away_team = away_team
         self.home_spread = float(home_spread)
@@ -84,7 +87,7 @@ class Game:
         self.under_odds = under_odds
         self.league = league
         self.stats = stats
-    
+
     @classmethod
     def gameInputFromLite(cls, file, league, stats):
         with open(file, 'r', encoding='utf-8') as j:
@@ -99,7 +102,6 @@ class Game:
                     game_info["Over Odds"],
                     game_info["Under Odds"],
                     league, stats) for matchup_id, game_info in games_data.items()]
-       
 
     def print_details(self):
         print(f"League: {self.league}")
@@ -166,7 +168,7 @@ class Game:
         elif float(self.away_spread_odds) >= 100:
             away_cover_score -= 2
 
-        if(away_cover_score > home_cover_score):
+        if (away_cover_score > home_cover_score):
             favored_to_cover = self.away_team
         else:
             favored_to_cover = self.home_team
@@ -184,6 +186,7 @@ class Game:
             "betting_advice": betting_advice
         }
 
+
 def cleanfile(file):
     try:
         os.remove(file)
@@ -198,27 +201,54 @@ def main():
     # Load games from all leagues
     leagues = {
         'NBA': Game.gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA', stats),
-        #'CBB': Game.gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB', stats),
+        'CBB': Game.gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB', stats),
         'MLB': Game.gameInputFromLite("../Scrapers/Data/DK/MLB_Lite.json", 'MLB', stats)
         # 'NFL': Game.gameInputFromJSON("../Scrapers/Data/DK/NFL.json", 'NFL', stats),
         # 'NHL': Game.gameInputFromJSON("../Scrapers/Data/DK/NHL.json", 'NHL', stats),
         # 'NBA': Game.gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA', stats)
     }
 
-    cover_recommendations = []
-    over_scores = []
-
     # Process games for each league
+    game_list = []
+    cover_recommendations = []  # Assuming this is defined somewhere
+    over_scores = []  # Assuming this is also defined somewhere
+
+    d = dt.today().strftime('%Y-%m-%d')
     for league_name, league_games in leagues.items():
         for game in league_games:
             summary = game.analyze_game()
-            print(f"{summary['matchup']} ({league_name}): Cover Rating - {summary['game_rating']:.1f}, Over Score - {summary['over_score']:.1f}")
+            print(
+                f"{summary['matchup']} ({league_name}): Cover Rating - {summary['game_rating']:.1f}, Over Score - {summary['over_score']:.1f}")
             print(summary['betting_advice'])
 
             # Append cover recommendations and over scores for ranking
-            cover_recommendations.append((league_name, summary['matchup'], summary['game_rating'], summary['betting_advice']))
+            cover_recommendations.append(
+                (league_name, summary['matchup'], summary['game_rating'], summary['betting_advice']))
             over_scores.append((league_name, summary['matchup'], summary['over_score']))
 
+            # Preparing the game dictionary
+            game_dict = {
+                'date': d,
+                'league': league_name,
+                'matchup': summary['matchup'],
+                'cover_rating': summary['game_rating'],
+                'betting_advice': summary['betting_advice'],
+                'over_score': summary['over_score']
+            }
+
+            # Splitting 'matchup' into 'home_team' and 'away_team'
+            home_team, away_team = game_dict['matchup'].split(' @ ')
+            game_dict['home_team'] = home_team
+            game_dict['away_team'] = away_team
+            del game_dict['matchup']  # Removing 'matchup' key as it's no longer needed
+
+            # Modifying 'betting_advice' to just include the team's name
+            if "Bet on " in game_dict['betting_advice']:
+                team_name = game_dict['betting_advice'].split('Bet on ')[1].split(' to cover the spread')[0]
+                game_dict['betting_advice'] = team_name
+
+            # Append the modified dictionary to game_list
+            game_list.append(game_dict)
     # Rank and print cover recommendations across all leagues
     print("\nRanked Cover Recommendations Across All Leagues:")
     cover_recommendations.sort(key=lambda x: x[2], reverse=True)  # Sort by cover rating
@@ -230,7 +260,24 @@ def main():
     over_scores.sort(key=lambda x: x[2], reverse=True)  # Sort by over score
     for league, matchup, score in over_scores:
         print(f"{matchup} ({league}): Over Score - {score:.1f}")
+    return game_list
+
+
+def game_list_to_dataframe(game_list):
+    predictions_df = pd.DataFrame(game_list)
+    return predictions_df
+
+
+def save_to_csv(df, filename):
+    # Save DataFrame to a CSV, appending if it exists.
+    try:
+        df.to_csv(filename, mode='a', header=False, index=False)
+    except FileNotFoundError:
+        df.to_csv(filename, mode='w', header=True, index=False)
 
 
 if __name__ == '__main__':
-    main()
+    game_list = main()
+    df = game_list_to_dataframe(game_list)
+    print(df)
+    save_to_csv(df, "../OddsHistory/History/Predictions.csv")
