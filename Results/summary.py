@@ -39,41 +39,38 @@ def get_matchup_id_for_game(game_info):
     # Generate and return the matchup ID
     return encode_matchup_id(away_id, home_id, league)
  
-corrected = []
-
+corrected = {}
 # Re-opening the file to re-process with the corrected logic
-with open(file_path, 'r') as file:
+with open(file_path, 'r', encoding='utf-8') as file:
     lines = file.readlines()
     i = 0
     while i < len(lines):
         line = lines[i].strip()
         if "Cover Rating" in line and "Over Score" in line:
-            # Extract game info and team to cover
             game_info = line.split(":")[0].strip()
-            
-            # Assuming the next line contains the betting recommendation
+
             if i+1 < len(lines):
                 team_to_cover = extract_team_to_cover(lines[i+1].strip())
             else:
                 team_to_cover = "No betting recommendation found."
             
-            # Extract Cover Rating and Over Score
             cover_rating = float(line.split("Cover Rating - ")[1].split(",")[0])
             over_score = float(line.split("Over Score - ")[1].split("\n")[0])
             
             matchup_id = get_matchup_id_for_game(game_info)
 
-            corrected.append({
-                "matchup": matchup_id,
+            # Store the data in the dictionary under the matchup ID, with details in a nested dictionary
+            corrected[matchup_id] = {
                 "team_to_cover": team_to_cover,
                 "cover_rating": cover_rating,
                 "over_score": over_score
-            })
+            }
             i += 2  # Skip the next line as it's already processed
         else:
             i += 1
+
 # Write the processed results to a JSON file
-json_file_path = '../DegenBets/Data/game_summary.json'
+json_file_path = '../DegenBets/Data/master/game_summary.json'
 with open(json_file_path, 'w', encoding='utf-8') as json_file:
     json.dump(corrected, json_file, indent=4)
 
