@@ -11,7 +11,7 @@
 {"Team": "Houston", "Over %": "49.7%"} 50.3%
 {"Team": "Indiana", "Over %": "49.7%"} 50.3%
 {"Team": "LA Clippers", "Over %": "49.6%"} 50.4%
-{"Team": "LA Lakers", "Over %": "49.8%"} 50.2%
+{"Team": "LA Lakers", "Over %": "49.9%"} 50.1%
 {"Team": "Memphis", "Over %": "48.1%"} 51.9%
 {"Team": "Miami", "Over %": "49.3%"} 50.7%
 {"Team": "Milwaukee", "Over %": "51.4%"} 48.6%

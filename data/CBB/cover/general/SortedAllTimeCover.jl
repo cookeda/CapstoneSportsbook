@@ -59,7 +59,7 @@
 {"Team": "Colorado St", "Cover %": "48.5%"} 2.6
 {"Team": "Colorado", "Cover %": "48.6%"} 2.8
 {"Team": "Columbia", "Cover %": "49.7%"} -1.6
-{"Team": "Connecticut", "Cover %": "52.0%"} 8.6
+{"Team": "Connecticut", "Cover %": "52.1%"} 8.6
 {"Team": "Coppin St", "Cover %": "47.8%"} -6.0
 {"Team": "Cornell", "Cover %": "52.8%"} -0.9
 {"Team": "Creighton", "Cover %": "53.3%"} 7.2
