@@ -21,8 +21,12 @@ cd ../Results/
 python summary.py
 python merger.py
 
-cd ../DegenBets
-npx
-npm start
-eas update
+::cd ../DegenBets
+::npx
+::npm start
+::eas update
+cd ../
 
+git add .
+git commit -a -m "4/10 Update"
+git push origin main
