@@ -2,6 +2,22 @@ import json
 import sys
 
 def extract_relevant_data(file_path):
+    """
+    Extracts and reformats data from a JSON file containing game information.
+
+    This function reads a JSON file specified by the file_path parameter, extracts
+    information about each game, and reformats this information into a more
+    accessible structure. The reformatted data includes details such as team names,
+    spreads, and total points for each game, identified by a unique MatchupID.
+
+    Parameters:
+    - file_path (str): The path to the JSON file containing the original game data.
+
+    Returns:
+    - dict: A dictionary where each key is a MatchupID and each value is another
+      dictionary containing reformatted game information, including home and away
+      team names, home and away spreads, and total points.
+    """
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
