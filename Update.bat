@@ -19,10 +19,10 @@ python game.py > ../Results/game_results.txt
 
 cd ../Results/
 python summary.py
+python merger.py
 
-:: Capture end time
-set end_time=%time%
+cd ../DegenBets
+npx
+npm start
+eas update
 
-:: Display start and end times
-echo Start Time: %start_time%
-echo End Time: %end_time%

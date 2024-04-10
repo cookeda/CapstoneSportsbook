@@ -1,83 +1,391 @@
 [
     [
         {
-            "BetTableId": "DK_16f4bf06_fe8acdeb_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "−180",
-                "Away ML": "−500",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+140",
-                "Home ML": "+340",
-                "Total": "10.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
-            },
-            "MatchupID": "16f4bf06_fe8acdeb_MLB",
-            "Info Table": {
-                "Away Team": "TB Rays",
-                "Away Team Rank Name": "Tampa Bay",
-                "Away ID": "16f4bf06",
-                "Home Team": "LA Angels",
-                "Home Team Rank Name": "LA Angels",
-                "Home ID": "fe8acdeb",
-                "Start Time": "N/A",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_dd4357ee_486a5e3b_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+195",
-                "Away ML": "−280",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+140",
-                "Home ML": "+210",
-                "Total": "8.5",
-                "Over Total Odds": "−166",
-                "Under Total Odds": "+130"
-            },
-            "MatchupID": "dd4357ee_486a5e3b_MLB",
-            "Info Table": {
-                "Away Team": "WAS Nationals",
-                "Away Team Rank Name": "Washington",
-                "Away ID": "dd4357ee",
-                "Home Team": "SF Giants",
-                "Home Team Rank Name": "SF Giants",
-                "Home ID": "486a5e3b",
-                "Start Time": "N/A",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_d10f1db8_3f4235d4_MLB",
+            "BetTableId": "DK_e8bdce10_8a2d1e91_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-4.5",
-                "Away Spread Odds": "−135",
-                "Away ML": "−2500",
-                "Home Spread": "+4.5",
-                "Home Spread Odds": "+140",
-                "Home ML": "+1100",
-                "Total": "9.5",
-                "Over Total Odds": "+114",
-                "Under Total Odds": "−145"
+                "Away Spread Odds": "+260",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "9",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
             },
-            "MatchupID": "d10f1db8_3f4235d4_MLB",
+            "MatchupID": "e8bdce10_8a2d1e91_MLB",
             "Info Table": {
-                "Away Team": "CHI Cubs",
-                "Away Team Rank Name": "Chi Cubs",
-                "Away ID": "d10f1db8",
-                "Home Team": "SD Padres",
-                "Home Team Rank Name": "San Diego",
-                "Home ID": "3f4235d4",
+                "Away Team": "BAL Orioles",
+                "Away Team Rank Name": "Baltimore",
+                "Away ID": "e8bdce10",
+                "Home Team": "BOS Red Sox",
+                "Home Team Rank Name": "Boston",
+                "Home ID": "8a2d1e91",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "N/A",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "N/A",
+                "Away Spread Odds": "N/A",
+                "Away ML": "N/A",
+                "Home Spread": "N/A",
+                "Home Spread Odds": "N/A",
+                "Home ML": "N/A",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "N/A",
+                "Away Team Rank Name": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "N/A",
+                "Home Team Rank Name": "Unknown",
+                "Home ID": "Unknown",
                 "Start Time": "N/A",
                 "League": "MLB"
             }

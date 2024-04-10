@@ -69,7 +69,7 @@ def find_element_text_or_not_found(driver, xpath, wait_time=10):
         )
         return element.text
     except:
-        return 'N/A'
+        return '-999'
 
 def update_games_count(game_type, number_of_games):
     with lock:
