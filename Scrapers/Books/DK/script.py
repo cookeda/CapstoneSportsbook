@@ -18,6 +18,6 @@ process4 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/DK/MLB.j
 
 process5.wait()
 process4.wait()
-process6 = subprocess.Popen(["python", "../master_lite.py"])
+#iprocess6 = subprocess.Popen(["python", "../master_lite.py"])
 
 print("DK Data processing complete.")
