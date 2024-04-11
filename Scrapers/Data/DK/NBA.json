@@ -1,27 +1,27 @@
 [
     [
         {
-            "BetTableId": "DK_f5328492_59dd0ac4_NBA",
+            "BetTableId": "DK_f3d50c2_18a9d733_NBA",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "−110",
-                "Away ML": "−130",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−120",
-                "Home ML": "+100",
-                "Total": "217.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
+                "Away Spread": "-9.5",
+                "Away Spread Odds": "−112",
+                "Away ML": "−440",
+                "Home Spread": "+9.5",
+                "Home Spread Odds": "−108",
+                "Home ML": "+340",
+                "Total": "220",
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
-            "MatchupID": "f5328492_59dd0ac4_NBA",
+            "MatchupID": "f3d50c2_18a9d733_NBA",
             "Info Table": {
-                "Away Team": "MIN Timberwolves",
-                "Away Team Rank Name": "Minnesota",
-                "Away ID": "f5328492",
-                "Home Team": "DEN Nuggets",
-                "Home Team Rank Name": "Denver",
-                "Home ID": "59dd0ac4",
+                "Away Team": "CHI Bulls",
+                "Away Team Rank Name": "Chicago",
+                "Away ID": "f3d50c2",
+                "Home Team": "DET Pistons",
+                "Home Team Rank Name": "Detroit",
+                "Home ID": "18a9d733",
                 "Start Time": "7:10PM",
                 "League": "NBA"
             }
@@ -29,28 +29,112 @@
     ],
     [
         {
-            "BetTableId": "DK_e52c9399_88571b9e_NBA",
+            "BetTableId": "DK_65ba1118_8a2d1e91_NBA",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-7.5",
-                "Away Spread Odds": "−110",
-                "Away ML": "−425",
-                "Home Spread": "+7.5",
-                "Home Spread Odds": "−120",
-                "Home ML": "+300",
-                "Total": "217.5",
-                "Over Total Odds": "−120",
+                "Away Spread": "-2.5",
+                "Away Spread Odds": "−112",
+                "Away ML": "−148",
+                "Home Spread": "+2.5",
+                "Home Spread Odds": "−108",
+                "Home ML": "+124",
+                "Total": "214.5",
+                "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
             },
-            "MatchupID": "e52c9399_88571b9e_NBA",
+            "MatchupID": "65ba1118_8a2d1e91_NBA",
             "Info Table": {
-                "Away Team": "PHO Suns",
-                "Away Team Rank Name": "Phoenix",
-                "Away ID": "e52c9399",
-                "Home Team": "LA Clippers",
-                "Home Team Rank Name": "LA Clippers",
-                "Home ID": "88571b9e",
+                "Away Team": "NY Knicks",
+                "Away Team Rank Name": "New York",
+                "Away ID": "65ba1118",
+                "Home Team": "BOS Celtics",
+                "Home Team Rank Name": "Boston",
+                "Home ID": "8a2d1e91",
                 "Start Time": "7:40PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_4005c299_b1e0538c_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-10.5",
+                "Away Spread Odds": "−108",
+                "Away ML": "−520",
+                "Home Spread": "+10.5",
+                "Home Spread Odds": "−112",
+                "Home ML": "+390",
+                "Total": "228.5",
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
+            },
+            "MatchupID": "4005c299_b1e0538c_NBA",
+            "Info Table": {
+                "Away Team": "HOU Rockets",
+                "Away Team Rank Name": "Houston",
+                "Away ID": "4005c299",
+                "Home Team": "UTA Jazz",
+                "Home Team Rank Name": "Utah",
+                "Home ID": "b1e0538c",
+                "Start Time": "9:10PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_d608580b_8e06f0a2_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-13.5",
+                "Away Spread Odds": "−112",
+                "Away ML": "−1000",
+                "Home Spread": "+13.5",
+                "Home Spread Odds": "−108",
+                "Home ML": "+650",
+                "Total": "223",
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
+            },
+            "MatchupID": "d608580b_8e06f0a2_NBA",
+            "Info Table": {
+                "Away Team": "GS Warriors",
+                "Away Team Rank Name": "Golden State",
+                "Away ID": "d608580b",
+                "Home Team": "POR Trail Blazers",
+                "Home Team Rank Name": "Portland",
+                "Home ID": "8e06f0a2",
+                "Start Time": "10:10PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_6a3773e4_a5c7e8a3_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1",
+                "Away Spread Odds": "−112",
+                "Away ML": "−105",
+                "Home Spread": "-1",
+                "Home Spread Odds": "−108",
+                "Home ML": "−115",
+                "Total": "217.5",
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
+            },
+            "MatchupID": "6a3773e4_a5c7e8a3_NBA",
+            "Info Table": {
+                "Away Team": "NO Pelicans",
+                "Away Team Rank Name": "New Orleans",
+                "Away ID": "6a3773e4",
+                "Home Team": "SAC Kings",
+                "Home Team Rank Name": "Sacramento",
+                "Home ID": "a5c7e8a3",
+                "Start Time": "10:10PM",
                 "League": "NBA"
             }
         }
