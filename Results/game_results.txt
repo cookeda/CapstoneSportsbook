@@ -10,35 +10,31 @@ New Orleans @ Sacramento (NBA): Cover Rating - 9.6, Over Score - 5.3
 Bet on New Orleans to cover the spread.
 NY Mets @ Atlanta (MLB): Cover Rating - 10.9, Over Score - 6.7
 Bet on NY Mets to cover the spread.
-Milwaukee @ Cincinnati (MLB): Cover Rating - 4.3, Over Score - 7.0
-Bet on Milwaukee to cover the spread.
 Houston @ Kansas City (MLB): Cover Rating - 9.1, Over Score - 4.7
 Bet on Kansas City to cover the spread.
-Oakland @ Texas (MLB): Cover Rating - 11.5, Over Score - 4.7
+Oakland @ Texas (MLB): Cover Rating - 8.5, Over Score - 4.7
 Bet on Oakland to cover the spread.
-Pittsburgh @ Philadelphia (MLB): Cover Rating - 8.0, Over Score - 7.2
+Pittsburgh @ Philadelphia (MLB): Cover Rating - 13.8, Over Score - 7.2
 Bet on Pittsburgh to cover the spread.
-Baltimore @ Boston (MLB): Cover Rating - 4.3, Over Score - 5.7
+Baltimore @ Boston (MLB): Cover Rating - 4.3, Over Score - 6.7
 Bet on Baltimore to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Oakland @ Texas (MLB): Cover Rating - 11.5, Bet on Oakland to cover the spread.
+Pittsburgh @ Philadelphia (MLB): Cover Rating - 13.8, Bet on Pittsburgh to cover the spread.
 NY Mets @ Atlanta (MLB): Cover Rating - 10.9, Bet on NY Mets to cover the spread.
 New York @ Boston (NBA): Cover Rating - 10.0, Bet on Boston to cover the spread.
 New Orleans @ Sacramento (NBA): Cover Rating - 9.6, Bet on New Orleans to cover the spread.
 Houston @ Kansas City (MLB): Cover Rating - 9.1, Bet on Kansas City to cover the spread.
-Pittsburgh @ Philadelphia (MLB): Cover Rating - 8.0, Bet on Pittsburgh to cover the spread.
+Oakland @ Texas (MLB): Cover Rating - 8.5, Bet on Oakland to cover the spread.
 Houston @ Utah (NBA): Cover Rating - 5.5, Bet on Utah to cover the spread.
-Milwaukee @ Cincinnati (MLB): Cover Rating - 4.3, Bet on Milwaukee to cover the spread.
 Baltimore @ Boston (MLB): Cover Rating - 4.3, Bet on Baltimore to cover the spread.
 Golden State @ Portland (NBA): Cover Rating - 1.8, Bet on Golden State to cover the spread.
 Chicago @ Detroit (NBA): Cover Rating - 1.4, Bet on Chicago to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Pittsburgh @ Philadelphia (MLB): Over Score - 7.2
-Milwaukee @ Cincinnati (MLB): Over Score - 7.0
+Baltimore @ Boston (MLB): Over Score - 6.7
 NY Mets @ Atlanta (MLB): Over Score - 6.7
-Baltimore @ Boston (MLB): Over Score - 5.7
 Houston @ Utah (NBA): Over Score - 5.7
 Chicago @ Detroit (NBA): Over Score - 5.5
 New York @ Boston (NBA): Over Score - 5.5
@@ -46,17 +42,16 @@ Golden State @ Portland (NBA): Over Score - 5.3
 New Orleans @ Sacramento (NBA): Over Score - 5.3
 Oakland @ Texas (MLB): Over Score - 4.7
 Houston @ Kansas City (MLB): Over Score - 4.7
-          date league  cover_rating  ... over_score     home_team     away_team
-0   2024-04-11    NBA      1.431579  ...   5.511475       Chicago       Detroit
-1   2024-04-11    NBA      9.960000  ...   5.457925      New York        Boston
-2   2024-04-11    NBA      5.523810  ...   5.676400       Houston          Utah
-3   2024-04-11    NBA      1.814815  ...   5.298400  Golden State      Portland
-4   2024-04-11    NBA      9.600000  ...   5.281525   New Orleans    Sacramento
-5   2024-04-11    MLB     10.933333  ...   6.701500       NY Mets       Atlanta
-6   2024-04-11    MLB      4.333333  ...   6.999850     Milwaukee    Cincinnati
-7   2024-04-11    MLB      9.066667  ...   4.673350       Houston   Kansas City
-8   2024-04-11    MLB     11.466667  ...   4.738150       Oakland         Texas
-9   2024-04-11    MLB      8.005706  ...   7.174000    Pittsburgh  Philadelphia
-10  2024-04-11    MLB      4.266667  ...   5.730750     Baltimore        Boston
+         date league  cover_rating  ... over_score     home_team     away_team
+0  2024-04-11    NBA      1.431579  ...   5.511475       Chicago       Detroit
+1  2024-04-11    NBA      9.960000  ...   5.457925      New York        Boston
+2  2024-04-11    NBA      5.500000  ...   5.676400       Houston          Utah
+3  2024-04-11    NBA      1.814815  ...   5.298400  Golden State      Portland
+4  2024-04-11    NBA      9.600000  ...   5.281525   New Orleans    Sacramento
+5  2024-04-11    MLB     10.933333  ...   6.701500       NY Mets       Atlanta
+6  2024-04-11    MLB      9.066667  ...   4.673350       Houston   Kansas City
+7  2024-04-11    MLB      8.466667  ...   4.738150       Oakland         Texas
+8  2024-04-11    MLB     13.800000  ...   7.174000    Pittsburgh  Philadelphia
+9  2024-04-11    MLB      4.266667  ...   6.730750     Baltimore        Boston
 
-[11 rows x 7 columns]
+[10 rows x 7 columns]
