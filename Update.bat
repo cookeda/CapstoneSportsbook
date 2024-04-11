@@ -27,6 +27,3 @@ python merger.py
 ::eas update
 cd ../
 
-git add .
-git commit -a -m "4/10 Update"
-git push origin main
