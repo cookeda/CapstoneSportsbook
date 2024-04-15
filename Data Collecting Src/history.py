@@ -67,7 +67,7 @@ def getMatchups(soup, yesterday):
                                 'Away Score': away_score,
                                 'Home Team': home_team,
                                 'Home Score': home_score,
-                                'IsDoubleHeader': is_double_header  # New column to indicate second game of a double header
+                                'IsDoubleHeader': is_double_header  #to indicate second game of a double header
                             }
                             matchups_data.append(matchup_info)
                         else:
@@ -81,10 +81,69 @@ def getMatchups(soup, yesterday):
         print(matchups_df)
     else:
         print("No data was extracted.")
+    return matchups_df
+
+def save_to_csv(df, filename):
+    # Save DataFrame to a CSV, appending if it exists.
+    try:
+        df.to_csv(filename, mode='w', header=False, index=False)
+    except FileNotFoundError:
+        df.to_csv(filename, mode='w', header=True, index=False)
+
+def load_from_csv(file_path, column_names):
+    return pd.read_csv(file_path, header=None, names=column_names)
+
+def append_to_csv(file_path, data):
+    # Append data to a CSV file, creating the file if it does not exist
+    data.to_csv(file_path, mode='a', header=not pd.io.common.file_exists(file_path), index=False)
+
+# Takes all history and outputs data.
+# Will add most recent game matchups to history.
+def compare_and_update():
+    # Define column names based on CSV structure
+    predictions_columns = ['date', 'league', 'cover_rating', 'betting_advice', 'over_score', 'home_spread',
+                           'away_spread', 'total']
+    history_columns = ['date', 'league', 'away_team', 'away_team_score', 'home_team', 'home_team_score',
+                       'second_game_doubleheader']
+
+    # Load the data
+    predictions = load_from_csv("../OddsHistory/History/Predictions.csv", predictions_columns)
+    history = load_from_csv("../OddsHistory/History/MatchupHistory.csv", history_columns)
+
+    # Ensure that the 'date' and 'league' columns are of the same data type (string)
+    predictions['date'] = predictions['date'].astype(str)
+    predictions['league'] = predictions['league'].astype(str)
+    history['date'] = history['date'].astype(str)
+    history['league'] = history['league'].astype(str)
+
+    # Merge and compare data
+    comparison = pd.merge(predictions, history, on=['date', 'league'], how='inner')
+    comparison['cover_correct'] = False
+    comparison['total_correct'] = False
+
+    for index, row in comparison.iterrows():
+        predicted_spread = row['home_spread'] if row['betting_advice'] == row['home_team'] else row['away_spread']
+        actual_spread = row['home_team_score'] - row['away_team_score']
+        comparison.at[index, 'cover_correct'] = (actual_spread > predicted_spread and row['betting_advice'] == row[
+            'home_team']) or (actual_spread < predicted_spread and row['betting_advice'] == row['away_team'])
+
+        total_points = row['home_team_score'] + row['away_team_score']
+        comparison.at[index, 'total_correct'] = (row['over_score'] > 5 and total_points > row['total']) or (
+                    row['over_score'] < 5 and total_points < row['total'])
+
+    # Append results to the cumulative CSV
+    append_to_csv('../OddsHistory/History/CumulativeResults.csv',
+                  comparison[['date', 'league', 'betting_advice', 'cover_correct', 'total_correct']])
+
 
 def main():
-    yesterday = (dt.today() - timedelta(days=1)).strftime('%Y-%m-%d')
-    getMatchups(scrapeYesterday(yesterday), yesterday)
+    #yesterday = (dt.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+    # TESTING PURPOSES COMMENT OUT CODE BELOW
+    yesterday = dt.today().strftime('%Y-%m-%d')
+    df = getMatchups(scrapeYesterday(yesterday), yesterday)
+    save_to_csv(df, "../OddsHistory/History/MatchupHistory.csv")
+    compare_and_update()
 
 if __name__ == "__main__":
     main()
+
