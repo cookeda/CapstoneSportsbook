@@ -183,7 +183,10 @@ class Game:
             "matchup": f"{self.away_team} @ {self.home_team}",
             "over_score": over_rating,
             "game_rating": game_rating,
-            "betting_advice": betting_advice
+            "betting_advice": betting_advice,
+            "home_cover": self.home_spread,
+            "away_cover": self.away_spread,
+            "total": self.total
         }
 
 
@@ -233,7 +236,10 @@ def main():
                 'matchup': summary['matchup'],
                 'cover_rating': summary['game_rating'],
                 'betting_advice': summary['betting_advice'],
-                'over_score': summary['over_score']
+                'over_score': summary['over_score'],
+                'home_spread': summary['home_cover'],
+                'away_spread': summary['away_cover'],
+                'total': summary['total']
             }
 
             # Splitting 'matchup' into 'home_team' and 'away_team'
@@ -271,7 +277,7 @@ def game_list_to_dataframe(game_list):
 def save_to_csv(df, filename):
     # Save DataFrame to a CSV, appending if it exists.
     try:
-        df.to_csv(filename, mode='a', header=False, index=False)
+        df.to_csv(filename, mode='w', header=False, index=False)
     except FileNotFoundError:
         df.to_csv(filename, mode='w', header=True, index=False)
 
