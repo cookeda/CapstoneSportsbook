@@ -247,7 +247,7 @@ def scrape(matchup_num):
         {
             'BetTableId': bet_table_id,
             'Odds Table': {
-                'Book Name': 'DK',
+                'Book Name': book,
                 'Away Spread': away_spread_text, 
                 'Away Spread Odds': away_spread_odds_text,
                 'Away ML': (away_ml_text),
