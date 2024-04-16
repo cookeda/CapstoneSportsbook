@@ -4,6 +4,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from datetime import date as dt, timedelta
 from selenium.webdriver.chrome.options import Options
+import json
 
 def scrapeYesterday(yesterday):
     link = "https://plaintextsports.com/all/"
@@ -29,10 +30,14 @@ def getMatchups(soup, yesterday):
         league_name = league.get_text().strip()
         if league_name == "National Basketball Association":
             league_name = "NBA"
+            mapping_dict = load_team_mappings("../Dictionary/Pro/NBA.json")
         elif league_name == "Major League Baseball":
             league_name = "MLB"
+            mapping_dict = load_team_mappings("../Dictionary/Pro/MLB.json")
         elif league_name == "NCAA Men's Basketball":
+            # TODO MIGHT CAUSE PROBLEMS
             league_name = "CBB"
+            mapping_dict = load_team_mappings("../Dictionary/College/CBB.json")
 
         games = league.find_next_sibling('div', class_='flex flex-wrap justify-evenly')
         if games and league_name in ("NBA", "MLB", "CBB"):
@@ -60,12 +65,13 @@ def getMatchups(soup, yesterday):
                             else:
                                 matchup_tracker[matchup_id] = True  # Mark this matchup as seen
 
+
                             matchup_info = {
                                 'Date': yesterday,
                                 'League': league_name,
-                                'Away Team': away_team,
+                                'Away Team': get_city_name_from_abbreviation(away_team, mapping_dict),
                                 'Away Score': away_score,
-                                'Home Team': home_team,
+                                'Home Team': get_city_name_from_abbreviation(home_team, mapping_dict),
                                 'Home Score': home_score,
                                 'IsDoubleHeader': is_double_header  #to indicate second game of a double header
                             }
@@ -78,10 +84,10 @@ def getMatchups(soup, yesterday):
 
     matchups_df = pd.DataFrame(matchups_data)
     if not matchups_df.empty:
-        print(matchups_df)
+        return matchups_df
     else:
         print("No data was extracted.")
-    return matchups_df
+    return 0
 
 def save_to_csv(df, filename):
     # Save DataFrame to a CSV, appending if it exists.
@@ -97,12 +103,27 @@ def append_to_csv(file_path, data):
     # Append data to a CSV file, creating the file if it does not exist
     data.to_csv(file_path, mode='a', header=not pd.io.common.file_exists(file_path), index=False)
 
+
+def load_team_mappings(directory):
+    with open(directory, 'r') as file:
+        teams = json.load(file)
+    # Create a dictionary that maps the abbreviation to the full city name
+    abbreviation_to_city = {}
+    for team in teams:
+        espn_name = team["ESPNBet"]
+        abbreviation = espn_name.split()[0]  # Assuming abbreviation is always the first part
+        abbreviation_to_city[abbreviation] = team["Team Rankings Name"]
+    return abbreviation_to_city
+
+def get_city_name_from_abbreviation(abbreviation, mapping_dict):
+    return mapping_dict.get(abbreviation, abbreviation)  # Return "Unknown" if not found
+
 # Takes all history and outputs data.
 # Will add most recent game matchups to history.
 def compare_and_update():
     # Define column names based on CSV structure
     predictions_columns = ['date', 'league', 'cover_rating', 'betting_advice', 'over_score', 'home_spread',
-                           'away_spread', 'total']
+                           'away_spread', 'total', 'away_team', 'home_team']
     history_columns = ['date', 'league', 'away_team', 'away_team_score', 'home_team', 'home_team_score',
                        'second_game_doubleheader']
 
@@ -116,12 +137,31 @@ def compare_and_update():
     history['date'] = history['date'].astype(str)
     history['league'] = history['league'].astype(str)
 
+    print("Unique Teams in Predictions:", sorted(predictions['away_team'].unique()),
+          sorted(predictions['home_team'].unique()))
+    print("Unique Teams in History:", sorted(history['away_team'].unique()), sorted(history['home_team'].unique()))
+
     # Merge and compare data
-    comparison = pd.merge(predictions, history, on=['date', 'league'], how='inner')
+    comparison = pd.merge(predictions, history, on=['date', 'league', 'away_team', 'home_team'], how='left')
     comparison['cover_correct'] = False
     comparison['total_correct'] = False
 
+
     for index, row in comparison.iterrows():
+        '''
+        home_favor = None
+        if row['home_team'] == row['betting_advice']:
+            home_favor = True
+        else:
+            home_favor = False
+        actual_home_spread = row['home_team_score'] - row['away_team_score']
+        if (row['home_spread'] + actual_home_spread > 0) and (home_favor is True):
+            comparison.at[index, 'cover_correct'] = True
+        elif (row['away_spread'] + actual_home_spread > 0 and home_favor is False):
+            comparison.at[index, 'cover_correct'] = True
+        else:
+            comparison.at[index, 'cover_correct'] = "Error"
+        '''
         predicted_spread = row['home_spread'] if row['betting_advice'] == row['home_team'] else row['away_spread']
         actual_spread = row['home_team_score'] - row['away_team_score']
         comparison.at[index, 'cover_correct'] = (actual_spread > predicted_spread and row['betting_advice'] == row[
@@ -137,9 +177,9 @@ def compare_and_update():
 
 
 def main():
-    #yesterday = (dt.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+    yesterday = (dt.today() - timedelta(days=1)).strftime('%Y-%m-%d')
     # TESTING PURPOSES COMMENT OUT CODE BELOW
-    yesterday = dt.today().strftime('%Y-%m-%d')
+    #yesterday = dt.today().strftime('%Y-%m-%d')
     df = getMatchups(scrapeYesterday(yesterday), yesterday)
     save_to_csv(df, "../OddsHistory/History/MatchupHistory.csv")
     compare_and_update()
