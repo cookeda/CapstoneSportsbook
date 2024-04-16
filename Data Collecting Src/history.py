@@ -22,7 +22,6 @@ def scrapeYesterday(yesterday):
 
 def getMatchups(soup, yesterday):
     leagues = soup.find_all('div', class_='text-center font-bold')
-
     matchups_data = []
     matchup_tracker = {}  # To track matchups and identify double headers
 
@@ -110,9 +109,8 @@ def load_team_mappings(directory):
     # Create a dictionary that maps the abbreviation to the full city name
     abbreviation_to_city = {}
     for team in teams:
-        espn_name = team["ESPNBet"]
-        abbreviation = espn_name.split()[0]  # Assuming abbreviation is always the first part
-        abbreviation_to_city[abbreviation] = team["Team Rankings Name"]
+        plaintext = team["PlainText"]
+        abbreviation_to_city[plaintext] = team["Team Rankings Name"]
     return abbreviation_to_city
 
 def get_city_name_from_abbreviation(abbreviation, mapping_dict):
@@ -137,9 +135,9 @@ def compare_and_update():
     history['date'] = history['date'].astype(str)
     history['league'] = history['league'].astype(str)
 
-    print("Unique Teams in Predictions:", sorted(predictions['away_team'].unique()),
-          sorted(predictions['home_team'].unique()))
-    print("Unique Teams in History:", sorted(history['away_team'].unique()), sorted(history['home_team'].unique()))
+    #print("Unique Teams in Predictions:", sorted(predictions['away_team'].unique()),
+    #      sorted(predictions['home_team'].unique()))
+    #print("Unique Teams in History:", sorted(history['away_team'].unique()), sorted(history['home_team'].unique()))
 
     # Merge and compare data
     comparison = pd.merge(predictions, history, on=['date', 'league', 'away_team', 'home_team'], how='left')
@@ -148,20 +146,6 @@ def compare_and_update():
 
 
     for index, row in comparison.iterrows():
-        '''
-        home_favor = None
-        if row['home_team'] == row['betting_advice']:
-            home_favor = True
-        else:
-            home_favor = False
-        actual_home_spread = row['home_team_score'] - row['away_team_score']
-        if (row['home_spread'] + actual_home_spread > 0) and (home_favor is True):
-            comparison.at[index, 'cover_correct'] = True
-        elif (row['away_spread'] + actual_home_spread > 0 and home_favor is False):
-            comparison.at[index, 'cover_correct'] = True
-        else:
-            comparison.at[index, 'cover_correct'] = "Error"
-        '''
         predicted_spread = row['home_spread'] if row['betting_advice'] == row['home_team'] else row['away_spread']
         actual_spread = row['home_team_score'] - row['away_team_score']
         comparison.at[index, 'cover_correct'] = (actual_spread > predicted_spread and row['betting_advice'] == row[
@@ -173,7 +157,7 @@ def compare_and_update():
 
     # Append results to the cumulative CSV
     append_to_csv('../OddsHistory/History/CumulativeResults.csv',
-                  comparison[['date', 'league', 'betting_advice', 'cover_correct', 'total_correct']])
+                  comparison[['date', 'league', 'betting_advice', 'cover_correct', 'cover_rating', 'total_correct', 'over_score']])
 
 
 def main():
@@ -185,5 +169,12 @@ def main():
     compare_and_update()
 
 if __name__ == "__main__":
-    main()
+    yesterday = (dt.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+    comparison_columns = ['date', 'league', 'betting_advice', 'cover_true', 'cover_rating', 'over_true', 'over_rating']
+    comparison_csv = load_from_csv("../OddsHistory/History/CumulativeResults.csv", comparison_columns)
+    for index, row in comparison_csv.iterrows():
+        if yesterday not in comparison_csv.at[index, "date"]:
+            main()
+        else:
+            print("ALREADY RAN TODAY. DID NOT RUN")
 
