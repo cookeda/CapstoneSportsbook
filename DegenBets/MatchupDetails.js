@@ -5,12 +5,13 @@ import oddsData from './Data/master/odds.json';  // Ensure correct path
 
 const MatchupDetails = () => {
   const route = useRoute();
-  const { matchId, homeTeam, awayTeam, over_score, cover_rating, team_to_cover} = route.params; // Retrieve matchId passed via navigation
+  const { matchId, homeTeam, awayTeam, over_score, cover_rating, team_to_cover, time} = route.params; // Retrieve matchId passed via navigation
 
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>{awayTeam} @ {homeTeam} </Text>
-      <Text style={styles.subtitle}>Over Rating: {over_score}, Cover Rating: {cover_rating}, Cover Team: {team_to_cover} </Text>
+      <Text style={styles.subtitle}>Time: {time}</Text>
+      <Text style={styles.subtitle2}>O/U: {over_score}, Cover: {team_to_cover} {cover_rating}</Text>
       <View style={styles.tableHeader}>
         <Text style={styles.headerItem}>Book Name</Text>
         <Text style={styles.headerItem}>Away Spread</Text>
@@ -55,6 +56,13 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '600',
     marginBottom: 12,
+    color: '#2a2a2a', // Refined text color for high contrast
+    textAlign: 'center', // Centering title for better balance
+  },
+  subtitle2:{
+    fontSize: 14,
+    fontWeight: '600',
+    marginBottom: 6,
     color: '#2a2a2a', // Refined text color for high contrast
     textAlign: 'center', // Centering title for better balance
   },

@@ -35,17 +35,19 @@ const MatchupStats = () => {
                         over_score: matchupDetails['over_score'],
                         cover_rating: matchupDetails['cover_rating'],
                         team_to_cover: matchupDetails['team_to_cover'],
+                        time: matchupDetails['Time']
                     })}
                     style={[styles.matchupContainer, {backgroundColor: theme === 'dark' ? '#555' : '#ccc'}]}
                 >
-                    <Text style={[styles.teamText, {color: theme === 'dark' ? '#FFF' : '#000'}]}>Match ID: {matchId}</Text>
+                    {/* <Text style={[styles.teamText, {color: theme === 'dark' ? '#FFF' : '#000'}]}>Match ID: {matchId}</Text> */}
                     <Text style={[styles.containerTitle, {color: theme === 'dark' ? '#FFF' : '#000'}]}>{matchupDetails['Away Team']} @ {matchupDetails['Home Team']}</Text>
                     <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Home Spread: {matchupDetails['Home Spread']}</Text>
                     <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Away Spread: {matchupDetails['Away Spread']}</Text>
                     <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Total Points: {matchupDetails['Total Points']}</Text> 
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Cover Rating: {matchupDetails['cover_rating']}</Text>
+                    {/* <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Cover Rating: {matchupDetails['cover_rating']}</Text>
                     <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Team to Cover: {matchupDetails['team_to_cover']}</Text>
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Total Rating: {matchupDetails['over_score']}</Text>
+                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Total Rating: {matchupDetails['over_score']}</Text> */}
+                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Time: {matchupDetails['Time']}</Text>
                 </TouchableOpacity>
             ))}
         </ScrollView>
