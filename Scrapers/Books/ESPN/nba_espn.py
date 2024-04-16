@@ -20,7 +20,7 @@ import json
 league = 'NBA'
 book = 'ESPN'
 
-with open('../../../Dictionary/Pro/NBA.json', 'r') as file:
+with open('../../../Dictionary/Pro/NBA.json', 'r', encoding='utf-8') as file:
     team_mappings = json.load(file)
 
 def encode_bet_table_id(matchup_id, book_name):
@@ -202,8 +202,6 @@ def scrape(matchup_num):
     home_team_rank_name = find_team_rank_name(home_team_text)  # Name from team rankings.com
     away_team_id = find_team_id(away_team_text)  # Team ID for away team
     home_team_id = find_team_id(home_team_text)  # Team ID for home team
-
-    # Generate unique identifiers for the matchup and the betting table
     matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
     bet_table_id = encode_bet_table_id(matchup_id, book)
     
@@ -212,7 +210,7 @@ def scrape(matchup_num):
         {
             'BetTableId': bet_table_id,
             'Odds Table': {
-                'Book Name': 'DK',
+                'Book Name': book,
                 'Away Spread': away_spread_text, 
                 'Away Spread Odds': away_spread_odds_text,
                 'Away ML': away_ml_text,

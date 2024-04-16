@@ -22,7 +22,7 @@ import json
 league = 'MLB'
 book = 'ESPN'
 
-with open('../../../Dictionary/College/CBB.json', 'r', encoding='utf-8') as file:
+with open('../../../Dictionary/Pro/MLB.json', 'r', encoding='utf-8') as file:
     team_mappings = json.load(file)
 
 def encode_bet_table_id(matchup_id, book_name):
@@ -214,7 +214,7 @@ def scrape(matchup_num):
         {
             'BetTableId': bet_table_id,
             'Odds Table': {
-                'Book Name': 'DK',
+                'Book Name': book,
                 'Away Spread': away_spread_text, 
                 'Away Spread Odds': away_spread_odds_text,
                 'Away ML': away_ml_text,
