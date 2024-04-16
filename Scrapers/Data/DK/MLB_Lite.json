@@ -2,6 +2,7 @@
     "e841daaf_18a9d733_MLB": {
         "Home Team": "Detroit",
         "Away Team": "Texas",
+<<<<<<< HEAD
         "Home Spread": "-999",
         "Home Spread Odds": "-999",
         "Away Spread": "-999",
@@ -9,6 +10,15 @@
         "Total Points": "9",
         "Over Odds": "-999",
         "Under Odds": "-999"
+=======
+        "Home Spread": "+1.5",
+        "Home Spread Odds": "−162",
+        "Away Spread": "-1.5",
+        "Away Spread Odds": "+136",
+        "Total Points": "8",
+        "Over Odds": "−115",
+        "Under Odds": "−105"
+>>>>>>> 97c184a4dd5b88020bbc7710852e3ac9bdf61d13
     },
     "f5328492_e8bdce10_MLB": {
         "Home Team": "Baltimore",
@@ -40,8 +50,13 @@
         "Away Spread": "-1.5",
         "Away Spread Odds": "+124",
         "Total Points": "8.5",
+<<<<<<< HEAD
         "Over Odds": "−115",
         "Under Odds": "−105"
+=======
+        "Over Odds": "−110",
+        "Under Odds": "−110"
+>>>>>>> 97c184a4dd5b88020bbc7710852e3ac9bdf61d13
     },
     "fe8acdeb_16f4bf06_MLB": {
         "Home Team": "Tampa Bay",
@@ -79,10 +94,17 @@
     "9666114b_c625b23e_MLB": {
         "Home Team": "NY Mets",
         "Away Team": "Pittsburgh",
+<<<<<<< HEAD
         "Home Spread": "+1.5",
         "Home Spread Odds": "-999",
         "Away Spread": "-1.5",
         "Away Spread Odds": "+160",
+=======
+        "Home Spread": "-1.5",
+        "Home Spread Odds": "−162",
+        "Away Spread": "+1.5",
+        "Away Spread Odds": "−205",
+>>>>>>> 97c184a4dd5b88020bbc7710852e3ac9bdf61d13
         "Total Points": "7.5",
         "Over Odds": "+100",
         "Under Odds": "−120"
@@ -153,6 +175,20 @@
         "Over Odds": "−115",
         "Under Odds": "−105"
     },
+<<<<<<< HEAD
+=======
+    "fdd0d44c_300faa7b_MLB": {
+        "Home Team": "Seattle",
+        "Away Team": "Cincinnati",
+        "Home Spread": "-1.5",
+        "Home Spread Odds": "−162",
+        "Away Spread": "+1.5",
+        "Away Spread Odds": "−198",
+        "Total Points": "7",
+        "Over Odds": "−102",
+        "Under Odds": "−118"
+    },
+>>>>>>> 97c184a4dd5b88020bbc7710852e3ac9bdf61d13
     "dd4357ee_4e2f3aa1_MLB": {
         "Home Team": "LA Dodgers",
         "Away Team": "Washington",
@@ -161,7 +197,12 @@
         "Away Spread": "+1.5",
         "Away Spread Odds": "+120",
         "Total Points": "9.5",
+<<<<<<< HEAD
         "Over Odds": "−102",
         "Under Odds": "−118"
+=======
+        "Over Odds": "+100",
+        "Under Odds": "−120"
+>>>>>>> 97c184a4dd5b88020bbc7710852e3ac9bdf61d13
     }
 }
