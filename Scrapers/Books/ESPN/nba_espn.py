@@ -217,7 +217,7 @@ def scrape(matchup_num):
                 'Home Spread': home_spread_text, 
                 'Home Spread Odds': home_spread_odds_text,
                 'Home ML': home_ml_text,
-                'Total': total_text[3:],  # Remove the 'O/U' prefix from the total points text
+                'Total': total_text[2:],  # Remove the 'O/U' prefix from the total points text
                 'Over Total Odds': over_total_odds_text, 
                 'Under Total Odds': under_total_odds_text,
             },

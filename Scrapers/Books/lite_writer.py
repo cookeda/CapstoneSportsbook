@@ -37,6 +37,7 @@ def extract_relevant_data(file_path):
                 'Total Points': odds_info['Total'],
                 'Over Odds': odds_info['Over Total Odds'],
                 'Under Odds' : odds_info['Under Total Odds'],
+                'Time': matchup_info['Start Time'],
             }
     return reformatted_games
 
