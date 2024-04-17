@@ -27,16 +27,19 @@ def getMatchups(soup, yesterday):
 
     for league in leagues:
         league_name = league.get_text().strip()
+        mapping_dict = None
         if league_name == "National Basketball Association":
             league_name = "NBA"
             mapping_dict = load_team_mappings("../Dictionary/Pro/NBA.json")
+            regex_pattern = r"([A-Za-z ]+)\s+(\d+)"
         elif league_name == "Major League Baseball":
             league_name = "MLB"
             mapping_dict = load_team_mappings("../Dictionary/Pro/MLB.json")
+            regex_pattern = r"([A-Z]+)(\d+)"
         elif league_name == "NCAA Men's Basketball":
-            # TODO MIGHT CAUSE PROBLEMS
             league_name = "CBB"
             mapping_dict = load_team_mappings("../Dictionary/College/CBB.json")
+            regex_pattern = r"([A-Za-z ]+)\s+(\d+)"
 
         games = league.find_next_sibling('div', class_='flex flex-wrap justify-evenly')
         if games and league_name in ("NBA", "MLB", "CBB"):
@@ -47,23 +50,19 @@ def getMatchups(soup, yesterday):
 
                 if len(teams_scores) >= 3:  # Checks for the 'Final' marker and two teams
                     try:
-                        away_team_score_match = re.search(r"(.+?)\s+(\d+)$", teams_scores[1])
-                        home_team_score_match = re.search(r"(.+?)\s+(\d+)$", teams_scores[2])
+                        away_team_score_match = re.search(regex_pattern, teams_scores[1])
+                        home_team_score_match = re.search(regex_pattern, teams_scores[2])
 
                         if away_team_score_match and home_team_score_match:
                             away_team, away_score = away_team_score_match.groups()
                             home_team, home_score = home_team_score_match.groups()
 
-                            # Formulate a unique identifier for each matchup based on the teams
+                            away_team = away_team.strip()  # Ensuring no leading/trailing spaces
+                            home_team = home_team.strip()  # Ensuring no leading/trailing spaces
+
                             matchup_id = f"{away_team} vs {home_team}"
-
-                            is_double_header = False
-                            if matchup_id in matchup_tracker:
-                                # If this matchup has occurred before today, mark this as the second game
-                                is_double_header = True
-                            else:
-                                matchup_tracker[matchup_id] = True  # Mark this matchup as seen
-
+                            is_double_header = matchup_id in matchup_tracker
+                            matchup_tracker[matchup_id] = True
 
                             matchup_info = {
                                 'Date': yesterday,
@@ -72,7 +71,7 @@ def getMatchups(soup, yesterday):
                                 'Away Score': away_score,
                                 'Home Team': get_city_name_from_abbreviation(home_team, mapping_dict),
                                 'Home Score': home_score,
-                                'IsDoubleHeader': is_double_header  #to indicate second game of a double header
+                                'IsDoubleHeader': is_double_header
                             }
                             matchups_data.append(matchup_info)
                         else:
@@ -86,7 +85,7 @@ def getMatchups(soup, yesterday):
         return matchups_df
     else:
         print("No data was extracted.")
-    return 0
+    return None
 
 def save_to_csv(df, filename):
     # Save DataFrame to a CSV, appending if it exists.
@@ -162,19 +161,17 @@ def compare_and_update():
 
 def main():
     yesterday = (dt.today() - timedelta(days=1)).strftime('%Y-%m-%d')
-    # TESTING PURPOSES COMMENT OUT CODE BELOW
-    #yesterday = dt.today().strftime('%Y-%m-%d')
-    df = getMatchups(scrapeYesterday(yesterday), yesterday)
-    save_to_csv(df, "../OddsHistory/History/MatchupHistory.csv")
-    compare_and_update()
+    comparison_columns = ['date', 'league', 'betting_advice', 'cover_correct', 'cover_rating', 'total_correct', 'over_score']
+    comparison_csv = load_from_csv("../OddsHistory/History/CumulativeResults.csv", comparison_columns)
+
+    # Check if yesterday's data already exists
+    if not comparison_csv['date'].str.contains(yesterday).any():
+        df = getMatchups(scrapeYesterday(yesterday), yesterday)
+        save_to_csv(df, "../OddsHistory/History/MatchupHistory.csv")
+        compare_and_update()
+    else:
+        print("ALREADY RAN TODAY. DID NOT RUN")
 
 if __name__ == "__main__":
-    yesterday = (dt.today() - timedelta(days=1)).strftime('%Y-%m-%d')
-    comparison_columns = ['date', 'league', 'betting_advice', 'cover_true', 'cover_rating', 'over_true', 'over_rating']
-    comparison_csv = load_from_csv("../OddsHistory/History/CumulativeResults.csv", comparison_columns)
-    for index, row in comparison_csv.iterrows():
-        if yesterday not in comparison_csv.at[index, "date"]:
-            main()
-        else:
-            print("ALREADY RAN TODAY. DID NOT RUN")
+    main()
 
