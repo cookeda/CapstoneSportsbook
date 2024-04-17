@@ -23,7 +23,7 @@
 {"Team": "Philadelphia", "Cover %": "51.9%"} -0.9
 {"Team": "Phoenix", "Cover %": "50.8%"} -0.9
 {"Team": "Portland", "Cover %": "49.1%"} -0.9
-{"Team": "Sacramento", "Cover %": "50.2%"} -2.5
+{"Team": "Sacramento", "Cover %": "50.3%"} -2.5
 {"Team": "San Antonio", "Cover %": "51.2%"} 1.8
 {"Team": "Toronto", "Cover %": "50.5%"} 2.5
 {"Team": "Utah", "Cover %": "50.8%"} 1.5
