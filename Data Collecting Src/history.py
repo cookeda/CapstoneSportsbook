@@ -35,7 +35,7 @@ def getMatchups(soup, yesterday):
         elif league_name == "Major League Baseball":
             league_name = "MLB"
             mapping_dict = load_team_mappings("../Dictionary/Pro/MLB.json")
-            regex_pattern = r"([A-Z]+)(\d+)"
+            regex_pattern = r"([A-Z]+)\s*(\d+)(?:/\d+)?(?:\s+[A-Z]+)?\s*$"
         elif league_name == "NCAA Men's Basketball":
             league_name = "CBB"
             mapping_dict = load_team_mappings("../Dictionary/College/CBB.json")
