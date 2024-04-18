@@ -29,6 +29,7 @@ python game.py > ../Results/game_results.txt
 
 cd ../Results
 python summary.py
+cd ../
 
 
 :: Capture end time
