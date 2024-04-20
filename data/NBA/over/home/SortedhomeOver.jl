@@ -13,10 +13,10 @@
 {"Team": "LA Clippers", "Over %": "45.0%"} 55.0%
 {"Team": "LA Lakers", "Over %": "52.5%"} 47.5%
 {"Team": "Memphis", "Over %": "35.0%"} 65.0%
-{"Team": "Miami", "Over %": "51.2%"} 48.8%
+{"Team": "Miami", "Over %": "50.0%"} 50.0%
 {"Team": "Milwaukee", "Over %": "56.1%"} 43.9%
 {"Team": "Minnesota", "Over %": "45.0%"} 55.0%
-{"Team": "New Orleans", "Over %": "48.8%"} 51.2%
+{"Team": "New Orleans", "Over %": "47.6%"} 52.4%
 {"Team": "New York", "Over %": "36.6%"} 63.4%
 {"Team": "Okla City", "Over %": "51.3%"} 48.7%
 {"Team": "Orlando", "Over %": "37.5%"} 62.5%
