@@ -2,7 +2,7 @@
 {"Team": "Boston", "Over %": "51.2%"} 48.8%
 {"Team": "Brooklyn", "Over %": "48.7%"} 51.3%
 {"Team": "Charlotte", "Over %": "51.2%"} 48.8%
-{"Team": "Chicago", "Over %": "60.0%"} 40.0%
+{"Team": "Chicago", "Over %": "58.5%"} 41.5%
 {"Team": "Cleveland", "Over %": "41.5%"} 58.5%
 {"Team": "Dallas", "Over %": "50.0%"} 50.0%
 {"Team": "Denver", "Over %": "39.0%"} 61.0%
@@ -23,7 +23,7 @@
 {"Team": "Philadelphia", "Over %": "53.7%"} 46.3%
 {"Team": "Phoenix", "Over %": "46.3%"} 53.7%
 {"Team": "Portland", "Over %": "48.8%"} 51.2%
-{"Team": "Sacramento", "Over %": "35.9%"} 64.1%
+{"Team": "Sacramento", "Over %": "35.0%"} 65.0%
 {"Team": "San Antonio", "Over %": "43.6%"} 56.4%
 {"Team": "Toronto", "Over %": "62.5%"} 37.5%
 {"Team": "Utah", "Over %": "56.1%"} 43.9%
