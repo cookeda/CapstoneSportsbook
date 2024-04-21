@@ -108,7 +108,6 @@ def main():
     cleanfile(direct + "/over/homeOver.jl")
     cleanfile(direct + "/cover/awayCover.jl")
     cleanfile(direct + "/over/awayOver.jl")
-    # NEW
     cleanfile(direct + "/over/PointAverages.jl")
 
     tasks = [

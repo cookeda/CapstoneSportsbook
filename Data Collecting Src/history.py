@@ -151,8 +151,11 @@ def compare_and_update():
             'home_team']) or (actual_spread < predicted_spread and row['betting_advice'] == row['away_team'])
 
         total_points = row['home_team_score'] + row['away_team_score']
-        comparison.at[index, 'total_correct'] = (row['over_score'] > 6 and total_points > row['total']) or (
-                    row['over_score'] <= 6 and total_points < row['total'])
+
+        comparison_value = 6 if row['league'] == 'mlb' else 5
+        comparison.at[index, 'total_correct'] = (row['over_score'] > comparison_value and total_points > row[
+            'total']) or \
+                                                (row['over_score'] <= comparison_value and total_points < row['total'])
 
     # Append results to the cumulative CSV
     append_to_csv('../OddsHistory/History/CumulativeResults.csv',
