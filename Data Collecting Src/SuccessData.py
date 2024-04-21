@@ -52,11 +52,11 @@ def get_splits_by_league(league, results_df):
 
     # For Totals
     # For Over
-    rating = 5.5
-    ceiling = 6
+    rating = 6
+    ceiling = 6.5
     while rating < 10:
         # Ensure filtering is based on the filtered_df, not results_df
-        filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] >= rating) & (results_df['cover_rating'] <= ceiling)]
+        filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] > rating) & (results_df['cover_rating'] <= ceiling)]
         over_counts = filtered_df['over_true'].value_counts()
         true_count = over_counts.get(True, 0)
         false_count = over_counts.get(False, 0)
