@@ -36,44 +36,50 @@ def get_total_by_league(league, results_df):
 # Splits up record by confidence rating to show ranges and record
 def get_splits_by_league(league, results_df):
     # For Cover
-    rating = 3
+    rating = 0
+    ceiling = 3
     while rating < 15:
         # Ensure filtering is based on the filtered_df, not results_df
-        filtered_df = results_df[(results_df['league'] == league) & (results_df['cover_rating'] >= rating)]
+        filtered_df = results_df[(results_df['league'] == league) & (results_df['cover_rating'] >= rating) & (results_df['cover_rating'] <= ceiling)]
         cover_counts = filtered_df['cover_true'].value_counts()
         true_count = cover_counts.get(True, 0)
         false_count = cover_counts.get(False, 0)
         if true_count != 0 or false_count != 0:
-            print("Cover Record For in range: " + str(rating) + " to 15.")
+            print("Cover Record For in range: " + str(rating) + " to " + str(ceiling) + ".")
             print(str(true_count) + "-" + str(false_count) + "\n")
         rating += 3
+        ceiling += 3
 
     # For Totals
     # For Over
-    rating = 5
+    rating = 5.5
+    ceiling = 6
     while rating < 10:
         # Ensure filtering is based on the filtered_df, not results_df
-        filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] >= rating)]
+        filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] >= rating) & (results_df['cover_rating'] <= ceiling)]
         over_counts = filtered_df['over_true'].value_counts()
         true_count = over_counts.get(True, 0)
         false_count = over_counts.get(False, 0)
         if true_count != 0 or false_count != 0:
-            print("Over Record For in range: " + str(rating) + " to 10.")
+            print("Over Record For in range: " + str(rating) + " to " + str(ceiling) + ".")
             print(str(true_count) + "-" + str(false_count) + "\n")
         rating += .5
+        ceiling += .5
 
     # For Under
-    rating = 5
+    rating = 6
+    floor = 5.5
     while rating >= 0:
         # Ensure filtering is based on the filtered_df, not results_df
-        filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] <= rating)]
+        filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] <= rating) & (results_df['over_rating'] >= floor)]
         over_counts = filtered_df['over_true'].value_counts()
         true_count = over_counts.get(True, 0)
         false_count = over_counts.get(False, 0)
         if true_count != 0 or false_count != 0:
-            print("Under Record For in range 0 to " + str(rating))
+            print("Under Record For in range " + str(floor) + " to " + str(rating))
             print(str(true_count) + "-" + str(false_count) + "\n")
         rating -= .5
+        floor -= .5
 
 # Gets total DegenBets Record
 def get_overall_record(results_df):
@@ -86,6 +92,16 @@ def get_overall_record(results_df):
     print("DegenBets record since 4/15/2024: ")
     print(str(true_count) + "-" + str(false_count) + "\n")
 
+
+def get_daily_data(results_df):
+    daily_cover = results_df.groupby('date')['cover_true'].value_counts().unstack(fill_value=0)
+    daily_over = results_df.groupby('date')['over_true'].value_counts().unstack(fill_value=0)
+    daily_data = daily_cover.add(daily_over, fill_value=0)
+
+    for date in daily_data.index:
+        true_count = daily_data.loc[date, True]
+        false_count = daily_data.loc[date, False]
+        print(f"{date}: {int(true_count)} - {int(false_count)}")
 
 # Calls load
 # Gets League data and overall data
@@ -100,6 +116,7 @@ def main():
     get_league_data("NBA", results_df)
     print("-------------------------\nOVERALL DATA")
     get_overall_record(results_df)
+    get_daily_data(results_df)
     print("-------------------------")
 
 # Runs Main
