@@ -52,8 +52,12 @@ def get_splits_by_league(league, results_df):
 
     # For Totals
     # For Over
-    rating = 6
-    ceiling = 6.5
+    if league == 'MLB':
+        rating = 6
+        ceiling = 6.5
+    else:
+        rating = 5
+        ceiling = 5.5
     while rating < 10:
         # Ensure filtering is based on the filtered_df, not results_df
         filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] > rating) & (results_df['cover_rating'] <= ceiling)]
@@ -67,8 +71,12 @@ def get_splits_by_league(league, results_df):
         ceiling += .5
 
     # For Under
-    rating = 6
-    floor = 5.5
+    if league == 'MLB':
+        rating = 6
+        floor = 5.5
+    else:
+        rating = 5
+        floor = 4.5
     while rating >= 0:
         # Ensure filtering is based on the filtered_df, not results_df
         filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] <= rating) & (results_df['over_rating'] >= floor)]
