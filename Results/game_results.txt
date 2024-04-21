@@ -8,10 +8,10 @@ New Orleans @ Okla City (NBA): Cover Rating - 1.8, Over Score - 5.3
 Bet on Okla City to cover the spread.
 Chi Sox @ Philadelphia (MLB): Cover Rating - 6.5, Over Score - 5.1
 Bet on Philadelphia to cover the spread.
-Houston @ Washington (MLB): Cover Rating - 9.9, Over Score - 4.7
-Bet on Washington to cover the spread.
 Tampa Bay @ NY Yankees (MLB): Cover Rating - 4.7, Over Score - 4.5
 Bet on Tampa Bay to cover the spread.
+Houston @ Washington (MLB): Cover Rating - 11.9, Over Score - 3.7
+Bet on Washington to cover the spread.
 Boston @ Pittsburgh (MLB): Cover Rating - 8.3, Over Score - 5.4
 Bet on Boston to cover the spread.
 Oakland @ Cleveland (MLB): Cover Rating - 0.7, Over Score - 5.1
@@ -39,7 +39,7 @@ Bet on Texas to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 Baltimore @ Kansas City (MLB): Cover Rating - 12.5, Bet on Kansas City to cover the spread.
-Houston @ Washington (MLB): Cover Rating - 9.9, Bet on Washington to cover the spread.
+Houston @ Washington (MLB): Cover Rating - 11.9, Bet on Washington to cover the spread.
 Milwaukee @ St. Louis (MLB): Cover Rating - 8.8, Bet on Milwaukee to cover the spread.
 Boston @ Pittsburgh (MLB): Cover Rating - 8.3, Bet on Boston to cover the spread.
 Detroit @ Minnesota (MLB): Cover Rating - 6.9, Bet on Detroit to cover the spread.
@@ -75,17 +75,17 @@ Miami @ Boston (NBA): Over Score - 5.2
 Chi Sox @ Philadelphia (MLB): Over Score - 5.1
 Oakland @ Cleveland (MLB): Over Score - 5.1
 Detroit @ Minnesota (MLB): Over Score - 4.9
-Houston @ Washington (MLB): Over Score - 4.7
 Seattle @ Colorado (MLB): Over Score - 4.6
 Tampa Bay @ NY Yankees (MLB): Over Score - 4.5
+Houston @ Washington (MLB): Over Score - 3.7
           date league  cover_rating  ...  total    home_team     away_team
 0   2024-04-21    NBA      4.021429  ...  209.0        Miami        Boston
 1   2024-04-21    NBA      0.266667  ...  222.5       Dallas   LA Clippers
 2   2024-04-21    NBA      6.700000  ...  231.5      Indiana     Milwaukee
 3   2024-04-21    NBA      1.764706  ...  215.5  New Orleans     Okla City
 4   2024-04-21    MLB      6.466667  ...    7.5      Chi Sox  Philadelphia
-5   2024-04-21    MLB      9.933333  ...    9.0      Houston    Washington
-6   2024-04-21    MLB      4.666667  ...    8.5    Tampa Bay    NY Yankees
+5   2024-04-21    MLB      4.666667  ...    8.0    Tampa Bay    NY Yankees
+6   2024-04-21    MLB     11.933333  ...    9.0      Houston    Washington
 7   2024-04-21    MLB      8.266667  ...    8.0       Boston    Pittsburgh
 8   2024-04-21    MLB      0.733333  ...    7.5      Oakland     Cleveland
 9   2024-04-21    MLB      6.066667  ...    9.0    LA Angels    Cincinnati
@@ -94,7 +94,7 @@ Tampa Bay @ NY Yankees (MLB): Over Score - 4.5
 12  2024-04-21    MLB      8.800000  ...    7.5    Milwaukee     St. Louis
 13  2024-04-21    MLB      2.400000  ...    8.5        Miami      Chi Cubs
 14  2024-04-21    MLB      3.533333  ...   11.0      Seattle      Colorado
-15  2024-04-21    MLB      2.000000  ...    7.5      Arizona     SF Giants
+15  2024-04-21    MLB      2.000000  ...    8.0      Arizona     SF Giants
 16  2024-04-21    MLB      3.000000  ...    9.0      NY Mets    LA Dodgers
 17  2024-04-21    MLB      6.266667  ...    8.0      Toronto     San Diego
 18  2024-04-21    MLB      6.466667  ...   10.0        Texas       Atlanta
