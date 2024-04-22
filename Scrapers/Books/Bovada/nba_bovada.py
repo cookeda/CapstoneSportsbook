@@ -13,10 +13,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import undetected_chromedriver as uc
 
-league = 'MLB'
+league = 'NBA'
 book = 'Bovada'
 
-with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
+with open('../../../Dictionary/Pro/NBA.json', 'r') as file:
     team_mappings = json.load(file)
 
 def encode_bet_table_id(matchup_id, book_name):
@@ -253,7 +253,7 @@ options.headless = True
 options.add_argument('--no-sandbox')
 driver = uc.Chrome(options=options)
 
-driver.get("https://www.bovada.lv/sports/baseball/mlb")
+driver.get("https://www.bovada.lv/sports/basketball/nba")
 time.sleep(2)  # Allow some time for the page to load JavaScript content
 
 data_file_path = '../games_count.json'
@@ -261,7 +261,7 @@ lock_file_path = '../games_count.lock'
 lock = fasteners.InterProcessLock(lock_file_path)
 
 
-number_of_games = read_games_count('MLB')
+number_of_games = read_games_count('NBA')
 
 #Find number of games
 number_of_games = 0
@@ -287,5 +287,5 @@ try:
         json.dump(all_matchups, fp, indent=4)
 except Exception as e:
     print(f"Error writing to file: {e}")
-
+    
 driver.quit()

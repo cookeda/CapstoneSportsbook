@@ -21,7 +21,8 @@ def reformat_data(input_filename, output_filename):
             "BetMGM": item["BetMGM"],  
             "TeamID": item["TeamID"],
             "PlainText":item["PlainText"],
-            "FullName": item["Team Rankings Name"]
+            "Bovada": item["FullName"],
+            "Full Name": item["FullName"]
         }
         reformatted_data.append(new_item)
 
@@ -31,4 +32,4 @@ def reformat_data(input_filename, output_filename):
 
 # Replace 'input.json' with the path to your actual input file and
 # 'output.json' with your desired output file name.
-reformat_data('../Pro/NBA.json', 'NBA.json')
+reformat_data('../Pro/MLB.json', 'MLB.json')
