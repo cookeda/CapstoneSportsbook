@@ -212,14 +212,14 @@ def scrape(matchup_num):
             'Odds Table': {
                 'Book Name': book,
                 'Away Spread': away_spread_text, 
-                'Away Spread Odds': away_spread_odds_text,
-                'Away ML': away_ml_text,
+                'Away Spread Odds': check_even(away_spread_odds_text),
+                'Away ML': check_even(away_ml_text),
                 'Home Spread': home_spread_text, 
-                'Home Spread Odds': home_spread_odds_text,
-                'Home ML': home_ml_text,
+                'Home Spread Odds': check_even(home_spread_odds_text),
+                'Home ML': check_even(home_ml_text),
                 'Total': total_text[2:],  # Remove the 'O/U' prefix from the total points text
-                'Over Total Odds': over_total_odds_text, 
-                'Under Total Odds': under_total_odds_text,
+                'Over Total Odds': check_even(over_total_odds_text), 
+                'Under Total Odds': check_even(under_total_odds_text),
             },
             'MatchupID': matchup_id,
             'Info Table': {                

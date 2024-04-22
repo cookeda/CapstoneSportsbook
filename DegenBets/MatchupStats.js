@@ -1,91 +1,130 @@
-// MatchupStats.js
-import React, { useState } from 'react';
+import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import matchupsData from './Data/merged_data.json'; // Adjust the path as necessary
+import matchupsData from './Data/merged_data.json';
 
 const MatchupStats = () => {
   const navigation = useNavigation();
-  const [theme, setTheme] = useState('light');
-
-  const toggleTheme = () => {
-    setTheme(currentTheme => currentTheme === 'light' ? 'dark' : 'light');
-  };
-  <TouchableOpacity onPress={toggleTheme} style={styles.buttonStyle}>
-    <Text style={{ color: theme === 'dark' ? '#FFF' : '#000', fontWeight: 'bold' }}>
-        Toggle Theme
-    </Text>
-  </TouchableOpacity>
-
   const matchups = Object.entries(matchupsData);
 
-
   return (
-    <View style={{ flex: 1, backgroundColor: theme === 'dark' ? '#333' : '#f0f0f0' }}>
-        <TouchableOpacity onPress={toggleTheme} style={styles.buttonStyle}>
-            <Text style={{ color: '#000' }}>Theme</Text>
-        </TouchableOpacity>
-        <ScrollView style={styles.container}>
-            {matchups.map(([matchId, matchupDetails], index) => (
-                <TouchableOpacity
-                    key={index}
-                    onPress={() => navigation.navigate('MatchupDetails',{
-                        homeTeam: matchupDetails['Home Team'], 
-                        awayTeam: matchupDetails['Away Team'],
-                        over_score: matchupDetails['over_score'],
-                        cover_rating: matchupDetails['cover_rating'],
-                        team_to_cover: matchupDetails['team_to_cover'],
-                        time: matchupDetails['Time']
-                    })}
-                    style={[styles.matchupContainer, {backgroundColor: theme === 'dark' ? '#555' : '#ccc'}]}
-                >
-                    {/* <Text style={[styles.teamText, {color: theme === 'dark' ? '#FFF' : '#000'}]}>Match ID: {matchId}</Text> */}
-                    <Text style={[styles.containerTitle, {color: theme === 'dark' ? '#FFF' : '#000'}]}>{matchupDetails['Away Team']} @ {matchupDetails['Home Team']}</Text>
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Home Spread: {matchupDetails['Home Spread']}</Text>
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Away Spread: {matchupDetails['Away Spread']}</Text>
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Total Points: {matchupDetails['Total Points']}</Text> 
-                    {/* <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Cover Rating: {matchupDetails['cover_rating']}</Text>
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Team to Cover: {matchupDetails['team_to_cover']}</Text>
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Total Rating: {matchupDetails['over_score']}</Text> */}
-                    <Text style={{color: theme === 'dark' ? '#FFF' : '#000'}}>Time: {matchupDetails['Time']}</Text>
-                </TouchableOpacity>
-            ))}
-        </ScrollView>
-    </View>
-);
-};
+    <View style={styles.container}>
+      <ScrollView style={styles.scrollContainer}>
+        {matchups.map(([matchId, details], index) => (
+          <TouchableOpacity
+            key={matchId}
+            onPress={() => navigation.navigate('MatchupDetails', details)}
+            style={styles.matchupContainer}
+          >
+            <View style={styles.matchupHeader}>
+              <Text style={styles.teamName}>{details['Away Team']}</Text>
+              <Text style={styles.vsText}>@</Text>
+              <Text style={styles.teamName}>{details['Home Team']}</Text>
+            </View>
+            <View style={styles.oddsContainer}>
+              <View style={styles.oddsBox}>
+                <Text style={styles.oddsLabel}>ML Away</Text>
+                <Text style={styles.oddsValue}>-999</Text>
+              </View>
+              <View style={styles.oddsBox}>
+                <Text style={styles.oddsLabel}>Total  O {details['Total Points']}</Text>
+                <Text style={styles.oddsValue}>{details['Over Odds']}</Text>
+              </View>
 
+              <View style={styles.oddsBox}>
+                <Text style={styles.oddsLabel}>Spread Home</Text>
+                <Text style={styles.oddsValue}>{details['Away Spread']}</Text>
+              </View>
+              <View style={styles.oddsBox}>
+                <Text style={styles.oddsLabel}>Spread Away</Text>
+                <Text style={styles.oddsValue}>{details['Home Spread']}</Text>
+              </View>
+
+              <View style={styles.oddsBox}>
+              <Text style={styles.oddsLabel}>Total U {details['Total Points']}</Text>
+                <Text style={styles.oddsValue}>{details['Under Odds']}</Text>
+              </View>
+
+              <View style={styles.oddsBox}>
+                <Text style={styles.oddsLabel}>ML Home</Text>
+                <Text style={styles.oddsValue}>-9999</Text>
+              </View>
+              <Text style={styles.leagueText}>MLB</Text> 
+              <Text style={styles.timeText}>{details['Time']}</Text>
+            </View>
+          </TouchableOpacity>
+        ))}
+      </ScrollView>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
-      flex: 1,
+    flex: 1,
+    backgroundColor: '#f0f0f0',
+  },
+  scrollContainer: {
+    flex: 1,
   },
   matchupContainer: {
-      padding: 20,
-      marginVertical: 8,
-      marginHorizontal: 16,
-      borderRadius: 5,
+    backgroundColor: '#fff',
+    marginVertical: 4,
+    marginHorizontal: 16,
+    padding: 12,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#e1e1e1',
   },
-  containerTitle: {
-      fontWeight: 'bold',
+  matchupHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
   },
-  teamText: {},
-
-  buttonStyle: {
-    position: 'absolute', // Making the button float in a fixed position
-    top: 10,              // 10 pixels from the top
-    right: 10,            // 10 pixels from the right
-    backgroundColor: '#E1E1E1',  // Neutral background
-    padding: 10,          // Padding inside the button
-    borderRadius: 20,     // Rounded corners
-    shadowOpacity: 0.3,   // Adding some shadow
-    shadowRadius: 3,
-    shadowColor: '#000',
-    shadowOffset: { height: 2, width: 0 },
-    elevation: 3,          // Elevation for Android (similar to shadow)
-    zIndex: 1000, 
-}
+  teamName: {
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  vsText: {
+    fontSize: 16,
+  },
+  oddsContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    paddingBottom: 0,
+  },
+  oddsBox: {
+    minWidth: '30%',
+    padding: 6,
+    margin: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: '#e1e1e1',
+    borderRadius: 4,
+  },
+  oddsLabel: {
+    fontSize: 12,
+    color: '#666',
+  },
+  oddsValue: {
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  leagueText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'left',
+    padding:10,
+  },
+  timeText: {
+    fontSize: 12,
+    color: '#666',
+    textAlign: 'right',
+    padding: 13,
+  },
 });
-
 
 export default MatchupStats;
