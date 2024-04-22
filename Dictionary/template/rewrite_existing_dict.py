@@ -20,7 +20,8 @@ def reformat_data(input_filename, output_filename):
             "ESPNBet": item["ESPNBet"],  
             "BetMGM": item["BetMGM"],  
             "TeamID": item["TeamID"],
-            "PlainText":"N/A"
+            "PlainText":item["PlainText"],
+            "FullName": "N/A"
         }
         reformatted_data.append(new_item)
 
