@@ -127,3 +127,4 @@ time.sleep(3)  # Allow some time for the page to load JavaScript content
 matchup_xpath = '//div[contains(@class,"Matchup")]'
 print(scrape(1))
 print(scrape(2))
+driver.quit()
