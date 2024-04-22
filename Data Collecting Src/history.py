@@ -28,10 +28,11 @@ def getMatchups(soup, yesterday):
     for league in leagues:
         league_name = league.get_text().strip()
         mapping_dict = None
+        regex_pattern = None
         if league_name == "National Basketball Association":
             league_name = "NBA"
             mapping_dict = load_team_mappings("../Dictionary/Pro/NBA.json")
-            regex_pattern = r"([A-Za-z ]+)\s+(\d+)"
+            regex_pattern = r"([A-Z]+)\s*(?:\d+W\s+)?(\d+)"
         elif league_name == "Major League Baseball":
             league_name = "MLB"
             mapping_dict = load_team_mappings("../Dictionary/Pro/MLB.json")
@@ -48,7 +49,7 @@ def getMatchups(soup, yesterday):
                 teams_scores_text = matchup.get_text(strip=True).split('|')[1:-1]
                 teams_scores = [ts.strip() for ts in teams_scores_text if ts.strip()]
 
-                if len(teams_scores) >= 3:  # Checks for the 'Final' marker and two teams
+                if len(teams_scores) >= 3:
                     try:
                         away_team_score_match = re.search(regex_pattern, teams_scores[1])
                         home_team_score_match = re.search(regex_pattern, teams_scores[2])
@@ -57,8 +58,8 @@ def getMatchups(soup, yesterday):
                             away_team, away_score = away_team_score_match.groups()
                             home_team, home_score = home_team_score_match.groups()
 
-                            away_team = away_team.strip()  # Ensuring no leading/trailing spaces
-                            home_team = home_team.strip()  # Ensuring no leading/trailing spaces
+                            away_team = away_team.strip()
+                            home_team = home_team.strip()
 
                             matchup_id = f"{away_team} vs {home_team}"
                             is_double_header = matchup_id in matchup_tracker
@@ -152,7 +153,8 @@ def compare_and_update():
 
         total_points = row['home_team_score'] + row['away_team_score']
 
-        comparison_value = 6 if row['league'] == 'mlb' else 5
+        # Split for Totals
+        comparison_value = 6
         comparison.at[index, 'total_correct'] = (row['over_score'] > comparison_value and total_points > row[
             'total']) or \
                                                 (row['over_score'] <= comparison_value and total_points < row['total'])
