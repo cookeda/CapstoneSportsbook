@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 import fasteners
 import os
-
+import logging
 
 
 import time
@@ -21,6 +21,7 @@ book = 'DK'
 
 # For Connor
 webdriver.chrome
+logging.getLogger('scrapy').setLevel(logging.INFO)
 
 def encode_bet_table_id(matchup_id, book_name):
     """

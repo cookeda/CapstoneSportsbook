@@ -8,21 +8,24 @@ from selenium.webdriver.chrome.service import Service
 import json
 import os
 
-# Global Variables
-options = Options()
-options.add_argument('--headless')
-options.add_argument('log-level=3')
-
-# Initialize the Service
-service = Service(ChromeDriverManager().install())
-
-# Initialize WebDriver without the 'desired_capabilities' argument
-driver = webdriver.Chrome(service=service, options=options)
 
 link = "https://www.teamrankings.com/nba/"
 
 # Gets every team's % for a given stat (type)
 def scrape(link, file, type):
+    # Global Variables
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument('log-level=3')
+
+    # Initialize the Service
+    service = Service(ChromeDriverManager().install())
+
+    # Initialize WebDriver without the 'desired_capabilities' argument
+    driver = webdriver.Chrome(service=service, options=options)
+
     driver.get(link)
     source = driver.page_source
     soup = BeautifulSoup(source, 'html.parser')
@@ -43,18 +46,28 @@ def scrape(link, file, type):
     print("Done")
 
 def scrapePPG(link, file):
-    #driver = webdriver.Chrome()  # Make sure to set up your driver correctly
-    # options = Options()
-    # options.add_argument('--headless')
-    # options.add_argument('log-level=3')
+    # Global Variables
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument('log-level=3')
 
-    # # Initialize the Service
-    # service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome()
-    driver.get(link)
+    # Initialize the Service
+    service = Service(ChromeDriverManager().install())
+
     # Initialize WebDriver without the 'desired_capabilities' argument
-#    driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(service=service, options=options)
+
+    driver.get(link)
+
     source = driver.page_source
+    
+    try:
+        driver.close()
+    except Exception as e:
+        print("Error closing the driver:", e)
+
     soup = BeautifulSoup(source, 'html.parser')
 
     results = []  # Use a list to collect dictionaries
@@ -73,7 +86,6 @@ def scrapePPG(link, file):
             fp.write(json.dumps(result) + '\n')
 
     print("Done")
-    driver.close()  # Close the browser window
 
 # Removes file if it already exists for a clean start
 def cleanfile(file):
@@ -89,6 +101,7 @@ def cleanfile(file):
 # Might have to break this into different classes due to weird runtime issues
 def main():
     # Clean Files
+    print("on nba")
     # Connor
     direct = "../data/NBA"
     # Devin
@@ -137,7 +150,7 @@ def main():
             else:
                 scrape(link + task["url"], task["file"], task["type"])
 
-    driver.close()
+
 
 # Runs Program
 if __name__ == '__main__':
