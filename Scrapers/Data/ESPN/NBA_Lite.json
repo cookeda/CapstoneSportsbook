@@ -1,38 +1,53 @@
 {
     "2848484e_5a31e1ff_NBA": {
         "Home Team": "Cleveland",
+        "Home Abv": "CLE",
         "Away Team": "Orlando",
+        "Away Abv": "ORL",
         "Home Spread": "-5.5",
         "Home Spread Odds": "-110",
+        "Home ML": "-225",
         "Away Spread": "+5.5",
         "Away Spread Odds": "-110",
-        "Total Points": "203.5",
-        "Over Odds": "-110",
-        "Under Odds": "-110",
-        "Time": "Today · 7:00 PM"
+        "Away ML": "+185",
+        "Total Points": "204.5",
+        "Over Odds": "-105",
+        "Under Odds": "-115",
+        "Time": "Today · 7:00 PM",
+        "League": "NBA"
     },
     "fe2ec146_65ba1118_NBA": {
         "Home Team": "New York",
+        "Home Abv": "NYK",
         "Away Team": "Philadelphia",
+        "Away Abv": "PHI",
         "Home Spread": "-5.5",
         "Home Spread Odds": "-115",
+        "Home ML": "-220",
         "Away Spread": "+5.5",
         "Away Spread Odds": "-105",
+        "Away ML": "+180",
         "Total Points": "204.5",
         "Over Odds": "-110",
         "Under Odds": "-110",
-        "Time": "Today · 7:30 PM"
+        "Time": "Today · 7:30 PM",
+        "League": "NBA"
     },
     "5ed3c983_59dd0ac4_NBA": {
         "Home Team": "Denver",
+        "Home Abv": "DEN",
         "Away Team": "LA Lakers",
+        "Away Abv": "LAL",
         "Home Spread": "-7.5",
         "Home Spread Odds": "+100",
+        "Home ML": "-285",
         "Away Spread": "+7.5",
         "Away Spread Odds": "-120",
+        "Away ML": "+230",
         "Total Points": "223.5",
         "Over Odds": "-110",
         "Under Odds": "-110",
-        "Time": "Today · 10:00 PM"
+        "Time": "Today · 10:00 PM",
+        "League": "NBA"
     }
 }

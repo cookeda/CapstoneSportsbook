@@ -23,35 +23,47 @@ const MatchupStats = () => {
             </View>
             <View style={styles.oddsContainer}>
               <View style={styles.oddsBox}>
-                <Text style={styles.oddsLabel}>ML Away</Text>
-                <Text style={styles.oddsValue}>-999</Text>
+                <Text style={styles.oddsLabel}>{details['Away Abv']} Win</Text>
+                <Text style={styles.oddsValue}>{details['Away ML']}</Text>
               </View>
               <View style={styles.oddsBox}>
-                <Text style={styles.oddsLabel}>Total  O {details['Total Points']}</Text>
+                <Text style={styles.oddsLabel}>Total  O{details['Total Points']}</Text>
                 <Text style={styles.oddsValue}>{details['Over Odds']}</Text>
               </View>
 
               <View style={styles.oddsBox}>
-                <Text style={styles.oddsLabel}>Spread Home</Text>
-                <Text style={styles.oddsValue}>{details['Away Spread']}</Text>
-              </View>
-              <View style={styles.oddsBox}>
-                <Text style={styles.oddsLabel}>Spread Away</Text>
-                <Text style={styles.oddsValue}>{details['Home Spread']}</Text>
+                <Text style={styles.oddsLabel}>{details['Home Abv']} {details['Home Spread']}</Text>
+                <Text style={styles.oddsValue}>{details['Home Spread Odds']}</Text>
               </View>
 
               <View style={styles.oddsBox}>
-              <Text style={styles.oddsLabel}>Total U {details['Total Points']}</Text>
+                <Text style={styles.oddsLabel}>{details['Away Abv']} {details['Away Spread']}</Text>
+                <Text style={styles.oddsValue}>{details['Away Spread Odds']}</Text>
+              </View>
+
+              <View style={styles.oddsBox}>
+              <Text style={styles.oddsLabel}>Total U{details['Total Points']}</Text>
                 <Text style={styles.oddsValue}>{details['Under Odds']}</Text>
               </View>
 
               <View style={styles.oddsBox}>
-                <Text style={styles.oddsLabel}>ML Home</Text>
-                <Text style={styles.oddsValue}>-9999</Text>
+                <Text style={styles.oddsLabel}>{details['Home Abv']} Win</Text>
+                <Text style={styles.oddsValue}>{details['Home ML']}</Text>
               </View>
-              <Text style={styles.leagueText}>MLB</Text> 
+
+              <Text style={styles.leagueText}>{details['League']}</Text> 
               <Text style={styles.timeText}>{details['Time']}</Text>
+
+              
+              <View style={styles.ratingsContainer}>
+                <Text style={styles.ratingsText}>{details['team_to_cover']}, </Text>
+                <Text style={styles.ratingsText}>Cover: {details['cover_rating']}, </Text>
+                <Text style={styles.ratingsText}>Total: {details['over_score']}</Text>
+              </View>
+
+
             </View>
+              
           </TouchableOpacity>
         ))}
       </ScrollView>
@@ -117,6 +129,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'left',
+    alignItems: 'center',
+
     padding:10,
   },
   timeText: {
@@ -125,6 +139,16 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     padding: 13,
   },
+  ratingsContainer:{
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 8,
+  },
+  ratingsText: {
+    fontSize: 14,
+  }
 });
 
 export default MatchupStats;

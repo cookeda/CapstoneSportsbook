@@ -73,6 +73,22 @@ def find_team_id(team_name):
             return team_mapping["TeamID"]
     return "Unknown"  # Return a default value if the team name is not found in the mappings  # Return a default value if not found
 
+
+def find_abv(team_name):
+    """
+    Searches for a team's ID based on its name from a predefined list of team mappings.
+
+    Parameters:
+    - team_name (str): The name of the team as recognized by DraftKings.
+
+    Returns:
+    - str: The unique TeamID associated with the given team name. Returns "Unknown" if the team name is not found in the mappings.
+    """
+    for team_mapping in team_mappings:
+        if team_mapping["ESPNBet"] == team_name:
+            return team_mapping["PlainText"]
+    return "Unknown"  # Return a default value if not found
+
 def find_team_rank_name(dk_team_name):
     """
     Searches for a team's ranking name based on its name in a predefined list of team mappings.
@@ -210,33 +226,40 @@ def scrape(matchup_num):
     bet_table_id = encode_bet_table_id(matchup_id, book)
 
     # Construct the information dictionary for the matchup
+    away_abv = find_abv(away_team_text)
+    home_abv = find_abv(home_team_text)
+
+        
     info = [ 
         {
             'BetTableId': bet_table_id,
             'Odds Table': {
-                'Book Name': book,
+                'Book Name': book, 
                 'Away Spread': away_spread_text, 
-                'Away Spread Odds': away_spread_odds_text,
-                'Away ML': away_ml_text,
+                'Away Spread Odds': check_even(away_spread_odds_text),
+                'Away ML': check_even(away_ml_text),
                 'Home Spread': home_spread_text, 
-                'Home Spread Odds': home_spread_odds_text,
-                'Home ML': home_ml_text,
-                'Total': total_text[2:],  # Remove the first 3 characters from the total text
-                'Over Total Odds': over_total_odds_text, 
-                'Under Total Odds': under_total_odds_text,
+                'Home Spread Odds': check_even(home_spread_odds_text),
+                'Home ML': check_even(home_ml_text),
+                'Total': total_text[2:],  # Remove the 'O/U' prefix from the total points text
+                'Over Total Odds': check_even(over_total_odds_text), 
+                'Under Total Odds': check_even(under_total_odds_text),
             },
             'MatchupID': matchup_id,
             'Info Table': {                
                     'Away Team': away_team_text, 
-                    'Away Team Rank Name': away_team_rank_name, 
+                    'Away Team Rank Name': away_team_rank_name,
+                    'Away Abv': away_abv,
                     'Away ID': away_team_id,
                     'Home Team': home_team_text, 
                     'Home Team Rank Name': home_team_rank_name,
+                    'Home Abv': home_abv,
                     'Home ID': home_team_id, 
                     'Start Time': start_time_text, 
                     'League': league
                 }
             }
+        
     ]
 
     # Print the teams involved in the matchup for logging purposes
