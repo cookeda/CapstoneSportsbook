@@ -16,7 +16,9 @@ cd ../Results/
 python summary.py
 python merger.py
 
-::  npx eas update --branch devin --auto
+cd ../DegenBets
+npx eas update --auto 
+cd ../
 
 :: Capture end time
 set end_time=%time%

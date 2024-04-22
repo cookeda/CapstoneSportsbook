@@ -1,11 +1,9 @@
 Orlando @ Cleveland (NBA): Cover Rating - 3.6, Over Score - 5.6
 Bet on Orlando to cover the spread.
-Philadelphia @ New York (NBA): Cover Rating - 4.2, Over Score - 5.3
+Philadelphia @ New York (NBA): Cover Rating - 4.1, Over Score - 5.3
 Bet on Philadelphia to cover the spread.
-LA Lakers @ Denver (NBA): Cover Rating - 2.8, Over Score - 5.6
+LA Lakers @ Denver (NBA): Cover Rating - 2.9, Over Score - 5.6
 Bet on Denver to cover the spread.
-Oakland @ NY Yankees (MLB): Cover Rating - 3.3, Over Score - 5.0
-Bet on NY Yankees to cover the spread.
 Philadelphia @ Cincinnati (MLB): Cover Rating - 9.7, Over Score - 4.8
 Bet on Cincinnati to cover the spread.
 Milwaukee @ Pittsburgh (MLB): Cover Rating - 9.1, Over Score - 4.8
@@ -22,25 +20,24 @@ Arizona @ St. Louis (MLB): Cover Rating - 8.3, Over Score - 5.0
 Bet on St. Louis to cover the spread.
 San Diego @ Colorado (MLB): Cover Rating - 0.7, Over Score - 5.2
 Bet on Colorado to cover the spread.
-Baltimore @ LA Angels (MLB): Cover Rating - 2.3, Over Score - 6.0
-Bet on Baltimore to cover the spread.
-NY Mets @ SF Giants (MLB): Cover Rating - 4.2, Over Score - 6.0
-Bet on NY Mets to cover the spread.
+Baltimore @ LA Angels (MLB): Cover Rating - 2.7, Over Score - 6.0
+Bet on LA Angels to cover the spread.
+NY Mets @ SF Giants (MLB): Cover Rating - 0.8, Over Score - 6.0
+Bet on SF Giants to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 Toronto @ Kansas City (MLB): Cover Rating - 12.1, Bet on Kansas City to cover the spread.
 Philadelphia @ Cincinnati (MLB): Cover Rating - 9.7, Bet on Cincinnati to cover the spread.
 Milwaukee @ Pittsburgh (MLB): Cover Rating - 9.1, Bet on Milwaukee to cover the spread.
 Arizona @ St. Louis (MLB): Cover Rating - 8.3, Bet on St. Louis to cover the spread.
-NY Mets @ SF Giants (MLB): Cover Rating - 4.2, Bet on NY Mets to cover the spread.
-Philadelphia @ New York (NBA): Cover Rating - 4.2, Bet on Philadelphia to cover the spread.
+Philadelphia @ New York (NBA): Cover Rating - 4.1, Bet on Philadelphia to cover the spread.
 Miami @ Atlanta (MLB): Cover Rating - 3.7, Bet on Miami to cover the spread.
 Orlando @ Cleveland (NBA): Cover Rating - 3.6, Bet on Orlando to cover the spread.
-Oakland @ NY Yankees (MLB): Cover Rating - 3.3, Bet on NY Yankees to cover the spread.
-LA Lakers @ Denver (NBA): Cover Rating - 2.8, Bet on Denver to cover the spread.
-Baltimore @ LA Angels (MLB): Cover Rating - 2.3, Bet on Baltimore to cover the spread.
+LA Lakers @ Denver (NBA): Cover Rating - 2.9, Bet on Denver to cover the spread.
+Baltimore @ LA Angels (MLB): Cover Rating - 2.7, Bet on LA Angels to cover the spread.
 Chi Sox @ Minnesota (MLB): Cover Rating - 2.0, Bet on Chi Sox to cover the spread.
 Detroit @ Tampa Bay (MLB): Cover Rating - 1.3, Bet on Tampa Bay to cover the spread.
+NY Mets @ SF Giants (MLB): Cover Rating - 0.8, Bet on SF Giants to cover the spread.
 San Diego @ Colorado (MLB): Cover Rating - 0.7, Bet on Colorado to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
@@ -53,25 +50,23 @@ Orlando @ Cleveland (NBA): Over Score - 5.6
 Philadelphia @ New York (NBA): Over Score - 5.3
 San Diego @ Colorado (MLB): Over Score - 5.2
 Arizona @ St. Louis (MLB): Over Score - 5.0
-Oakland @ NY Yankees (MLB): Over Score - 5.0
 Milwaukee @ Pittsburgh (MLB): Over Score - 4.8
 Philadelphia @ Cincinnati (MLB): Over Score - 4.8
 Chi Sox @ Minnesota (MLB): Over Score - 4.8
 Toronto @ Kansas City (MLB): Over Score - 4.3
           date league  cover_rating  ...  total     home_team    away_team
-0   2024-04-22    NBA      3.563636  ...  203.0       Orlando    Cleveland
-1   2024-04-22    NBA      4.166667  ...  204.5  Philadelphia     New York
-2   2024-04-22    NBA      2.760000  ...  223.5     LA Lakers       Denver
-3   2024-04-22    MLB      3.266667  ...    2.5       Oakland   NY Yankees
-4   2024-04-22    MLB      9.733333  ...    8.0  Philadelphia   Cincinnati
-5   2024-04-22    MLB      9.133333  ...    7.5     Milwaukee   Pittsburgh
-6   2024-04-22    MLB      1.266667  ...    7.5       Detroit    Tampa Bay
-7   2024-04-22    MLB      3.666667  ...    9.5         Miami      Atlanta
-8   2024-04-22    MLB      2.000000  ...    8.5       Chi Sox    Minnesota
-9   2024-04-22    MLB     12.133333  ...    9.5       Toronto  Kansas City
-10  2024-04-22    MLB      8.266667  ...    8.5       Arizona    St. Louis
-11  2024-04-22    MLB      0.666667  ...   11.0     San Diego     Colorado
-12  2024-04-22    MLB      2.266667  ...    9.0     Baltimore    LA Angels
-13  2024-04-22    MLB      4.200000  ...    8.0       NY Mets    SF Giants
+0   2024-04-22    NBA      3.563636  ...  203.5       Orlando    Cleveland
+1   2024-04-22    NBA      4.090909  ...  204.5  Philadelphia     New York
+2   2024-04-22    NBA      2.885714  ...  223.5     LA Lakers       Denver
+3   2024-04-22    MLB      9.733333  ...    8.0  Philadelphia   Cincinnati
+4   2024-04-22    MLB      9.133333  ...    7.5     Milwaukee   Pittsburgh
+5   2024-04-22    MLB      1.266667  ...    7.5       Detroit    Tampa Bay
+6   2024-04-22    MLB      3.666667  ...    9.5         Miami      Atlanta
+7   2024-04-22    MLB      2.000000  ...    8.5       Chi Sox    Minnesota
+8   2024-04-22    MLB     12.133333  ...    9.5       Toronto  Kansas City
+9   2024-04-22    MLB      8.266667  ...    8.5       Arizona    St. Louis
+10  2024-04-22    MLB      0.666667  ...   10.5     San Diego     Colorado
+11  2024-04-22    MLB      2.733333  ...    8.5     Baltimore    LA Angels
+12  2024-04-22    MLB      0.800000  ...    8.0       NY Mets    SF Giants
 
-[14 rows x 10 columns]
+[13 rows x 10 columns]

@@ -1,46 +1,18 @@
 [
     [
         {
-            "BetTableId": "ESPN_8b214a89_6424b504_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-450",
-                "Away ML": "+230",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+300",
-                "Home ML": "-320",
-                "Total": "1.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "-110"
-            },
-            "MatchupID": "8b214a89_6424b504_MLB",
-            "Info Table": {
-                "Away Team": "OAK Athletics",
-                "Away Team Rank Name": "Oakland",
-                "Away ID": "8b214a89",
-                "Home Team": "NY Yankees",
-                "Home Team Rank Name": "NY Yankees",
-                "Home ID": "6424b504",
-                "Start Time": "N/A",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "ESPN_fe2ec146_fdd0d44c_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+150",
-                "Away ML": "-110",
+                "Away ML": "-115",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-180",
-                "Home ML": "-110",
+                "Home ML": "-105",
                 "Total": "8.5",
-                "Over Total Odds": "Even",
-                "Under Total Odds": "-120"
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             },
             "MatchupID": "fe2ec146_fdd0d44c_MLB",
             "Info Table": {
@@ -90,10 +62,10 @@
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+150",
-                "Away ML": "-120",
+                "Away ML": "-115",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-180",
-                "Home ML": "Even",
+                "Home ML": "-105",
                 "Total": "7.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -123,8 +95,8 @@
                 "Home Spread Odds": "-105",
                 "Home ML": "-200",
                 "Total": "9.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             },
             "MatchupID": "8d47be6d_354ef58_MLB",
             "Info Table": {
@@ -145,10 +117,10 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+140",
+                "Away Spread Odds": "+145",
                 "Away ML": "-120",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-165",
+                "Home Spread Odds": "-175",
                 "Home ML": "Even",
                 "Total": "9.5",
                 "Over Total Odds": "+105",
@@ -179,8 +151,8 @@
                 "Home Spread Odds": "-105",
                 "Home ML": "-210",
                 "Total": "8.5",
-                "Over Total Odds": "Even",
-                "Under Total Odds": "-120"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             },
             "MatchupID": "ea799920_f5328492_MLB",
             "Info Table": {
@@ -201,10 +173,10 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+160",
+                "Away Spread Odds": "+150",
                 "Away ML": "-105",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-190",
+                "Home Spread Odds": "-180",
                 "Home ML": "-115",
                 "Total": "8.5",
                 "Over Total Odds": "-120",
@@ -229,14 +201,14 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "-120",
+                "Away Spread Odds": "-115",
                 "Away ML": "-175",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "Even",
+                "Home Spread Odds": "-105",
                 "Home ML": "+150",
                 "Total": "10.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "Even"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "3f4235d4_8f2512bc_MLB",
             "Info Table": {
@@ -263,8 +235,8 @@
                 "Home Spread Odds": "-180",
                 "Home ML": "-110",
                 "Total": "8.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "Even"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "e8bdce10_fe8acdeb_MLB",
             "Info Table": {
@@ -303,6 +275,34 @@
                 "Home Team Rank Name": "SF Giants",
                 "Home ID": "486a5e3b",
                 "Start Time": "Today \u00b7 9:45 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_8a2d1e91_5a31e1ff_MLB",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "--",
+                "Away Spread Odds": "N/A",
+                "Away ML": "-105",
+                "Home Spread": "--",
+                "Home Spread Odds": "N/A",
+                "Home ML": "-115",
+                "Total": "",
+                "Over Total Odds": "N/A",
+                "Under Total Odds": "N/A"
+            },
+            "MatchupID": "8a2d1e91_5a31e1ff_MLB",
+            "Info Table": {
+                "Away Team": "BOS Red Sox",
+                "Away Team Rank Name": "Boston",
+                "Away ID": "8a2d1e91",
+                "Home Team": "CLE Guardians",
+                "Home Team Rank Name": "Cleveland",
+                "Home ID": "5a31e1ff",
+                "Start Time": "Apr 23, 2024 \u00b7 6:10 PM",
                 "League": "MLB"
             }
         }

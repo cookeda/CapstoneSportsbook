@@ -35,6 +35,9 @@ cd ../Results
 python summary.py
 cd ../
 
+cd DegenBets
+npx eas update --auto 
+cd ../
 
 :: Capture end time
 set end_time0=%time%
