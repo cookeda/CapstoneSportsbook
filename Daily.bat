@@ -2,8 +2,12 @@
 :: Capture start time
 set start_time0=%time%
 
+:: Run History in Data Collecting Src
+cd Data Collecting Src
+python history.py
+
 :: Scrape Adv League Data
-cd OddsHistory
+cd ../OddsHistory
 del NBA.json
 del MLB.json
 scrapy crawl NBA -o NBA.json
