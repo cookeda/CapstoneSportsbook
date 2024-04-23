@@ -1,8 +1,15 @@
 import json
+import sys 
 
 # Define the input files and output file paths
-input_files = ['../Data/Bovada/NBA.json', '../Data/DK/NBA.json', '../Data/ESPN/NBA.json']
-output_file = 'Best_Odds_NBA.json'
+if len(sys.argv) < 2:
+    print("Usage: python league_best_odds.py <LEAGUE_NAME>")
+    sys.exit(1)
+
+league = sys.argv[1].upper()
+
+input_files = [f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json', f'../Data/ESPN/{league}.json']
+output_file = f'Clean/Best_{league}.json'
 
 def load_data(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
