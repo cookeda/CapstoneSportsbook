@@ -23,7 +23,7 @@ logging.getLogger('scrapy').setLevel(logging.INFO)
 league = 'NBA'
 book = 'DK'
 
-with open('../../../Dictionary/Pro/NBA.json', 'r') as file:
+with open('../../../Dictionary/Pro/NBA.json', 'r', encoding='utf-8') as file:
     team_mappings = json.load(file)
 
 def encode_bet_table_id(matchup_id, book_name):

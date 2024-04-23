@@ -8,7 +8,7 @@ if len(sys.argv) < 2:
 
 league = sys.argv[1]
 input_files = [f'../Data/ESPN/{league}.json', f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json']
-output_file = f'Clean/Aggregate_{league}.json'
+output_file = f'Clean/{league}/Aggregate.json'
 
 def load_data(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:

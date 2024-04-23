@@ -88,7 +88,7 @@ def find_abv(team_name):
     return "Unknown"  # Return a default value if not found
 
 
-with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
+with open('../../../Dictionary/Pro/MLB.json', 'r', encoding='utf-8') as file:
     team_mappings = json.load(file)
 
 def find_team_rank_name(dk_team_name):

@@ -2,8 +2,8 @@ Phoenix @ Minnesota (NBA): Cover Rating - 2.7, Over Score - 5.3
 Bet on Minnesota to cover the spread.
 Indiana @ Milwaukee (NBA): Cover Rating - 0.5, Over Score - 5.5
 Bet on Milwaukee to cover the spread.
-Dallas @ LA Clippers (NBA): Cover Rating - 0.8, Over Score - 5.2
-Bet on LA Clippers to cover the spread.
+Dallas @ LA Clippers (NBA): Cover Rating - 3.2, Over Score - 5.2
+Bet on Dallas to cover the spread.
 Boston @ Cleveland (MLB): Cover Rating - 2.1, Over Score - 5.2
 Bet on Cleveland to cover the spread.
 Philadelphia @ Cincinnati (MLB): Cover Rating - 2.9, Over Score - 3.6
@@ -44,12 +44,12 @@ LA Dodgers @ Washington (MLB): Cover Rating - 10.9, Bet on Washington to cover t
 Oakland @ NY Yankees (MLB): Cover Rating - 6.1, Bet on Oakland to cover the spread.
 Arizona @ St. Louis (MLB): Cover Rating - 5.1, Bet on Arizona to cover the spread.
 Seattle @ Texas (MLB): Cover Rating - 3.3, Bet on Texas to cover the spread.
+Dallas @ LA Clippers (NBA): Cover Rating - 3.2, Bet on Dallas to cover the spread.
 Philadelphia @ Cincinnati (MLB): Cover Rating - 2.9, Bet on Cincinnati to cover the spread.
 Phoenix @ Minnesota (NBA): Cover Rating - 2.7, Bet on Minnesota to cover the spread.
 Chi Sox @ Minnesota (MLB): Cover Rating - 2.3, Bet on Chi Sox to cover the spread.
 Boston @ Cleveland (MLB): Cover Rating - 2.1, Bet on Cleveland to cover the spread.
 Miami @ Atlanta (MLB): Cover Rating - 1.7, Bet on Atlanta to cover the spread.
-Dallas @ LA Clippers (NBA): Cover Rating - 0.8, Bet on LA Clippers to cover the spread.
 Baltimore @ LA Angels (MLB): Cover Rating - 0.7, Bet on Baltimore to cover the spread.
 Indiana @ Milwaukee (NBA): Cover Rating - 0.5, Bet on Milwaukee to cover the spread.
 Milwaukee @ Pittsburgh (MLB): Cover Rating - 0.3, Bet on Pittsburgh to cover the spread.
@@ -77,7 +77,7 @@ Philadelphia @ Cincinnati (MLB): Over Score - 3.6
           date league  cover_rating  ...  total     home_team    away_team
 0   2024-04-23    NBA      2.742857  ...  211.5       Phoenix    Minnesota
 1   2024-04-23    NBA      0.466667  ...  223.5       Indiana    Milwaukee
-2   2024-04-23    NBA      0.800000  ...  216.5        Dallas  LA Clippers
+2   2024-04-23    NBA      3.200000  ...  216.5        Dallas  LA Clippers
 3   2024-04-23    MLB      2.066667  ...    8.5        Boston    Cleveland
 4   2024-04-23    MLB      2.933333  ...    8.5  Philadelphia   Cincinnati
 5   2024-04-23    MLB      0.333333  ...    8.5     Milwaukee   Pittsburgh
