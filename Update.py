@@ -6,7 +6,7 @@ import datetime
 start_time = datetime.datetime.now()
 
 # Scrape Matchups
-os.chdir('Scrapers/Books')
+os.chdir('/media/myfiles/CapstoneSportsbook/Scrapers/Books')
 subprocess.run(['python', 'constant_refresh.py'])
 
 # Run Algorithms
@@ -29,7 +29,7 @@ os.chdir('../DegenBets')
 end_time = datetime.datetime.now()
 
 # Change back to the initial directory
-os.chdir('../')
+os.chdir('../../..')
 
 # Print elapsed time
 print(f"Script started at: {start_time}")

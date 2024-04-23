@@ -5,3 +5,397 @@ FileNotFoundError: [Errno 2] No such file or directory: 'Scrapers/Books'
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main e41cafa] Automated Server Update
+ 1 file changed, 7 insertions(+), 111 deletions(-)
+ rewrite updateserverlogfile.log (93%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   8631e86..e41cafa  main -> main
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 330, in <module>
+    driver.get("https://sportsbook.draftkings.com/leagues/basketball/nba")
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 302, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 322, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/_request_methods.py", line 118, in request
+    return self.request_encode_body(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/_request_methods.py", line 217, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/nba_bovada.py", line 286, in <module>
+    driver.get("https://www.bovada.lv/sports/basketball/nba")
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 302, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 322, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/_request_methods.py", line 118, in request
+    return self.request_encode_body(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/_request_methods.py", line 217, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/mlb_bovada.py", line 284, in <module>
+    driver.get("https://www.bovada.lv/sports/baseball/mlb")
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 302, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 322, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/_request_methods.py", line 118, in request
+    return self.request_encode_body(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/_request_methods.py", line 217, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 76, in <module>
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 22, in extract_relevant_data
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 76, in <module>
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 22, in extract_relevant_data
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/nba_espn.py", line 340, in <module>
+    number_of_games = read_games_count('NBA')
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/nba_espn.py", line 314, in read_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/mlb_espn.py", line 363, in <module>
+    number_of_games = read_games_count('MLB')
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/mlb_espn.py", line 327, in read_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 76, in <module>
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 22, in extract_relevant_data
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 76, in <module>
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 22, in extract_relevant_data
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+MLB - DK: 1/15
+BOS Red Sox, CLE Guardians
+MLB - DK: 2/15
+PHI Phillies, CIN Reds
+MLB - DK: 3/15
+MIL Brewers, PIT Pirates
+MLB - DK: 4/15
+LA Dodgers, WAS Nationals
+MLB - DK: 5/15
+DET Tigers, TB Rays
+MLB - DK: 6/15
+OAK Athletics, NY Yankees
+MLB - DK: 7/15
+MIA Marlins, ATL Braves
+MLB - DK: 8/15
+CHI White Sox, MIN Twins
+MLB - DK: 9/15
+TOR Blue Jays, KC Royals
+MLB - DK: 10/15
+HOU Astros, CHI Cubs
+MLB - DK: 11/15
+ARI Diamondbacks, STL Cardinals
+MLB - DK: 12/15
+SEA Mariners, TEX Rangers
+MLB - DK: 13/15
+SD Padres, COL Rockies
+MLB - DK: 14/15
+BAL Orioles, LA Angels
+MLB - DK: 15/15
+NY Mets, SF Giants
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 336, in <module>
+    update_games_count('MLB', int(number_of_games))
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 185, in update_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 76, in <module>
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 76, in <module>
+    main(input_path, output_path)
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 65, in main
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 22, in extract_relevant_data
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 22, in extract_relevant_data
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+Refresh done
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/master_lite.py", line 61, in <module>
+    combined_data = combine_json_files(file_paths)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/master_lite.py", line 50, in combine_json_files
+    data = read_json_file(file_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/master_lite.py", line 14, in read_json_file
+    return json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 286, in <module>
+    game_list = main()
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 206, in main
+    'NBA': Game.gameInputFromLite("../Scrapers/Data/ESPN/NBA_Lite.json", 'NBA', stats),
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 94, in gameInputFromLite
+    games_data = json.load(j)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Data written to ../DegenBets/Data/master/game_summary.json
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Results/merger.py", line 34, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Results/merger.py", line 17, in main
+    matchups = load_data(matchups_path)
+  File "/media/myfiles/CapstoneSportsbook/Results/merger.py", line 12, in load_data
+    return json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Script started at: 2024-04-23 19:48:01.851444
+Script ended at: 2024-04-23 19:50:40.729552
+Total execution time: 0:02:38.878108
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
