@@ -4,15 +4,15 @@
             "BetTableId": "DK_2848484e_5a31e1ff_NBA",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+16.5",
-                "Away Spread Odds": "−125",
-                "Away ML": "+1500",
-                "Home Spread": "-16.5",
-                "Home Spread Odds": "−105",
-                "Home ML": "−4000",
-                "Total": "203.5",
-                "Over Total Odds": "−120",
-                "Under Total Odds": "−110"
+                "Away Spread": "+12.5",
+                "Away Spread Odds": "−110",
+                "Away ML": "+1400",
+                "Home Spread": "-12.5",
+                "Home Spread Odds": "−120",
+                "Home ML": "−3500",
+                "Total": "190.5",
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−125"
             },
             "MatchupID": "2848484e_5a31e1ff_NBA",
             "Info Table": {
@@ -22,7 +22,7 @@
                 "Home Team": "CLE Cavaliers",
                 "Home Team Rank Name": "Cleveland",
                 "Home ID": "5a31e1ff",
-                "Start Time": "2:10AM",
+                "Start Time": "7:40PM",
                 "League": "NBA"
             }
         }
@@ -32,15 +32,15 @@
             "BetTableId": "DK_fe2ec146_65ba1118_NBA",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-3.5",
-                "Away Spread Odds": "−115",
-                "Away ML": "−175",
-                "Home Spread": "+3.5",
-                "Home Spread Odds": "−115",
-                "Home ML": "+135",
-                "Total": "200.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "−105",
+                "Away ML": "−120",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−125",
+                "Home ML": "−110",
+                "Total": "204.5",
+                "Over Total Odds": "−120",
+                "Under Total Odds": "−110"
             },
             "MatchupID": "fe2ec146_65ba1118_NBA",
             "Info Table": {
@@ -50,7 +50,35 @@
                 "Home Team": "NY Knicks",
                 "Home Team Rank Name": "New York",
                 "Home ID": "65ba1118",
-                "Start Time": "11:40PM",
+                "Start Time": "8:40PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_5ed3c983_59dd0ac4_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+7",
+                "Away Spread Odds": "−110",
+                "Away ML": "+235",
+                "Home Spread": "-7",
+                "Home Spread Odds": "−110",
+                "Home ML": "−290",
+                "Total": "223",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "5ed3c983_59dd0ac4_NBA",
+            "Info Table": {
+                "Away Team": "LA Lakers",
+                "Away Team Rank Name": "LA Lakers",
+                "Away ID": "5ed3c983",
+                "Home Team": "DEN Nuggets",
+                "Home Team Rank Name": "Denver",
+                "Home ID": "59dd0ac4",
+                "Start Time": "10:10PM",
                 "League": "NBA"
             }
         }
