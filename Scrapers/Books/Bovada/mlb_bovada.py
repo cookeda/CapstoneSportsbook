@@ -11,6 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 import undetected_chromedriver as uc
 
 league = 'MLB'
@@ -269,10 +270,16 @@ def read_games_count(game_type):
 
 
 # Initialize the Chrome driver with undetected_chromedriver to avoid detection
-options = uc.ChromeOptions()
-options.headless = True
-options.add_argument('--no-sandbox')
-driver = uc.Chrome(options=options)
+options = Options()
+options.add_argument('--headless')
+options.add_argument('log-level=3')
+
+# Initialize the Service
+service = Service(ChromeDriverManager().install())
+
+# Initialize WebDriver without the 'desired_capabilities' argument
+driver = webdriver.Chrome(service=service, options=options)
+
 
 driver.get("https://www.bovada.lv/sports/baseball/mlb")
 time.sleep(2)  # Allow some time for the page to load JavaScript content

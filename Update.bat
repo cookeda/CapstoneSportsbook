@@ -18,7 +18,7 @@ python summary.py
 python merger.py
 
 cd ../DegenBets
-npx eas update --auto 
+::npx eas update --auto 
 cd ../
 
 :: Capture end time

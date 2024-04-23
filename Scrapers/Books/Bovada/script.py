@@ -8,8 +8,10 @@ process3 = subprocess.Popen(["python", "nba_bovada.py"])
 print("Scraping Bovada for: NBA, MLB")
 #process1.wait()
 process2.wait()
-process4 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/Bovada/MLB.json", "../../Data/Bovada/MLB_Lite.json"])
 process3.wait()
+time.sleep(3)
+
+process4 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/Bovada/MLB.json", "../../Data/Bovada/MLB_Lite.json"])
 process5 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/Bovada/NBA.json", "../../Data/Bovada/NBA_Lite.json"])
 
 process5.wait()
