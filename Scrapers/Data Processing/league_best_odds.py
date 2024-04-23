@@ -8,7 +8,7 @@ if len(sys.argv) < 2:
 
 league = sys.argv[1].upper()
 
-input_files = [f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json', f'../Data/ESPN/{league}.json']
+input_files = [f'../Data/ESPN/{league}.json', f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json']
 output_file = f'Clean/Best_{league}.json'
 
 def load_data(file_path):
