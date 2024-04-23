@@ -13,6 +13,8 @@ import os
 # Global Variables
 options = Options()
 options.add_argument('--headless')
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 options.add_argument('log-level=3')
 
 # Initialize the Service
@@ -54,7 +56,6 @@ def scrapePPG(link, file):
 
     # # Initialize WebDriver without the 'desired_capabilities' argument
     # driver = webdriver.Chrome(service=service, options=options)
-    driver = webdriver.Chrome()
     driver.get(link)
     source = driver.page_source
     soup = BeautifulSoup(source, 'html.parser')
@@ -75,7 +76,10 @@ def scrapePPG(link, file):
             fp.write(json.dumps(result) + '\n')
 
     print("Done")
-    driver.close()  # Close the browser window
+    try:
+        driver.close()
+    except Exception as e:
+        print("Error closing the driver:", e)
 
 # Removes file if it already exists for a clean start
 def cleanfile(file):

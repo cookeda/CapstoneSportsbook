@@ -59,8 +59,6 @@ def main():
         sortFile("awayOver.jl", "over", "away", league)
         i += 1
         if i == 1:
-            league = "CBB"
-        elif i == 2:
             league = "MLB"
 
 if __name__ == '__main__':

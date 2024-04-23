@@ -8,21 +8,24 @@ from selenium.webdriver.chrome.service import Service
 import json
 import os
 
-# Global Variables
-options = Options()
-options.add_argument('--headless')
-options.add_argument('log-level=3')
-
-# Initialize the Service
-service = Service(ChromeDriverManager().install())
-
-# Initialize WebDriver without the 'desired_capabilities' argument
-driver = webdriver.Chrome(service=service, options=options)
 
 link = "https://www.teamrankings.com/nba/"
 
 # Gets every team's % for a given stat (type)
 def scrape(link, file, type):
+    # Global Variables
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument('log-level=3')
+
+    # Initialize the Service
+    service = Service(ChromeDriverManager().install())
+
+    # Initialize WebDriver without the 'desired_capabilities' argument
+    driver = webdriver.Chrome(service=service, options=options)
+
     driver.get(link)
     source = driver.page_source
     soup = BeautifulSoup(source, 'html.parser')
@@ -40,6 +43,48 @@ def scrape(link, file, type):
         with open(file, 'a') as fp:
             fp.write(json.dumps(cover) + " " + mov + '\n')
         if i >= 31: break
+    print("Done")
+
+def scrapePPG(link, file):
+    # Global Variables
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument('log-level=3')
+
+    # Initialize the Service
+    service = Service(ChromeDriverManager().install())
+
+    # Initialize WebDriver without the 'desired_capabilities' argument
+    driver = webdriver.Chrome(service=service, options=options)
+
+    driver.get(link)
+
+    source = driver.page_source
+    
+    try:
+        driver.close()
+    except Exception as e:
+        print("Error closing the driver:", e)
+
+    soup = BeautifulSoup(source, 'html.parser')
+
+    results = []  # Use a list to collect dictionaries
+    for tr in soup.select('#DataTables_Table_0 tbody tr')[:30]:  # Limit to first 30 rows
+        data_dict = {
+            "Team": tr.select_one('td:nth-of-type(2)').text.strip(),
+            "PPG": tr.select_one('td:nth-of-type(3)').text.strip(),
+            "Last 3": tr.select_one('td:nth-of-type(4)').text.strip(),
+            "Home": tr.select_one('td:nth-of-type(6)').text.strip(),
+            "Away": tr.select_one('td:nth-of-type(7)').text.strip(),
+        }
+        results.append(data_dict)
+
+    with open(file, 'a') as fp:
+        for result in results:
+            fp.write(json.dumps(result) + '\n')
+
     print("Done")
 
 def scrapePPG(link, file):
@@ -89,6 +134,7 @@ def cleanfile(file):
 # Might have to break this into different classes due to weird runtime issues
 def main():
     # Clean Files
+    print("on nba")
     # Connor
     direct = "../data/NBA"
     # Devin
@@ -137,7 +183,13 @@ def main():
             else:
                 scrape(link + task["url"], task["file"], task["type"])
 
-    driver.close()
+    for task in tasks:
+            print(task["message"])
+            if task['message'] == "Starting Point Averages":
+                scrapePPG(link + task["url"], task["file"])
+            else:
+                scrape(link + task["url"], task["file"], task["type"])
+
 
 # Runs Program
 if __name__ == '__main__':

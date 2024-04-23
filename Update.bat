@@ -8,7 +8,8 @@ python constant_refresh.py
 
 :: Run Algorithms
 cd ../../Data Collecting Src/
-
+python history.py
+python SuccessData.py > ../Results/successdata_results.txt
 python alg.py > ../Results/alg_results.txt
 python game.py > ../Results/game_results.txt
 

@@ -17,7 +17,7 @@ scrapy crawl MLB -o MLB.json
 cd ../Data Collecting Src/
 python MLBScrape.py
 python NBAScrape.py
-python CBBScrape.py
+:: python CBBScrape.py
 python Sort.py
 cd ../
 

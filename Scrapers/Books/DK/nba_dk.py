@@ -8,6 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 import fasteners
 import os
+import logging
 
 
 
@@ -17,6 +18,7 @@ from time import process_time
 import json
 # For Connor
 webdriver.chrome
+logging.getLogger('scrapy').setLevel(logging.INFO)
 
 league = 'NBA'
 book = 'DK'
