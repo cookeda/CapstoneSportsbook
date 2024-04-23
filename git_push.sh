@@ -7,7 +7,7 @@ git pull origin main
 git add .
 
 # Commit changes
-git commit -m "Automated Server Update: Damage Control"
+git commit -m "Automated Server Update"
 
 # Push changes to GitHub
 git push origin main
