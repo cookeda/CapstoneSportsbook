@@ -41,6 +41,8 @@ def main():
         subprocess.run(['python3.10', 'alg.py'], stdout=f)
     with open("../Results/game_results.txt", "w") as f:
         subprocess.run(['python3.10', 'game.py'], stdout=f)
+    with open("../Results/SuccessData_results.txt", "w") as f:
+        subprocess.run(['python3.10', 'SuccessData.py'], stdout=f)
     os.chdir("../Results")
     subprocess.run(['python3.10', 'summary.py'])
 
