@@ -71,6 +71,23 @@ def find_team_id(team_name):
             return team_mapping["TeamID"]
     return "Unknown"  # Return a default value if not found
 
+
+def find_abv(team_name):
+    """
+    Searches for a team's ID based on its name from a predefined list of team mappings.
+
+    Parameters:
+    - team_name (str): The name of the team as recognized by DraftKings.
+
+    Returns:
+    - str: The unique TeamID associated with the given team name. Returns "Unknown" if the team name is not found in the mappings.
+    """
+    for team_mapping in team_mappings:
+        if team_mapping["DraftKings Name"] == team_name:
+            return team_mapping["PlainText"]
+    return "Unknown"  # Return a default value if not found
+
+
 with open('../../../Dictionary/Pro/MLB.json', 'r') as file:
     team_mappings = json.load(file)
 
@@ -239,7 +256,9 @@ def scrape(matchup_num):
     
     matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
     bet_table_id = encode_bet_table_id(matchup_id, book)
-    
+    away_abv = find_abv(away_team_text)
+    home_abv = find_abv(home_team_text)
+
         
     info = [ 
         {
@@ -259,10 +278,12 @@ def scrape(matchup_num):
             'MatchupID': matchup_id,
             'Info Table': {                
                     'Away Team': away_team_text, 
-                    'Away Team Rank Name': away_team_rank_name, 
+                    'Away Team Rank Name': away_team_rank_name,
+                    'Away Abv': away_abv,
                     'Away ID': away_team_id,
                     'Home Team': home_team_text, 
                     'Home Team Rank Name': home_team_rank_name,
+                    'Home Abv': home_abv,
                     'Home ID': home_team_id, 
                     'Start Time': start_time_text, 
                     'League': league

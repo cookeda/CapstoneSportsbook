@@ -63,7 +63,7 @@ with open(file_path, 'r', encoding='utf-8') as file:
             corrected[matchup_id] = {
                 "team_to_cover": team_to_cover,
                 "cover_rating": cover_rating,
-                "over_score": over_score
+                "over_score": over_score,
             }
             i += 2  # Skip the next line as it's already processed
         else:

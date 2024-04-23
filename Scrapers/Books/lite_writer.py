@@ -29,15 +29,20 @@ def extract_relevant_data(file_path):
             matchup_id = game['MatchupID']
             reformatted_games[matchup_id] = {
                 'Home Team': matchup_info['Home Team Rank Name'],
+                'Home Abv': matchup_info['Home Abv'],
                 'Away Team': matchup_info['Away Team Rank Name'],
+                'Away Abv': matchup_info['Away Abv'],
                 'Home Spread': odds_info['Home Spread'],
                 'Home Spread Odds': odds_info['Home Spread Odds'],
+                'Home ML': odds_info['Home ML'],
                 'Away Spread': odds_info['Away Spread'],
                 'Away Spread Odds': odds_info['Away Spread Odds'],
+                'Away ML': odds_info['Away ML'],
                 'Total Points': odds_info['Total'],
                 'Over Odds': odds_info['Over Total Odds'],
                 'Under Odds' : odds_info['Under Total Odds'],
                 'Time': matchup_info['Start Time'],
+                'League': matchup_info["League"]
             }
     return reformatted_games
 

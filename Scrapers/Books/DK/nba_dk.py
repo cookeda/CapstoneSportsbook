@@ -79,6 +79,21 @@ def find_team_id(team_name):
     return "Unknown"  # Return a default value if not found
 
 
+def find_abv(team_name):
+    """
+    Searches for a team's ID based on its name from a predefined list of team mappings.
+
+    Parameters:
+    - team_name (str): The name of the team as recognized by DraftKings.
+
+    Returns:
+    - str: The unique TeamID associated with the given team name. Returns "Unknown" if the team name is not found in the mappings.
+    """
+    for team_mapping in team_mappings:
+        if team_mapping["DraftKings Name"] == team_name:
+            return team_mapping["PlainText"]
+    return "Unknown"  # Return a default value if not found
+
 def find_team_rank_name(dk_team_name):
     """
     Searches for a team's ranking name based on its DraftKings name from a predefined mapping.
@@ -260,28 +275,34 @@ def scrape(matchup_num):
     bet_table_id = encode_bet_table_id(matchup_id, book)
     
     # Compiling all extracted information into a structured dictionary
+    away_abv = find_abv(away_team_text)
+    home_abv = find_abv(home_team_text)
+
+        
     info = [ 
         {
             'BetTableId': bet_table_id,
             'Odds Table': {
-                'Book Name': book,
+                'Book Name': book, 
                 'Away Spread': away_spread_text, 
                 'Away Spread Odds': away_spread_odds_text,
-                'Away ML': away_ml_text,
+                'Away ML': (away_ml_text),
                 'Home Spread': home_spread_text, 
                 'Home Spread Odds': home_spread_odds_text,
-                'Home ML': home_ml_text,
-                'Total': total_text, 
-                'Over Total Odds': over_total_odds_text, 
-                'Under Total Odds': under_total_odds_text,
+                'Home ML': (home_ml_text),
+                'Total': total_text[3:], 
+                'Over Total Odds': (over_total_odds_text), 
+                'Under Total Odds': (under_total_odds_text),
             },
             'MatchupID': matchup_id,
             'Info Table': {                
                     'Away Team': away_team_text, 
-                    'Away Team Rank Name': away_team_rank_name, 
+                    'Away Team Rank Name': away_team_rank_name,
+                    'Away Abv': away_abv,
                     'Away ID': away_team_id,
                     'Home Team': home_team_text, 
                     'Home Team Rank Name': home_team_rank_name,
+                    'Home Abv': home_abv,
                     'Home ID': home_team_id, 
                     'Start Time': start_time_text, 
                     'League': league
