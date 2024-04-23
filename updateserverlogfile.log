@@ -76,3 +76,14 @@ FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main f2afb3d] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   9d3ff69..f2afb3d  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('/Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: '/Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
