@@ -1596,3 +1596,17 @@ End Time: 2024-04-22 20:54:23.451484
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main 9cb861d] Automated Server Update: Damage Control
+ 25 files changed, 4976 insertions(+), 2890 deletions(-)
+ rewrite DegenBets/Data/master/game_summary.json (100%)
+ rewrite OddsHistory/History/Predictions.csv (91%)
+ create mode 100644 data/NBA/cover/away/SortedawayCover.jl
+ create mode 100644 data/NBA/cover/general/SortedAllTimeCover.jl
+ create mode 100644 data/NBA/cover/home/SortedhomeCover.jl
+ create mode 100644 data/NBA/over/away/SortedawayOver.jl
+ create mode 100644 data/NBA/over/general/SortedAllTimeOU.jl
+ create mode 100644 data/NBA/over/general/SortedPointAverages.jl
+ create mode 100644 data/NBA/over/home/SortedhomeOver.jl
+ rewrite serverlogfile.log (84%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   e6302a1..9cb861d  main -> main
