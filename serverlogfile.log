@@ -126,3 +126,55 @@ End Time: 2024-04-23 00:30:46.380044
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main 7decc80] Testing Automated Server Update, IT WORKED!!!
+ 4 files changed, 100 insertions(+), 47 deletions(-)
+ delete mode 100644 data/results.txt
+To https://github.com/cookeda/CapstoneSportsbook.git
+   e661f3c..7decc80  main -> main
+MLB - ESPN: 1/7
+PHI Phillies, CIN Reds
+MLB - ESPN: 2/7
+MIL Brewers, PIT Pirates
+MLB - ESPN: 3/7
+DET Tigers, TB Rays
+MLB - ESPN: 4/7
+MIA Marlins, ATL Braves
+MLB - ESPN: 5/7
+TOR Blue Jays, KC Royals
+MLB - ESPN: 6/7
+CHI White Sox, MIN Twins
+MLB - ESPN: 7/7
+ARI Diamondbacks, STL Cardinals
+Total matchups scraped: 7
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/alg.py", line 547, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/alg.py", line 305, in main
+    generalCover = generalAlg("Cover", "NBA")
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/alg.py", line 59, in generalAlg
+    with open(direct + league + "/" + stat.lower() + "/general/SortedAllTime" + type2 + ".jl", 'r') as all:
+FileNotFoundError: [Errno 2] No such file or directory: '../data/NBA/cover/general/SortedAllTimeCover.jl'
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 286, in <module>
+    game_list = main()
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 222, in main
+    summary = game.analyze_game()
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 114, in analyze_game
+    over_stats_general = self.stats.generalAlg("Over", self.league)
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 18, in generalAlg
+    files = [open(path, 'r') for path in paths]
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 18, in <listcomp>
+    files = [open(path, 'r') for path in paths]
+FileNotFoundError: [Errno 2] No such file or directory: '../data/NBA/over/general/SortedAllTimeOU.jl'
+Data written to ../DegenBets/Data/master/game_summary.json
+Start Time: 2024-04-23 00:27:02.128550
+End Time: 2024-04-23 00:31:32.788040
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
