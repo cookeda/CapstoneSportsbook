@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # Activate the Conda environment
 source /home/rkdconnor/anaconda3/bin/activate Capstone
