@@ -3232,3 +3232,19 @@ End Time: 2024-04-23 09:01:32.330775
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main c654066] Automated Server Update: Damage Control
+ 38 files changed, 5759 insertions(+), 3483 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (100%)
+ create mode 100644 Results/SuccessData_results.txt
+ rewrite Results/alg_results.txt (67%)
+ rewrite Results/game_results.txt (82%)
+ rewrite Scrapers/Data/DK/NBA.json (67%)
+ rewrite Scrapers/Data/DK/NBA_Lite.json (71%)
+ rewrite Scrapers/Data/ESPN/NBA.json (72%)
+ rewrite Scrapers/Data/ESPN/NBA_Lite.json (82%)
+ rewrite data/MLB/cover/general/SortedCurrentSeasonCover.jl (66%)
+ rewrite data/MLB/over/general/SortedCurrentSeasonOU.jl (66%)
+ rewrite data/MLB/over/general/SortedPointAverages.jl (73%)
+ rewrite data/results.txt (67%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   6e284a5..c654066  main -> main

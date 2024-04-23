@@ -1,0 +1,10 @@
+/bin/sh: 1: /media/myfiles/CapstoneSportsbook/run_update.sh: Permission denied
+/bin/sh: 1: /media/myfiles/CapstoneSportsbook/run_update.sh: Permission denied
+/bin/sh: 1: /media/myfiles/CapstoneSportsbook/run_update.sh: Permission denied
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
