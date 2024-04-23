@@ -15,10 +15,11 @@ scrapy crawl MLB -o MLB.json
 
 :: Scrape League Data
 cd ../Data Collecting Src/
-python MLBScrape.py
-python NBAScrape.py
+:: python MLBScrape.py
+:: python NBAScrape.py
 :: python CBBScrape.py
-python Sort.py
+python script.py
+:: python Sort.py
 cd ../
 
 :: Scrape Matchups
@@ -28,7 +29,7 @@ python daily_refresh.py
 :: Run Algorithms
 cd ../../Data Collecting Src/
 
-python alg.py > ../Results/alg_results.txt
+::python alg.py > ../Results/alg_results.txt
 python game.py > ../Results/game_results.txt
 
 cd ../Results
@@ -36,7 +37,7 @@ python summary.py
 cd ../
 
 cd DegenBets
-npx eas update --auto 
+:: npx eas update --auto 
 cd ../
 
 :: Capture end time

@@ -9,6 +9,6 @@ process1.wait() # Wait for process1 to finish (basically wait for script to fini
 process2.wait() # Wait for process2 to finish (basically wait for script to finish)
 process3.wait()
 
-process3 = subprocess.Popen(["python", "master_lite.py"])
+process4 = subprocess.Popen(["python", "master_lite.py"])
 
 print("Refresh done")

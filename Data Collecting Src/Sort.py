@@ -4,10 +4,7 @@ import os
 # Removes unsorted folder
 # Must specify stat as type (ex: Cover, Over, etc)
 def sortFile(file, type, location, league):
-    #Connor
     direct = "../data/"
-    #Devin
-    #direct = "data/"
     if type == "cover":
 
         cleanfile(direct + league + "/cover/" + location + "/Sorted" + file)
@@ -45,7 +42,7 @@ def cleanfile(file):
 def main():
     i = 0
     league = "NBA"
-    while i < 3:
+    while i < 2:
         sortFile("10YearCover.jl", "cover", "general", league)
         sortFile("AllTimeCover.jl", "cover", "general", league)
         sortFile("PointAverages.jl", "over", "general", league) # New

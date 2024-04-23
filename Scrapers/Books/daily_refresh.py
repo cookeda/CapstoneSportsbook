@@ -9,7 +9,8 @@ print("DK data scraped for the first time today")
 process2 = subprocess.Popen(["python", "script.py"], cwd='ESPN') # Create and launch
 process3 = subprocess.Popen(["python", "script.py"], cwd='Bovada')
 
-process2.wait() 
+process2.wait()
+process3.wait()
 
 print("All book data scraped")
 #time.sleep(5)
