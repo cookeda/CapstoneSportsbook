@@ -1610,3 +1610,1625 @@ Already up to date.
  rewrite serverlogfile.log (84%)
 To https://github.com/cookeda/CapstoneSportsbook.git
    e6302a1..9cb861d  main -> main
+ALREADY RAN TODAY. DID NOT RUN
+2024-04-23 09:00:02 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: OddsHistory)
+2024-04-23 09:00:02 [scrapy.utils.log] INFO: Versions: lxml 4.9.3.0, libxml2 2.10.4, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 23.10.0, Python 3.10.13 (main, Sep 11 2023, 13:44:35) [GCC 11.2.0], pyOpenSSL 24.0.0 (OpenSSL 3.0.13 30 Jan 2024), cryptography 42.0.5, Platform Linux-5.15.0-105-generic-x86_64-with-glibc2.35
+2024-04-23 09:00:02 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-04-23 09:00:02 [scrapy.extensions.telnet] INFO: Telnet Password: bf528242ecc1dfad
+2024-04-23 09:00:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-04-23 09:00:02 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'OddsHistory',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'OddsHistory.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['OddsHistory.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-04-23 09:00:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-04-23 09:00:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-04-23 09:00:02 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-04-23 09:00:02 [scrapy.core.engine] INFO: Spider opened
+2024-04-23 09:00:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-04-23 09:00:02 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-04-23 09:00:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/oklahoma-city-thunder/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/miami-heat/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/los-angeles-clippers/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/milwaukee-bucks/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/philadelphia-76ers/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/indiana-pacers/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/new-york-knicks/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/new-orleans-pelicans/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/orlando-magic/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/minnesota-timberwolves/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/los-angeles-lakers/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/phoenix-suns/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/dallas-mavericks/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/cleveland-cavaliers/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/denver-nuggets/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/nba/team/boston-celtics/> (referer: https://www.teamrankings.com/nba/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/NBA.py", line 73, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:08 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-04-23 09:00:08 [scrapy.extensions.feedexport] INFO: Stored json feed (2496 items) in: NBA.json
+2024-04-23 09:00:08 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 13642,
+ 'downloader/request_count': 32,
+ 'downloader/request_method_count/GET': 32,
+ 'downloader/response_bytes': 2606968,
+ 'downloader/response_count': 32,
+ 'downloader/response_status_count/200': 32,
+ 'elapsed_time_seconds': 5.944413,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 4, 23, 13, 0, 8, 719887, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 10632948,
+ 'httpcompression/response_count': 32,
+ 'item_scraped_count': 2496,
+ 'log_count/ERROR': 16,
+ 'log_count/INFO': 11,
+ 'memusage/max': 64577536,
+ 'memusage/startup': 64577536,
+ 'request_depth_max': 1,
+ 'response_received_count': 32,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 31,
+ 'scheduler/dequeued/memory': 31,
+ 'scheduler/enqueued': 31,
+ 'scheduler/enqueued/memory': 31,
+ 'spider_exceptions/AttributeError': 16,
+ 'start_time': datetime.datetime(2024, 4, 23, 13, 0, 2, 775474, tzinfo=datetime.timezone.utc)}
+2024-04-23 09:00:08 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-04-23 09:00:09 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: OddsHistory)
+2024-04-23 09:00:09 [scrapy.utils.log] INFO: Versions: lxml 4.9.3.0, libxml2 2.10.4, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 23.10.0, Python 3.10.13 (main, Sep 11 2023, 13:44:35) [GCC 11.2.0], pyOpenSSL 24.0.0 (OpenSSL 3.0.13 30 Jan 2024), cryptography 42.0.5, Platform Linux-5.15.0-105-generic-x86_64-with-glibc2.35
+2024-04-23 09:00:09 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-04-23 09:00:09 [scrapy.extensions.telnet] INFO: Telnet Password: dc5ab09bea7ab390
+2024-04-23 09:00:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-04-23 09:00:09 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'OddsHistory',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'OddsHistory.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['OddsHistory.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-04-23 09:00:09 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-04-23 09:00:09 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-04-23 09:00:09 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-04-23 09:00:09 [scrapy.core.engine] INFO: Spider opened
+2024-04-23 09:00:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-04-23 09:00:09 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-04-23 09:00:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/arizona-diamondbacks/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/new-york-yankees/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/philadelphia-phillies/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/san-francisco-giants/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/oakland-athletics/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/new-york-mets/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/minnesota-twins/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/los-angeles-dodgers/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/milwaukee-brewers/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/miami-marlins/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/san-diego-padres/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/seattle-mariners/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/toronto-blue-jays/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/los-angeles-angels/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/pittsburgh-pirates/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/kansas-city-royals/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/houston-astros/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/washington-nationals/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/texas-rangers/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/detroit-tigers/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/cincinnati-reds/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/tampa-bay-rays/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/colorado-rockies/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/chicago-white-sox/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/cleveland-guardians/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/st-louis-cardinals/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/baltimore-orioles/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/chicago-cubs/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/boston-red-sox/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 62, in parse_table
+    home_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.teamrankings.com/mlb/team/atlanta-braves/> (referer: https://www.teamrankings.com/mlb/)
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/media/myfiles/CapstoneSportsbook/OddsHistory/OddsHistory/spiders/MLB.py", line 74, in parse_table
+    away_score = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-04-23 09:00:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-04-23 09:00:16 [scrapy.extensions.feedexport] INFO: Stored json feed (682 items) in: MLB.json
+2024-04-23 09:00:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 13885,
+ 'downloader/request_count': 32,
+ 'downloader/request_method_count/GET': 32,
+ 'downloader/response_bytes': 2641570,
+ 'downloader/response_count': 32,
+ 'downloader/response_status_count/200': 32,
+ 'elapsed_time_seconds': 7.199722,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 4, 23, 13, 0, 16, 678730, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 12515393,
+ 'httpcompression/response_count': 32,
+ 'item_scraped_count': 682,
+ 'log_count/ERROR': 30,
+ 'log_count/INFO': 11,
+ 'memusage/max': 64536576,
+ 'memusage/startup': 64536576,
+ 'request_depth_max': 1,
+ 'response_received_count': 32,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 31,
+ 'scheduler/dequeued/memory': 31,
+ 'scheduler/enqueued': 31,
+ 'scheduler/enqueued/memory': 31,
+ 'spider_exceptions/AttributeError': 30,
+ 'start_time': datetime.datetime(2024, 4, 23, 13, 0, 9, 479008, tzinfo=datetime.timezone.utc)}
+2024-04-23 09:00:16 [scrapy.core.engine] INFO: Spider closed (finished)
+Starting This Year's Stats
+Done
+Starting This Year's Stats
+Done
+Starting Last 10 Years
+Done
+Starting Last 10 Years
+Done
+Starting All Time Stats
+Done
+Starting All Time Stats
+Done
+Starting Current Home Stats
+Done
+Starting Current Home Stats
+Done
+Starting Current Away Stats
+Done
+Starting Current Away Stats
+Done
+Starting Point Averages
+Done
+on nba
+Starting This Year's Stats
+Done
+Starting This Year's Stats
+Done
+Starting Last 10 Years
+Done
+Starting Last 10 Years
+Done
+Starting All Time Stats
+Done
+Starting All Time Stats
+Done
+Starting Current Home Stats
+Done
+Starting Current Home Stats
+Done
+Starting Current Away Stats
+Done
+Starting Current Away Stats
+Done
+Starting Point Averages
+Done
+NBA - DK: 1/3
+PHO Suns, MIN Timberwolves
+NBA - DK: 2/3
+IND Pacers, MIL Bucks
+NBA - DK: 3/3
+DAL Mavericks, LA Clippers
+MLB - DK: 1/15
+BOS Red Sox, CLE Guardians
+MLB - DK: 2/15
+PHI Phillies, CIN Reds
+MLB - DK: 3/15
+MIL Brewers, PIT Pirates
+MLB - DK: 4/15
+LA Dodgers, WAS Nationals
+MLB - DK: 5/15
+DET Tigers, TB Rays
+MLB - DK: 6/15
+OAK Athletics, NY Yankees
+MLB - DK: 7/15
+MIA Marlins, ATL Braves
+MLB - DK: 8/15
+CHI White Sox, MIN Twins
+MLB - DK: 9/15
+TOR Blue Jays, KC Royals
+MLB - DK: 10/15
+HOU Astros, CHI Cubs
+MLB - DK: 11/15
+ARI Diamondbacks, STL Cardinals
+MLB - DK: 12/15
+SEA Mariners, TEX Rangers
+MLB - DK: 13/15
+SD Padres, COL Rockies
+MLB - DK: 14/15
+BAL Orioles, LA Angels
+MLB - DK: 15/15
+NY Mets, SF Giants
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+NBA - ESPN: 1/3
+PHX Suns, MIN Timberwolves
+NBA - ESPN: 2/3
+IND Pacers, MIL Bucks
+NBA - ESPN: 3/3
+DAL Mavericks, LA Clippers
+Total matchups scraped: 3
+MLB - ESPN: 1/15
+BOS Red Sox, CLE Guardians
+MLB - ESPN: 2/15
+PHI Phillies, CIN Reds
+MLB - ESPN: 3/15
+MIL Brewers, PIT Pirates
+MLB - ESPN: 4/15
+LA Dodgers, WSH Nationals
+MLB - ESPN: 5/15
+DET Tigers, TB Rays
+MLB - ESPN: 6/15
+OAK Athletics, NY Yankees
+MLB - ESPN: 7/15
+MIA Marlins, ATL Braves
+MLB - ESPN: 8/15
+HOU Astros, CHI Cubs
+MLB - ESPN: 9/15
+CHI White Sox, MIN Twins
+MLB - ESPN: 10/15
+TOR Blue Jays, KC Royals
+MLB - ESPN: 11/15
+ARI Diamondbacks, STL Cardinals
+MLB - ESPN: 12/15
+SEA Mariners, TEX Rangers
+MLB - ESPN: 13/15
+SD Padres, COL Rockies
+MLB - ESPN: 14/15
+BAL Orioles, LA Angels
+MLB - ESPN: 15/15
+NY Mets, SF Giants
+Total matchups scraped: 15
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Data written to ../DegenBets/Data/master/game_summary.json
+Start Time: 2024-04-23 09:00:01.792163
+End Time: 2024-04-23 09:01:32.330775
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
