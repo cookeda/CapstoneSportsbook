@@ -30,10 +30,9 @@ const MatchupStats = () => {
                 <Text style={styles.oddsLabel}>Total  O{details['Total Points']}</Text>
                 <Text style={styles.oddsValue}>{details['Over Odds']}</Text>
               </View>
-
               <View style={styles.oddsBox}>
-                <Text style={styles.oddsLabel}>{details['Home Abv']} {details['Home Spread']}</Text>
-                <Text style={styles.oddsValue}>{details['Home Spread Odds']}</Text>
+                <Text style={styles.oddsLabel}>{details['Home Abv']} Win</Text>
+                <Text style={styles.oddsValue}>{details['Home ML']}</Text>
               </View>
 
               <View style={styles.oddsBox}>
@@ -47,8 +46,8 @@ const MatchupStats = () => {
               </View>
 
               <View style={styles.oddsBox}>
-                <Text style={styles.oddsLabel}>{details['Home Abv']} Win</Text>
-                <Text style={styles.oddsValue}>{details['Home ML']}</Text>
+                <Text style={styles.oddsLabel}>{details['Home Abv']} {details['Home Spread']}</Text>
+                <Text style={styles.oddsValue}>{details['Home Spread Odds']}</Text>
               </View>
 
               <Text style={styles.leagueText}>{details['League']}</Text> 
