@@ -162,6 +162,8 @@ def find_element_text_or_not_found(driver, xpath, wait_time=10):
         element = WebDriverWait(driver, wait_time).until(
             EC.visibility_of_element_located((By.CSS_SELECTOR, xpath))
         )
+        if (element.text == ''):
+            return '-999'
         return element.text
     except:
         return '-999'

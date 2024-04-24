@@ -15,12 +15,15 @@ cd ../Results/
 python summary.py
 python merger.py
 
+cd ./Scrapers/Data Processing
+python script.py
+cd ../
+
 cd ../DegenBets
-::npx eas update --auto 
+npx eas update --auto 
 cd ../
 
 :: Capture end time
 set end_time=%time%
-
 cd ../
 

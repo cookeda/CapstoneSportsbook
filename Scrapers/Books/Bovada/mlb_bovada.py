@@ -144,6 +144,8 @@ def find_element_text_or_default(driver, xpath, default='N/A', wait_time=10):
     """Finds text of a web element by xpath, returns default if not found within wait time."""
     try:
         element = WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, xpath)))
+        if (element.text == ''):
+            return default
         return element.text
     except Exception:
         return default
@@ -299,7 +301,7 @@ match = re.search(r'\((\d+)\)', number_of_games_text)
 if match: number_of_games = (int(match.group(1)))
 
 all_matchups = []
-for z in range(1, int(number_of_games)+1):
+for z in range(1, int(number_of_games)):
     print(f'{league} - {book}: {z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:

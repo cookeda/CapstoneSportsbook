@@ -167,6 +167,8 @@ def find_element_text_or_not_found(driver, xpath, wait_time=10):
         element = WebDriverWait(driver, wait_time).until(
             EC.visibility_of_element_located((By.XPATH, xpath))
         )
+        if (element.text == ''):
+            return 'N/A'
         return element.text
     except:
         return 'N/A'
