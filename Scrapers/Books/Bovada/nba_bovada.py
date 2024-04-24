@@ -12,7 +12,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
-import undetected_chromedriver as uc
+# import undetected_chromedriver as uc
 
 league = 'NBA'
 book = 'Bovada'

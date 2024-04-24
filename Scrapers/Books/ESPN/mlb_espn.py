@@ -12,7 +12,7 @@ import os
 
 
 import requests
-import undetected_chromedriver as uc
+## import undetected_chromedriver as uc
 import time
 import threading
 import pandas as pd
