@@ -301,7 +301,7 @@ match = re.search(r'\((\d+)\)', number_of_games_text)
 if match: number_of_games = (int(match.group(1)))
 
 all_matchups = []
-for z in range(1, int(number_of_games)+1):
+for z in range(1, int(number_of_games)):
     print(f'{league} - {book}: {z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:
