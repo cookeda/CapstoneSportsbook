@@ -960,3 +960,271 @@ Total execution time: 0:03:03.051403
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main 1cb263d] Automated Server Update
+ 2 files changed, 279 insertions(+), 1 deletion(-)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   5f74e51..1cb263d  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/mlb_bovada.py", line 292, in <module>
+    number_of_games = read_games_count('MLB')
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/mlb_bovada.py", line 267, in read_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/nba_bovada.py", line 294, in <module>
+    number_of_games = read_games_count('NBA')
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/nba_bovada.py", line 269, in read_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 76, in <module>
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 76, in <module>
+    main(input_path, output_path)
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 65, in main
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 22, in extract_relevant_data
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/Bovada/../lite_writer.py", line 22, in extract_relevant_data
+    data = json.load(file)
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/nba_espn.py", line 340, in <module>
+    number_of_games = read_games_count('NBA')
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/nba_espn.py", line 314, in read_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/mlb_espn.py", line 363, in <module>
+    number_of_games = read_games_count('MLB')
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/mlb_espn.py", line 327, in read_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 76, in <module>
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 76, in <module>
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 22, in extract_relevant_data
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 65, in main
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/../lite_writer.py", line 22, in extract_relevant_data
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+NBA - DK: 1/3
+PHO Suns, MIN Timberwolves
+NBA - DK: 2/3
+IND Pacers, MIL Bucks
+NBA - DK: 3/3
+DAL Mavericks, LA Clippers
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 352, in <module>
+    update_games_count('NBA', int(number_of_games))
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 200, in update_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+MLB - DK: 1/8
+CHI White Sox, MIN Twins
+MLB - DK: 2/8
+HOU Astros, CHI Cubs
+MLB - DK: 3/8
+TOR Blue Jays, KC Royals
+MLB - DK: 4/8
+ARI Diamondbacks, STL Cardinals
+MLB - DK: 5/8
+SEA Mariners, TEX Rangers
+MLB - DK: 6/8
+SD Padres, COL Rockies
+MLB - DK: 7/8
+BAL Orioles, LA Angels
+MLB - DK: 8/8
+NY Mets, SF Giants
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 336, in <module>
+    update_games_count('MLB', int(number_of_games))
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 185, in update_games_count
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 76, in <module>
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 76, in <module>
+    main(input_path, output_path)
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 65, in main
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 65, in main
+    reformatted_data = extract_relevant_data(input_file)
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 22, in extract_relevant_data
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/../lite_writer.py", line 22, in extract_relevant_data
+    data = json.load(file)
+    data = json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+Refresh done
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/master_lite.py", line 61, in <module>
+    combined_data = combine_json_files(file_paths)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/master_lite.py", line 50, in combine_json_files
+    data = read_json_file(file_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/master_lite.py", line 14, in read_json_file
+    return json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 286, in <module>
+    game_list = main()
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 206, in main
+    'NBA': Game.gameInputFromLite("../Scrapers/Data/ESPN/NBA_Lite.json", 'NBA', stats),
+  File "/media/myfiles/CapstoneSportsbook/Data Collecting Src/game.py", line 94, in gameInputFromLite
+    games_data = json.load(j)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Data written to ../DegenBets/Data/master/game_summary.json
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Results/merger.py", line 34, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Results/merger.py", line 17, in main
+    matchups = load_data(matchups_path)
+  File "/media/myfiles/CapstoneSportsbook/Results/merger.py", line 12, in load_data
+    return json.load(file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Script started at: 2024-04-23 22:00:01.869111
+Script ended at: 2024-04-23 22:02:11.652475
+Total execution time: 0:02:09.783364
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
