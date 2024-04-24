@@ -1,3 +1,87 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:be17e5fa3236835a12e56a566116309c0de1b764cf69121896c84ed47d725ad9
-size 1492
+{
+    "8d47be6d_8a2d1e91_NBA": {
+        "team_to_cover": "Miami",
+        "cover_rating": 4.0,
+        "over_score": 5.1
+    },
+    "6a3773e4_88f1c3e9_NBA": {
+        "team_to_cover": "Okla City",
+        "cover_rating": 1.9,
+        "over_score": 5.2
+    },
+    "2b1ac347_ccadb94e_MLB": {
+        "team_to_cover": "St. Louis",
+        "cover_rating": 7.3,
+        "over_score": 5.1
+    },
+    "c625b23e_486a5e3b_MLB": {
+        "team_to_cover": "NY Mets",
+        "cover_rating": 7.1,
+        "over_score": 5.4
+    },
+    "e8bdce10_fe8acdeb_MLB": {
+        "team_to_cover": "LA Angels",
+        "cover_rating": 3.1,
+        "over_score": 4.9
+    },
+    "8a2d1e91_5a31e1ff_MLB": {
+        "team_to_cover": "Boston",
+        "cover_rating": 0.6,
+        "over_score": 5.9
+    },
+    "fe2ec146_fdd0d44c_MLB": {
+        "team_to_cover": "Cincinnati",
+        "cover_rating": 1.2,
+        "over_score": 4.6
+    },
+    "c5227021_9666114b_MLB": {
+        "team_to_cover": "Pittsburgh",
+        "cover_rating": 0.9,
+        "over_score": 5.3
+    },
+    "4e2f3aa1_dd4357ee_MLB": {
+        "team_to_cover": "Washington",
+        "cover_rating": 3.1,
+        "over_score": 4.7
+    },
+    "18a9d733_16f4bf06_MLB": {
+        "team_to_cover": "Tampa Bay",
+        "cover_rating": 0.9,
+        "over_score": 5.6
+    },
+    "8b214a89_6424b504_MLB": {
+        "team_to_cover": "Oakland",
+        "cover_rating": 3.1,
+        "over_score": 4.5
+    },
+    "8d47be6d_354ef58_MLB": {
+        "team_to_cover": "Atlanta",
+        "cover_rating": 3.2,
+        "over_score": 5.6
+    },
+    "ea799920_f5328492_MLB": {
+        "team_to_cover": "Chi Sox",
+        "cover_rating": 4.3,
+        "over_score": 3.9
+    },
+    "8714ddbe_db2ee960_MLB": {
+        "team_to_cover": "Kansas City",
+        "cover_rating": 12.0,
+        "over_score": 4.9
+    },
+    "4005c299_d10f1db8_MLB": {
+        "team_to_cover": "Chi Cubs",
+        "cover_rating": 14.2,
+        "over_score": 5.1
+    },
+    "300faa7b_e841daaf_MLB": {
+        "team_to_cover": "Seattle",
+        "cover_rating": 5.9,
+        "over_score": 4.5
+    },
+    "3f4235d4_8f2512bc_MLB": {
+        "team_to_cover": "Colorado",
+        "cover_rating": 1.4,
+        "over_score": 4.3
+    }
+}

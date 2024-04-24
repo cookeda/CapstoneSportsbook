@@ -1,3 +1,62 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ddb065ca8ae7fc06f1addefa88d1f4aee1d5fc34bf8c2627fc29ee039f06c72
-size 3189
+[
+    [
+        {
+            "BetTableId": "DK_8d47be6d_8a2d1e91_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+14.5",
+                "Away Spread Odds": "−110",
+                "Away ML": "+800",
+                "Home Spread": "-14.5",
+                "Home Spread Odds": "−110",
+                "Home ML": "−1350",
+                "Total": "203.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "8d47be6d_8a2d1e91_NBA",
+            "Info Table": {
+                "Away Team": "MIA Heat",
+                "Away Team Rank Name": "Miami",
+                "Away Abv": "MIA",
+                "Away ID": "8d47be6d",
+                "Home Team": "BOS Celtics",
+                "Home Team Rank Name": "Boston",
+                "Home Abv": "BOS",
+                "Home ID": "8a2d1e91",
+                "Start Time": "7:10PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_6a3773e4_88f1c3e9_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+7.5",
+                "Away Spread Odds": "−110",
+                "Away ML": "+270",
+                "Home Spread": "-7.5",
+                "Home Spread Odds": "−110",
+                "Home ML": "−340",
+                "Total": "211.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "6a3773e4_88f1c3e9_NBA",
+            "Info Table": {
+                "Away Team": "NO Pelicans",
+                "Away Team Rank Name": "New Orleans",
+                "Away Abv": "NOP",
+                "Away ID": "6a3773e4",
+                "Home Team": "OKC Thunder",
+                "Home Team Rank Name": "Okla City",
+                "Home Abv": "OKC",
+                "Home ID": "88f1c3e9",
+                "Start Time": "9:40PM",
+                "League": "NBA"
+            }
+        }
+    ]
+]
