@@ -2,7 +2,7 @@ import json
 
 # Paths to the source JSON files
 game_summary_path = '../DegenBets/Data/master/game_summary.json'
-matchups_path = '../DegenBets/Data/master/matchups.json'
+matchups_path = '../DegenBets/Data/script/matchups.json'
 
 # Path to the output JSON file
 merged_path = '../DegenBets/Data/merged_data.json'
@@ -26,7 +26,7 @@ def main():
 
     # Save the merged data to a new file
     with open(merged_path, 'w', encoding='utf-8') as outfile:
-        json.dump(merged_data, outfile, indent=4)
+        json.dump(merged_data, outfile, indent=4, ensure_ascii=False)
 
     print("Merging complete. Data saved to 'merged_data.json'.")
 

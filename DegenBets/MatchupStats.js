@@ -25,29 +25,40 @@ const MatchupStats = () => {
               <View style={styles.oddsBox}>
                 <Text style={styles.oddsLabel}>{details['Away Abv']} Win</Text>
                 <Text style={styles.oddsValue}>{details['Away ML']}</Text>
+                <Text style={styles.oddsLabel}>{details['Away ML Book']}</Text>
               </View>
               <View style={styles.oddsBox}>
                 <Text style={styles.oddsLabel}>Total  O{details['Total Points']}</Text>
                 <Text style={styles.oddsValue}>{details['Over Odds']}</Text>
+                <Text style={styles.oddsLabel}>{details['Over Odds Book']}</Text>
+
               </View>
               <View style={styles.oddsBox}>
                 <Text style={styles.oddsLabel}>{details['Home Abv']} Win</Text>
                 <Text style={styles.oddsValue}>{details['Home ML']}</Text>
+                <Text style={styles.oddsLabel}>{details['Home ML Book']}</Text>
+
               </View>
 
               <View style={styles.oddsBox}>
                 <Text style={styles.oddsLabel}>{details['Away Abv']} {details['Away Spread']}</Text>
                 <Text style={styles.oddsValue}>{details['Away Spread Odds']}</Text>
+                <Text style={styles.oddsLabel}>{details['Away Spread Odds Book']}</Text>
+
               </View>
 
               <View style={styles.oddsBox}>
-              <Text style={styles.oddsLabel}>Total U{details['Total Points']}</Text>
+              <Text style={styles.oddsLabel}>Total  U{details['Total Points']}</Text>
                 <Text style={styles.oddsValue}>{details['Under Odds']}</Text>
+                <Text style={styles.oddsLabel}>{details['Under Odds Book']}</Text>
+
               </View>
 
               <View style={styles.oddsBox}>
                 <Text style={styles.oddsLabel}>{details['Home Abv']} {details['Home Spread']}</Text>
                 <Text style={styles.oddsValue}>{details['Home Spread Odds']}</Text>
+                <Text style={styles.oddsLabel}>{details['Home Spread Odds Book']}</Text>
+
               </View>
 
               <Text style={styles.leagueText}>{details['League']}</Text> 
