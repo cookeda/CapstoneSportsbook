@@ -20,7 +20,7 @@ Oakland @ NY Yankees (MLB): Cover Rating - 3.1, Over Score - 4.5
 Bet on Oakland to cover the spread.
 Miami @ Atlanta (MLB): Cover Rating - 5.2, Over Score - 5.6
 Bet on Atlanta to cover the spread.
-Chi Sox @ Minnesota (MLB): Cover Rating - 4.3, Over Score - 4.9
+Chi Sox @ Minnesota (MLB): Cover Rating - 4.3, Over Score - 3.9
 Bet on Chi Sox to cover the spread.
 Houston @ Chi Cubs (MLB): Cover Rating - 14.2, Over Score - 5.1
 Bet on Chi Cubs to cover the spread.
@@ -60,16 +60,16 @@ San Diego @ Colorado (MLB): Over Score - 5.3
 New Orleans @ Okla City (NBA): Over Score - 5.2
 Houston @ Chi Cubs (MLB): Over Score - 5.1
 Miami @ Boston (NBA): Over Score - 5.1
-Chi Sox @ Minnesota (MLB): Over Score - 4.9
 Toronto @ Kansas City (MLB): Over Score - 4.9
 Philadelphia @ Cincinnati (MLB): Over Score - 4.6
 Oakland @ NY Yankees (MLB): Over Score - 4.5
+Chi Sox @ Minnesota (MLB): Over Score - 3.9
 LA Dodgers @ Washington (MLB): Over Score - 3.7
 Seattle @ Texas (MLB): Over Score - 3.5
           date league  cover_rating  ...  total     home_team    away_team
 0   2024-04-24    NBA      4.013793  ...  205.5         Miami       Boston
 1   2024-04-24    NBA      1.853333  ...  211.5   New Orleans    Okla City
-2   2024-04-24    MLB      1.866667  ...    7.5       NY Mets    SF Giants
+2   2024-04-24    MLB      1.866667  ...    6.5       NY Mets    SF Giants
 3   2024-04-24    MLB      3.133333  ...    9.5     Baltimore    LA Angels
 4   2024-04-24    MLB      0.600000  ...    7.5        Boston    Cleveland
 5   2024-04-24    MLB      1.200000  ...    8.0  Philadelphia   Cincinnati
