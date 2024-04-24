@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b491b10a575d3b1c384f170c8f51c0689b665a74b2ce6d156b8adc2db555b91e
-size 361
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "C:\\Users\\Devin\\.conda\\envs\\Capstone"
+        }
+    ]
+}

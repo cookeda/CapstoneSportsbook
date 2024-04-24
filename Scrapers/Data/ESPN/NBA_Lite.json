@@ -1,3 +1,53 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d90254cafd1ddc221d44312bd877bec9a6419a6b5502dddca4f074c3a46b903f
-size 1578
+{
+    "e52c9399_f5328492_NBA": {
+        "Home Team": "Minnesota",
+        "Home Abv": "MIN",
+        "Away Team": "Phoenix",
+        "Away Abv": "PHX",
+        "Home Spread": "-7.5",
+        "Home Spread Odds": "-130",
+        "Home ML": "-1000",
+        "Away Spread": "+7.5",
+        "Away Spread Odds": "+100",
+        "Away ML": "+550",
+        "Total Points": "203.5",
+        "Over Odds": "-110",
+        "Under Odds": "-120",
+        "Time": "Round 1, Game 2: MIN Leads 1-0",
+        "League": "NBA"
+    },
+    "dc435e0a_c5227021_NBA": {
+        "Home Team": "Milwaukee",
+        "Home Abv": "MIL",
+        "Away Team": "Indiana",
+        "Away Abv": "IND",
+        "Home Spread": "+3.5",
+        "Home Spread Odds": "-120",
+        "Home ML": "+130",
+        "Away Spread": "-3.5",
+        "Away Spread Odds": "-110",
+        "Away ML": "-165",
+        "Total Points": "228.5",
+        "Over Odds": "-120",
+        "Under Odds": "-110",
+        "Time": "Round 1, Game 2: MIL Leads 1-0",
+        "League": "NBA"
+    },
+    "48eb7bb_88571b9e_NBA": {
+        "Home Team": "LA Clippers",
+        "Home Abv": "LAC",
+        "Away Team": "Dallas",
+        "Away Abv": "DAL",
+        "Home Spread": "-1.5",
+        "Home Spread Odds": "-115",
+        "Home ML": "-125",
+        "Away Spread": "+1.5",
+        "Away Spread Odds": "-105",
+        "Away ML": "+105",
+        "Total Points": "216.5",
+        "Over Odds": "-105",
+        "Under Odds": "-115",
+        "Time": "Today · 10:00 PM",
+        "League": "NBA"
+    }
+}

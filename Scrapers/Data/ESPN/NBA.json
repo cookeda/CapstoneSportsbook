@@ -1,3 +1,92 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e622edbfc4e0bb66d9018b72921d77ebdf667a07cec6ae16c51a52578f49e623
-size 3237
+[
+    [
+        {
+            "BetTableId": "ESPN_e52c9399_f5328492_NBA",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "+7.5",
+                "Away Spread Odds": "+100",
+                "Away ML": "+550",
+                "Home Spread": "-7.5",
+                "Home Spread Odds": "-130",
+                "Home ML": "-1000",
+                "Total": "203.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-120"
+            },
+            "MatchupID": "e52c9399_f5328492_NBA",
+            "Info Table": {
+                "Away Team": "PHX Suns",
+                "Away Team Rank Name": "Phoenix",
+                "Away Abv": "PHX",
+                "Away ID": "e52c9399",
+                "Home Team": "MIN Timberwolves",
+                "Home Team Rank Name": "Minnesota",
+                "Home Abv": "MIN",
+                "Home ID": "f5328492",
+                "Start Time": "Round 1, Game 2: MIN Leads 1-0",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_dc435e0a_c5227021_NBA",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "-3.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "-165",
+                "Home Spread": "+3.5",
+                "Home Spread Odds": "-120",
+                "Home ML": "+130",
+                "Total": "228.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "-110"
+            },
+            "MatchupID": "dc435e0a_c5227021_NBA",
+            "Info Table": {
+                "Away Team": "IND Pacers",
+                "Away Team Rank Name": "Indiana",
+                "Away Abv": "IND",
+                "Away ID": "dc435e0a",
+                "Home Team": "MIL Bucks",
+                "Home Team Rank Name": "Milwaukee",
+                "Home Abv": "MIL",
+                "Home ID": "c5227021",
+                "Start Time": "Round 1, Game 2: MIL Leads 1-0",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_48eb7bb_88571b9e_NBA",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "+105",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "-115",
+                "Home ML": "-125",
+                "Total": "216.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
+            },
+            "MatchupID": "48eb7bb_88571b9e_NBA",
+            "Info Table": {
+                "Away Team": "DAL Mavericks",
+                "Away Team Rank Name": "Dallas",
+                "Away Abv": "DAL",
+                "Away ID": "48eb7bb",
+                "Home Team": "LA Clippers",
+                "Home Team Rank Name": "LA Clippers",
+                "Home Abv": "LAC",
+                "Home ID": "88571b9e",
+                "Start Time": "Today \u00b7 10:00 PM",
+                "League": "NBA"
+            }
+        }
+    ]
+]
