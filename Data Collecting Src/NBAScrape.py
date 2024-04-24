@@ -30,6 +30,11 @@ def scrape(link, file, type):
     source = driver.page_source
     soup = BeautifulSoup(source, 'html.parser')
 
+    try:
+        driver.close()
+    except Exception as e:
+        print("Error closing the driver:", e)
+
     cover = {}
     for i, tr in enumerate(soup.select('#DataTables_Table_0 tbody tr'), start=1):
         team = tr.select_one('td:nth-of-type(1) a').text.strip()
@@ -46,7 +51,6 @@ def scrape(link, file, type):
     print("Done")
 
 def scrapePPG(link, file):
-    # Global Variables
     options = Options()
     options.add_argument('--headless')
     options.add_argument("--no-sandbox")
@@ -86,39 +90,6 @@ def scrapePPG(link, file):
             fp.write(json.dumps(result) + '\n')
 
     print("Done")
-
-def scrapePPG(link, file):
-    #driver = webdriver.Chrome()  # Make sure to set up your driver correctly
-    # options = Options()
-    # options.add_argument('--headless')
-    # options.add_argument('log-level=3')
-
-    # # Initialize the Service
-    # service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome()
-    driver.get(link)
-    # Initialize WebDriver without the 'desired_capabilities' argument
-#    driver = webdriver.Chrome(service=service, options=options)
-    source = driver.page_source
-    soup = BeautifulSoup(source, 'html.parser')
-
-    results = []  # Use a list to collect dictionaries
-    for tr in soup.select('#DataTables_Table_0 tbody tr')[:30]:  # Limit to first 30 rows
-        data_dict = {
-            "Team": tr.select_one('td:nth-of-type(2)').text.strip(),
-            "PPG": tr.select_one('td:nth-of-type(3)').text.strip(),
-            "Last 3": tr.select_one('td:nth-of-type(4)').text.strip(),
-            "Home": tr.select_one('td:nth-of-type(6)').text.strip(),
-            "Away": tr.select_one('td:nth-of-type(7)').text.strip(),
-        }
-        results.append(data_dict)
-
-    with open(file, 'a') as fp:
-        for result in results:
-            fp.write(json.dumps(result) + '\n')
-
-    print("Done")
-    driver.close()  # Close the browser window
 
 # Removes file if it already exists for a clean start
 def cleanfile(file):

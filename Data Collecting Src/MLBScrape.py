@@ -26,7 +26,10 @@ def scrape(link, file, type):
     driver = webdriver.Chrome(service=service, options=options)
     driver.get(link)
     source = driver.page_source
-    driver.close()
+    try:
+        driver.close()
+    except Exception as e:
+        print("Error closing the driver:", e)
     soup = BeautifulSoup(source, 'html.parser')
 
 
@@ -50,8 +53,8 @@ def scrape(link, file, type):
 def scrapePPG(link, file):
     options = Options()
     options.add_argument('--headless')
-    #options.add_argument("--no-sandbox")
-    #options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     options.add_argument('log-level=3')
 
     # Initialize the Service
