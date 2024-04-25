@@ -1607,3 +1607,14 @@ Fast-forward
  create mode 100644 data/NBA/over/PointAverages.jl
  create mode 100644 data/NBA/over/awayOver.jl
  create mode 100644 data/NBA/over/homeOver.jl
+[main 0b91179] Automated Server Update
+ 1 file changed, 125 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   416c96d..0b91179  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
