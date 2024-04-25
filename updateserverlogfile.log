@@ -1629,3 +1629,35 @@ FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main a4c520c] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   823405e..a4c520c  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   a4c520c..b5b7fbf  main       -> origin/main
+Updating a4c520c..b5b7fbf
+Fast-forward
+ Daily.py                                     |  2 +
+ README.md                                    |  6 ++-
+ Scrapers/Books/constant_refresh.py           | 14 +++----
+ Scrapers/Books/daily_refresh.py              |  4 ++
+ Scrapers/Books/lite_writer.py                |  3 ++
+ Scrapers/Books/master_lite.py                |  2 +
+ Scrapers/Data Processing/agg_combine.py      | 15 +++++++
+ Scrapers/Data Processing/aggregate_odds.py   | 21 ++++++++++
+ Scrapers/Data Processing/combine.py          |  3 ++
+ Scrapers/Data Processing/league_best_odds.py | 63 +++++++++++++++++-----------
+ Scrapers/Data Processing/script.py           |  9 ++--
+ Update.bat                                   | 29 -------------
+ Update.py                                    | 15 ++++---
+ script.bat                                   | 36 ----------------
+ test_script.bat                              | 14 -------
+ 15 files changed, 109 insertions(+), 127 deletions(-)
+ delete mode 100644 Update.bat
+ delete mode 100644 script.bat
+ delete mode 100644 test_script.bat
