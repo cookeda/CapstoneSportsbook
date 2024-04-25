@@ -183,7 +183,7 @@ def scrape_live(matchup_num):
     home_team_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/header/sp-competitor-coupon/a/div[1]/h4[2]/span[1]')
     away_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/sp-spread-outcome/span')
     away_spread_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/span[1]')
-    total_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/sp-total-outcome/span[2]')
+    total_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/sp-total-outcome/span[2]')
     over_total_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/span[1]')
     away_ml_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[2]/ul/li[1]/sp-outcome/button/span[1]')
     home_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/sp-spread-outcome/span')
@@ -397,33 +397,35 @@ lock = fasteners.InterProcessLock(lock_file_path)
 
 
 #games left in upcoming = total games - live games (manual entry as of now) 
-live_games = read_live_games('MLB')
+# Meant for live support
+# live_games = read_live_games('MLB')
 
-total_games = read_games_count('MLB')
+# total_games = read_games_count('MLB')
+# #Find number of games
+# number_of_next_games = find_element_text_or_default(driver, '/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/h4/button')
+# match = re.search(r'\((\d+)\)', number_of_next_games)
+
+# if match: upcoming_games = (int(match.group(1)))
+
+# upcoming_games = total_games - live_games
+# all_matchups = []
+
 #Find number of games
-number_of_next_games = find_element_text_or_default(driver, '/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/h4/button')
-match = re.search(r'\((\d+)\)', number_of_next_games)
+number_of_games = 0
+number_of_games_text = find_element_text_or_default(driver, '/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/h4/button')
+match = re.search(r'\((\d+)\)', number_of_games_text)
 
-if match: upcoming_games = (int(match.group(1)))
-upcoming_games = total_games - live_games
+if match: number_of_games = (int(match.group(1)))
+
 all_matchups = []
-
-
-for z in range(1, int(live_games) + 1):
-    print(f'{league} - {book}: {z}/{int(total_games)}')
-    matchup = scrape_live(z)
-    if matchup:
-        all_matchups.append(matchup)
-
-
-for z in range(1, int(upcoming_games) + 1):
-    print(f'{league} - {book}: {z + live_games}/{int(total_games)}')
+for z in range(1, int(number_of_games)):
+    print(f'{league} - {book}: {z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)
 
-
 print(f'Total matchups scraped: {len(all_matchups)}')
+driver.quit()
 
 
 #Writes to JSON
@@ -433,4 +435,3 @@ try:
 except Exception as e:
     print(f"Error writing to file: {e}")
 
-driver.quit()

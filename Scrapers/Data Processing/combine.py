@@ -19,4 +19,4 @@ def merge_and_save_data(mlb_file, nba_file, output_file):
 
 # Usage
 merge_and_save_data('Clean/NBA/Best.json', 'Clean/MLB/Best.json', 'Clean/Best Odds.json')
-merge_and_save_data('Clean/NBA/Aggregate.json', 'Clean/MLB/Aggregate.json', '../../DegenBets/Data/Cleaned/AggregateOdds.json')
+#merge_and_save_data('Clean/NBA/Aggregate.json', 'Clean/MLB/Aggregate.json', '../../DegenBets/Data/Cleaned/AggregateOdds.json')

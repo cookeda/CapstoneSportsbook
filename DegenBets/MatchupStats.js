@@ -2,25 +2,48 @@ import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import matchupsData from './Data/merged_data.json';
+// import oddsData from './Data/Cleaned/AggregateOdds.json'; // New import for odds data
 
 const MatchupStats = () => {
   const navigation = useNavigation();
   const matchups = Object.entries(matchupsData);
 
+  const isTeamToCoverAwayTeam = (teamToCover, awayTeam) => {
+    //console.log(`Checking if ${teamToCover} is the away team: ${awayTeam}`);
+    return teamToCover === awayTeam;
+  };
+  
+  // console.log(matchups);
+  
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollContainer}>
-        {matchups.map(([matchId, details], index) => (
-          <TouchableOpacity
-            key={matchId}
-            onPress={() => navigation.navigate('MatchupDetails', details)}
-            style={styles.matchupContainer}
-          >
-            <View style={styles.matchupHeader}>
-              <Text style={styles.teamName}>{details['Away Team']}</Text>
-              <Text style={styles.vsText}>@</Text>
-              <Text style={styles.teamName}>{details['Home Team']}</Text>
-            </View>
+        {matchups.map(([matchId, details], index) => {
+          // Calculate result for each matchup within the map function
+          const result = isTeamToCoverAwayTeam(details['team_to_cover'], details['Away Team']);
+          const league = details["League"];
+          // console.log(`Match ID: ${matchId}, Result: ${result}`); // Debugging output
+          return (
+            <TouchableOpacity
+              key={matchId}
+              onPress={() => navigation.navigate('MatchupDetails',{
+                        homeTeam: details['Home Team'], 
+                        homeAbv: details['Home Abv'],
+                        awayTeam: details['Away Team'],
+                        awayAbv: details['Away Abv'],
+                        over_score: details['over_score'],
+                        cover_rating: details['cover_rating'],
+                        team_to_cover: details['team_to_cover'],
+                        time: details['Time'],
+                        matchId
+                    })}              
+              style={styles.matchupContainer}
+            >
+              <View style={styles.matchupHeader}>
+                <Text style={styles.teamName}>{details['Away Team']} {result ? ' (Covering)' : ''}</Text>
+                <Text style={styles.vsText}>@</Text>
+                <Text style={styles.teamName}>{result ? '': ' (Covering)'} {details['Home Team']}</Text>
+              </View>
             <View style={styles.oddsContainer}>
               <View style={styles.oddsBox}>
                 <Text style={styles.oddsLabel}>{details['Away Abv']} Win</Text>
@@ -61,13 +84,13 @@ const MatchupStats = () => {
 
               </View>
 
-              <Text style={styles.leagueText}>{details['League']}</Text> 
+              <Text style={styles.leagueText}>{league}</Text> 
               <Text style={styles.timeText}>{details['Time']}</Text>
 
               
               <View style={styles.ratingsContainer}>
-                <Text style={styles.ratingsText}>{details['team_to_cover']}, </Text>
-                <Text style={styles.ratingsText}>Cover: {details['cover_rating']}, </Text>
+                {/* <Text style={styles.ratingsText}>Team to Cover: {details['team_to_cover']}, </Text> */}
+                <Text style={styles.ratingsText}>RATINGS Cover: {details['cover_rating']}, </Text>
                 <Text style={styles.ratingsText}>Total: {details['over_score']}</Text>
               </View>
 
@@ -75,7 +98,8 @@ const MatchupStats = () => {
             </View>
               
           </TouchableOpacity>
-        ))}
+        );
+        })}
       </ScrollView>
     </View>
   );

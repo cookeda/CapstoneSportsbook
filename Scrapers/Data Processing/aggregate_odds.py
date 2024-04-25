@@ -7,12 +7,14 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 league = sys.argv[1]
-input_files = [f'../Data/ESPN/{league}.json', f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json']
+input_files = [ f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json']
+# f'../Data/ESPN/{league}.json',
 output_file = f'Clean/{league}/Aggregate.json'
 
 def load_data(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
+
 
 def aggregate_files(input_files, output_file):
     all_games = {}
@@ -31,16 +33,16 @@ def aggregate_files(input_files, output_file):
                 all_games[matchup_id]['Bet Tables'][book_name] = game_data['Odds Table']
     
     # Prepare the output data
-    output_data = []
+    output_data = {}
     for game_id, game in all_games.items():
         bet_tables = []
         for book, odds in game['Bet Tables'].items():
             bet_tables.append({'Book Name': book, **odds})
-        output_data.append({
-            'MatchupID': game_id,
+        output_data[game_id] = {
             'Info Table': game['Info Table'],
             'Bet Tables': bet_tables
-        })
+        }
+
 
     # Write the aggregated odds to the output file
     with open(output_file, 'w', encoding='utf-8') as file:

@@ -1,46 +1,16 @@
 [
     [
         {
-            "BetTableId": "Bovada_6a3773e4_88f1c3e9_NBA",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+7.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+250",
-                "Home Spread": "-7.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-300",
-                "Total": "211.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
-            },
-            "MatchupID": "6a3773e4_88f1c3e9_NBA",
-            "Info Table": {
-                "Away Team": "New Orleans Pelicans",
-                "Away Team Rank Name": "New Orleans",
-                "Away Abv": "NOP",
-                "Away ID": "6a3773e4",
-                "Home Team": "Oklahoma City Thunder",
-                "Home Team Rank Name": "Okla City",
-                "Home Abv": "OKC",
-                "Home ID": "88f1c3e9",
-                "Start Time": "9:30 PM",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_5a31e1ff_2848484e_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "+2.0",
-                "Away Spread Odds": "-110",
-                "Away ML": "+110",
-                "Home Spread": "-2.0",
-                "Home Spread Odds": "-110",
-                "Home ML": "-130",
-                "Total": "200.0",
+                "Away Spread": "+3.0",
+                "Away Spread Odds": "-115",
+                "Away ML": "+120",
+                "Home Spread": "-3.0",
+                "Home Spread Odds": "-105",
+                "Home ML": "-140",
+                "Total": "200.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
@@ -64,13 +34,13 @@
             "BetTableId": "Bovada_65ba1118_fe2ec146_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "+4.5",
+                "Away Spread": "+5.5",
                 "Away Spread Odds": "-105",
-                "Away ML": "+175",
-                "Home Spread": "-4.5",
+                "Away ML": "+190",
+                "Home Spread": "-5.5",
                 "Home Spread Odds": "-115",
-                "Home ML": "-210",
-                "Total": "202.0",
+                "Home ML": "-230",
+                "Total": "204.5",
                 "Over Total Odds": "+100",
                 "Under Total Odds": "-120"
             },
@@ -96,11 +66,11 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.0",
                 "Away Spread Odds": "-110",
-                "Away ML": "-105",
+                "Away ML": "+100",
                 "Home Spread": "-1.0",
                 "Home Spread Odds": "-110",
-                "Home ML": "-115",
-                "Total": "216.0",
+                "Home ML": "-120",
+                "Total": "217.0",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
             },
@@ -125,12 +95,12 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+5.5",
-                "Away Spread Odds": "-115",
+                "Away Spread Odds": "-110",
                 "Away ML": "+175",
                 "Home Spread": "-5.5",
-                "Home Spread Odds": "-105",
+                "Home Spread Odds": "-110",
                 "Home ML": "-210",
-                "Total": "222.0",
+                "Total": "222.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
@@ -155,12 +125,12 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+4.5",
-                "Away Spread Odds": "-110",
+                "Away Spread Odds": "-105",
                 "Away ML": "+160",
                 "Home Spread": "-4.5",
-                "Home Spread Odds": "-110",
+                "Home Spread Odds": "-115",
                 "Home ML": "-185",
-                "Total": "208.5",
+                "Total": "211.0",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
             },
@@ -175,6 +145,66 @@
                 "Home Abv": "DAL",
                 "Home ID": "48eb7bb",
                 "Start Time": "8:00 PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_f5328492_e52c9399_NBA",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "+4.0",
+                "Away Spread Odds": "-110",
+                "Away ML": "+150",
+                "Home Spread": "-4.0",
+                "Home Spread Odds": "-110",
+                "Home ML": "-175",
+                "Total": "207.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
+            },
+            "MatchupID": "f5328492_e52c9399_NBA",
+            "Info Table": {
+                "Away Team": "Minnesota Timberwolves",
+                "Away Team Rank Name": "Minnesota",
+                "Away Abv": "MIN",
+                "Away ID": "f5328492",
+                "Home Team": "Phoenix Suns",
+                "Home Team Rank Name": "Phoenix",
+                "Home Abv": "PHX",
+                "Home ID": "e52c9399",
+                "Start Time": "10:30 PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_88f1c3e9_6a3773e4_NBA",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-1.0",
+                "Away Spread Odds": "-115",
+                "Away ML": "-120",
+                "Home Spread": "+1.0",
+                "Home Spread Odds": "-105",
+                "Home ML": "+100",
+                "Total": "209.0",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
+            },
+            "MatchupID": "88f1c3e9_6a3773e4_NBA",
+            "Info Table": {
+                "Away Team": "Oklahoma City Thunder",
+                "Away Team Rank Name": "Okla City",
+                "Away Abv": "OKC",
+                "Away ID": "88f1c3e9",
+                "Home Team": "New Orleans Pelicans",
+                "Home Team Rank Name": "New Orleans",
+                "Home Abv": "NOP",
+                "Home ID": "6a3773e4",
+                "Start Time": "3:30 PM",
                 "League": "NBA"
             }
         }
