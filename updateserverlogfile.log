@@ -1482,3 +1482,150 @@ FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main d4af0a0] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   726829c..d4af0a0  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   d4af0a0..416c96d  main       -> origin/main
+Updating d4af0a0..416c96d
+Fast-forward
+ DegenBets/Data/Cleaned/AggregateOdds.json          | 1458 +++----
+ DegenBets/Data/master/game_summary.json            |   24 +-
+ DegenBets/Data/master/matchups.json                |  127 +-
+ DegenBets/Data/master/odds.json                    |   45 +-
+ DegenBets/Data/merged_data.json                    |  447 +-
+ DegenBets/Data/script/matchups.json                |  574 +++
+ DegenBets/MatchupDetails.js                        |  112 +-
+ DegenBets/MatchupStats.js                          |   67 +-
+ OddsHistory/History/Predictions.csv                |   20 +-
+ OddsHistory/MLB.json                               |  135 +-
+ .../__pycache__/__init__.cpython-310.pyc           |  Bin 162 -> 189 bytes
+ .../__pycache__/settings.cpython-310.pyc           |  Bin 489 -> 516 bytes
+ .../spiders/__pycache__/CBB.cpython-310.pyc        |  Bin 1199 -> 1226 bytes
+ .../spiders/__pycache__/MLB.cpython-310.pyc        |  Bin 2497 -> 2524 bytes
+ .../spiders/__pycache__/NBA.cpython-310.pyc        |  Bin 2853 -> 2880 bytes
+ .../spiders/__pycache__/__init__.cpython-310.pyc   |  Bin 170 -> 197 bytes
+ OddsHistory/nba.json                               | 4418 ++++++++++----------
+ Results/SuccessData_results.txt                    |   15 +-
+ Results/game_results.txt                           |   52 +-
+ Results/merger.py                                  |    4 +-
+ Results/script.py                                  |   13 +
+ Scrapers/Books/Bovada/mlb_bovada.py                |  124 +-
+ Scrapers/Books/Bovada/nba_bovada.py                |  113 +-
+ Scrapers/Books/DK/mlb_dk.py                        |   46 +-
+ Scrapers/Books/DK/nba_dk.py                        |   47 +-
+ Scrapers/Books/ESPN/mlb_espn.py                    |   30 +-
+ Scrapers/Books/ESPN/nba_espn.py                    |   28 +-
+ Scrapers/Books/constant_refresh.py                 |    9 +-
+ Scrapers/Books/daily_refresh.py                    |    4 +-
+ Scrapers/Books/games_count.json                    |    2 +-
+ Scrapers/Books/live_games_count.json               |    5 +
+ Scrapers/Books/live_games_count.lock               |    0
+ Scrapers/Data Processing/Clean/Best Odds.json      |  636 +--
+ Scrapers/Data Processing/Clean/MLB/Aggregate.json  |  760 ++--
+ Scrapers/Data Processing/Clean/MLB/Best.json       |  376 +-
+ Scrapers/Data Processing/Clean/NBA/Aggregate.json  |  439 +-
+ Scrapers/Data Processing/Clean/NBA/Best.json       |  182 +-
+ Scrapers/Data Processing/Clean/matchups.json       |  184 +
+ Scrapers/Data Processing/agg_combine.py            |   19 +
+ Scrapers/Data Processing/aggregate_odds.py         |   12 +-
+ Scrapers/Data Processing/combine.py                |    4 +-
+ Scrapers/Data Processing/league_best_odds2.py      |   83 +
+ Scrapers/Data Processing/matchups-writer.py        |   84 +
+ Scrapers/Data Processing/script.py                 |   20 +-
+ Scrapers/Data Processing/test.json                 |  138 +
+ Scrapers/Data/Bovada/MLB.json                      |  176 +-
+ Scrapers/Data/Bovada/MLB_Lite.json                 |  126 +-
+ Scrapers/Data/Bovada/NBA.json                      |   66 +-
+ Scrapers/Data/Bovada/NBA_Lite.json                 |   66 +-
+ Scrapers/Data/DK/MLB.json                          |  172 +-
+ Scrapers/Data/DK/MLB_Lite.json                     |  144 +-
+ Scrapers/Data/DK/NBA.json                          |   28 +-
+ Scrapers/Data/DK/NBA_Lite.json                     |   28 +-
+ Scrapers/Data/ESPN/MLB.json                        |  392 +-
+ Scrapers/Data/ESPN/MLB_Lite.json                   |  293 +-
+ Scrapers/Data/ESPN/NBA.json                        |  250 +-
+ Scrapers/Data/ESPN/NBA_Lite.json                   |  163 +-
+ Update.py                                          |   10 +-
+ data/MLB/cover/10YearCover.jl                      |   30 +
+ data/MLB/cover/AllTimeCover.jl                     |   30 +
+ data/MLB/cover/CurrentSeasonCover.jl               |   30 +
+ data/MLB/cover/awayCover.jl                        |   30 +
+ data/MLB/cover/homeCover.jl                        |   30 +
+ data/MLB/over/10YearOU.jl                          |   30 +
+ data/MLB/over/AllTimeOU.jl                         |   30 +
+ data/MLB/over/CurrentSeasonOU.jl                   |   30 +
+ data/MLB/over/PointAverages.jl                     |   30 +
+ data/MLB/over/awayOver.jl                          |   30 +
+ data/MLB/over/homeOver.jl                          |   30 +
+ data/NBA/cover/10YearCover.jl                      |   60 +
+ data/NBA/cover/AllTimeCover.jl                     |   30 +
+ data/NBA/cover/CurrentSeasonCover.jl               |   60 +
+ data/NBA/cover/awayCover.jl                        |   30 +
+ data/NBA/cover/homeCover.jl                        |   30 +
+ data/NBA/over/10YearOU.jl                          |   60 +
+ data/NBA/over/AllTimeOU.jl                         |   30 +
+ data/NBA/over/CurrentSeasonOU.jl                   |   60 +
+ data/NBA/over/PointAverages.jl                     |   30 +
+ data/NBA/over/awayOver.jl                          |   30 +
+ data/NBA/over/homeOver.jl                          |   30 +
+ 80 files changed, 7862 insertions(+), 5688 deletions(-)
+ create mode 100644 DegenBets/Data/script/matchups.json
+ create mode 100644 Results/script.py
+ create mode 100644 Scrapers/Books/live_games_count.json
+ create mode 100644 Scrapers/Books/live_games_count.lock
+ create mode 100644 Scrapers/Data Processing/Clean/matchups.json
+ create mode 100644 Scrapers/Data Processing/agg_combine.py
+ create mode 100644 Scrapers/Data Processing/league_best_odds2.py
+ create mode 100644 Scrapers/Data Processing/matchups-writer.py
+ create mode 100644 Scrapers/Data Processing/test.json
+ create mode 100644 data/MLB/cover/10YearCover.jl
+ create mode 100644 data/MLB/cover/AllTimeCover.jl
+ create mode 100644 data/MLB/cover/CurrentSeasonCover.jl
+ create mode 100644 data/MLB/cover/awayCover.jl
+ create mode 100644 data/MLB/cover/homeCover.jl
+ create mode 100644 data/MLB/over/10YearOU.jl
+ create mode 100644 data/MLB/over/AllTimeOU.jl
+ create mode 100644 data/MLB/over/CurrentSeasonOU.jl
+ create mode 100644 data/MLB/over/PointAverages.jl
+ create mode 100644 data/MLB/over/awayOver.jl
+ create mode 100644 data/MLB/over/homeOver.jl
+ create mode 100644 data/NBA/cover/10YearCover.jl
+ create mode 100644 data/NBA/cover/AllTimeCover.jl
+ create mode 100644 data/NBA/cover/CurrentSeasonCover.jl
+ create mode 100644 data/NBA/cover/awayCover.jl
+ create mode 100644 data/NBA/cover/homeCover.jl
+ create mode 100644 data/NBA/over/10YearOU.jl
+ create mode 100644 data/NBA/over/AllTimeOU.jl
+ create mode 100644 data/NBA/over/CurrentSeasonOU.jl
+ create mode 100644 data/NBA/over/PointAverages.jl
+ create mode 100644 data/NBA/over/awayOver.jl
+ create mode 100644 data/NBA/over/homeOver.jl
+[main 0b91179] Automated Server Update
+ 1 file changed, 125 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   416c96d..0b91179  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 823405e] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   0b91179..823405e  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
