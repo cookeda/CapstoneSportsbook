@@ -159,7 +159,7 @@ def generate_game_id(away_team, home_team):
     hash_object = hashlib.md5(combined_string.encode())
     return hash_object.hexdigest()
 
-def find_element_text_or_not_found(driver, xpath, wait_time=10):
+def find_element_text_or_not_found(driver, xpath, wait_time=3):
     """
     Attempts to find an element on a web page using its CSS selector and returns its text. 
     If the element is not found within the specified wait time, returns a default value.
