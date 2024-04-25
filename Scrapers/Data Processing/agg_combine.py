@@ -1,6 +1,21 @@
 import json
 
 def combine_dictionaries(dict1_file, dict2_file, output_file):
+    """
+    Combines two dictionaries from separate JSON files and saves the combined dictionary to a new JSON file.
+
+    Parameters:
+    dict1_file (str): The path to the first dictionary JSON file.
+    dict2_file (str): The path to the second dictionary JSON file.
+    output_file (str): The path to the output JSON file where the combined dictionary will be saved.
+
+    Returns:
+    None. The combined dictionary is saved to the output file.
+
+    Raises:
+    FileNotFoundError: If either of the input files or the output file does not exist.
+    ValueError: If either of the input files is not a valid JSON file.
+    """
     # Load dictionaries from files
     with open(dict1_file, 'r', encoding='utf-8') as file1:
         dict1 = json.load(file1)

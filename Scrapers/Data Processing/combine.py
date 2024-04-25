@@ -6,6 +6,9 @@ def load_json(filename):
         return json.load(file)
 
 def merge_and_save_data(mlb_file, nba_file, output_file):
+    """
+    Load Best Book data and combines it.
+    """
     # Load MLB and NBA data from files
     mlb_data = load_json(mlb_file)
     nba_data = load_json(nba_file)

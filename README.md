@@ -6,12 +6,14 @@ DegenBets
 Books
 -
 - DraftKings
-- BetMGM
+- Bovada
 - ESPNBet
-- Ceasers
   - Possibles
     - Bet365
     - Pinnacle
+    - Caesers
+    - BetMGM
+
 
 Program will generate best bets then search for best odds based on the books we scrape, then provide best unit sizes.
 

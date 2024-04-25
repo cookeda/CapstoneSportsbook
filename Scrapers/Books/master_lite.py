@@ -1,5 +1,7 @@
 import json
 
+# Creates matchup list input that the app uses.
+
 def read_json_file(file_path):
     """
     Reads a JSON file and returns its contents as a dictionary.

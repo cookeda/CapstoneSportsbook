@@ -9,23 +9,22 @@ start_time = datetime.datetime.now()
 os.chdir('./Scrapers/Books')
 subprocess.run(['python', 'daily_refresh.py'])
 
-# Run Algorithms
+# Run Algorithm
 os.chdir('../../Data Collecting Src/')
-# Uncomment the following line to execute alg.py and redirect output to a text file
-# subprocess.run(['python', 'alg.py'], stdout=open('../Results/alg_results.txt', 'w'))
 subprocess.run(['python', 'game.py'], stdout=open('../Results/game_results.txt', 'w'))
 
 # Generate summary and merge results
 os.chdir('../Results/')
-subprocess.run(['python', 'summary.py'])
-subprocess.run(['python', 'merger.py'])
-# Uncomment to enable sorting matchup page (Live games not implemeneted yet)
+subprocess.run(['python', 'script.py'])
+
 # Data Processing and Updates
 os.chdir('../Scrapers/Data Processing')
 subprocess.run(['python', 'script.py'])
-#os.chdir('../../DegenBets')
+
+
 # Uncomment the following line to enable the auto update command
-#subprocess.run(['npx', 'eas', 'update', '--auto'])
+# os.chdir('../../DegenBets')
+# subprocess.run(['npx', 'eas', 'update', '--auto'])
 
 # Capture end time
 end_time = datetime.datetime.now()

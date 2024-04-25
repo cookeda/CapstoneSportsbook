@@ -17,6 +17,27 @@ def load_data(file_path):
 
 
 def aggregate_files(input_files, output_file):
+    """
+    Aggregates odds data from multiple input JSON files and writes the aggregated data to an output JSON file.
+
+    Parameters:
+    input_files (list): A list of input file paths containing odds data in JSON format.
+    output_file (str): The path of the output JSON file where the aggregated odds data will be written.
+
+    Returns:
+    None: This function does not return any value. It writes the aggregated odds data to the specified output file.
+
+    Raises:
+    ValueError: If the input file list is empty or if the specified output file does not exist.
+
+    Usage:
+    To use this function, provide a list of input file paths and the desired output file path. The function will aggregate the odds data from the input files and write the aggregated data to the specified output file.
+
+    Example:
+    input_files = ['../Data/Bovada/league.json', '../Data/DK/league.json', '../Data/ESPN/league.json']
+    output_file = 'Clean/league/Aggregate.json'
+    aggregate_files(input_files, output_file)
+    """
     all_games = {}
     # Aggregate data from each book
     for file_path in input_files:

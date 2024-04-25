@@ -1,6 +1,9 @@
 import json
 import sys
 
+# Takes data from scraper files, condenses it for faster algorithm {Note (Post Project): This was useless}
+# Only does one league at a time
+
 def extract_relevant_data(file_path):
     """
     Extracts and reformats data from a JSON file containing game information.

@@ -2,6 +2,8 @@ import os
 import subprocess
 from datetime import datetime
 
+# Daily script
+
 def main():
     # Capture start time
     start_time = datetime.now()
