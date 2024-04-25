@@ -258,7 +258,7 @@ def scrape(matchup_num):
     home_team_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/header/sp-competitor-coupon/a/div[1]/h4[2]/span[1]')
     away_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/sp-spread-outcome/span')
     away_spread_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/span[1]')
-    total_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[2]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/sp-total-outcome/span[2]')
+    total_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[2]/sp-outcome/button/sp-total-outcome/span[2]')
     over_total_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/span[1]')
     away_ml_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[2]/ul/li[1]/sp-outcome/button/span[1]')
     home_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[2]/sp-outcome/button/sp-spread-outcome/span')
@@ -345,6 +345,31 @@ def read_games_count(game_type):
                 return data.get(game_type)
         return None  # Or appropriate error handling/alternative return value
 
+def read_live_games(game_type):
+    """
+    Reads the count of games for a specific game type from a JSON file.
+
+    This function attempts to read a JSON file specified by the global variable `data_file_path`.
+    It acquires an inter-process lock before accessing the file to ensure that no other process
+    is writing to it at the same time. If the file exists and is not empty, it loads the JSON data
+    and attempts to retrieve the count of games for the specified `game_type`. If the `game_type`
+    is not found in the data, or if the file does not exist or is empty, the function returns None.
+
+    Parameters:
+    - game_type (str): The type of game for which the count is being requested. This should match
+                       one of the keys in the JSON data.
+
+    Returns:
+    - int or None: The count of games for the specified `game_type` if found, otherwise None.
+    """
+    with lock:
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return data.get(game_type)
+        return None  # Or appropriate error handling/alternative return value
+
+
 
 # Initialize the Chrome driver with undetected_chromedriver to avoid detection
 options = Options()
@@ -365,11 +390,14 @@ data_file_path = '../games_count.json'
 lock_file_path = '../games_count.lock'
 lock = fasteners.InterProcessLock(lock_file_path)
 
+data_file_path = '../live_games_count.json'
+lock_file_path = '../live_games_count.lock'
+lock = fasteners.InterProcessLock(lock_file_path)
 
 
 
 #games left in upcoming = total games - live games (manual entry as of now) 
-live_games = 1
+live_games = read_live_games('MLB')
 
 total_games = read_games_count('MLB')
 #Find number of games

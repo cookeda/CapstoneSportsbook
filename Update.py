@@ -7,7 +7,7 @@ start_time = datetime.datetime.now()
 
 # Scrape Matchups
 os.chdir('./Scrapers/Books')
-subprocess.run(['python', 'constant_refresh.py'])
+subprocess.run(['python', 'daily_refresh.py'])
 
 # Run Algorithms
 os.chdir('../../Data Collecting Src/')
@@ -21,9 +21,9 @@ subprocess.run(['python', 'summary.py'])
 subprocess.run(['python', 'merger.py'])
 # Uncomment to enable sorting matchup page (Live games not implemeneted yet)
 # Data Processing and Updates
-os.chdir('../Scrapers/Data Processing')
-subprocess.run(['python', 'script.py'])
-os.chdir('../../DegenBets')
+#os.chdir('../Scrapers/Data Processing')
+#subprocess.run(['python', 'script.py'])
+#os.chdir('../../DegenBets')
 # Uncomment the following line to enable the auto update command
 #subprocess.run(['npx', 'eas', 'update', '--auto'])
 

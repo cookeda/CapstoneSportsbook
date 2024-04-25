@@ -166,6 +166,81 @@ def check_even(text):
         return '+100'
     return text
 
+def scrape_live(matchup_num):
+    """
+    Scrapes betting information for a specific matchup from a webpage.
+
+    This function navigates to specific elements on a webpage using XPath to extract information about a sports matchup. It retrieves details such as team names, spread values, moneyline (ML) values, total points, and start times. It then uses helper functions to find additional information like team rankings and IDs based on the scraped team names. Finally, it compiles all the information into a structured dictionary.
+
+    Parameters:
+    - matchup_num (int): The number of the matchup on the webpage, used to construct the XPath for locating elements.
+
+    Returns:
+    - list: A list containing a single dictionary with detailed betting and matchup information, including team names, IDs, rankings, and betting odds.
+    """
+    # Scraping various pieces of information using XPath. Each piece corresponds to a specific betting or game detail.
+    away_team_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/header/sp-competitor-coupon/a/div[1]/h4[1]/span[1]')
+    home_team_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/header/sp-competitor-coupon/a/div[1]/h4[2]/span[1]')
+    away_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/sp-spread-outcome/span')
+    away_spread_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/span[1]')
+    total_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/sp-total-outcome/span[2]')
+    over_total_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/span[1]')
+    away_ml_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[2]/ul/li[1]/sp-outcome/button/span[1]')
+    home_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/sp-spread-outcome/span')
+    home_spread_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[2]/sp-outcome/button/span[1]')
+    under_total_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[2]/sp-outcome/button/span[1]')
+    home_ml_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[2]/ul/li[2]/sp-outcome/button/span[1]')
+    start_time_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-happening-now/div/div/div/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-score-coupon/span/span')
+    
+    # Using helper functions to find team rankings and IDs based on the scraped team names.
+    away_team_rank_name = find_team_rank_name(away_team_text)  # Name from team rankings.com
+    home_team_rank_name = find_team_rank_name(home_team_text)  # Name from team rankings.com
+    away_team_id = find_team_id(away_team_text)  # Team
+    home_team_id = find_team_id(home_team_text)  # Team
+    
+    # Generating unique identifiers for the matchup and the betting table.
+    matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
+    bet_table_id = encode_bet_table_id(matchup_id, book)
+    away_abv = find_abv(away_team_text)
+    home_abv = find_abv(home_team_text)
+
+        
+    info = [ 
+        {
+            'BetTableId': bet_table_id,
+            'Odds Table': {
+                'Book Name': book, 
+                'Away Spread': away_spread_text, 
+                'Away Spread Odds': check_even(away_spread_odds_text[1:-1]),
+                'Away ML': check_even(away_ml_text),
+                'Home Spread': home_spread_text, 
+                'Home Spread Odds': check_even(home_spread_odds_text[1:-1]),
+                'Home ML': check_even(home_ml_text),
+                'Total': total_text, 
+                'Over Total Odds': check_even(over_total_odds_text[1:-1]), 
+                'Under Total Odds': check_even(under_total_odds_text[1:-1]),
+            },
+            'MatchupID': matchup_id,
+            'Info Table': {                
+                    'Away Team': away_team_text, 
+                    'Away Team Rank Name': away_team_rank_name,
+                    'Away Abv': away_abv,
+                    'Away ID': away_team_id,
+                    'Home Team': home_team_text, 
+                    'Home Team Rank Name': home_team_rank_name,
+                    'Home Abv': home_abv,
+                    'Home ID': home_team_id, 
+                    'Start Time': start_time_text, 
+                    'League': league
+                }
+            }
+        
+    ]
+    
+    # Printing the teams involved in the matchup for logging purposes.
+    print(f'{away_team_text}, {home_team_text}')
+    return info
+
 def scrape(matchup_num):
     """
     Scrapes betting information for a specific matchup from a webpage.
@@ -183,7 +258,7 @@ def scrape(matchup_num):
     home_team_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/header/sp-competitor-coupon/a/div[1]/h4[2]/span[1]')
     away_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/sp-spread-outcome/span')
     away_spread_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[1]/sp-outcome/button/span[1]')
-    total_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[2]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/sp-total-outcome/span[2]')
+    total_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/sp-total-outcome/span[2]')
     over_total_odds_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[3]/ul/li[1]/sp-outcome/button/span[1]')
     away_ml_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[2]/ul/li[1]/sp-outcome/button/span[1]')
     home_spread_text = find_element_text_or_default(driver, f'/html/body/bx-site/ng-component/div[1]/sp-sports-ui/div/main/div/section/main/sp-path-event/div/div[2]/sp-next-events/div/div/div[2]/div/sp-coupon[{matchup_num}]/sp-multi-markets/section/section/sp-outcomes/sp-two-way-vertical[1]/ul/li[2]/sp-outcome/button/sp-spread-outcome/span')
@@ -272,6 +347,30 @@ def read_games_count(game_type):
                 return data.get(game_type)
         return None  # Or appropriate error handling/alternative return value
 
+def read_live_games(game_type):
+    """
+    Reads the count of games for a specific game type from a JSON file.
+
+    This function attempts to read a JSON file specified by the global variable `data_file_path`.
+    It acquires an inter-process lock before accessing the file to ensure that no other process
+    is writing to it at the same time. If the file exists and is not empty, it loads the JSON data
+    and attempts to retrieve the count of games for the specified `game_type`. If the `game_type`
+    is not found in the data, or if the file does not exist or is empty, the function returns None.
+
+    Parameters:
+    - game_type (str): The type of game for which the count is being requested. This should match
+                       one of the keys in the JSON data.
+
+    Returns:
+    - int or None: The count of games for the specified `game_type` if found, otherwise None.
+    """
+    with lock:
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return data.get(game_type)
+        return None  # Or appropriate error handling/alternative return value
+
 
 # Initialize the Chrome driver with undetected_chromedriver to avoid detection
 options = Options()
@@ -291,6 +390,15 @@ time.sleep(2)  # Allow some time for the page to load JavaScript content
 data_file_path = '../games_count.json'
 lock_file_path = '../games_count.lock'
 lock = fasteners.InterProcessLock(lock_file_path)
+
+data_file_path = '../live_games_count.json'
+lock_file_path = '../live_games_count.lock'
+lock = fasteners.InterProcessLock(lock_file_path)
+
+
+
+#games left in upcoming = total games - live games (manual entry as of now) 
+live_games = read_live_games('NBA')
 
 
 number_of_games = read_games_count('NBA')

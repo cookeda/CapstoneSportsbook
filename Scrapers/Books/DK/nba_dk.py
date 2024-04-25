@@ -20,6 +20,8 @@ import json
 webdriver.chrome
 logging.getLogger('scrapy').setLevel(logging.INFO)
 
+live_games = 0 
+
 league = 'NBA'
 book = 'DK'
 
@@ -208,6 +210,33 @@ def update_games_count(game_type, number_of_games):
         with open(data_file_path, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4)
 
+def update_live_games_count(game_type, number_of_games):
+    """
+    Updates the count of games for a specific game type in a JSON file.
+
+    This function first checks if the JSON file exists and has content. If it does, it loads the existing data into a dictionary. If the file does not exist or is empty, it initializes an empty dictionary. It then updates the game count for the specified game type and writes the updated dictionary back to the JSON file.
+
+    Parameters:
+    - game_type (str): The type of game (e.g., 'MLB') for which the count is being updated.
+    - number_of_games (int): The new count of games to be recorded for the specified game type.
+
+    No return value.
+    """
+    with lock:
+        # Check if the file exists and has content
+        if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
+            with open(data_file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+        else:
+            data = {}
+        
+        # Update the data
+        data[game_type] = number_of_games
+        
+        # Write the updated data back to the file
+        with open(data_file_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, indent=4)
+
 def read_games_count(game_type):
     """
     Reads the count of games for a specific game type from a JSON file.
@@ -277,6 +306,10 @@ def scrape(matchup_num):
     # Compiling all extracted information into a structured dictionary
     away_abv = find_abv(away_team_text)
     home_abv = find_abv(home_team_text)
+
+    if start_time_text == '-999': 
+        live_games =+ 1
+        print(x)
 
         
     info = [ 
@@ -349,7 +382,17 @@ lock_file_path = '../games_count.lock'
 
 lock = fasteners.InterProcessLock(lock_file_path)
 
-update_games_count('NBA', int(number_of_games))
+update_games_count('NBA', int(live_games))
+
+data_file_path = '../live_games_count.json'
+lock_file_path = '../live_games_count.lock'
+
+
+lock = fasteners.InterProcessLock(lock_file_path)
+
+update_live_games_count('NBA', (live_games))
+print(live_games)
+
         
 #Writes to JSON
 try:
