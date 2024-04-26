@@ -1941,3 +1941,14 @@ Fast-forward
  27 files changed, 1353 insertions(+), 1812 deletions(-)
  create mode 100644 Scrapers/Books/games_count.json.lock
  create mode 100644 Scrapers/Books/live_games_count.json.lock
+[main ac9735a] Automated Server Update
+ 1 file changed, 43 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ab061ae..ac9735a  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
