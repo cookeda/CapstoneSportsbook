@@ -1898,3 +1898,46 @@ FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneS
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main 3a39b82] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ea218fa..3a39b82  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('media/myfiles/CapstoneSportsbook/Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   3a39b82..ab061ae  main       -> origin/main
+Updating 3a39b82..ab061ae
+Fast-forward
+ .gitignore                                        |   4 +-
+ DegenBets/Data/Cleaned/AggregateOdds.json         | 450 ++++++++--------
+ DegenBets/Data/master/game_summary.json           |  43 +-
+ DegenBets/Data/merged_data.json                   |   2 +-
+ OddsHistory/History/Predictions.csv               |  29 +-
+ Results/game_results.txt                          | 101 ++--
+ Scrapers/Books/DK/mlb_dk.py                       | 579 ++++++++------------
+ Scrapers/Books/DK/nba_dk.py                       | 624 ++++++++--------------
+ Scrapers/Books/DK/script.py                       |  10 +-
+ Scrapers/Books/games_count.json                   |   3 +-
+ Scrapers/Books/games_count.json.lock              |   0
+ Scrapers/Books/live_games_count.json.lock         |   0
+ Scrapers/Data Processing/Clean/MLB/Aggregate.json | 352 ++++++------
+ Scrapers/Data Processing/Clean/NBA/Aggregate.json |  98 ++--
+ Scrapers/Data/Bovada/MLB.json                     | 102 ++--
+ Scrapers/Data/Bovada/MLB_Lite.json                |  89 ++-
+ Scrapers/Data/Bovada/NBA.json                     |  58 +-
+ Scrapers/Data/Bovada/NBA_Lite.json                |  58 +-
+ Scrapers/Data/DK/MLB.json                         | 128 ++---
+ Scrapers/Data/DK/MLB_Lite.json                    | 115 ++--
+ Scrapers/Data/DK/NBA.json                         |   8 +-
+ Scrapers/Data/DK/NBA_Lite.json                    |   8 +-
+ Scrapers/Data/ESPN/MLB.json                       | 136 ++---
+ Scrapers/Data/ESPN/MLB_Lite.json                  | 110 ++--
+ Scrapers/Data/ESPN/NBA.json                       |  28 +-
+ Scrapers/Data/ESPN/NBA_Lite.json                  |  28 +-
+ Update.py                                         |   2 +-
+ 27 files changed, 1353 insertions(+), 1812 deletions(-)
+ create mode 100644 Scrapers/Books/games_count.json.lock
+ create mode 100644 Scrapers/Books/live_games_count.json.lock
