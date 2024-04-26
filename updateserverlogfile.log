@@ -1874,3 +1874,16 @@ Already up to date.
  1 file changed, 11 insertions(+)
 To https://github.com/cookeda/CapstoneSportsbook.git
    5ec41e7..abfcd72  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('media/myfiles/CapstoneSportsbook/Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   f5d3692..a34f997  main       -> origin/main
+Updating f5d3692..a34f997
+Fast-forward
+ OddsHistory/NBA.json | 4518 +++++++++++++++++++++++++-------------------------
+ OddsHistory/nba.json | 2514 ----------------------------
+ 2 files changed, 2259 insertions(+), 4773 deletions(-)
+ delete mode 100644 OddsHistory/nba.json
