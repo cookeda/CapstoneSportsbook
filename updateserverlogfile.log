@@ -1852,3 +1852,10 @@ Already up to date.
  1 file changed, 7 insertions(+)
 To https://github.com/cookeda/CapstoneSportsbook.git
    ae36015..0150241  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('media/myfiles/CapstoneSportsbook/Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
