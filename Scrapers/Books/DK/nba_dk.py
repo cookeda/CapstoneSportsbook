@@ -382,7 +382,7 @@ lock_file_path = '../games_count.lock'
 
 lock = fasteners.InterProcessLock(lock_file_path)
 
-update_games_count('NBA', int(live_games))
+update_games_count('NBA', int(number_of_games))
 
 data_file_path = '../live_games_count.json'
 lock_file_path = '../live_games_count.lock'
