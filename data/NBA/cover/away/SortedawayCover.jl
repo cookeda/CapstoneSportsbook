@@ -8,12 +8,12 @@
 {"Team": "Charlotte", "Cover %": "36.6%"} -12.4
 {"Team": "Chicago", "Cover %": "54.8%"} -3.2
 {"Team": "Chicago", "Cover %": "54.8%"} -3.2
-{"Team": "Cleveland", "Cover %": "47.5%"} 0.9
-{"Team": "Cleveland", "Cover %": "47.5%"} 0.9
+{"Team": "Cleveland", "Cover %": "46.3%"} +0.0
+{"Team": "Cleveland", "Cover %": "46.3%"} +0.0
 {"Team": "Dallas", "Cover %": "65.1%"} 0.5
 {"Team": "Dallas", "Cover %": "65.1%"} 0.5
-{"Team": "Denver", "Cover %": "42.5%"} 0.7
-{"Team": "Denver", "Cover %": "42.5%"} 0.7
+{"Team": "Denver", "Cover %": "43.9%"} 0.9
+{"Team": "Denver", "Cover %": "43.9%"} 0.9
 {"Team": "Detroit", "Cover %": "52.4%"} -10.1
 {"Team": "Detroit", "Cover %": "52.4%"} -10.1
 {"Team": "Golden State", "Cover %": "64.3%"} 3.9
@@ -36,8 +36,8 @@
 {"Team": "Minnesota", "Cover %": "53.7%"} 4.7
 {"Team": "New Orleans", "Cover %": "59.5%"} 5.4
 {"Team": "New Orleans", "Cover %": "59.5%"} 5.4
-{"Team": "New York", "Cover %": "56.4%"} 3.2
-{"Team": "New York", "Cover %": "56.4%"} 3.2
+{"Team": "New York", "Cover %": "55.0%"} 2.9
+{"Team": "New York", "Cover %": "55.0%"} 2.9
 {"Team": "Okla City", "Cover %": "47.5%"} 1.9
 {"Team": "Okla City", "Cover %": "47.5%"} 1.9
 {"Team": "Orlando", "Cover %": "53.5%"} -3.9
