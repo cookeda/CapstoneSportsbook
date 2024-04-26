@@ -8,6 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 import fasteners
 import os
+import sys
 
 import requests
 # import undetected_chromedriver as uc
@@ -19,6 +20,7 @@ import json
 
 league = 'NBA'
 book = 'ESPN'
+
 
 with open('../../../Dictionary/Pro/NBA.json', 'r', encoding='utf-8') as file:
     team_mappings = json.load(file)
@@ -172,6 +174,7 @@ def find_element_text_or_not_found(driver, xpath, wait_time=2):
         return element.text
     except:
         return 'N/A'
+        
 
 #Espn has +100 odds set to 'Even'
 def check_even(text):
@@ -202,67 +205,70 @@ def scrape(matchup_num):
     Returns:
     - list: A list containing a single dictionary with the scraped data for the matchup. The dictionary includes keys for the betting table ID, odds table, matchup ID, and information table, each containing relevant details extracted from the web page.
     """
-    # Extract text for away and home teams, their spreads, money lines, total points, and start times using specific XPaths
-    away_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[1]/button/div/div/div[1]')
-    home_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[1]/button/div/div/div[1]')
-    away_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[1]/span[1]')
-    away_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[1]/span[2]')
-    total_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[2]/span[1]')
-    over_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[2]/span[2]')
-    away_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[3]/span[2]')
-    home_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[1]/span[1]')
-    home_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[1]/span[2]')
-    under_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[2]/span[2]')
-    home_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[3]/span[2]')
-    start_time_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[1]/button/span[1]')
+    try:
+        # Extract text for away and home teams, their spreads, money lines, total points, and start times using specific XPaths
+        away_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[1]/button/div/div/div[1]')
+        home_team_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[1]/button/div/div/div[1]')
+        away_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[1]/span[1]')
+        away_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[1]/span[2]')
+        total_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[2]/span[1]')
+        over_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[2]/span[2]')
+        away_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[3]/span[2]')
+        home_spread_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[1]/span[1]')
+        home_spread_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[1]/span[2]')
+        under_total_odds_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[2]/span[2]')
+        home_ml_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[3]/span[2]')
+        start_time_text = find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[1]/button/span[1]')
 
-    # Find team rank names and IDs using the extracted team names
-    away_team_rank_name = find_team_rank_name(away_team_text)  # Name from team rankings.com
-    home_team_rank_name = find_team_rank_name(home_team_text)  # Name from team rankings.com
-    away_team_id = find_team_id(away_team_text)  # Team ID for away team
-    home_team_id = find_team_id(home_team_text)  # Team ID for home team
-    matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
-    bet_table_id = encode_bet_table_id(matchup_id, book)
-    
-    # Construct the information dictionary
-    away_abv = find_abv(away_team_text)
-    home_abv = find_abv(home_team_text)
-
+        # Find team rank names and IDs using the extracted team names
+        away_team_rank_name = find_team_rank_name(away_team_text)  # Name from team rankings.com
+        home_team_rank_name = find_team_rank_name(home_team_text)  # Name from team rankings.com
+        away_team_id = find_team_id(away_team_text)  # Team ID for away team
+        home_team_id = find_team_id(home_team_text)  # Team ID for home team
+        matchup_id = encode_matchup_id(away_team_id, home_team_id, league)
+        bet_table_id = encode_bet_table_id(matchup_id, book)
         
-    info = [ 
-        {
-            'BetTableId': bet_table_id,
-            'Odds Table': {
-                'Book Name': book, 
-                'Away Spread': away_spread_text, 
-                'Away Spread Odds': check_even(away_spread_odds_text),
-                'Away ML': check_even(away_ml_text),
-                'Home Spread': home_spread_text, 
-                'Home Spread Odds': check_even(home_spread_odds_text),
-                'Home ML': check_even(home_ml_text),
-                'Total': total_text[2:],  # Remove the 'O/U' prefix from the total points text
-                'Over Total Odds': check_even(over_total_odds_text), 
-                'Under Total Odds': check_even(under_total_odds_text),
-            },
-            'MatchupID': matchup_id,
-            'Info Table': {                
-                    'Away Team': away_team_text, 
-                    'Away Team Rank Name': away_team_rank_name,
-                    'Away Abv': away_abv,
-                    'Away ID': away_team_id,
-                    'Home Team': home_team_text, 
-                    'Home Team Rank Name': home_team_rank_name,
-                    'Home Abv': home_abv,
-                    'Home ID': home_team_id, 
-                    'Start Time': start_time_text, 
-                    'League': league
+        # Construct the information dictionary
+        away_abv = find_abv(away_team_text)
+        home_abv = find_abv(home_team_text)
+
+            
+        info = [ 
+            {
+                'BetTableId': bet_table_id,
+                'Odds Table': {
+                    'Book Name': book, 
+                    'Away Spread': away_spread_text, 
+                    'Away Spread Odds': check_even(away_spread_odds_text),
+                    'Away ML': check_even(away_ml_text),
+                    'Home Spread': home_spread_text, 
+                    'Home Spread Odds': check_even(home_spread_odds_text),
+                    'Home ML': check_even(home_ml_text),
+                    'Total': total_text[2:],  # Remove the 'O/U' prefix from the total points text
+                    'Over Total Odds': check_even(over_total_odds_text), 
+                    'Under Total Odds': check_even(under_total_odds_text),
+                },
+                'MatchupID': matchup_id,
+                'Info Table': {                
+                        'Away Team': away_team_text, 
+                        'Away Team Rank Name': away_team_rank_name,
+                        'Away Abv': away_abv,
+                        'Away ID': away_team_id,
+                        'Home Team': home_team_text, 
+                        'Home Team Rank Name': home_team_rank_name,
+                        'Home Abv': home_abv,
+                        'Home ID': home_team_id, 
+                        'Start Time': start_time_text, 
+                        'League': league
+                    }
                 }
-            }
-        
-    ]
-    # Print the teams involved in the matchup for logging purposes
-    print(f'{away_team_text}, {home_team_text}')
-    return info
+            
+        ]
+        # Print the teams involved in the matchup for logging purposes
+        print(f'{away_team_text}, {home_team_text}')
+        return info
+    except Exception as e:
+        print(f"Error scraping team {away_team_text}, {home_team_text}")
 
 
 
@@ -337,7 +343,6 @@ time.sleep(3)  # Reduced sleep time after initial load
 data_file_path = '../games_count.json'
 lock_file_path = '../games_count.lock'
 lock = fasteners.InterProcessLock(lock_file_path)
-
 
 number_of_games = read_games_count('NBA')
 all_matchups = []
