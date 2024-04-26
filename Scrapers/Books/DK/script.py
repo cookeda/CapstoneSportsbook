@@ -1,15 +1,19 @@
 import subprocess
 import time
 
+print("Scraping DraftKings for: NBA, MLB")
+
 #process1 = subprocess.Popen(["python", "cbb_dk.py"]) # Create and launch process pop.py using python interpreter
 process2 = subprocess.Popen(["python", "mlb_dk.py"])
+time.sleep(1)
 process3 = subprocess.Popen(["python", "nba_dk.py"])
 
-print("Scraping DraftKings for: NBA, MLB")
 #process1.wait()
 process2.wait()
 process3.wait()
-time.sleep(3)
+
+print("progress bar only shows mlb right now")
+
 
 # After scraping is complete, process the data with lite_writer.py
 process5 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/DK/NBA.json", "../../Data/DK/NBA_Lite.json"])
@@ -18,6 +22,6 @@ process4 = subprocess.Popen(["python", "../lite_writer.py", "../../Data/DK/MLB.j
 
 process5.wait()
 process4.wait()
-#iprocess6 = subprocess.Popen(["python", "../master_lite.py"])
+#process6 = subprocess.Popen(["python", "../master_lite.py"])
 
 print("DK Data processing complete.")

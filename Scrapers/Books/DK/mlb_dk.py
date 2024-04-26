@@ -1,9 +1,12 @@
+import fasteners
 import hashlib
 import json
 import logging
 import os
+import sys
 import time
 import timeit
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -11,7 +14,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-import fasteners
 
 
 class TeamMappingsLoader:
@@ -19,6 +21,14 @@ class TeamMappingsLoader:
     def load_team_mappings(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             return json.load(file)
+
+class ProgressPrinter:
+    @staticmethod
+    def print_progress(current, total, away_team, home_team, book, league):
+        progress = (current / total) * 100
+        # Clear the line and print the progress bar with team names
+        sys.stdout.write(f'\r{book}-{league} Progress: [{progress:>3.0f}%] {current}/{total} - ({away_team} @ {home_team})' + ' ' * 10)
+        sys.stdout.flush()
 
 class WebScraper:
     def __init__(self, league, book, team_mappings):
@@ -51,7 +61,7 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown"
 
-    def find_element_text_or_not_found(self, driver, xpath, wait_time=2):
+    def find_element_text_or_not_found(self, driver, xpath, wait_time=1):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, xpath))
@@ -79,6 +89,7 @@ class WebScraper:
         under_total_odds_text = self.find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({y}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
         home_ml_text = self.find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({y}) > td:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)')
         start_time_text = self.find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2)')
+
 
         away_team_rank_name = self.find_team_rank_name(away_team_text)
         home_team_rank_name = self.find_team_rank_name(home_team_text)
@@ -124,8 +135,8 @@ class WebScraper:
                 }
 
         ]
-        print(f'{away_team_text}, {home_team_text}')
-        return info
+#        print(f'{away_team_text}, {home_team_text}')
+        return info, away_abv, home_abv
 
     def init_driver(self):
         options = Options()
@@ -139,16 +150,27 @@ class WebScraper:
     def scrape_all(self):
         driver = self.init_driver()
         driver.get("https://sportsbook.draftkings.com/leagues/baseball/mlb")
-        time.sleep(3)
-        specific_tbody = driver.find_element(By.CSS_SELECTOR, '.parlay-card-10-a')
-        num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
-        number_of_games = num_rows / 2
-        all_matchups = []
+
+        #Wait for table element to appear
+        specific_tbody = WebDriverWait(driver, 5).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, '.parlay-card-10-a'))
+        )
+
+        num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr')) # Total number of teams playing today
+        number_of_games = num_rows / 2 # Total number of games today
+        all_matchups = [] # Empty container to store all matchup data
+
+        progress_printer = ProgressPrinter()
+        progress_printer.print_progress(0, int(number_of_games), away_team='Away Team', home_team='Home Team', book=self.book, league=self.league)
+
         for z in range(1, int(number_of_games) + 1):
-            print(f'{self.league} - {self.book}: {z}/{int(number_of_games)}')
-            matchup = self.scrape(driver, z)
+            #print(f'{self.league} - {self.book}: {z}/{int(number_of_games)}')
+            matchup, away_team, home_team = self.scrape(driver, z)
+            progress_printer.print_progress(z, int(number_of_games), away_team=away_team, home_team=home_team, book=self.book, league=self.league) # Print
+
             if matchup:
                 all_matchups.append(matchup)
+
         driver.quit()
         return all_matchups
 
@@ -179,6 +201,10 @@ class DataUpdater:
 
 def main():
     start = timeit.default_timer()
+
+    webdriver.chrome
+    logging.getLogger('scrapy').setLevel(logging.INFO)
+
     # Load team mappings
     team_mappings = TeamMappingsLoader.load_team_mappings('../../../Dictionary/Pro/MLB.json')
 
@@ -198,7 +224,7 @@ def main():
         print(f"Error writing to file: {e}")
     stop = timeit.default_timer()
 
-    print('Time: ', stop - start)  
+    # print('Time: ', stop - start)  
 
 if __name__ == '__main__':
     main()
