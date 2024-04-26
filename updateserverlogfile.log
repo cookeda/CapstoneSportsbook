@@ -1887,3 +1887,14 @@ Fast-forward
  OddsHistory/nba.json | 2514 ----------------------------
  2 files changed, 2259 insertions(+), 4773 deletions(-)
  delete mode 100644 OddsHistory/nba.json
+[main ea218fa] Automated Server Update
+ 1 file changed, 13 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   a34f997..ea218fa  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('media/myfiles/CapstoneSportsbook/Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
