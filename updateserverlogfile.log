@@ -2143,3 +2143,79 @@ FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneS
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main e68f354] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ef2823c..e68f354  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   e68f354..ad43897  main       -> origin/main
+Updating e68f354..ad43897
+Fast-forward
+ .gitignore                                         |    2 -
+ Daily.py                                           |   93 +-
+ DegenBets/Data/Cleaned/AggregateOdds.json          | 1208 +++---
+ DegenBets/Data/master/game_summary.json            |  121 +-
+ DegenBets/Data/merged_data.json                    |   64 +-
+ OddsHistory/History/CumulativeResults.csv          |   16 +
+ OddsHistory/History/MatchupHistory.csv             |   30 +-
+ OddsHistory/History/Predictions.csv                |   35 +-
+ OddsHistory/MLB.json                               | 1096 +++---
+ OddsHistory/NBA.json                               | 4074 ++++++++++----------
+ .../__pycache__/__init__.cpython-310.pyc           |  Bin 189 -> 189 bytes
+ .../__pycache__/settings.cpython-310.pyc           |  Bin 516 -> 516 bytes
+ .../spiders/__pycache__/CBB.cpython-310.pyc        |  Bin 1226 -> 1226 bytes
+ .../spiders/__pycache__/MLB.cpython-310.pyc        |  Bin 2524 -> 2524 bytes
+ .../spiders/__pycache__/NBA.cpython-310.pyc        |  Bin 2880 -> 2880 bytes
+ .../spiders/__pycache__/__init__.cpython-310.pyc   |  Bin 197 -> 197 bytes
+ Results/SuccessData_results.txt                    |  Bin 1318 -> 2870 bytes
+ Results/game_results.txt                           |  169 +-
+ Scrapers/Books/DK/dk_searcher.py                   |   10 +-
+ Scrapers/Books/DK/mlb_dk.py                        |   18 +-
+ Scrapers/Books/DK/nba_dk.py                        |  188 +-
+ Scrapers/Books/ESPN/mlb_espn.py                    |  539 +--
+ Scrapers/Books/ESPN/nba_espn.py                    |  857 ++--
+ Scrapers/Books/games_count.json                    |    3 +-
+ Scrapers/Data Processing/Clean/MLB/Aggregate.json  |  864 +++--
+ Scrapers/Data Processing/Clean/NBA/Aggregate.json  |  346 +-
+ Scrapers/Data/Bovada/MLB.json                      |  424 +-
+ Scrapers/Data/Bovada/MLB_Lite.json                 |  288 +-
+ Scrapers/Data/Bovada/NBA.json                      |  228 +-
+ Scrapers/Data/Bovada/NBA_Lite.json                 |  148 +-
+ Scrapers/Data/DK/MLB.json                          |  444 ++-
+ Scrapers/Data/DK/MLB_Lite.json                     |  310 +-
+ Scrapers/Data/DK/NBA.json                          |  130 +-
+ Scrapers/Data/DK/NBA_Lite.json                     |   87 +-
+ Scrapers/Data/ESPN/MLB.json                        |  450 ++-
+ Scrapers/Data/ESPN/MLB_Lite.json                   |  327 +-
+ Scrapers/Data/ESPN/NBA.json                        |  116 +-
+ Scrapers/Data/ESPN/NBA_Lite.json                   |   82 +-
+ Update.py                                          |    2 +-
+ data/MLB/cover/away/SortedawayCover.jl             |   28 +-
+ data/MLB/cover/general/SortedAllTimeCover.jl       |   20 +-
+ data/MLB/cover/general/SortedCurrentSeasonCover.jl |   56 +-
+ data/MLB/cover/home/SortedhomeCover.jl             |   28 +-
+ data/MLB/over/away/SortedawayOver.jl               |   28 +-
+ data/MLB/over/general/SortedAllTimeOU.jl           |   10 +-
+ data/MLB/over/general/SortedCurrentSeasonOU.jl     |   52 +-
+ data/MLB/over/general/SortedPointAverages.jl       |   56 +-
+ data/MLB/over/home/SortedhomeOver.jl               |   26 +-
+ data/NBA/cover/away/SortedawayCover.jl             |   12 +-
+ data/NBA/cover/general/Sorted10YearCover.jl        |   16 +-
+ data/NBA/cover/general/SortedAllTimeCover.jl       |    8 +-
+ data/NBA/cover/general/SortedCurrentSeasonCover.jl |   24 +-
+ data/NBA/cover/home/SortedhomeCover.jl             |   36 +-
+ data/NBA/over/away/SortedawayOver.jl               |   12 +-
+ data/NBA/over/general/Sorted10YearOU.jl            |   16 +-
+ data/NBA/over/general/SortedAllTimeOU.jl           |   12 +-
+ data/NBA/over/general/SortedCurrentSeasonOU.jl     |   24 +-
+ data/NBA/over/general/SortedPointAverages.jl       |   42 +-
+ data/NBA/over/home/SortedhomeOver.jl               |   12 +-
+ run_daily_final.sh                                 |    5 +-
+ run_update.sh                                      |    6 +-
+ 61 files changed, 6911 insertions(+), 6387 deletions(-)
+ mode change 100755 => 100644 Daily.py
