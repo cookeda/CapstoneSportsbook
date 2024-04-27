@@ -14,6 +14,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from tqdm import tqdm
+
 
 class TeamMappingsLoader:
     @staticmethod
@@ -173,14 +175,14 @@ class WebScraper:
         number_of_games = self.read_games_count('MLB', data_file_path)
         all_matchups = []
 
-        progress_printer = ProgressPrinter()
-        progress_printer.print_progress(0, int(number_of_games), away_team='Away Team', home_team='Home Team', book=self.book, league=self.league)
+#        progress_printer = ProgressPrinter()
+#        progress_printer.print_progress(0, int(number_of_games), away_team='Away Team', home_team='Home Team', book=self.book, league=self.league)
 
-        for z in range(1, int(number_of_games)+1):
+        for z in tqdm(range(1, int(number_of_games)+1)):
             # print(f'{self.league} - {self.book}: {z}/{int(number_of_games)}')
             # matchup = self.scrape(driver, z)
             matchup, away_team, home_team = self.scrape(driver, z)
-            progress_printer.print_progress(z, int(number_of_games), away_team=away_team, home_team=home_team, book=self.book, league=self.league) # Print
+            #progress_printer.print_progress(z, int(number_of_games), away_team=away_team, home_team=home_team, book=self.book, league=self.league) # Print
 
 
             if matchup:
@@ -190,9 +192,6 @@ class WebScraper:
 
         driver.quit()
         return all_matchups
-
-
-        #Writes to JSON
 
 def main():
     start = timeit.default_timer()

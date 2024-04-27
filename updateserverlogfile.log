@@ -1898,3 +1898,248 @@ FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneS
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main 3a39b82] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ea218fa..3a39b82  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('media/myfiles/CapstoneSportsbook/Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   3a39b82..ab061ae  main       -> origin/main
+Updating 3a39b82..ab061ae
+Fast-forward
+ .gitignore                                        |   4 +-
+ DegenBets/Data/Cleaned/AggregateOdds.json         | 450 ++++++++--------
+ DegenBets/Data/master/game_summary.json           |  43 +-
+ DegenBets/Data/merged_data.json                   |   2 +-
+ OddsHistory/History/Predictions.csv               |  29 +-
+ Results/game_results.txt                          | 101 ++--
+ Scrapers/Books/DK/mlb_dk.py                       | 579 ++++++++------------
+ Scrapers/Books/DK/nba_dk.py                       | 624 ++++++++--------------
+ Scrapers/Books/DK/script.py                       |  10 +-
+ Scrapers/Books/games_count.json                   |   3 +-
+ Scrapers/Books/games_count.json.lock              |   0
+ Scrapers/Books/live_games_count.json.lock         |   0
+ Scrapers/Data Processing/Clean/MLB/Aggregate.json | 352 ++++++------
+ Scrapers/Data Processing/Clean/NBA/Aggregate.json |  98 ++--
+ Scrapers/Data/Bovada/MLB.json                     | 102 ++--
+ Scrapers/Data/Bovada/MLB_Lite.json                |  89 ++-
+ Scrapers/Data/Bovada/NBA.json                     |  58 +-
+ Scrapers/Data/Bovada/NBA_Lite.json                |  58 +-
+ Scrapers/Data/DK/MLB.json                         | 128 ++---
+ Scrapers/Data/DK/MLB_Lite.json                    | 115 ++--
+ Scrapers/Data/DK/NBA.json                         |   8 +-
+ Scrapers/Data/DK/NBA_Lite.json                    |   8 +-
+ Scrapers/Data/ESPN/MLB.json                       | 136 ++---
+ Scrapers/Data/ESPN/MLB_Lite.json                  | 110 ++--
+ Scrapers/Data/ESPN/NBA.json                       |  28 +-
+ Scrapers/Data/ESPN/NBA_Lite.json                  |  28 +-
+ Update.py                                         |   2 +-
+ 27 files changed, 1353 insertions(+), 1812 deletions(-)
+ create mode 100644 Scrapers/Books/games_count.json.lock
+ create mode 100644 Scrapers/Books/live_games_count.json.lock
+[main ac9735a] Automated Server Update
+ 1 file changed, 43 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ab061ae..ac9735a  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main dd43909] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ac9735a..dd43909  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main bab7ff3] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   dd43909..bab7ff3  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 7240018] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   bab7ff3..7240018  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 9999f5e] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   7240018..9999f5e  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 8174f88] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   9999f5e..8174f88  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main f659ba5] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   8174f88..f659ba5  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 737d213] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   f659ba5..737d213  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir('./Scrapers/Books')
+FileNotFoundError: [Errno 2] No such file or directory: './Scrapers/Books'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   737d213..fa97124  main       -> origin/main
+Updating 737d213..fa97124
+Fast-forward
+ Update.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[main a264810] Automated Server Update
+ 1 file changed, 15 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   fa97124..a264810  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main eb00f7f] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   a264810..eb00f7f  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main d66d1e9] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   eb00f7f..d66d1e9  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main ed60fb3] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   d66d1e9..ed60fb3  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 7ef5faf] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ed60fb3..7ef5faf  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main ad44428] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   7ef5faf..ad44428  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main e9b67aa] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ad44428..e9b67aa  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 8c74d85] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   e9b67aa..8c74d85  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main f5e1982] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   8c74d85..f5e1982  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main ef2823c] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   f5e1982..ef2823c  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.

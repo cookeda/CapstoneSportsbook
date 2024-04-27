@@ -13,6 +13,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from tqdm import tqdm 
 from webdriver_manager.chrome import ChromeDriverManager
 
 
@@ -178,13 +179,13 @@ class WebScraper:
         number_of_games = num_rows / 2 # Total number of games today
         all_matchups = [] # Empty container to store all matchup data
 
-        progress_printer = ProgressPrinter()
-        progress_printer.print_progress(0, int(number_of_games), away_team='Away Team', home_team='Home Team', book=self.book, league=self.league)
+        #progress_printer = ProgressPrinter()
+        #progress_printer.print_progress(0, int(number_of_games), away_team='Away Team', home_team='Home Team', book=self.book, league=self.league)
 
-        for z in range(1, int(number_of_games) + 1):
+        for z in tqdm(range(1, int(number_of_games) + 1)):
             #print(f'{self.league} - {self.book}: {z}/{int(number_of_games)}')
             matchup, away_team, home_team = self.scrape(driver, z)
-            progress_printer.print_progress(z, int(number_of_games), away_team=away_team, home_team=home_team, book=self.book, league=self.league) # Print
+            #progress_printer.print_progress(z, int(number_of_games), away_team=away_team, home_team=home_team, book=self.book, league=self.league) # Print
 
             if matchup:
                 all_matchups.append(matchup)
