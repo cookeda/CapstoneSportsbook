@@ -172,7 +172,7 @@ class WebScraper:
                 all_matchups.append(matchup)
 
         driver.quit()
-        return all_matchups
+        return all_matchups, number_of_games
 
 class DataUpdater:
     @staticmethod
@@ -212,8 +212,8 @@ def main():
     scraper = WebScraper('MLB', 'DK', team_mappings)
 
     # Scraping and updating data
-    all_matchups = scraper.scrape_all()
-    DataUpdater.update_games_count('../games_count.json', scraper.book, len(all_matchups))
+    all_matchups, number_of_games = scraper.scrape_all()
+    DataUpdater.update_games_count('../games_count.json', scraper.book, len(all_matchups)-1)
     DataUpdater.update_live_games_count('../live_games_count.json', scraper.league, scraper.live_games)
 
     # Writing to file
