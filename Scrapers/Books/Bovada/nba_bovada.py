@@ -12,6 +12,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+from tqdm import tqdm
+
 # import undetected_chromedriver as uc
 
 league = 'NBA'
@@ -238,7 +240,7 @@ def scrape_live(matchup_num):
     ]
     
     # Printing the teams involved in the matchup for logging purposes.
-    print(f'{away_team_text}, {home_team_text}')
+    #print(f'{away_team_text}, {home_team_text}')
     return info
 
 def scrape(matchup_num):
@@ -315,7 +317,7 @@ def scrape(matchup_num):
     ]
     
     # Printing the teams involved in the matchup for logging purposes.
-    print(f'{away_team_text}, {home_team_text}')
+    #print(f'{away_team_text}, {home_team_text}')
     return info
 
 def hash_teams(away_team, home_team):
@@ -411,13 +413,13 @@ match = re.search(r'\((\d+)\)', number_of_games_text)
 if match: number_of_games = (int(match.group(1)))
 
 all_matchups = []
-for z in range(1, int(number_of_games)):
-    print(f'{league} - {book}: {z}/{int(number_of_games)}')
+for z in tqdm(range(1, int(number_of_games)+1)):
+    #print(f'{league} - {book}: {z}/{int(number_of_games)}')
     matchup = scrape(z)
     if matchup:
         all_matchups.append(matchup)
 
-print(f'Total matchups scraped: {len(all_matchups)}')
+#print(f'Total matchups scraped: {len(all_matchups)}')
 driver.quit()
 
 

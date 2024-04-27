@@ -1,18 +1,16 @@
 import subprocess
 import time
 
-print("Scraping DraftKings for: NBA, MLB")
 
 #process1 = subprocess.Popen(["python", "cbb_dk.py"]) # Create and launch process pop.py using python interpreter
-process2 = subprocess.Popen(["python", "mlb_dk.py"])
-time.sleep(1)
 process3 = subprocess.Popen(["python", "nba_dk.py"])
+process2 = subprocess.Popen(["python", "mlb_dk.py"])
+print("Scraping DraftKings for: NBA, MLB")
 
 #process1.wait()
 process2.wait()
 process3.wait()
-
-print("progress bar only shows mlb right now")
+time.sleep(3)
 
 
 # After scraping is complete, process the data with lite_writer.py
