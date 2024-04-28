@@ -57,12 +57,12 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown" 
         
-    def find_element_text_or_not_found(self, driver, xpath, wait_time=3):
+    def find_element_text_or_not_found(self, driver, xpath, wait_time=2):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.XPATH, xpath))
             )
-            if (element.text == ''):
+            if (element.text == '' or element.text == '--'):
                 return '-999'
             return element.text
         except:

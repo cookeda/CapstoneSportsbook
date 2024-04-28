@@ -57,7 +57,7 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown" 
         
-    def find_element_text_or_default(self, driver, xpath, wait_time=3):
+    def find_element_text_or_default(self, driver, xpath, wait_time=2):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.XPATH, xpath))
