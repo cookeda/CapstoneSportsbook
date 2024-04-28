@@ -57,7 +57,7 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown" 
         
-    def find_element_text_or_default(self, driver, xpath, wait_time=1):
+    def find_element_text_or_default(self, driver, xpath, wait_time=3):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.XPATH, xpath))
@@ -68,22 +68,6 @@ class WebScraper:
         except:
             return '-999'
         
-        
-    def check_even(text):
-        """
-        Checks if the provided text represents an 'Even' betting odd and converts it to a standard numerical format.
-
-        In betting terminology, 'Even' odds mean that the potential win is the same amount as the stake. This function converts the textual representation 'Even' to its numerical equivalent '+100', which is the standard format used in betting to represent even odds. If the text does not represent 'Even' odds, it is returned unchanged.
-
-        Parameters:
-        - text (str): The text to check for 'Even' odds.
-
-        Returns:
-        - str: Returns '+100' if the input text is 'Even', otherwise returns the original text.
-        """
-        if text == 'EVEN':
-            return '+100'
-        return text
 
     def scrape_live(self, driver, matchup_num):
         """
@@ -122,6 +106,8 @@ class WebScraper:
         bet_table_id = self.encode_bet_table_id(matchup_id, self.book)
         away_abv = self.find_abv(away_team_text)
         home_abv = self.find_abv(home_team_text)
+
+        #print(away_spread_odds_text, home_spread_odds_text)
         
             
         info = [ 
@@ -153,7 +139,6 @@ class WebScraper:
                         'League': self.league
                     }
                 }
-            
         ]
         
         # Printing the teams involved in the matchup for logging purposes.
@@ -245,10 +230,10 @@ class WebScraper:
         return driver
     
     def check_even(self, text):
-        if text == 'Even':
+        if text.strip().upper() == 'EVEN':
             return '+100'
         return text
-    
+        
     def read_games_count(self, game_type, data_file_path):
         with self.lock:
             if os.path.exists(data_file_path) and os.path.getsize(data_file_path) > 0:
@@ -295,7 +280,7 @@ class WebScraper:
         all_matchups = []
 
         for z in tqdm(range(1, int(live_games)+1)):
-            matchup = self.scrape(driver, z)
+            matchup = self.scrape_live(driver, z)
             if matchup:
                 all_matchups.append(matchup)
 

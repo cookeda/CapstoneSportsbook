@@ -65,7 +65,7 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown" 
         
-    def find_element_text_or_not_found(self, driver, xpath, wait_time=1):
+    def find_element_text_or_not_found(self, driver, xpath, wait_time=3):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.XPATH, xpath))
@@ -103,7 +103,11 @@ class WebScraper:
         away_abv = self.find_abv(away_team_text)
         home_abv = self.find_abv(home_team_text)
 
-            
+        if start_time_text.__eq__('-999'):
+            # self.live_games += 1
+            start_time_text = 'Live Game'
+           
+
         info = [ 
             {
                 'BetTableId': bet_table_id,

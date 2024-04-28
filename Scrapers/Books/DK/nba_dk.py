@@ -64,7 +64,7 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown"
 
-    def find_element_text_or_not_found(self, driver, xpath, wait_time=1):
+    def find_element_text_or_not_found(self, driver, xpath, wait_time=3):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, xpath))
@@ -107,13 +107,15 @@ class WebScraper:
         # Construct the information dictionary
         away_abv = self.find_abv(away_team_text)
         home_abv = self.find_abv(home_team_text)
-
         self.total_games += 1
 
-
-        if start_time_text.__eq__('-999'):
+        if (self.find_element_text_or_not_found(driver, f'div.parlay-card-10-a:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > span:nth-child(2)') != '-999'):
             self.live_games += 1
             start_time_text = 'Live Game'
+
+        # if start_time_text.__eq__('-999'):
+        #     self.live_games += 1
+        #     start_time_text = 'Live Game'
             
         info = [ 
             {
@@ -126,7 +128,7 @@ class WebScraper:
                     'Home Spread': home_spread_text, 
                     'Home Spread Odds': self.check_even(home_spread_odds_text),
                     'Home ML': self.check_even(home_ml_text),
-                    'Total': total_text[2:],  # Remove the 'O/U' prefix from the total points text
+                    'Total': total_text,  # Remove the 'O/U' prefix from the total points text
                     'Over Total Odds': self.check_even(over_total_odds_text), 
                     'Under Total Odds': self.check_even(under_total_odds_text),
                 },
@@ -186,8 +188,8 @@ class WebScraper:
             EC.visibility_of_element_located((By.CSS_SELECTOR, '.parlay-card-10-a'))
         )
 
-        num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr')) # Total number of teams playing today
-        number_of_games = num_rows / 2 # Total number of games today
+        num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr')) - 1 # Total number of teams playing today
+        number_of_games = (num_rows) / 2 # Total number of games today
         all_matchups = [] # Empty container to store all matchup data
 
         for z in tqdm(range(1, int(number_of_games) + 1)):

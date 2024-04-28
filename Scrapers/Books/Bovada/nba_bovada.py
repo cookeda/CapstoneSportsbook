@@ -57,7 +57,7 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown" 
         
-    def find_element_text_or_default(self, driver, xpath, wait_time=1):
+    def find_element_text_or_default(self, driver, xpath, wait_time=3):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.XPATH, xpath))
@@ -245,7 +245,7 @@ class WebScraper:
         return driver
     
     def check_even(self, text):
-        if text == 'Even':
+        if text.strip().upper() == 'EVEN':
             return '+100'
         return text
     
@@ -295,7 +295,7 @@ class WebScraper:
         all_matchups = []
 
         for z in tqdm(range(1, int(live_games)+1)):
-            matchup = self.scrape(driver, z)
+            matchup = self.scrape_live(driver, z)
             if matchup:
                 all_matchups.append(matchup)
 

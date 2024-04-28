@@ -55,8 +55,8 @@ def combine_json_files(file_paths):
 
 # Define the paths to your files.
 file_paths = [ 
-    '../Data/ESPN/NBA_Lite.json',
-    '../Data/ESPN/MLB_Lite.json'
+    '../Data/DK/NBA_Lite.json',
+    '../Data/DK/MLB_Lite.json'
 ]
 
 # Combine the data from all files.
