@@ -2454,3 +2454,14 @@ Updating 8f87443..bc37fe5
 Fast-forward
  Daily.py | 93 +++++++++++++++++++++++++++++++++++++++-------------------------
  1 file changed, 57 insertions(+), 36 deletions(-)
+[main 214c749] Automated Server Update
+ 1 file changed, 15 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   bc37fe5..214c749  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("./media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: './media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
