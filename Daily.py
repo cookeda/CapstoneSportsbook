@@ -1,38 +1,59 @@
 import os
 import subprocess
-import datetime
+from datetime import datetime
 
-# Capture start time
-start_time = datetime.datetime.now()
+# Daily script
 
-# Scrape Matchups
-os.chdir("./media/myfiles/CapstoneSportsbook/Scrapers/Books")
-subprocess.run(['python', 'daily_refresh.py'])
+def main():
+    # Capture start time
+    start_time = datetime.now()
+    
+    # Run History in Data Collecting Src
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+    subprocess.run(['python', 'history.py'])
 
-# Run Algorithm
-os.chdir('../../Data Collecting Src/')
-subprocess.run(['python', 'game.py'], stdout=open('../Results/game_results.txt', 'w'))
+    # Scrape Adv League Data
+    os.chdir("../OddsHistory")
+    try:
+        os.remove("NBA.json")
+    except FileNotFoundError:
+        pass
+    try:
+        os.remove("MLB.json")
+    except FileNotFoundError:
+        pass
+    subprocess.run(['scrapy', 'crawl', 'NBA', '-o', 'NBA.json'])
+    subprocess.run(['scrapy', 'crawl', 'MLB', '-o', 'MLB.json'])
 
-# Generate summary and merge results
-os.chdir('../Results/')
-subprocess.run(['python', 'script.py'])
+    # Scrape League Data
+    os.chdir("../Data Collecting Src")
+    subprocess.run(['python', 'MLBScrape.py'])
+    subprocess.run(['python', 'NBAScrape.py'])
+    #subprocess.run(['python3.10', 'CBBScrape.py'])
+    subprocess.run(['python', 'Sort.py'])
+    os.chdir("../")
 
-# Data Processing and Updates
-os.chdir('../Scrapers/Data Processing')
-subprocess.run(['python', 'script.py'])
+    # Scrape Matchups
+    os.chdir("./Scrapers/Books")
+    subprocess.run(['python', 'daily_refresh.py'])
 
+    # Run Algorithms
+    os.chdir("../../Data Collecting Src")
+    with open("../Results/alg_results.txt", "w") as f:
+        subprocess.run(['python', 'alg.py'], stdout=f)
+    with open("../Results/game_results.txt", "w") as f:
+        subprocess.run(['python', 'game.py'], stdout=f)
+    with open("../Results/SuccessData_results.txt", "w") as f:
+        subprocess.run(['python', 'SuccessData.py'], stdout=f)
+    os.chdir("../Results")
+    subprocess.run(['python', 'summary.py'])
 
-# Uncomment the following line to enable the auto update command
-# os.chdir('../../DegenBets')
-# subprocess.run(['npx', 'eas', 'update', '--auto'])
+    # Capture end time
+    end_time = datetime.now()
 
-# Capture end time
-end_time = datetime.datetime.now()
+    # Display start and end times
+    print("Start Time:", start_time)
+    print("End Time:", end_time)
 
-# Return to the initial directory (adjust path as necessary)
-os.chdir('../..')
-
-# Print elapsed time
-print(f"Script started at: {start_time}")
-print(f"Script ended at: {end_time}")
-print(f"Total execution time: {end_time - start_time}")
+if __name__ == "__main__":
+    main()
