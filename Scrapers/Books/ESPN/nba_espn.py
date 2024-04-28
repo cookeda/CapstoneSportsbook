@@ -159,20 +159,18 @@ class WebScraper:
         
         driver = self.init_driver()
         driver.get("https://espnbet.com/sport/basketball/organization/united-states/competition/nba/featured-page")
+        time.sleep(3) 
 
-        time.sleep(3)  # Reduced sleep time after initial load
-        #specific_tbody = driver.find_element(By.CSS_SELECTOR, 'tbody.sportsbook-table__body')
-
-        #num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr'))
         data_file_path = '../games_count.json'
         lock_file_path = '../games_count.lock'
         self.lock = fasteners.InterProcessLock(lock_file_path)
 
         number_of_games = self.read_games_count('NBA', data_file_path)
         all_matchups = []
+
         for z in tqdm(range(1, int(number_of_games)+1)):
             #print(f'{self.league} - {self.book}: {z}/{int(number_of_games)}')
-            matchup = self.scrape(driver, z)
+            matchup, away_team, home_team = self.scrape(driver, z)
             if matchup:
                 all_matchups.append(matchup)
 
@@ -187,13 +185,13 @@ def main():
     logging.getLogger('scrapy').setLevel(logging.INFO)
 
     # Load team mappings
-    team_mappings = TeamMappingsLoader.load_team_mappings('../../../Dictionary/Pro/MLB.json')
+    team_mappings = TeamMappingsLoader.load_team_mappings('../../../Dictionary/Pro/NBA.json')
 
     scraper = WebScraper('NBA', 'ESPN', team_mappings)
     all_matchups = scraper.scrape_all()
 
     try:
-        with open('../../Data/ESPN/MLB.json', 'w', encoding='utf-8') as fp:
+        with open('../../Data/ESPN/NBA.json', 'w', encoding='utf-8') as fp:
             json.dump(all_matchups, fp, indent=4)
     except Exception as e:
         print(f"Error writing to file: {e}")

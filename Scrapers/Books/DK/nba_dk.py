@@ -77,20 +77,25 @@ class WebScraper:
 
     def scrape(self, driver, matchup_num):
 
-        # Extract text for away and home teams, their spreads, money lines, total points, and start times using specific XPaths
-        away_team_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[1]/button/div/div/div[1]')
-        home_team_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[1]/button/div/div/div[1]')
-        away_spread_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[1]/span[1]')
-        away_spread_odds_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[1]/span[2]')
-        total_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[2]/span[1]')
-        over_total_odds_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[2]/span[2]')
-        away_ml_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[2]/div[2]/button[3]/span[2]')
-        home_spread_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[1]/span[1]')
-        home_spread_odds_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[1]/span[2]')
-        under_total_odds_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[2]/span[2]')
-        home_ml_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[3]/div[2]/button[3]/span[2]')
-        start_time_text = self.find_element_text_or_not_found(driver, f'/html/body/div/div/div[2]/main/div[2]/div[3]/div/div/section/div[2]/article[{matchup_num}]/div/div[1]/button/span[1]')
+        matchup_num *= 2
+        x = matchup_num - 1  # Indicates Away Team
+        y = matchup_num      # Indicates Home Team
 
+
+        # Extract text for away and home teams, their spreads, money lines, total points, and start times using specific XPaths
+        away_team_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)')
+        home_team_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)')
+        away_spread_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)')
+        away_spread_odds_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+        total_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(3)')
+        over_total_odds_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+        away_ml_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > td:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)')
+        home_spread_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)')
+        home_spread_odds_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+        under_total_odds_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')
+        home_ml_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({y}) > td:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)')
+        start_time_text = self.find_element_text_or_not_found(driver, f'.sportsbook-table__body > tr:nth-child({x}) > th:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2)')
+        
         # Find team rank names and IDs using the extracted team names
         away_team_rank_name = self.find_team_rank_name(away_team_text)  # Name from team rankings.com
         home_team_rank_name = self.find_team_rank_name(home_team_text)  # Name from team rankings.com
@@ -108,7 +113,7 @@ class WebScraper:
 
         if start_time_text.__eq__('-999'):
             self.live_games += 1
-            start_time_text = 'Live'
+            start_time_text = 'Live Game'
             
         info = [ 
             {
@@ -174,16 +179,16 @@ class WebScraper:
     def scrape_all(self):
 
         driver = self.init_driver()
-        driver.get("https://espnbet.com/sport/basketball/organization/united-states/competition/nba/featured-page")
-        time.sleep(3)
+        driver.get("https://sportsbook.draftkings.com/leagues/basketball/nba")
 
-        data_file_path = '../games_count.json'
-        lock_file_path = '../games_count.lock'
-        self.lock = fasteners.InterProcessLock(lock_file_path)
-        
-        number_of_games = self.read_games_count('NBA', data_file_path)
-        print(number_of_games)
-        all_matchups = []
+        #Wait for table element to appear
+        specific_tbody = WebDriverWait(driver, 5).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, '.parlay-card-10-a'))
+        )
+
+        num_rows = len(specific_tbody.find_elements(By.TAG_NAME, 'tr')) # Total number of teams playing today
+        number_of_games = num_rows / 2 # Total number of games today
+        all_matchups = [] # Empty container to store all matchup data
 
         for z in tqdm(range(1, int(number_of_games) + 1)):
             #print(f'{self.league} - {self.book}: {z}/{int(number_of_games)}')
@@ -235,7 +240,7 @@ def main():
 
     # Scraping and updating data
     all_matchups = scraper.scrape_all()
-    DataUpdater.update_games_count('../games_count.json', scraper.book, len(all_matchups))
+    DataUpdater.update_games_count('../games_count.json', scraper.league, scraper.total_games)
     DataUpdater.update_live_games_count('../live_games_count.json', scraper.league, scraper.live_games)
 
     # Writing to file

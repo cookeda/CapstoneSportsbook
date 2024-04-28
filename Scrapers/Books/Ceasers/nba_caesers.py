@@ -41,19 +41,19 @@ class WebScraper:
     
     def find_team_id(self, team_name):
         for team_mapping in self.team_mappings:
-            if team_mapping["Bovada"] == team_name:
+            if team_mapping["Full Name"] == team_name:
                 return team_mapping["TeamID"]
         return "Unknown"
 
     def find_abv(self, team_name):
         for team_mapping in self.team_mappings:
-            if team_mapping["Bovada"] == team_name:
+            if team_mapping["Full Name"] == team_name:
                 return team_mapping["PlainText"]
         return "Unknown"    
     
     def find_team_rank_name(self, team_name):
         for team_mapping in self.team_mappings:
-            if team_mapping["Bovada"] == team_name:
+            if team_mapping["Full Name"] == team_name:
                 return team_mapping["Team Rankings Name"]
         return "Unknown" 
         
@@ -237,7 +237,7 @@ class WebScraper:
 
     def init_driver(self):
         options = Options()
-        options.add_argument('--headless')
+        #options.add_argument('--headless')
         options.add_argument('log-level=3')
 
         service = Service(ChromeDriverManager().install())
@@ -272,6 +272,10 @@ class WebScraper:
         driver = self.init_driver()
         driver.get("https://www.bovada.lv/sports/basketball/nba")
         time.sleep(2)  # Allow some time for the page to load JavaScript content
+
+        driver.find_element(By.xpath, '/html/body/div[2]/div/div[11]/div/div[1]/div/div[1]/section/div[5]/span/svg/g/g/g/path').click
+        driver.find_element(By.xpath, '/html/body/div[2]/div/div[11]/div/div[1]/div/div[1]/section/div[5]/div[1]/span/svg/g/g/g/path').click
+        driver.find_element(By.xpath, '/html/body/div[2]/div/div[11]/div/div[1]/div/div[1]/section/div[5]/div[1]/span[2]/svg').click
 
         data_file_path = '../games_count.json'
         lock_file_path = '../games_count.lock'
@@ -319,7 +323,7 @@ def main():
     # Load team mappings
     team_mappings = TeamMappingsLoader.load_team_mappings('../../../Dictionary/Pro/NBA.json')
 
-    scraper = WebScraper('NBA', 'Bovada', team_mappings)
+    scraper = WebScraper('NBA', 'Full Name', team_mappings)
     all_matchups = scraper.scrape_all()
 
     try:

@@ -107,6 +107,7 @@ class WebScraper:
 
         if start_time_text.__eq__('-999'):
             self.live_games += 1
+            start_time_text = 'Live Game'
 
         info = [
             {

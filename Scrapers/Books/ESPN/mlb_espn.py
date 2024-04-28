@@ -180,7 +180,7 @@ class WebScraper:
 
         for z in tqdm(range(1, int(number_of_games)+1)):
             # print(f'{self.league} - {self.book}: {z}/{int(number_of_games)}')
-            # matchup = self.scrape(driver, z)
+            #matchup = self.scrape(driver, z)
             matchup, away_team, home_team = self.scrape(driver, z)
             #progress_printer.print_progress(z, int(number_of_games), away_team=away_team, home_team=home_team, book=self.book, league=self.league) # Print
 
