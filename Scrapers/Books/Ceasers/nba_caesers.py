@@ -57,7 +57,7 @@ class WebScraper:
                 return team_mapping["Team Rankings Name"]
         return "Unknown" 
         
-    def find_element_text_or_default(self, driver, xpath, wait_time=3):
+    def find_element_text_or_default(self, driver, xpath, wait_time=2):
         try:
             element = WebDriverWait(driver, wait_time).until(
                 EC.visibility_of_element_located((By.XPATH, xpath))
@@ -265,17 +265,92 @@ class WebScraper:
                     return data.get(game_type)
             return None  # Or appropriate error handling/alternative return value
 
+    def scrape_nba(self, driver, matchup_num):        
+        matchup_num += 1
 
-     
+        away_team_text = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/a[1]/div/div/div[2]/div/span')
+        away_spread_text = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/div[6]/button/div/div[1]/div/div')
+        away_spread_odds = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div/div[6]/button/div/div[2]')
+        away_ml = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/div[3]/button/div/div')
+        
+        home_team_text = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/a[2]/div/div/div[2]/div/span')
+        home_spread_text = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/div[7]/button/div/div[1]/div/div')
+        home_spread_odds = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div/div[7]/button/div/div[2]')
+        home_ml = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/div[4]/button/div/div')
+
+        total_text = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/div[9]/button/div/div[1]/div/div')
+        over_total = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/div[9]/button/div/div[2]')
+        under_total = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[{matchup_num}]/div/div/div[1]/div[10]/button/div/div[2]')
+
+        #matchup_id = self.encode_matchup_id(away_team_id, home_team_id)
+
+        # Running these before swapping elements somehow works
+        away_team_rank_name = self.find_team_rank_name(away_team_text)  # Name from team rankings.com
+        home_team_rank_name = self.find_team_rank_name(home_team_text) 
+        
+
+        
+        # Check if matchup_num is odd, if so reverse home and away teams; 
+        # Caesers ain't smarter than me nice try tho. 
+        # Ok maybe they are 
+        if matchup_num % 2 != 0:
+            # Swap home and away data
+            temp_team = home_team_text
+            home_team_text = away_team_text
+            away_team_text = temp_team
+
+            temp_spread_text = home_spread_text
+            home_spread_text = away_spread_text
+            away_spread_text = temp_spread_text
+
+            temp_spread_odds = home_spread_odds
+            home_spread_odds = away_spread_odds
+            away_spread_odds = temp_spread_odds
+            
+            # temp_ml = home_ml
+            # home_ml = away_ml #They swap everything but the home and away ml on odd matchups, interesting.
+            # away_ml = home_ml
+            
+            temp_total = over_total
+            over_total = under_total
+            under_total = temp_total
+    
+
+    
+        away_team_id = self.find_team_id(away_team_text)  # Team
+        home_team_id = self.find_team_id(home_team_text)  # Team
+        
+        
+        # Using helper functions to find team rankings and IDs based on the scraped team names.
+ # Name from team rankings.com
+        # away_team_id = self.find_team_id(away_team_text)  # Team
+        # home_team_id = self.find_team_id(home_team_text)  # Team
+        
+        # # Generating unique identifiers for the matchup and the betting table.
+        # bet_table_id = self.encode_bet_table_id(matchup_id, self.book)
+        # away_abv = self.find_abv(away_team_text)
+        # home_abv = self.find_abv(home_team_text)
+        
+            
+        #Testing ml 
+        test = self.find_element_text_or_default(driver, f'/html/body/div[2]/div/div[19]/div/div[1]/div/div/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]/div[5]/div/div/div/div[3]/button/div/div')
+        #print(f'TEST:{test}')
+
+        
+        print(f'Game: {matchup_num}, Away:{away_team_id}, Away Team:{away_team_text}')
+        #print(home_abv, away_abv, matchup_id, bet_table_id)
+        #test output
+        # print(away_team_text, away_ml, away_spread_text, away_spread_odds, total_text[2:], over_total)
+        # print('@')
+        # print(home_team_text, home_ml, home_spread_text, home_spread_odds, total_text[2:], under_total)
+        #print(f'{away_team_text}: {away_ml} \n {home_team_text}: {home_ml}')
+        
+            
     def scrape_all(self):
         
         driver = self.init_driver()
-        driver.get("https://www.bovada.lv/sports/basketball/nba")
-        time.sleep(2)  # Allow some time for the page to load JavaScript content
-
-        driver.find_element(By.xpath, '/html/body/div[2]/div/div[11]/div/div[1]/div/div[1]/section/div[5]/span/svg/g/g/g/path').click
-        driver.find_element(By.xpath, '/html/body/div[2]/div/div[11]/div/div[1]/div/div[1]/section/div[5]/div[1]/span/svg/g/g/g/path').click
-        driver.find_element(By.xpath, '/html/body/div[2]/div/div[11]/div/div[1]/div/div[1]/section/div[5]/div[1]/span[2]/svg').click
+        driver.get("https://sportsbook.caesars.com/us/wa-ms/bet?dl=retail_mode")
+        time.sleep(4)  # Allow some time for the page to load JavaScript content
 
         data_file_path = '../games_count.json'
         lock_file_path = '../games_count.lock'
@@ -298,18 +373,11 @@ class WebScraper:
 
         all_matchups = []
 
-        for z in tqdm(range(1, int(live_games)+1)):
-            matchup = self.scrape(driver, z)
+        for z in (range(1, int(4)+1)):
+            matchup = self.scrape_nba(driver, z)
             if matchup:
                 all_matchups.append(matchup)
 
-
-        for z in tqdm(range(1, int(upcoming_games)+1)):
-            matchup = self.scrape(driver, z)
-            if matchup:
-                all_matchups.append(matchup)
-
-        #print(f'Total matchups scraped: {len(all_matchups)}')
 
         driver.quit()
         return all_matchups
@@ -327,7 +395,7 @@ def main():
     all_matchups = scraper.scrape_all()
 
     try:
-        with open('../../Data/Bovada/NBA.json', 'w', encoding='utf-8') as fp:
+        with open('../../Data/Caesers/NBA.json', 'w', encoding='utf-8') as fp:
             json.dump(all_matchups, fp, indent=4)
     except Exception as e:
         print(f"Error writing to file: {e}")
