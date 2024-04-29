@@ -45,8 +45,12 @@ def get_splits_by_league(league, results_df):
         true_count = cover_counts.get(True, 0)
         false_count = cover_counts.get(False, 0)
         if true_count != 0 or false_count != 0:
+            numerator = true_count
+            denominator = true_count + false_count
+            percent = round(numerator / denominator, 3) * 100
             print("Cover Record For in range: " + str(rating) + " to " + str(ceiling) + ".")
-            print(str(true_count) + "-" + str(false_count) + "\n")
+            print(str(true_count) + "-" + str(false_count) + " " +
+                  str(percent) + "% \n")
         rating += 3
         ceiling += 3
 
@@ -62,8 +66,12 @@ def get_splits_by_league(league, results_df):
         true_count = over_counts.get(True, 0)
         false_count = over_counts.get(False, 0)
         if true_count != 0 or false_count != 0:
+            numerator = true_count
+            denominator = true_count + false_count
+            percent = round(numerator / denominator, 3) * 100
             print("Over Record For in range: " + str(rating) + " to " + str(ceiling) + ".")
-            print(str(true_count) + "-" + str(false_count) + "\n")
+            print(str(true_count) + "-" + str(false_count) + " " +
+                  str(percent) + "% \n")
         rating += .5
         ceiling += .5
 
@@ -78,8 +86,12 @@ def get_splits_by_league(league, results_df):
         true_count = over_counts.get(True, 0)
         false_count = over_counts.get(False, 0)
         if true_count != 0 or false_count != 0:
+            numerator = true_count
+            denominator = true_count + false_count
+            percent = round(numerator / denominator, 3) * 100
             print("Under Record For in range " + str(floor) + " to " + str(rating))
-            print(str(true_count) + "-" + str(false_count) + "\n")
+            print(str(true_count) + "-" + str(false_count) + " " +
+                  str(percent) + "% \n")
         rating -= .5
         floor -= .5
 
