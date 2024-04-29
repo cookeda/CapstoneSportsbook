@@ -3173,3 +3173,66 @@ Sorting complete.
 Script started at: 2024-04-29 14:00:02.124632
 Script ended at: 2024-04-29 14:00:38.310312
 Total execution time: 0:00:36.185680
+[main 277a2de] Automated Server Update
+ 19 files changed, 521 insertions(+), 442 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (82%)
+ rewrite Results/game_results.txt (60%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   016f6b4..277a2de  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:00<00:05,  2.08it/s] 17%|█▋        | 2/12 [00:00<00:04,  2.36it/s] 25%|██▌       | 3/12 [00:01<00:03,  2.48it/s] 33%|███▎      | 4/12 [00:01<00:03,  2.53it/s] 42%|████▏     | 5/12 [00:02<00:02,  2.56it/s] 33%|███▎      | 1/3 [00:02<00:05,  2.62s/it] 50%|█████     | 6/12 [00:02<00:02,  2.58it/s] 58%|█████▊    | 7/12 [00:02<00:01,  2.61it/s] 67%|██████▋   | 8/12 [00:03<00:01,  2.63it/s] 75%|███████▌  | 9/12 [00:03<00:01,  2.64it/s] 83%|████████▎ | 10/12 [00:03<00:00,  2.64it/s] 92%|█████████▏| 11/12 [00:04<00:00,  2.64it/s] 67%|██████▋   | 2/3 [00:05<00:02,  2.51s/it]100%|██████████| 12/12 [00:04<00:00,  2.62it/s]100%|██████████| 12/12 [00:04<00:00,  2.57it/s]
+100%|██████████| 3/3 [00:07<00:00,  2.52s/it]100%|██████████| 3/3 [00:07<00:00,  2.53s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/12 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/12 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:01<00:17,  1.59s/it]  0%|          | 0/3 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:00<00:05,  1.94it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.43it/s] 17%|█▋        | 2/12 [00:02<00:10,  1.06s/it] 17%|█▋        | 2/12 [00:00<00:04,  2.10it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.77it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.63it/s] 25%|██▌       | 3/12 [00:02<00:07,  1.17it/s] 25%|██▌       | 3/12 [00:01<00:04,  1.98it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.61it/s]100%|██████████| 3/3 [00:01<00:00,  1.66it/s]100%|██████████| 3/3 [00:01<00:00,  1.63it/s]
+ 33%|███▎      | 4/12 [00:02<00:04,  1.92it/s] 33%|███▎      | 4/12 [00:03<00:06,  1.30it/s]100%|██████████| 3/3 [00:01<00:00,  1.60it/s]100%|██████████| 3/3 [00:01<00:00,  1.62it/s]
+ 42%|████▏     | 5/12 [00:02<00:03,  2.03it/s] 42%|████▏     | 5/12 [00:04<00:04,  1.50it/s] 50%|█████     | 6/12 [00:04<00:03,  1.68it/s] 50%|█████     | 6/12 [00:03<00:03,  1.99it/s] 58%|█████▊    | 7/12 [00:04<00:02,  1.82it/s] 58%|█████▊    | 7/12 [00:03<00:02,  2.04it/s] 67%|██████▋   | 8/12 [00:03<00:01,  2.16it/s] 67%|██████▋   | 8/12 [00:05<00:02,  1.90it/s] 75%|███████▌  | 9/12 [00:04<00:01,  2.23it/s] 75%|███████▌  | 9/12 [00:05<00:01,  1.99it/s] 83%|████████▎ | 10/12 [00:04<00:00,  2.36it/s] 83%|████████▎ | 10/12 [00:06<00:00,  2.07it/s] 92%|█████████▏| 11/12 [00:05<00:00,  2.45it/s] 92%|█████████▏| 11/12 [00:06<00:00,  2.12it/s]100%|██████████| 12/12 [00:05<00:00,  2.53it/s]100%|██████████| 12/12 [00:05<00:00,  2.22it/s]
+100%|██████████| 12/12 [00:07<00:00,  2.17it/s]100%|██████████| 12/12 [00:07<00:00,  1.67it/s]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Data written to ../DegenBets/Data/master/game_summary.json
+Merging complete. Data saved to 'merged_data.json'.
+Results Script
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 73, in <module>
+    aggregate_files(input_files, output_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 44, in aggregate_files
+    data = load_data(file_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 15, in load_data
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 73, in <module>
+    with open(file_path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/Bovada/nba.json'
+    aggregate_files(input_files, output_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 44, in aggregate_files
+    data = load_data(file_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 15, in load_data
+    with open(file_path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/Bovada/mlb.json'
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/matchups-writer.py", line 84, in <module>
+    main(input_path, output_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/matchups-writer.py", line 73, in main
+    reformatted_data = extract_relevant_data(input_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/matchups-writer.py", line 21, in extract_relevant_data
+    with open(file_path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'Clean\\Best Odds.json'
+Sorting Odds
+Sorting complete.
+Script started at: 2024-04-29 15:00:02.486373
+Script ended at: 2024-04-29 15:00:37.906973
+Total execution time: 0:00:35.420600
