@@ -4,7 +4,7 @@ Okla City @ New Orleans (NBA): Cover Rating - 0.9, Over Score - 5.6
 Bet on Okla City to cover the spread.
 LA Lakers @ Denver (NBA): Cover Rating - 3.0, Over Score - 5.6
 Bet on Denver to cover the spread.
-NY Yankees @ Baltimore (MLB): Cover Rating - 11.3, Over Score - 5.9
+NY Yankees @ Baltimore (MLB): Cover Rating - 11.3, Over Score - 6.4
 Bet on NY Yankees to cover the spread.
 Washington @ Miami (MLB): Cover Rating - 13.3, Over Score - 5.9
 Bet on Washington to cover the spread.
@@ -12,7 +12,7 @@ Kansas City @ Toronto (MLB): Cover Rating - 11.7, Over Score - 4.3
 Bet on Kansas City to cover the spread.
 Chi Cubs @ NY Mets (MLB): Cover Rating - 10.7, Over Score - 4.3
 Bet on Chi Cubs to cover the spread.
-Minnesota @ Chi Sox (MLB): Cover Rating - 1.7, Over Score - 5.3
+Minnesota @ Chi Sox (MLB): Cover Rating - 1.7, Over Score - 4.3
 Bet on Minnesota to cover the spread.
 Tampa Bay @ Milwaukee (MLB): Cover Rating - 5.0, Over Score - 6.3
 Bet on Milwaukee to cover the spread.
@@ -44,26 +44,26 @@ Okla City @ New Orleans (NBA): Cover Rating - 0.9, Bet on Okla City to cover the
 LA Dodgers @ Arizona (MLB): Cover Rating - 0.7, Bet on LA Dodgers to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
+NY Yankees @ Baltimore (MLB): Over Score - 6.4
 Tampa Bay @ Milwaukee (MLB): Over Score - 6.3
-NY Yankees @ Baltimore (MLB): Over Score - 5.9
 Washington @ Miami (MLB): Over Score - 5.9
 Cincinnati @ San Diego (MLB): Over Score - 5.8
 Okla City @ New Orleans (NBA): Over Score - 5.6
 LA Lakers @ Denver (NBA): Over Score - 5.6
 Pittsburgh @ Oakland (MLB): Over Score - 5.5
 Boston @ Miami (NBA): Over Score - 5.4
-Minnesota @ Chi Sox (MLB): Over Score - 5.3
 LA Dodgers @ Arizona (MLB): Over Score - 5.2
 Philadelphia @ LA Angels (MLB): Over Score - 5.1
 Atlanta @ Seattle (MLB): Over Score - 4.6
+Minnesota @ Chi Sox (MLB): Over Score - 4.3
 Chi Cubs @ NY Mets (MLB): Over Score - 4.3
 Kansas City @ Toronto (MLB): Over Score - 4.3
           date league  cover_rating  ...  total     home_team    away_team
-0   2024-04-29    NBA      1.561905  ...  204.5        Boston        Miami
+0   2024-04-29    NBA      1.561905  ...  205.0        Boston        Miami
 1   2024-04-29    NBA      0.900000  ...  208.0     Okla City  New Orleans
 2   2024-04-29    NBA      3.000000  ...  217.0     LA Lakers       Denver
-3   2024-04-29    MLB     11.333333  ...    9.0    NY Yankees    Baltimore
-4   2024-04-29    MLB     13.333333  ...    8.5    Washington        Miami
+3   2024-04-29    MLB     11.333333  ...    8.5    NY Yankees    Baltimore
+4   2024-04-29    MLB     13.333333  ...    6.5    Washington        Miami
 5   2024-04-29    MLB     11.666667  ...    8.5   Kansas City      Toronto
 6   2024-04-29    MLB     10.666667  ...    7.0      Chi Cubs      NY Mets
 7   2024-04-29    MLB      1.733333  ...    7.5     Minnesota      Chi Sox
@@ -71,7 +71,7 @@ Kansas City @ Toronto (MLB): Over Score - 4.3
 9   2024-04-29    MLB      3.066667  ...    9.0  Philadelphia    LA Angels
 10  2024-04-29    MLB      2.733333  ...    7.0       Atlanta      Seattle
 11  2024-04-29    MLB      0.666667  ...   10.0    LA Dodgers      Arizona
-12  2024-04-29    MLB      2.866667  ...    8.0    Pittsburgh      Oakland
+12  2024-04-29    MLB      2.866667  ...    7.5    Pittsburgh      Oakland
 13  2024-04-29    MLB      3.533333  ...    7.5    Cincinnati    San Diego
 
 [14 rows x 10 columns]
