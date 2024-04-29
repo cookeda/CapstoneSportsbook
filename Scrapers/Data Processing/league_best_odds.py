@@ -52,7 +52,7 @@ def process_files(input_files, output_file):
                 for key, value in odds_table.items():  # Iterate through the odds table.
                     if key != 'Book Name':  # Skip the book name.
                         if (key not in all_games[matchup_id]['Odds Table'] or  # Check if the key is already in the odds table.
-                                normalize_odd(value) < normalize_odd(all_games[matchup_id]['Odds Table'][key][0])):  # If the value is smaller than the current best odds, update the odds table.
+                                normalize_odd(value) > normalize_odd(all_games[matchup_id]['Odds Table'][key][0])):  # If the value is smaller than the current best odds, update the odds table.
                             all_games[matchup_id]['Odds Table'][key] = (value, book_name)  # Update the odds table with the new best odds and book name.
 
     # Prepare data for output

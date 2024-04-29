@@ -54,6 +54,5 @@ def main():
     # Display start and end times
     print("Start Time:", start_time)
     print("End Time:", end_time)
-
 if __name__ == "__main__":
     main()

@@ -8,64 +8,6 @@ import MatchupStats from './MatchupStats';
 const MatchupDetails = () => {
   const route = useRoute();
   const { details, matchId, homeTeam, awayTeam, homeAbv, awayAbv, over_score, cover_rating, team_to_cover, time, result, league } = route.params; // Retrieve matchId passed via navigation
-  // home_team = MatchupStats.getHomeTeam(home_team)
-  // const findOddsByMatchId = (id) => {
-  //   return aggData.filter(item => item.MatchupID === id);
-  // };
-//  const currentMatchOdds = findOddsByMatchId(matchId);
-  const aggData1 = {
-    "5a31e1ff_2848484e_NBA": {
-      "Info Table": {
-          "Away Team": "Cleveland Cavaliers",
-          "Away Team Rank Name": "Cleveland",
-          "Away Abv": "CLE",
-          "Away ID": "5a31e1ff",
-          "Home Team": "Orlando Magic",
-          "Home Team Rank Name": "Orlando",
-          "Home Abv": "ORL",
-          "Home ID": "2848484e",
-          "Start Time": "7:30 PM",
-          "League": "NBA"
-      },
-      "Bet Tables": [
-          {
-              "Book Name": "Bovada",
-              "Away Spread": "+2.5",
-              "Away Spread Odds": "-110",
-              "Away ML": "+115",
-              "Home Spread": "-2.5",
-              "Home Spread Odds": "-110",
-              "Home ML": "-135",
-              "Total": "201.5",
-              "Over Total Odds": "-105",
-              "Under Total Odds": "-115"
-          },
-          {
-              "Book Name": "DK",
-              "Away Spread": "+2",
-              "Away Spread Odds": "−110",
-              "Away ML": "+110",
-              "Home Spread": "-2",
-              "Home Spread Odds": "−110",
-              "Home ML": "−130",
-              "Total": "200",
-              "Over Total Odds": "−110",
-              "Under Total Odds": "−110"
-          }
-      ]
-  },
-  }
-
-  // function filterDataByKey(data, keyFilter) {
-  //   return Object.entries(data).reduce((acc, [key, value]) => {
-  //     if (keyFilter(key, value)) {
-  //       acc[key] = value;
-  //     }
-  //     return acc;
-  //   }, {});
-  // }
-  // const filteredData = filterDataByKey(aggData, (key, value) => key === '5a31e1ff_2848484e_NBA');
-  // console.log(filteredData);
 
   function getBetTables(data, key) {
     if (data[key] && data[key]['Bet Tables']) {

@@ -1,3 +1,9 @@
+Boston @ Miami (NBA): Cover Rating - 1.6, Over Score - 5.4
+Bet on Boston to cover the spread.
+Okla City @ New Orleans (NBA): Cover Rating - 0.9, Over Score - 5.6
+Bet on Okla City to cover the spread.
+LA Lakers @ Denver (NBA): Cover Rating - 2.7, Over Score - 5.6
+Bet on Denver to cover the spread.
 NY Yankees @ Baltimore (MLB): Cover Rating - 2.7, Over Score - 5.9
 Bet on Baltimore to cover the spread.
 Washington @ Miami (MLB): Cover Rating - 8.3, Over Score - 5.9
@@ -30,19 +36,25 @@ Kansas City @ Toronto (MLB): Cover Rating - 6.7, Bet on Kansas City to cover the
 Chi Cubs @ NY Mets (MLB): Cover Rating - 5.7, Bet on Chi Cubs to cover the spread.
 LA Dodgers @ Arizona (MLB): Cover Rating - 4.3, Bet on Arizona to cover the spread.
 Minnesota @ Chi Sox (MLB): Cover Rating - 3.3, Bet on Chi Sox to cover the spread.
+LA Lakers @ Denver (NBA): Cover Rating - 2.7, Bet on Denver to cover the spread.
 NY Yankees @ Baltimore (MLB): Cover Rating - 2.7, Bet on Baltimore to cover the spread.
 St. Louis @ Detroit (MLB): Cover Rating - 2.3, Bet on Detroit to cover the spread.
 Atlanta @ Seattle (MLB): Cover Rating - 2.3, Bet on Seattle to cover the spread.
 Pittsburgh @ Oakland (MLB): Cover Rating - 2.1, Bet on Oakland to cover the spread.
 Philadelphia @ LA Angels (MLB): Cover Rating - 1.9, Bet on LA Angels to cover the spread.
+Boston @ Miami (NBA): Cover Rating - 1.6, Bet on Boston to cover the spread.
 Cincinnati @ San Diego (MLB): Cover Rating - 1.5, Bet on San Diego to cover the spread.
+Okla City @ New Orleans (NBA): Cover Rating - 0.9, Bet on Okla City to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Tampa Bay @ Milwaukee (MLB): Over Score - 6.3
 NY Yankees @ Baltimore (MLB): Over Score - 5.9
 Washington @ Miami (MLB): Over Score - 5.9
 Cincinnati @ San Diego (MLB): Over Score - 5.8
+Okla City @ New Orleans (NBA): Over Score - 5.6
+LA Lakers @ Denver (NBA): Over Score - 5.6
 Pittsburgh @ Oakland (MLB): Over Score - 5.5
+Boston @ Miami (NBA): Over Score - 5.4
 Minnesota @ Chi Sox (MLB): Over Score - 5.3
 Chi Cubs @ NY Mets (MLB): Over Score - 5.3
 LA Dodgers @ Arizona (MLB): Over Score - 5.2
@@ -50,18 +62,21 @@ St. Louis @ Detroit (MLB): Over Score - 4.9
 Atlanta @ Seattle (MLB): Over Score - 4.6
 Philadelphia @ LA Angels (MLB): Over Score - 4.1
 Kansas City @ Toronto (MLB): Over Score - 3.3
-          date league  cover_rating  ... total     home_team  away_team
-0   2024-04-29    MLB      2.666667  ...   9.0    NY Yankees  Baltimore
-1   2024-04-29    MLB      8.333333  ...   8.0    Washington      Miami
-2   2024-04-29    MLB      2.266667  ...   8.0     St. Louis    Detroit
-3   2024-04-29    MLB      6.666667  ...   8.5   Kansas City    Toronto
-4   2024-04-29    MLB      5.666667  ...   7.5      Chi Cubs    NY Mets
-5   2024-04-29    MLB      3.266667  ...   7.5     Minnesota    Chi Sox
-6   2024-04-29    MLB     10.000000  ...   8.5     Tampa Bay  Milwaukee
-7   2024-04-29    MLB      1.933333  ...   9.0  Philadelphia  LA Angels
-8   2024-04-29    MLB      2.266667  ...   7.5       Atlanta    Seattle
-9   2024-04-29    MLB      4.333333  ...  10.0    LA Dodgers    Arizona
-10  2024-04-29    MLB      2.133333  ...   8.0    Pittsburgh    Oakland
-11  2024-04-29    MLB      1.466667  ...   8.0    Cincinnati  San Diego
+          date league  cover_rating  ...  total     home_team    away_team
+0   2024-04-29    NBA      1.561905  ...  203.5        Boston        Miami
+1   2024-04-29    NBA      0.900000  ...  206.0     Okla City  New Orleans
+2   2024-04-29    NBA      2.733333  ...  217.0     LA Lakers       Denver
+3   2024-04-29    MLB      2.666667  ...    9.0    NY Yankees    Baltimore
+4   2024-04-29    MLB      8.333333  ...    8.0    Washington        Miami
+5   2024-04-29    MLB      2.266667  ...    8.0     St. Louis      Detroit
+6   2024-04-29    MLB      6.666667  ...    8.5   Kansas City      Toronto
+7   2024-04-29    MLB      5.666667  ...    7.5      Chi Cubs      NY Mets
+8   2024-04-29    MLB      3.266667  ...    7.5     Minnesota      Chi Sox
+9   2024-04-29    MLB     10.000000  ...    8.5     Tampa Bay    Milwaukee
+10  2024-04-29    MLB      1.933333  ...    9.0  Philadelphia    LA Angels
+11  2024-04-29    MLB      2.266667  ...    7.5       Atlanta      Seattle
+12  2024-04-29    MLB      4.333333  ...   10.0    LA Dodgers      Arizona
+13  2024-04-29    MLB      2.133333  ...    8.0    Pittsburgh      Oakland
+14  2024-04-29    MLB      1.466667  ...    8.0    Cincinnati    San Diego
 
-[12 rows x 10 columns]
+[15 rows x 10 columns]

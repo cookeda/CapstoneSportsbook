@@ -123,6 +123,11 @@ def main():
     comparison_columns = ['date', 'league', 'betting_advice', 'cover_true', 'cover_rating', 'over_true', 'over_rating']
     results_df = load_from_csv("../OddsHistory/History/CumulativeResults.csv", comparison_columns)
 
+#    results_df = load_from_csv("../OddsHistory/History/Splits/3_days.csv", comparison_columns)
+
+ #   results_df = load_from_csv("../OddsHistory/History/Splits/30_days.csv", comparison_columns)
+
+
     #get_league_data("CBB", results_df)
     print("-------------------------\nMLB DATA")
     get_league_data("MLB", results_df)

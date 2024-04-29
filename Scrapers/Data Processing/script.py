@@ -5,11 +5,14 @@ import os
 print("Sorting Odds")
 
 
-#process1 = subprocess.Popen(["python", "./league_best_odds.py", "mlb"])
+process1 = subprocess.Popen(["python", "./league_best_odds.py", "mlb"])
+process2 = subprocess.Popen(["python", "./league_best_odds.py", "nba"])
+
 process3 = subprocess.Popen(["python", "./aggregate_odds.py", "nba"])
 process4 = subprocess.Popen(["python", "./aggregate_odds.py", "mlb"])
 
-#process1.wait()
+process1.wait()
+process2.wait()
 process3.wait()
 process4.wait()
 
@@ -21,8 +24,8 @@ process6.wait()
 
 # Edit I have no idea why I have the other matchups.json writer
 #print(os.getcwd())
-#process7 = subprocess.Popen(["python", "matchups-writer.py", "Clean\Best Odds.json", "../../DegenBets/Data/script/matchups.json"])
-#process7.wait()
+process7 = subprocess.Popen(["python", "matchups-writer.py", "Clean\Best Odds.json", "../../DegenBets/Data/script/matchups.json"])
+process7.wait()
 
 process8 = subprocess.Popen(["python", "script.py"], cwd="../../Results")
 process8.wait()
