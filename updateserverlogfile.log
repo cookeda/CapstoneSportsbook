@@ -2575,3 +2575,66 @@ FileNotFoundError: [Errno 2] No such file or directory: './media/myfiles/Capston
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main 1473a13] Automated Server Update
+ 1 file changed, 11 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   7ebde18..1473a13  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("./media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: './media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+   1473a13..50cf499  main       -> origin/main
+Updating 1473a13..50cf499
+Fast-forward
+ Data Collecting Src/SuccessData.py        |   18 +-
+ OddsHistory/History/CumulativeResults.csv |   19 +
+ OddsHistory/History/MatchupHistory.csv    |   36 +-
+ OddsHistory/NBA.json                      | 2520 -----------------------------
+ data/MLB/cover/10YearCover.jl             |    0
+ data/MLB/cover/AllTimeCover.jl            |    0
+ data/MLB/cover/CurrentSeasonCover.jl      |    0
+ data/MLB/cover/awayCover.jl               |    0
+ data/MLB/cover/homeCover.jl               |    0
+ data/MLB/over/10YearOU.jl                 |    0
+ data/MLB/over/AllTimeOU.jl                |    0
+ data/MLB/over/CurrentSeasonOU.jl          |   30 +
+ data/MLB/over/PointAverages.jl            |    0
+ data/MLB/over/awayOver.jl                 |    0
+ data/MLB/over/homeOver.jl                 |    0
+ data/NBA/cover/10YearCover.jl             |    0
+ data/NBA/cover/AllTimeCover.jl            |    0
+ data/NBA/cover/CurrentSeasonCover.jl      |    0
+ data/NBA/cover/awayCover.jl               |    0
+ data/NBA/cover/homeCover.jl               |    0
+ data/NBA/over/10YearOU.jl                 |    0
+ data/NBA/over/AllTimeOU.jl                |    0
+ data/NBA/over/CurrentSeasonOU.jl          |   30 +
+ data/NBA/over/PointAverages.jl            |    0
+ data/NBA/over/awayOver.jl                 |    0
+ data/NBA/over/homeOver.jl                 |    0
+ 26 files changed, 113 insertions(+), 2540 deletions(-)
+ delete mode 100644 OddsHistory/NBA.json
+ create mode 100644 data/MLB/cover/10YearCover.jl
+ create mode 100644 data/MLB/cover/AllTimeCover.jl
+ create mode 100644 data/MLB/cover/CurrentSeasonCover.jl
+ create mode 100644 data/MLB/cover/awayCover.jl
+ create mode 100644 data/MLB/cover/homeCover.jl
+ create mode 100644 data/MLB/over/10YearOU.jl
+ create mode 100644 data/MLB/over/AllTimeOU.jl
+ create mode 100644 data/MLB/over/CurrentSeasonOU.jl
+ create mode 100644 data/MLB/over/PointAverages.jl
+ create mode 100644 data/MLB/over/awayOver.jl
+ create mode 100644 data/MLB/over/homeOver.jl
+ create mode 100644 data/NBA/cover/10YearCover.jl
+ create mode 100644 data/NBA/cover/AllTimeCover.jl
+ create mode 100644 data/NBA/cover/CurrentSeasonCover.jl
+ create mode 100644 data/NBA/cover/awayCover.jl
+ create mode 100644 data/NBA/cover/homeCover.jl
+ create mode 100644 data/NBA/over/10YearOU.jl
+ create mode 100644 data/NBA/over/AllTimeOU.jl
+ create mode 100644 data/NBA/over/CurrentSeasonOU.jl
+ create mode 100644 data/NBA/over/PointAverages.jl
+ create mode 100644 data/NBA/over/awayOver.jl
+ create mode 100644 data/NBA/over/homeOver.jl
