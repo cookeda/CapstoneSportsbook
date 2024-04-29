@@ -18,9 +18,9 @@ Minnesota @ Chi Sox (MLB): Cover Rating - 3.3, Over Score - 5.3
 Bet on Chi Sox to cover the spread.
 Tampa Bay @ Milwaukee (MLB): Cover Rating - 10.0, Over Score - 6.3
 Bet on Milwaukee to cover the spread.
-Philadelphia @ LA Angels (MLB): Cover Rating - 1.9, Over Score - 4.1
+Philadelphia @ LA Angels (MLB): Cover Rating - 1.9, Over Score - 5.1
 Bet on LA Angels to cover the spread.
-Atlanta @ Seattle (MLB): Cover Rating - 2.3, Over Score - 4.6
+Atlanta @ Seattle (MLB): Cover Rating - 2.3, Over Score - 3.6
 Bet on Seattle to cover the spread.
 LA Dodgers @ Arizona (MLB): Cover Rating - 4.3, Over Score - 5.2
 Bet on Arizona to cover the spread.
@@ -58,9 +58,9 @@ Boston @ Miami (NBA): Over Score - 5.4
 Minnesota @ Chi Sox (MLB): Over Score - 5.3
 Chi Cubs @ NY Mets (MLB): Over Score - 5.3
 LA Dodgers @ Arizona (MLB): Over Score - 5.2
+Philadelphia @ LA Angels (MLB): Over Score - 5.1
 St. Louis @ Detroit (MLB): Over Score - 4.9
-Atlanta @ Seattle (MLB): Over Score - 4.6
-Philadelphia @ LA Angels (MLB): Over Score - 4.1
+Atlanta @ Seattle (MLB): Over Score - 3.6
 Kansas City @ Toronto (MLB): Over Score - 3.3
           date league  cover_rating  ...  total     home_team    away_team
 0   2024-04-29    NBA      1.561905  ...  203.5        Boston        Miami
@@ -72,7 +72,7 @@ Kansas City @ Toronto (MLB): Over Score - 3.3
 6   2024-04-29    MLB      6.666667  ...    8.5   Kansas City      Toronto
 7   2024-04-29    MLB      5.666667  ...    7.5      Chi Cubs      NY Mets
 8   2024-04-29    MLB      3.266667  ...    7.5     Minnesota      Chi Sox
-9   2024-04-29    MLB     10.000000  ...    8.5     Tampa Bay    Milwaukee
+9   2024-04-29    MLB     10.000000  ...    8.0     Tampa Bay    Milwaukee
 10  2024-04-29    MLB      1.933333  ...    9.0  Philadelphia    LA Angels
 11  2024-04-29    MLB      2.266667  ...    7.5       Atlanta      Seattle
 12  2024-04-29    MLB      4.333333  ...   10.0    LA Dodgers      Arizona
