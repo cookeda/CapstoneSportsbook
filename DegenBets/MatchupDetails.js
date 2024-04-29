@@ -7,7 +7,7 @@ import MatchupStats from './MatchupStats';
 
 const MatchupDetails = () => {
   const route = useRoute();
-  const { details, matchId, homeTeam, awayTeam, homeAbv, awayAbv, over_score, cover_rating, team_to_cover, time, result, league } = route.params; // Retrieve matchId passed via navigation
+  const { details, matchId, homeTeam, awayTeam, homeAbv, awayAbv, over_score, cover_rating, team_to_cover, time, result, league, cover_grade, total_rating } = route.params; // Retrieve matchId passed via navigation
 
   function getBetTables(data, key) {
     if (data[key] && data[key]['Bet Tables']) {
@@ -23,9 +23,9 @@ const MatchupDetails = () => {
     
       <Text style={styles.title}>{awayTeam} @ {homeTeam} </Text>
       <Text style={styles.subtitle}>Time: {time}</Text>
-      <Text style={styles.subtitle2}>Cover: {team_to_cover} {cover_rating}</Text>
-      <Text style={styles.subtitle2}>O/U: {league} {over_score}</Text>
-      <Text style={styles.subtitle2}>matchId:  {matchId} </Text>
+      <Text style={styles.subtitle2}>Cover: {team_to_cover} - {cover_grade} Stars</Text>
+      <Text style={styles.subtitle2}>Total: {over_score} Stars</Text>
+      <Text style={styles.subtitle2}>matchId: {matchId} </Text>
 
       <View style={styles.tableHeader}>
         <Text style={styles.headerItem}>Book Name</Text>
