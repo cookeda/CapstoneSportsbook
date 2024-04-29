@@ -25,8 +25,8 @@ def search_bet_table(bet_table_dict, bet_table_id):
     if result:
         return result.get('Odds Table', None)  # Return only the Odds Table
     return None
-# Entry point for script execution
-if __name__ == '__main__':
+
+def main():
     # Check if the BetTableId was provided as a command-line argument
     if len(sys.argv) < 2:
         print("Usage: python matchup_searcher.py <BetTableId>")
@@ -45,3 +45,7 @@ if __name__ == '__main__':
         print("Data Found: ", result)
     else:
         print("No data found for BetTableId:", search_id)
+        
+# Entry point for script execution
+if __name__ == '__main__':
+    main()
