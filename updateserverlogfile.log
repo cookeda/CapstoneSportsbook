@@ -2759,3 +2759,146 @@ FileNotFoundError: [Errno 2] No such file or directory: './media/myfiles/Capston
 From https://github.com/cookeda/CapstoneSportsbook
  * branch            main       -> FETCH_HEAD
 Already up to date.
+[main 998b37c] Automated Server Update
+ 12 files changed, 2960 insertions(+), 671 deletions(-)
+ rewrite OddsHistory/History/MatchupHistory.csv (100%)
+ create mode 100644 OddsHistory/NBA.json
+To https://github.com/cookeda/CapstoneSportsbook.git
+   70603a0..998b37c  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 16, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 9, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+progress bar only shows mlb right now
+DK Data processing complete.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/ESPN/mlb_espn.py", line 17, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+NBA - ESPN: 1/3
+BOS Celtics, MIA Heat
+NBA - ESPN: 2/3
+OKC Thunder, NO Pelicans
+NBA - ESPN: 3/3
+LA Lakers, DEN Nuggets
+Total matchups scraped: 3
+NBA - Bovada: 1/7
+Boston Celtics, Miami Heat
+NBA - Bovada: 2/7
+Oklahoma City Thunder, New Orleans Pelicans
+NBA - Bovada: 3/7
+Los Angeles Lakers, Denver Nuggets
+NBA - Bovada: 4/7
+Orlando Magic, Cleveland Cavaliers
+NBA - Bovada: 5/7
+Philadelphia 76ers, New York Knicks
+NBA - Bovada: 6/7
+Indiana Pacers, Milwaukee Bucks
+Total matchups scraped: 6
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+MLB - Bovada: 1/12
+New York Yankees, Baltimore Orioles
+MLB - Bovada: 2/12
+St. Louis Cardinals, Detroit Tigers
+MLB - Bovada: 3/12
+Washington Nationals, Miami Marlins
+MLB - Bovada: 4/12
+Kansas City Royals, Toronto Blue Jays
+MLB - Bovada: 5/12
+Chicago Cubs, New York Mets
+MLB - Bovada: 6/12
+Minnesota Twins, Chicago White Sox
+MLB - Bovada: 7/12
+Tampa Bay Rays, Milwaukee Brewers
+MLB - Bovada: 8/12
+Philadelphia Phillies, Los Angeles Angels
+MLB - Bovada: 9/12
+Atlanta Braves, Seattle Mariners
+MLB - Bovada: 10/12
+Cincinnati Reds, San Diego Padres
+MLB - Bovada: 11/12
+Los Angeles Dodgers, Arizona Diamondbacks
+Total matchups scraped: 11
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID 8d47be6d_8a2d1e91_NBA
+Warning: No game summary found for matchup ID 6a3773e4_88f1c3e9_NBA
+Warning: No game summary found for matchup ID 65ba1118_fe2ec146_NBA
+Warning: No game summary found for matchup ID c5227021_dc435e0a_NBA
+Warning: No game summary found for matchup ID 88571b9e_48eb7bb_NBA
+Warning: No game summary found for matchup ID 2b1ac347_ccadb94e_MLB
+Warning: No game summary found for matchup ID c625b23e_486a5e3b_MLB
+Warning: No game summary found for matchup ID e8bdce10_fe8acdeb_MLB
+Warning: No game summary found for matchup ID 8a2d1e91_5a31e1ff_MLB
+Warning: No game summary found for matchup ID fe2ec146_fdd0d44c_MLB
+Warning: No game summary found for matchup ID c5227021_9666114b_MLB
+Warning: No game summary found for matchup ID 4e2f3aa1_dd4357ee_MLB
+Warning: No game summary found for matchup ID 18a9d733_16f4bf06_MLB
+Warning: No game summary found for matchup ID 8b214a89_6424b504_MLB
+Warning: No game summary found for matchup ID 8d47be6d_354ef58_MLB
+Warning: No game summary found for matchup ID 8714ddbe_db2ee960_MLB
+Warning: No game summary found for matchup ID ea799920_f5328492_MLB
+Warning: No game summary found for matchup ID 4005c299_d10f1db8_MLB
+Warning: No game summary found for matchup ID 300faa7b_e841daaf_MLB
+Warning: No game summary found for matchup ID 3f4235d4_8f2512bc_MLB
+Merging complete. Data saved to 'merged_data.json'.
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 73, in <module>
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 73, in <module>
+    aggregate_files(input_files, output_file)
+    aggregate_files(input_files, output_file)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 44, in aggregate_files
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 44, in aggregate_files
+    data = load_data(file_path)
+    data = load_data(file_path)
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 15, in load_data
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Data Processing/./aggregate_odds.py", line 15, in load_data
+    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/Bovada/mlb.json'
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/Bovada/nba.json'
+Warning: No game summary found for matchup ID 8d47be6d_8a2d1e91_NBA
+Warning: No game summary found for matchup ID 6a3773e4_88f1c3e9_NBA
+Warning: No game summary found for matchup ID 65ba1118_fe2ec146_NBA
+Warning: No game summary found for matchup ID c5227021_dc435e0a_NBA
+Warning: No game summary found for matchup ID 88571b9e_48eb7bb_NBA
+Warning: No game summary found for matchup ID 2b1ac347_ccadb94e_MLB
+Warning: No game summary found for matchup ID c625b23e_486a5e3b_MLB
+Warning: No game summary found for matchup ID e8bdce10_fe8acdeb_MLB
+Warning: No game summary found for matchup ID 8a2d1e91_5a31e1ff_MLB
+Warning: No game summary found for matchup ID fe2ec146_fdd0d44c_MLB
+Warning: No game summary found for matchup ID c5227021_9666114b_MLB
+Warning: No game summary found for matchup ID 4e2f3aa1_dd4357ee_MLB
+Warning: No game summary found for matchup ID 18a9d733_16f4bf06_MLB
+Warning: No game summary found for matchup ID 8b214a89_6424b504_MLB
+Warning: No game summary found for matchup ID 8d47be6d_354ef58_MLB
+Warning: No game summary found for matchup ID 8714ddbe_db2ee960_MLB
+Warning: No game summary found for matchup ID ea799920_f5328492_MLB
+Warning: No game summary found for matchup ID 4005c299_d10f1db8_MLB
+Warning: No game summary found for matchup ID 300faa7b_e841daaf_MLB
+Warning: No game summary found for matchup ID 3f4235d4_8f2512bc_MLB
+Merging complete. Data saved to 'merged_data.json'.
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Sorting Odds
+Sorting complete.
+Script started at: 2024-04-29 10:00:02.787914
+Script ended at: 2024-04-29 10:01:04.460201
+Total execution time: 0:01:01.672287
