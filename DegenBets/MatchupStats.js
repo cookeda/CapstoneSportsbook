@@ -1,5 +1,4 @@
-import React from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import React from 'react';import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import matchupsData from './Data/merged_data.json';
 // import oddsData from './Data/Cleaned/AggregateOdds.json'; // New import for odds data
@@ -31,8 +30,8 @@ const MatchupStats = () => {
                         homeAbv: details['Home Abv'],
                         awayTeam: details['Away Team'],
                         awayAbv: details['Away Abv'],
-                        over_score: details['over_score'],
-                        cover_rating: details['cover_rating'],
+                        over_score: details['total_rating'],
+                        cover_grade: details['cover_grade'],
                         team_to_cover: details['team_to_cover'],
                         time: details['Time'],
                         matchId
@@ -90,8 +89,8 @@ const MatchupStats = () => {
               
               <View style={styles.ratingsContainer}>
                 {/* <Text style={styles.ratingsText}>Team to Cover: {details['team_to_cover']}, </Text> */}
-                <Text style={styles.ratingsText}>RATINGS Cover: {details['cover_rating']}, </Text>
-                <Text style={styles.ratingsText}>Total: {details['over_score']}</Text>
+                <Text style={styles.ratingsText}>RATINGS Cover: {details['cover_grade']}, </Text>
+                <Text style={styles.ratingsText}>Total: {details['total_rating']}</Text>
               </View>
 
 
