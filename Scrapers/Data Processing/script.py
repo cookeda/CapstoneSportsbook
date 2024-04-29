@@ -27,6 +27,6 @@ process6.wait()
 process7 = subprocess.Popen(["python", "matchups-writer.py", "Clean\Best Odds.json", "../../DegenBets/Data/script/matchups.json"])
 process7.wait()
 
-process8 = subprocess.Popen(["python", "script.py"], cwd="../../Results")
-process8.wait()
+# process8 = subprocess.Popen(["python", "script.py"], cwd="../../Results")
+# process8.wait()
 print("Sorting complete.")
