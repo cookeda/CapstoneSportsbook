@@ -1,7 +1,7 @@
 import os
 import subprocess
 import datetime
-import timesa
+import time
 
 # Capture start time
 start_time = datetime.datetime.now()
