@@ -1,90 +1,90 @@
 [
     [
         {
-            "BetTableId": "Bovada_88571b9e_48eb7bb_NBA",
+            "BetTableId": "Bovada_8a2d1e91_8d47be6d_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "-115",
-                "Away ML": "-125",
-                "Home Spread": "-1.5",
+                "Away Spread": "-10.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "-525",
+                "Home Spread": "+10.5",
                 "Home Spread Odds": "-115",
-                "Home ML": "-105",
+                "Home ML": "+375",
                 "Total": "203.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-115"
-            },
-            "MatchupID": "88571b9e_48eb7bb_NBA",
-            "Info Table": {
-                "Away Team": "L.A. Clippers",
-                "Away Team Rank Name": "LA Clippers",
-                "Away Abv": "LAC",
-                "Away ID": "88571b9e",
-                "Home Team": "Dallas Mavericks",
-                "Home Team Rank Name": "Dallas",
-                "Home Abv": "DAL",
-                "Home ID": "48eb7bb",
-                "Start Time": "1Q",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_c5227021_dc435e0a_NBA",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+10.0",
-                "Away Spread Odds": "-110",
-                "Away ML": "+335",
-                "Home Spread": "-10.0",
-                "Home Spread Odds": "-110",
-                "Home ML": "-450",
-                "Total": "215.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
-            "MatchupID": "c5227021_dc435e0a_NBA",
+            "MatchupID": "8a2d1e91_8d47be6d_NBA",
             "Info Table": {
-                "Away Team": "Milwaukee Bucks",
-                "Away Team Rank Name": "Milwaukee",
-                "Away Abv": "MIL",
-                "Away ID": "c5227021",
-                "Home Team": "Indiana Pacers",
-                "Home Team Rank Name": "Indiana",
-                "Home Abv": "IND",
-                "Home ID": "dc435e0a",
-                "Start Time": "7:00 PM",
+                "Away Team": "Boston Celtics",
+                "Away Team Rank Name": "Boston",
+                "Away Abv": "BOS",
+                "Away ID": "8a2d1e91",
+                "Home Team": "Miami Heat",
+                "Home Team Rank Name": "Miami",
+                "Home Abv": "MIA",
+                "Home ID": "8d47be6d",
+                "Start Time": "4:00 PM",
                 "League": "NBA"
             }
         }
     ],
     [
         {
-            "BetTableId": "Bovada_f5328492_e52c9399_NBA",
+            "BetTableId": "Bovada_5ed3c983_59dd0ac4_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "+1.0",
-                "Away Spread Odds": "-115",
-                "Away ML": "-110",
-                "Home Spread": "-1.0",
-                "Home Spread Odds": "-105",
-                "Home ML": "-110",
-                "Total": "213.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Away Spread": "+7.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "+250",
+                "Home Spread": "-7.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "-300",
+                "Total": "217.0",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             },
-            "MatchupID": "f5328492_e52c9399_NBA",
+            "MatchupID": "5ed3c983_59dd0ac4_NBA",
             "Info Table": {
-                "Away Team": "Minnesota Timberwolves",
-                "Away Team Rank Name": "Minnesota",
-                "Away Abv": "MIN",
-                "Away ID": "f5328492",
-                "Home Team": "Phoenix Suns",
-                "Home Team Rank Name": "Phoenix",
-                "Home Abv": "PHX",
-                "Home ID": "e52c9399",
-                "Start Time": "9:30 PM",
+                "Away Team": "Los Angeles Lakers",
+                "Away Team Rank Name": "LA Lakers",
+                "Away Abv": "LAL",
+                "Away ID": "5ed3c983",
+                "Home Team": "Denver Nuggets",
+                "Home Team Rank Name": "Denver",
+                "Home Abv": "DEN",
+                "Home ID": "59dd0ac4",
+                "Start Time": "10:00 PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_88f1c3e9_6a3773e4_NBA",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-4.5",
+                "Away Spread Odds": "-115",
+                "Away ML": "-180",
+                "Home Spread": "+4.5",
+                "Home Spread Odds": "-105",
+                "Home ML": "+155",
+                "Total": "204.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
+            },
+            "MatchupID": "88f1c3e9_6a3773e4_NBA",
+            "Info Table": {
+                "Away Team": "Oklahoma City Thunder",
+                "Away Team Rank Name": "Okla City",
+                "Away Abv": "OKC",
+                "Away ID": "88f1c3e9",
+                "Home Team": "New Orleans Pelicans",
+                "Home Team Rank Name": "New Orleans",
+                "Home Abv": "NOP",
+                "Home ID": "6a3773e4",
+                "Start Time": "10:00 PM",
                 "League": "NBA"
             }
         }

@@ -22,22 +22,22 @@
 {"Team": "Houston", "Cover %": "45.0%"} -3.1
 {"Team": "Indiana", "Cover %": "53.7%"} -0.9
 {"Team": "Indiana", "Cover %": "53.7%"} -0.9
-{"Team": "LA Clippers", "Cover %": "47.6%"} 3.2
-{"Team": "LA Clippers", "Cover %": "47.6%"} 3.2
+{"Team": "LA Clippers", "Cover %": "48.8%"} 3.3
+{"Team": "LA Clippers", "Cover %": "48.8%"} 3.3
 {"Team": "LA Lakers", "Cover %": "46.5%"} -3.4
 {"Team": "LA Lakers", "Cover %": "46.5%"} -3.4
 {"Team": "Memphis", "Cover %": "58.5%"} -6.6
 {"Team": "Memphis", "Cover %": "58.5%"} -6.6
 {"Team": "Miami", "Cover %": "61.9%"} 1.2
 {"Team": "Miami", "Cover %": "61.9%"} 1.2
-{"Team": "Milwaukee", "Cover %": "41.5%"} -1.3
-{"Team": "Milwaukee", "Cover %": "41.5%"} -1.3
-{"Team": "Minnesota", "Cover %": "54.8%"} 5.0
-{"Team": "Minnesota", "Cover %": "54.8%"} 5.0
+{"Team": "Milwaukee", "Cover %": "40.5%"} -1.6
+{"Team": "Milwaukee", "Cover %": "40.5%"} -1.6
+{"Team": "Minnesota", "Cover %": "55.8%"} 5.0
+{"Team": "Minnesota", "Cover %": "55.8%"} 5.0
 {"Team": "New Orleans", "Cover %": "59.5%"} 5.4
 {"Team": "New Orleans", "Cover %": "59.5%"} 5.4
-{"Team": "New York", "Cover %": "55.0%"} 2.9
-{"Team": "New York", "Cover %": "55.0%"} 2.9
+{"Team": "New York", "Cover %": "56.1%"} 3.0
+{"Team": "New York", "Cover %": "56.1%"} 3.0
 {"Team": "Okla City", "Cover %": "48.8%"} 2.3
 {"Team": "Okla City", "Cover %": "48.8%"} 2.3
 {"Team": "Orlando", "Cover %": "53.5%"} -3.9
