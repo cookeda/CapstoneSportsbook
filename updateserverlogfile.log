@@ -2638,3 +2638,14 @@ Fast-forward
  create mode 100644 data/NBA/over/PointAverages.jl
  create mode 100644 data/NBA/over/awayOver.jl
  create mode 100644 data/NBA/over/homeOver.jl
+[main bf74c8d] Automated Server Update
+ 1 file changed, 63 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   50cf499..bf74c8d  main -> main
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Update.py", line 9, in <module>
+    os.chdir("./media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: './media/myfiles/CapstoneSportsbook/Data Collecting Src'
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
