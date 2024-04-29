@@ -9,7 +9,7 @@ def main():
     start_time = datetime.now()
     
     # Run History in Data Collecting Src
-    os.chdir("./Data Collecting Src")
+    os.chdir("./Data Collecting Src") 
     subprocess.run(['python', 'history.py'])
 
     # Scrape Adv League Data
@@ -34,7 +34,7 @@ def main():
     os.chdir("../")
 
     # Scrape Matchups
-    os.chdir("./Scrapers/Books")
+    os.chdir("Scrapers/Books")
     subprocess.run(['python', 'daily_refresh.py'])
 
     # Run Algorithms
@@ -45,21 +45,8 @@ def main():
         subprocess.run(['python', 'game.py'], stdout=f)
     with open("../Results/SuccessData_results.txt", "w") as f:
         subprocess.run(['python', 'SuccessData.py'], stdout=f)
-    with open("../Results/SuccessData2_results.txt", "w") as f:
-        subprocess.run(['python', 'SuccessData2.py'], stdout=f)
-
     os.chdir("../Results")
     subprocess.run(['python', 'summary.py'])
-
-    # Generate summary and merge results
-    os.chdir('../../Results/')
-    subprocess.run(['python', 'script.py'])
-
-    # Data Processing and Updates
-    os.chdir('../Scrapers/Data Processing')
-    subprocess.run(['python', 'script.py'])
-
-
 
     # Capture end time
     end_time = datetime.now()
@@ -67,6 +54,5 @@ def main():
     # Display start and end times
     print("Start Time:", start_time)
     print("End Time:", end_time)
-
 if __name__ == "__main__":
     main()

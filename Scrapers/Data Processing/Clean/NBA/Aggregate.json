@@ -16,36 +16,88 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "-10.5",
-                "Away Spread Odds": "-105",
-                "Away ML": "-525",
+                "Away Spread Odds": "-110",
+                "Away ML": "-510",
                 "Home Spread": "+10.5",
-                "Home Spread Odds": "-115",
-                "Home ML": "+375",
+                "Home Spread Odds": "-110",
+                "Home ML": "+370",
                 "Total": "203.5",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
+            },
+            {
+                "Book Name": "DK",
+                "Away Spread": "-10.5",
+                "Away Spread Odds": "−108",
+                "Away ML": "−520",
+                "Home Spread": "+10.5",
+                "Home Spread Odds": "−112",
+                "Home ML": "+390",
+                "Total": "203.5",
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
+            },
+            {
+                "Book Name": "ESPN",
+                "Away Spread": "-10.5",
+                "Away Spread Odds": "-115",
+                "Away ML": "-500",
+                "Home Spread": "+10.5",
+                "Home Spread Odds": "-105",
+                "Home ML": "+380",
+                "Total": "203.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
+            }
+        ]
+    },
+    "88f1c3e9_6a3773e4_NBA": {
+        "Info Table": {
+            "Away Team": "Oklahoma City Thunder",
+            "Away Team Rank Name": "Okla City",
+            "Away Abv": "OKC",
+            "Away ID": "88f1c3e9",
+            "Home Team": "New Orleans Pelicans",
+            "Home Team Rank Name": "New Orleans",
+            "Home Abv": "NOP",
+            "Home ID": "6a3773e4",
+            "Start Time": "8:30 PM",
+            "League": "NBA"
+        },
+        "Bet Tables": [
+            {
+                "Book Name": "Bovada",
+                "Away Spread": "-5.0",
+                "Away Spread Odds": "-115",
+                "Away ML": "-195",
+                "Home Spread": "+5.0",
+                "Home Spread Odds": "-105",
+                "Home ML": "+165",
+                "Total": "206.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
             {
                 "Book Name": "DK",
-                "Away Spread": "-10.5",
-                "Away Spread Odds": "−110",
-                "Away ML": "−550",
-                "Home Spread": "+10.5",
-                "Home Spread Odds": "−110",
-                "Home ML": "+410",
-                "Total": "203",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Away Spread": "-5",
+                "Away Spread Odds": "−108",
+                "Away ML": "−192",
+                "Home Spread": "+5",
+                "Home Spread Odds": "−112",
+                "Home ML": "+160",
+                "Total": "206",
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
             {
                 "Book Name": "ESPN",
-                "Away Spread": "-10.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "-550",
-                "Home Spread": "+10.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "+400",
-                "Total": "203.5",
+                "Away Spread": "-5.5",
+                "Away Spread Odds": "+100",
+                "Away ML": "-190",
+                "Home Spread": "+5.5",
+                "Home Spread Odds": "-120",
+                "Home ML": "+160",
+                "Total": "206.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             }
@@ -67,91 +119,39 @@
         "Bet Tables": [
             {
                 "Book Name": "Bovada",
-                "Away Spread": "+7.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+250",
-                "Home Spread": "-7.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-300",
-                "Total": "217.0",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
-            },
-            {
-                "Book Name": "DK",
-                "Away Spread": "+7.5",
-                "Away Spread Odds": "−110",
-                "Away ML": "+250",
-                "Home Spread": "-7.5",
-                "Home Spread Odds": "−110",
-                "Home ML": "−310",
-                "Total": "217",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
-            },
-            {
-                "Book Name": "ESPN",
-                "Away Spread": "+7.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+240",
-                "Home Spread": "-7.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-300",
+                "Away Spread": "+7.0",
+                "Away Spread Odds": "-115",
+                "Away ML": "+230",
+                "Home Spread": "-7.0",
+                "Home Spread Odds": "-105",
+                "Home ML": "-280",
                 "Total": "216.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
-            }
-        ]
-    },
-    "88f1c3e9_6a3773e4_NBA": {
-        "Info Table": {
-            "Away Team": "Oklahoma City Thunder",
-            "Away Team Rank Name": "Okla City",
-            "Away Abv": "OKC",
-            "Away ID": "88f1c3e9",
-            "Home Team": "New Orleans Pelicans",
-            "Home Team Rank Name": "New Orleans",
-            "Home Abv": "NOP",
-            "Home ID": "6a3773e4",
-            "Start Time": "10:00 PM",
-            "League": "NBA"
-        },
-        "Bet Tables": [
-            {
-                "Book Name": "Bovada",
-                "Away Spread": "-4.5",
-                "Away Spread Odds": "-115",
-                "Away ML": "-180",
-                "Home Spread": "+4.5",
-                "Home Spread Odds": "-105",
-                "Home ML": "+155",
-                "Total": "204.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
             {
                 "Book Name": "DK",
-                "Away Spread": "-4.5",
-                "Away Spread Odds": "−110",
-                "Away ML": "−185",
-                "Home Spread": "+4.5",
-                "Home Spread Odds": "−110",
-                "Home ML": "+154",
-                "Total": "204.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Away Spread": "+7.5",
+                "Away Spread Odds": "−112",
+                "Away ML": "+245",
+                "Home Spread": "-7.5",
+                "Home Spread Odds": "−108",
+                "Home ML": "−305",
+                "Total": "217",
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
             {
                 "Book Name": "ESPN",
-                "Away Spread": "-4.5",
+                "Away Spread": "+7.5",
                 "Away Spread Odds": "-115",
-                "Away ML": "-180",
-                "Home Spread": "+4.5",
+                "Away ML": "+235",
+                "Home Spread": "-7.5",
                 "Home Spread Odds": "-105",
-                "Home ML": "+150",
-                "Total": "204.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Home ML": "-295",
+                "Total": "217.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             }
         ]
     }
