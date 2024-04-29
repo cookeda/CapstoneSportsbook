@@ -34,7 +34,7 @@ def main():
     os.chdir("../")
 
     # Scrape Matchups
-    os.chdir("/Scrapers/Books")
+    os.chdir("Scrapers/Books")
     subprocess.run(['python', 'daily_refresh.py'])
 
     # Run Algorithms
