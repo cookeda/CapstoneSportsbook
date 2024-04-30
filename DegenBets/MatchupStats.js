@@ -16,6 +16,9 @@ const MatchupStats = () => {
   
   return (
     <View style={styles.container}>
+    <Text style={styles.star_rate}>NBA Star Hitrates: Cover (3: 56%, 2: 54%, 1: 5%) NBA Total (-3:62%, -2:45%, -1:50%, 0: Nah)</Text>
+    <Text style={styles.star_rate}>MLB Star Hitrates: Cover (3: 67%, 2: 56%, 1: 54%) MLB Total (-3:54%, -2:54%, -1:51%,  0: Nah) </Text>
+
       <ScrollView style={styles.scrollContainer}>
         {matchups.map(([matchId, details], index) => {
           // Calculate result for each matchup within the map function
@@ -134,6 +137,13 @@ const styles = StyleSheet.create({
   },
   vsText: {
     fontSize: 16,
+  },
+  star_rate: {
+    fontSize: 18,
+    //fontWeight: 'bold',
+    textAlign: 'center',
+    alignItems: 'center',
+    padding:10,
   },
   oddsContainer: {
     flexDirection: 'row',
