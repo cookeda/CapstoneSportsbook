@@ -16,7 +16,7 @@ subprocess.run(['python', 'game.py'], stdout=open('../Results/game_results.txt',
 
 # Generate summary and merge results
 os.chdir('../Results/')
-time.sleep(3)
+time.sleep(15)
 subprocess.run(['python', 'script.py'])
 
 # Data Processing and Updates
