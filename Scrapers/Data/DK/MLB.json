@@ -61,6 +61,36 @@
     ],
     [
         {
+            "BetTableId": "DK_8f2512bc_8d47be6d_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−198",
+                "Away ML": "+114",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+164",
+                "Home ML": "−135",
+                "Total": "8",
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−115"
+            },
+            "MatchupID": "8f2512bc_8d47be6d_MLB",
+            "Info Table": {
+                "Away Team": "COL Rockies",
+                "Away Team Rank Name": "Colorado",
+                "Away Abv": "COL",
+                "Away ID": "8f2512bc",
+                "Home Team": "MIA Marlins",
+                "Home Team Rank Name": "Miami",
+                "Home Abv": "MIA",
+                "Home ID": "8d47be6d",
+                "Start Time": "6:40PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_ccadb94e_18a9d733_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -84,36 +114,6 @@
                 "Home Team Rank Name": "Detroit",
                 "Home Abv": "DET",
                 "Home ID": "18a9d733",
-                "Start Time": "6:40PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_8f2512bc_8d47be6d_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−205",
-                "Away ML": "+120",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+164",
-                "Home ML": "−142",
-                "Total": "8",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
-            },
-            "MatchupID": "8f2512bc_8d47be6d_MLB",
-            "Info Table": {
-                "Away Team": "COL Rockies",
-                "Away Team Rank Name": "Colorado",
-                "Away Abv": "COL",
-                "Away ID": "8f2512bc",
-                "Home Team": "MIA Marlins",
-                "Home Team Rank Name": "Miami",
-                "Home Abv": "MIA",
-                "Home ID": "8d47be6d",
                 "Start Time": "6:40PM",
                 "League": "MLB"
             }
