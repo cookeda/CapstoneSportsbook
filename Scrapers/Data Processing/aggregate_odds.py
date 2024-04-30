@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 league = sys.argv[1]
-input_files = [ f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json', f'../Data/ESPN/{league}.json']
+input_files = [f'../Data/Bovada/{league}.json', f'../Data/DK/{league}.json', f'../Data/ESPN/{league}.json']
 # f'../Data/ESPN/{league}.json',
 output_file = f'Clean/{league}/Aggregate.json'
 
