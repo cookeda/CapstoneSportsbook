@@ -1,4 +1,4 @@
-{"Team": "Arizona", "Cover %": "50.6%"} +0.1
+{"Team": "Arizona", "Cover %": "50.5%"} +0.1
 {"Team": "Atlanta", "Cover %": "49.5%"} +0.0
 {"Team": "Baltimore", "Cover %": "51.1%"} +0.1
 {"Team": "Boston", "Cover %": "49.6%"} +0.0
@@ -18,7 +18,7 @@
 {"Team": "NY Mets", "Cover %": "49.3%"} -0.1
 {"Team": "NY Yankees", "Cover %": "50.8%"} +0.0
 {"Team": "Oakland", "Cover %": "51.6%"} +0.2
-{"Team": "Philadelphia", "Cover %": "49.0%"} -0.1
+{"Team": "Philadelphia", "Cover %": "48.9%"} -0.1
 {"Team": "Pittsburgh", "Cover %": "50.5%"} +0.0
 {"Team": "SF Giants", "Cover %": "49.3%"} +0.0
 {"Team": "San Diego", "Cover %": "50.2%"} +0.0
