@@ -63,4 +63,4 @@ file_paths = [
 combined_data = combine_json_files(file_paths)
 
 # Write the combined data to a new master file.
-write_json_file(combined_data, '../../DegenBets/Data/Master/matchups.json')
+write_json_file(combined_data, '../../DegenBets/Data/master/matchups.json')
