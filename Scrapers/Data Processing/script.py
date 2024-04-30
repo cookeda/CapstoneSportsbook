@@ -24,7 +24,7 @@ process6.wait()
 
 # Edit I have no idea why I have the other matchups.json writer
 #print(os.getcwd())
-process7 = subprocess.Popen(["python", "matchups-writer.py", "Clean\Best Odds.json", "../../DegenBets/Data/script/matchups.json"])
+process7 = subprocess.Popen(["python", "matchups-writer.py", "Clean/Best Odds.json", "../../DegenBets/Data/script/matchups.json"])
 process7.wait()
 
 # process8 = subprocess.Popen(["python", "script.py"], cwd="../../Results")
