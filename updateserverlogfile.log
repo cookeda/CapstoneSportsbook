@@ -4449,3 +4449,12 @@ Sorting complete.
 Script started at: 2024-04-30 10:00:02.505218
 Script ended at: 2024-04-30 10:00:47.164672
 Total execution time: 0:00:44.659454
+[main 75e9685] Automated Server Update
+ 13 files changed, 445 insertions(+), 423 deletions(-)
+To https://github.com/cookeda/CapstoneSportsbook.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/cookeda/CapstoneSportsbook.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
