@@ -89,7 +89,8 @@ const MatchupStats = () => {
               
               <View style={styles.ratingsContainer}>
                 {/* <Text style={styles.ratingsText}>Team to Cover: {details['team_to_cover']}, </Text> */}
-                <Text style={styles.ratingsText}>RATINGS Cover: {details['cover_grade']}, </Text>
+                <Text style={styles.oddsValue}> STARS </Text>
+                <Text style={styles.ratingsText}>Cover: {details['cover_grade']}, </Text>
                 <Text style={styles.ratingsText}>Total: {details['total_rating']}</Text>
               </View>
 

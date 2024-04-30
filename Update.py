@@ -7,7 +7,7 @@ import time
 start_time = datetime.datetime.now()
 
 # Scrape Matchups
-os.chdir("/media/myfiles/CapstoneSportsbook/Scrapers/Books")
+os.chdir("./Scrapers/Books")
 subprocess.run(['python', 'daily_refresh.py'])
 
 # Run Algorithm

@@ -23,8 +23,8 @@ const MatchupDetails = () => {
     
       <Text style={styles.title}>{awayTeam} @ {homeTeam} </Text>
       <Text style={styles.subtitle}>Time: {time}</Text>
-      <Text style={styles.subtitle2}>Cover: {team_to_cover} - {cover_grade} Stars</Text>
-      <Text style={styles.subtitle2}>Total: {over_score} Stars</Text>
+      <Text style={styles.subtitle2}>Cover: {team_to_cover} - {cover_grade} Star(s)</Text>
+      <Text style={styles.subtitle2}>Total: {over_score} Star(s)</Text>
       <Text style={styles.subtitle2}>matchId: {matchId} </Text>
 
       <View style={styles.tableHeader}>
