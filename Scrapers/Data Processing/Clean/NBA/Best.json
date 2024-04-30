@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "88f1c3e9_6a3773e4_NBA",
-        "Info Table": {
-            "Away Team": "OKC Thunder",
-            "Away Team Rank Name": "Okla City",
-            "Away Abv": "OKC",
-            "Away ID": "88f1c3e9",
-            "Home Team": "NO Pelicans",
-            "Home Team Rank Name": "New Orleans",
-            "Home Abv": "NOP",
-            "Home ID": "6a3773e4",
-            "Start Time": "Round 1, Game 4: OKC Leads 3-0",
-            "League": "NBA"
-        },
-        "Odds Table": {
-            "Away Spread": "-4.0 (Bovada)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "−200 (DK)",
-            "Home Spread": "+4.5 (ESPN)",
-            "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "+170 (ESPN)",
-            "Total": "192.5 (DK)",
-            "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "-115 (ESPN)"
-        }
-    },
-    {
         "MatchupID": "5ed3c983_59dd0ac4_NBA",
         "Info Table": {
             "Away Team": "LA Lakers",
@@ -36,19 +10,71 @@
             "Home Team Rank Name": "Denver",
             "Home Abv": "DEN",
             "Home ID": "59dd0ac4",
-            "Start Time": "Today · 10:00 PM",
+            "Start Time": "Round 1, Game 5: DEN Leads 3-1",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+6.5 (ESPN)",
-            "Away Spread Odds": "-110 (Bovada)",
-            "Away ML": "+205 (ESPN)",
-            "Home Spread": "-6.5 (ESPN)",
+            "Away Spread": "+0.5 (ESPN)",
+            "Away Spread Odds": "+100 (DK)",
+            "Away ML": "-110 (ESPN)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "-115 (ESPN)",
+            "Home ML": "+100 (Bovada)",
+            "Total": "211.5 (ESPN)",
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "-120 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "fe2ec146_65ba1118_NBA",
+        "Info Table": {
+            "Away Team": "PHI 76ers",
+            "Away Team Rank Name": "Philadelphia",
+            "Away Abv": "PHI",
+            "Away ID": "fe2ec146",
+            "Home Team": "NY Knicks",
+            "Home Team Rank Name": "New York",
+            "Home Abv": "NYK",
+            "Home ID": "65ba1118",
+            "Start Time": "Apr 30, 2024 · 7:00 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+4.5 (ESPN)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "+145 (ESPN)",
+            "Home Spread": "-3.5 (Bovada)",
             "Home Spread Odds": "-105 (ESPN)",
-            "Home ML": "-245 (Bovada)",
-            "Total": "217.5 (ESPN)",
+            "Home ML": "-165 (Bovada)",
+            "Total": "202.5 (ESPN)",
             "Over Total Odds": "-105 (ESPN)",
             "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "88f1c3e9_6a3773e4_NBA",
+        "Info Table": {
+            "Away Team": "OKC Thunder",
+            "Away Team Rank Name": "Okla City",
+            "Away Abv": "OKC",
+            "Away ID": "88f1c3e9",
+            "Home Team": "NO Pelicans",
+            "Home Team Rank Name": "New Orleans",
+            "Home Abv": "NOP",
+            "Home ID": "6a3773e4",
+            "Start Time": "7:10PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+4 (DK)",
+            "Away Spread Odds": "−110 (DK)",
+            "Away ML": "+142 (DK)",
+            "Home Spread": "-4 (DK)",
+            "Home Spread Odds": "−110 (DK)",
+            "Home ML": "−170 (DK)",
+            "Total": "202.5 (DK)",
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "−110 (DK)"
         }
     }
 ]
