@@ -1,7 +1,9 @@
 import json
 import re
 import os
-from datetime import date as dt
+from datetime import date as dt, timedelta
+from datetime import time as time
+from datetime import datetime
 import pandas as pd
 
 
@@ -281,9 +283,21 @@ def save_to_csv(df, filename):
     except FileNotFoundError:
         df.to_csv(filename, mode='w', header=True, index=False)
 
+def load_from_csv(file_path, column_names):
+    return pd.read_csv(file_path, header=None, names=column_names)
+
 
 if __name__ == '__main__':
     game_list = main()
     df = game_list_to_dataframe(game_list)
     print(df)
     save_to_csv(df, "../OddsHistory/History/Predictions.csv")
+
+    column_names = ['Date', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10']
+    #dailypd = load_from_csv("../OddsHistory/History/DailyPredictions.csv", column_names)
+
+    current_time = datetime.now().strftime('%H:%M')
+    if "08:30" <= current_time < "09:30":
+        save_to_csv(df, "../OddsHistory/History/DailyPredictions.csv]")
+    else:
+        print("Avoided Overriding DailyPredictions")

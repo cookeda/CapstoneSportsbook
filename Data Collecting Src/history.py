@@ -126,7 +126,7 @@ def compare_and_update():
                        'second_game_doubleheader']
 
     # Load the data
-    predictions = load_from_csv("../OddsHistory/History/Predictions.csv", predictions_columns)
+    predictions = load_from_csv("../OddsHistory/History/DailyPredictions.csv", predictions_columns)
     history = load_from_csv("../OddsHistory/History/MatchupHistory.csv", history_columns)
 
     # Ensure that the 'date' and 'league' columns are of the same data type (string)
