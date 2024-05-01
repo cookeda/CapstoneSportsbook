@@ -2,22 +2,22 @@ Miami @ Boston (NBA): Cover Rating - 4.0, Over Score - 5.2
 Bet on Miami to cover the spread.
 Dallas @ LA Clippers (NBA): Cover Rating - 0.2, Over Score - 5.1
 Bet on Dallas to cover the spread.
-LA Dodgers @ Arizona (MLB): Cover Rating - 4.0, Over Score - 5.5
-Bet on Arizona to cover the spread.
+LA Dodgers @ Arizona (MLB): Cover Rating - 3.0, Over Score - 8.5
+Bet on LA Dodgers to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 Miami @ Boston (NBA): Cover Rating - 4.0, Bet on Miami to cover the spread.
-LA Dodgers @ Arizona (MLB): Cover Rating - 4.0, Bet on Arizona to cover the spread.
+LA Dodgers @ Arizona (MLB): Cover Rating - 3.0, Bet on LA Dodgers to cover the spread.
 Dallas @ LA Clippers (NBA): Cover Rating - 0.2, Bet on Dallas to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-LA Dodgers @ Arizona (MLB): Over Score - 5.5
+LA Dodgers @ Arizona (MLB): Over Score - 8.5
 Miami @ Boston (NBA): Over Score - 5.2
 Dallas @ LA Clippers (NBA): Over Score - 5.1
          date league  cover_rating  ...  total   home_team    away_team
 0  2024-05-01    NBA      4.035714  ...  198.5       Miami       Boston
 1  2024-05-01    NBA      0.166667  ...  207.5      Dallas  LA Clippers
-2  2024-05-01    MLB      4.000000  ...    6.5  LA Dodgers      Arizona
+2  2024-05-01    MLB      3.000000  ...    8.0  LA Dodgers      Arizona
 
 [3 rows x 10 columns]
 Avoided Overriding DailyPredictions
