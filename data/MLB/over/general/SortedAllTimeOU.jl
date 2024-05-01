@@ -1,4 +1,4 @@
-{"Team": "Arizona", "Over %": "49.6%"} +0.5
+{"Team": "Arizona", "Over %": "49.5%"} +0.5
 {"Team": "Atlanta", "Over %": "49.5%"} +0.4
 {"Team": "Baltimore", "Over %": "48.8%"} +0.4
 {"Team": "Boston", "Over %": "50.1%"} +0.6
