@@ -11,11 +11,7 @@
 {"Team": "Houston", "Over %": "48.3%"} +0.4
 {"Team": "Kansas City", "Over %": "47.7%"} +0.3
 {"Team": "LA Angels", "Over %": "49.5%"} +0.5
-<<<<<<< HEAD
 {"Team": "LA Dodgers", "Over %": "49.5%"} +0.4
-=======
-{"Team": "LA Dodgers", "Over %": "49.6%"} +0.4
->>>>>>> 983b7081e709b699b66c204e6a21b7f979dc6e3e
 {"Team": "Miami", "Over %": "51.1%"} +0.5
 {"Team": "Milwaukee", "Over %": "49.5%"} +0.4
 {"Team": "Minnesota", "Over %": "50.7%"} +0.6
