@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "fe2ec146_65ba1118_NBA",
-        "Info Table": {
-            "Away Team": "PHI 76ers",
-            "Away Team Rank Name": "Philadelphia",
-            "Away Abv": "PHI",
-            "Away ID": "fe2ec146",
-            "Home Team": "NY Knicks",
-            "Home Team Rank Name": "New York",
-            "Home Abv": "NYK",
-            "Home ID": "65ba1118",
-            "Start Time": "Round 1, Game 5: NY Leads 3-1",
-            "League": "NBA"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-115 (Bovada)",
-            "Away ML": "+105 (Bovada)",
-            "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+100 (ESPN)",
-            "Home ML": "+125 (ESPN)",
-            "Total": "190.5 (ESPN)",
-            "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "-110 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "2848484e_5a31e1ff_NBA",
         "Info Table": {
             "Away Team": "ORL Magic",
@@ -40,15 +14,15 @@
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+4.5 (DK)",
-            "Away Spread Odds": "-115 (ESPN)",
-            "Away ML": "+165 (DK)",
-            "Home Spread": "+4.0 (Bovada)",
-            "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "-165 (ESPN)",
-            "Total": "196.0 (Bovada)",
-            "Over Total Odds": "-120 (ESPN)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Away Spread": "+1.5 (ESPN)",
+            "Away Spread Odds": "-120 (ESPN)",
+            "Away ML": "+105 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "−105 (DK)",
+            "Home ML": "−125 (DK)",
+            "Total": "202.5 (ESPN)",
+            "Over Total Odds": "−105 (DK)",
+            "Under Total Odds": "-120 (ESPN)"
         }
     },
     {
@@ -62,19 +36,19 @@
             "Home Team Rank Name": "Milwaukee",
             "Home Abv": "MIL",
             "Home ID": "c5227021",
-            "Start Time": "Today · 9:30 PM",
+            "Start Time": "Round 1, Game 5: IND Leads 3-1",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "-4.5 (ESPN)",
-            "Away Spread Odds": "−110 (DK)",
-            "Away ML": "−198 (DK)",
-            "Home Spread": "+5.0 (Bovada)",
-            "Home Spread Odds": "-105 (ESPN)",
-            "Home ML": "+170 (Bovada)",
-            "Total": "218.0 (Bovada)",
-            "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Away Spread": "-8.5 (DK)",
+            "Away Spread Odds": "-110 (Bovada)",
+            "Away ML": "−360 (DK)",
+            "Home Spread": "+9.5 (ESPN)",
+            "Home Spread Odds": "-110 (ESPN)",
+            "Home ML": "+360 (ESPN)",
+            "Total": "225.5 (ESPN)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-115 (ESPN)"
         }
     }
 ]
