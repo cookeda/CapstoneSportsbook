@@ -5,11 +5,11 @@ import os
 print("Sorting Odds")
 
 
-process1 = subprocess.Popen(["python", "./league_best_odds.py", "mlb"])
-process2 = subprocess.Popen(["python", "./league_best_odds.py", "nba"])
+process1 = subprocess.Popen(["python", "./league_best_odds.py", "MLB"])
+process2 = subprocess.Popen(["python", "./league_best_odds.py", "NBA"])
 
-process3 = subprocess.Popen(["python", "./aggregate_odds.py", "nba"])
-process4 = subprocess.Popen(["python", "./aggregate_odds.py", "mlb"])
+process3 = subprocess.Popen(["python", "./aggregate_odds.py", "NBA"])
+process4 = subprocess.Popen(["python", "./aggregate_odds.py", "MLB"])
 
 process1.wait()
 process2.wait()
