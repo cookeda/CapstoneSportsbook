@@ -126,7 +126,7 @@ def compare_and_update():
                        'second_game_doubleheader']
 
     # Load the data
-    predictions = load_from_csv("../OddsHistory/History/Predictions.csv", predictions_columns)
+    predictions = load_from_csv("../OddsHistory/History/DailyPredictions.csv", predictions_columns)
     history = load_from_csv("../OddsHistory/History/MatchupHistory.csv", history_columns)
 
     # Ensure that the 'date' and 'league' columns are of the same data type (string)
@@ -144,12 +144,15 @@ def compare_and_update():
     comparison['cover_correct'] = False
     comparison['total_correct'] = False
 
-
     for index, row in comparison.iterrows():
-        predicted_spread = row['home_spread'] if row['betting_advice'] == row['home_team'] else row['away_spread']
         actual_spread = row['home_team_score'] - row['away_team_score']
-        comparison.at[index, 'cover_correct'] = (actual_spread > predicted_spread and row['betting_advice'] == row[
-            'home_team']) or (actual_spread < predicted_spread and row['betting_advice'] == row['away_team'])
+        if row['betting_advice'] == row['home_team']:
+            predicted_spread = row['home_spread']
+            cover_correct = actual_spread > -predicted_spread
+        else:
+            predicted_spread = row['away_spread']
+            cover_correct = actual_spread < predicted_spread
+        comparison.at[index, 'cover_correct'] = cover_correct
 
         total_points = row['home_team_score'] + row['away_team_score']
 
@@ -179,4 +182,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

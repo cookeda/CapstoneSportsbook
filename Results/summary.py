@@ -43,7 +43,7 @@ def process_ratings(rating, type, league):
     # Define a dictionary to handle the cases with scaled weights and star ratings
     cases = {
         'cover': {
-            'NBA': lambda x: 3 if 5.5 <= x <= 6 else (2 if 6 <= x < 9 else (1 if 3 <= x < 6 else 0)),
+            'NBA': lambda x: 3 if 3 <= x <= 6 else (2 if 0 <= x < 3 else (1 if 6 <= x < 9 else 0)),
             'MLB': lambda x: 3 if 12 <= x <= 15 else (2 if 0 <= x < 3 else (1 if 6 <= x < 9 else 0)),
         },
         'total': {
