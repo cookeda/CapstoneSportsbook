@@ -5001,3 +5001,43 @@ Sorting complete.
 Script started at: 2024-04-30 20:00:02.190879
 Script ended at: 2024-04-30 20:01:13.021617
 Total execution time: 0:01:10.830738
+[main 72b8143] Automated Server Update
+ 25 files changed, 1922 insertions(+), 1882 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (93%)
+ rewrite Results/game_results.txt (66%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   6e9e5f9..72b8143  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/14 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.79it/s] 67%|██████▋   | 2/3 [00:01<00:00,  2.00it/s]100%|██████████| 3/3 [00:03<00:00,  1.43s/it]100%|██████████| 3/3 [00:03<00:00,  1.18s/it]
+  7%|▋         | 1/14 [00:13<02:57, 13.65s/it] 14%|█▍        | 2/14 [00:16<01:28,  7.38s/it] 21%|██▏       | 3/14 [00:19<01:00,  5.46s/it] 29%|██▊       | 4/14 [00:22<00:44,  4.46s/it] 36%|███▌      | 5/14 [00:25<00:34,  3.82s/it] 43%|████▎     | 6/14 [00:28<00:27,  3.41s/it] 50%|█████     | 7/14 [00:30<00:22,  3.24s/it] 57%|█████▋    | 8/14 [00:33<00:18,  3.16s/it] 64%|██████▍   | 9/14 [00:36<00:15,  3.05s/it] 71%|███████▏  | 10/14 [00:37<00:09,  2.27s/it] 79%|███████▊  | 11/14 [00:37<00:05,  1.71s/it] 86%|████████▌ | 12/14 [00:38<00:02,  1.30s/it] 93%|█████████▎| 13/14 [00:38<00:01,  1.02s/it]100%|██████████| 14/14 [00:38<00:00,  1.19it/s]100%|██████████| 14/14 [00:38<00:00,  2.78s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/14 [00:00<?, ?it/s]  0%|          | 0/9 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:01<00:16,  1.29s/it] 11%|█         | 1/9 [00:01<00:11,  1.41s/it] 50%|█████     | 1/2 [00:01<00:01,  1.22s/it] 22%|██▏       | 2/9 [00:01<00:06,  1.13it/s]  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 2/2 [00:01<00:00,  1.30it/s]100%|██████████| 2/2 [00:01<00:00,  1.20it/s]
+  0%|          | 0/1 [00:00<?, ?it/s] 33%|███▎      | 3/9 [00:02<00:04,  1.41it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.49it/s]100%|██████████| 1/1 [00:00<00:00,  1.61it/s]100%|██████████| 1/1 [00:00<00:00,  1.61it/s]
+ 44%|████▍     | 4/9 [00:02<00:03,  1.62it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.76it/s] 56%|█████▌    | 5/9 [00:03<00:02,  1.61it/s]100%|██████████| 3/3 [00:01<00:00,  1.84it/s]100%|██████████| 3/3 [00:01<00:00,  1.78it/s]
+ 67%|██████▋   | 6/9 [00:03<00:01,  1.80it/s] 78%|███████▊  | 7/9 [00:04<00:01,  1.96it/s] 89%|████████▉ | 8/9 [00:04<00:00,  2.16it/s]100%|██████████| 9/9 [00:05<00:00,  2.26it/s]100%|██████████| 9/9 [00:05<00:00,  1.75it/s]
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:01,  2.59it/s] 40%|████      | 2/5 [00:00<00:01,  2.37it/s] 60%|██████    | 3/5 [00:01<00:00,  2.49it/s] 80%|████████  | 4/5 [00:01<00:00,  2.50it/s]100%|██████████| 5/5 [00:01<00:00,  2.59it/s]100%|██████████| 5/5 [00:01<00:00,  2.54it/s]
+ 14%|█▍        | 2/14 [00:07<00:52,  4.42s/it]Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+ 21%|██▏       | 3/14 [00:11<00:42,  3.85s/it] 29%|██▊       | 4/14 [00:13<00:34,  3.48s/it] 36%|███▌      | 5/14 [00:17<00:31,  3.53s/it] 43%|████▎     | 6/14 [00:20<00:25,  3.24s/it] 50%|█████     | 7/14 [00:23<00:22,  3.15s/it] 57%|█████▋    | 8/14 [00:26<00:18,  3.08s/it] 64%|██████▍   | 9/14 [00:31<00:18,  3.64s/it] 71%|███████▏  | 10/14 [00:32<00:11,  2.83s/it] 79%|███████▊  | 11/14 [00:32<00:06,  2.14s/it] 86%|████████▌ | 12/14 [00:33<00:03,  1.64s/it] 93%|█████████▎| 13/14 [00:33<00:01,  1.28s/it]100%|██████████| 14/14 [00:34<00:00,  1.07s/it]100%|██████████| 14/14 [00:34<00:00,  2.44s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-04-30 21:00:01.920728
+Script ended at: 2024-04-30 21:01:33.884210
+Total execution time: 0:01:31.963482
