@@ -16,8 +16,8 @@ const MatchupStats = () => {
   
   return (
     <View style={styles.container}>
-    <Text style={styles.star_rate}>NBA Star Hitrates: Cover (3: 68%, 2: 58%, 1: 50%) NBA Total (-3:61%, -2:0%, -1:0%, 0: Nah)</Text>
-    <Text style={styles.star_rate}>MLB Star Hitrates: Cover (3: 0%, 2: 0%, 1: 0%) MLB Total (-3:77%, -2:0%, -1:0%,  0: Nah) </Text>
+    <Text style={styles.star_rate}>NBA Star Hitrates: Cover (3: 50%, 2: 61%, 1: 42%) NBA Total (-3:61%, -2:50%, -1:43%, 0: Nah)</Text>
+    <Text style={styles.star_rate}>MLB Star Hitrates: Cover (3: 53%, 2: 50%, 1: 50.7%) MLB Total (-3:52%, -2:50%, -1:43%,  0: Nah) </Text>
 
       <ScrollView style={styles.scrollContainer}>
         {matchups.map(([matchId, details], index) => {
