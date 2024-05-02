@@ -4,15 +4,15 @@
             "BetTableId": "ESPN_c5227021_dc435e0a_NBA",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
-                "Away ML": "-999",
-                "Home Spread": "-999",
-                "Home Spread Odds": "-999",
-                "Home ML": "-999",
-                "Total": "99",
-                "Over Total Odds": "-999",
-                "Under Total Odds": "-999"
+                "Away Spread": "+6.5",
+                "Away Spread Odds": "-115",
+                "Away ML": "+185",
+                "Home Spread": "-6.5",
+                "Home Spread Odds": "-105",
+                "Home ML": "-225",
+                "Total": "216.5",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "c5227021_dc435e0a_NBA",
             "Info Table": {
@@ -25,6 +25,36 @@
                 "Home Abv": "IND",
                 "Home ID": "dc435e0a",
                 "Start Time": "Today \u00b7 6:30 PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_65ba1118_fe2ec146_NBA",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "+2.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "+125",
+                "Home Spread": "-2.5",
+                "Home Spread Odds": "-115",
+                "Home ML": "-150",
+                "Total": "201.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
+            },
+            "MatchupID": "65ba1118_fe2ec146_NBA",
+            "Info Table": {
+                "Away Team": "NY Knicks",
+                "Away Team Rank Name": "New York",
+                "Away Abv": "NYK",
+                "Away ID": "65ba1118",
+                "Home Team": "PHI 76ers",
+                "Home Team Rank Name": "Philadelphia",
+                "Home Abv": "PHI",
+                "Home ID": "fe2ec146",
+                "Start Time": "Today \u00b7 9:00 PM",
                 "League": "NBA"
             }
         }
