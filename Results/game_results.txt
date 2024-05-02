@@ -1,48 +1,28 @@
-Miami @ Boston (NBA): Cover Rating - 4.6, Over Score - 5.2
-Bet on Miami to cover the spread.
 Dallas @ LA Clippers (NBA): Cover Rating - 0.2, Over Score - 5.1
 Bet on Dallas to cover the spread.
-NY Yankees @ Baltimore (MLB): Cover Rating - 0.9, Over Score - 8.5
-Bet on NY Yankees to cover the spread.
-Chi Cubs @ NY Mets (MLB): Cover Rating - 1.8, Over Score - 5.4
-Bet on Chi Cubs to cover the spread.
-SF Giants @ Boston (MLB): Cover Rating - 5.2, Over Score - 6.4
-Bet on SF Giants to cover the spread.
-Washington @ Texas (MLB): Cover Rating - 2.2, Over Score - 5.6
-Bet on Washington to cover the spread.
-Cleveland @ Houston (MLB): Cover Rating - 12.2, Over Score - 5.1
+Washington @ Texas (MLB): Cover Rating - 2.8, Over Score - 5.1
+Bet on Texas to cover the spread.
+Cleveland @ Houston (MLB): Cover Rating - 7.2, Over Score - 5.1
 Bet on Cleveland to cover the spread.
-LA Dodgers @ Arizona (MLB): Cover Rating - 0.7, Over Score - 4.3
-Bet on LA Dodgers to cover the spread.
+LA Dodgers @ Arizona (MLB): Cover Rating - 4.3, Over Score - 5.8
+Bet on Arizona to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Cleveland @ Houston (MLB): Cover Rating - 12.2, Bet on Cleveland to cover the spread.
-SF Giants @ Boston (MLB): Cover Rating - 5.2, Bet on SF Giants to cover the spread.
-Miami @ Boston (NBA): Cover Rating - 4.6, Bet on Miami to cover the spread.
-Washington @ Texas (MLB): Cover Rating - 2.2, Bet on Washington to cover the spread.
-Chi Cubs @ NY Mets (MLB): Cover Rating - 1.8, Bet on Chi Cubs to cover the spread.
-NY Yankees @ Baltimore (MLB): Cover Rating - 0.9, Bet on NY Yankees to cover the spread.
-LA Dodgers @ Arizona (MLB): Cover Rating - 0.7, Bet on LA Dodgers to cover the spread.
+Cleveland @ Houston (MLB): Cover Rating - 7.2, Bet on Cleveland to cover the spread.
+LA Dodgers @ Arizona (MLB): Cover Rating - 4.3, Bet on Arizona to cover the spread.
+Washington @ Texas (MLB): Cover Rating - 2.8, Bet on Texas to cover the spread.
 Dallas @ LA Clippers (NBA): Cover Rating - 0.2, Bet on Dallas to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Yankees @ Baltimore (MLB): Over Score - 8.5
-SF Giants @ Boston (MLB): Over Score - 6.4
-Washington @ Texas (MLB): Over Score - 5.6
-Chi Cubs @ NY Mets (MLB): Over Score - 5.4
-Miami @ Boston (NBA): Over Score - 5.2
+LA Dodgers @ Arizona (MLB): Over Score - 5.8
 Dallas @ LA Clippers (NBA): Over Score - 5.1
 Cleveland @ Houston (MLB): Over Score - 5.1
-LA Dodgers @ Arizona (MLB): Over Score - 4.3
+Washington @ Texas (MLB): Over Score - 5.1
          date league  cover_rating  ...  total   home_team    away_team
-0  2024-05-01    NBA      4.571429  ...  210.5       Miami       Boston
-1  2024-05-01    NBA      0.166667  ...  209.0      Dallas  LA Clippers
-2  2024-05-01    MLB      0.866667  ...    8.0  NY Yankees    Baltimore
-3  2024-05-01    MLB      1.800000  ...    2.5    Chi Cubs      NY Mets
-4  2024-05-01    MLB      5.200000  ...    8.5   SF Giants       Boston
-5  2024-05-01    MLB      2.200000  ...    6.5  Washington        Texas
-6  2024-05-01    MLB     12.200000  ...    5.5   Cleveland      Houston
-7  2024-05-01    MLB      0.733333  ...    8.5  LA Dodgers      Arizona
+0  2024-05-01    NBA      0.166667  ...  209.0      Dallas  LA Clippers
+1  2024-05-01    MLB      2.800000  ...    1.5  Washington        Texas
+2  2024-05-01    MLB      7.200000  ...    5.5   Cleveland      Houston
+3  2024-05-01    MLB      4.266667  ...    6.5  LA Dodgers      Arizona
 
-[8 rows x 10 columns]
+[4 rows x 10 columns]
 Avoided Overriding DailyPredictions
