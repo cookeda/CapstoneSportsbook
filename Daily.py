@@ -9,7 +9,7 @@ def main():
     start_time = datetime.now()
     
     # Run History in Data Collecting Src
-    os.chdir("./Data Collecting Src")
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
     subprocess.run(['python', 'history.py'])
 
     # Scrape Adv League Data
