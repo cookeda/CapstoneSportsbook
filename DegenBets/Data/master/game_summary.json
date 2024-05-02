@@ -1,16 +1,51 @@
 {
-    "48eb7bb_88571b9e_NBA": {
-        "team_to_cover": "Dallas",
-        "cover_rating": 0.5,
-        "over_score": 5.1,
+    "c5227021_dc435e0a_NBA": {
+        "team_to_cover": "Indiana",
+        "cover_rating": 2.1,
+        "over_score": 5.7,
+        "cover_grade": 2,
+        "total_rating": -3
+    },
+    "65ba1118_fe2ec146_NBA": {
+        "team_to_cover": "Philadelphia",
+        "cover_rating": 1.6,
+        "over_score": 5.6,
         "cover_grade": 1,
+        "total_rating": -3
+    },
+    "8f2512bc_8d47be6d_MLB": {
+        "team_to_cover": "Colorado",
+        "cover_rating": 11.2,
+        "over_score": 6.2,
+        "cover_grade": 3,
         "total_rating": 0
     },
-    "4e2f3aa1_2b1ac347_MLB": {
-        "team_to_cover": "Arizona",
-        "cover_rating": 4.0,
-        "over_score": 4.3,
-        "cover_grade": 0,
+    "d10f1db8_c625b23e_MLB": {
+        "team_to_cover": "Chi Cubs",
+        "cover_rating": 1.8,
+        "over_score": 4.9,
+        "cover_grade": 2,
         "total_rating": -1
+    },
+    "486a5e3b_8a2d1e91_MLB": {
+        "team_to_cover": "SF Giants",
+        "cover_rating": 1.3,
+        "over_score": 4.9,
+        "cover_grade": 1,
+        "total_rating": -1
+    },
+    "dd4357ee_e841daaf_MLB": {
+        "team_to_cover": "Washington",
+        "cover_rating": 8.2,
+        "over_score": 5.1,
+        "cover_grade": 3,
+        "total_rating": -2
+    },
+    "5a31e1ff_4005c299_MLB": {
+        "team_to_cover": "Cleveland",
+        "cover_rating": 12.2,
+        "over_score": 5.1,
+        "cover_grade": 0,
+        "total_rating": -2
     }
 }

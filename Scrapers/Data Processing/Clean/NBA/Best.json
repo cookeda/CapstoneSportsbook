@@ -1,28 +1,54 @@
 [
     {
-        "MatchupID": "48eb7bb_88571b9e_NBA",
+        "MatchupID": "c5227021_dc435e0a_NBA",
         "Info Table": {
-            "Away Team": "DAL Mavericks",
-            "Away Team Rank Name": "Dallas",
-            "Away Abv": "DAL",
-            "Away ID": "48eb7bb",
-            "Home Team": "LA Clippers",
-            "Home Team Rank Name": "LA Clippers",
-            "Home Abv": "LAC",
-            "Home ID": "88571b9e",
-            "Start Time": "Round 1, Game 5: Series Tied 2-2",
+            "Away Team": "MIL Bucks",
+            "Away Team Rank Name": "Milwaukee",
+            "Away Abv": "MIL",
+            "Away ID": "c5227021",
+            "Home Team": "IND Pacers",
+            "Home Team Rank Name": "Indiana",
+            "Home Abv": "IND",
+            "Home ID": "dc435e0a",
+            "Start Time": "Today · 6:30 PM",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "-5.5 (DK)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "−245 (DK)",
-            "Home Spread": "+18.5 (ESPN)",
-            "Home Spread Odds": "-115 (ESPN)",
-            "Home ML": "+1100 (Bovada)",
-            "Total": "208.5 (DK)",
-            "Over Total Odds": "-115 (ESPN)",
-            "Under Total Odds": "-115 (Bovada)"
+            "Away Spread": "+8.5 (ESPN)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "+270 (ESPN)",
+            "Home Spread": "-8.0 (Bovada)",
+            "Home Spread Odds": "-105 (ESPN)",
+            "Home ML": "-340 (ESPN)",
+            "Total": "212.5 (ESPN)",
+            "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "65ba1118_fe2ec146_NBA",
+        "Info Table": {
+            "Away Team": "NY Knicks",
+            "Away Team Rank Name": "New York",
+            "Away Abv": "NYK",
+            "Away ID": "65ba1118",
+            "Home Team": "PHI 76ers",
+            "Home Team Rank Name": "Philadelphia",
+            "Home Abv": "PHI",
+            "Home ID": "fe2ec146",
+            "Start Time": "Today · 9:00 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+3.5 (ESPN)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "+130 (Bovada)",
+            "Home Spread": "-3.0 (Bovada)",
+            "Home Spread Odds": "-105 (ESPN)",
+            "Home ML": "-150 (ESPN)",
+            "Total": "198.5 (ESPN)",
+            "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-110 (ESPN)"
         }
     }
 ]
