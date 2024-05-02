@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "ESPN_d10f1db8_c625b23e_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
-                "Away ML": "-999",
-                "Home Spread": "-999",
-                "Home Spread Odds": "-999",
-                "Home ML": "-999",
-                "Total": "99",
-                "Over Total Odds": "-999",
-                "Under Total Odds": "-999"
-            },
-            "MatchupID": "d10f1db8_c625b23e_MLB",
-            "Info Table": {
-                "Away Team": "CHI Cubs",
-                "Away Team Rank Name": "Chi Cubs",
-                "Away Abv": "CHC",
-                "Away ID": "d10f1db8",
-                "Home Team": "NY Mets",
-                "Home Team Rank Name": "NY Mets",
-                "Home Abv": "NYM",
-                "Home ID": "c625b23e",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "ESPN_dd4357ee_e841daaf_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+3.5",
-                "Away Spread Odds": "-160",
-                "Away ML": "+700",
+                "Away Spread Odds": "+300",
+                "Away ML": "+3000",
                 "Home Spread": "-3.5",
-                "Home Spread Odds": "+125",
-                "Home ML": "-1400",
-                "Total": "6.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-130"
+                "Home Spread Odds": "-450",
+                "Home ML": "-20000",
+                "Total": "4.5",
+                "Over Total Odds": "+125",
+                "Under Total Odds": "-160"
             },
             "MatchupID": "dd4357ee_e841daaf_MLB",
             "Info Table": {
