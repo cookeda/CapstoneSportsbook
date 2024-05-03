@@ -1,15 +1,45 @@
 [
     [
         {
+            "BetTableId": "Bovada_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-999",
+                "Away Spread Odds": "99",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "99",
+                "Home ML": "-999",
+                "Total": "-999",
+                "Over Total Odds": "99",
+                "Under Total Odds": "99"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "-999",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "Bovada_c5227021_d10f1db8_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "-999",
                 "Away Spread Odds": "99",
-                "Away ML": "+104",
+                "Away ML": "+102",
                 "Home Spread": "-999",
                 "Home Spread Odds": "99",
-                "Home ML": "-124",
+                "Home ML": "-122",
                 "Total": "-999",
                 "Over Total Odds": "99",
                 "Under Total Odds": "99"
@@ -126,10 +156,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "-110",
-                "Away ML": "-181",
+                "Away ML": "-182",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-110",
-                "Home ML": "+149",
+                "Home ML": "+150",
                 "Total": "9.0",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
@@ -186,10 +216,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-160",
-                "Away ML": "+136",
+                "Away ML": "+137",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+135",
-                "Home ML": "-162",
+                "Home ML": "-163",
                 "Total": "8.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
