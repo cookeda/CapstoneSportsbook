@@ -1,39 +1,40 @@
 [
     [
         {
-            "BetTableId": "ESPN_c5227021_dc435e0a_NBA",
+            "BetTableId": "ESPN_5a31e1ff_2848484e_NBA",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "+8.5",
-                "Away Spread Odds": "-115",
-                "Away ML": "+270",
-                "Home Spread": "-8.5",
-                "Home Spread Odds": "-105",
-                "Home ML": "-340",
-                "Total": "212.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Away Spread": "+3.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "+140",
+                "Home Spread": "-3.5",
+                "Home Spread Odds": "-115",
+                "Home ML": "-165",
+                "Total": "200.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             },
-            "MatchupID": "c5227021_dc435e0a_NBA",
+            "MatchupID": "5a31e1ff_2848484e_NBA",
             "Info Table": {
-                "Away Team": "MIL Bucks",
-                "Away Team Rank Name": "Milwaukee",
-                "Away Abv": "MIL",
-                "Away ID": "c5227021",
-                "Home Team": "IND Pacers",
-                "Home Team Rank Name": "Indiana",
-                "Home Abv": "IND",
-                "Home ID": "dc435e0a",
-                "Start Time": "Today \u00b7 6:30 PM",
+                "Away Team": "CLE Cavaliers",
+                "Away Team Rank Name": "Cleveland",
+                "Away Abv": "CLE",
+                "Away ID": "5a31e1ff",
+                "Home Team": "ORL Magic",
+                "Home Team Rank Name": "Orlando",
+                "Home Abv": "ORL",
+                "Home ID": "2848484e",
+                "Start Time": "Today \u00b7 7:00 PM",
                 "League": "NBA"
             }
         }
     ],
     [
         {
-            "BetTableId": "ESPN_65ba1118_fe2ec146_NBA",
+            "BetTableId": "ESPN_88571b9e_48eb7bb_NBA",
             "Odds Table": {
                 "Book Name": "ESPN",
+<<<<<<< HEAD
                 "Away Spread": "+3.5",
                 "Away Spread Odds": "-110",
                 "Away ML": "+125",
@@ -43,18 +44,29 @@
                 "Total": "198.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
+=======
+                "Away Spread": "+7.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "+280",
+                "Home Spread": "-7.5",
+                "Home Spread Odds": "-115",
+                "Home ML": "-350",
+                "Total": "208.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
+>>>>>>> b48dd0ef5cecba4c82108e0e2a8fc04211934eff
             },
-            "MatchupID": "65ba1118_fe2ec146_NBA",
+            "MatchupID": "88571b9e_48eb7bb_NBA",
             "Info Table": {
-                "Away Team": "NY Knicks",
-                "Away Team Rank Name": "New York",
-                "Away Abv": "NYK",
-                "Away ID": "65ba1118",
-                "Home Team": "PHI 76ers",
-                "Home Team Rank Name": "Philadelphia",
-                "Home Abv": "PHI",
-                "Home ID": "fe2ec146",
-                "Start Time": "Today \u00b7 9:00 PM",
+                "Away Team": "LA Clippers",
+                "Away Team Rank Name": "LA Clippers",
+                "Away Abv": "LAC",
+                "Away ID": "88571b9e",
+                "Home Team": "DAL Mavericks",
+                "Home Team Rank Name": "Dallas",
+                "Home Abv": "DAL",
+                "Home ID": "48eb7bb",
+                "Start Time": "Today \u00b7 9:30 PM",
                 "League": "NBA"
             }
         }
