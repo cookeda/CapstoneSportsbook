@@ -21,7 +21,7 @@
                 "Home Spread": "-4.0",
                 "Home Spread Odds": "-105",
                 "Home ML": "-170",
-                "Total": "200.5",
+                "Total": "201.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
@@ -33,7 +33,7 @@
                 "Home Spread": "-4",
                 "Home Spread Odds": "−108",
                 "Home ML": "−170",
-                "Total": "199",
+                "Total": "200",
                 "Over Total Odds": "−108",
                 "Under Total Odds": "−112"
             },
@@ -41,13 +41,13 @@
                 "Book Name": "ESPN",
                 "Away Spread": "+3.5",
                 "Away Spread Odds": "-105",
-                "Away ML": "+140",
+                "Away ML": "+150",
                 "Home Spread": "-3.5",
                 "Home Spread Odds": "-115",
-                "Home ML": "-165",
+                "Home ML": "-175",
                 "Total": "200.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             }
         ]
     },
@@ -67,15 +67,15 @@
         "Bet Tables": [
             {
                 "Book Name": "Bovada",
-                "Away Spread": "+8.0",
-                "Away Spread Odds": "-115",
-                "Away ML": "+265",
-                "Home Spread": "-8.0",
-                "Home Spread Odds": "-105",
-                "Home ML": "-330",
+                "Away Spread": "+7.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "+255",
+                "Home Spread": "-7.5",
+                "Home Spread Odds": "-115",
+                "Home ML": "-310",
                 "Total": "208.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             {
                 "Book Name": "DK",
@@ -85,7 +85,7 @@
                 "Home Spread": "-8",
                 "Home Spread Odds": "−110",
                 "Home ML": "−325",
-                "Total": "207.5",
+                "Total": "208",
                 "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
             },
@@ -98,17 +98,17 @@
                 "Home Spread Odds": "-115",
                 "Home ML": "-350",
                 "Total": "208.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             }
         ]
     },
-    "Unknown_d10f1db8_MLB": {
+    "c5227021_d10f1db8_MLB": {
         "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
+            "Away Team": "Milwaukee Brewers",
+            "Away Team Rank Name": "Milwaukee",
+            "Away Abv": "MIL",
+            "Away ID": "c5227021",
             "Home Team": "Chicago Cubs",
             "Home Team Rank Name": "Chi Cubs",
             "Home Abv": "CHC",
@@ -120,14 +120,38 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-200",
-                "Away ML": "+107",
+                "Away Spread Odds": "-195",
+                "Away ML": "+108",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+165",
+                "Home ML": "-130",
+                "Total": "7.5",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
+            },
+            {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−205",
+                "Away ML": "+105",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "-128",
-                "Total": "8.0",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-120"
+                "Home ML": "−125",
+                "Total": "7.5",
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
+            },
+            {
+                "Book Name": "ESPN",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-215",
+                "Away ML": "+105",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+170",
+                "Home ML": "-125",
+                "Total": "7.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
             }
         ]
     },
@@ -148,23 +172,23 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+135",
-                "Away ML": "-116",
+                "Away Spread Odds": "+140",
+                "Away ML": "-114",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-160",
-                "Home ML": "-104",
-                "Total": "9.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-120"
+                "Home Spread Odds": "-165",
+                "Home ML": "-106",
+                "Total": "9.0",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+136",
-                "Away ML": "−118",
+                "Away ML": "−115",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−102",
+                "Home ML": "−105",
                 "Total": "9",
                 "Over Total Odds": "−115",
                 "Under Total Odds": "−105"
@@ -178,8 +202,8 @@
                 "Home Spread Odds": "-165",
                 "Home ML": "-105",
                 "Total": "9.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-120"
+                "Over Total Odds": "+110",
+                "Under Total Odds": "-130"
             }
         ]
     },
@@ -200,11 +224,11 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-135",
-                "Away ML": "+154",
+                "Away Spread Odds": "-140",
+                "Away ML": "+148",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+115",
-                "Home ML": "-186",
+                "Home Spread Odds": "+120",
+                "Home ML": "-180",
                 "Total": "8.5",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
@@ -252,11 +276,11 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-165",
-                "Away ML": "+131",
+                "Away Spread Odds": "-170",
+                "Away ML": "+124",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+140",
-                "Home ML": "-157",
+                "Home Spread Odds": "+145",
+                "Home ML": "-148",
                 "Total": "7.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -305,13 +329,13 @@
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "-110",
-                "Away ML": "-182",
+                "Away ML": "-181",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-110",
-                "Home ML": "+150",
-                "Total": "9.0",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Home ML": "+149",
+                "Total": "8.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
             },
             {
                 "Book Name": "DK",
@@ -322,8 +346,8 @@
                 "Home Spread Odds": "+170",
                 "Home ML": "+150",
                 "Total": "9",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−102",
+                "Under Total Odds": "−118"
             },
             {
                 "Book Name": "ESPN",
@@ -334,8 +358,8 @@
                 "Home Spread Odds": "-110",
                 "Home ML": "+150",
                 "Total": "8.5",
-                "Over Total Odds": "-135",
-                "Under Total Odds": "+115"
+                "Over Total Odds": "-125",
+                "Under Total Odds": "+105"
             }
         ]
     },
@@ -356,11 +380,11 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-185",
-                "Away ML": "+111",
+                "Away Spread Odds": "-195",
+                "Away ML": "+107",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+160",
-                "Home ML": "-133",
+                "Home Spread Odds": "+165",
+                "Home ML": "-128",
                 "Total": "8.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -380,11 +404,11 @@
             {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-180",
-                "Away ML": "+115",
+                "Away Spread Odds": "-190",
+                "Away ML": "+110",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+150",
-                "Home ML": "-135",
+                "Home Spread Odds": "+160",
+                "Home ML": "-130",
                 "Total": "8.5",
                 "Over Total Odds": "+110",
                 "Under Total Odds": "-130"
@@ -409,13 +433,13 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-160",
-                "Away ML": "+137",
+                "Away ML": "+135",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+135",
-                "Home ML": "-163",
-                "Total": "8.0",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Home ML": "-161",
+                "Total": "7.5",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             {
                 "Book Name": "DK",
@@ -425,21 +449,73 @@
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
                 "Home ML": "−162",
-                "Total": "8",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Total": "7.5",
+                "Over Total Odds": "−118",
+                "Under Total Odds": "−102"
             },
             {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-150",
+                "Away Spread Odds": "-160",
                 "Away ML": "+140",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+130",
+                "Home Spread Odds": "+135",
                 "Home ML": "-165",
                 "Total": "7.5",
-                "Over Total Odds": "-125",
-                "Under Total Odds": "+105"
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
+            }
+        ]
+    },
+    "fe8acdeb_5a31e1ff_MLB": {
+        "Info Table": {
+            "Away Team": "Los Angeles Angels",
+            "Away Team Rank Name": "LA Angels",
+            "Away Abv": "LAA",
+            "Away ID": "fe8acdeb",
+            "Home Team": "Cleveland Guardians",
+            "Home Team Rank Name": "Cleveland",
+            "Home Abv": "CLE",
+            "Home ID": "5a31e1ff",
+            "Start Time": "7:10 PM",
+            "League": "MLB"
+        },
+        "Bet Tables": [
+            {
+                "Book Name": "Bovada",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-140",
+                "Away ML": "+156",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+120",
+                "Home ML": "-190",
+                "Total": "7.5",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
+            },
+            {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−142",
+                "Away ML": "+154",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+170",
+                "Home ML": "−185",
+                "Total": "7.5",
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
+            },
+            {
+                "Book Name": "ESPN",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-140",
+                "Away ML": "+150",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+120",
+                "Home ML": "-175",
+                "Total": "7.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             }
         ]
     },
@@ -460,11 +536,11 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-210",
-                "Away ML": "-105",
+                "Away Spread Odds": "-200",
+                "Away ML": "-102",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+175",
-                "Home ML": "-115",
+                "Home Spread Odds": "+170",
+                "Home ML": "-118",
                 "Total": "9.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -484,14 +560,14 @@
             {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+165",
+                "Away Spread Odds": "+160",
                 "Away ML": "+100",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-200",
+                "Home Spread Odds": "-190",
                 "Home ML": "-120",
                 "Total": "8.5",
-                "Over Total Odds": "-135",
-                "Under Total Odds": "+115"
+                "Over Total Odds": "-130",
+                "Under Total Odds": "+110"
             }
         ]
     },
@@ -511,12 +587,12 @@
         "Bet Tables": [
             {
                 "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-220",
-                "Away ML": "-106",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+180",
-                "Home ML": "-114",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+155",
+                "Away ML": "-110",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "-180",
+                "Home ML": "-110",
                 "Total": "8.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -524,22 +600,22 @@
             {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+154",
-                "Away ML": "−108",
+                "Away Spread Odds": "+150",
+                "Away ML": "−112",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−112",
+                "Home ML": "−108",
                 "Total": "8",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+150",
+                "Away Spread Odds": "+160",
                 "Away ML": "-105",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-180",
+                "Home Spread Odds": "-190",
                 "Home ML": "-115",
                 "Total": "8.5",
                 "Over Total Odds": "+105",
@@ -564,14 +640,14 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-210",
-                "Away ML": "-101",
+                "Away Spread Odds": "-200",
+                "Away ML": "+103",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+175",
-                "Home ML": "-119",
+                "Home Spread Odds": "+170",
+                "Home ML": "-123",
                 "Total": "8.0",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             },
             {
                 "Book Name": "DK",
@@ -594,8 +670,8 @@
                 "Home Spread Odds": "-200",
                 "Home ML": "-120",
                 "Total": "8.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-120"
+                "Over Total Odds": "+105",
+                "Under Total Odds": "-125"
             }
         ]
     },
@@ -616,23 +692,23 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "+100",
+                "Away Spread Odds": "+105",
                 "Away ML": "+225",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "-120",
+                "Home Spread Odds": "-125",
                 "Home ML": "-280",
                 "Total": "7.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "+102",
-                "Away ML": "+220",
+                "Away Spread Odds": "+105",
+                "Away ML": "+225",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−270",
+                "Home ML": "−278",
                 "Total": "7.5",
                 "Over Total Odds": "−112",
                 "Under Total Odds": "−108"
@@ -669,10 +745,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-180",
-                "Away ML": "+119",
+                "Away ML": "+117",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+155",
-                "Home ML": "-142",
+                "Home ML": "-140",
                 "Total": "8.0",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
@@ -680,26 +756,26 @@
             {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−180",
-                "Away ML": "+120",
+                "Away Spread Odds": "−185",
+                "Away ML": "+114",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−142",
-                "Total": "8",
-                "Over Total Odds": "−108",
-                "Under Total Odds": "−112"
+                "Home ML": "−135",
+                "Total": "7.5",
+                "Over Total Odds": "−118",
+                "Under Total Odds": "−102"
             },
             {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-180",
-                "Away ML": "+120",
+                "Away ML": "+115",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+150",
-                "Home ML": "-140",
+                "Home ML": "-135",
                 "Total": "7.5",
-                "Over Total Odds": "-130",
-                "Under Total Odds": "+110"
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
             }
         ]
     },
@@ -719,39 +795,39 @@
         "Bet Tables": [
             {
                 "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-220",
-                "Away ML": "-104",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+180",
-                "Home ML": "-116",
-                "Total": "8.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+150",
+                "Away ML": "-110",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "-175",
+                "Home ML": "-110",
+                "Total": "9.0",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             },
             {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+160",
-                "Away ML": "−105",
+                "Away Spread Odds": "+150",
+                "Away ML": "−108",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−115",
-                "Total": "8.5",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
+                "Home ML": "−112",
+                "Total": "9",
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−115"
             },
             {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+150",
-                "Away ML": "-105",
+                "Away Spread Odds": "+145",
+                "Away ML": "-110",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-180",
-                "Home ML": "-115",
+                "Home Spread Odds": "-175",
+                "Home ML": "-110",
                 "Total": "8.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "+100"
+                "Over Total Odds": "-130",
+                "Under Total Odds": "+110"
             }
         ]
     },
@@ -772,23 +848,23 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-200",
-                "Away ML": "+102",
+                "Away Spread Odds": "-210",
+                "Away ML": "-103",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+170",
-                "Home ML": "-122",
+                "Home Spread Odds": "+175",
+                "Home ML": "-117",
                 "Total": "9.0",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
             },
             {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+154",
-                "Away ML": "+100",
+                "Away ML": "−102",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−120",
+                "Home ML": "−118",
                 "Total": "9",
                 "Over Total Odds": "−122",
                 "Under Total Odds": "+102"
@@ -804,114 +880,6 @@
                 "Total": "9.5",
                 "Over Total Odds": "+100",
                 "Under Total Odds": "-120"
-            }
-        ]
-    },
-    "Unknown_Unknown_MLB": {
-        "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
-            "Start Time": "-999",
-            "League": "MLB"
-        },
-        "Bet Tables": [
-            {
-                "Book Name": "Bovada",
-                "Away Spread": "-999",
-                "Away Spread Odds": "99",
-                "Away ML": "-999",
-                "Home Spread": "-999",
-                "Home Spread Odds": "99",
-                "Home ML": "-999",
-                "Total": "-999",
-                "Over Total Odds": "99",
-                "Under Total Odds": "99"
-            }
-        ]
-    },
-    "c5227021_d10f1db8_MLB": {
-        "Info Table": {
-            "Away Team": "MIL Brewers",
-            "Away Team Rank Name": "Milwaukee",
-            "Away Abv": "MIL",
-            "Away ID": "c5227021",
-            "Home Team": "CHI Cubs",
-            "Home Team Rank Name": "Chi Cubs",
-            "Home Abv": "CHC",
-            "Home ID": "d10f1db8",
-            "Start Time": "2:20PM",
-            "League": "MLB"
-        },
-        "Bet Tables": [
-            {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−198",
-                "Away ML": "+105",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+170",
-                "Home ML": "−125",
-                "Total": "8",
-                "Over Total Odds": "−102",
-                "Under Total Odds": "−118"
-            },
-            {
-                "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-200",
-                "Away ML": "+105",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+165",
-                "Home ML": "-125",
-                "Total": "7.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "+100"
-            }
-        ]
-    },
-    "fe8acdeb_5a31e1ff_MLB": {
-        "Info Table": {
-            "Away Team": "LA Angels",
-            "Away Team Rank Name": "LA Angels",
-            "Away Abv": "LAA",
-            "Away ID": "fe8acdeb",
-            "Home Team": "CLE Guardians",
-            "Home Team Rank Name": "Cleveland",
-            "Home Abv": "CLE",
-            "Home ID": "5a31e1ff",
-            "Start Time": "7:10PM",
-            "League": "MLB"
-        },
-        "Bet Tables": [
-            {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−142",
-                "Away ML": "+150",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+170",
-                "Home ML": "−180",
-                "Total": "8",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
-            },
-            {
-                "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-140",
-                "Away ML": "+150",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+120",
-                "Home ML": "-175",
-                "Total": "8.5",
-                "Over Total Odds": "+105",
-                "Under Total Odds": "-125"
             }
         ]
     }

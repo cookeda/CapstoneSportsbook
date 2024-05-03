@@ -5,14 +5,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−198",
+                "Away Spread Odds": "−205",
                 "Away ML": "+105",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
                 "Home ML": "−125",
-                "Total": "8",
-                "Over Total Odds": "−102",
-                "Under Total Odds": "−118"
+                "Total": "7.5",
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "c5227021_d10f1db8_MLB",
             "Info Table": {
@@ -36,10 +36,10 @@
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+136",
-                "Away ML": "−118",
+                "Away ML": "−115",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−102",
+                "Home ML": "−105",
                 "Total": "9",
                 "Over Total Odds": "−115",
                 "Under Total Odds": "−105"
@@ -131,8 +131,8 @@
                 "Home Spread Odds": "+170",
                 "Home ML": "+150",
                 "Total": "9",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−102",
+                "Under Total Odds": "−118"
             },
             "MatchupID": "8714ddbe_dd4357ee_MLB",
             "Info Table": {
@@ -190,9 +190,9 @@
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
                 "Home ML": "−162",
-                "Total": "8",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Total": "7.5",
+                "Over Total Odds": "−118",
+                "Under Total Odds": "−102"
             },
             "MatchupID": "18a9d733_6424b504_MLB",
             "Info Table": {
@@ -216,13 +216,13 @@
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "−142",
-                "Away ML": "+150",
+                "Away ML": "+154",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−180",
-                "Total": "8",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Home ML": "−185",
+                "Total": "7.5",
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
             },
             "MatchupID": "fe8acdeb_5a31e1ff_MLB",
             "Info Table": {
@@ -271,6 +271,36 @@
     ],
     [
         {
+            "BetTableId": "DK_8a2d1e91_f5328492_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+150",
+                "Away ML": "−112",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "+170",
+                "Home ML": "−108",
+                "Total": "8",
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
+            },
+            "MatchupID": "8a2d1e91_f5328492_MLB",
+            "Info Table": {
+                "Away Team": "BOS Red Sox",
+                "Away Team Rank Name": "Boston",
+                "Away Abv": "BOS",
+                "Away ID": "8a2d1e91",
+                "Home Team": "MIN Twins",
+                "Home Team Rank Name": "Minnesota",
+                "Home Abv": "MIN",
+                "Home ID": "f5328492",
+                "Start Time": "8:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_300faa7b_4005c299_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -301,45 +331,15 @@
     ],
     [
         {
-            "BetTableId": "DK_8a2d1e91_f5328492_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+154",
-                "Away ML": "−108",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+170",
-                "Home ML": "−112",
-                "Total": "8",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
-            },
-            "MatchupID": "8a2d1e91_f5328492_MLB",
-            "Info Table": {
-                "Away Team": "BOS Red Sox",
-                "Away Team Rank Name": "Boston",
-                "Away Abv": "BOS",
-                "Away ID": "8a2d1e91",
-                "Home Team": "MIN Twins",
-                "Home Team Rank Name": "Minnesota",
-                "Home Abv": "MIN",
-                "Home ID": "f5328492",
-                "Start Time": "8:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_ea799920_ccadb94e_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "+102",
-                "Away ML": "+220",
+                "Away Spread Odds": "+105",
+                "Away ML": "+225",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−270",
+                "Home ML": "−278",
                 "Total": "7.5",
                 "Over Total Odds": "−112",
                 "Under Total Odds": "−108"
@@ -365,14 +365,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−180",
-                "Away ML": "+120",
+                "Away Spread Odds": "−185",
+                "Away ML": "+114",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−142",
-                "Total": "8",
-                "Over Total Odds": "−108",
-                "Under Total Odds": "−112"
+                "Home ML": "−135",
+                "Total": "7.5",
+                "Over Total Odds": "−118",
+                "Under Total Odds": "−102"
             },
             "MatchupID": "8d47be6d_8b214a89_MLB",
             "Info Table": {
@@ -395,14 +395,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+160",
-                "Away ML": "−105",
+                "Away Spread Odds": "+150",
+                "Away ML": "−108",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−115",
-                "Total": "8.5",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
+                "Home ML": "−112",
+                "Total": "9",
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−115"
             },
             "MatchupID": "3f4235d4_2b1ac347_MLB",
             "Info Table": {
@@ -426,10 +426,10 @@
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+154",
-                "Away ML": "+100",
+                "Away ML": "−102",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "−120",
+                "Home ML": "−118",
                 "Total": "9",
                 "Over Total Odds": "−122",
                 "Under Total Odds": "+102"
