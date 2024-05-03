@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "Bovada_c5227021_dc435e0a_NBA",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+7.5",
-                "Away Spread Odds": "-115",
-                "Away ML": "+260",
-                "Home Spread": "+7.5",
-                "Home Spread Odds": "-115",
-                "Home ML": "-375",
-                "Total": "217.5",
-                "Over Total Odds": "-125",
-                "Under Total Odds": "-105"
-            },
-            "MatchupID": "c5227021_dc435e0a_NBA",
-            "Info Table": {
-                "Away Team": "Milwaukee Bucks",
-                "Away Team Rank Name": "Milwaukee",
-                "Away Abv": "MIL",
-                "Away ID": "c5227021",
-                "Home Team": "Indiana Pacers",
-                "Home Team Rank Name": "Indiana",
-                "Home Abv": "IND",
-                "Home ID": "dc435e0a",
-                "Start Time": "3Q",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_65ba1118_fe2ec146_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "+3.0",
-                "Away Spread Odds": "-105",
-                "Away ML": "+135",
-                "Home Spread": "-3.0",
-                "Home Spread Odds": "-115",
-                "Home ML": "-160",
-                "Total": "202.0",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Away Spread": "+2.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "+125",
+                "Home Spread": "-2.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "-145",
+                "Total": "202.5",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "65ba1118_fe2ec146_NBA",
             "Info Table": {
@@ -54,7 +24,7 @@
                 "Home Team Rank Name": "Philadelphia",
                 "Home Abv": "PHI",
                 "Home ID": "fe2ec146",
-                "Start Time": "9:00 PM",
+                "Start Time": "9:10 PM",
                 "League": "NBA"
             }
         }
