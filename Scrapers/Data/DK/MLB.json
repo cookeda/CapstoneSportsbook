@@ -94,10 +94,10 @@
             "BetTableId": "DK_8f2512bc_9666114b_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−135",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
                 "Away ML": "+154",
-                "Home Spread": "-1.5",
+                "Home Spread": "-999",
                 "Home Spread Odds": "-999",
                 "Home ML": "−185",
                 "Total": "8.5",
@@ -341,8 +341,8 @@
                 "Home Spread Odds": "-999",
                 "Home ML": "−135",
                 "Total": "8",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
             "MatchupID": "8d47be6d_8b214a89_MLB",
             "Info Table": {
