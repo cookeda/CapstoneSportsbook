@@ -2,7 +2,7 @@ Minnesota @ Denver (NBA): Cover Rating - 4.0, Over Score - 5.5
 Bet on Minnesota to cover the spread.
 Detroit @ NY Yankees (MLB): Cover Rating - 11.8, Over Score - 4.6
 Bet on Detroit to cover the spread.
-Boston @ Minnesota (MLB): Cover Rating - 12.4, Over Score - 5.1
+Boston @ Minnesota (MLB): Cover Rating - 12.4, Over Score - 4.1
 Bet on Boston to cover the spread.
 Chi Sox @ St. Louis (MLB): Cover Rating - 3.7, Over Score - 4.9
 Bet on Chi Sox to cover the spread.
@@ -57,26 +57,26 @@ SF Giants @ Philadelphia (MLB): Over Score - 5.8
 Atlanta @ LA Dodgers (MLB): Over Score - 5.6
 Minnesota @ Denver (NBA): Over Score - 5.5
 Milwaukee @ Chi Cubs (MLB): Over Score - 5.4
-Boston @ Minnesota (MLB): Over Score - 5.1
 San Diego @ Arizona (MLB): Over Score - 5.0
 Texas @ Kansas City (MLB): Over Score - 4.9
 Chi Sox @ St. Louis (MLB): Over Score - 4.9
 Miami @ Oakland (MLB): Over Score - 4.8
 Toronto @ Washington (MLB): Over Score - 4.8
 Detroit @ NY Yankees (MLB): Over Score - 4.6
+Boston @ Minnesota (MLB): Over Score - 4.1
 Colorado @ Pittsburgh (MLB): Over Score - 4.0
 Seattle @ Houston (MLB): Over Score - 3.0
           date league  cover_rating  ...  total  home_team     away_team
 0   2024-05-04    NBA      4.000000  ...  208.5  Minnesota        Denver
 1   2024-05-04    MLB     11.800000  ...    7.5    Detroit    NY Yankees
-2   2024-05-04    MLB     12.400000  ...    7.5     Boston     Minnesota
+2   2024-05-04    MLB     12.400000  ...    7.0     Boston     Minnesota
 3   2024-05-04    MLB      3.733333  ...    8.5    Chi Sox     St. Louis
 4   2024-05-04    MLB     10.733333  ...    8.5  Milwaukee      Chi Cubs
 5   2024-05-04    MLB      4.133333  ...    7.0   Colorado    Pittsburgh
 6   2024-05-04    MLB      5.600000  ...    8.0    Toronto    Washington
 7   2024-05-04    MLB      4.200000  ...    7.0      Miami       Oakland
 8   2024-05-04    MLB     10.266667  ...    7.0  SF Giants  Philadelphia
-9   2024-05-04    MLB      5.200000  ...    8.0  LA Angels     Cleveland
+9   2024-05-04    MLB      5.200000  ...    8.5  LA Angels     Cleveland
 10  2024-05-04    MLB      1.933333  ...    9.0  Baltimore    Cincinnati
 11  2024-05-04    MLB      6.466667  ...    8.5      Texas   Kansas City
 12  2024-05-04    MLB     10.733333  ...    7.5    Seattle       Houston
