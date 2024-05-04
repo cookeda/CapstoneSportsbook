@@ -8656,3 +8656,31 @@ Sorting complete.
 Script started at: 2024-05-04 10:00:02.034638
 Script ended at: 2024-05-04 10:00:36.440344
 Total execution time: 0:00:34.405706
+[main 8c02442] Automated Server Update
+ 47 files changed, 3997 insertions(+), 3485 deletions(-)
+ rewrite OddsHistory/History/MatchupHistory.csv (100%)
+ rewrite OddsHistory/History/Predictions.csv (61%)
+ create mode 100644 data/MLB/cover/10YearCover.jl
+ create mode 100644 data/MLB/cover/AllTimeCover.jl
+ create mode 100644 data/MLB/cover/CurrentSeasonCover.jl
+ create mode 100644 data/MLB/cover/awayCover.jl
+ create mode 100644 data/MLB/cover/homeCover.jl
+ create mode 100644 data/MLB/over/10YearOU.jl
+ create mode 100644 data/MLB/over/AllTimeOU.jl
+ create mode 100644 data/MLB/over/CurrentSeasonOU.jl
+ create mode 100644 data/MLB/over/PointAverages.jl
+ create mode 100644 data/MLB/over/awayOver.jl
+ create mode 100644 data/MLB/over/homeOver.jl
+ create mode 100644 data/NBA/cover/10YearCover.jl
+ create mode 100644 data/NBA/cover/AllTimeCover.jl
+ create mode 100644 data/NBA/cover/CurrentSeasonCover.jl
+ create mode 100644 data/NBA/cover/awayCover.jl
+ create mode 100644 data/NBA/cover/homeCover.jl
+ create mode 100644 data/NBA/over/10YearOU.jl
+ create mode 100644 data/NBA/over/AllTimeOU.jl
+ create mode 100644 data/NBA/over/CurrentSeasonOU.jl
+ create mode 100644 data/NBA/over/PointAverages.jl
+ create mode 100644 data/NBA/over/awayOver.jl
+ create mode 100644 data/NBA/over/homeOver.jl
+To https://github.com/cookeda/CapstoneSportsbook.git
+   b1f0102..8c02442  main -> main
