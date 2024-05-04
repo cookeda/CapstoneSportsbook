@@ -67,7 +67,7 @@ Detroit @ NY Yankees (MLB): Over Score - 4.8
 Toronto @ Washington (MLB): Over Score - 4.5
 Seattle @ Houston (MLB): Over Score - 4.1
           date league  cover_rating  ...  total  home_team     away_team
-0   2024-05-04    NBA      4.000000  ...  207.5  Minnesota        Denver
+0   2024-05-04    NBA      4.000000  ...  208.5  Minnesota        Denver
 1   2024-05-04    MLB     11.866667  ...    7.5    Detroit    NY Yankees
 2   2024-05-04    MLB     12.733333  ...    7.5     Boston     Minnesota
 3   2024-05-04    MLB      3.866667  ...    8.0    Chi Sox     St. Louis
@@ -82,7 +82,7 @@ Seattle @ Houston (MLB): Over Score - 4.1
 12  2024-05-04    MLB      8.001301  ...    7.5    Seattle       Houston
 13  2024-05-04    MLB      3.600000  ...    7.5    NY Mets     Tampa Bay
 14  2024-05-04    MLB     10.333333  ...    9.0  San Diego       Arizona
-15  2024-05-04    MLB     11.000000  ...    9.0    Atlanta    LA Dodgers
+15  2024-05-04    MLB     11.000000  ...    8.5    Atlanta    LA Dodgers
 
 [16 rows x 10 columns]
 Avoided Overriding DailyPredictions
