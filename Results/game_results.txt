@@ -1,33 +1,28 @@
-LA Clippers @ Dallas (NBA): Cover Rating - 1.1, Over Score - 5.0
+LA Clippers @ Dallas (NBA): Cover Rating - 1.0, Over Score - 5.0
 Bet on Dallas to cover the spread.
-Baltimore @ Cincinnati (MLB): Cover Rating - 3.7, Over Score - 6.2
-Bet on Cincinnati to cover the spread.
-Miami @ Oakland (MLB): Cover Rating - 5.9, Over Score - 5.0
-Bet on Oakland to cover the spread.
-San Diego @ Arizona (MLB): Cover Rating - 3.9, Over Score - 5.7
-Bet on Arizona to cover the spread.
-Atlanta @ LA Dodgers (MLB): Cover Rating - 3.0, Over Score - 6.3
-Bet on LA Dodgers to cover the spread.
+Miami @ Oakland (MLB): Cover Rating - 2.0, Over Score - 8.0
+Bet on Miami to cover the spread.
+San Diego @ Arizona (MLB): Cover Rating - 6.1, Over Score - 5.7
+Bet on San Diego to cover the spread.
+Atlanta @ LA Dodgers (MLB): Cover Rating - 11.0, Over Score - 5.8
+Bet on Atlanta to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Miami @ Oakland (MLB): Cover Rating - 5.9, Bet on Oakland to cover the spread.
-San Diego @ Arizona (MLB): Cover Rating - 3.9, Bet on Arizona to cover the spread.
-Baltimore @ Cincinnati (MLB): Cover Rating - 3.7, Bet on Cincinnati to cover the spread.
-Atlanta @ LA Dodgers (MLB): Cover Rating - 3.0, Bet on LA Dodgers to cover the spread.
-LA Clippers @ Dallas (NBA): Cover Rating - 1.1, Bet on Dallas to cover the spread.
+Atlanta @ LA Dodgers (MLB): Cover Rating - 11.0, Bet on Atlanta to cover the spread.
+San Diego @ Arizona (MLB): Cover Rating - 6.1, Bet on San Diego to cover the spread.
+Miami @ Oakland (MLB): Cover Rating - 2.0, Bet on Miami to cover the spread.
+LA Clippers @ Dallas (NBA): Cover Rating - 1.0, Bet on Dallas to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Atlanta @ LA Dodgers (MLB): Over Score - 6.3
-Baltimore @ Cincinnati (MLB): Over Score - 6.2
+Miami @ Oakland (MLB): Over Score - 8.0
+Atlanta @ LA Dodgers (MLB): Over Score - 5.8
 San Diego @ Arizona (MLB): Over Score - 5.7
 LA Clippers @ Dallas (NBA): Over Score - 5.0
-Miami @ Oakland (MLB): Over Score - 5.0
          date league  cover_rating  ...  total    home_team   away_team
-0  2024-05-03    NBA      1.066667  ...  208.5  LA Clippers      Dallas
-1  2024-05-03    MLB      3.742857  ...    4.5    Baltimore  Cincinnati
-2  2024-05-03    MLB      5.880000  ...    5.5        Miami     Oakland
-3  2024-05-03    MLB      3.909091  ...    9.5    San Diego     Arizona
-4  2024-05-03    MLB      3.000000  ...    6.5      Atlanta  LA Dodgers
+0  2024-05-04    NBA      1.016216  ...  212.5  LA Clippers      Dallas
+1  2024-05-04    MLB      2.000300  ...    7.5        Miami     Oakland
+2  2024-05-04    MLB      6.090909  ...    8.5    San Diego     Arizona
+3  2024-05-04    MLB     11.000000  ...    4.5      Atlanta  LA Dodgers
 
-[5 rows x 10 columns]
+[4 rows x 10 columns]
 Avoided Overriding DailyPredictions
