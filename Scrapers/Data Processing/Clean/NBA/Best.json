@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "5a31e1ff_2848484e_NBA",
-        "Info Table": {
-            "Away Team": "CLE Cavaliers",
-            "Away Team Rank Name": "Cleveland",
-            "Away Abv": "CLE",
-            "Away ID": "5a31e1ff",
-            "Home Team": "ORL Magic",
-            "Home Team Rank Name": "Orlando",
-            "Home Abv": "ORL",
-            "Home ID": "2848484e",
-            "Start Time": "Round 1, Game 6: CLE Leads 3-2",
-            "League": "NBA"
-        },
-        "Odds Table": {
-            "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "+105 (DK)",
-            "Away ML": "−115 (DK)",
-            "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+100 (ESPN)",
-            "Home ML": "+145 (Bovada)",
-            "Total": "200.0 (Bovada)",
-            "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "−105 (DK)"
-        }
-    },
-    {
         "MatchupID": "88571b9e_48eb7bb_NBA",
         "Info Table": {
             "Away Team": "LA Clippers",
@@ -36,19 +10,45 @@
             "Home Team Rank Name": "Dallas",
             "Home Abv": "DAL",
             "Home ID": "48eb7bb",
-            "Start Time": "Today · 9:30 PM",
+            "Start Time": "Round 1, Game 6: DAL Leads 3-2",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+8.5 (ESPN)",
-            "Away Spread Odds": "-105 (Bovada)",
-            "Away ML": "+275 (ESPN)",
-            "Home Spread": "-8.0 (Bovada)",
-            "Home Spread Odds": "-105 (ESPN)",
-            "Home ML": "−325 (DK)",
-            "Total": "209.5 (Bovada)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Away Spread": "+10.5 (ESPN)",
+            "Away Spread Odds": "−115 (DK)",
+            "Away ML": "+380 (ESPN)",
+            "Home Spread": "-10.5 (ESPN)",
+            "Home Spread Odds": "-110 (ESPN)",
+            "Home ML": "−540 (DK)",
+            "Total": "209.5 (ESPN)",
+            "Over Total Odds": "-115 (ESPN)",
+            "Under Total Odds": "-115 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "88571b9e_Unknown_NBA",
+        "Info Table": {
+            "Away Team": "L.A. Clippers",
+            "Away Team Rank Name": "LA Clippers",
+            "Away Abv": "LAC",
+            "Away ID": "88571b9e",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "1Q",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+10.5 (Bovada)",
+            "Away Spread Odds": "-110 (Bovada)",
+            "Away ML": "+400 (Bovada)",
+            "Home Spread": "+10.5 (Bovada)",
+            "Home Spread Odds": "-120 (Bovada)",
+            "Home ML": "-650 (Bovada)",
+            "Total": "210.0 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-120 (Bovada)"
         }
     }
 ]
