@@ -32,8 +32,8 @@
 {"Team": "Miami", "Over %": "37.8%"} 62.2%
 {"Team": "Milwaukee", "Over %": "47.6%"} 52.4%
 {"Team": "Milwaukee", "Over %": "47.6%"} 52.4%
-{"Team": "Minnesota", "Over %": "58.1%"} 41.9%
-{"Team": "Minnesota", "Over %": "58.1%"} 41.9%
+{"Team": "Minnesota", "Over %": "56.8%"} 43.2%
+{"Team": "Minnesota", "Over %": "56.8%"} 43.2%
 {"Team": "New Orleans", "Over %": "40.5%"} 59.5%
 {"Team": "New Orleans", "Over %": "40.5%"} 59.5%
 {"Team": "New York", "Over %": "54.6%"} 45.5%
