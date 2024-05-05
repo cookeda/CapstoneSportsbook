@@ -18,10 +18,10 @@ Miami @ Oakland (MLB): Cover Rating - 4.2, Over Score - 4.8
 Bet on Miami to cover the spread.
 Atlanta @ LA Dodgers (MLB): Cover Rating - 2.0, Over Score - 4.6
 Bet on Atlanta to cover the spread.
-San Diego @ Arizona (MLB): Cover Rating - 2.0, Over Score - 5.0
-Bet on San Diego to cover the spread.
 Baltimore @ Cincinnati (MLB): Cover Rating - 1.9, Over Score - 5.9
 Bet on Baltimore to cover the spread.
+San Diego @ Arizona (MLB): Cover Rating - 2.0, Over Score - 5.0
+Bet on San Diego to cover the spread.
 SF Giants @ Philadelphia (MLB): Cover Rating - 1.3, Over Score - 5.8
 Bet on SF Giants to cover the spread.
 
@@ -56,17 +56,17 @@ Seattle @ Houston (MLB): Over Score - 4.0
 Detroit @ NY Yankees (MLB): Over Score - 3.6
           date league  cover_rating  ...  total  home_team     away_team
 0   2024-05-05    NBA      2.742857  ...  194.5    Orlando     Cleveland
-1   2024-05-05    MLB     11.800000  ...    6.5    Detroit    NY Yankees
+1   2024-05-05    MLB     11.800000  ...    7.0    Detroit    NY Yankees
 2   2024-05-05    MLB      4.133333  ...    7.5   Colorado    Pittsburgh
 3   2024-05-05    MLB      5.200000  ...    9.0  LA Angels     Cleveland
 4   2024-05-05    MLB     12.400000  ...    7.0    NY Mets     Tampa Bay
-5   2024-05-05    MLB     12.400000  ...    8.0     Boston     Minnesota
+5   2024-05-05    MLB     12.400000  ...    7.5     Boston     Minnesota
 6   2024-05-05    MLB      1.733333  ...    8.5    Seattle       Houston
 7   2024-05-05    MLB      8.001101  ...    9.0  Milwaukee      Chi Cubs
 8   2024-05-05    MLB      4.200000  ...    7.5      Miami       Oakland
 9   2024-05-05    MLB      2.000000  ...    9.0    Atlanta    LA Dodgers
-10  2024-05-05    MLB      2.000000  ...    9.5  San Diego       Arizona
-11  2024-05-05    MLB      1.933333  ...    9.0  Baltimore    Cincinnati
+10  2024-05-05    MLB      1.933333  ...    9.0  Baltimore    Cincinnati
+11  2024-05-05    MLB      2.000000  ...    9.5  San Diego       Arizona
 12  2024-05-05    MLB      1.266667  ...    7.5  SF Giants  Philadelphia
 
 [13 rows x 10 columns]
