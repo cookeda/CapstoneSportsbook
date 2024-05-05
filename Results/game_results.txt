@@ -26,7 +26,7 @@ Atlanta @ LA Dodgers (MLB): Cover Rating - 2.0, Over Score - 5.6
 Bet on Atlanta to cover the spread.
 Baltimore @ Cincinnati (MLB): Cover Rating - 1.9, Over Score - 5.9
 Bet on Baltimore to cover the spread.
-San Diego @ Arizona (MLB): Cover Rating - 2.0, Over Score - 4.0
+San Diego @ Arizona (MLB): Cover Rating - 2.0, Over Score - 5.0
 Bet on San Diego to cover the spread.
 SF Giants @ Philadelphia (MLB): Cover Rating - 1.3, Over Score - 5.8
 Bet on SF Giants to cover the spread.
@@ -58,13 +58,13 @@ Orlando @ Cleveland (NBA): Over Score - 5.6
 Milwaukee @ Chi Cubs (MLB): Over Score - 5.4
 NY Mets @ Tampa Bay (MLB): Over Score - 5.4
 Boston @ Minnesota (MLB): Over Score - 5.1
+San Diego @ Arizona (MLB): Over Score - 5.0
 Colorado @ Pittsburgh (MLB): Over Score - 5.0
 Texas @ Kansas City (MLB): Over Score - 4.9
 Chi Sox @ St. Louis (MLB): Over Score - 4.9
 Miami @ Oakland (MLB): Over Score - 4.8
 Toronto @ Washington (MLB): Over Score - 4.8
 Detroit @ NY Yankees (MLB): Over Score - 4.6
-San Diego @ Arizona (MLB): Over Score - 4.0
 Seattle @ Houston (MLB): Over Score - 4.0
           date league  cover_rating  ...  total  home_team     away_team
 0   2024-05-05    NBA      2.366667  ...  195.0    Orlando     Cleveland
@@ -81,7 +81,7 @@ Seattle @ Houston (MLB): Over Score - 4.0
 11  2024-05-05    MLB      4.200000  ...    7.5      Miami       Oakland
 12  2024-05-05    MLB      2.000000  ...    8.5    Atlanta    LA Dodgers
 13  2024-05-05    MLB      1.933333  ...    9.0  Baltimore    Cincinnati
-14  2024-05-05    MLB      2.000000  ...    9.5  San Diego       Arizona
+14  2024-05-05    MLB      2.000000  ...    9.0  San Diego       Arizona
 15  2024-05-05    MLB      1.266667  ...    7.5  SF Giants  Philadelphia
 
 [16 rows x 10 columns]
