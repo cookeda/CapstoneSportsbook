@@ -2,52 +2,22 @@ Indiana @ New York (NBA): Cover Rating - 3.8, Over Score - 5.1
 Bet on Indiana to cover the spread.
 Minnesota @ Denver (NBA): Cover Rating - 4.3, Over Score - 5.4
 Bet on Minnesota to cover the spread.
-Toronto @ Washington (MLB): Cover Rating - 9.6, Over Score - 5.0
-Bet on Toronto to cover the spread.
-Texas @ Kansas City (MLB): Cover Rating - 3.4, Over Score - 8.1
-Bet on Texas to cover the spread.
-Miami @ Oakland (MLB): Cover Rating - 5.2, Over Score - 5.5
-Bet on Oakland to cover the spread.
-Atlanta @ LA Dodgers (MLB): Cover Rating - 5.2, Over Score - 6.3
-Bet on Atlanta to cover the spread.
-Baltimore @ Cincinnati (MLB): Cover Rating - 6.3, Over Score - 6.2
-Bet on Baltimore to cover the spread.
-San Diego @ Arizona (MLB): Cover Rating - 5.4, Over Score - 5.7
-Bet on San Diego to cover the spread.
-SF Giants @ Philadelphia (MLB): Cover Rating - 0.6, Over Score - 5.9
-Bet on SF Giants to cover the spread.
+SF Giants @ Philadelphia (MLB): Cover Rating - 4.4, Over Score - 5.9
+Bet on Philadelphia to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Toronto @ Washington (MLB): Cover Rating - 9.6, Bet on Toronto to cover the spread.
-Baltimore @ Cincinnati (MLB): Cover Rating - 6.3, Bet on Baltimore to cover the spread.
-San Diego @ Arizona (MLB): Cover Rating - 5.4, Bet on San Diego to cover the spread.
-Miami @ Oakland (MLB): Cover Rating - 5.2, Bet on Oakland to cover the spread.
-Atlanta @ LA Dodgers (MLB): Cover Rating - 5.2, Bet on Atlanta to cover the spread.
+SF Giants @ Philadelphia (MLB): Cover Rating - 4.4, Bet on Philadelphia to cover the spread.
 Minnesota @ Denver (NBA): Cover Rating - 4.3, Bet on Minnesota to cover the spread.
 Indiana @ New York (NBA): Cover Rating - 3.8, Bet on Indiana to cover the spread.
-Texas @ Kansas City (MLB): Cover Rating - 3.4, Bet on Texas to cover the spread.
-SF Giants @ Philadelphia (MLB): Cover Rating - 0.6, Bet on SF Giants to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Texas @ Kansas City (MLB): Over Score - 8.1
-Atlanta @ LA Dodgers (MLB): Over Score - 6.3
-Baltimore @ Cincinnati (MLB): Over Score - 6.2
 SF Giants @ Philadelphia (MLB): Over Score - 5.9
-San Diego @ Arizona (MLB): Over Score - 5.7
-Miami @ Oakland (MLB): Over Score - 5.5
 Minnesota @ Denver (NBA): Over Score - 5.4
 Indiana @ New York (NBA): Over Score - 5.1
-Toronto @ Washington (MLB): Over Score - 5.0
          date league  cover_rating  ...  total  home_team     away_team
 0  2024-05-05    NBA      3.833333  ...  217.5    Indiana      New York
 1  2024-05-05    NBA      4.254545  ...  207.0  Minnesota        Denver
-2  2024-05-05    MLB      9.600000  ...   18.5    Toronto    Washington
-3  2024-05-05    MLB      3.400000  ...    8.0      Texas   Kansas City
-4  2024-05-05    MLB      5.230769  ...   12.5      Miami       Oakland
-5  2024-05-05    MLB      5.200000  ...    5.5    Atlanta    LA Dodgers
-6  2024-05-05    MLB      6.290909  ...    8.5  Baltimore    Cincinnati
-7  2024-05-05    MLB      5.400000  ...   19.5  San Diego       Arizona
-8  2024-05-05    MLB      0.600000  ...    8.0  SF Giants  Philadelphia
+2  2024-05-05    MLB      4.400000  ...    8.5  SF Giants  Philadelphia
 
-[9 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
