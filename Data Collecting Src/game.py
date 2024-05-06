@@ -111,8 +111,7 @@ class Game:
         print(f"Home Spread: {self.home_spread}, Away Spread: {self.away_spread}, Total: {self.total}\n")
 
     def analyze_game(self):
-        # Example of using stats for analysis
-        # Let's assume we're interested in the "Cover" stats for this analysis
+        # Get general stats
         over_stats_general = self.stats.generalAlg("Over", self.league)
         cover_stats_general = self.stats.generalAlg("Cover", self.league)
         over_stats_home = self.stats.getDictPercent(self.league, "Over", "home")
@@ -120,6 +119,7 @@ class Game:
         cover_stats_home = self.stats.getDictPercent(self.league, "Cover", "home")
         cover_stats_away = self.stats.getDictPercent(self.league, "Cover", "away")
 
+        # Get Ratings
         home_over = (over_stats_general.get(self.home_team, 0) + over_stats_home.get(self.home_team, 0)) / 2
         away_over = (over_stats_general.get(self.away_team, 0) + over_stats_away.get(self.away_team, 0)) / 2
         home_cover_perc = (cover_stats_general.get(self.home_team, 0) + cover_stats_home.get(self.home_team, 0)) / 2
@@ -127,12 +127,13 @@ class Game:
         home_over_score = 1 + (home_over * 9)
         away_over_score = 1 + (away_over * 9)
 
-        # Encoding fix for negative sign
+        # Encoding for negative sign
         self.over_odds = self.over_odds.replace('−', '-')
         self.under_odds = self.under_odds.replace('−', '-')
         self.home_spread_odds = self.home_spread_odds.replace('−', '-')
         self.away_spread_odds = self.away_spread_odds.replace('−', '-')
 
+        # Slightly Adjust Ratings Based On What Vegas Thinks
         if float(self.over_odds) <= -130:
             home_over_score += 3
         elif float(self.over_odds) >= 100:
@@ -142,19 +143,21 @@ class Game:
         elif float(self.under_odds) >= 100:
             away_over_score -= 2
 
+        # Game Total Rating Average Of Both Teams
         over_rating = (home_over_score + away_over_score) / 2
 
+        # Margin Of Victory + Spread
         homeMOV = self.stats.getDictMOV(self.league, "Cover", "home")
         awayMOV = self.stats.getDictMOV(self.league, "Cover", "away")
-
         home_cover = homeMOV.get(self.home_team, 0) + self.home_spread
         away_cover = awayMOV.get(self.away_team, 0) + self.away_spread
 
+        # Percent Chance to Cover
         spread = abs(self.home_spread)
-
         home_cover_score = home_cover / spread
         away_cover_score = away_cover / spread
 
+        # Adjust Ratings
         if home_cover_perc >= away_cover_perc:
             home_cover_score += 3
         else:
@@ -170,17 +173,17 @@ class Game:
         elif float(self.away_spread_odds) >= 100:
             away_cover_score -= 2
 
-        if (away_cover_score > home_cover_score):
+        # Determine Who To Bet Spread
+        if away_cover_score > home_cover_score:
             favored_to_cover = self.away_team
         else:
             favored_to_cover = self.home_team
         game_cover_score = abs(home_cover_score - away_cover_score)
 
         game_rating = game_cover_score
-
-        # Determine which team to bet on for the spread
         betting_advice = f"Bet on {favored_to_cover} to cover the spread."
 
+        # Return Data and Confidence Ratings For Game
         return {
             "matchup": f"{self.away_team} @ {self.home_team}",
             "over_score": over_rating,
