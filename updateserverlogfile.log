@@ -11062,3 +11062,43 @@ Sorting complete.
 Script started at: 2024-05-06 18:00:02.084563
 Script ended at: 2024-05-06 18:00:33.787297
 Total execution time: 0:00:31.702734
+[main 901ea945] Automated Server Update
+ 24 files changed, 808 insertions(+), 767 deletions(-)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   a4dfacc0..901ea945  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/9 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:02<00:02,  2.69s/it] 11%|█         | 1/9 [00:02<00:20,  2.62s/it]100%|██████████| 2/2 [00:05<00:00,  2.60s/it]100%|██████████| 2/2 [00:05<00:00,  2.61s/it]
+ 22%|██▏       | 2/9 [00:05<00:17,  2.53s/it] 33%|███▎      | 3/9 [00:07<00:15,  2.54s/it] 44%|████▍     | 4/9 [00:08<00:09,  1.99s/it] 56%|█████▌    | 5/9 [00:09<00:06,  1.53s/it] 67%|██████▋   | 6/9 [00:09<00:03,  1.15s/it] 78%|███████▊  | 7/9 [00:10<00:01,  1.12it/s] 89%|████████▉ | 8/9 [00:10<00:00,  1.37it/s]100%|██████████| 9/9 [00:11<00:00,  1.62it/s]100%|██████████| 9/9 [00:11<00:00,  1.22s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/9 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.90it/s]  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00,  2.15it/s]100%|██████████| 2/2 [00:00<00:00,  2.11it/s]
+ 50%|█████     | 1/2 [00:00<00:00,  1.91it/s]100%|██████████| 2/2 [00:01<00:00,  2.01it/s]100%|██████████| 2/2 [00:01<00:00,  2.00it/s]
+ 11%|█         | 1/9 [00:02<00:20,  2.50s/it]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  2.30it/s] 67%|██████▋   | 2/3 [00:00<00:00,  2.52it/s] 22%|██▏       | 2/9 [00:05<00:17,  2.51s/it]100%|██████████| 3/3 [00:01<00:00,  2.57it/s]100%|██████████| 3/3 [00:01<00:00,  2.53it/s]
+  0%|          | 0/6 [00:00<?, ?it/s] 17%|█▋        | 1/6 [00:00<00:01,  2.59it/s] 33%|███▎      | 2/6 [00:00<00:01,  2.64it/s] 50%|█████     | 3/6 [00:01<00:01,  2.67it/s] 67%|██████▋   | 4/6 [00:01<00:00,  2.67it/s] 83%|████████▎ | 5/6 [00:02<00:00,  2.37it/s] 33%|███▎      | 3/9 [00:07<00:14,  2.50s/it]100%|██████████| 6/6 [00:02<00:00,  2.24it/s]100%|██████████| 6/6 [00:02<00:00,  2.39it/s]
+ 44%|████▍     | 4/9 [00:07<00:08,  1.70s/it] 56%|█████▌    | 5/9 [00:08<00:04,  1.25s/it] 67%|██████▋   | 6/9 [00:08<00:02,  1.01it/s] 78%|███████▊  | 7/9 [00:09<00:01,  1.22it/s] 89%|████████▉ | 8/9 [00:09<00:00,  1.43it/s]100%|██████████| 9/9 [00:10<00:00,  1.59it/s]100%|██████████| 9/9 [00:10<00:00,  1.14s/it]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-06 19:00:01.750948
+Script ended at: 2024-05-06 19:00:42.164833
+Total execution time: 0:00:40.413885
