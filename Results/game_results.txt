@@ -2,11 +2,11 @@ Indiana @ New York (NBA): Cover Rating - 3.8, Over Score - 5.1
 Bet on Indiana to cover the spread.
 Minnesota @ Denver (NBA): Cover Rating - 4.3, Over Score - 5.4
 Bet on Minnesota to cover the spread.
-SF Giants @ Philadelphia (MLB): Cover Rating - 4.4, Over Score - 5.9
-Bet on Philadelphia to cover the spread.
+SF Giants @ Philadelphia (MLB): Cover Rating - 9.6, Over Score - 5.9
+Bet on SF Giants to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-SF Giants @ Philadelphia (MLB): Cover Rating - 4.4, Bet on Philadelphia to cover the spread.
+SF Giants @ Philadelphia (MLB): Cover Rating - 9.6, Bet on SF Giants to cover the spread.
 Minnesota @ Denver (NBA): Cover Rating - 4.3, Bet on Minnesota to cover the spread.
 Indiana @ New York (NBA): Cover Rating - 3.8, Bet on Indiana to cover the spread.
 
@@ -16,8 +16,8 @@ Minnesota @ Denver (NBA): Over Score - 5.4
 Indiana @ New York (NBA): Over Score - 5.1
          date league  cover_rating  ...  total  home_team     away_team
 0  2024-05-05    NBA      3.833333  ...  217.5    Indiana      New York
-1  2024-05-05    NBA      4.254545  ...  207.0  Minnesota        Denver
-2  2024-05-05    MLB      4.400000  ...    8.5  SF Giants  Philadelphia
+1  2024-05-05    NBA      4.254545  ...  206.0  Minnesota        Denver
+2  2024-05-05    MLB      9.600000  ...    8.5  SF Giants  Philadelphia
 
 [3 rows x 10 columns]
 Avoided Overriding DailyPredictions
