@@ -10193,3 +10193,65 @@ Sorting complete.
 Script started at: 2024-05-05 22:00:02.121077
 Script ended at: 2024-05-05 22:05:17.376168
 Total execution time: 0:05:15.255091
+[main b028924] Automated Server Update
+ 26 files changed, 2477 insertions(+), 392 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (60%)
+ rewrite Scrapers/Data Processing/Clean/MLB/Aggregate.json (70%)
+ rewrite Scrapers/Data Processing/Clean/MLB/Best.json (83%)
+ rewrite Scrapers/Data/Bovada/MLB.json (74%)
+ rewrite Scrapers/Data/Bovada/MLB_Lite.json (81%)
+ rewrite Scrapers/Data/DK/MLB.json (77%)
+ rewrite Scrapers/Data/DK/MLB_Lite.json (87%)
+ rewrite Scrapers/Data/ESPN/MLB.json (70%)
+ rewrite Scrapers/Data/ESPN/MLB_Lite.json (72%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   19d4c44..b028924  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/8 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:02<00:02,  2.61s/it]100%|██████████| 2/2 [00:05<00:00,  2.74s/it]100%|██████████| 2/2 [00:05<00:00,  2.72s/it]
+ 12%|█▎        | 1/8 [00:09<01:04,  9.15s/it] 25%|██▌       | 2/8 [00:18<00:55,  9.25s/it] 38%|███▊      | 3/8 [00:21<00:32,  6.49s/it] 50%|█████     | 4/8 [00:31<00:30,  7.67s/it] 62%|██████▎   | 5/8 [00:48<00:33, 11.23s/it] 75%|███████▌  | 6/8 [00:58<00:21, 10.61s/it] 88%|████████▊ | 7/8 [01:07<00:10, 10.21s/it]100%|██████████| 8/8 [01:18<00:00, 10.61s/it]100%|██████████| 8/8 [01:18<00:00,  9.87s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/8 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.01it/s]  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00,  2.30it/s]100%|██████████| 2/2 [00:00<00:00,  2.25it/s]
+ 50%|█████     | 1/2 [00:00<00:00,  2.13it/s]100%|██████████| 2/2 [00:00<00:00,  2.17it/s]100%|██████████| 2/2 [00:00<00:00,  2.16it/s]
+ 12%|█▎        | 1/8 [00:09<01:05,  9.36s/it] 25%|██▌       | 2/8 [00:09<00:24,  4.14s/it] 38%|███▊      | 3/8 [00:10<00:12,  2.45s/it] 50%|█████     | 4/8 [00:10<00:06,  1.66s/it] 62%|██████▎   | 5/8 [00:11<00:03,  1.22s/it] 75%|███████▌  | 6/8 [00:11<00:01,  1.05it/s] 88%|████████▊ | 7/8 [00:12<00:00,  1.26it/s]100%|██████████| 8/8 [00:12<00:00,  1.47it/s]100%|██████████| 8/8 [00:12<00:00,  1.56s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+ 50%|█████     | 1/2 [00:25<00:25, 25.69s/it]100%|██████████| 2/2 [00:51<00:00, 25.82s/it]100%|██████████| 2/2 [00:51<00:00, 25.81s/it]
+  0%|          | 0/6 [00:00<?, ?it/s] 17%|█▋        | 1/6 [00:00<00:02,  2.34it/s] 33%|███▎      | 2/6 [00:00<00:01,  2.46it/s] 50%|█████     | 3/6 [00:01<00:01,  2.60it/s] 67%|██████▋   | 4/6 [00:16<00:12,  6.32s/it] 83%|████████▎ | 5/6 [00:17<00:04,  4.30s/it]100%|██████████| 6/6 [00:17<00:00,  3.05s/it]100%|██████████| 6/6 [00:17<00:00,  2.99s/it]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID Unknown_Unknown_MLB
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 109, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 80, in main
+    df['cover_grade'] = dynamic_process_ratings(df, 'cover_rating', df['league'])
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 49, in dynamic_process_ratings
+    df['grade'] = pd.cut(df[column], bins=[-np.inf] + list(thresholds), labels=labels, right=False)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 257, in cut
+    fac, bins = _bins_to_cuts(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 443, in _bins_to_cuts
+    raise ValueError(
+ValueError: Bin edges must be unique: Index([-inf, 3.0, 3.0, 5.5], dtype='float64').
+You can drop duplicate edges by setting the 'duplicates' kwarg
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-05 23:00:02.000848
+Script ended at: 2024-05-05 23:02:49.062273
+Total execution time: 0:02:47.061425
