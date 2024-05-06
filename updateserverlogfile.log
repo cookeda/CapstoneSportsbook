@@ -10255,3 +10255,83 @@ Sorting complete.
 Script started at: 2024-05-05 23:00:02.000848
 Script ended at: 2024-05-05 23:02:49.062273
 Total execution time: 0:02:47.061425
+[main dfa22a5] Automated Server Update
+ 20 files changed, 991 insertions(+), 263 deletions(-)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   b028924..dfa22a5  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 264, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 248, in main
+    all_matchups = scraper.scrape_all()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 185, in scrape_all
+    driver = self.init_driver()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 166, in init_driver
+    service = Service(ChromeDriverManager().install())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 63, in __extract_zip
+    archive = zip_class(archive_file.file_path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:09<01:05,  9.29s/it] 25%|██▌       | 2/8 [00:18<00:56,  9.34s/it] 38%|███▊      | 3/8 [00:21<00:32,  6.50s/it] 50%|█████     | 4/8 [00:31<00:30,  7.63s/it] 62%|██████▎   | 5/8 [00:48<00:33, 11.24s/it] 75%|███████▌  | 6/8 [00:58<00:21, 10.66s/it] 88%|████████▊ | 7/8 [01:07<00:10, 10.21s/it]100%|██████████| 8/8 [01:19<00:00, 10.60s/it]100%|██████████| 8/8 [01:19<00:00,  9.88s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/8 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.09it/s]  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00,  2.31it/s]100%|██████████| 2/2 [00:00<00:00,  2.28it/s]
+ 50%|█████     | 1/2 [00:00<00:00,  1.99it/s]100%|██████████| 2/2 [00:00<00:00,  2.15it/s]100%|██████████| 2/2 [00:00<00:00,  2.12it/s]
+ 12%|█▎        | 1/8 [00:09<01:04,  9.20s/it] 25%|██▌       | 2/8 [00:09<00:25,  4.22s/it] 38%|███▊      | 3/8 [00:10<00:12,  2.49s/it] 50%|█████     | 4/8 [00:10<00:06,  1.68s/it] 62%|██████▎   | 5/8 [00:11<00:03,  1.23s/it] 75%|███████▌  | 6/8 [00:11<00:01,  1.04it/s] 88%|████████▊ | 7/8 [00:12<00:00,  1.27it/s]100%|██████████| 8/8 [00:12<00:00,  1.44it/s]100%|██████████| 8/8 [00:12<00:00,  1.58s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+ 50%|█████     | 1/2 [00:25<00:25, 25.77s/it]100%|██████████| 2/2 [00:51<00:00, 25.82s/it]100%|██████████| 2/2 [00:51<00:00, 25.81s/it]
+  0%|          | 0/6 [00:00<?, ?it/s] 17%|█▋        | 1/6 [00:01<00:05,  1.10s/it] 33%|███▎      | 2/6 [00:01<00:02,  1.49it/s] 50%|█████     | 3/6 [00:01<00:01,  1.84it/s] 67%|██████▋   | 4/6 [00:02<00:00,  2.11it/s] 83%|████████▎ | 5/6 [00:17<00:05,  5.91s/it]100%|██████████| 6/6 [00:18<00:00,  4.18s/it]100%|██████████| 6/6 [00:18<00:00,  3.10s/it]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID 486a5e3b_fe2ec146_MLB
+Warning: No game summary found for matchup ID Unknown_Unknown_MLB
+Warning: No game summary found for matchup ID 8d47be6d_4e2f3aa1_MLB
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 109, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 80, in main
+    df['cover_grade'] = dynamic_process_ratings(df, 'cover_rating', df['league'])
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 49, in dynamic_process_ratings
+    df['grade'] = pd.cut(df[column], bins=[-np.inf] + list(thresholds), labels=labels, right=False)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 257, in cut
+    fac, bins = _bins_to_cuts(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 443, in _bins_to_cuts
+    raise ValueError(
+ValueError: Bin edges must be unique: Index([-inf, 3.0, 3.0, 5.5], dtype='float64').
+You can drop duplicate edges by setting the 'duplicates' kwarg
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-06 00:00:02.075986
+Script ended at: 2024-05-06 00:02:53.862855
+Total execution time: 0:02:51.786869
