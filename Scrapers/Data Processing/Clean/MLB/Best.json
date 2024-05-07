@@ -42,7 +42,7 @@
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
             "Away Spread Odds": "-185 (Bovada)",
-            "Away ML": "+110 (ESPN)",
+            "Away ML": "+111 (Bovada)",
             "Home Spread": "-1.5 (ESPN)",
             "Home Spread Odds": "+160 (ESPN)",
             "Home ML": "-130 (ESPN)",
@@ -94,13 +94,13 @@
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
             "Away Spread Odds": "+125 (ESPN)",
-            "Away ML": "-130 (ESPN)",
+            "Away ML": "-128 (Bovada)",
             "Home Spread": "+1.5 (ESPN)",
             "Home Spread Odds": "+160 (DK)",
             "Home ML": "+110 (ESPN)",
             "Total": "9.0 (Bovada)",
             "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "+115 (ESPN)"
+            "Under Total Odds": "+110 (ESPN)"
         }
     },
     {
@@ -175,7 +175,7 @@
             "Away ML": "+100 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
             "Home Spread Odds": "+175 (Bovada)",
-            "Home ML": "-116 (Bovada)",
+            "Home ML": "-118 (Bovada)",
             "Total": "8.5 (ESPN)",
             "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "−102 (DK)"
@@ -198,7 +198,7 @@
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
             "Away Spread Odds": "-135 (Bovada)",
-            "Away ML": "+148 (Bovada)",
+            "Away ML": "+149 (Bovada)",
             "Home Spread": "-1.5 (ESPN)",
             "Home Spread Odds": "+160 (DK)",
             "Home ML": "-170 (ESPN)",
@@ -353,14 +353,40 @@
         },
         "Odds Table": {
             "Away Spread": "+2.5 (ESPN)",
-            "Away Spread Odds": "+130 (Bovada)",
+            "Away Spread Odds": "+124 (DK)",
             "Away ML": "+270 (ESPN)",
-            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread": "-1.5 (DK)",
             "Home Spread Odds": "+160 (DK)",
             "Home ML": "−325 (DK)",
             "Total": "8.5 (ESPN)",
             "Over Total Odds": "+105 (ESPN)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Under Total Odds": "−112 (DK)"
+        }
+    },
+    {
+        "MatchupID": "e841daaf_8b214a89_MLB",
+        "Info Table": {
+            "Away Team": "Texas Rangers",
+            "Away Team Rank Name": "Texas",
+            "Away Abv": "TEX",
+            "Away ID": "e841daaf",
+            "Home Team": "Oakland Athletics",
+            "Home Team Rank Name": "Oakland",
+            "Home Abv": "OAK",
+            "Home ID": "8b214a89",
+            "Start Time": "3:37 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "-148 (Bovada)",
+            "Home Spread": "-999 (Bovada)",
+            "Home Spread Odds": "99 (Bovada)",
+            "Home ML": "+124 (Bovada)",
+            "Total": "-999 (Bovada)",
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     }
 ]
