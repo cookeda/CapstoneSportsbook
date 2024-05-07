@@ -1,38 +1,23 @@
-Indiana @ New York (NBA): Cover Rating - 8.0, Over Score - 5.1
-Bet on Indiana to cover the spread.
-Minnesota @ Denver (NBA): Cover Rating - 4.4, Over Score - 5.4
+Minnesota @ Denver (NBA): Cover Rating - 0.6, Over Score - 5.4
 Bet on Minnesota to cover the spread.
-San Diego @ Chi Cubs (MLB): Cover Rating - 4.1, Over Score - 5.8
-Bet on Chi Cubs to cover the spread.
-NY Mets @ St. Louis (MLB): Cover Rating - 1.9, Over Score - 8.3
-Bet on St. Louis to cover the spread.
-Texas @ Oakland (MLB): Cover Rating - 9.4, Over Score - 5.9
-Bet on Oakland to cover the spread.
-Miami @ LA Dodgers (MLB): Cover Rating - 6.2, Over Score - 5.8
-Bet on LA Dodgers to cover the spread.
+Texas @ Oakland (MLB): Cover Rating - 4.4, Over Score - 5.9
+Bet on Texas to cover the spread.
+Miami @ LA Dodgers (MLB): Cover Rating - 0.9, Over Score - 6.3
+Bet on Miami to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Texas @ Oakland (MLB): Cover Rating - 9.4, Bet on Oakland to cover the spread.
-Indiana @ New York (NBA): Cover Rating - 8.0, Bet on Indiana to cover the spread.
-Miami @ LA Dodgers (MLB): Cover Rating - 6.2, Bet on LA Dodgers to cover the spread.
-Minnesota @ Denver (NBA): Cover Rating - 4.4, Bet on Minnesota to cover the spread.
-San Diego @ Chi Cubs (MLB): Cover Rating - 4.1, Bet on Chi Cubs to cover the spread.
-NY Mets @ St. Louis (MLB): Cover Rating - 1.9, Bet on St. Louis to cover the spread.
+Texas @ Oakland (MLB): Cover Rating - 4.4, Bet on Texas to cover the spread.
+Miami @ LA Dodgers (MLB): Cover Rating - 0.9, Bet on Miami to cover the spread.
+Minnesota @ Denver (NBA): Cover Rating - 0.6, Bet on Minnesota to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Mets @ St. Louis (MLB): Over Score - 8.3
+Miami @ LA Dodgers (MLB): Over Score - 6.3
 Texas @ Oakland (MLB): Over Score - 5.9
-San Diego @ Chi Cubs (MLB): Over Score - 5.8
-Miami @ LA Dodgers (MLB): Over Score - 5.8
 Minnesota @ Denver (NBA): Over Score - 5.4
-Indiana @ New York (NBA): Over Score - 5.1
          date league  cover_rating  ...  total  home_team   away_team
-0  2024-05-06    NBA      8.000000  ...  238.5    Indiana    New York
-1  2024-05-06    NBA      4.414286  ...  209.5  Minnesota      Denver
-2  2024-05-06    MLB      4.057143  ...   10.5  San Diego    Chi Cubs
-3  2024-05-06    MLB      1.866667  ...    8.0    NY Mets   St. Louis
-4  2024-05-06    MLB      9.400000  ...    5.5      Texas     Oakland
-5  2024-05-06    MLB      6.200000  ...    8.5      Miami  LA Dodgers
+0  2024-05-06    NBA      0.609524  ...  208.5  Minnesota      Denver
+1  2024-05-06    MLB      4.360000  ...    4.5      Texas     Oakland
+2  2024-05-06    MLB      0.914286  ...   14.5      Miami  LA Dodgers
 
-[6 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
