@@ -1,9 +1,9 @@
 {
     "dc435e0a_65ba1118_NBA": {
         "team_to_cover": "Indiana",
-        "cover_rating": 3.4,
+        "cover_rating": 8.0,
         "over_score": 5.1,
-        "cover_grade": 2,
+        "cover_grade": 3,
         "total_rating": -1
     },
     "f5328492_59dd0ac4_NBA": {
@@ -11,55 +11,34 @@
         "cover_rating": 4.4,
         "over_score": 5.4,
         "cover_grade": 2,
-        "total_rating": -2
-    },
-    "ea799920_16f4bf06_MLB": {
-        "team_to_cover": "Chi Sox",
-        "cover_rating": 10.1,
-        "over_score": 6.5,
-        "cover_grade": 3,
-        "total_rating": 0
-    },
-    "c5227021_db2ee960_MLB": {
-        "team_to_cover": "Kansas City",
-        "cover_rating": 0.9,
-        "over_score": 5.6,
-        "cover_grade": 1,
-        "total_rating": -2
+        "total_rating": -1
     },
     "3f4235d4_d10f1db8_MLB": {
-        "team_to_cover": "San Diego",
-        "cover_rating": 0.9,
+        "team_to_cover": "Chi Cubs",
+        "cover_rating": 4.1,
         "over_score": 5.8,
         "cover_grade": 1,
-        "total_rating": -3
-    },
-    "300faa7b_f5328492_MLB": {
-        "team_to_cover": "Seattle",
-        "cover_rating": 11.5,
-        "over_score": 5.0,
-        "cover_grade": 0,
-        "total_rating": -1
+        "total_rating": -2
     },
     "c625b23e_ccadb94e_MLB": {
-        "team_to_cover": "NY Mets",
-        "cover_rating": 7.3,
-        "over_score": 5.3,
-        "cover_grade": 3,
-        "total_rating": -1
+        "team_to_cover": "St. Louis",
+        "cover_rating": 1.9,
+        "over_score": 8.3,
+        "cover_grade": 1,
+        "total_rating": 0
     },
     "e841daaf_8b214a89_MLB": {
         "team_to_cover": "Oakland",
-        "cover_rating": 4.4,
-        "over_score": 5.4,
-        "cover_grade": 2,
-        "total_rating": -2
+        "cover_rating": 9.4,
+        "over_score": 5.9,
+        "cover_grade": 0,
+        "total_rating": -3
     },
     "8d47be6d_4e2f3aa1_MLB": {
         "team_to_cover": "LA Dodgers",
-        "cover_rating": 1.2,
+        "cover_rating": 6.2,
         "over_score": 5.8,
-        "cover_grade": 1,
-        "total_rating": -3
+        "cover_grade": 2,
+        "total_rating": -2
     }
 }
