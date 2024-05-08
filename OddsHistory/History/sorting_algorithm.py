@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 import numpy as np
 from datetime import datetime
 
@@ -54,6 +55,41 @@ total_stats = data.groupby(['League', 'TotalRatingWindow']).agg(
     BetCount=('BetCount', 'sum'),
     xHitRate=('TotalResult', 'mean')
 ).reset_index()
+
+final_stats = pd.concat([cover_stats, total_stats], axis=0).reset_index(drop=True)
+final_stats.dropna()
+
+# Write the processed results to a JSON file
+json_file_path = 'game_stats.json'
+with open(json_file_path, 'w', encoding='utf-8') as json_file:
+    json.dump(cover_stats.to_dict('records'), json_file, indent=4, ensure_ascii=False)
+
+json_file_path = 'total_stats.json'
+with open(json_file_path, 'w', encoding='utf-8') as json_file:
+    json.dump(total_stats.to_dict('records'), json_file, indent=4, ensure_ascii=False)
+
+json_file_path = 'final_stats.json'
+with open(json_file_path, 'w', encoding='utf-8') as json_file:
+    json.dump(final_stats.to_dict('records'), json_file, indent=4, ensure_ascii=False)
+
+
+# print("Recommended Cover Bet Rating Windows for Today by League:")
+# print(cover_stats.sort_values(by=['League', 'CoverScoreAvg'], ascending=False).groupby('League').head(10))
+# print("\nRecommended Total Bet Rating Windows for Today by League:")
+# print(total_stats.sort_values(by=['League', 'TotalScoreAvg'], ascending=False).groupby('League').head(10))
+
+# Additional computations for bet count and expected hit rate
+# data['BetCount'] = 1
+# cover_stats = data.groupby(['League', 'CoverRatingWindow']).agg(
+#     CoverScoreAvg=('CoverScore', 'mean'),
+#     BetCount=('BetCount', 'sum'),
+#     xHitRate=('CoverResult', 'mean')
+# ).reset_index()
+# total_stats = data.groupby(['League', 'TotalRatingWindow']).agg(
+#     TotalScoreAvg=('TotalScore', 'mean'),
+#     BetCount=('BetCount', 'sum'),
+#     xHitRate=('TotalResult', 'mean')
+# ).reset_index()
 
 print("Recommended Cover Bet Rating Windows for Today by League:")
 print(cover_stats.sort_values(by=['League', 'CoverScoreAvg'], ascending=False).groupby('League').head(10))
