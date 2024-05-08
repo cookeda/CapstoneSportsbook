@@ -1,7 +1,7 @@
 [
     [
         {
-            "BetTableId": "ESPN_fe8acdeb_9666114b_MLB",
+            "BetTableId": "ESPN_Unknown_9666114b_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
@@ -14,12 +14,12 @@
                 "Over Total Odds": "+100",
                 "Under Total Odds": "-120"
             },
-            "MatchupID": "fe8acdeb_9666114b_MLB",
+            "MatchupID": "Unknown_9666114b_MLB",
             "Info Table": {
-                "Away Team": "LA Angels",
-                "Away Team Rank Name": "LA Angels",
-                "Away Abv": "LAA",
-                "Away ID": "fe8acdeb",
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
                 "Home Team": "PIT Pirates",
                 "Home Team Rank Name": "Pittsburgh",
                 "Home Abv": "PIT",
@@ -35,11 +35,11 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-160",
-                "Away ML": "+130",
+                "Away Spread Odds": "-145",
+                "Away ML": "+135",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+135",
-                "Home ML": "-150",
+                "Home Spread Odds": "+125",
+                "Home ML": "-155",
                 "Total": "8.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -275,10 +275,10 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+135",
+                "Away Spread Odds": "+140",
                 "Away ML": "-120",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-160",
+                "Home Spread Odds": "-165",
                 "Home ML": "+100",
                 "Total": "8.5",
                 "Over Total Odds": "-130",
@@ -425,10 +425,10 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+150",
+                "Away Spread Odds": "+140",
                 "Away ML": "-115",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-180",
+                "Home Spread Odds": "-165",
                 "Home ML": "-105",
                 "Total": "7.5",
                 "Over Total Odds": "-110",
