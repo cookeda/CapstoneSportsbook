@@ -14,41 +14,15 @@
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+5 (DK)",
+            "Away Spread": "+5.0 (Bovada)",
             "Away Spread Odds": "-105 (ESPN)",
             "Away ML": "+165 (ESPN)",
             "Home Spread": "-4.5 (ESPN)",
-            "Home Spread Odds": "−108 (DK)",
-            "Home ML": "−192 (DK)",
+            "Home Spread Odds": "-105 (Bovada)",
+            "Home ML": "-180 (Bovada)",
             "Total": "218.5 (ESPN)",
-            "Over Total Odds": "-110 (ESPN)",
+            "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "-110 (ESPN)"
-        }
-    },
-    {
-        "MatchupID": "Unknown_Unknown_NBA",
-        "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
-            "Start Time": "-999",
-            "League": "NBA"
-        },
-        "Odds Table": {
-            "Away Spread": "-999 (Bovada)",
-            "Away Spread Odds": "99 (Bovada)",
-            "Away ML": "-999 (Bovada)",
-            "Home Spread": "-999 (Bovada)",
-            "Home Spread Odds": "99 (Bovada)",
-            "Home ML": "-999 (Bovada)",
-            "Total": "-999 (Bovada)",
-            "Over Total Odds": "99 (Bovada)",
-            "Under Total Odds": "99 (Bovada)"
         }
     }
 ]
