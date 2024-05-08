@@ -24,7 +24,7 @@ Chi Sox @ Tampa Bay (MLB): Cover Rating - 7.1, Over Score - 6.1
 Bet on Chi Sox to cover the spread.
 Houston @ NY Yankees (MLB): Cover Rating - 1.9, Over Score - 3.5
 Bet on Houston to cover the spread.
-Boston @ Atlanta (MLB): Cover Rating - 9.7, Over Score - 4.1
+Boston @ Atlanta (MLB): Cover Rating - 9.7, Over Score - 5.1
 Bet on Boston to cover the spread.
 Seattle @ Minnesota (MLB): Cover Rating - 2.1, Over Score - 4.3
 Bet on Seattle to cover the spread.
@@ -60,15 +60,15 @@ Arizona @ Cincinnati (MLB): Over Score - 5.4
 Texas @ Oakland (MLB): Over Score - 5.3
 Indiana @ New York (NBA): Over Score - 5.2
 NY Mets @ St. Louis (MLB): Over Score - 5.1
+Boston @ Atlanta (MLB): Over Score - 5.1
 Miami @ LA Dodgers (MLB): Over Score - 4.9
 LA Angels @ Pittsburgh (MLB): Over Score - 4.8
 Seattle @ Minnesota (MLB): Over Score - 4.3
-Boston @ Atlanta (MLB): Over Score - 4.1
 Milwaukee @ Kansas City (MLB): Over Score - 4.0
 Houston @ NY Yankees (MLB): Over Score - 3.5
           date league  cover_rating  ...  total  home_team     away_team
 0   2024-05-08    NBA      3.422222  ...  222.5    Indiana      New York
-1   2024-05-08    MLB     11.066667  ...    8.5  LA Angels    Pittsburgh
+1   2024-05-08    MLB     11.066667  ...    8.0  LA Angels    Pittsburgh
 2   2024-05-08    MLB      3.400000  ...    8.5    Toronto  Philadelphia
 3   2024-05-08    MLB      5.133333  ...    8.0    Detroit     Cleveland
 4   2024-05-08    MLB     12.200000  ...    7.5    NY Mets     St. Louis
@@ -80,7 +80,7 @@ Houston @ NY Yankees (MLB): Over Score - 3.5
 10  2024-05-08    MLB      4.000000  ...    9.0  Baltimore    Washington
 11  2024-05-08    MLB      7.066667  ...    8.5    Chi Sox     Tampa Bay
 12  2024-05-08    MLB      1.933333  ...    9.0    Houston    NY Yankees
-13  2024-05-08    MLB      9.666667  ...    9.0     Boston       Atlanta
+13  2024-05-08    MLB      9.666667  ...    8.5     Boston       Atlanta
 14  2024-05-08    MLB      2.133333  ...    7.5    Seattle     Minnesota
 15  2024-05-08    MLB      3.866667  ...   10.0  SF Giants      Colorado
 
