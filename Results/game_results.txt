@@ -1,43 +1,23 @@
-Dallas @ Okla City (NBA): Cover Rating - 1.6, Over Score - 5.5
+Dallas @ Okla City (NBA): Cover Rating - 3.6, Over Score - 5.5
 Bet on Dallas to cover the spread.
-San Diego @ Chi Cubs (MLB): Cover Rating - 3.8, Over Score - 8.5
-Bet on Chi Cubs to cover the spread.
-Milwaukee @ Kansas City (MLB): Cover Rating - 3.0, Over Score - 8.0
-Bet on Milwaukee to cover the spread.
-Seattle @ Minnesota (MLB): Cover Rating - 2.9, Over Score - 4.8
-Bet on Minnesota to cover the spread.
-NY Mets @ St. Louis (MLB): Cover Rating - 1.8, Over Score - 5.6
-Bet on St. Louis to cover the spread.
-SF Giants @ Colorado (MLB): Cover Rating - 8.3, Over Score - 5.6
-Bet on Colorado to cover the spread.
-Miami @ LA Dodgers (MLB): Cover Rating - 6.3, Over Score - 5.9
-Bet on LA Dodgers to cover the spread.
+SF Giants @ Colorado (MLB): Cover Rating - 2.0, Over Score - 8.6
+Bet on SF Giants to cover the spread.
+Miami @ LA Dodgers (MLB): Cover Rating - 0.9, Over Score - 6.4
+Bet on Miami to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-SF Giants @ Colorado (MLB): Cover Rating - 8.3, Bet on Colorado to cover the spread.
-Miami @ LA Dodgers (MLB): Cover Rating - 6.3, Bet on LA Dodgers to cover the spread.
-San Diego @ Chi Cubs (MLB): Cover Rating - 3.8, Bet on Chi Cubs to cover the spread.
-Milwaukee @ Kansas City (MLB): Cover Rating - 3.0, Bet on Milwaukee to cover the spread.
-Seattle @ Minnesota (MLB): Cover Rating - 2.9, Bet on Minnesota to cover the spread.
-NY Mets @ St. Louis (MLB): Cover Rating - 1.8, Bet on St. Louis to cover the spread.
-Dallas @ Okla City (NBA): Cover Rating - 1.6, Bet on Dallas to cover the spread.
+Dallas @ Okla City (NBA): Cover Rating - 3.6, Bet on Dallas to cover the spread.
+SF Giants @ Colorado (MLB): Cover Rating - 2.0, Bet on SF Giants to cover the spread.
+Miami @ LA Dodgers (MLB): Cover Rating - 0.9, Bet on Miami to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-San Diego @ Chi Cubs (MLB): Over Score - 8.5
-Milwaukee @ Kansas City (MLB): Over Score - 8.0
-Miami @ LA Dodgers (MLB): Over Score - 5.9
-SF Giants @ Colorado (MLB): Over Score - 5.6
-NY Mets @ St. Louis (MLB): Over Score - 5.6
+SF Giants @ Colorado (MLB): Over Score - 8.6
+Miami @ LA Dodgers (MLB): Over Score - 6.4
 Dallas @ Okla City (NBA): Over Score - 5.5
-Seattle @ Minnesota (MLB): Over Score - 4.8
-         date league  cover_rating  ...  total  home_team    away_team
-0  2024-05-07    NBA      1.600000  ...  211.5     Dallas    Okla City
-1  2024-05-07    MLB      3.800000  ...    7.5  San Diego     Chi Cubs
-2  2024-05-07    MLB      3.000300  ...    8.5  Milwaukee  Kansas City
-3  2024-05-07    MLB      2.866667  ...   12.5    Seattle    Minnesota
-4  2024-05-07    MLB      1.800000  ...   12.5    NY Mets    St. Louis
-5  2024-05-07    MLB      8.288889  ...    8.5  SF Giants     Colorado
-6  2024-05-07    MLB      6.333333  ...    8.0      Miami   LA Dodgers
+         date league  cover_rating  ...  total  home_team   away_team
+0  2024-05-07    NBA      3.600000  ...  222.5     Dallas   Okla City
+1  2024-05-07    MLB      1.998699  ...    8.0  SF Giants    Colorado
+2  2024-05-07    MLB      0.909091  ...   10.5      Miami  LA Dodgers
 
-[7 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
