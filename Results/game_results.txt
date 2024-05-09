@@ -1,33 +1,23 @@
-Indiana @ New York (NBA): Cover Rating - 3.4, Over Score - 5.2
-Bet on Indiana to cover the spread.
-Texas @ Oakland (MLB): Cover Rating - 8.0, Over Score - 8.4
-Bet on Texas to cover the spread.
-Baltimore @ Washington (MLB): Cover Rating - 8.0, Over Score - 8.3
-Bet on Baltimore to cover the spread.
-Seattle @ Minnesota (MLB): Cover Rating - 5.9, Over Score - 5.1
-Bet on Seattle to cover the spread.
-SF Giants @ Colorado (MLB): Cover Rating - 5.1, Over Score - 5.4
+Cleveland @ Boston (NBA): Cover Rating - 2.2, Over Score - 5.5
+Bet on Boston to cover the spread.
+Dallas @ Okla City (NBA): Cover Rating - 3.5, Over Score - 5.4
+Bet on Okla City to cover the spread.
+SF Giants @ Colorado (MLB): Cover Rating - 0.2, Over Score - 5.4
 Bet on Colorado to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Texas @ Oakland (MLB): Cover Rating - 8.0, Bet on Texas to cover the spread.
-Baltimore @ Washington (MLB): Cover Rating - 8.0, Bet on Baltimore to cover the spread.
-Seattle @ Minnesota (MLB): Cover Rating - 5.9, Bet on Seattle to cover the spread.
-SF Giants @ Colorado (MLB): Cover Rating - 5.1, Bet on Colorado to cover the spread.
-Indiana @ New York (NBA): Cover Rating - 3.4, Bet on Indiana to cover the spread.
+Dallas @ Okla City (NBA): Cover Rating - 3.5, Bet on Okla City to cover the spread.
+Cleveland @ Boston (NBA): Cover Rating - 2.2, Bet on Boston to cover the spread.
+SF Giants @ Colorado (MLB): Cover Rating - 0.2, Bet on Colorado to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Texas @ Oakland (MLB): Over Score - 8.4
-Baltimore @ Washington (MLB): Over Score - 8.3
+Cleveland @ Boston (NBA): Over Score - 5.5
 SF Giants @ Colorado (MLB): Over Score - 5.4
-Indiana @ New York (NBA): Over Score - 5.2
-Seattle @ Minnesota (MLB): Over Score - 5.1
-         date league  cover_rating  ...  total  home_team   away_team
-0  2024-05-08    NBA      3.422222  ...  244.5    Indiana    New York
-1  2024-05-08    MLB      8.001401  ...    9.0      Texas     Oakland
-2  2024-05-08    MLB      8.000801  ...    7.0  Baltimore  Washington
-3  2024-05-08    MLB      5.920000  ...    9.5    Seattle   Minnesota
-4  2024-05-08    MLB      5.107692  ...   12.5  SF Giants    Colorado
+Dallas @ Okla City (NBA): Over Score - 5.4
+         date league  cover_rating  ...  total  home_team  away_team
+0  2024-05-08    NBA      2.237037  ...  212.0  Cleveland     Boston
+1  2024-05-08    NBA      3.520000  ...  218.5     Dallas  Okla City
+2  2024-05-08    MLB      0.200000  ...   13.5  SF Giants   Colorado
 
-[5 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
