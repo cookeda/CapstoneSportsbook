@@ -14,15 +14,15 @@
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+13 (DK)",
+            "Away Spread": "+13.5 (ESPN)",
             "Away Spread Odds": "-105 (ESPN)",
             "Away ML": "+625 (ESPN)",
-            "Home Spread": "-12.5 (ESPN)",
-            "Home Spread Odds": "−110 (DK)",
+            "Home Spread": "-13.0 (Bovada)",
+            "Home Spread Odds": "-110 (Bovada)",
             "Home ML": "−900 (DK)",
             "Total": "212.5 (ESPN)",
             "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -44,37 +44,11 @@
             "Away Spread Odds": "+100 (ESPN)",
             "Away ML": "+165 (ESPN)",
             "Home Spread": "-4.5 (ESPN)",
-            "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "-195 (Bovada)",
+            "Home Spread Odds": "-105 (Bovada)",
+            "Home ML": "-185 (Bovada)",
             "Total": "218 (DK)",
             "Over Total Odds": "-110 (ESPN)",
             "Under Total Odds": "-105 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "5a31e1ff_Unknown_NBA",
-        "Info Table": {
-            "Away Team": "Cleveland Cavaliers",
-            "Away Team Rank Name": "Cleveland",
-            "Away Abv": "CLE",
-            "Away ID": "5a31e1ff",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
-            "Start Time": "7:00 PM",
-            "League": "NBA"
-        },
-        "Odds Table": {
-            "Away Spread": "+13.0 (Bovada)",
-            "Away Spread Odds": "-105 (Bovada)",
-            "Away ML": "+625 (Bovada)",
-            "Home Spread": "-13.0 (Bovada)",
-            "Home Spread Odds": "-115 (Bovada)",
-            "Home ML": "-1000 (Bovada)",
-            "Total": "212.5 (Bovada)",
-            "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "-110 (Bovada)"
         }
     }
 ]

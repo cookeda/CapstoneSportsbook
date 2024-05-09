@@ -1,14 +1,14 @@
 {
-    "5a31e1ff_Unknown_NBA": {
+    "5a31e1ff_8a2d1e91_NBA": {
         "Info Table": {
             "Away Team": "Cleveland Cavaliers",
             "Away Team Rank Name": "Cleveland",
             "Away Abv": "CLE",
             "Away ID": "5a31e1ff",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
+            "Home Team": "Boston Celtics",
+            "Home Team Rank Name": "Boston",
+            "Home Abv": "BOS",
+            "Home ID": "8a2d1e91",
             "Start Time": "7:00 PM",
             "League": "NBA"
         },
@@ -16,11 +16,35 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+13.0",
-                "Away Spread Odds": "-105",
+                "Away Spread Odds": "-110",
                 "Away ML": "+625",
                 "Home Spread": "-13.0",
-                "Home Spread Odds": "-115",
+                "Home Spread Odds": "-110",
                 "Home ML": "-1000",
+                "Total": "212.0",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
+            },
+            {
+                "Book Name": "DK",
+                "Away Spread": "+13",
+                "Away Spread Odds": "−110",
+                "Away ML": "+600",
+                "Home Spread": "-13",
+                "Home Spread Odds": "−110",
+                "Home ML": "−900",
+                "Total": "212.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            {
+                "Book Name": "ESPN",
+                "Away Spread": "+13.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "+625",
+                "Home Spread": "-13.5",
+                "Home Spread Odds": "-115",
+                "Home ML": "-950",
                 "Total": "212.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -44,11 +68,11 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+5.0",
-                "Away Spread Odds": "-110",
-                "Away ML": "+165",
+                "Away Spread Odds": "-115",
+                "Away ML": "+160",
                 "Home Spread": "-5.0",
-                "Home Spread Odds": "-110",
-                "Home ML": "-195",
+                "Home Spread Odds": "-105",
+                "Home ML": "-185",
                 "Total": "217.0",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
@@ -74,46 +98,6 @@
                 "Home Spread Odds": "-120",
                 "Home ML": "-200",
                 "Total": "217.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
-            }
-        ]
-    },
-    "5a31e1ff_8a2d1e91_NBA": {
-        "Info Table": {
-            "Away Team": "CLE Cavaliers",
-            "Away Team Rank Name": "Cleveland",
-            "Away Abv": "CLE",
-            "Away ID": "5a31e1ff",
-            "Home Team": "BOS Celtics",
-            "Home Team Rank Name": "Boston",
-            "Home Abv": "BOS",
-            "Home ID": "8a2d1e91",
-            "Start Time": "7:05PM",
-            "League": "NBA"
-        },
-        "Bet Tables": [
-            {
-                "Book Name": "DK",
-                "Away Spread": "+13",
-                "Away Spread Odds": "−110",
-                "Away ML": "+600",
-                "Home Spread": "-13",
-                "Home Spread Odds": "−110",
-                "Home ML": "−900",
-                "Total": "212.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
-            },
-            {
-                "Book Name": "ESPN",
-                "Away Spread": "+12.5",
-                "Away Spread Odds": "-105",
-                "Away ML": "+625",
-                "Home Spread": "-12.5",
-                "Home Spread Odds": "-115",
-                "Home ML": "-950",
-                "Total": "212.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             }
