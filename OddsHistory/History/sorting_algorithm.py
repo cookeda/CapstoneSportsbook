@@ -29,13 +29,13 @@ data['CoverResult'] = data['CoverResult'].astype(int)
 data['TotalResult'] = data['TotalResult'].astype(int)
 
 main_intervals = [(0, 3), (3, 6), (6, 9), (9, 12), (12, 15)]
-over_ranges = [(6, 6.5), (6.5, 7), (7, 7.5), (7.5, 8), (8, 8.5), (8.5, 9)]
-under_ranges = [(5.5, 6), (5, 5.5), (4.5, 5), (4, 4.5), (3.5, 4), (3, 3.5)]
+over_ranges = [(6, 6.5), (6.5, 7), (7, 7.5), (7.5, 8), (8, 8.5), (8.5, 9), (9, 9.5), (9.5, 10), (10, 10.5)]
+under_ranges = [(5.5, 6), (5, 5.5), (4.5, 5), (4, 4.5), (3.5, 4), (3, 3.5), (2.5, 3), (2, 2.5), (1.5, 2), (1, 1.5), (0.5, 1), (0,0.5)]
 
 data['CoverRatingWindow'] = data['CoverRating'].apply(lambda x: map_to_subinterval(x, main_intervals))
 data['TotalRatingWindow'] = data['TotalRating'].apply(lambda x: map_total_to_window(x, over_ranges, under_ranges))
 
-lambda_ = 0.1  # Decay rate
+lambda_ = 0.2  # Decay rate
 current_date = datetime.now()
 data['DaysAgo'] = (current_date - data['Date']).dt.days
 data['DecayFactor'] = np.exp(-lambda_ * data['DaysAgo'])
@@ -58,6 +58,10 @@ total_stats = data.groupby(['League', 'TotalRatingWindow']).agg(
 
 final_stats = pd.concat([cover_stats, total_stats], axis=0).reset_index(drop=True)
 final_stats.dropna()
+
+cover_stats.to_csv('cover_stats.csv')
+total_stats.to_csv('total_stats.csv')
+final_stats.to_csv('final_stats.csv')
 
 # Write the processed results to a JSON file
 json_file_path = 'game_stats.json'

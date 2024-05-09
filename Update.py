@@ -24,7 +24,7 @@ os.chdir('../../Results/')
 subprocess.run(['python', 'script.py'])
 
 os.chdir('../OddsHistory/History')
-subprocess.run(['python', 'sorting_algorithm.py'])
+subprocess.run(['python', 'sorting_algorithm.py'], stdout=open('../../Results/xHitRate.txt', 'w'))
 
 
 # Uncomment the following line to enable the auto update command

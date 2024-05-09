@@ -2,16 +2,16 @@
     {
         "League": "MLB",
         "CoverRatingWindow": "0.0-3.0",
-        "CoverScoreAvg": 0.249553881045291,
-        "BetCount": 90,
-        "xHitRate": 0.5444444444444444,
+        "CoverScoreAvg": 0.10595972120499172,
+        "BetCount": 102,
+        "xHitRate": 0.5196078431372549,
         "TotalRatingWindow": NaN,
         "TotalScoreAvg": NaN
     },
     {
         "League": "MLB",
         "CoverRatingWindow": "12.0-15.0",
-        "CoverScoreAvg": 1.926628595909586,
+        "CoverScoreAvg": 0.5553689913584038,
         "BetCount": 22,
         "xHitRate": 0.5909090909090909,
         "TotalRatingWindow": NaN,
@@ -20,52 +20,52 @@
     {
         "League": "MLB",
         "CoverRatingWindow": "3.0-6.0",
-        "CoverScoreAvg": 0.6623565493848709,
-        "BetCount": 90,
-        "xHitRate": 0.45555555555555555,
+        "CoverScoreAvg": 0.40908829815185754,
+        "BetCount": 97,
+        "xHitRate": 0.4742268041237113,
         "TotalRatingWindow": NaN,
         "TotalScoreAvg": NaN
     },
     {
         "League": "MLB",
         "CoverRatingWindow": "6.0-9.0",
-        "CoverScoreAvg": 1.209134886164333,
-        "BetCount": 58,
-        "xHitRate": 0.5344827586206896,
+        "CoverScoreAvg": 0.617466124688958,
+        "BetCount": 65,
+        "xHitRate": 0.5384615384615384,
         "TotalRatingWindow": NaN,
         "TotalScoreAvg": NaN
     },
     {
         "League": "MLB",
         "CoverRatingWindow": "9.0-12.0",
-        "CoverScoreAvg": 2.278254561974128,
-        "BetCount": 38,
-        "xHitRate": 0.47368421052631576,
+        "CoverScoreAvg": 1.2048750513035722,
+        "BetCount": 42,
+        "xHitRate": 0.4523809523809524,
         "TotalRatingWindow": NaN,
         "TotalScoreAvg": NaN
     },
     {
         "League": "NBA",
         "CoverRatingWindow": "0.0-3.0",
-        "CoverScoreAvg": 0.20253664948503736,
-        "BetCount": 33,
-        "xHitRate": 0.42424242424242425,
+        "CoverScoreAvg": 0.10491820730064894,
+        "BetCount": 35,
+        "xHitRate": 0.42857142857142855,
         "TotalRatingWindow": NaN,
         "TotalScoreAvg": NaN
     },
     {
         "League": "NBA",
         "CoverRatingWindow": "3.0-6.0",
-        "CoverScoreAvg": 1.2321544294287157,
-        "BetCount": 18,
-        "xHitRate": 0.6666666666666666,
+        "CoverScoreAvg": 0.5164362525086065,
+        "BetCount": 19,
+        "xHitRate": 0.631578947368421,
         "TotalRatingWindow": NaN,
         "TotalScoreAvg": NaN
     },
     {
         "League": "NBA",
         "CoverRatingWindow": "6.0-9.0",
-        "CoverScoreAvg": 0.8318997730151362,
+        "CoverScoreAvg": 0.19175905607282906,
         "BetCount": 6,
         "xHitRate": 0.5,
         "TotalRatingWindow": NaN,
@@ -75,19 +75,10 @@
         "League": "MLB",
         "CoverRatingWindow": NaN,
         "CoverScoreAvg": NaN,
-        "BetCount": 3,
-        "xHitRate": 0.3333333333333333,
-        "TotalRatingWindow": "Out of defined range",
-        "TotalScoreAvg": 0.6662813677582745
-    },
-    {
-        "League": "MLB",
-        "CoverRatingWindow": NaN,
-        "CoverScoreAvg": NaN,
-        "BetCount": 31,
-        "xHitRate": 0.3225806451612903,
+        "BetCount": 32,
+        "xHitRate": 0.3125,
         "TotalRatingWindow": "Over 6-6.5",
-        "TotalScoreAvg": 0.5685821347483534
+        "TotalScoreAvg": 0.17701136926757366
     },
     {
         "League": "MLB",
@@ -96,7 +87,7 @@
         "BetCount": 5,
         "xHitRate": 0.6,
         "TotalRatingWindow": "Over 6.5-7",
-        "TotalScoreAvg": 0.622089206883803
+        "TotalScoreAvg": 0.08083423751902744
     },
     {
         "League": "MLB",
@@ -123,7 +114,25 @@
         "BetCount": 4,
         "xHitRate": 0.5,
         "TotalRatingWindow": "Over 8.5-9",
-        "TotalScoreAvg": 1.5743722579442898
+        "TotalScoreAvg": 0.4741918114879645
+    },
+    {
+        "League": "MLB",
+        "CoverRatingWindow": NaN,
+        "CoverScoreAvg": NaN,
+        "BetCount": 2,
+        "xHitRate": 0.0,
+        "TotalRatingWindow": "Over 9-9.5",
+        "TotalScoreAvg": 0.0
+    },
+    {
+        "League": "MLB",
+        "CoverRatingWindow": NaN,
+        "CoverScoreAvg": NaN,
+        "BetCount": 1,
+        "xHitRate": 1.0,
+        "TotalRatingWindow": "Under 2.5-3",
+        "TotalScoreAvg": 1.096988902615153
     },
     {
         "League": "MLB",
@@ -132,52 +141,52 @@
         "BetCount": 5,
         "xHitRate": 0.6,
         "TotalRatingWindow": "Under 3-3.5",
-        "TotalScoreAvg": 0.6168123627825703
+        "TotalScoreAvg": 0.23218012666135665
     },
     {
         "League": "MLB",
         "CoverRatingWindow": NaN,
         "CoverScoreAvg": NaN,
-        "BetCount": 16,
-        "xHitRate": 0.4375,
+        "BetCount": 17,
+        "xHitRate": 0.4117647058823529,
         "TotalRatingWindow": "Under 3.5-4",
-        "TotalScoreAvg": 0.2854859198994767
+        "TotalScoreAvg": 0.04058202137521247
     },
     {
         "League": "MLB",
         "CoverRatingWindow": NaN,
         "CoverScoreAvg": NaN,
-        "BetCount": 25,
-        "xHitRate": 0.56,
+        "BetCount": 28,
+        "xHitRate": 0.5357142857142857,
         "TotalRatingWindow": "Under 4-4.5",
-        "TotalScoreAvg": 0.9292217690298892
+        "TotalScoreAvg": 0.43059064583843704
     },
     {
         "League": "MLB",
         "CoverRatingWindow": NaN,
         "CoverScoreAvg": NaN,
-        "BetCount": 65,
-        "xHitRate": 0.5230769230769231,
+        "BetCount": 70,
+        "xHitRate": 0.5142857142857142,
         "TotalRatingWindow": "Under 4.5-5",
-        "TotalScoreAvg": 0.8711225211875789
+        "TotalScoreAvg": 0.42523775509665146
     },
     {
         "League": "MLB",
         "CoverRatingWindow": NaN,
         "CoverScoreAvg": NaN,
-        "BetCount": 81,
-        "xHitRate": 0.5185185185185185,
+        "BetCount": 94,
+        "xHitRate": 0.5106382978723404,
         "TotalRatingWindow": "Under 5-5.5",
-        "TotalScoreAvg": 0.9953869706147306
+        "TotalScoreAvg": 0.6025522366617416
     },
     {
         "League": "MLB",
         "CoverRatingWindow": NaN,
         "CoverScoreAvg": NaN,
-        "BetCount": 61,
-        "xHitRate": 0.5409836065573771,
+        "BetCount": 68,
+        "xHitRate": 0.5147058823529411,
         "TotalRatingWindow": "Under 5.5-6",
-        "TotalScoreAvg": 1.0757506730922168
+        "TotalScoreAvg": 0.5014311566824013
     },
     {
         "League": "NBA",
@@ -186,16 +195,16 @@
         "BetCount": 6,
         "xHitRate": 0.5,
         "TotalRatingWindow": "Under 4.5-5",
-        "TotalScoreAvg": 1.0251060799643383
+        "TotalScoreAvg": 0.3849294312518426
     },
     {
         "League": "NBA",
         "CoverRatingWindow": NaN,
         "CoverScoreAvg": NaN,
-        "BetCount": 28,
-        "xHitRate": 0.42857142857142855,
+        "BetCount": 31,
+        "xHitRate": 0.41935483870967744,
         "TotalRatingWindow": "Under 5-5.5",
-        "TotalScoreAvg": 0.7042742500090381
+        "TotalScoreAvg": 0.3563852314446067
     },
     {
         "League": "NBA",
@@ -204,6 +213,6 @@
         "BetCount": 23,
         "xHitRate": 0.4782608695652174,
         "TotalRatingWindow": "Under 5.5-6",
-        "TotalScoreAvg": 0.6779691795618118
+        "TotalScoreAvg": 0.16912013855245622
     }
 ]
