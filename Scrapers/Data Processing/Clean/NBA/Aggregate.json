@@ -1,10 +1,10 @@
 {
-    "5a31e1ff_8a2d1e91_NBA": {
+    "Unknown_8a2d1e91_NBA": {
         "Info Table": {
-            "Away Team": "Cleveland Cavaliers",
-            "Away Team Rank Name": "Cleveland",
-            "Away Abv": "CLE",
-            "Away ID": "5a31e1ff",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Boston Celtics",
             "Home Team Rank Name": "Boston",
             "Home Abv": "BOS",
@@ -24,30 +24,6 @@
                 "Total": "212.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
-            },
-            {
-                "Book Name": "DK",
-                "Away Spread": "+13.5",
-                "Away Spread Odds": "−110",
-                "Away ML": "+625",
-                "Home Spread": "-13.5",
-                "Home Spread Odds": "−110",
-                "Home ML": "−950",
-                "Total": "212",
-                "Over Total Odds": "−108",
-                "Under Total Odds": "−112"
-            },
-            {
-                "Book Name": "ESPN",
-                "Away Spread": "+13.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+650",
-                "Home Spread": "-13.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-1000",
-                "Total": "212.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
             }
         ]
     },
@@ -100,6 +76,46 @@
                 "Total": "218.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
+            }
+        ]
+    },
+    "5a31e1ff_8a2d1e91_NBA": {
+        "Info Table": {
+            "Away Team": "CLE Cavaliers",
+            "Away Team Rank Name": "Cleveland",
+            "Away Abv": "CLE",
+            "Away ID": "5a31e1ff",
+            "Home Team": "BOS Celtics",
+            "Home Team Rank Name": "Boston",
+            "Home Abv": "BOS",
+            "Home ID": "8a2d1e91",
+            "Start Time": "7:05PM",
+            "League": "NBA"
+        },
+        "Bet Tables": [
+            {
+                "Book Name": "DK",
+                "Away Spread": "+13.5",
+                "Away Spread Odds": "−110",
+                "Away ML": "+625",
+                "Home Spread": "-13.5",
+                "Home Spread Odds": "−110",
+                "Home ML": "−950",
+                "Total": "212",
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
+            },
+            {
+                "Book Name": "ESPN",
+                "Away Spread": "+13.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "+650",
+                "Home Spread": "-13.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "-1000",
+                "Total": "212.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             }
         ]
     }
