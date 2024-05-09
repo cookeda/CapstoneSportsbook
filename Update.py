@@ -14,13 +14,17 @@ subprocess.run(['python', 'daily_refresh.py'])
 os.chdir('../../Data Collecting Src/')
 subprocess.run(['python', 'game.py'], stdout=open('../Results/game_results.txt', 'w'))
 
-# Generate summary and merge results
-os.chdir('../Results/')
-subprocess.run(['python', 'script.py'])
-
 # Data Processing and Updates
 os.chdir('../Scrapers/Data Processing')
 subprocess.run(['python', 'script.py'])
+
+
+# Generate summary and merge results
+os.chdir('../../Results/')
+subprocess.run(['python', 'script.py'])
+
+os.chdir('../OddsHistory/History')
+subprocess.run(['python', 'sorting_algorithm.py'])
 
 
 # Uncomment the following line to enable the auto update command
