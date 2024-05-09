@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "DK_300faa7b_f5328492_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+170",
-                "Away ML": "−105",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−205",
-                "Home ML": "−115",
-                "Total": "7",
-                "Over Total Odds": "+102",
-                "Under Total Odds": "−122"
-            },
-            "MatchupID": "300faa7b_f5328492_MLB",
-            "Info Table": {
-                "Away Team": "SEA Mariners",
-                "Away Team Rank Name": "Seattle",
-                "Away Abv": "SEA",
-                "Away ID": "300faa7b",
-                "Home Team": "MIN Twins",
-                "Home Team Rank Name": "Minnesota",
-                "Home Abv": "MIN",
-                "Home ID": "f5328492",
-                "Start Time": "1:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_2b1ac347_fdd0d44c_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−175",
-                "Away ML": "+120",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "−205",
-                "Home ML": "−142",
-                "Total": "9",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+140",
+                "Away ML": "−130",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−180",
+                "Home ML": "+100",
+                "Total": "6.5",
+                "Over Total Odds": "−125",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "2b1ac347_fdd0d44c_MLB",
             "Info Table": {
@@ -54,7 +24,37 @@
                 "Home Team Rank Name": "Cincinnati",
                 "Home Abv": "CIN",
                 "Home ID": "fdd0d44c",
-                "Start Time": "1:10PM",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_300faa7b_f5328492_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+4.5",
+                "Away Spread Odds": "+105",
+                "Away ML": "+1100",
+                "Home Spread": "-4.5",
+                "Home Spread Odds": "−180",
+                "Home ML": "−2500",
+                "Total": "12.5",
+                "Over Total Odds": "+105",
+                "Under Total Odds": "−135"
+            },
+            "MatchupID": "300faa7b_f5328492_MLB",
+            "Info Table": {
+                "Away Team": "SEA Mariners",
+                "Away Team Rank Name": "Seattle",
+                "Away Abv": "SEA",
+                "Away ID": "300faa7b",
+                "Home Team": "MIN Twins",
+                "Home Team Rank Name": "Minnesota",
+                "Home Abv": "MIN",
+                "Home ID": "f5328492",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
@@ -68,7 +68,7 @@
                 "Away Spread Odds": "+114",
                 "Away ML": "−135",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−205",
+                "Home Spread Odds": "−180",
                 "Home ML": "+114",
                 "Total": "9.5",
                 "Over Total Odds": "+100",
@@ -98,7 +98,7 @@
                 "Away Spread Odds": "−185",
                 "Away ML": "+114",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−205",
+                "Home Spread Odds": "−180",
                 "Home ML": "−135",
                 "Total": "8",
                 "Over Total Odds": "−112",
@@ -128,7 +128,7 @@
                 "Away Spread Odds": "+110",
                 "Away ML": "−148",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−205",
+                "Home Spread Odds": "−180",
                 "Home ML": "+124",
                 "Total": "8",
                 "Over Total Odds": "−105",
@@ -158,7 +158,7 @@
                 "Away Spread Odds": "+124",
                 "Away ML": "−142",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−205",
+                "Home Spread Odds": "−180",
                 "Home ML": "+120",
                 "Total": "7.5",
                 "Over Total Odds": "−110",
@@ -188,7 +188,7 @@
                 "Away Spread Odds": "+145",
                 "Away ML": "−115",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−205",
+                "Home Spread Odds": "−180",
                 "Home ML": "−105",
                 "Total": "8.5",
                 "Over Total Odds": "−102",
