@@ -4,7 +4,11 @@ Dallas @ Okla City (NBA): Cover Rating - 3.5, Over Score - 5.4
 Bet on Okla City to cover the spread.
 Arizona @ Cincinnati (MLB): Cover Rating - 5.2, Over Score - 5.1
 Bet on Arizona to cover the spread.
+<<<<<<< HEAD
 Seattle @ Minnesota (MLB): Cover Rating - 11.1, Over Score - 4.8
+=======
+Seattle @ Minnesota (MLB): Cover Rating - 2.1, Over Score - 3.8
+>>>>>>> b7ed08cf09674fbdc1db6dc5ffb5befc267fe82e
 Bet on Seattle to cover the spread.
 SF Giants @ Colorado (MLB): Cover Rating - 0.5, Over Score - 5.6
 Bet on SF Giants to cover the spread.
@@ -18,12 +22,12 @@ Kansas City @ LA Angels (MLB): Cover Rating - 3.0, Over Score - 5.1
 Bet on Kansas City to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Seattle @ Minnesota (MLB): Cover Rating - 11.1, Bet on Seattle to cover the spread.
 Arizona @ Cincinnati (MLB): Cover Rating - 5.2, Bet on Arizona to cover the spread.
 Dallas @ Okla City (NBA): Cover Rating - 3.5, Bet on Okla City to cover the spread.
 Kansas City @ LA Angels (MLB): Cover Rating - 3.0, Bet on Kansas City to cover the spread.
 Cleveland @ Chi Sox (MLB): Cover Rating - 2.9, Bet on Cleveland to cover the spread.
 Cleveland @ Boston (NBA): Cover Rating - 2.2, Bet on Boston to cover the spread.
+Seattle @ Minnesota (MLB): Cover Rating - 2.1, Bet on Seattle to cover the spread.
 St. Louis @ Milwaukee (MLB): Cover Rating - 1.5, Bet on St. Louis to cover the spread.
 Houston @ NY Yankees (MLB): Cover Rating - 1.5, Bet on Houston to cover the spread.
 SF Giants @ Colorado (MLB): Cover Rating - 0.5, Bet on SF Giants to cover the spread.
@@ -41,12 +45,21 @@ Seattle @ Minnesota (MLB): Over Score - 4.8
          date league  cover_rating  ...  total    home_team   away_team
 0  2024-05-09    NBA      2.237037  ...  212.0    Cleveland      Boston
 1  2024-05-09    NBA      3.520000  ...  218.5       Dallas   Okla City
+<<<<<<< HEAD
 2  2024-05-09    MLB      5.200000  ...    8.5      Arizona  Cincinnati
 3  2024-05-09    MLB     11.066667  ...    6.5      Seattle   Minnesota
 4  2024-05-09    MLB      0.533333  ...    9.5    SF Giants    Colorado
 5  2024-05-09    MLB      1.466667  ...    8.0      Houston  NY Yankees
 6  2024-05-09    MLB      2.933333  ...    8.0    Cleveland     Chi Sox
 7  2024-05-09    MLB      1.466667  ...    8.0    St. Louis   Milwaukee
+=======
+2  2024-05-09    MLB      5.200000  ...    9.0      Arizona  Cincinnati
+3  2024-05-09    MLB      2.066667  ...    7.0      Seattle   Minnesota
+4  2024-05-09    MLB      2.533333  ...    9.5    SF Giants    Colorado
+5  2024-05-09    MLB      1.466667  ...    8.0      Houston  NY Yankees
+6  2024-05-09    MLB      2.933333  ...    8.0    Cleveland     Chi Sox
+7  2024-05-09    MLB      1.466667  ...    7.5    St. Louis   Milwaukee
+>>>>>>> b7ed08cf09674fbdc1db6dc5ffb5befc267fe82e
 8  2024-05-09    MLB      3.000000  ...    8.5  Kansas City   LA Angels
 
 [9 rows x 10 columns]
