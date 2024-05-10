@@ -1,60 +1,30 @@
 [
     [
         {
-            "BetTableId": "Bovada_5a31e1ff_8a2d1e91_NBA",
+            "BetTableId": "Bovada_48eb7bb_Unknown_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "-6.0",
-                "Away Spread Odds": "-110",
-                "Away ML": "-300",
-                "Home Spread": "-6.0",
-                "Home Spread Odds": "-120",
-                "Home ML": "+220",
-                "Total": "221.5",
+                "Away Spread": "+1.0",
+                "Away Spread Odds": "-115",
+                "Away ML": "-105",
+                "Home Spread": "+1.0",
+                "Home Spread Odds": "-115",
+                "Home ML": "-125",
+                "Total": "230.0",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-115"
             },
-            "MatchupID": "5a31e1ff_8a2d1e91_NBA",
-            "Info Table": {
-                "Away Team": "Cleveland Cavaliers",
-                "Away Team Rank Name": "Cleveland",
-                "Away Abv": "CLE",
-                "Away ID": "5a31e1ff",
-                "Home Team": "Boston Celtics",
-                "Home Team Rank Name": "Boston",
-                "Home Abv": "BOS",
-                "Home ID": "8a2d1e91",
-                "Start Time": "4Q",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_48eb7bb_88f1c3e9_NBA",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+5.0",
-                "Away Spread Odds": "-110",
-                "Away ML": "+165",
-                "Home Spread": "-5.0",
-                "Home Spread Odds": "-110",
-                "Home ML": "-195",
-                "Total": "217.0",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
-            },
-            "MatchupID": "48eb7bb_88f1c3e9_NBA",
+            "MatchupID": "48eb7bb_Unknown_NBA",
             "Info Table": {
                 "Away Team": "Dallas Mavericks",
                 "Away Team Rank Name": "Dallas",
                 "Away Abv": "DAL",
                 "Away ID": "48eb7bb",
-                "Home Team": "Oklahoma City Thunder",
-                "Home Team Rank Name": "Okla City",
-                "Home Abv": "OKC",
-                "Home ID": "88f1c3e9",
-                "Start Time": "9:30 PM",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "1Q",
                 "League": "NBA"
             }
         }

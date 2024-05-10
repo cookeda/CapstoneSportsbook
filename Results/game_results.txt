@@ -1,33 +1,28 @@
-Cleveland @ Boston (NBA): Cover Rating - 8.0, Over Score - 5.5
-Bet on Boston to cover the spread.
-Dallas @ Okla City (NBA): Cover Rating - 3.5, Over Score - 5.4
+Dallas @ Okla City (NBA): Cover Rating - 4.6, Over Score - 5.4
 Bet on Okla City to cover the spread.
-St. Louis @ Milwaukee (MLB): Cover Rating - 5.3, Over Score - 6.0
+St. Louis @ Milwaukee (MLB): Cover Rating - 10.1, Over Score - 6.0
 Bet on St. Louis to cover the spread.
-Cleveland @ Chi Sox (MLB): Cover Rating - 9.2, Over Score - 5.9
+Cleveland @ Chi Sox (MLB): Cover Rating - 1.2, Over Score - 5.9
 Bet on Cleveland to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 1.0, Over Score - 5.1
-Bet on Kansas City to cover the spread.
+Kansas City @ LA Angels (MLB): Cover Rating - 2.0, Over Score - 5.1
+Bet on LA Angels to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Cleveland @ Chi Sox (MLB): Cover Rating - 9.2, Bet on Cleveland to cover the spread.
-Cleveland @ Boston (NBA): Cover Rating - 8.0, Bet on Boston to cover the spread.
-St. Louis @ Milwaukee (MLB): Cover Rating - 5.3, Bet on St. Louis to cover the spread.
-Dallas @ Okla City (NBA): Cover Rating - 3.5, Bet on Okla City to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 1.0, Bet on Kansas City to cover the spread.
+St. Louis @ Milwaukee (MLB): Cover Rating - 10.1, Bet on St. Louis to cover the spread.
+Dallas @ Okla City (NBA): Cover Rating - 4.6, Bet on Okla City to cover the spread.
+Kansas City @ LA Angels (MLB): Cover Rating - 2.0, Bet on LA Angels to cover the spread.
+Cleveland @ Chi Sox (MLB): Cover Rating - 1.2, Bet on Cleveland to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 St. Louis @ Milwaukee (MLB): Over Score - 6.0
 Cleveland @ Chi Sox (MLB): Over Score - 5.9
-Cleveland @ Boston (NBA): Over Score - 5.5
 Dallas @ Okla City (NBA): Over Score - 5.4
 Kansas City @ LA Angels (MLB): Over Score - 5.1
          date league  cover_rating  ...  total    home_team  away_team
-0  2024-05-09    NBA      8.036364  ...  222.5    Cleveland     Boston
-1  2024-05-09    NBA      3.520000  ...  217.0       Dallas  Okla City
-2  2024-05-09    MLB      5.280000  ...   10.5    St. Louis  Milwaukee
-3  2024-05-09    MLB      9.160000  ...    8.5    Cleveland    Chi Sox
-4  2024-05-09    MLB      1.000000  ...    8.0  Kansas City  LA Angels
+0  2024-05-09    NBA      4.600000  ...  229.5       Dallas  Okla City
+1  2024-05-09    MLB     10.107692  ...    8.5    St. Louis  Milwaukee
+2  2024-05-09    MLB      1.160000  ...    4.5    Cleveland    Chi Sox
+3  2024-05-09    MLB      2.000000  ...    6.5  Kansas City  LA Angels
 
-[5 rows x 10 columns]
+[4 rows x 10 columns]
 Avoided Overriding DailyPredictions
