@@ -1,38 +1,33 @@
-Cleveland @ Boston (NBA): Cover Rating - 2.2, Over Score - 5.5
+Cleveland @ Boston (NBA): Cover Rating - 8.0, Over Score - 5.5
 Bet on Boston to cover the spread.
 Dallas @ Okla City (NBA): Cover Rating - 3.5, Over Score - 5.4
 Bet on Okla City to cover the spread.
-Houston @ NY Yankees (MLB): Cover Rating - 3.0, Over Score - 7.9
-Bet on NY Yankees to cover the spread.
-St. Louis @ Milwaukee (MLB): Cover Rating - 2.3, Over Score - 5.5
+St. Louis @ Milwaukee (MLB): Cover Rating - 5.3, Over Score - 6.0
 Bet on St. Louis to cover the spread.
-Cleveland @ Chi Sox (MLB): Cover Rating - 2.1, Over Score - 5.4
-Bet on Chi Sox to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 2.0, Over Score - 5.1
-Bet on LA Angels to cover the spread.
+Cleveland @ Chi Sox (MLB): Cover Rating - 9.2, Over Score - 5.9
+Bet on Cleveland to cover the spread.
+Kansas City @ LA Angels (MLB): Cover Rating - 1.0, Over Score - 5.1
+Bet on Kansas City to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
+Cleveland @ Chi Sox (MLB): Cover Rating - 9.2, Bet on Cleveland to cover the spread.
+Cleveland @ Boston (NBA): Cover Rating - 8.0, Bet on Boston to cover the spread.
+St. Louis @ Milwaukee (MLB): Cover Rating - 5.3, Bet on St. Louis to cover the spread.
 Dallas @ Okla City (NBA): Cover Rating - 3.5, Bet on Okla City to cover the spread.
-Houston @ NY Yankees (MLB): Cover Rating - 3.0, Bet on NY Yankees to cover the spread.
-St. Louis @ Milwaukee (MLB): Cover Rating - 2.3, Bet on St. Louis to cover the spread.
-Cleveland @ Boston (NBA): Cover Rating - 2.2, Bet on Boston to cover the spread.
-Cleveland @ Chi Sox (MLB): Cover Rating - 2.1, Bet on Chi Sox to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 2.0, Bet on LA Angels to cover the spread.
+Kansas City @ LA Angels (MLB): Cover Rating - 1.0, Bet on Kansas City to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Houston @ NY Yankees (MLB): Over Score - 7.9
-St. Louis @ Milwaukee (MLB): Over Score - 5.5
+St. Louis @ Milwaukee (MLB): Over Score - 6.0
+Cleveland @ Chi Sox (MLB): Over Score - 5.9
 Cleveland @ Boston (NBA): Over Score - 5.5
 Dallas @ Okla City (NBA): Over Score - 5.4
-Cleveland @ Chi Sox (MLB): Over Score - 5.4
 Kansas City @ LA Angels (MLB): Over Score - 5.1
-         date league  cover_rating  ...  total    home_team   away_team
-0  2024-05-09    NBA      2.237037  ...  217.5    Cleveland      Boston
-1  2024-05-09    NBA      3.520000  ...  217.0       Dallas   Okla City
-2  2024-05-09    MLB      3.003804  ...    8.0      Houston  NY Yankees
-3  2024-05-09    MLB      2.280000  ...    9.5    St. Louis   Milwaukee
-4  2024-05-09    MLB      2.066667  ...    7.5    Cleveland     Chi Sox
-5  2024-05-09    MLB      2.000000  ...    8.5  Kansas City   LA Angels
+         date league  cover_rating  ...  total    home_team  away_team
+0  2024-05-09    NBA      8.036364  ...  222.5    Cleveland     Boston
+1  2024-05-09    NBA      3.520000  ...  217.0       Dallas  Okla City
+2  2024-05-09    MLB      5.280000  ...   10.5    St. Louis  Milwaukee
+3  2024-05-09    MLB      9.160000  ...    8.5    Cleveland    Chi Sox
+4  2024-05-09    MLB      1.000000  ...    8.0  Kansas City  LA Angels
 
-[6 rows x 10 columns]
+[5 rows x 10 columns]
 Avoided Overriding DailyPredictions
