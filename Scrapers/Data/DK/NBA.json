@@ -1,30 +1,60 @@
 [
     [
         {
-            "BetTableId": "DK_48eb7bb_88f1c3e9_NBA",
+            "BetTableId": "DK_65ba1118_dc435e0a_NBA",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-8.5",
-                "Away Spread Odds": "−105",
-                "Away ML": "−4800",
-                "Home Spread": "+8.5",
-                "Home Spread Odds": "−125",
-                "Home ML": "+1600",
-                "Total": "230.5",
-                "Over Total Odds": "−120",
+                "Away Spread": "+7",
+                "Away Spread Odds": "−110",
+                "Away ML": "+240",
+                "Home Spread": "-7",
+                "Home Spread Odds": "−110",
+                "Home ML": "−298",
+                "Total": "222.5",
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
+            },
+            "MatchupID": "65ba1118_dc435e0a_NBA",
+            "Info Table": {
+                "Away Team": "NY Knicks",
+                "Away Team Rank Name": "New York",
+                "Away Abv": "NYK",
+                "Away ID": "65ba1118",
+                "Home Team": "IND Pacers",
+                "Home Team Rank Name": "Indiana",
+                "Home Abv": "IND",
+                "Home ID": "dc435e0a",
+                "Start Time": "7:05PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_59dd0ac4_f5328492_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+4.5",
+                "Away Spread Odds": "−110",
+                "Away ML": "+154",
+                "Home Spread": "-4.5",
+                "Home Spread Odds": "−110",
+                "Home ML": "−185",
+                "Total": "204.5",
+                "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
             },
-            "MatchupID": "48eb7bb_88f1c3e9_NBA",
+            "MatchupID": "59dd0ac4_f5328492_NBA",
             "Info Table": {
-                "Away Team": "DAL Mavericks",
-                "Away Team Rank Name": "Dallas",
-                "Away Abv": "DAL",
-                "Away ID": "48eb7bb",
-                "Home Team": "OKC Thunder",
-                "Home Team Rank Name": "Okla City",
-                "Home Abv": "OKC",
-                "Home ID": "88f1c3e9",
-                "Start Time": "Live Game",
+                "Away Team": "DEN Nuggets",
+                "Away Team Rank Name": "Denver",
+                "Away Abv": "DEN",
+                "Away ID": "59dd0ac4",
+                "Home Team": "MIN Timberwolves",
+                "Home Team Rank Name": "Minnesota",
+                "Home Abv": "MIN",
+                "Home ID": "f5328492",
+                "Start Time": "9:35PM",
                 "League": "NBA"
             }
         }

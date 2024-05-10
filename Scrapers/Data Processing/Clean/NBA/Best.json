@@ -1,27 +1,53 @@
 [
     {
-        "MatchupID": "48eb7bb_88f1c3e9_NBA",
+        "MatchupID": "65ba1118_dc435e0a_NBA",
         "Info Table": {
-            "Away Team": "DAL Mavericks",
-            "Away Team Rank Name": "Dallas",
-            "Away Abv": "DAL",
-            "Away ID": "48eb7bb",
-            "Home Team": "OKC Thunder",
-            "Home Team Rank Name": "Okla City",
-            "Home Abv": "OKC",
-            "Home ID": "88f1c3e9",
-            "Start Time": "Round 2, Game 2: OKC Leads 1-0",
+            "Away Team": "NY Knicks",
+            "Away Team Rank Name": "New York",
+            "Away Abv": "NYK",
+            "Away ID": "65ba1118",
+            "Home Team": "IND Pacers",
+            "Home Team Rank Name": "Indiana",
+            "Home Abv": "IND",
+            "Home ID": "dc435e0a",
+            "Start Time": "Today · 7:00 PM",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "-7.0 (Bovada)",
-            "Away Spread Odds": "−105 (DK)",
-            "Away ML": "-1200 (Bovada)",
-            "Home Spread": "+8.5 (DK)",
+            "Away Spread": "+7.5 (ESPN)",
+            "Away Spread Odds": "-110 (Bovada)",
+            "Away ML": "+240 (Bovada)",
+            "Home Spread": "-7.0 (Bovada)",
+            "Home Spread Odds": "-105 (ESPN)",
+            "Home ML": "-285 (ESPN)",
+            "Total": "222.5 (ESPN)",
+            "Over Total Odds": "-105 (ESPN)",
+            "Under Total Odds": "−108 (DK)"
+        }
+    },
+    {
+        "MatchupID": "59dd0ac4_f5328492_NBA",
+        "Info Table": {
+            "Away Team": "DEN Nuggets",
+            "Away Team Rank Name": "Denver",
+            "Away Abv": "DEN",
+            "Away ID": "59dd0ac4",
+            "Home Team": "MIN Timberwolves",
+            "Home Team Rank Name": "Minnesota",
+            "Home Abv": "MIN",
+            "Home ID": "f5328492",
+            "Start Time": "Today · 9:30 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+4.5 (ESPN)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "+160 (ESPN)",
+            "Home Spread": "-4.5 (ESPN)",
             "Home Spread Odds": "-110 (ESPN)",
-            "Home ML": "+1600 (DK)",
-            "Total": "232.5 (Bovada)",
-            "Over Total Odds": "-120 (Bovada)",
+            "Home ML": "-185 (Bovada)",
+            "Total": "204.5 (ESPN)",
+            "Over Total Odds": "-105 (ESPN)",
             "Under Total Odds": "-110 (Bovada)"
         }
     }
