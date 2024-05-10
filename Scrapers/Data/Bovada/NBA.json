@@ -1,30 +1,30 @@
 [
     [
         {
-            "BetTableId": "Bovada_48eb7bb_Unknown_NBA",
+            "BetTableId": "Bovada_48eb7bb_88f1c3e9_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "+1.0",
+                "Away Spread": "-1.5",
                 "Away Spread Odds": "-115",
-                "Away ML": "-105",
-                "Home Spread": "+1.0",
+                "Away ML": "-130",
+                "Home Spread": "-1.5",
                 "Home Spread Odds": "-115",
-                "Home ML": "-125",
-                "Total": "230.0",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-115"
+                "Home ML": "+100",
+                "Total": "237.0",
+                "Over Total Odds": "-125",
+                "Under Total Odds": "-105"
             },
-            "MatchupID": "48eb7bb_Unknown_NBA",
+            "MatchupID": "48eb7bb_88f1c3e9_NBA",
             "Info Table": {
                 "Away Team": "Dallas Mavericks",
                 "Away Team Rank Name": "Dallas",
                 "Away Abv": "DAL",
                 "Away ID": "48eb7bb",
-                "Home Team": "-999",
-                "Home Team Rank Name": "Unknown",
-                "Home Abv": "Unknown",
-                "Home ID": "Unknown",
-                "Start Time": "1Q",
+                "Home Team": "Oklahoma City Thunder",
+                "Home Team Rank Name": "Okla City",
+                "Home Abv": "OKC",
+                "Home ID": "88f1c3e9",
+                "Start Time": "HT",
                 "League": "NBA"
             }
         }
