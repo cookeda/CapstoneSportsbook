@@ -35,14 +35,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−192",
-                "Away ML": "+110",
+                "Away Spread Odds": "−185",
+                "Away ML": "+120",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "−148",
-                "Home ML": "−130",
-                "Total": "7.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Home ML": "−142",
+                "Total": "7",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
             },
             "MatchupID": "d10f1db8_9666114b_MLB",
             "Info Table": {
@@ -94,10 +94,10 @@
             "BetTableId": "DK_2b1ac347_e8bdce10_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−166",
                 "Away ML": "+120",
-                "Home Spread": "-999",
+                "Home Spread": "-1.5",
                 "Home Spread Odds": "−148",
                 "Home ML": "−142",
                 "Total": "8",
@@ -245,11 +245,11 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+150",
-                "Away ML": "−112",
+                "Away Spread Odds": "+145",
+                "Away ML": "−110",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "−148",
-                "Home ML": "−108",
+                "Home ML": "−110",
                 "Total": "7.5",
                 "Over Total Odds": "−115",
                 "Under Total Odds": "−105"
@@ -265,6 +265,36 @@
                 "Home Abv": "CWS",
                 "Home ID": "ea799920",
                 "Start Time": "7:40PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_ccadb94e_c5227021_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−180",
+                "Away ML": "+114",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "−148",
+                "Home ML": "−135",
+                "Total": "8.5",
+                "Over Total Odds": "+100",
+                "Under Total Odds": "−120"
+            },
+            "MatchupID": "ccadb94e_c5227021_MLB",
+            "Info Table": {
+                "Away Team": "STL Cardinals",
+                "Away Team Rank Name": "St. Louis",
+                "Away Abv": "STL",
+                "Away ID": "ccadb94e",
+                "Home Team": "MIL Brewers",
+                "Home Team Rank Name": "Milwaukee",
+                "Home Abv": "MIL",
+                "Home ID": "c5227021",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
@@ -365,7 +395,7 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−180",
+                "Away Spread Odds": "−185",
                 "Away ML": "+120",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "−148",
