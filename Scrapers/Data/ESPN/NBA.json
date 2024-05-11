@@ -4,15 +4,15 @@
             "BetTableId": "ESPN_65ba1118_dc435e0a_NBA",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "+5.5",
-                "Away Spread Odds": "-115",
-                "Away ML": "+180",
-                "Home Spread": "-5.5",
-                "Home Spread Odds": "-115",
-                "Home ML": "-240",
-                "Total": "224.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-115"
+                "Away Spread": "-3.5",
+                "Away Spread Odds": "+100",
+                "Away ML": "-190",
+                "Home Spread": "+3.5",
+                "Home Spread Odds": "-130",
+                "Home ML": "+150",
+                "Total": "229.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-120"
             },
             "MatchupID": "65ba1118_dc435e0a_NBA",
             "Info Table": {
@@ -25,6 +25,36 @@
                 "Home Abv": "IND",
                 "Home ID": "dc435e0a",
                 "Start Time": "Round 2, Game 3: NY Leads 2-0",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_59dd0ac4_f5328492_NBA",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "+3.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "+135",
+                "Home Spread": "-3.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "-160",
+                "Total": "205.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
+            },
+            "MatchupID": "59dd0ac4_f5328492_NBA",
+            "Info Table": {
+                "Away Team": "DEN Nuggets",
+                "Away Team Rank Name": "Denver",
+                "Away Abv": "DEN",
+                "Away ID": "59dd0ac4",
+                "Home Team": "MIN Timberwolves",
+                "Home Team Rank Name": "Minnesota",
+                "Home Abv": "MIN",
+                "Home ID": "f5328492",
+                "Start Time": "Today \u00b7 9:30 PM",
                 "League": "NBA"
             }
         }
