@@ -10,45 +10,71 @@
             "Home Team Rank Name": "Indiana",
             "Home Abv": "IND",
             "Home ID": "dc435e0a",
-            "Start Time": "Today · 7:00 PM",
+            "Start Time": "Round 2, Game 3: NY Leads 2-0",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+7.5 (ESPN)",
-            "Away Spread Odds": "−110 (DK)",
-            "Away ML": "+240 (DK)",
-            "Home Spread": "-7 (DK)",
-            "Home Spread Odds": "+100 (ESPN)",
-            "Home ML": "-275 (ESPN)",
-            "Total": "221.5 (ESPN)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "-105 (ESPN)"
+            "Away Spread": "+5.5 (ESPN)",
+            "Away Spread Odds": "-115 (ESPN)",
+            "Away ML": "+180 (ESPN)",
+            "Home Spread": "-5.5 (ESPN)",
+            "Home Spread Odds": "-115 (ESPN)",
+            "Home ML": "-240 (ESPN)",
+            "Total": "224.5 (ESPN)",
+            "Over Total Odds": "-115 (ESPN)",
+            "Under Total Odds": "-115 (ESPN)"
         }
     },
     {
         "MatchupID": "59dd0ac4_f5328492_NBA",
         "Info Table": {
-            "Away Team": "DEN Nuggets",
+            "Away Team": "Denver Nuggets",
             "Away Team Rank Name": "Denver",
             "Away Abv": "DEN",
             "Away ID": "59dd0ac4",
-            "Home Team": "MIN Timberwolves",
+            "Home Team": "Minnesota Timberwolves",
             "Home Team Rank Name": "Minnesota",
             "Home Abv": "MIN",
             "Home ID": "f5328492",
-            "Start Time": "Today · 9:30 PM",
+            "Start Time": "9:30 PM",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+3.5 (ESPN)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "+142 (DK)",
-            "Home Spread": "-3.5 (ESPN)",
-            "Home Spread Odds": "-110 (ESPN)",
-            "Home ML": "-165 (Bovada)",
-            "Total": "205.5 (ESPN)",
-            "Over Total Odds": "-105 (ESPN)",
+            "Away Spread": "+3.5 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "+135 (Bovada)",
+            "Home Spread": "-3.5 (Bovada)",
+            "Home Spread Odds": "-110 (Bovada)",
+            "Home ML": "-160 (Bovada)",
+            "Total": "204.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
             "Under Total Odds": "-105 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_Unknown_NBA",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "-999",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+4.5 (DK)",
+            "Away Spread Odds": "−110 (DK)",
+            "Away ML": "+165 (DK)",
+            "Home Spread": "-4.5 (DK)",
+            "Home Spread Odds": "−120 (DK)",
+            "Home ML": "−215 (DK)",
+            "Total": "222.5 (DK)",
+            "Over Total Odds": "−120 (DK)",
+            "Under Total Odds": "−110 (DK)"
         }
     }
 ]

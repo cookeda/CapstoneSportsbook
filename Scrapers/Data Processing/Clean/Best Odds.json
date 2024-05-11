@@ -10,45 +10,71 @@
             "Home Team Rank Name": "Indiana",
             "Home Abv": "IND",
             "Home ID": "dc435e0a",
-            "Start Time": "Today · 7:00 PM",
+            "Start Time": "Round 2, Game 3: NY Leads 2-0",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+7.5 (ESPN)",
-            "Away Spread Odds": "−110 (DK)",
-            "Away ML": "+240 (DK)",
-            "Home Spread": "-7 (DK)",
-            "Home Spread Odds": "+100 (ESPN)",
-            "Home ML": "-275 (ESPN)",
-            "Total": "221.5 (ESPN)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "-105 (ESPN)"
+            "Away Spread": "+5.5 (ESPN)",
+            "Away Spread Odds": "-115 (ESPN)",
+            "Away ML": "+180 (ESPN)",
+            "Home Spread": "-5.5 (ESPN)",
+            "Home Spread Odds": "-115 (ESPN)",
+            "Home ML": "-240 (ESPN)",
+            "Total": "224.5 (ESPN)",
+            "Over Total Odds": "-115 (ESPN)",
+            "Under Total Odds": "-115 (ESPN)"
         }
     },
     {
         "MatchupID": "59dd0ac4_f5328492_NBA",
         "Info Table": {
-            "Away Team": "DEN Nuggets",
+            "Away Team": "Denver Nuggets",
             "Away Team Rank Name": "Denver",
             "Away Abv": "DEN",
             "Away ID": "59dd0ac4",
-            "Home Team": "MIN Timberwolves",
+            "Home Team": "Minnesota Timberwolves",
             "Home Team Rank Name": "Minnesota",
             "Home Abv": "MIN",
             "Home ID": "f5328492",
-            "Start Time": "Today · 9:30 PM",
+            "Start Time": "9:30 PM",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+3.5 (ESPN)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "+142 (DK)",
-            "Home Spread": "-3.5 (ESPN)",
-            "Home Spread Odds": "-110 (ESPN)",
-            "Home ML": "-165 (Bovada)",
-            "Total": "205.5 (ESPN)",
-            "Over Total Odds": "-105 (ESPN)",
+            "Away Spread": "+3.5 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "+135 (Bovada)",
+            "Home Spread": "-3.5 (Bovada)",
+            "Home Spread Odds": "-110 (Bovada)",
+            "Home ML": "-160 (Bovada)",
+            "Total": "204.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
             "Under Total Odds": "-105 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_Unknown_NBA",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "-999",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+4.5 (DK)",
+            "Away Spread Odds": "−110 (DK)",
+            "Away ML": "+165 (DK)",
+            "Home Spread": "-4.5 (DK)",
+            "Home Spread Odds": "−120 (DK)",
+            "Home ML": "−215 (DK)",
+            "Total": "222.5 (DK)",
+            "Over Total Odds": "−120 (DK)",
+            "Under Total Odds": "−110 (DK)"
         }
     },
     {
@@ -66,15 +92,41 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "+120 (ESPN)",
-            "Away ML": "−145 (DK)",
-            "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "-125 (Bovada)",
-            "Home ML": "+140 (Bovada)",
-            "Total": "7.5 (ESPN)",
-            "Over Total Odds": "+110 (DK)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Away Spread": "+1.5 (ESPN)",
+            "Away Spread Odds": "+230 (DK)",
+            "Away ML": "+125 (ESPN)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "+220 (ESPN)",
+            "Home ML": "−135 (DK)",
+            "Total": "6.5 (ESPN)",
+            "Over Total Odds": "-120 (ESPN)",
+            "Under Total Odds": "+100 (DK)"
+        }
+    },
+    {
+        "MatchupID": "d10f1db8_9666114b_MLB",
+        "Info Table": {
+            "Away Team": "CHI Cubs",
+            "Away Team Rank Name": "Chi Cubs",
+            "Away Abv": "CHC",
+            "Away ID": "d10f1db8",
+            "Home Team": "PIT Pirates",
+            "Home Team Rank Name": "Pittsburgh",
+            "Home Abv": "PIT",
+            "Home ID": "9666114b",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-120 (Bovada)",
+            "Away ML": "+210 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "-110 (Bovada)",
+            "Home ML": "−250 (DK)",
+            "Total": "99 (ESPN)",
+            "Over Total Odds": "-125 (Bovada)",
+            "Under Total Odds": "+110 (DK)"
         }
     },
     {
@@ -93,40 +145,14 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "+160 (DK)",
-            "Away ML": "−105 (DK)",
+            "Away Spread Odds": "+120 (ESPN)",
+            "Away ML": "-200 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "−150 (DK)",
-            "Home ML": "-115 (ESPN)",
-            "Total": "7.5 (ESPN)",
-            "Over Total Odds": "-115 (ESPN)",
-            "Under Total Odds": "−110 (DK)"
-        }
-    },
-    {
-        "MatchupID": "d10f1db8_9666114b_MLB",
-        "Info Table": {
-            "Away Team": "CHI Cubs",
-            "Away Team Rank Name": "Chi Cubs",
-            "Away Abv": "CHC",
-            "Away ID": "d10f1db8",
-            "Home Team": "PIT Pirates",
-            "Home Team Rank Name": "Pittsburgh",
-            "Home Abv": "PIT",
-            "Home ID": "9666114b",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "−198 (DK)",
-            "Away ML": "+110 (ESPN)",
-            "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+170 (ESPN)",
-            "Home ML": "-130 (ESPN)",
-            "Total": "7.5 (ESPN)",
-            "Over Total Odds": "+110 (ESPN)",
-            "Under Total Odds": "−110 (DK)"
+            "Home Spread Odds": "-135 (Bovada)",
+            "Home ML": "+185 (Bovada)",
+            "Total": "4.5 (ESPN)",
+            "Over Total Odds": "−120 (DK)",
+            "Under Total Odds": "+120 (ESPN)"
         }
     },
     {
@@ -140,19 +166,19 @@
             "Home Team Rank Name": "Baltimore",
             "Home Abv": "BAL",
             "Home ID": "e8bdce10",
-            "Start Time": "Today · 7:05 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "-180 (ESPN)",
-            "Away ML": "+120 (ESPN)",
-            "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+155 (Bovada)",
-            "Home ML": "−135 (DK)",
+            "Away Spread Odds": "-115 (Bovada)",
+            "Away ML": "+260 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "-110 (ESPN)",
+            "Home ML": "−315 (DK)",
             "Total": "7.5 (ESPN)",
-            "Over Total Odds": "-115 (ESPN)",
-            "Under Total Odds": "-105 (ESPN)"
+            "Over Total Odds": "+100 (ESPN)",
+            "Under Total Odds": "−105 (DK)"
         }
     },
     {
@@ -166,19 +192,19 @@
             "Home Team Rank Name": "Toronto",
             "Home Abv": "TOR",
             "Home ID": "8714ddbe",
-            "Start Time": "Today · 7:07 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+170 (DK)",
-            "Away ML": "+134 (Bovada)",
+            "Away Spread": "-1.5 (ESPN)",
+            "Away Spread Odds": "+200 (ESPN)",
+            "Away ML": "+100 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+185 (Bovada)",
-            "Home ML": "-115 (ESPN)",
-            "Total": "7.5 (ESPN)",
-            "Over Total Odds": "+105 (ESPN)",
-            "Under Total Odds": "+105 (Bovada)"
+            "Home Spread Odds": "-260 (ESPN)",
+            "Home ML": "-125 (Bovada)",
+            "Total": "7.0 (Bovada)",
+            "Over Total Odds": "-125 (Bovada)",
+            "Under Total Odds": "+114 (DK)"
         }
     },
     {
@@ -192,19 +218,19 @@
             "Home Team Rank Name": "Boston",
             "Home Abv": "BOS",
             "Home ID": "8a2d1e91",
-            "Start Time": "Today · 7:10 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "+190 (ESPN)",
-            "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "-110 (ESPN)",
-            "Home ML": "-216 (Bovada)",
+            "Away Spread": "-2.0 (Bovada)",
+            "Away Spread Odds": "+114 (DK)",
+            "Away ML": "-310 (Bovada)",
+            "Home Spread": "+2.5 (ESPN)",
+            "Home Spread Odds": "-105 (Bovada)",
+            "Home ML": "+240 (ESPN)",
             "Total": "8.5 (ESPN)",
-            "Over Total Odds": "+100 (ESPN)",
-            "Under Total Odds": "+100 (Bovada)"
+            "Over Total Odds": "+105 (DK)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -218,19 +244,45 @@
             "Home Team Rank Name": "Miami",
             "Home Abv": "MIA",
             "Home ID": "8d47be6d",
-            "Start Time": "Today · 7:10 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "−122 (DK)",
-            "Away ML": "-197 (Bovada)",
-            "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+110 (ESPN)",
-            "Home ML": "+170 (ESPN)",
-            "Total": "7.5 (ESPN)",
-            "Over Total Odds": "-105 (ESPN)",
+            "Away Spread": "-3.5 (ESPN)",
+            "Away Spread Odds": "+100 (Bovada)",
+            "Away ML": "-800 (Bovada)",
+            "Home Spread": "+3.5 (ESPN)",
+            "Home Spread Odds": "+100 (ESPN)",
+            "Home ML": "+550 (ESPN)",
+            "Total": "8.5 (ESPN)",
+            "Over Total Odds": "+110 (ESPN)",
             "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "5a31e1ff_ea799920_MLB",
+        "Info Table": {
+            "Away Team": "CLE Guardians",
+            "Away Team Rank Name": "Cleveland",
+            "Away Abv": "CLE",
+            "Away ID": "5a31e1ff",
+            "Home Team": "CHI White Sox",
+            "Home Team Rank Name": "Chi Sox",
+            "Home Abv": "CWS",
+            "Home ID": "ea799920",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (ESPN)",
+            "Away Spread Odds": "−195 (DK)",
+            "Away ML": "+120 (DK)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "+180 (ESPN)",
+            "Home ML": "-130 (ESPN)",
+            "Total": "6.5 (DK)",
+            "Over Total Odds": "−105 (DK)",
+            "Under Total Odds": "-110 (ESPN)"
         }
     },
     {
@@ -252,37 +304,11 @@
             "Away Spread Odds": "+115 (ESPN)",
             "Away ML": "−148 (DK)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "-130 (Bovada)",
+            "Home Spread Odds": "-135 (Bovada)",
             "Home ML": "+130 (ESPN)",
             "Total": "7.5 (ESPN)",
-            "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "-105 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "5a31e1ff_ea799920_MLB",
-        "Info Table": {
-            "Away Team": "CLE Guardians",
-            "Away Team Rank Name": "Cleveland",
-            "Away Abv": "CLE",
-            "Away ID": "5a31e1ff",
-            "Home Team": "CHI White Sox",
-            "Home Team Rank Name": "Chi Sox",
-            "Home Abv": "CWS",
-            "Home ID": "ea799920",
-            "Start Time": "Today · 7:40 PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+170 (ESPN)",
-            "Away ML": "+100 (ESPN)",
-            "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+185 (Bovada)",
-            "Home ML": "−118 (DK)",
-            "Total": "7.5 (ESPN)",
-            "Over Total Odds": "+100 (ESPN)",
-            "Under Total Odds": "+105 (Bovada)"
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "-105 (ESPN)"
         }
     },
     {
@@ -327,13 +353,13 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "-125 (ESPN)",
-            "Away ML": "−192 (DK)",
+            "Away Spread Odds": "-120 (Bovada)",
+            "Away ML": "-190 (Bovada)",
             "Home Spread": "+1.5 (ESPN)",
             "Home Spread Odds": "+105 (ESPN)",
             "Home ML": "+165 (ESPN)",
             "Total": "9.5 (ESPN)",
-            "Over Total Odds": "-110 (Bovada)",
+            "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "-105 (ESPN)"
         }
     },
@@ -354,13 +380,13 @@
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
             "Away Spread Odds": "+135 (ESPN)",
-            "Away ML": "−122 (DK)",
+            "Away ML": "-125 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
             "Home Spread Odds": "-150 (Bovada)",
             "Home ML": "+108 (Bovada)",
-            "Total": "8.5 (ESPN)",
-            "Over Total Odds": "-115 (ESPN)",
-            "Under Total Odds": "+100 (Bovada)"
+            "Total": "9.0 (Bovada)",
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "−102 (DK)"
         }
     },
     {
@@ -435,10 +461,10 @@
             "Away ML": "+125 (ESPN)",
             "Home Spread": "-1.5 (ESPN)",
             "Home Spread Odds": "+155 (Bovada)",
-            "Home ML": "−142 (DK)",
+            "Home ML": "-142 (Bovada)",
             "Total": "7.0 (Bovada)",
-            "Over Total Odds": "+105 (Bovada)",
-            "Under Total Odds": "+110 (ESPN)"
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "+115 (ESPN)"
         }
     }
 ]
