@@ -15354,3 +15354,48 @@ Sorting complete.
 Script started at: 2024-05-10 21:00:02.004642
 Script ended at: 2024-05-10 21:01:43.110565
 Total execution time: 0:01:41.105923
+[main 7ec4218c] Automated Server Update
+ 26 files changed, 2490 insertions(+), 2388 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (96%)
+ rewrite Results/game_results.txt (78%)
+ rewrite Scrapers/Data Processing/Clean/NBA/Best.json (62%)
+ rewrite Scrapers/Data/DK/NBA.json (72%)
+ rewrite Scrapers/Data/DK/NBA_Lite.json (79%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   20abef8b..7ec4218c  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.04it/s]100%|██████████| 1/1 [00:00<00:00,  2.03it/s]
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:17<02:02, 17.50s/it] 25%|██▌       | 2/8 [00:20<00:53,  8.89s/it] 38%|███▊      | 3/8 [00:27<00:39,  7.99s/it] 50%|█████     | 4/8 [00:29<00:23,  5.88s/it] 62%|██████▎   | 5/8 [00:32<00:14,  4.78s/it] 75%|███████▌  | 6/8 [00:35<00:08,  4.16s/it] 88%|████████▊ | 7/8 [00:38<00:03,  3.64s/it]100%|██████████| 8/8 [00:38<00:00,  2.64s/it]100%|██████████| 8/8 [00:38<00:00,  4.85s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/8 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.32it/s]  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.64it/s]100%|██████████| 1/1 [00:00<00:00,  2.07it/s]100%|██████████| 1/1 [00:00<00:00,  2.07it/s]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.69it/s]100%|██████████| 1/1 [00:00<00:00,  1.69it/s]
+ 43%|████▎     | 3/7 [00:01<00:02,  1.87it/s] 12%|█▎        | 1/8 [00:02<00:19,  2.74s/it] 57%|█████▋    | 4/7 [00:02<00:01,  2.09it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.27it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.38it/s]100%|██████████| 7/7 [00:03<00:00,  2.46it/s]100%|██████████| 7/7 [00:03<00:00,  2.17it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.61it/s]100%|██████████| 1/1 [00:00<00:00,  2.61it/s]
+ 25%|██▌       | 2/8 [00:05<00:15,  2.58s/it]Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+ 38%|███▊      | 3/8 [00:10<00:19,  3.91s/it] 50%|█████     | 4/8 [00:13<00:13,  3.46s/it] 62%|██████▎   | 5/8 [00:16<00:09,  3.20s/it] 75%|███████▌  | 6/8 [00:19<00:06,  3.10s/it] 88%|████████▊ | 7/8 [00:22<00:03,  3.10s/it]100%|██████████| 8/8 [00:23<00:00,  2.37s/it]100%|██████████| 8/8 [00:23<00:00,  2.88s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-10 22:00:02.344045
+Script ended at: 2024-05-10 22:01:23.234352
+Total execution time: 0:01:20.890307
