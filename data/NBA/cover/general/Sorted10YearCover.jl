@@ -1,7 +1,7 @@
 {"Team": "Atlanta", "Cover %": "48.4%"} -0.9
 {"Team": "Atlanta", "Cover %": "48.4%"} -0.9
-{"Team": "Boston", "Cover %": "54.1%"} 3.5
-{"Team": "Boston", "Cover %": "54.1%"} 3.5
+{"Team": "Boston", "Cover %": "54.2%"} 3.5
+{"Team": "Boston", "Cover %": "54.2%"} 3.5
 {"Team": "Brooklyn", "Cover %": "49.6%"} -1.9
 {"Team": "Brooklyn", "Cover %": "49.6%"} -1.9
 {"Team": "Charlotte", "Cover %": "49.2%"} -2.4
