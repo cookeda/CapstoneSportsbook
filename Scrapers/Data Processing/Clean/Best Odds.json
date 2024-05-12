@@ -19,10 +19,10 @@
             "Away ML": "+190 (DK)",
             "Home Spread": "-5.5 (ESPN)",
             "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "-220 (Bovada)",
+            "Home ML": "-225 (ESPN)",
             "Total": "217.5 (ESPN)",
             "Over Total Odds": "-105 (ESPN)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -52,32 +52,6 @@
         }
     },
     {
-        "MatchupID": "8b214a89_300faa7b_MLB",
-        "Info Table": {
-            "Away Team": "OAK Athletics",
-            "Away Team Rank Name": "Oakland",
-            "Away Abv": "OAK",
-            "Away ID": "8b214a89",
-            "Home Team": "SEA Mariners",
-            "Home Team Rank Name": "Seattle",
-            "Home Abv": "SEA",
-            "Home ID": "300faa7b",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-6.5 (ESPN)",
-            "Away Spread Odds": "-999 (DK)",
-            "Away ML": "+190 (DK)",
-            "Home Spread": "+6.5 (ESPN)",
-            "Home Spread Odds": "+800 (ESPN)",
-            "Home ML": "−230 (DK)",
-            "Total": "99 (ESPN)",
-            "Over Total Odds": "+100 (DK)",
-            "Under Total Odds": "−120 (DK)"
-        }
-    },
-    {
         "MatchupID": "dd4357ee_8a2d1e91_MLB",
         "Info Table": {
             "Away Team": "WSH Nationals",
@@ -94,7 +68,7 @@
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
             "Away Spread Odds": "-150 (Bovada)",
-            "Away ML": "+134 (Bovada)",
+            "Away ML": "+133 (Bovada)",
             "Home Spread": "-1.5 (ESPN)",
             "Home Spread Odds": "+135 (ESPN)",
             "Home ML": "-150 (ESPN)",
@@ -145,7 +119,7 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "-190 (ESPN)",
+            "Away Spread Odds": "-200 (ESPN)",
             "Away ML": "+110 (ESPN)",
             "Home Spread": "-1.5 (ESPN)",
             "Home Spread Odds": "+170 (Bovada)",
@@ -177,8 +151,8 @@
             "Home Spread Odds": "-140 (ESPN)",
             "Home ML": "+118 (Bovada)",
             "Total": "8.5 (ESPN)",
-            "Over Total Odds": "-105 (ESPN)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Over Total Odds": "−108 (DK)",
+            "Under Total Odds": "-110 (ESPN)"
         }
     },
     {
@@ -223,10 +197,10 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "-135 (ESPN)",
+            "Away Spread Odds": "-130 (ESPN)",
             "Away ML": "-230 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+115 (ESPN)",
+            "Home Spread Odds": "+115 (Bovada)",
             "Home ML": "+195 (ESPN)",
             "Total": "7.5 (ESPN)",
             "Over Total Odds": "+110 (ESPN)",
@@ -249,13 +223,13 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "+145 (ESPN)",
-            "Away ML": "-120 (ESPN)",
+            "Away Spread Odds": "+145 (Bovada)",
+            "Away ML": "-119 (Bovada)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "-170 (Bovada)",
-            "Home ML": "+101 (Bovada)",
-            "Total": "8 (DK)",
-            "Over Total Odds": "−102 (DK)",
+            "Home Spread Odds": "-165 (ESPN)",
+            "Home ML": "+100 (ESPN)",
+            "Total": "7.5 (ESPN)",
+            "Over Total Odds": "−118 (DK)",
             "Under Total Odds": "+100 (ESPN)"
         }
     },
@@ -312,6 +286,32 @@
         }
     },
     {
+        "MatchupID": "fdd0d44c_486a5e3b_MLB",
+        "Info Table": {
+            "Away Team": "CIN Reds",
+            "Away Team Rank Name": "Cincinnati",
+            "Away Abv": "CIN",
+            "Away ID": "fdd0d44c",
+            "Home Team": "SF Giants",
+            "Home Team Rank Name": "SF Giants",
+            "Home Abv": "SF",
+            "Home ID": "486a5e3b",
+            "Start Time": "Today · 4:05 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (ESPN)",
+            "Away Spread Odds": "-200 (ESPN)",
+            "Away ML": "+110 (ESPN)",
+            "Home Spread": "-1.5 (ESPN)",
+            "Home Spread Odds": "+165 (ESPN)",
+            "Home ML": "-130 (ESPN)",
+            "Total": "8 (DK)",
+            "Over Total Odds": "+100 (DK)",
+            "Under Total Odds": "+100 (ESPN)"
+        }
+    },
+    {
         "MatchupID": "e841daaf_8f2512bc_MLB",
         "Info Table": {
             "Away Team": "Texas Rangers",
@@ -335,32 +335,6 @@
             "Total": "-999 (Bovada)",
             "Over Total Odds": "99 (Bovada)",
             "Under Total Odds": "99 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "fdd0d44c_486a5e3b_MLB",
-        "Info Table": {
-            "Away Team": "CIN Reds",
-            "Away Team Rank Name": "Cincinnati",
-            "Away Abv": "CIN",
-            "Away ID": "fdd0d44c",
-            "Home Team": "SF Giants",
-            "Home Team Rank Name": "SF Giants",
-            "Home Abv": "SF",
-            "Home ID": "486a5e3b",
-            "Start Time": "4:05PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-999 (DK)",
-            "Away Spread Odds": "-999 (DK)",
-            "Away ML": "+110 (DK)",
-            "Home Spread": "-999 (DK)",
-            "Home Spread Odds": "-999 (DK)",
-            "Home ML": "−130 (DK)",
-            "Total": "8 (DK)",
-            "Over Total Odds": "+100 (DK)",
-            "Under Total Odds": "−120 (DK)"
         }
     },
     {
@@ -406,13 +380,39 @@
         "Odds Table": {
             "Away Spread": "-999 (DK)",
             "Away Spread Odds": "-999 (DK)",
-            "Away ML": "−130 (DK)",
+            "Away ML": "−125 (DK)",
             "Home Spread": "-999 (DK)",
             "Home Spread Odds": "-999 (DK)",
-            "Home ML": "+110 (DK)",
+            "Home ML": "+105 (DK)",
             "Total": "8.5 (DK)",
-            "Over Total Odds": "−118 (DK)",
-            "Under Total Odds": "−102 (DK)"
+            "Over Total Odds": "−112 (DK)",
+            "Under Total Odds": "−108 (DK)"
+        }
+    },
+    {
+        "MatchupID": "8b214a89_300faa7b_MLB",
+        "Info Table": {
+            "Away Team": "OAK Athletics",
+            "Away Team Rank Name": "Oakland",
+            "Away Abv": "OAK",
+            "Away ID": "8b214a89",
+            "Home Team": "SEA Mariners",
+            "Home Team Rank Name": "Seattle",
+            "Home Abv": "SEA",
+            "Home ID": "300faa7b",
+            "Start Time": "4:10PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (DK)",
+            "Away Spread Odds": "-999 (DK)",
+            "Away ML": "+190 (DK)",
+            "Home Spread": "-999 (DK)",
+            "Home Spread Odds": "-999 (DK)",
+            "Home ML": "−230 (DK)",
+            "Total": "7.5 (DK)",
+            "Over Total Odds": "−102 (DK)",
+            "Under Total Odds": "−118 (DK)"
         }
     },
     {
@@ -437,8 +437,8 @@
             "Home Spread Odds": "-999 (DK)",
             "Home ML": "+110 (DK)",
             "Total": "7.5 (DK)",
-            "Over Total Odds": "−115 (DK)",
-            "Under Total Odds": "−105 (DK)"
+            "Over Total Odds": "−118 (DK)",
+            "Under Total Odds": "−102 (DK)"
         }
     }
 ]
