@@ -1,48 +1,43 @@
-New York @ Indiana (NBA): Cover Rating - 4.8, Over Score - 5.8
-Bet on New York to cover the spread.
-Denver @ Minnesota (NBA): Cover Rating - 3.7, Over Score - 5.1
+Denver @ Minnesota (NBA): Cover Rating - 3.2, Over Score - 5.1
 Bet on Minnesota to cover the spread.
-Texas @ Colorado (MLB): Cover Rating - 3.5, Over Score - 5.6
-Bet on Texas to cover the spread.
-Cincinnati @ SF Giants (MLB): Cover Rating - 7.0, Over Score - 5.2
+Texas @ Colorado (MLB): Cover Rating - 6.5, Over Score - 8.6
+Bet on Colorado to cover the spread.
+Cincinnati @ SF Giants (MLB): Cover Rating - 1.7, Over Score - 4.7
 Bet on Cincinnati to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 3.5, Over Score - 5.3
-Bet on Kansas City to cover the spread.
-Oakland @ Seattle (MLB): Cover Rating - 5.2, Over Score - 4.8
+Kansas City @ LA Angels (MLB): Cover Rating - 3.4, Over Score - 5.8
+Bet on LA Angels to cover the spread.
+Oakland @ Seattle (MLB): Cover Rating - 5.2, Over Score - 5.3
 Bet on Oakland to cover the spread.
-LA Dodgers @ San Diego (MLB): Cover Rating - 6.5, Over Score - 5.8
+LA Dodgers @ San Diego (MLB): Cover Rating - 0.7, Over Score - 5.8
 Bet on LA Dodgers to cover the spread.
-Atlanta @ NY Mets (MLB): Cover Rating - 1.9, Over Score - 4.6
-Bet on Atlanta to cover the spread.
+Atlanta @ NY Mets (MLB): Cover Rating - 3.1, Over Score - 4.6
+Bet on NY Mets to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Cincinnati @ SF Giants (MLB): Cover Rating - 7.0, Bet on Cincinnati to cover the spread.
-LA Dodgers @ San Diego (MLB): Cover Rating - 6.5, Bet on LA Dodgers to cover the spread.
+Texas @ Colorado (MLB): Cover Rating - 6.5, Bet on Colorado to cover the spread.
 Oakland @ Seattle (MLB): Cover Rating - 5.2, Bet on Oakland to cover the spread.
-New York @ Indiana (NBA): Cover Rating - 4.8, Bet on New York to cover the spread.
-Denver @ Minnesota (NBA): Cover Rating - 3.7, Bet on Minnesota to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 3.5, Bet on Kansas City to cover the spread.
-Texas @ Colorado (MLB): Cover Rating - 3.5, Bet on Texas to cover the spread.
-Atlanta @ NY Mets (MLB): Cover Rating - 1.9, Bet on Atlanta to cover the spread.
+Kansas City @ LA Angels (MLB): Cover Rating - 3.4, Bet on LA Angels to cover the spread.
+Denver @ Minnesota (NBA): Cover Rating - 3.2, Bet on Minnesota to cover the spread.
+Atlanta @ NY Mets (MLB): Cover Rating - 3.1, Bet on NY Mets to cover the spread.
+Cincinnati @ SF Giants (MLB): Cover Rating - 1.7, Bet on Cincinnati to cover the spread.
+LA Dodgers @ San Diego (MLB): Cover Rating - 0.7, Bet on LA Dodgers to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-New York @ Indiana (NBA): Over Score - 5.8
+Texas @ Colorado (MLB): Over Score - 8.6
+Kansas City @ LA Angels (MLB): Over Score - 5.8
 LA Dodgers @ San Diego (MLB): Over Score - 5.8
-Texas @ Colorado (MLB): Over Score - 5.6
-Kansas City @ LA Angels (MLB): Over Score - 5.3
-Cincinnati @ SF Giants (MLB): Over Score - 5.2
+Oakland @ Seattle (MLB): Over Score - 5.3
 Denver @ Minnesota (NBA): Over Score - 5.1
-Oakland @ Seattle (MLB): Over Score - 4.8
+Cincinnati @ SF Giants (MLB): Over Score - 4.7
 Atlanta @ NY Mets (MLB): Over Score - 4.6
          date league  cover_rating  ...  total    home_team  away_team
-0  2024-05-12    NBA      4.827451  ...  215.5     New York    Indiana
-1  2024-05-12    NBA      3.680000  ...  204.5       Denver  Minnesota
-2  2024-05-12    MLB      3.466667  ...    6.5        Texas   Colorado
-3  2024-05-12    MLB      7.000000  ...    8.5   Cincinnati  SF Giants
-4  2024-05-12    MLB      3.488889  ...    9.5  Kansas City  LA Angels
-5  2024-05-12    MLB      5.236364  ...    9.5      Oakland    Seattle
-6  2024-05-12    MLB      6.533333  ...    6.5   LA Dodgers  San Diego
-7  2024-05-12    MLB      1.933333  ...    8.0      Atlanta    NY Mets
+0  2024-05-12    NBA      3.233333  ...  204.0       Denver  Minnesota
+1  2024-05-12    MLB      6.533333  ...    8.0        Texas   Colorado
+2  2024-05-12    MLB      1.666667  ...    9.5   Cincinnati  SF Giants
+3  2024-05-12    MLB      3.371429  ...    6.5  Kansas City  LA Angels
+4  2024-05-12    MLB      5.200000  ...   11.5      Oakland    Seattle
+5  2024-05-12    MLB      0.657143  ...    6.5   LA Dodgers  San Diego
+6  2024-05-12    MLB      3.066667  ...    8.0      Atlanta    NY Mets
 
-[8 rows x 10 columns]
+[7 rows x 10 columns]
 Avoided Overriding DailyPredictions
