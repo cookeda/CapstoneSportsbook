@@ -1,13 +1,13 @@
 New York @ Indiana (NBA): Cover Rating - 4.2, Over Score - 5.8
 Bet on New York to cover the spread.
-Denver @ Minnesota (NBA): Cover Rating - 3.2, Over Score - 5.1
+Denver @ Minnesota (NBA): Cover Rating - 3.7, Over Score - 5.1
 Bet on Minnesota to cover the spread.
 Arizona @ Baltimore (MLB): Cover Rating - 4.3, Over Score - 5.0
 Bet on Arizona to cover the spread.
-Chi Cubs @ Pittsburgh (MLB): Cover Rating - 2.5, Over Score - 5.0
-Bet on Chi Cubs to cover the spread.
 Washington @ Boston (MLB): Cover Rating - 11.9, Over Score - 5.0
 Bet on Washington to cover the spread.
+Chi Cubs @ Pittsburgh (MLB): Cover Rating - 2.5, Over Score - 5.0
+Bet on Chi Cubs to cover the spread.
 Minnesota @ Toronto (MLB): Cover Rating - 2.9, Over Score - 5.1
 Bet on Minnesota to cover the spread.
 Philadelphia @ Miami (MLB): Cover Rating - 8.5, Over Score - 5.8
@@ -41,8 +41,8 @@ Oakland @ Seattle (MLB): Cover Rating - 7.3, Bet on Oakland to cover the spread.
 Texas @ Colorado (MLB): Cover Rating - 5.1, Bet on Colorado to cover the spread.
 Arizona @ Baltimore (MLB): Cover Rating - 4.3, Bet on Arizona to cover the spread.
 New York @ Indiana (NBA): Cover Rating - 4.2, Bet on New York to cover the spread.
+Denver @ Minnesota (NBA): Cover Rating - 3.7, Bet on Minnesota to cover the spread.
 St. Louis @ Milwaukee (MLB): Cover Rating - 3.3, Bet on St. Louis to cover the spread.
-Denver @ Minnesota (NBA): Cover Rating - 3.2, Bet on Minnesota to cover the spread.
 Kansas City @ LA Angels (MLB): Cover Rating - 3.1, Bet on Kansas City to cover the spread.
 Minnesota @ Toronto (MLB): Cover Rating - 2.9, Bet on Minnesota to cover the spread.
 NY Yankees @ Tampa Bay (MLB): Cover Rating - 2.7, Bet on NY Yankees to cover the spread.
@@ -72,10 +72,10 @@ Oakland @ Seattle (MLB): Over Score - 4.6
 Cleveland @ Chi Sox (MLB): Over Score - 4.4
           date league  cover_rating  ...  total     home_team   away_team
 0   2024-05-12    NBA      4.200000  ...  217.5      New York     Indiana
-1   2024-05-12    NBA      3.233333  ...  204.5        Denver   Minnesota
+1   2024-05-12    NBA      3.680000  ...  204.5        Denver   Minnesota
 2   2024-05-12    MLB      4.266667  ...    8.0       Arizona   Baltimore
-3   2024-05-12    MLB      2.466667  ...    8.5      Chi Cubs  Pittsburgh
-4   2024-05-12    MLB     11.866667  ...    8.0    Washington      Boston
+3   2024-05-12    MLB     11.866667  ...    8.0    Washington      Boston
+4   2024-05-12    MLB      2.466667  ...    8.5      Chi Cubs  Pittsburgh
 5   2024-05-12    MLB      2.866667  ...    8.5     Minnesota     Toronto
 6   2024-05-12    MLB      8.533333  ...    7.0  Philadelphia       Miami
 7   2024-05-12    MLB      0.133333  ...    7.5       Houston     Detroit
