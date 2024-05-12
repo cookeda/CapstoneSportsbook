@@ -1,27 +1,53 @@
 [
     {
-        "MatchupID": "8a2d1e91_5a31e1ff_NBA",
+        "MatchupID": "65ba1118_dc435e0a_NBA",
         "Info Table": {
-            "Away Team": "BOS Celtics",
-            "Away Team Rank Name": "Boston",
-            "Away Abv": "BOS",
-            "Away ID": "8a2d1e91",
-            "Home Team": "CLE Cavaliers",
-            "Home Team Rank Name": "Cleveland",
-            "Home Abv": "CLE",
-            "Home ID": "5a31e1ff",
-            "Start Time": "Round 2, Game 3: Series Tied 1-1",
+            "Away Team": "NY Knicks",
+            "Away Team Rank Name": "New York",
+            "Away Abv": "NYK",
+            "Away ID": "65ba1118",
+            "Home Team": "IND Pacers",
+            "Home Team Rank Name": "Indiana",
+            "Home Abv": "IND",
+            "Home ID": "dc435e0a",
+            "Start Time": "May 12, 2024 · 3:30 PM",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "-15.5 (ESPN)",
-            "Away Spread Odds": "-110 (Bovada)",
-            "Away ML": "−1450 (DK)",
-            "Home Spread": "+15.5 (ESPN)",
-            "Home Spread Odds": "-115 (ESPN)",
-            "Home ML": "+1300 (ESPN)",
-            "Total": "211.5 (DK)",
+            "Away Spread": "+5.5 (ESPN)",
+            "Away Spread Odds": "-105 (ESPN)",
+            "Away ML": "+190 (ESPN)",
+            "Home Spread": "-5.5 (ESPN)",
+            "Home Spread Odds": "-110 (Bovada)",
+            "Home ML": "-220 (Bovada)",
+            "Total": "218.5 (ESPN)",
             "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "59dd0ac4_f5328492_NBA",
+        "Info Table": {
+            "Away Team": "DEN Nuggets",
+            "Away Team Rank Name": "Denver",
+            "Away Abv": "DEN",
+            "Away ID": "59dd0ac4",
+            "Home Team": "MIN Timberwolves",
+            "Home Team Rank Name": "Minnesota",
+            "Home Abv": "MIN",
+            "Home ID": "f5328492",
+            "Start Time": "May 12, 2024 · 8:00 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+3.5 (ESPN)",
+            "Away Spread Odds": "-110 (Bovada)",
+            "Away ML": "+125 (ESPN)",
+            "Home Spread": "-2.5 (Bovada)",
+            "Home Spread Odds": "+100 (ESPN)",
+            "Home ML": "-140 (Bovada)",
+            "Total": "204.5 (ESPN)",
+            "Over Total Odds": "-105 (ESPN)",
             "Under Total Odds": "-110 (Bovada)"
         }
     }

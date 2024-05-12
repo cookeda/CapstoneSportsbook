@@ -1,38 +1,23 @@
-Boston @ Cleveland (NBA): Cover Rating - 1.2, Over Score - 5.7
-Bet on Boston to cover the spread.
-St. Louis @ Milwaukee (MLB): Cover Rating - 6.7, Over Score - 8.8
-Bet on Milwaukee to cover the spread.
-Texas @ Colorado (MLB): Cover Rating - 10.1, Over Score - 6.0
-Bet on Colorado to cover the spread.
-LA Dodgers @ San Diego (MLB): Cover Rating - 0.7, Over Score - 6.0
-Bet on San Diego to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 1.9, Over Score - 5.2
-Bet on LA Angels to cover the spread.
-Oakland @ Unknown (MLB): Cover Rating - 3.0, Over Score - 6.1
-Bet on Oakland to cover the spread.
+New York @ Indiana (NBA): Cover Rating - 4.2, Over Score - 5.8
+Bet on New York to cover the spread.
+Denver @ Minnesota (NBA): Cover Rating - 3.7, Over Score - 5.1
+Bet on Minnesota to cover the spread.
+Unknown @ Unknown (MLB): Cover Rating - 2.0, Over Score - 1.0
+Bet on Unknown to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Texas @ Colorado (MLB): Cover Rating - 10.1, Bet on Colorado to cover the spread.
-St. Louis @ Milwaukee (MLB): Cover Rating - 6.7, Bet on Milwaukee to cover the spread.
-Oakland @ Unknown (MLB): Cover Rating - 3.0, Bet on Oakland to cover the spread.
-Kansas City @ LA Angels (MLB): Cover Rating - 1.9, Bet on LA Angels to cover the spread.
-Boston @ Cleveland (NBA): Cover Rating - 1.2, Bet on Boston to cover the spread.
-LA Dodgers @ San Diego (MLB): Cover Rating - 0.7, Bet on San Diego to cover the spread.
+New York @ Indiana (NBA): Cover Rating - 4.2, Bet on New York to cover the spread.
+Denver @ Minnesota (NBA): Cover Rating - 3.7, Bet on Minnesota to cover the spread.
+Unknown @ Unknown (MLB): Cover Rating - 2.0, Bet on Unknown to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-St. Louis @ Milwaukee (MLB): Over Score - 8.8
-Oakland @ Unknown (MLB): Over Score - 6.1
-LA Dodgers @ San Diego (MLB): Over Score - 6.0
-Texas @ Colorado (MLB): Over Score - 6.0
-Boston @ Cleveland (NBA): Over Score - 5.7
-Kansas City @ LA Angels (MLB): Over Score - 5.2
-         date league  cover_rating  ...  total    home_team  away_team
-0  2024-05-11    NBA      1.232258  ...  211.5       Boston  Cleveland
-1  2024-05-11    MLB      6.666667  ...    8.0    St. Louis  Milwaukee
-2  2024-05-11    MLB     10.066667  ...    6.5        Texas   Colorado
-3  2024-05-11    MLB      0.666667  ...    4.5   LA Dodgers  San Diego
-4  2024-05-11    MLB      1.866667  ...    8.5  Kansas City  LA Angels
-5  2024-05-11    MLB      3.000300  ...    8.5      Oakland    Unknown
+New York @ Indiana (NBA): Over Score - 5.8
+Denver @ Minnesota (NBA): Over Score - 5.1
+Unknown @ Unknown (MLB): Over Score - 1.0
+         date league  cover_rating  ...  total  home_team  away_team
+0  2024-05-11    NBA          4.20  ...  218.5   New York    Indiana
+1  2024-05-11    NBA          3.68  ...  204.5     Denver  Minnesota
+2  2024-05-11    MLB          2.00  ...    7.5    Unknown    Unknown
 
-[6 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
