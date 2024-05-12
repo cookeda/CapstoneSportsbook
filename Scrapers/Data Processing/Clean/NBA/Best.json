@@ -16,7 +16,7 @@
         "Odds Table": {
             "Away Spread": "+5.5 (ESPN)",
             "Away Spread Odds": "-105 (ESPN)",
-            "Away ML": "+185 (ESPN)",
+            "Away ML": "+190 (DK)",
             "Home Spread": "-5.5 (ESPN)",
             "Home Spread Odds": "-110 (Bovada)",
             "Home ML": "-225 (ESPN)",
@@ -26,29 +26,29 @@
         }
     },
     {
-        "MatchupID": "Unknown_Unknown_NBA",
+        "MatchupID": "59dd0ac4_f5328492_NBA",
         "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
-            "Start Time": "-999",
+            "Away Team": "DEN Nuggets",
+            "Away Team Rank Name": "Denver",
+            "Away Abv": "DEN",
+            "Away ID": "59dd0ac4",
+            "Home Team": "MIN Timberwolves",
+            "Home Team Rank Name": "Minnesota",
+            "Home Abv": "MIN",
+            "Home ID": "f5328492",
+            "Start Time": "Today · 8:00 PM",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+5.5 (DK)",
-            "Away Spread Odds": "−110 (DK)",
-            "Away ML": "+190 (DK)",
-            "Home Spread": "-5.5 (DK)",
-            "Home Spread Odds": "−110 (DK)",
-            "Home ML": "−230 (DK)",
-            "Total": "217.5 (DK)",
-            "Over Total Odds": "−110 (DK)",
-            "Under Total Odds": "−110 (DK)"
+            "Away Spread": "+3 (DK)",
+            "Away Spread Odds": "-105 (ESPN)",
+            "Away ML": "+125 (ESPN)",
+            "Home Spread": "-2.5 (ESPN)",
+            "Home Spread Odds": "-110 (Bovada)",
+            "Home ML": "-140 (Bovada)",
+            "Total": "205.5 (ESPN)",
+            "Over Total Odds": "-105 (ESPN)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     }
 ]

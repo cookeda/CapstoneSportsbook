@@ -1,7 +1,7 @@
 [
     [
         {
-            "BetTableId": "DK_Unknown_Unknown_NBA",
+            "BetTableId": "DK_65ba1118_dc435e0a_NBA",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+5.5",
@@ -14,17 +14,47 @@
                 "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
             },
-            "MatchupID": "Unknown_Unknown_NBA",
+            "MatchupID": "65ba1118_dc435e0a_NBA",
             "Info Table": {
-                "Away Team": "-999",
-                "Away Team Rank Name": "Unknown",
-                "Away Abv": "Unknown",
-                "Away ID": "Unknown",
-                "Home Team": "-999",
-                "Home Team Rank Name": "Unknown",
-                "Home Abv": "Unknown",
-                "Home ID": "Unknown",
-                "Start Time": "-999",
+                "Away Team": "NY Knicks",
+                "Away Team Rank Name": "New York",
+                "Away Abv": "NYK",
+                "Away ID": "65ba1118",
+                "Home Team": "IND Pacers",
+                "Home Team Rank Name": "Indiana",
+                "Home Abv": "IND",
+                "Home ID": "dc435e0a",
+                "Start Time": "3:35PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_59dd0ac4_f5328492_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+3",
+                "Away Spread Odds": "−110",
+                "Away ML": "+124",
+                "Home Spread": "-3",
+                "Home Spread Odds": "−110",
+                "Home ML": "−148",
+                "Total": "204.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "59dd0ac4_f5328492_NBA",
+            "Info Table": {
+                "Away Team": "DEN Nuggets",
+                "Away Team Rank Name": "Denver",
+                "Away Abv": "DEN",
+                "Away ID": "59dd0ac4",
+                "Home Team": "MIN Timberwolves",
+                "Home Team Rank Name": "Minnesota",
+                "Home Abv": "MIN",
+                "Home ID": "f5328492",
+                "Start Time": "8:05PM",
                 "League": "NBA"
             }
         }
