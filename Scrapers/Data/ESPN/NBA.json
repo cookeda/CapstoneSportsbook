@@ -1,30 +1,60 @@
 [
     [
         {
-            "BetTableId": "ESPN_59dd0ac4_f5328492_NBA",
+            "BetTableId": "ESPN_8a2d1e91_5a31e1ff_NBA",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "-9.5",
+                "Away Spread": "-8.5",
                 "Away Spread Odds": "-110",
-                "Away ML": "-2000",
-                "Home Spread": "+9.5",
-                "Home Spread Odds": "-120",
-                "Home ML": "+900",
-                "Total": "220.5",
-                "Over Total Odds": "-115",
+                "Away ML": "-340",
+                "Home Spread": "+8.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "+270",
+                "Total": "206.5",
+                "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
             },
-            "MatchupID": "59dd0ac4_f5328492_NBA",
+            "MatchupID": "8a2d1e91_5a31e1ff_NBA",
             "Info Table": {
-                "Away Team": "DEN Nuggets",
-                "Away Team Rank Name": "Denver",
-                "Away Abv": "DEN",
-                "Away ID": "59dd0ac4",
-                "Home Team": "MIN Timberwolves",
-                "Home Team Rank Name": "Minnesota",
-                "Home Abv": "MIN",
-                "Home ID": "f5328492",
-                "Start Time": "Round 2, Game 4: MIN Leads 2-1",
+                "Away Team": "BOS Celtics",
+                "Away Team Rank Name": "Boston",
+                "Away Abv": "BOS",
+                "Away ID": "8a2d1e91",
+                "Home Team": "CLE Cavaliers",
+                "Home Team Rank Name": "Cleveland",
+                "Home Abv": "CLE",
+                "Home ID": "5a31e1ff",
+                "Start Time": "May 13, 2024 \u00b7 7:00 PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_88f1c3e9_48eb7bb_NBA",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-115",
+                "Away ML": "+100",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "-105",
+                "Home ML": "-120",
+                "Total": "213.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
+            },
+            "MatchupID": "88f1c3e9_48eb7bb_NBA",
+            "Info Table": {
+                "Away Team": "OKC Thunder",
+                "Away Team Rank Name": "Okla City",
+                "Away Abv": "OKC",
+                "Away ID": "88f1c3e9",
+                "Home Team": "DAL Mavericks",
+                "Home Team Rank Name": "Dallas",
+                "Home Abv": "DAL",
+                "Home ID": "48eb7bb",
+                "Start Time": "May 13, 2024 \u00b7 9:30 PM",
                 "League": "NBA"
             }
         }
