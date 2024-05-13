@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "fdd0d44c_486a5e3b_MLB",
-        "Info Table": {
-            "Away Team": "CIN Reds",
-            "Away Team Rank Name": "Cincinnati",
-            "Away Abv": "CIN",
-            "Away ID": "fdd0d44c",
-            "Home Team": "SF Giants",
-            "Home Team Rank Name": "SF Giants",
-            "Home Abv": "SF",
-            "Home ID": "486a5e3b",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+340 (Bovada)",
-            "Away ML": "+140 (ESPN)",
-            "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+130 (DK)",
-            "Home ML": "+105 (DK)",
-            "Total": "99 (ESPN)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "-125 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "354ef58_c625b23e_MLB",
         "Info Table": {
             "Away Team": "ATL Braves",
@@ -36,19 +10,19 @@
             "Home Team Rank Name": "NY Mets",
             "Home Abv": "NYM",
             "Home ID": "c625b23e",
-            "Start Time": "Today · 7:10 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+150 (ESPN)",
-            "Away ML": "-106 (Bovada)",
+            "Away Spread": "-1.5 (ESPN)",
+            "Away Spread Odds": "+160 (ESPN)",
+            "Away ML": "-110 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+190 (Bovada)",
-            "Home ML": "-105 (ESPN)",
-            "Total": "8.5 (ESPN)",
-            "Over Total Odds": "+110 (ESPN)",
-            "Under Total Odds": "−108 (DK)"
+            "Home Spread Odds": "−145 (DK)",
+            "Home ML": "+140 (Bovada)",
+            "Total": "7.0 (Bovada)",
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "+160 (ESPN)"
         }
     }
 ]
