@@ -1,7 +1,7 @@
 {"Team": "Atlanta", "Cover %": "34.2%"} -5.9
 {"Team": "Atlanta", "Cover %": "34.2%"} -5.9
-{"Team": "Boston", "Cover %": "53.7%"} 8.0
-{"Team": "Boston", "Cover %": "53.7%"} 8.0
+{"Team": "Boston", "Cover %": "52.4%"} 8.0
+{"Team": "Boston", "Cover %": "52.4%"} 8.0
 {"Team": "Brooklyn", "Cover %": "35.0%"} -7.0
 {"Team": "Brooklyn", "Cover %": "35.0%"} -7.0
 {"Team": "Charlotte", "Cover %": "36.6%"} -12.4
@@ -38,8 +38,8 @@
 {"Team": "New Orleans", "Cover %": "59.5%"} 5.4
 {"Team": "New York", "Cover %": "56.8%"} 2.0
 {"Team": "New York", "Cover %": "56.8%"} 2.0
-{"Team": "Okla City", "Cover %": "48.8%"} 2.3
-{"Team": "Okla City", "Cover %": "48.8%"} 2.3
+{"Team": "Okla City", "Cover %": "50.0%"} 2.4
+{"Team": "Okla City", "Cover %": "50.0%"} 2.4
 {"Team": "Orlando", "Cover %": "53.3%"} -4.0
 {"Team": "Orlando", "Cover %": "53.3%"} -4.0
 {"Team": "Philadelphia", "Cover %": "59.1%"} 1.0
