@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "ESPN_8a2d1e91_5a31e1ff_NBA",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-12.5",
-                "Away Spread Odds": "-120",
-                "Away ML": "-999",
-                "Home Spread": "+12.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-999",
-                "Total": "215.5",
-                "Over Total Odds": "-130",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "8a2d1e91_5a31e1ff_NBA",
-            "Info Table": {
-                "Away Team": "BOS Celtics",
-                "Away Team Rank Name": "Boston",
-                "Away Abv": "BOS",
-                "Away ID": "8a2d1e91",
-                "Home Team": "CLE Cavaliers",
-                "Home Team Rank Name": "Cleveland",
-                "Home Abv": "CLE",
-                "Home ID": "5a31e1ff",
-                "Start Time": "Round 2, Game 4: BOS Leads 2-1",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "ESPN_88f1c3e9_48eb7bb_NBA",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+100",
-                "Home Spread": "-1.5",
+                "Away Spread": "+6.5",
+                "Away Spread Odds": "-120",
+                "Away ML": "+190",
+                "Home Spread": "-6.5",
                 "Home Spread Odds": "-110",
-                "Home ML": "-120",
-                "Total": "215.5",
+                "Home ML": "-250",
+                "Total": "212.5",
                 "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Under Total Odds": "-120"
             },
             "MatchupID": "88f1c3e9_48eb7bb_NBA",
             "Info Table": {
@@ -54,7 +24,7 @@
                 "Home Team Rank Name": "Dallas",
                 "Home Abv": "DAL",
                 "Home ID": "48eb7bb",
-                "Start Time": "Today \u00b7 9:30 PM",
+                "Start Time": "Round 2, Game 4: DAL Leads 2-1",
                 "League": "NBA"
             }
         }
