@@ -4,15 +4,15 @@
             "BetTableId": "DK_ccadb94e_fe8acdeb_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+3.5",
-                "Away Spread Odds": "−150",
-                "Away ML": "+650",
-                "Home Spread": "-3.5",
-                "Home Spread Odds": "+120",
-                "Home ML": "−1150",
-                "Total": "7.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
+                "Away Spread": "-3.5",
+                "Away Spread Odds": "−210",
+                "Away ML": "−8500",
+                "Home Spread": "+3.5",
+                "Home Spread Odds": "+160",
+                "Home ML": "+2000",
+                "Total": "12.5",
+                "Over Total Odds": "−175",
+                "Under Total Odds": "+135"
             },
             "MatchupID": "ccadb94e_fe8acdeb_MLB",
             "Info Table": {
@@ -34,15 +34,15 @@
             "BetTableId": "DK_8f2512bc_3f4235d4_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-3.5",
-                "Away Spread Odds": "+100",
-                "Away ML": "−810",
-                "Home Spread": "+3.5",
-                "Home Spread Odds": "+124",
-                "Home ML": "+500",
-                "Total": "9.5",
-                "Over Total Odds": "−125",
-                "Under Total Odds": "−105"
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+420",
+                "Away ML": "−195",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "+160",
+                "Home ML": "+150",
+                "Total": "10.5",
+                "Over Total Odds": "−130",
+                "Under Total Odds": "+100"
             },
             "MatchupID": "8f2512bc_3f4235d4_MLB",
             "Info Table": {
@@ -61,48 +61,18 @@
     ],
     [
         {
-            "BetTableId": "DK_db2ee960_300faa7b_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+4.5",
-                "Away Spread Odds": "−166",
-                "Away ML": "+1600",
-                "Home Spread": "-4.5",
-                "Home Spread Odds": "+124",
-                "Home ML": "−4800",
-                "Total": "6.5",
-                "Over Total Odds": "−135",
-                "Under Total Odds": "+105"
-            },
-            "MatchupID": "db2ee960_300faa7b_MLB",
-            "Info Table": {
-                "Away Team": "KC Royals",
-                "Away Team Rank Name": "Kansas City",
-                "Away Abv": "KC",
-                "Away ID": "db2ee960",
-                "Home Team": "SEA Mariners",
-                "Home Team Rank Name": "Seattle",
-                "Home Abv": "SEA",
-                "Home ID": "300faa7b",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_fdd0d44c_2b1ac347_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−115",
-                "Away ML": "+230",
+                "Away Spread Odds": "−410",
+                "Away ML": "+124",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+124",
-                "Home ML": "−315",
-                "Total": "10.5",
-                "Over Total Odds": "−130",
-                "Under Total Odds": "+100"
+                "Home Spread Odds": "+160",
+                "Home ML": "−160",
+                "Total": "8.5",
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−115"
             },
             "MatchupID": "fdd0d44c_2b1ac347_MLB",
             "Info Table": {
@@ -121,18 +91,48 @@
     ],
     [
         {
-            "BetTableId": "DK_4e2f3aa1_486a5e3b_MLB",
+            "BetTableId": "DK_db2ee960_300faa7b_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−145",
-                "Away ML": "+180",
+                "Away Spread Odds": "+450",
+                "Away ML": "+2000",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+124",
-                "Home ML": "−238",
-                "Total": "8.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−125"
+                "Home Spread Odds": "+160",
+                "Home ML": "−8500",
+                "Total": "6.5",
+                "Over Total Odds": "+190",
+                "Under Total Odds": "−250"
+            },
+            "MatchupID": "db2ee960_300faa7b_MLB",
+            "Info Table": {
+                "Away Team": "KC Royals",
+                "Away Team Rank Name": "Kansas City",
+                "Away Abv": "KC",
+                "Away ID": "db2ee960",
+                "Home Team": "SEA Mariners",
+                "Home Team Rank Name": "Seattle",
+                "Home Abv": "SEA",
+                "Home ID": "300faa7b",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_4e2f3aa1_486a5e3b_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+250",
+                "Away ML": "−115",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "+195",
+                "Home ML": "−115",
+                "Total": "9.5",
+                "Over Total Odds": "−135",
+                "Under Total Odds": "+105"
             },
             "MatchupID": "4e2f3aa1_486a5e3b_MLB",
             "Info Table": {
