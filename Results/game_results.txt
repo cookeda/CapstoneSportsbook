@@ -1,5 +1,7 @@
-Minnesota @ Denver (NBA): Cover Rating - 9.8, Over Score - 5.4
-Bet on Minnesota to cover the spread.
+Cleveland @ Boston (NBA): Cover Rating - 2.0, Over Score - 5.4
+Bet on Boston to cover the spread.
+Dallas @ Okla City (NBA): Cover Rating - 2.0, Over Score - 5.4
+Bet on Dallas to cover the spread.
 Miami @ Detroit (MLB): Cover Rating - 10.9, Over Score - 5.7
 Bet on Miami to cover the spread.
 Pittsburgh @ Milwaukee (MLB): Cover Rating - 10.5, Over Score - 5.1
@@ -33,10 +35,11 @@ Miami @ Detroit (MLB): Cover Rating - 10.9, Bet on Miami to cover the spread.
 Kansas City @ Seattle (MLB): Cover Rating - 10.8, Bet on Kansas City to cover the spread.
 NY Mets @ Philadelphia (MLB): Cover Rating - 10.7, Bet on NY Mets to cover the spread.
 Pittsburgh @ Milwaukee (MLB): Cover Rating - 10.5, Bet on Pittsburgh to cover the spread.
-Minnesota @ Denver (NBA): Cover Rating - 9.8, Bet on Minnesota to cover the spread.
 Tampa Bay @ Boston (MLB): Cover Rating - 9.7, Bet on Tampa Bay to cover the spread.
 Oakland @ Houston (MLB): Cover Rating - 7.5, Bet on Oakland to cover the spread.
 Colorado @ San Diego (MLB): Cover Rating - 7.3, Bet on Colorado to cover the spread.
+Cleveland @ Boston (NBA): Cover Rating - 2.0, Bet on Boston to cover the spread.
+Dallas @ Okla City (NBA): Cover Rating - 2.0, Bet on Dallas to cover the spread.
 NY Yankees @ Minnesota (MLB): Cover Rating - 1.7, Bet on NY Yankees to cover the spread.
 St. Louis @ LA Angels (MLB): Cover Rating - 1.6, Bet on St. Louis to cover the spread.
 
@@ -45,8 +48,9 @@ NY Mets @ Philadelphia (MLB): Over Score - 6.0
 Miami @ Detroit (MLB): Over Score - 5.7
 St. Louis @ LA Angels (MLB): Over Score - 5.5
 Cincinnati @ Arizona (MLB): Over Score - 5.5
+Dallas @ Okla City (NBA): Over Score - 5.4
+Cleveland @ Boston (NBA): Over Score - 5.4
 NY Yankees @ Minnesota (MLB): Over Score - 5.4
-Minnesota @ Denver (NBA): Over Score - 5.4
 Oakland @ Houston (MLB): Over Score - 5.3
 Pittsburgh @ Milwaukee (MLB): Over Score - 5.1
 Washington @ Chi Sox (MLB): Over Score - 4.9
@@ -55,19 +59,20 @@ Colorado @ San Diego (MLB): Over Score - 4.7
 Kansas City @ Seattle (MLB): Over Score - 4.6
 Cleveland @ Texas (MLB): Over Score - 3.7
           date league  cover_rating  ...  total    home_team     away_team
-0   2024-05-15    NBA      9.806897  ...  212.5    Minnesota        Denver
-1   2024-05-15    MLB     10.866667  ...    8.0        Miami       Detroit
-2   2024-05-15    MLB     10.466667  ...    8.5   Pittsburgh     Milwaukee
-3   2024-05-15    MLB     11.133333  ...    7.5   Washington       Chi Sox
-4   2024-05-15    MLB     11.000000  ...    8.5   Cincinnati       Arizona
-5   2024-05-15    MLB      7.266667  ...    7.5     Colorado     San Diego
-6   2024-05-15    MLB     10.800000  ...    7.5  Kansas City       Seattle
-7   2024-05-15    MLB     10.733333  ...    7.5      NY Mets  Philadelphia
-8   2024-05-15    MLB      9.666667  ...    8.0    Tampa Bay        Boston
-9   2024-05-15    MLB      1.666667  ...    8.0   NY Yankees     Minnesota
-10  2024-05-15    MLB     11.533333  ...    8.5    Cleveland         Texas
-11  2024-05-15    MLB      7.533333  ...    8.0      Oakland       Houston
-12  2024-05-15    MLB      1.600000  ...    8.5    St. Louis     LA Angels
+0   2024-05-15    NBA      2.048276  ...  204.0    Cleveland        Boston
+1   2024-05-15    NBA      2.025000  ...  213.0       Dallas     Okla City
+2   2024-05-15    MLB     10.866667  ...    8.0        Miami       Detroit
+3   2024-05-15    MLB     10.466667  ...    8.0   Pittsburgh     Milwaukee
+4   2024-05-15    MLB     11.133333  ...    7.5   Washington       Chi Sox
+5   2024-05-15    MLB     11.000000  ...    8.5   Cincinnati       Arizona
+6   2024-05-15    MLB      7.266667  ...    7.5     Colorado     San Diego
+7   2024-05-15    MLB     10.800000  ...    7.5  Kansas City       Seattle
+8   2024-05-15    MLB     10.733333  ...    7.5      NY Mets  Philadelphia
+9   2024-05-15    MLB      9.666667  ...    8.0    Tampa Bay        Boston
+10  2024-05-15    MLB      1.666667  ...    8.0   NY Yankees     Minnesota
+11  2024-05-15    MLB     11.533333  ...    8.5    Cleveland         Texas
+12  2024-05-15    MLB      7.533333  ...    8.0      Oakland       Houston
+13  2024-05-15    MLB      1.600000  ...    8.5    St. Louis     LA Angels
 
-[13 rows x 10 columns]
+[14 rows x 10 columns]
 Avoided Overriding DailyPredictions
