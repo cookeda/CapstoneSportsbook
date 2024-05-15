@@ -1,7 +1,7 @@
 [
     [
         {
-            "BetTableId": "DK_Unknown_Unknown_NBA",
+            "BetTableId": "DK_5a31e1ff_8a2d1e91_NBA",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+16",
@@ -14,17 +14,47 @@
                 "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
             },
-            "MatchupID": "Unknown_Unknown_NBA",
+            "MatchupID": "5a31e1ff_8a2d1e91_NBA",
             "Info Table": {
-                "Away Team": "-999",
-                "Away Team Rank Name": "Unknown",
-                "Away Abv": "Unknown",
-                "Away ID": "Unknown",
-                "Home Team": "-999",
-                "Home Team Rank Name": "Unknown",
-                "Home Abv": "Unknown",
-                "Home ID": "Unknown",
-                "Start Time": "-999",
+                "Away Team": "CLE Cavaliers",
+                "Away Team Rank Name": "Cleveland",
+                "Away Abv": "CLE",
+                "Away ID": "5a31e1ff",
+                "Home Team": "BOS Celtics",
+                "Home Team Rank Name": "Boston",
+                "Home Abv": "BOS",
+                "Home ID": "8a2d1e91",
+                "Start Time": "7:05PM",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_48eb7bb_88f1c3e9_NBA",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+4",
+                "Away Spread Odds": "−110",
+                "Away ML": "+145",
+                "Home Spread": "-4",
+                "Home Spread Odds": "−110",
+                "Home ML": "−175",
+                "Total": "213",
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
+            },
+            "MatchupID": "48eb7bb_88f1c3e9_NBA",
+            "Info Table": {
+                "Away Team": "DAL Mavericks",
+                "Away Team Rank Name": "Dallas",
+                "Away Abv": "DAL",
+                "Away ID": "48eb7bb",
+                "Home Team": "OKC Thunder",
+                "Home Team Rank Name": "Okla City",
+                "Home Abv": "OKC",
+                "Home ID": "88f1c3e9",
+                "Start Time": "9:35PM",
                 "League": "NBA"
             }
         }
