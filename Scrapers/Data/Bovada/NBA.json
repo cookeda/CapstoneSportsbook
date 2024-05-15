@@ -5,12 +5,12 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+15.5",
-                "Away Spread Odds": "-110",
+                "Away Spread Odds": "-115",
                 "Away ML": "+800",
                 "Home Spread": "-15.5",
-                "Home Spread Odds": "-110",
+                "Home Spread Odds": "-105",
                 "Home ML": "-1600",
-                "Total": "205.0",
+                "Total": "205.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
@@ -25,36 +25,6 @@
                 "Home Abv": "BOS",
                 "Home ID": "8a2d1e91",
                 "Start Time": "7:00 PM",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_48eb7bb_88f1c3e9_NBA",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+4.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+160",
-                "Home Spread": "-4.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-185",
-                "Total": "212.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
-            },
-            "MatchupID": "48eb7bb_88f1c3e9_NBA",
-            "Info Table": {
-                "Away Team": "Dallas Mavericks",
-                "Away Team Rank Name": "Dallas",
-                "Away Abv": "DAL",
-                "Away ID": "48eb7bb",
-                "Home Team": "Oklahoma City Thunder",
-                "Home Team Rank Name": "Okla City",
-                "Home Abv": "OKC",
-                "Home ID": "88f1c3e9",
-                "Start Time": "9:30 PM",
                 "League": "NBA"
             }
         }
