@@ -20,8 +20,8 @@
 {"Team": "Golden State", "Over %": "49.4%"} 50.6%
 {"Team": "Houston", "Over %": "48.7%"} 51.3%
 {"Team": "Houston", "Over %": "48.7%"} 51.3%
-{"Team": "Indiana", "Over %": "49.4%"} 50.6%
-{"Team": "Indiana", "Over %": "49.4%"} 50.6%
+{"Team": "Indiana", "Over %": "49.3%"} 50.7%
+{"Team": "Indiana", "Over %": "49.3%"} 50.7%
 {"Team": "LA Clippers", "Over %": "49.6%"} 50.5%
 {"Team": "LA Clippers", "Over %": "49.6%"} 50.5%
 {"Team": "LA Lakers", "Over %": "49.7%"} 50.3%
