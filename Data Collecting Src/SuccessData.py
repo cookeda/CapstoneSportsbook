@@ -37,7 +37,7 @@ def get_total_by_league(league, results_df):
 def get_splits_by_league(league, results_df):
     # For Cover
     rating = 0
-    ceiling = 3
+    ceiling = 1
     while rating < 15:
         # Ensure filtering is based on the filtered_df, not results_df
         filtered_df = results_df[(results_df['league'] == league) & (results_df['cover_rating'] >= rating) & (results_df['cover_rating'] <= ceiling)]
@@ -51,14 +51,14 @@ def get_splits_by_league(league, results_df):
             print("Cover Record For in range: " + str(rating) + " to " + str(ceiling) + ".")
             print(str(true_count) + "-" + str(false_count) + " " +
                   str(percent) + "% \n")
-        rating += 3
-        ceiling += 3
+        rating += 1
+        ceiling += 1
 
     # For Totals
     # For Over
     # 6 is the Split for totals
     rating = 6
-    ceiling = 6.5
+    ceiling = 6.2
     while rating < 10:
         # Ensure filtering is based on the filtered_df, not results_df
         filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] > rating) & (results_df['cover_rating'] <= ceiling)]
@@ -72,13 +72,13 @@ def get_splits_by_league(league, results_df):
             print("Over Record For in range: " + str(rating) + " to " + str(ceiling) + ".")
             print(str(true_count) + "-" + str(false_count) + " " +
                   str(percent) + "% \n")
-        rating += .5
-        ceiling += .5
+        rating += .2
+        ceiling += .2
 
     # For Under
     # 6 is the split for totals
     rating = 6
-    floor = 5.5
+    floor = 5.8
     while rating >= 0:
         # Ensure filtering is based on the filtered_df, not results_df
         filtered_df = results_df[(results_df['league'] == league) & (results_df['over_rating'] <= rating) & (results_df['over_rating'] >= floor)]
@@ -92,8 +92,8 @@ def get_splits_by_league(league, results_df):
             print("Under Record For in range " + str(floor) + " to " + str(rating))
             print(str(true_count) + "-" + str(false_count) + " " +
                   str(percent) + "% \n")
-        rating -= .5
-        floor -= .5
+        rating -= .2
+        floor -= .2
 
 # Gets total DegenBets Record
 def get_overall_record(results_df):
