@@ -8,10 +8,10 @@
 {"Team": "Charlotte", "Over %": "51.2%"} 48.8%
 {"Team": "Chicago", "Over %": "58.5%"} 41.5%
 {"Team": "Chicago", "Over %": "58.5%"} 41.5%
-{"Team": "Cleveland", "Over %": "41.3%"} 58.7%
-{"Team": "Cleveland", "Over %": "41.3%"} 58.7%
-{"Team": "Dallas", "Over %": "48.9%"} 51.1%
-{"Team": "Dallas", "Over %": "48.9%"} 51.1%
+{"Team": "Cleveland", "Over %": "42.6%"} 57.5%
+{"Team": "Cleveland", "Over %": "42.6%"} 57.5%
+{"Team": "Dallas", "Over %": "47.8%"} 52.2%
+{"Team": "Dallas", "Over %": "47.8%"} 52.2%
 {"Team": "Denver", "Over %": "42.2%"} 57.8%
 {"Team": "Denver", "Over %": "42.2%"} 57.8%
 {"Team": "Detroit", "Over %": "54.8%"} 45.2%
