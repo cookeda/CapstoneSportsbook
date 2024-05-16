@@ -1,23 +1,23 @@
-Dallas @ Okla City (NBA): Cover Rating - 0.3, Over Score - 5.4
-Bet on Okla City to cover the spread.
-Unknown @ Unknown (MLB): Cover Rating - 10.0, Over Score - 1.0
-Bet on Unknown to cover the spread.
-Pittsburgh @ Chi Cubs (MLB): Cover Rating - 3.0, Over Score - 8.1
-Bet on Pittsburgh to cover the spread.
+Denver @ Minnesota (NBA): Cover Rating - 4.1, Over Score - 5.2
+Bet on Minnesota to cover the spread.
+St. Louis @ LA Angels (MLB): Cover Rating - 0.2, Over Score - 6.2
+Bet on St. Louis to cover the spread.
+LA Dodgers @ SF Giants (MLB): Cover Rating - 1.0, Over Score - 8.0
+Bet on LA Dodgers to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Unknown @ Unknown (MLB): Cover Rating - 10.0, Bet on Unknown to cover the spread.
-Pittsburgh @ Chi Cubs (MLB): Cover Rating - 3.0, Bet on Pittsburgh to cover the spread.
-Dallas @ Okla City (NBA): Cover Rating - 0.3, Bet on Okla City to cover the spread.
+Denver @ Minnesota (NBA): Cover Rating - 4.1, Bet on Minnesota to cover the spread.
+LA Dodgers @ SF Giants (MLB): Cover Rating - 1.0, Bet on LA Dodgers to cover the spread.
+St. Louis @ LA Angels (MLB): Cover Rating - 0.2, Bet on St. Louis to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Pittsburgh @ Chi Cubs (MLB): Over Score - 8.1
-Dallas @ Okla City (NBA): Over Score - 5.4
-Unknown @ Unknown (MLB): Over Score - 1.0
+LA Dodgers @ SF Giants (MLB): Over Score - 8.0
+St. Louis @ LA Angels (MLB): Over Score - 6.2
+Denver @ Minnesota (NBA): Over Score - 5.2
          date league  cover_rating  ...  total   home_team  away_team
-0  2024-05-15    NBA      0.252632  ...  197.5      Dallas  Okla City
-1  2024-05-15    MLB     10.000000  ...    8.5     Unknown    Unknown
-2  2024-05-15    MLB      2.999399  ...    9.0  Pittsburgh   Chi Cubs
+0  2024-05-16    NBA      4.100000  ...  203.0      Denver  Minnesota
+1  2024-05-16    MLB      0.177778  ...    9.5   St. Louis  LA Angels
+2  2024-05-16    MLB      0.960000  ...    8.5  LA Dodgers  SF Giants
 
 [3 rows x 10 columns]
 Avoided Overriding DailyPredictions
