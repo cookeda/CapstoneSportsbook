@@ -148,5 +148,35 @@
                 "League": "MLB"
             }
         }
+    ],
+    [
+        {
+            "BetTableId": "DK_fdd0d44c_4e2f3aa1_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "+114",
+                "Away ML": "+245",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+170",
+                "Home ML": "−305",
+                "Total": "8",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "fdd0d44c_4e2f3aa1_MLB",
+            "Info Table": {
+                "Away Team": "CIN Reds",
+                "Away Team Rank Name": "Cincinnati",
+                "Away Abv": "CIN",
+                "Away ID": "fdd0d44c",
+                "Home Team": "LA Dodgers",
+                "Home Team Rank Name": "LA Dodgers",
+                "Home Abv": "LAD",
+                "Home ID": "4e2f3aa1",
+                "Start Time": "10:10PM",
+                "League": "MLB"
+            }
+        }
     ]
 ]
