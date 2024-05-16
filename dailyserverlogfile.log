@@ -116,3 +116,16 @@ FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneS
  1 file changed, 9 insertions(+)
 To https://github.com/cookeda/CapstoneSportsbook.git
    e50d317a..1e3c28bf  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 58, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 12, in main
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+[main 7571386c] Automated Server Update
+ 2 files changed, 13 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ee88608a..7571386c  main -> main
