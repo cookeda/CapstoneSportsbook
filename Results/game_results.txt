@@ -1,23 +1,23 @@
 Denver @ Minnesota (NBA): Cover Rating - 4.1, Over Score - 5.2
 Bet on Minnesota to cover the spread.
-NY Yankees @ Minnesota (MLB): Cover Rating - 3.2, Over Score - 5.2
-Bet on Minnesota to cover the spread.
-NY Mets @ Philadelphia (MLB): Cover Rating - 5.7, Over Score - 6.0
+NY Yankees @ Minnesota (MLB): Cover Rating - 10.8, Over Score - 5.2
+Bet on NY Yankees to cover the spread.
+NY Mets @ Philadelphia (MLB): Cover Rating - 10.7, Over Score - 6.0
 Bet on NY Mets to cover the spread.
-Tampa Bay @ Boston (MLB): Cover Rating - 4.3, Over Score - 4.8
-Bet on Boston to cover the spread.
-Pittsburgh @ Chi Cubs (MLB): Cover Rating - 3.0, Over Score - 8.1
+Tampa Bay @ Boston (MLB): Cover Rating - 0.7, Over Score - 4.8
+Bet on Tampa Bay to cover the spread.
+Pittsburgh @ Chi Cubs (MLB): Cover Rating - 8.0, Over Score - 8.1
 Bet on Pittsburgh to cover the spread.
-Oakland @ Houston (MLB): Cover Rating - 2.5, Over Score - 5.1
+Oakland @ Houston (MLB): Cover Rating - 7.5, Over Score - 5.1
 Bet on Oakland to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-NY Mets @ Philadelphia (MLB): Cover Rating - 5.7, Bet on NY Mets to cover the spread.
-Tampa Bay @ Boston (MLB): Cover Rating - 4.3, Bet on Boston to cover the spread.
+NY Yankees @ Minnesota (MLB): Cover Rating - 10.8, Bet on NY Yankees to cover the spread.
+NY Mets @ Philadelphia (MLB): Cover Rating - 10.7, Bet on NY Mets to cover the spread.
+Pittsburgh @ Chi Cubs (MLB): Cover Rating - 8.0, Bet on Pittsburgh to cover the spread.
+Oakland @ Houston (MLB): Cover Rating - 7.5, Bet on Oakland to cover the spread.
 Denver @ Minnesota (NBA): Cover Rating - 4.1, Bet on Minnesota to cover the spread.
-NY Yankees @ Minnesota (MLB): Cover Rating - 3.2, Bet on Minnesota to cover the spread.
-Pittsburgh @ Chi Cubs (MLB): Cover Rating - 3.0, Bet on Pittsburgh to cover the spread.
-Oakland @ Houston (MLB): Cover Rating - 2.5, Bet on Oakland to cover the spread.
+Tampa Bay @ Boston (MLB): Cover Rating - 0.7, Bet on Tampa Bay to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Pittsburgh @ Chi Cubs (MLB): Over Score - 8.1
@@ -28,11 +28,11 @@ Oakland @ Houston (MLB): Over Score - 5.1
 Tampa Bay @ Boston (MLB): Over Score - 4.8
          date league  cover_rating  ...  total   home_team     away_team
 0  2024-05-16    NBA      4.100000  ...  203.5      Denver     Minnesota
-1  2024-05-16    MLB      3.200000  ...    8.0  NY Yankees     Minnesota
-2  2024-05-16    MLB      5.733333  ...    8.0     NY Mets  Philadelphia
-3  2024-05-16    MLB      4.266667  ...    8.0   Tampa Bay        Boston
-4  2024-05-16    MLB      2.999399  ...    9.0  Pittsburgh      Chi Cubs
-5  2024-05-16    MLB      2.533333  ...    8.5     Oakland       Houston
+1  2024-05-16    MLB     10.800000  ...    8.0  NY Yankees     Minnesota
+2  2024-05-16    MLB     10.733333  ...    8.0     NY Mets  Philadelphia
+3  2024-05-16    MLB      0.733333  ...    8.0   Tampa Bay        Boston
+4  2024-05-16    MLB      7.999399  ...    9.0  Pittsburgh      Chi Cubs
+5  2024-05-16    MLB      7.533333  ...    8.5     Oakland       Houston
 
 [6 rows x 10 columns]
 Avoided Overriding DailyPredictions
