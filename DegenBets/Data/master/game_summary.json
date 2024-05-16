@@ -1,44 +1,23 @@
 {
     "48eb7bb_88f1c3e9_NBA": {
-        "team_to_cover": "Dallas",
-        "cover_rating": 1.6,
+        "team_to_cover": "Okla City",
+        "cover_rating": 0.3,
         "over_score": 5.4,
-        "cover_grade": 2,
-        "total_rating": -2
-    },
-    "6424b504_f5328492_MLB": {
-        "team_to_cover": "NY Yankees",
-        "cover_rating": 1.3,
-        "over_score": 5.2,
         "cover_grade": 1,
-        "total_rating": -1
-    },
-    "5a31e1ff_e841daaf_MLB": {
-        "team_to_cover": "Cleveland",
-        "cover_rating": 3.7,
-        "over_score": 5.4,
-        "cover_grade": 2,
         "total_rating": -2
     },
-    "8b214a89_4005c299_MLB": {
-        "team_to_cover": "Oakland",
-        "cover_rating": 8.2,
-        "over_score": 5.1,
+    "629b9e5b_629b9e5b_MLB": {
+        "team_to_cover": "Unknown",
+        "cover_rating": 10.0,
+        "over_score": 1.0,
         "cover_grade": 0,
         "total_rating": -1
     },
-    "ccadb94e_fe8acdeb_MLB": {
-        "team_to_cover": "St. Louis",
-        "cover_rating": 8.2,
-        "over_score": 6.2,
-        "cover_grade": 0,
+    "9666114b_d10f1db8_MLB": {
+        "team_to_cover": "Pittsburgh",
+        "cover_rating": 3.0,
+        "over_score": 8.1,
+        "cover_grade": 2,
         "total_rating": 0
-    },
-    "4e2f3aa1_486a5e3b_MLB": {
-        "team_to_cover": "LA Dodgers",
-        "cover_rating": 0.6,
-        "over_score": 5.5,
-        "cover_grade": 1,
-        "total_rating": -3
     }
 }
