@@ -14,14 +14,14 @@
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+11.0 (Bovada)",
+            "Away Spread": "+7.5 (ESPN)",
             "Away Spread Odds": "-110 (ESPN)",
             "Away ML": "+600 (ESPN)",
-            "Home Spread": "+11.0 (Bovada)",
-            "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "−850 (DK)",
-            "Total": "210.5 (DK)",
-            "Over Total Odds": "−110 (DK)",
+            "Home Spread": "-7.5 (ESPN)",
+            "Home Spread Odds": "−110 (DK)",
+            "Home ML": "−920 (DK)",
+            "Total": "213.5 (ESPN)",
+            "Over Total Odds": "−115 (DK)",
             "Under Total Odds": "-110 (ESPN)"
         }
     },
@@ -45,10 +45,36 @@
             "Away ML": "+160 (ESPN)",
             "Home Spread": "-4.5 (ESPN)",
             "Home Spread Odds": "−110 (DK)",
-            "Home ML": "-185 (Bovada)",
-            "Total": "212.5 (ESPN)",
-            "Over Total Odds": "-105 (ESPN)",
-            "Under Total Odds": "−110 (DK)"
+            "Home ML": "-180 (Bovada)",
+            "Total": "213.0 (Bovada)",
+            "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_8a2d1e91_NBA",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "Boston Celtics",
+            "Home Team Rank Name": "Boston",
+            "Home Abv": "BOS",
+            "Home ID": "8a2d1e91",
+            "Start Time": "4Q",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+7.5 (Bovada)",
+            "Away Spread Odds": "-115 (Bovada)",
+            "Away ML": "+650 (Bovada)",
+            "Home Spread": "+7.5 (Bovada)",
+            "Home Spread Odds": "-115 (Bovada)",
+            "Home ML": "-1200 (Bovada)",
+            "Total": "214.0 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     }
 ]
