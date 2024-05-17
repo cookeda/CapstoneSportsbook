@@ -91,6 +91,36 @@
     ],
     [
         {
+            "BetTableId": "ESPN_16f4bf06_8714ddbe_MLB",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "+150",
+                "Home Spread": "-999",
+                "Home Spread Odds": "-999",
+                "Home ML": "-175",
+                "Total": "99",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
+            },
+            "MatchupID": "16f4bf06_8714ddbe_MLB",
+            "Info Table": {
+                "Away Team": "TB Rays",
+                "Away Team Rank Name": "Tampa Bay",
+                "Away Abv": "TB",
+                "Away ID": "16f4bf06",
+                "Home Team": "TOR Blue Jays",
+                "Home Team Rank Name": "Toronto",
+                "Home Abv": "TOR",
+                "Home ID": "8714ddbe",
+                "Start Time": "Today \u00b7 7:07 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "ESPN_c625b23e_8d47be6d_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
@@ -221,8 +251,8 @@
                 "Home Spread Odds": "-180",
                 "Home ML": "-105",
                 "Total": "8.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Over Total Odds": "+100",
+                "Under Total Odds": "-120"
             },
             "MatchupID": "c5227021_4005c299_MLB",
             "Info Table": {
@@ -325,36 +355,6 @@
                 "Home Abv": "LAD",
                 "Home ID": "4e2f3aa1",
                 "Start Time": "Today \u00b7 10:10 PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_8f2512bc_486a5e3b_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-150",
-                "Away ML": "+145",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+130",
-                "Home ML": "-170",
-                "Total": "7.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
-            },
-            "MatchupID": "8f2512bc_486a5e3b_MLB",
-            "Info Table": {
-                "Away Team": "COL Rockies",
-                "Away Team Rank Name": "Colorado",
-                "Away Abv": "COL",
-                "Away ID": "8f2512bc",
-                "Home Team": "SF Giants",
-                "Home Team Rank Name": "SF Giants",
-                "Home Abv": "SF",
-                "Home ID": "486a5e3b",
-                "Start Time": "Today \u00b7 10:15 PM",
                 "League": "MLB"
             }
         }

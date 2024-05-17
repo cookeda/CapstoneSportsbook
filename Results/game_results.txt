@@ -6,7 +6,7 @@ Washington @ Philadelphia (MLB): Cover Rating - 0.5, Over Score - 5.5
 Bet on Washington to cover the spread.
 Chi Sox @ NY Yankees (MLB): Cover Rating - 6.7, Over Score - 5.1
 Bet on NY Yankees to cover the spread.
-Minnesota @ Cleveland (MLB): Cover Rating - 9.3, Over Score - 4.9
+Minnesota @ Cleveland (MLB): Cover Rating - 9.3, Over Score - 5.9
 Bet on Cleveland to cover the spread.
 NY Mets @ Miami (MLB): Cover Rating - 1.4, Over Score - 6.5
 Bet on Miami to cover the spread.
@@ -20,7 +20,7 @@ Boston @ St. Louis (MLB): Cover Rating - 0.9, Over Score - 4.6
 Bet on St. Louis to cover the spread.
 Detroit @ Arizona (MLB): Cover Rating - 2.4, Over Score - 5.4
 Bet on Arizona to cover the spread.
-Cincinnati @ LA Dodgers (MLB): Cover Rating - 2.4, Over Score - 4.8
+Cincinnati @ LA Dodgers (MLB): Cover Rating - 2.4, Over Score - 5.8
 Bet on Cincinnati to cover the spread.
 Colorado @ SF Giants (MLB): Cover Rating - 5.8, Over Score - 5.3
 Bet on Colorado to cover the spread.
@@ -43,6 +43,8 @@ Washington @ Philadelphia (MLB): Cover Rating - 0.5, Bet on Washington to cover 
 Ranked Games by Over Score Across All Leagues:
 Pittsburgh @ Chi Cubs (MLB): Over Score - 8.2
 NY Mets @ Miami (MLB): Over Score - 6.5
+Minnesota @ Cleveland (MLB): Over Score - 5.9
+Cincinnati @ LA Dodgers (MLB): Over Score - 5.8
 New York @ Indiana (NBA): Over Score - 5.8
 Washington @ Philadelphia (MLB): Over Score - 5.5
 Detroit @ Arizona (MLB): Over Score - 5.4
@@ -50,9 +52,7 @@ Milwaukee @ Houston (MLB): Over Score - 5.3
 Colorado @ SF Giants (MLB): Over Score - 5.3
 Chi Sox @ NY Yankees (MLB): Over Score - 5.1
 LA Angels @ Texas (MLB): Over Score - 4.9
-Minnesota @ Cleveland (MLB): Over Score - 4.9
 San Diego @ Atlanta (MLB): Over Score - 4.9
-Cincinnati @ LA Dodgers (MLB): Over Score - 4.8
 Boston @ St. Louis (MLB): Over Score - 4.6
           date league  cover_rating  ...  total   home_team     away_team
 0   2024-05-17    NBA      4.050000  ...  215.5    New York       Indiana
@@ -63,7 +63,7 @@ Boston @ St. Louis (MLB): Over Score - 4.6
 5   2024-05-17    MLB      1.400000  ...    7.5     NY Mets         Miami
 6   2024-05-17    MLB      3.533333  ...    8.0   San Diego       Atlanta
 7   2024-05-17    MLB      6.066667  ...    9.0   LA Angels         Texas
-8   2024-05-17    MLB      2.333333  ...    8.0   Milwaukee       Houston
+8   2024-05-17    MLB      2.333333  ...    8.5   Milwaukee       Houston
 9   2024-05-17    MLB      0.866667  ...    8.0      Boston     St. Louis
 10  2024-05-17    MLB      2.400000  ...    7.5     Detroit       Arizona
 11  2024-05-17    MLB      2.400000  ...    9.0  Cincinnati    LA Dodgers
