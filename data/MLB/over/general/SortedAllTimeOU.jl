@@ -18,7 +18,7 @@
 {"Team": "NY Mets", "Over %": "50.9%"} +0.6
 {"Team": "NY Yankees", "Over %": "48.2%"} +0.4
 {"Team": "Oakland", "Over %": "48.8%"} +0.4
-{"Team": "Philadelphia", "Over %": "50.3%"} +0.5
+{"Team": "Philadelphia", "Over %": "50.4%"} +0.5
 {"Team": "Pittsburgh", "Over %": "49.8%"} +0.5
 {"Team": "SF Giants", "Over %": "48.6%"} +0.4
 {"Team": "San Diego", "Over %": "49.9%"} +0.5
