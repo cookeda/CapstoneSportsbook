@@ -1,23 +1,18 @@
 Okla City @ Dallas (NBA): Cover Rating - 1.3, Over Score - 5.3
 Bet on Dallas to cover the spread.
-Cincinnati @ LA Dodgers (MLB): Cover Rating - 10.8, Over Score - 5.9
-Bet on Cincinnati to cover the spread.
-Colorado @ SF Giants (MLB): Cover Rating - 7.5, Over Score - 5.8
+Colorado @ SF Giants (MLB): Cover Rating - 10.3, Over Score - 5.8
 Bet on Colorado to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Cincinnati @ LA Dodgers (MLB): Cover Rating - 10.8, Bet on Cincinnati to cover the spread.
-Colorado @ SF Giants (MLB): Cover Rating - 7.5, Bet on Colorado to cover the spread.
+Colorado @ SF Giants (MLB): Cover Rating - 10.3, Bet on Colorado to cover the spread.
 Okla City @ Dallas (NBA): Cover Rating - 1.3, Bet on Dallas to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Cincinnati @ LA Dodgers (MLB): Over Score - 5.9
 Colorado @ SF Giants (MLB): Over Score - 5.8
 Okla City @ Dallas (NBA): Over Score - 5.3
-         date league  cover_rating  ...  total   home_team   away_team
-0  2024-05-18    NBA         1.325  ...  209.5   Okla City      Dallas
-1  2024-05-18    MLB        10.800  ...    8.5  Cincinnati  LA Dodgers
-2  2024-05-18    MLB         7.480  ...   13.5    Colorado   SF Giants
+         date league  cover_rating  ...  total  home_team  away_team
+0  2024-05-18    NBA      1.325000  ...  208.5  Okla City     Dallas
+1  2024-05-18    MLB     10.342857  ...   13.5   Colorado  SF Giants
 
-[3 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions
