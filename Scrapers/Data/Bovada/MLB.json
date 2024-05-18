@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "Bovada_ea799920_6424b504_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+5.0",
-                "Away Spread Odds": "+130",
-                "Away ML": "+1600",
-                "Home Spread": "+5.0",
-                "Home Spread Odds": "-170",
-                "Home ML": "-7500",
-                "Total": "8.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-120"
-            },
-            "MatchupID": "ea799920_6424b504_MLB",
-            "Info Table": {
-                "Away Team": "Chicago White Sox",
-                "Away Team Rank Name": "Chi Sox",
-                "Away Abv": "CWS",
-                "Away ID": "ea799920",
-                "Home Team": "New York Yankees",
-                "Home Team Rank Name": "NY Yankees",
-                "Home Abv": "NYY",
-                "Home ID": "6424b504",
-                "Start Time": "LIVE",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_9666114b_d10f1db8_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-205",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+350",
                 "Away ML": "+140",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+155",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "-550",
                 "Home ML": "-185",
-                "Total": "5.0",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "+100"
+                "Total": "1.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "-110"
             },
             "MatchupID": "9666114b_d10f1db8_MLB",
             "Info Table": {
@@ -54,7 +24,7 @@
                 "Home Team Rank Name": "Chi Cubs",
                 "Home Abv": "CHC",
                 "Home ID": "d10f1db8",
-                "Start Time": "Top 1",
+                "Start Time": "Bot 8",
                 "League": "MLB"
             }
         }
@@ -65,14 +35,14 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-180",
-                "Away ML": "+121",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+155",
-                "Home ML": "-144",
-                "Total": "7.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-120"
+                "Away Spread Odds": "-240",
+                "Away ML": "+120",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "+180",
+                "Home ML": "-155",
+                "Total": "4.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "16f4bf06_8714ddbe_MLB",
             "Info Table": {
@@ -84,7 +54,7 @@
                 "Home Team Rank Name": "Toronto",
                 "Home Abv": "TOR",
                 "Home ID": "8714ddbe",
-                "Start Time": "3:07 PM",
+                "Start Time": "Top 4",
                 "League": "MLB"
             }
         }
@@ -100,9 +70,9 @@
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+120",
                 "Home ML": "-174",
-                "Total": "8.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-120"
+                "Total": "8.0",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
             },
             "MatchupID": "8f2512bc_486a5e3b_MLB",
             "Info Table": {
@@ -121,45 +91,15 @@
     ],
     [
         {
-            "BetTableId": "Bovada_300faa7b_e8bdce10_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-200",
-                "Away ML": "+114",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+170",
-                "Home ML": "-136",
-                "Total": "7.0",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
-            },
-            "MatchupID": "300faa7b_e8bdce10_MLB",
-            "Info Table": {
-                "Away Team": "Seattle Mariners",
-                "Away Team Rank Name": "Seattle",
-                "Away Abv": "SEA",
-                "Away ID": "300faa7b",
-                "Home Team": "Baltimore Orioles",
-                "Home Team Rank Name": "Baltimore",
-                "Home Abv": "BAL",
-                "Home ID": "e8bdce10",
-                "Start Time": "4:05 PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_c625b23e_8d47be6d_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+140",
-                "Away ML": "-123",
+                "Away ML": "-125",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-165",
-                "Home ML": "+103",
+                "Home ML": "+105",
                 "Total": "7.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -181,15 +121,45 @@
     ],
     [
         {
+            "BetTableId": "Bovada_300faa7b_e8bdce10_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-195",
+                "Away ML": "+121",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+165",
+                "Home ML": "-144",
+                "Total": "7.0",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
+            },
+            "MatchupID": "300faa7b_e8bdce10_MLB",
+            "Info Table": {
+                "Away Team": "Seattle Mariners",
+                "Away Team Rank Name": "Seattle",
+                "Away Abv": "SEA",
+                "Away ID": "300faa7b",
+                "Home Team": "Baltimore Orioles",
+                "Home Team Rank Name": "Baltimore",
+                "Home Abv": "BAL",
+                "Home ID": "e8bdce10",
+                "Start Time": "4:40 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "Bovada_dd4357ee_fe2ec146_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-150",
-                "Away ML": "+144",
+                "Away Spread Odds": "-145",
+                "Away ML": "+149",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+130",
-                "Home ML": "-175",
+                "Home Spread Odds": "+125",
+                "Home ML": "-181",
                 "Total": "7.0",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
@@ -276,10 +246,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-120",
-                "Away ML": "+162",
+                "Away ML": "+166",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+100",
-                "Home ML": "-197",
+                "Home ML": "-202",
                 "Total": "9.5",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
@@ -335,11 +305,11 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-170",
-                "Away ML": "+116",
+                "Away Spread Odds": "-180",
+                "Away ML": "+109",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+145",
-                "Home ML": "-139",
+                "Home Spread Odds": "+155",
+                "Home ML": "-131",
                 "Total": "8.0",
                 "Over Total Odds": "-120",
                 "Under Total Odds": "+100"
@@ -401,8 +371,8 @@
                 "Home Spread Odds": "+150",
                 "Home ML": "-142",
                 "Total": "7.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             },
             "MatchupID": "18a9d733_2b1ac347_MLB",
             "Info Table": {
