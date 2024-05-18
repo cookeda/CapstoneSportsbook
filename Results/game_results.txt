@@ -1,24 +1,22 @@
 Okla City @ Dallas (NBA): Cover Rating - 1.3, Over Score - 5.3
 Bet on Dallas to cover the spread.
-Colorado @ SF Giants (MLB): Cover Rating - 0.4, Over Score - 6.0
-Bet on Colorado to cover the spread.
-NY Mets @ Miami (MLB): Cover Rating - 3.5, Over Score - 7.2
-Bet on Miami to cover the spread.
-Minnesota @ Cleveland (MLB): Cover Rating - 3.3, Over Score - 4.7
-Bet on Cleveland to cover the spread.
-Washington @ Philadelphia (MLB): Cover Rating - 5.5, Over Score - 5.4
-Bet on Washington to cover the spread.
+NY Mets @ Miami (MLB): Cover Rating - 3.0, Over Score - 9.7
+Bet on NY Mets to cover the spread.
+Minnesota @ Cleveland (MLB): Cover Rating - 0.4, Over Score - 5.7
+Bet on Minnesota to cover the spread.
+Washington @ Philadelphia (MLB): Cover Rating - 3.5, Over Score - 5.9
+Bet on Philadelphia to cover the spread.
 Seattle @ Baltimore (MLB): Cover Rating - 0.9, Over Score - 4.2
 Bet on Baltimore to cover the spread.
 Oakland @ Kansas City (MLB): Cover Rating - 5.3, Over Score - 4.9
 Bet on Kansas City to cover the spread.
 Milwaukee @ Houston (MLB): Cover Rating - 6.3, Over Score - 5.5
 Bet on Milwaukee to cover the spread.
-San Diego @ Atlanta (MLB): Cover Rating - 2.3, Over Score - 4.8
+San Diego @ Atlanta (MLB): Cover Rating - 2.3, Over Score - 3.8
 Bet on Atlanta to cover the spread.
 Boston @ St. Louis (MLB): Cover Rating - 1.3, Over Score - 4.8
 Bet on St. Louis to cover the spread.
-LA Angels @ Texas (MLB): Cover Rating - 6.5, Over Score - 4.1
+LA Angels @ Texas (MLB): Cover Rating - 6.5, Over Score - 5.1
 Bet on LA Angels to cover the spread.
 Detroit @ Arizona (MLB): Cover Rating - 7.3, Over Score - 5.5
 Bet on Detroit to cover the spread.
@@ -29,45 +27,42 @@ Ranked Cover Recommendations Across All Leagues:
 Detroit @ Arizona (MLB): Cover Rating - 7.3, Bet on Detroit to cover the spread.
 LA Angels @ Texas (MLB): Cover Rating - 6.5, Bet on LA Angels to cover the spread.
 Milwaukee @ Houston (MLB): Cover Rating - 6.3, Bet on Milwaukee to cover the spread.
-Washington @ Philadelphia (MLB): Cover Rating - 5.5, Bet on Washington to cover the spread.
 Oakland @ Kansas City (MLB): Cover Rating - 5.3, Bet on Kansas City to cover the spread.
-NY Mets @ Miami (MLB): Cover Rating - 3.5, Bet on Miami to cover the spread.
-Minnesota @ Cleveland (MLB): Cover Rating - 3.3, Bet on Cleveland to cover the spread.
+Washington @ Philadelphia (MLB): Cover Rating - 3.5, Bet on Philadelphia to cover the spread.
+NY Mets @ Miami (MLB): Cover Rating - 3.0, Bet on NY Mets to cover the spread.
 Cincinnati @ LA Dodgers (MLB): Cover Rating - 2.6, Bet on Cincinnati to cover the spread.
 San Diego @ Atlanta (MLB): Cover Rating - 2.3, Bet on Atlanta to cover the spread.
 Boston @ St. Louis (MLB): Cover Rating - 1.3, Bet on St. Louis to cover the spread.
 Okla City @ Dallas (NBA): Cover Rating - 1.3, Bet on Dallas to cover the spread.
 Seattle @ Baltimore (MLB): Cover Rating - 0.9, Bet on Baltimore to cover the spread.
-Colorado @ SF Giants (MLB): Cover Rating - 0.4, Bet on Colorado to cover the spread.
+Minnesota @ Cleveland (MLB): Cover Rating - 0.4, Bet on Minnesota to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Mets @ Miami (MLB): Over Score - 7.2
+NY Mets @ Miami (MLB): Over Score - 9.7
 Cincinnati @ LA Dodgers (MLB): Over Score - 6.1
-Colorado @ SF Giants (MLB): Over Score - 6.0
+Washington @ Philadelphia (MLB): Over Score - 5.9
+Minnesota @ Cleveland (MLB): Over Score - 5.7
 Detroit @ Arizona (MLB): Over Score - 5.5
 Milwaukee @ Houston (MLB): Over Score - 5.5
-Washington @ Philadelphia (MLB): Over Score - 5.4
 Okla City @ Dallas (NBA): Over Score - 5.3
+LA Angels @ Texas (MLB): Over Score - 5.1
 Oakland @ Kansas City (MLB): Over Score - 4.9
 Boston @ St. Louis (MLB): Over Score - 4.8
-San Diego @ Atlanta (MLB): Over Score - 4.8
-Minnesota @ Cleveland (MLB): Over Score - 4.7
 Seattle @ Baltimore (MLB): Over Score - 4.2
-LA Angels @ Texas (MLB): Over Score - 4.1
+San Diego @ Atlanta (MLB): Over Score - 3.8
           date league  cover_rating  ...  total   home_team     away_team
-0   2024-05-18    NBA      1.325000  ...  207.5   Okla City        Dallas
-1   2024-05-18    MLB      0.360000  ...   12.5    Colorado     SF Giants
-2   2024-05-18    MLB      3.454545  ...   11.5     NY Mets         Miami
-3   2024-05-18    MLB      3.266667  ...    7.0   Minnesota     Cleveland
-4   2024-05-18    MLB      5.466667  ...    7.0  Washington  Philadelphia
-5   2024-05-18    MLB      0.866667  ...    7.0     Seattle     Baltimore
-6   2024-05-18    MLB      5.266667  ...    9.5     Oakland   Kansas City
-7   2024-05-18    MLB      6.266667  ...    8.5   Milwaukee       Houston
-8   2024-05-18    MLB      2.333333  ...    9.0   San Diego       Atlanta
-9   2024-05-18    MLB      1.333333  ...    8.5      Boston     St. Louis
-10  2024-05-18    MLB      6.466667  ...    8.5   LA Angels         Texas
-11  2024-05-18    MLB      7.266667  ...    7.5     Detroit       Arizona
-12  2024-05-18    MLB      2.600000  ...    8.0  Cincinnati    LA Dodgers
+0   2024-05-18    NBA      1.325000  ...  208.5   Okla City        Dallas
+1   2024-05-18    MLB      3.003003  ...    8.5     NY Mets         Miami
+2   2024-05-18    MLB      0.440000  ...    7.5   Minnesota     Cleveland
+3   2024-05-18    MLB      3.533333  ...    6.5  Washington  Philadelphia
+4   2024-05-18    MLB      0.866667  ...    7.0     Seattle     Baltimore
+5   2024-05-18    MLB      5.266667  ...    9.5     Oakland   Kansas City
+6   2024-05-18    MLB      6.266667  ...    8.5   Milwaukee       Houston
+7   2024-05-18    MLB      2.333333  ...    9.0   San Diego       Atlanta
+8   2024-05-18    MLB      1.333333  ...    8.5      Boston     St. Louis
+9   2024-05-18    MLB      6.466667  ...    8.5   LA Angels         Texas
+10  2024-05-18    MLB      7.266667  ...    7.5     Detroit       Arizona
+11  2024-05-18    MLB      2.600000  ...    8.0  Cincinnati    LA Dodgers
 
-[13 rows x 10 columns]
+[12 rows x 10 columns]
 Avoided Overriding DailyPredictions
