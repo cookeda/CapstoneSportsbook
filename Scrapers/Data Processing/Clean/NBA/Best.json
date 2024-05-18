@@ -14,15 +14,67 @@
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+6.5 (ESPN)",
-            "Away Spread Odds": "−110 (DK)",
-            "Away ML": "+230 (ESPN)",
-            "Home Spread": "+6.0 (Bovada)",
-            "Home Spread Odds": "-110 (ESPN)",
-            "Home ML": "-250 (Bovada)",
-            "Total": "220.5 (DK)",
-            "Over Total Odds": "−115 (DK)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Away Spread": "-999 (ESPN)",
+            "Away Spread Odds": "-999 (ESPN)",
+            "Away ML": "-999 (ESPN)",
+            "Home Spread": "-999 (ESPN)",
+            "Home Spread Odds": "-999 (ESPN)",
+            "Home ML": "-999 (ESPN)",
+            "Total": "99 (ESPN)",
+            "Over Total Odds": "-999 (ESPN)",
+            "Under Total Odds": "-999 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "88f1c3e9_48eb7bb_NBA",
+        "Info Table": {
+            "Away Team": "Oklahoma City Thunder",
+            "Away Team Rank Name": "Okla City",
+            "Away Abv": "OKC",
+            "Away ID": "88f1c3e9",
+            "Home Team": "Dallas Mavericks",
+            "Home Team Rank Name": "Dallas",
+            "Home Abv": "DAL",
+            "Home ID": "48eb7bb",
+            "Start Time": "8:30 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+3.5 (Bovada)",
+            "Away Spread Odds": "-110 (Bovada)",
+            "Away ML": "+145 (Bovada)",
+            "Home Spread": "-3.5 (Bovada)",
+            "Home Spread Odds": "-110 (Bovada)",
+            "Home ML": "-170 (Bovada)",
+            "Total": "209.0 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_Unknown_NBA",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "-999",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+13.5 (DK)",
+            "Away Spread Odds": "−105 (DK)",
+            "Away ML": "+150 (DK)",
+            "Home Spread": "-13.5 (DK)",
+            "Home Spread Odds": "−125 (DK)",
+            "Home ML": "−180 (DK)",
+            "Total": "222.5 (DK)",
+            "Over Total Odds": "+105 (DK)",
+            "Under Total Odds": "−135 (DK)"
         }
     }
 ]
