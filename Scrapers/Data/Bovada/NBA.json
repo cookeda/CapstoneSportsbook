@@ -1,18 +1,48 @@
 [
     [
         {
+            "BetTableId": "Bovada_Unknown_Unknown_NBA",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-9.0",
+                "Away Spread Odds": "-110",
+                "Away ML": "-550",
+                "Home Spread": "-9.0",
+                "Home Spread Odds": "-120",
+                "Home ML": "+350",
+                "Total": "227.0",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "99"
+            },
+            "MatchupID": "Unknown_Unknown_NBA",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "LIVE",
+                "League": "NBA"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "Bovada_dc435e0a_65ba1118_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "-115",
-                "Away ML": "-130",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "-115",
-                "Home ML": "+100",
-                "Total": "217.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-115"
+                "Away Spread": "+6.0",
+                "Away Spread Odds": "-110",
+                "Away ML": "+240",
+                "Home Spread": "-6.0",
+                "Home Spread Odds": "-110",
+                "Home ML": "-290",
+                "Total": "102.0",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             },
             "MatchupID": "dc435e0a_65ba1118_NBA",
             "Info Table": {
@@ -24,37 +54,7 @@
                 "Home Team Rank Name": "New York",
                 "Home Abv": "NYK",
                 "Home ID": "65ba1118",
-                "Start Time": "LIVE",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_f5328492_59dd0ac4_NBA",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+4.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+165",
-                "Home Spread": "-4.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-195",
-                "Total": "199.0",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
-            },
-            "MatchupID": "f5328492_59dd0ac4_NBA",
-            "Info Table": {
-                "Away Team": "Minnesota Timberwolves",
-                "Away Team Rank Name": "Minnesota",
-                "Away Abv": "MIN",
-                "Away ID": "f5328492",
-                "Home Team": "Denver Nuggets",
-                "Home Team Rank Name": "Denver",
-                "Home Abv": "DEN",
-                "Home ID": "59dd0ac4",
-                "Start Time": "8:00 PM",
+                "Start Time": "-999",
                 "League": "NBA"
             }
         }
