@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "dc435e0a_65ba1118_NBA",
-        "Info Table": {
-            "Away Team": "IND Pacers",
-            "Away Team Rank Name": "Indiana",
-            "Away Abv": "IND",
-            "Away ID": "dc435e0a",
-            "Home Team": "NY Knicks",
-            "Home Team Rank Name": "New York",
-            "Home Abv": "NYK",
-            "Home ID": "65ba1118",
-            "Start Time": "Round 2, Game 7: Series Tied 3-3",
-            "League": "NBA"
-        },
-        "Odds Table": {
-            "Away Spread": "-15.5 (DK)",
-            "Away Spread Odds": "-105 (Bovada)",
-            "Away ML": "+350 (DK)",
-            "Home Spread": "+15.5 (DK)",
-            "Home Spread Odds": "+105 (DK)",
-            "Home ML": "−455 (DK)",
-            "Total": "242.5 (DK)",
-            "Over Total Odds": "+100 (DK)",
-            "Under Total Odds": "99 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "f5328492_59dd0ac4_NBA",
         "Info Table": {
             "Away Team": "MIN Timberwolves",
@@ -42,13 +16,13 @@
         "Odds Table": {
             "Away Spread": "+4.5 (ESPN)",
             "Away Spread Odds": "-105 (ESPN)",
-            "Away ML": "+170 (Bovada)",
+            "Away ML": "+165 (ESPN)",
             "Home Spread": "-4.5 (ESPN)",
-            "Home Spread Odds": "-110 (Bovada)",
+            "Home Spread Odds": "−112 (DK)",
             "Home ML": "-195 (ESPN)",
-            "Total": "201.0 (Bovada)",
+            "Total": "201.5 (ESPN)",
             "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Under Total Odds": "-105 (Bovada)"
         }
     }
 ]

@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "Bovada_dc435e0a_65ba1118_NBA",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "-16.0",
-                "Away Spread Odds": "-105",
-                "Away ML": "-999",
-                "Home Spread": "-16.0",
-                "Home Spread Odds": "-125",
-                "Home ML": "-999",
-                "Total": "-999",
-                "Over Total Odds": "99",
-                "Under Total Odds": "99"
-            },
-            "MatchupID": "dc435e0a_65ba1118_NBA",
-            "Info Table": {
-                "Away Team": "Indiana Pacers",
-                "Away Team Rank Name": "Indiana",
-                "Away Abv": "IND",
-                "Away ID": "dc435e0a",
-                "Home Team": "New York Knicks",
-                "Home Team Rank Name": "New York",
-                "Home Abv": "NYK",
-                "Home ID": "65ba1118",
-                "Start Time": "LIVE",
-                "League": "NBA"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_f5328492_59dd0ac4_NBA",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+4.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+170",
+                "Away Spread Odds": "-105",
+                "Away ML": "+165",
                 "Home Spread": "-4.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-200",
+                "Home Spread Odds": "-115",
+                "Home ML": "-195",
                 "Total": "201.0",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "f5328492_59dd0ac4_NBA",
             "Info Table": {
@@ -54,7 +24,7 @@
                 "Home Team Rank Name": "Denver",
                 "Home Abv": "DEN",
                 "Home ID": "59dd0ac4",
-                "Start Time": "8:00 PM",
+                "Start Time": "8:10 PM",
                 "League": "NBA"
             }
         }
