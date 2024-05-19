@@ -1,48 +1,38 @@
-Indiana @ New York (NBA): Cover Rating - 5.9, Over Score - 5.2
+Indiana @ New York (NBA): Cover Rating - 0.5, Over Score - 5.7
 Bet on New York to cover the spread.
 Minnesota @ Denver (NBA): Cover Rating - 4.2, Over Score - 5.4
 Bet on Minnesota to cover the spread.
-Pittsburgh @ Chi Cubs (MLB): Cover Rating - 3.0, Over Score - 8.3
-Bet on Pittsburgh to cover the spread.
-LA Angels @ Texas (MLB): Cover Rating - 1.8, Over Score - 8.0
-Bet on LA Angels to cover the spread.
-Colorado @ SF Giants (MLB): Cover Rating - 3.9, Over Score - 6.1
-Bet on SF Giants to cover the spread.
-Detroit @ Arizona (MLB): Cover Rating - 6.5, Over Score - 5.6
+Colorado @ SF Giants (MLB): Cover Rating - 10.0, Over Score - 5.6
+Bet on Colorado to cover the spread.
+Detroit @ Arizona (MLB): Cover Rating - 12.5, Over Score - 6.1
 Bet on Detroit to cover the spread.
-Cincinnati @ LA Dodgers (MLB): Cover Rating - 5.4, Over Score - 6.4
+Cincinnati @ LA Dodgers (MLB): Cover Rating - 1.4, Over Score - 6.4
 Bet on Cincinnati to cover the spread.
-San Diego @ Atlanta (MLB): Cover Rating - 6.7, Over Score - 3.8
+San Diego @ Atlanta (MLB): Cover Rating - 11.7, Over Score - 3.8
 Bet on San Diego to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-San Diego @ Atlanta (MLB): Cover Rating - 6.7, Bet on San Diego to cover the spread.
-Detroit @ Arizona (MLB): Cover Rating - 6.5, Bet on Detroit to cover the spread.
-Indiana @ New York (NBA): Cover Rating - 5.9, Bet on New York to cover the spread.
-Cincinnati @ LA Dodgers (MLB): Cover Rating - 5.4, Bet on Cincinnati to cover the spread.
+Detroit @ Arizona (MLB): Cover Rating - 12.5, Bet on Detroit to cover the spread.
+San Diego @ Atlanta (MLB): Cover Rating - 11.7, Bet on San Diego to cover the spread.
+Colorado @ SF Giants (MLB): Cover Rating - 10.0, Bet on Colorado to cover the spread.
 Minnesota @ Denver (NBA): Cover Rating - 4.2, Bet on Minnesota to cover the spread.
-Colorado @ SF Giants (MLB): Cover Rating - 3.9, Bet on SF Giants to cover the spread.
-Pittsburgh @ Chi Cubs (MLB): Cover Rating - 3.0, Bet on Pittsburgh to cover the spread.
-LA Angels @ Texas (MLB): Cover Rating - 1.8, Bet on LA Angels to cover the spread.
+Cincinnati @ LA Dodgers (MLB): Cover Rating - 1.4, Bet on Cincinnati to cover the spread.
+Indiana @ New York (NBA): Cover Rating - 0.5, Bet on New York to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Pittsburgh @ Chi Cubs (MLB): Over Score - 8.3
-LA Angels @ Texas (MLB): Over Score - 8.0
 Cincinnati @ LA Dodgers (MLB): Over Score - 6.4
-Colorado @ SF Giants (MLB): Over Score - 6.1
-Detroit @ Arizona (MLB): Over Score - 5.6
+Detroit @ Arizona (MLB): Over Score - 6.1
+Indiana @ New York (NBA): Over Score - 5.7
+Colorado @ SF Giants (MLB): Over Score - 5.6
 Minnesota @ Denver (NBA): Over Score - 5.4
-Indiana @ New York (NBA): Over Score - 5.2
 San Diego @ Atlanta (MLB): Over Score - 3.8
          date league  cover_rating  ...  total   home_team   away_team
-0  2024-05-19    NBA      5.884211  ...  225.5     Indiana    New York
-1  2024-05-19    NBA      4.222222  ...  199.0   Minnesota      Denver
-2  2024-05-19    MLB      2.999900  ...    8.5  Pittsburgh    Chi Cubs
-3  2024-05-19    MLB      1.840000  ...    8.0   LA Angels       Texas
-4  2024-05-19    MLB      3.933333  ...    5.5    Colorado   SF Giants
-5  2024-05-19    MLB      6.520000  ...    9.5     Detroit     Arizona
-6  2024-05-19    MLB      5.400000  ...    4.5  Cincinnati  LA Dodgers
-7  2024-05-19    MLB      6.666667  ...    9.0   San Diego     Atlanta
+0  2024-05-19    NBA      0.541935  ...  242.5     Indiana    New York
+1  2024-05-19    NBA      4.222222  ...  200.5   Minnesota      Denver
+2  2024-05-19    MLB     10.028571  ...    6.5    Colorado   SF Giants
+3  2024-05-19    MLB     12.533333  ...    9.5     Detroit     Arizona
+4  2024-05-19    MLB      1.400000  ...    7.5  Cincinnati  LA Dodgers
+5  2024-05-19    MLB     11.666667  ...    9.0   San Diego     Atlanta
 
-[8 rows x 10 columns]
+[6 rows x 10 columns]
 Avoided Overriding DailyPredictions
