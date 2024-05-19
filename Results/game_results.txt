@@ -8,7 +8,7 @@ Chi Sox @ NY Yankees (MLB): Cover Rating - 6.9, Over Score - 4.9
 Bet on NY Yankees to cover the spread.
 Washington @ Philadelphia (MLB): Cover Rating - 2.5, Over Score - 5.4
 Bet on Washington to cover the spread.
-Seattle @ Baltimore (MLB): Cover Rating - 0.7, Over Score - 5.2
+Seattle @ Baltimore (MLB): Cover Rating - 0.7, Over Score - 4.2
 Bet on Baltimore to cover the spread.
 Tampa Bay @ Toronto (MLB): Cover Rating - 3.1, Over Score - 5.0
 Bet on Toronto to cover the spread.
@@ -20,16 +20,16 @@ Oakland @ Kansas City (MLB): Cover Rating - 2.3, Over Score - 4.8
 Bet on Kansas City to cover the spread.
 Milwaukee @ Houston (MLB): Cover Rating - 6.4, Over Score - 5.3
 Bet on Milwaukee to cover the spread.
-Pittsburgh @ Chi Cubs (MLB): Cover Rating - 4.9, Over Score - 5.3
+Pittsburgh @ Chi Cubs (MLB): Cover Rating - 4.9, Over Score - 4.3
 Bet on Pittsburgh to cover the spread.
-LA Angels @ Texas (MLB): Cover Rating - 6.4, Over Score - 5.0
+LA Angels @ Texas (MLB): Cover Rating - 6.4, Over Score - 4.0
 Bet on LA Angels to cover the spread.
 Colorado @ SF Giants (MLB): Cover Rating - 5.1, Over Score - 5.6
 Bet on Colorado to cover the spread.
-Detroit @ Arizona (MLB): Cover Rating - 7.5, Over Score - 5.6
-Bet on Detroit to cover the spread.
 Cincinnati @ LA Dodgers (MLB): Cover Rating - 5.4, Over Score - 5.9
 Bet on Cincinnati to cover the spread.
+Detroit @ Arizona (MLB): Cover Rating - 7.5, Over Score - 5.6
+Bet on Detroit to cover the spread.
 San Diego @ Atlanta (MLB): Cover Rating - 2.3, Over Score - 4.8
 Bet on Atlanta to cover the spread.
 
@@ -61,18 +61,18 @@ Colorado @ SF Giants (MLB): Over Score - 5.6
 Minnesota @ Denver (NBA): Over Score - 5.4
 Washington @ Philadelphia (MLB): Over Score - 5.4
 Milwaukee @ Houston (MLB): Over Score - 5.3
-Pittsburgh @ Chi Cubs (MLB): Over Score - 5.3
 Indiana @ New York (NBA): Over Score - 5.2
-Seattle @ Baltimore (MLB): Over Score - 5.2
 Boston @ St. Louis (MLB): Over Score - 5.0
-LA Angels @ Texas (MLB): Over Score - 5.0
 Tampa Bay @ Toronto (MLB): Over Score - 5.0
 Chi Sox @ NY Yankees (MLB): Over Score - 4.9
 Oakland @ Kansas City (MLB): Over Score - 4.8
 San Diego @ Atlanta (MLB): Over Score - 4.8
+Pittsburgh @ Chi Cubs (MLB): Over Score - 4.3
+Seattle @ Baltimore (MLB): Over Score - 4.2
+LA Angels @ Texas (MLB): Over Score - 4.0
           date league  cover_rating  ...  total   home_team     away_team
 0   2024-05-19    NBA      3.400000  ...  208.5     Indiana      New York
-1   2024-05-19    NBA      4.300000  ...  198.0   Minnesota        Denver
+1   2024-05-19    NBA      4.300000  ...  198.5   Minnesota        Denver
 2   2024-05-19    MLB      7.866667  ...    8.5      Boston     St. Louis
 3   2024-05-19    MLB      6.933333  ...    8.5     Chi Sox    NY Yankees
 4   2024-05-19    MLB      2.466667  ...    7.5  Washington  Philadelphia
@@ -81,12 +81,12 @@ San Diego @ Atlanta (MLB): Over Score - 4.8
 7   2024-05-19    MLB      2.266667  ...    8.5     NY Mets         Miami
 8   2024-05-19    MLB      9.800000  ...    7.5   Minnesota     Cleveland
 9   2024-05-19    MLB      2.266667  ...    9.0     Oakland   Kansas City
-10  2024-05-19    MLB      6.400000  ...    8.5   Milwaukee       Houston
-11  2024-05-19    MLB      4.933333  ...    7.0  Pittsburgh      Chi Cubs
+10  2024-05-19    MLB      6.400000  ...    9.0   Milwaukee       Houston
+11  2024-05-19    MLB      4.933333  ...    7.5  Pittsburgh      Chi Cubs
 12  2024-05-19    MLB      6.400000  ...    8.5   LA Angels         Texas
 13  2024-05-19    MLB      5.066667  ...    7.5    Colorado     SF Giants
-14  2024-05-19    MLB      7.533333  ...    8.5     Detroit       Arizona
-15  2024-05-19    MLB      5.400000  ...    8.5  Cincinnati    LA Dodgers
+14  2024-05-19    MLB      5.400000  ...    8.5  Cincinnati    LA Dodgers
+15  2024-05-19    MLB      7.533333  ...    8.5     Detroit       Arizona
 16  2024-05-19    MLB      2.333333  ...    9.0   San Diego       Atlanta
 
 [17 rows x 10 columns]
