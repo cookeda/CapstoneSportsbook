@@ -1,28 +1,33 @@
-Okla City @ Okla City (NBA): Cover Rating - 2.0, Over Score - 5.7
-Bet on Okla City to cover the spread.
+Indiana @ New York (NBA): Cover Rating - 3.8, Over Score - 5.2
+Bet on New York to cover the spread.
+Minnesota @ Denver (NBA): Cover Rating - 4.3, Over Score - 5.4
+Bet on Minnesota to cover the spread.
 LA Angels @ Texas (MLB): Cover Rating - 3.0, Over Score - 8.1
 Bet on LA Angels to cover the spread.
-Detroit @ Arizona (MLB): Cover Rating - 1.7, Over Score - 6.0
-Bet on Arizona to cover the spread.
-Cincinnati @ LA Dodgers (MLB): Cover Rating - 5.6, Over Score - 6.6
+Detroit @ Arizona (MLB): Cover Rating - 1.8, Over Score - 8.5
+Bet on Detroit to cover the spread.
+Cincinnati @ LA Dodgers (MLB): Cover Rating - 5.3, Over Score - 6.1
 Bet on Cincinnati to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Cincinnati @ LA Dodgers (MLB): Cover Rating - 5.6, Bet on Cincinnati to cover the spread.
+Cincinnati @ LA Dodgers (MLB): Cover Rating - 5.3, Bet on Cincinnati to cover the spread.
+Minnesota @ Denver (NBA): Cover Rating - 4.3, Bet on Minnesota to cover the spread.
+Indiana @ New York (NBA): Cover Rating - 3.8, Bet on New York to cover the spread.
 LA Angels @ Texas (MLB): Cover Rating - 3.0, Bet on LA Angels to cover the spread.
-Okla City @ Okla City (NBA): Cover Rating - 2.0, Bet on Okla City to cover the spread.
-Detroit @ Arizona (MLB): Cover Rating - 1.7, Bet on Arizona to cover the spread.
+Detroit @ Arizona (MLB): Cover Rating - 1.8, Bet on Detroit to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
+Detroit @ Arizona (MLB): Over Score - 8.5
 LA Angels @ Texas (MLB): Over Score - 8.1
-Cincinnati @ LA Dodgers (MLB): Over Score - 6.6
-Detroit @ Arizona (MLB): Over Score - 6.0
-Okla City @ Okla City (NBA): Over Score - 5.7
+Cincinnati @ LA Dodgers (MLB): Over Score - 6.1
+Minnesota @ Denver (NBA): Over Score - 5.4
+Indiana @ New York (NBA): Over Score - 5.2
          date league  cover_rating  ...  total   home_team   away_team
-0  2024-05-18    NBA      2.047059  ...  224.5   Okla City   Okla City
-1  2024-05-18    MLB      3.002202  ...    8.5   LA Angels       Texas
-2  2024-05-18    MLB      1.733333  ...    7.5     Detroit     Arizona
-3  2024-05-18    MLB      5.600000  ...    4.5  Cincinnati  LA Dodgers
+0  2024-05-18    NBA      3.800000  ...  208.0     Indiana    New York
+1  2024-05-18    NBA      4.300000  ...  197.5   Minnesota      Denver
+2  2024-05-18    MLB      3.002202  ...    8.5   LA Angels       Texas
+3  2024-05-18    MLB      1.755556  ...    8.0     Detroit     Arizona
+4  2024-05-18    MLB      5.257143  ...    3.5  Cincinnati  LA Dodgers
 
-[4 rows x 10 columns]
+[5 rows x 10 columns]
 Avoided Overriding DailyPredictions
