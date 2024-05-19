@@ -35,7 +35,7 @@ under_ranges = [(5.5, 6), (5, 5.5), (4.5, 5), (4, 4.5), (3.5, 4), (3, 3.5), (2.5
 data['CoverRatingWindow'] = data['CoverRating'].apply(lambda x: map_to_subinterval(x, main_intervals))
 data['TotalRatingWindow'] = data['TotalRating'].apply(lambda x: map_total_to_window(x, over_ranges, under_ranges))
 
-lambda_ = 0.2  # Decay rate
+lambda_ = 0.1  # Decay rate
 current_date = datetime.now()
 data['DaysAgo'] = (current_date - data['Date']).dt.days
 data['DecayFactor'] = np.exp(-lambda_ * data['DaysAgo'])

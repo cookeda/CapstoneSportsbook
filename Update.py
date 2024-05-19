@@ -12,7 +12,7 @@ subprocess.run(['python', 'daily_refresh.py'])
 
 # Run Algorithm
 os.chdir('../../Data Collecting Src/')
-subprocess.run(['python', 'game.py'], stdout=open('../Results/game_results.txt', 'w'))
+subprocess.run(['python', 'game.py'], stdout=open('../Results/game_results.txt', 'w', encoding='utf-8'))
 
 # Data Processing and Updates
 os.chdir('../Scrapers/Data Processing')
@@ -24,7 +24,7 @@ os.chdir('../../Results/')
 subprocess.run(['python', 'script.py'])
 
 os.chdir('../OddsHistory/History')
-subprocess.run(['python', 'sorting_algorithm.py'], stdout=open('../../Results/xHitRate.txt', 'w'))
+subprocess.run(['python', 'sorting_algorithm.py'], stdout=open('../../Results/xHitRate.txt', 'w', encoding='utf-8'))
 
 
 # Uncomment the following line to enable the auto update command
