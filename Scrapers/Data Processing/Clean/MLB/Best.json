@@ -146,7 +146,7 @@
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
             "Away Spread Odds": "+120 (ESPN)",
-            "Away ML": "-142 (Bovada)",
+            "Away ML": "-141 (Bovada)",
             "Home Spread": "+1.5 (ESPN)",
             "Home Spread Odds": "-140 (ESPN)",
             "Home ML": "+125 (ESPN)",
@@ -248,11 +248,11 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+170 (ESPN)",
+            "Away Spread": "+1.5 (ESPN)",
+            "Away Spread Odds": "−192 (DK)",
             "Away ML": "+105 (ESPN)",
-            "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+165 (Bovada)",
+            "Home Spread": "-1.5 (ESPN)",
+            "Home Spread Odds": "+170 (ESPN)",
             "Home ML": "-121 (Bovada)",
             "Total": "7.5 (ESPN)",
             "Over Total Odds": "-115 (ESPN)",
@@ -335,6 +335,32 @@
             "Total": "8.5 (ESPN)",
             "Over Total Odds": "+105 (ESPN)",
             "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "fdd0d44c_4e2f3aa1_MLB",
+        "Info Table": {
+            "Away Team": "CIN Reds",
+            "Away Team Rank Name": "Cincinnati",
+            "Away Abv": "CIN",
+            "Away ID": "fdd0d44c",
+            "Home Team": "LA Dodgers",
+            "Home Team Rank Name": "LA Dodgers",
+            "Home Abv": "LAD",
+            "Home ID": "4e2f3aa1",
+            "Start Time": "Today · 4:10 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (ESPN)",
+            "Away Spread Odds": "-145 (ESPN)",
+            "Away ML": "+145 (ESPN)",
+            "Home Spread": "-1.5 (ESPN)",
+            "Home Spread Odds": "+135 (Bovada)",
+            "Home ML": "-170 (ESPN)",
+            "Total": "8.5 (ESPN)",
+            "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-110 (ESPN)"
         }
     },
     {
