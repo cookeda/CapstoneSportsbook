@@ -1,36 +1,6 @@
 [
     [
         {
-            "BetTableId": "ESPN_3f4235d4_354ef58_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
-                "Away ML": "-999",
-                "Home Spread": "-999",
-                "Home Spread Odds": "-999",
-                "Home ML": "-999",
-                "Total": "99",
-                "Over Total Odds": "-999",
-                "Under Total Odds": "-999"
-            },
-            "MatchupID": "3f4235d4_354ef58_MLB",
-            "Info Table": {
-                "Away Team": "SD Padres",
-                "Away Team Rank Name": "San Diego",
-                "Away Abv": "SD",
-                "Away ID": "3f4235d4",
-                "Home Team": "ATL Braves",
-                "Home Team Rank Name": "Atlanta",
-                "Home Abv": "ATL",
-                "Home ID": "354ef58",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "ESPN_ea799920_8714ddbe_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
@@ -41,8 +11,8 @@
                 "Home Spread Odds": "+110",
                 "Home ML": "-195",
                 "Total": "7.5",
-                "Over Total Odds": "-125",
-                "Under Total Odds": "+105"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "ea799920_8714ddbe_MLB",
             "Info Table": {
@@ -130,9 +100,9 @@
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-120",
                 "Home ML": "+145",
-                "Total": "8.5",
-                "Over Total Odds": "+110",
-                "Under Total Odds": "-130"
+                "Total": "7.5",
+                "Over Total Odds": "-125",
+                "Under Total Odds": "+105"
             },
             "MatchupID": "f5328492_dd4357ee_MLB",
             "Info Table": {
@@ -281,8 +251,8 @@
                 "Home Spread Odds": "+105",
                 "Home ML": "-200",
                 "Total": "8.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             },
             "MatchupID": "fe8acdeb_4005c299_MLB",
             "Info Table": {
@@ -325,6 +295,36 @@
                 "Home Abv": "LAD",
                 "Home ID": "4e2f3aa1",
                 "Start Time": "May 20, 2024 \u00b7 10:10 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "-999",
+                "Home ML": "-999",
+                "Total": "99",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
