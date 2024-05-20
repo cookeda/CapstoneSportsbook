@@ -14,15 +14,41 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-2.5 (ESPN)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "−330 (DK)",
-            "Home Spread": "+2.5 (ESPN)",
-            "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "+260 (ESPN)",
-            "Total": "9.5 (ESPN)",
-            "Over Total Odds": "+114 (DK)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Away Spread": "-7.5 (ESPN)",
+            "Away Spread Odds": "-140 (ESPN)",
+            "Away ML": "-999 (DK)",
+            "Home Spread": "+7.5 (ESPN)",
+            "Home Spread Odds": "+114 (DK)",
+            "Home ML": "+3000 (ESPN)",
+            "Total": "11.5 (ESPN)",
+            "Over Total Odds": "-130 (ESPN)",
+            "Under Total Odds": "+100 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_354ef58_MLB",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "Atlanta Braves",
+            "Home Team Rank Name": "Atlanta",
+            "Home Abv": "ATL",
+            "Home ID": "354ef58",
+            "Start Time": "LIVE",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-8.0 (Bovada)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "-5000 (Bovada)",
+            "Home Spread": "-8.0 (Bovada)",
+            "Home Spread Odds": "-125 (Bovada)",
+            "Home ML": "+1400 (Bovada)",
+            "Total": "11.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     }
 ]
