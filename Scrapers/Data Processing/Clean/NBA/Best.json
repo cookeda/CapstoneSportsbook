@@ -14,22 +14,41 @@
             "League": "NBA"
         },
         "Odds Table": {
-<<<<<<< HEAD
-            "Away Spread": "+3.5 (ESPN)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "+136 (DK)",
-            "Home Spread": "-3.5 (ESPN)",
-=======
-            "Away Spread": "+9.5 (ESPN)",
-            "Away Spread Odds": "-105 (Bovada)",
-            "Away ML": "+335 (Bovada)",
+            "Away Spread": "+10 (DK)",
+            "Away Spread Odds": "-105 (ESPN)",
+            "Away ML": "+340 (DK)",
             "Home Spread": "-9.5 (ESPN)",
->>>>>>> 85cedd1b901899efd67d3b01c0886ae46c6f9f40
-            "Home Spread Odds": "-110 (ESPN)",
+            "Home Spread Odds": "−105 (DK)",
             "Home ML": "-425 (ESPN)",
-            "Total": "222.0 (Bovada)",
+            "Total": "222 (DK)",
             "Over Total Odds": "-110 (ESPN)",
             "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "dc435e0a_Unknown_NBA",
+        "Info Table": {
+            "Away Team": "Indiana Pacers",
+            "Away Team Rank Name": "Indiana",
+            "Away Abv": "IND",
+            "Away ID": "dc435e0a",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "8:00 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+9.5 (Bovada)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "+345 (Bovada)",
+            "Home Spread": "-9.5 (Bovada)",
+            "Home Spread Odds": "-115 (Bovada)",
+            "Home ML": "-470 (Bovada)",
+            "Total": "222.0 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     }
 ]
