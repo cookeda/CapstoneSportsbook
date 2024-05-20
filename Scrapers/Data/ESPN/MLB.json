@@ -95,10 +95,10 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+125",
+                "Away Spread Odds": "+130",
                 "Away ML": "-130",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-145",
+                "Home Spread Odds": "-150",
                 "Home ML": "+110",
                 "Total": "8.5",
                 "Over Total Odds": "-105",
@@ -161,8 +161,8 @@
                 "Home Spread Odds": "-190",
                 "Home ML": "-115",
                 "Total": "7.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "8a2d1e91_16f4bf06_MLB",
             "Info Table": {
@@ -305,10 +305,10 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-110",
+                "Away Spread Odds": "-105",
                 "Away ML": "+195",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "-110",
+                "Home Spread Odds": "-115",
                 "Home ML": "-230",
                 "Total": "8.5",
                 "Over Total Odds": "+100",
@@ -325,6 +325,36 @@
                 "Home Abv": "LAD",
                 "Home ID": "4e2f3aa1",
                 "Start Time": "Today \u00b7 10:10 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "ESPN_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "ESPN",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "-999",
+                "Home ML": "-999",
+                "Total": "99",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
