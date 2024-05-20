@@ -16,13 +16,39 @@
         "Odds Table": {
             "Away Spread": "+4.5 (ESPN)",
             "Away Spread Odds": "-105 (ESPN)",
-            "Away ML": "+165 (ESPN)",
+            "Away ML": "+164 (DK)",
             "Home Spread": "-4.5 (ESPN)",
             "Home Spread Odds": "−112 (DK)",
-            "Home ML": "-195 (ESPN)",
+            "Home ML": "-190 (ESPN)",
             "Total": "201.5 (ESPN)",
             "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_59dd0ac4_NBA",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "Denver Nuggets",
+            "Home Team Rank Name": "Denver",
+            "Home Abv": "DEN",
+            "Home ID": "59dd0ac4",
+            "Start Time": "8:10 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+4.0 (Bovada)",
+            "Away Spread Odds": "+100 (Bovada)",
+            "Away ML": "+155 (Bovada)",
+            "Home Spread": "-4.0 (Bovada)",
+            "Home Spread Odds": "99 (Bovada)",
+            "Home ML": "-185 (Bovada)",
+            "Total": "201.0 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     }
 ]

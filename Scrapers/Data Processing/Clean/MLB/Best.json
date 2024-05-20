@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "fdd0d44c_4e2f3aa1_MLB",
-        "Info Table": {
-            "Away Team": "CIN Reds",
-            "Away Team Rank Name": "Cincinnati",
-            "Away Abv": "CIN",
-            "Away ID": "fdd0d44c",
-            "Home Team": "LA Dodgers",
-            "Home Team Rank Name": "LA Dodgers",
-            "Home Abv": "LAD",
-            "Home ID": "4e2f3aa1",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "99 (Bovada)",
-            "Away ML": "+285 (Bovada)",
-            "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+550 (ESPN)",
-            "Home ML": "−360 (DK)",
-            "Total": "99 (ESPN)",
-            "Over Total Odds": "99 (Bovada)",
-            "Under Total Odds": "99 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "3f4235d4_354ef58_MLB",
         "Info Table": {
             "Away Team": "SD Padres",
@@ -36,19 +10,19 @@
             "Home Team Rank Name": "Atlanta",
             "Home Abv": "ATL",
             "Home ID": "354ef58",
-            "Start Time": "Today · 7:10 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+160 (DK)",
-            "Away ML": "+105 (ESPN)",
-            "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+165 (Bovada)",
-            "Home ML": "-122 (Bovada)",
-            "Total": "9.0 (Bovada)",
-            "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "+105 (ESPN)"
+            "Away Spread": "-2.5 (ESPN)",
+            "Away Spread Odds": "-110 (ESPN)",
+            "Away ML": "−330 (DK)",
+            "Home Spread": "+2.5 (ESPN)",
+            "Home Spread Odds": "-110 (Bovada)",
+            "Home ML": "+260 (ESPN)",
+            "Total": "9.5 (ESPN)",
+            "Over Total Odds": "+114 (DK)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     }
 ]
