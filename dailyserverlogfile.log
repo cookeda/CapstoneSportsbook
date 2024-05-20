@@ -207,3 +207,42 @@ FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneS
  2 files changed, 13 insertions(+)
 To https://github.com/cookeda/CapstoneSportsbook.git
    23248d0b..c75a8b3c  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 58, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 12, in main
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+[main 31612210] Automated Server Update
+ 2 files changed, 13 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   627c916a..31612210  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 58, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 12, in main
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+[main a34410f7] Automated Server Update
+ 2 files changed, 15 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   fd702158..a34410f7  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 58, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Daily.py", line 12, in main
+    os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+[main 5080586e] Automated Server Update
+ 2 files changed, 13 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ab15588d..5080586e  main -> main
