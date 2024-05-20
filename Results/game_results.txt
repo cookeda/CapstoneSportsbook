@@ -2,7 +2,7 @@ Indiana @ Boston (NBA): Cover Rating - 2.8, Over Score - 5.6
 Bet on Boston to cover the spread.
 San Diego @ Atlanta (MLB): Cover Rating - 8.7, Over Score - 4.8
 Bet on San Diego to cover the spread.
-Chi Sox @ Toronto (MLB): Cover Rating - 1.5, Over Score - 3.8
+Chi Sox @ Toronto (MLB): Cover Rating - 1.5, Over Score - 4.8
 Bet on Chi Sox to cover the spread.
 NY Mets @ Cleveland (MLB): Cover Rating - 4.4, Over Score - 5.3
 Bet on NY Mets to cover the spread.
@@ -46,12 +46,12 @@ Baltimore @ St. Louis (MLB): Over Score - 5.4
 NY Mets @ Cleveland (MLB): Over Score - 5.3
 Minnesota @ Washington (MLB): Over Score - 5.3
 LA Angels @ Houston (MLB): Over Score - 5.1
+Chi Sox @ Toronto (MLB): Over Score - 4.8
 San Diego @ Atlanta (MLB): Over Score - 4.8
 Seattle @ NY Yankees (MLB): Over Score - 4.6
 Detroit @ Kansas City (MLB): Over Score - 4.2
-Chi Sox @ Toronto (MLB): Over Score - 3.8
           date league  cover_rating  ...  total  home_team    away_team
-0   2024-05-20    NBA      2.768421  ...  221.5    Indiana       Boston
+0   2024-05-20    NBA      2.768421  ...  222.0    Indiana       Boston
 1   2024-05-20    MLB      8.666667  ...    8.5  San Diego      Atlanta
 2   2024-05-20    MLB      1.466667  ...    7.5    Chi Sox      Toronto
 3   2024-05-20    MLB      4.400000  ...    8.5    NY Mets    Cleveland
