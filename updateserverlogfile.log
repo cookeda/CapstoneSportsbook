@@ -24616,3 +24616,78 @@ Sorting complete.
 Script started at: 2024-05-19 23:00:01.705084
 Script ended at: 2024-05-19 23:04:01.932551
 Total execution time: 0:04:00.227467
+[main 980ed6fe] Automated Server Update
+ 25 files changed, 1040 insertions(+), 716 deletions(-)
+ rewrite Scrapers/Data Processing/Clean/NBA/Aggregate.json (67%)
+ rewrite Scrapers/Data Processing/Clean/NBA/Best.json (82%)
+ rewrite Scrapers/Data/Bovada/NBA.json (77%)
+ rewrite Scrapers/Data/Bovada/NBA_Lite.json (85%)
+ rewrite Scrapers/Data/DK/NBA.json (73%)
+ rewrite Scrapers/Data/DK/NBA_Lite.json (79%)
+ rewrite Scrapers/Data/ESPN/NBA.json (78%)
+ rewrite Scrapers/Data/ESPN/NBA_Lite.json (88%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   e37e6d21..980ed6fe  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 235, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 220, in main
+    all_matchups, number_of_games = scraper.scrape_all()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 156, in scrape_all
+    driver = self.init_driver()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 151, in init_driver
+    service = Service(ChromeDriverManager().install())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 63, in __extract_zip
+    archive = zip_class(archive_file.file_path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.56s/it]100%|██████████| 1/1 [00:02<00:00,  2.56s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:00<00:06,  1.49it/s]100%|██████████| 1/1 [00:01<00:00,  1.13s/it]100%|██████████| 1/1 [00:01<00:00,  1.13s/it]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/11 [00:00<?, ?it/s] 18%|█▊        | 2/11 [00:01<00:05,  1.72it/s]  9%|▉         | 1/11 [00:00<00:04,  2.37it/s] 27%|██▋       | 3/11 [00:01<00:04,  1.89it/s] 18%|█▊        | 2/11 [00:00<00:03,  2.50it/s]  0%|          | 0/1 [00:00<?, ?it/s] 36%|███▋      | 4/11 [00:02<00:03,  2.00it/s] 27%|██▋       | 3/11 [00:01<00:03,  2.42it/s]100%|██████████| 1/1 [00:00<00:00,  1.77it/s]100%|██████████| 1/1 [00:00<00:00,  1.77it/s]
+ 45%|████▌     | 5/11 [00:02<00:03,  1.93it/s] 36%|███▋      | 4/11 [00:01<00:03,  2.06it/s] 55%|█████▍    | 6/11 [00:03<00:02,  2.00it/s] 45%|████▌     | 5/11 [00:02<00:02,  2.11it/s] 64%|██████▎   | 7/11 [00:03<00:01,  2.06it/s] 73%|███████▎  | 8/11 [00:04<00:01,  2.12it/s] 82%|████████▏ | 9/11 [00:04<00:00,  2.17it/s] 91%|█████████ | 10/11 [00:04<00:00,  2.22it/s]100%|██████████| 11/11 [00:05<00:00,  2.26it/s]100%|██████████| 11/11 [00:05<00:00,  2.07it/s]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+ 55%|█████▍    | 6/11 [00:28<00:45,  9.12s/it] 64%|██████▎   | 7/11 [00:54<00:58, 14.65s/it] 73%|███████▎  | 8/11 [01:20<00:54, 18.26s/it] 82%|████████▏ | 9/11 [01:46<00:41, 20.69s/it] 91%|█████████ | 10/11 [02:12<00:22, 22.33s/it]100%|██████████| 11/11 [02:38<00:00, 23.47s/it]100%|██████████| 11/11 [02:38<00:00, 14.39s/it]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID 2b1ac347_4e2f3aa1_MLB
+Warning: No game summary found for matchup ID Unknown_Unknown_MLB
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-20 00:00:02.377754
+Script ended at: 2024-05-20 00:03:05.447286
+Total execution time: 0:03:03.069532
