@@ -24776,3 +24776,45 @@ Sorting complete.
 Script started at: 2024-05-20 02:00:01.711621
 Script ended at: 2024-05-20 02:04:02.437787
 Total execution time: 0:04:00.726166
+[main 5fe0505a] Automated Server Update
+ 13 files changed, 194 insertions(+), 152 deletions(-)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   3aa08ada..5fe0505a  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/11 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.56s/it]100%|██████████| 1/1 [00:02<00:00,  2.56s/it]
+  9%|▉         | 1/11 [00:09<01:31,  9.14s/it] 18%|█▊        | 2/11 [00:12<00:49,  5.46s/it] 27%|██▋       | 3/11 [00:15<00:34,  4.36s/it] 36%|███▋      | 4/11 [00:24<00:44,  6.35s/it] 45%|████▌     | 5/11 [00:33<00:44,  7.37s/it] 55%|█████▍    | 6/11 [00:43<00:40,  8.04s/it] 64%|██████▎   | 7/11 [00:45<00:25,  6.35s/it] 73%|███████▎  | 8/11 [00:48<00:15,  5.16s/it] 82%|████████▏ | 9/11 [00:57<00:12,  6.43s/it] 91%|█████████ | 10/11 [01:00<00:05,  5.26s/it]100%|██████████| 11/11 [01:02<00:00,  4.46s/it]100%|██████████| 11/11 [01:02<00:00,  5.73s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:01<00:11,  1.18s/it]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/11 [00:00<?, ?it/s] 18%|█▊        | 2/11 [00:01<00:07,  1.23it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:00<00:05,  1.90it/s]100%|██████████| 1/1 [00:00<00:00,  1.91it/s]100%|██████████| 1/1 [00:00<00:00,  1.91it/s]
+ 27%|██▋       | 3/11 [00:02<00:05,  1.37it/s]100%|██████████| 1/1 [00:00<00:00,  1.55it/s]100%|██████████| 1/1 [00:00<00:00,  1.55it/s]
+ 18%|█▊        | 2/11 [00:01<00:04,  1.91it/s] 36%|███▋      | 4/11 [00:02<00:04,  1.53it/s] 27%|██▋       | 3/11 [00:01<00:03,  2.13it/s] 45%|████▌     | 5/11 [00:03<00:03,  1.72it/s] 36%|███▋      | 4/11 [00:01<00:03,  2.27it/s] 55%|█████▍    | 6/11 [00:03<00:02,  1.85it/s] 45%|████▌     | 5/11 [00:02<00:02,  2.39it/s] 64%|██████▎   | 7/11 [00:04<00:02,  1.95it/s] 55%|█████▍    | 6/11 [00:02<00:02,  2.18it/s] 73%|███████▎  | 8/11 [00:04<00:01,  1.99it/s] 64%|██████▎   | 7/11 [00:03<00:01,  2.14it/s] 82%|████████▏ | 9/11 [00:05<00:00,  2.05it/s] 73%|███████▎  | 8/11 [00:03<00:01,  2.28it/s] 82%|████████▏ | 9/11 [00:04<00:00,  2.39it/s] 91%|█████████ | 10/11 [00:05<00:00,  2.11it/s] 91%|█████████ | 10/11 [00:04<00:00,  2.48it/s]100%|██████████| 11/11 [00:06<00:00,  2.16it/s]100%|██████████| 11/11 [00:06<00:00,  1.81it/s]
+100%|██████████| 11/11 [00:04<00:00,  2.55it/s]100%|██████████| 11/11 [00:04<00:00,  2.32it/s]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID 2b1ac347_4e2f3aa1_MLB
+Warning: No game summary found for matchup ID Unknown_Unknown_MLB
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-20 03:00:01.837631
+Script ended at: 2024-05-20 03:01:29.014744
+Total execution time: 0:01:27.177113
