@@ -18,7 +18,7 @@ Seattle @ NY Yankees (MLB): Cover Rating - 4.1, Over Score - 5.0
 Bet on Seattle to cover the spread.
 Chi Sox @ Toronto (MLB): Cover Rating - 3.9, Over Score - 5.0
 Bet on Chi Sox to cover the spread.
-Atlanta @ Chi Cubs (MLB): Cover Rating - 0.7, Over Score - 3.7
+Atlanta @ Chi Cubs (MLB): Cover Rating - 0.7, Over Score - 4.7
 Bet on Atlanta to cover the spread.
 Detroit @ Kansas City (MLB): Cover Rating - 4.9, Over Score - 5.4
 Bet on Kansas City to cover the spread.
@@ -64,8 +64,8 @@ Minnesota @ Washington (MLB): Over Score - 5.4
 LA Angels @ Houston (MLB): Over Score - 5.3
 Chi Sox @ Toronto (MLB): Over Score - 5.0
 Seattle @ NY Yankees (MLB): Over Score - 5.0
+Atlanta @ Chi Cubs (MLB): Over Score - 4.7
 San Diego @ Cincinnati (MLB): Over Score - 4.4
-Atlanta @ Chi Cubs (MLB): Over Score - 3.7
           date league  cover_rating  ...  total  home_team     away_team
 0   2024-05-21    NBA      2.630000  ...  221.5    Indiana        Boston
 1   2024-05-21    MLB      4.333333  ...    9.0    NY Mets     Cleveland
@@ -75,7 +75,7 @@ Atlanta @ Chi Cubs (MLB): Over Score - 3.7
 5   2024-05-21    MLB      4.733333  ...    8.5  SF Giants    Pittsburgh
 6   2024-05-21    MLB      3.866667  ...    8.5  Minnesota    Washington
 7   2024-05-21    MLB     12.466667  ...    8.5     Boston     Tampa Bay
-8   2024-05-21    MLB      4.066667  ...    7.5    Seattle    NY Yankees
+8   2024-05-21    MLB      4.066667  ...    8.0    Seattle    NY Yankees
 9   2024-05-21    MLB      3.933333  ...    7.0    Chi Sox       Toronto
 10  2024-05-21    MLB      0.733333  ...   11.0    Atlanta      Chi Cubs
 11  2024-05-21    MLB      4.866667  ...    9.0    Detroit   Kansas City
