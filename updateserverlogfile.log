@@ -25614,3 +25614,109 @@ Sorting complete.
 Script started at: 2024-05-20 23:00:02.138389
 Script ended at: 2024-05-20 23:00:25.432184
 Total execution time: 0:00:23.293795
+[main 5b22641a] Automated Server Update
+ 20 files changed, 569 insertions(+), 1469 deletions(-)
+ rewrite DegenBets/Data/Cleaned/AggregateOdds.json (68%)
+ copy DegenBets/Data/{script/matchups.json => merged_data.json} (82%)
+ rewrite DegenBets/Data/script/matchups.json (64%)
+ rewrite OddsHistory/History/Predictions.csv (81%)
+ rewrite Results/game_results.txt (73%)
+ rewrite Scrapers/Data Processing/Clean/Best Odds.json (65%)
+ rewrite Scrapers/Data Processing/Clean/MLB/Aggregate.json (84%)
+ rewrite Scrapers/Data Processing/Clean/MLB/Best.json (82%)
+ rewrite Scrapers/Data/Bovada/MLB.json (82%)
+ rewrite Scrapers/Data/Bovada/MLB_Lite.json (87%)
+ rewrite Scrapers/Data/DK/MLB.json (81%)
+ rewrite Scrapers/Data/DK/MLB_Lite.json (86%)
+ rewrite Scrapers/Data/ESPN/MLB.json (78%)
+ rewrite Scrapers/Data/ESPN/MLB_Lite.json (81%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   6fac9f76..5b22641a  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 65, in __extract_zip
+    archive.extractall(to_directory)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1647, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1702, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/shutil.py", line 195, in copyfileobj
+    buf = fsrc_read(length)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 927, in read
+    data = self._read1(n)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 995, in _read1
+    data += self._read2(n - len(data))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1030, in _read2
+    raise EOFError
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 235, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 220, in main
+    all_matchups, number_of_games = scraper.scrape_all()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 156, in scrape_all
+    driver = self.init_driver()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/mlb_dk.py", line 151, in init_driver
+    service = Service(ChromeDriverManager().install())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 67, in __extract_zip
+    if e.args[0] not in [26, 13] and e.args[1] not in [
+IndexError: tuple index out of range
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.55s/it]100%|██████████| 1/1 [00:02<00:00,  2.55s/it]
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.13it/s]100%|██████████| 1/1 [00:00<00:00,  2.13it/s]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.12it/s]100%|██████████| 1/1 [00:00<00:00,  2.12it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.82it/s]100%|██████████| 1/1 [00:00<00:00,  1.82it/s]
+100%|██████████| 1/1 [00:03<00:00,  3.49s/it]100%|██████████| 1/1 [00:03<00:00,  3.49s/it]
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 109, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 81, in main
+    df['total_rating'] = dynamic_process_ratings(df, 'over_score', df['league'])
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 49, in dynamic_process_ratings
+    df['grade'] = pd.cut(df[column], bins=[-np.inf] + list(thresholds), labels=labels, right=False)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 257, in cut
+    fac, bins = _bins_to_cuts(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 443, in _bins_to_cuts
+    raise ValueError(
+ValueError: Bin edges must be unique: Index([-inf, 5.6, 5.6, 5.6], dtype='float64').
+You can drop duplicate edges by setting the 'duplicates' kwarg
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-21 00:00:01.957441
+Script ended at: 2024-05-21 00:00:29.330187
+Total execution time: 0:00:27.372746
