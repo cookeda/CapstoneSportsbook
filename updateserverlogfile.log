@@ -25428,3 +25428,43 @@ Sorting complete.
 Script started at: 2024-05-20 19:00:02.566277
 Script ended at: 2024-05-20 19:00:56.664408
 Total execution time: 0:00:54.098131
+[main 60719d9b] Automated Server Update
+ 20 files changed, 1050 insertions(+), 1041 deletions(-)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   ad6095a3..60719d9b  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.59s/it]100%|██████████| 1/1 [00:02<00:00,  2.60s/it]
+ 10%|█         | 1/10 [00:02<00:22,  2.51s/it] 20%|██        | 2/10 [00:05<00:20,  2.61s/it] 30%|███       | 3/10 [00:07<00:17,  2.56s/it] 40%|████      | 4/10 [00:10<00:16,  2.83s/it] 50%|█████     | 5/10 [00:13<00:14,  2.81s/it] 60%|██████    | 6/10 [00:16<00:11,  2.82s/it] 70%|███████   | 7/10 [00:19<00:08,  2.80s/it] 80%|████████  | 8/10 [00:22<00:05,  2.88s/it] 90%|█████████ | 9/10 [00:23<00:02,  2.27s/it]100%|██████████| 10/10 [00:23<00:00,  1.69s/it]100%|██████████| 10/10 [00:23<00:00,  2.37s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/10 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.90it/s]100%|██████████| 1/1 [00:00<00:00,  1.90it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.16it/s]100%|██████████| 1/1 [00:00<00:00,  2.16it/s]
+ 12%|█▎        | 1/8 [00:00<00:02,  2.43it/s] 10%|█         | 1/10 [00:02<00:24,  2.72s/it] 25%|██▌       | 2/8 [00:00<00:02,  2.51it/s] 38%|███▊      | 3/8 [00:01<00:02,  2.48it/s] 20%|██        | 2/10 [00:03<00:11,  1.44s/it] 50%|█████     | 4/8 [00:01<00:01,  2.51it/s] 62%|██████▎   | 5/8 [00:01<00:01,  2.54it/s] 75%|███████▌  | 6/8 [00:02<00:00,  2.25it/s] 88%|████████▊ | 7/8 [00:02<00:00,  2.21it/s]100%|██████████| 8/8 [00:03<00:00,  2.28it/s]100%|██████████| 8/8 [00:03<00:00,  2.35it/s]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.63it/s] 30%|███       | 3/10 [00:05<00:13,  1.94s/it]100%|██████████| 2/2 [00:00<00:00,  2.52it/s]100%|██████████| 2/2 [00:00<00:00,  2.53it/s]
+ 40%|████      | 4/10 [00:08<00:13,  2.19s/it]Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+ 50%|█████     | 5/10 [00:11<00:12,  2.49s/it] 60%|██████    | 6/10 [00:14<00:10,  2.63s/it] 70%|███████   | 7/10 [00:17<00:08,  2.78s/it] 80%|████████  | 8/10 [00:20<00:05,  2.86s/it] 90%|█████████ | 9/10 [00:21<00:02,  2.15s/it]100%|██████████| 10/10 [00:21<00:00,  1.64s/it]100%|██████████| 10/10 [00:21<00:00,  2.15s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-20 20:00:02.170606
+Script ended at: 2024-05-20 20:01:05.428022
+Total execution time: 0:01:03.257416
