@@ -1,14 +1,14 @@
 {
-    "Unknown_Unknown_NBA": {
+    "dc435e0a_8a2d1e91_NBA": {
         "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
+            "Away Team": "Indiana Pacers",
+            "Away Team Rank Name": "Indiana",
+            "Away Abv": "IND",
+            "Away ID": "dc435e0a",
+            "Home Team": "Boston Celtics",
+            "Home Team Rank Name": "Boston",
+            "Home Abv": "BOS",
+            "Home ID": "8a2d1e91",
             "Start Time": "8:00 PM",
             "League": "NBA"
         },
@@ -17,38 +17,22 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+9.5",
                 "Away Spread Odds": "-105",
-                "Away ML": "+335",
+                "Away ML": "+320",
                 "Home Spread": "-9.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-450",
-                "Total": "222.5",
-                "Over Total Odds": "-110",
+                "Home Spread Odds": "-115",
+                "Home ML": "-430",
+                "Total": "223.0",
+                "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
-            }
-        ]
-    },
-    "dc435e0a_8a2d1e91_NBA": {
-        "Info Table": {
-            "Away Team": "IND Pacers",
-            "Away Team Rank Name": "Indiana",
-            "Away Abv": "IND",
-            "Away ID": "dc435e0a",
-            "Home Team": "BOS Celtics",
-            "Home Team Rank Name": "Boston",
-            "Home Abv": "BOS",
-            "Home ID": "8a2d1e91",
-            "Start Time": "8:10PM",
-            "League": "NBA"
-        },
-        "Bet Tables": [
+            },
             {
                 "Book Name": "DK",
-                "Away Spread": "+10",
+                "Away Spread": "+9.5",
                 "Away Spread Odds": "−110",
-                "Away ML": "+340",
-                "Home Spread": "-10",
+                "Away ML": "+320",
+                "Home Spread": "-9.5",
                 "Home Spread Odds": "−110",
-                "Home ML": "−440",
+                "Home ML": "−410",
                 "Total": "222.5",
                 "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
@@ -62,8 +46,8 @@
                 "Home Spread Odds": "-115",
                 "Home ML": "-450",
                 "Total": "222.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             }
         ]
     }
