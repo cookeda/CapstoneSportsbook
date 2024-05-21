@@ -4,6 +4,7 @@
         "Home Abv": "BOS",
         "Away Team": "Indiana",
         "Away Abv": "IND",
+<<<<<<< HEAD
         "Home Spread": "-9.5",
         "Home Spread Book": "(ESPN)",
         "Home Spread Odds": "−105",
@@ -42,9 +43,19 @@
         "Home ML": "-124",
         "Home ML Book": "(Bovada)",
         "Away Spread": "+1.5",
+=======
+        "Home Spread": "-10.0",
+        "Home Spread Book": "(Bovada)",
+        "Home Spread Odds": "+100",
+        "Home Spread Odds Book": "(ESPN)",
+        "Home ML": "−455",
+        "Home ML Book": "(DK)",
+        "Away Spread": "+10.5",
+>>>>>>> 2fcc6ef0120ef5efec3d854420e6191478ace32c
         "Away Spread Book": "(ESPN)",
         "Away Spread Odds": "-105",
         "Away Spread Odds Book": "(Bovada)",
+<<<<<<< HEAD
         "Away ML": "+185",
         "Away ML Book": "(DK)",
         "Total Points": "8.5",
@@ -80,10 +91,17 @@
         "Away ML Book": "(ESPN)",
         "Total Points": "7.5",
         "Total Points Book": "(ESPN)",
+=======
+        "Away ML": "+360",
+        "Away ML Book": "(ESPN)",
+        "Total Points": "221.0",
+        "Total Points Book": "(Bovada)",
+>>>>>>> 2fcc6ef0120ef5efec3d854420e6191478ace32c
         "Over Odds": "-110",
         "Over Odds Book": "(ESPN)",
         "Under Odds": "-110",
         "Under Odds Book": "(ESPN)",
+<<<<<<< HEAD
         "Time": "Today · 3:07 PM",
         "League": "MLB",
         "team_to_cover": "Chi Sox",
@@ -210,9 +228,14 @@
         "Under Odds Book": "(DK)",
         "Time": "Today · 6:50 PM",
         "League": "MLB",
+=======
+        "Time": "Today · 8:00 PM",
+        "League": "NBA",
+>>>>>>> 2fcc6ef0120ef5efec3d854420e6191478ace32c
         "team_to_cover": "Boston",
-        "cover_rating": 3.3,
+        "cover_rating": 2.6,
         "over_score": 5.6,
+<<<<<<< HEAD
         "cover_grade": 1,
         "total_rating": -3
     },
@@ -338,6 +361,9 @@
         "cover_rating": 8.0,
         "over_score": 5.1,
         "cover_grade": 3,
+=======
+        "cover_grade": 2,
+>>>>>>> 2fcc6ef0120ef5efec3d854420e6191478ace32c
         "total_rating": -2
     },
     "2b1ac347_4e2f3aa1_MLB": {
@@ -345,14 +371,15 @@
         "Home Abv": "LAD",
         "Away Team": "Arizona",
         "Away Abv": "ARI",
-        "Home Spread": "-1.5",
-        "Home Spread Book": "(ESPN)",
-        "Home Spread Odds": "+160",
-        "Home Spread Odds Book": "(DK)",
-        "Home ML": "-225",
-        "Home ML Book": "(ESPN)",
-        "Away Spread": "+1.5",
+        "Home Spread": "+4.0",
+        "Home Spread Book": "(Bovada)",
+        "Home Spread Odds": "+150",
+        "Home Spread Odds Book": "(ESPN)",
+        "Home ML": "−330",
+        "Home ML Book": "(DK)",
+        "Away Spread": "+4.5",
         "Away Spread Book": "(ESPN)",
+<<<<<<< HEAD
         "Away Spread Odds": "+100",
         "Away Spread Odds Book": "(Bovada)",
         "Away ML": "+195",
@@ -364,11 +391,24 @@
         "Under Odds": "-115",
         "Under Odds Book": "(ESPN)",
         "Time": "Today · 10:10 PM",
+=======
+        "Away Spread Odds": "−105",
+        "Away Spread Odds Book": "(DK)",
+        "Away ML": "+2000",
+        "Away ML Book": "(ESPN)",
+        "Total Points": "10.0",
+        "Total Points Book": "(Bovada)",
+        "Over Odds": "-105",
+        "Over Odds Book": "(Bovada)",
+        "Under Odds": "+125",
+        "Under Odds Book": "(ESPN)",
+        "Time": "Live Game",
+>>>>>>> 2fcc6ef0120ef5efec3d854420e6191478ace32c
         "League": "MLB",
-        "team_to_cover": "Arizona",
-        "cover_rating": 1.4,
+        "team_to_cover": "LA Dodgers",
+        "cover_rating": 5.6,
         "over_score": 5.6,
-        "cover_grade": 1,
-        "total_rating": -3
+        "cover_grade": 3,
+        "total_rating": -2
     }
 }
