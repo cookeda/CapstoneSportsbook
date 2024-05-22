@@ -1,28 +1,18 @@
-Indiana @ Boston (NBA): Cover Rating - 0.4, Over Score - 5.6
-Bet on Indiana to cover the spread.
-LA Angels @ Houston (MLB): Cover Rating - 3.0, Over Score - 8.3
-Bet on LA Angels to cover the spread.
-Colorado @ Oakland (MLB): Cover Rating - 5.5, Over Score - 6.3
-Bet on Oakland to cover the spread.
-Arizona @ LA Dodgers (MLB): Cover Rating - 4.7, Over Score - 6.2
-Bet on LA Dodgers to cover the spread.
+Dallas @ Minnesota (NBA): Cover Rating - 3.2, Over Score - 5.3
+Bet on Dallas to cover the spread.
+Arizona @ LA Dodgers (MLB): Cover Rating - 0.1, Over Score - 5.7
+Bet on Arizona to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Colorado @ Oakland (MLB): Cover Rating - 5.5, Bet on Oakland to cover the spread.
-Arizona @ LA Dodgers (MLB): Cover Rating - 4.7, Bet on LA Dodgers to cover the spread.
-LA Angels @ Houston (MLB): Cover Rating - 3.0, Bet on LA Angels to cover the spread.
-Indiana @ Boston (NBA): Cover Rating - 0.4, Bet on Indiana to cover the spread.
+Dallas @ Minnesota (NBA): Cover Rating - 3.2, Bet on Dallas to cover the spread.
+Arizona @ LA Dodgers (MLB): Cover Rating - 0.1, Bet on Arizona to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-LA Angels @ Houston (MLB): Over Score - 8.3
-Colorado @ Oakland (MLB): Over Score - 6.3
-Arizona @ LA Dodgers (MLB): Over Score - 6.2
-Indiana @ Boston (NBA): Over Score - 5.6
+Arizona @ LA Dodgers (MLB): Over Score - 5.7
+Dallas @ Minnesota (NBA): Over Score - 5.3
          date league  cover_rating  ...  total  home_team   away_team
-0  2024-05-21    NBA      0.377778  ...  208.0    Indiana      Boston
-1  2024-05-21    MLB      3.001702  ...    8.5  LA Angels     Houston
-2  2024-05-21    MLB      5.533333  ...    6.5   Colorado     Oakland
-3  2024-05-21    MLB      4.666667  ...    8.5    Arizona  LA Dodgers
+0  2024-05-22    NBA      3.175000  ...  208.0     Dallas   Minnesota
+1  2024-05-22    MLB      0.142857  ...   12.5    Arizona  LA Dodgers
 
-[4 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions
