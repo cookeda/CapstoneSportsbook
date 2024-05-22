@@ -15,6 +15,7 @@
         },
         "Odds Table": {
             "Away Spread": "+4.5 (ESPN)",
+<<<<<<< HEAD
             "Away Spread Odds": "+100 (Bovada)",
             "Away ML": "+160 (Bovada)",
             "Home Spread": "-4.0 (Bovada)",
@@ -23,6 +24,16 @@
             "Total": "208.0 (Bovada)",
             "Over Total Odds": "-110 (ESPN)",
             "Under Total Odds": "-110 (ESPN)"
+=======
+            "Away Spread Odds": "-105 (ESPN)",
+            "Away ML": "+165 (Bovada)",
+            "Home Spread": "-4.5 (ESPN)",
+            "Home Spread Odds": "−108 (DK)",
+            "Home ML": "-185 (ESPN)",
+            "Total": "207 (DK)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-105 (ESPN)"
+>>>>>>> b63b6fe5257f459c8bb056335b0bacc21ce26bfb
         }
     }
 ]
