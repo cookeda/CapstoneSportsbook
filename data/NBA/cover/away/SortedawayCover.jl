@@ -20,8 +20,8 @@
 {"Team": "Golden State", "Cover %": "64.3%"} 3.9
 {"Team": "Houston", "Cover %": "45.0%"} -3.1
 {"Team": "Houston", "Cover %": "45.0%"} -3.1
-{"Team": "Indiana", "Cover %": "52.2%"} -1.7
-{"Team": "Indiana", "Cover %": "52.2%"} -1.7
+{"Team": "Indiana", "Cover %": "53.2%"} -1.8
+{"Team": "Indiana", "Cover %": "53.2%"} -1.8
 {"Team": "LA Clippers", "Cover %": "47.7%"} 2.9
 {"Team": "LA Clippers", "Cover %": "47.7%"} 2.9
 {"Team": "LA Lakers", "Cover %": "47.7%"} -3.4

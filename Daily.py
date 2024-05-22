@@ -47,6 +47,10 @@ def main():
         subprocess.run(['python', 'SuccessData.py'], stdout=f)
     os.chdir("../Results")
     subprocess.run(['python', 'summary.py'])
+    # subprocess.run(['python', 'script.py'])
+
+    # os.chdir('../OddsHistory/History')
+    # subprocess.run(['python', 'sorting_algorithm.py'], stdout=open('../../Results/xHitRate.txt', 'w', encoding='utf-8'))
 
     # Capture end time
     end_time = datetime.now()
