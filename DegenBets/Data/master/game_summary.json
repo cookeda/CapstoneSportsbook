@@ -55,18 +55,18 @@
         "cover_grade": 1,
         "total_rating": -2
     },
-    "486a5e3b_9666114b_MLB": {
-        "team_to_cover": "Pittsburgh",
-        "cover_rating": 9.9,
-        "over_score": 5.7,
-        "cover_grade": 3,
-        "total_rating": -3
-    },
     "e841daaf_fe2ec146_MLB": {
         "team_to_cover": "Philadelphia",
         "cover_rating": 1.4,
         "over_score": 5.7,
         "cover_grade": 1,
+        "total_rating": -3
+    },
+    "486a5e3b_9666114b_MLB": {
+        "team_to_cover": "Pittsburgh",
+        "cover_rating": 9.9,
+        "over_score": 5.7,
+        "cover_grade": 3,
         "total_rating": -3
     },
     "8a2d1e91_16f4bf06_MLB": {
@@ -85,9 +85,9 @@
     },
     "ea799920_8714ddbe_MLB": {
         "team_to_cover": "Toronto",
-        "cover_rating": 3.7,
-        "over_score": 4.9,
-        "cover_grade": 2,
+        "cover_rating": 5.7,
+        "over_score": 3.9,
+        "cover_grade": 3,
         "total_rating": -1
     },
     "354ef58_d10f1db8_MLB": {
@@ -108,7 +108,7 @@
         "team_to_cover": "LA Dodgers",
         "cover_rating": 5.4,
         "over_score": 5.8,
-        "cover_grade": 3,
+        "cover_grade": 2,
         "total_rating": -3
     }
 }
