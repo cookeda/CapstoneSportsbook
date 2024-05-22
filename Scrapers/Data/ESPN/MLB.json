@@ -1,108 +1,18 @@
 [
     [
         {
-            "BetTableId": "ESPN_300faa7b_6424b504_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-2.5",
-                "Away Spread Odds": "-375",
-                "Away ML": "-4000",
-                "Home Spread": "+2.5",
-                "Home Spread Odds": "+260",
-                "Home ML": "+1500",
-                "Total": "99",
-                "Over Total Odds": "-999",
-                "Under Total Odds": "-999"
-            },
-            "MatchupID": "300faa7b_6424b504_MLB",
-            "Info Table": {
-                "Away Team": "SEA Mariners",
-                "Away Team Rank Name": "Seattle",
-                "Away Abv": "SEA",
-                "Away ID": "300faa7b",
-                "Home Team": "NY Yankees",
-                "Home Team Rank Name": "NY Yankees",
-                "Home Abv": "NYY",
-                "Home ID": "6424b504",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_354ef58_d10f1db8_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+100",
-                "Away ML": "-190",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "-130",
-                "Home ML": "+150",
-                "Total": "10.5",
-                "Over Total Odds": "-130",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "354ef58_d10f1db8_MLB",
-            "Info Table": {
-                "Away Team": "ATL Braves",
-                "Away Team Rank Name": "Atlanta",
-                "Away Abv": "ATL",
-                "Away ID": "354ef58",
-                "Home Team": "CHI Cubs",
-                "Home Team Rank Name": "Chi Cubs",
-                "Home Abv": "CHC",
-                "Home ID": "d10f1db8",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_18a9d733_db2ee960_MLB",
+            "BetTableId": "ESPN_fe8acdeb_4005c299_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-999",
                 "Away Spread Odds": "-999",
-                "Away ML": "-999",
+                "Away ML": "+170",
                 "Home Spread": "-999",
                 "Home Spread Odds": "-999",
-                "Home ML": "-999",
+                "Home ML": "-220",
                 "Total": "99",
                 "Over Total Odds": "-999",
                 "Under Total Odds": "-999"
-            },
-            "MatchupID": "18a9d733_db2ee960_MLB",
-            "Info Table": {
-                "Away Team": "DET Tigers",
-                "Away Team Rank Name": "Detroit",
-                "Away Abv": "DET",
-                "Away ID": "18a9d733",
-                "Home Team": "KC Royals",
-                "Home Team Rank Name": "Kansas City",
-                "Home Abv": "KC",
-                "Home ID": "db2ee960",
-                "Start Time": "Interrupted",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_fe8acdeb_4005c299_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-220",
-                "Away ML": "+170",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+170",
-                "Home ML": "-220",
-                "Total": "11.5",
-                "Over Total Odds": "+120",
-                "Under Total Odds": "-150"
             },
             "MatchupID": "fe8acdeb_4005c299_MLB",
             "Info Table": {
@@ -124,15 +34,15 @@
             "BetTableId": "ESPN_8f2512bc_8b214a89_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "-2.5",
-                "Away Spread Odds": "+120",
-                "Away ML": "-250",
-                "Home Spread": "+2.5",
-                "Home Spread Odds": "-150",
-                "Home ML": "+190",
-                "Total": "9.5",
-                "Over Total Odds": "+120",
-                "Under Total Odds": "-150"
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "-140",
+                "Away ML": "-400",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "+110",
+                "Home ML": "+280",
+                "Total": "6.5",
+                "Over Total Odds": "-150",
+                "Under Total Odds": "+120"
             },
             "MatchupID": "8f2512bc_8b214a89_MLB",
             "Info Table": {
@@ -154,15 +64,15 @@
             "BetTableId": "ESPN_2b1ac347_4e2f3aa1_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-145",
-                "Away ML": "+140",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+125",
-                "Home ML": "-165",
-                "Total": "8.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Away Spread": "-2.5",
+                "Away Spread Odds": "+110",
+                "Away ML": "-300",
+                "Home Spread": "+2.5",
+                "Home Spread Odds": "-140",
+                "Home ML": "+220",
+                "Total": "7.5",
+                "Over Total Odds": "-130",
+                "Under Total Odds": "+100"
             },
             "MatchupID": "2b1ac347_4e2f3aa1_MLB",
             "Info Table": {
@@ -174,7 +84,7 @@
                 "Home Team Rank Name": "LA Dodgers",
                 "Home Abv": "LAD",
                 "Home ID": "4e2f3aa1",
-                "Start Time": "Today \u00b7 10:10 PM",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
