@@ -1,66 +1,6 @@
 [
     [
         {
-            "BetTableId": "ESPN_f5328492_dd4357ee_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+160",
-                "Away ML": "-260",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "-200",
-                "Home ML": "+200",
-                "Total": "5.5",
-                "Over Total Odds": "+120",
-                "Under Total Odds": "-150"
-            },
-            "MatchupID": "f5328492_dd4357ee_MLB",
-            "Info Table": {
-                "Away Team": "MIN Twins",
-                "Away Team Rank Name": "Minnesota",
-                "Away Abv": "MIN",
-                "Away ID": "f5328492",
-                "Home Team": "WSH Nationals",
-                "Home Team Rank Name": "Washington",
-                "Home Abv": "WSH",
-                "Home ID": "dd4357ee",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_c625b23e_5a31e1ff_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-400",
-                "Away ML": "+125",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+280",
-                "Home ML": "-160",
-                "Total": "8.5",
-                "Over Total Odds": "-130",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "c625b23e_5a31e1ff_MLB",
-            "Info Table": {
-                "Away Team": "NY Mets",
-                "Away Team Rank Name": "NY Mets",
-                "Away Abv": "NYM",
-                "Away ID": "c625b23e",
-                "Home Team": "CLE Guardians",
-                "Home Team Rank Name": "Cleveland",
-                "Home Abv": "CLE",
-                "Home ID": "5a31e1ff",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "ESPN_e8bdce10_ccadb94e_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
@@ -84,7 +24,7 @@
                 "Home Team Rank Name": "St. Louis",
                 "Home Abv": "STL",
                 "Home ID": "ccadb94e",
-                "Start Time": "Mid 4th",
+                "Start Time": "Interrupted",
                 "League": "MLB"
             }
         }
@@ -94,15 +34,15 @@
             "BetTableId": "ESPN_fe8acdeb_4005c299_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-150",
-                "Away ML": "+170",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+120",
-                "Home ML": "-220",
-                "Total": "5.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-130"
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "-999",
+                "Home ML": "-999",
+                "Total": "99",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
             },
             "MatchupID": "fe8acdeb_4005c299_MLB",
             "Info Table": {
@@ -125,14 +65,14 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "+110",
-                "Away ML": "+280",
+                "Away Spread Odds": "+140",
+                "Away ML": "+475",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "-140",
-                "Home ML": "-400",
-                "Total": "6.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-115"
+                "Home Spread Odds": "-180",
+                "Home ML": "-800",
+                "Total": "7.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-120"
             },
             "MatchupID": "18a9d733_db2ee960_MLB",
             "Info Table": {
@@ -155,11 +95,11 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+135",
-                "Away ML": "-135",
+                "Away Spread Odds": "+140",
+                "Away ML": "-130",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-160",
-                "Home ML": "+115",
+                "Home Spread Odds": "-165",
+                "Home ML": "+110",
                 "Total": "6.5",
                 "Over Total Odds": "-125",
                 "Under Total Odds": "+105"
@@ -215,10 +155,10 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-175",
+                "Away Spread Odds": "-180",
                 "Away ML": "+105",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+145",
+                "Home Spread Odds": "+150",
                 "Home ML": "-125",
                 "Total": "9.5",
                 "Over Total Odds": "-125",
@@ -275,11 +215,11 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-190",
-                "Away ML": "+115",
+                "Away Spread Odds": "-175",
+                "Away ML": "+120",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+160",
-                "Home ML": "-135",
+                "Home Spread Odds": "+145",
+                "Home ML": "-140",
                 "Total": "7.5",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
@@ -311,8 +251,8 @@
                 "Home Spread Odds": "+130",
                 "Home ML": "-165",
                 "Total": "8.5",
-                "Over Total Odds": "+110",
-                "Under Total Odds": "-130"
+                "Over Total Odds": "+105",
+                "Under Total Odds": "-125"
             },
             "MatchupID": "300faa7b_6424b504_MLB",
             "Info Table": {
@@ -341,8 +281,8 @@
                 "Home Spread Odds": "-120",
                 "Home ML": "-240",
                 "Total": "8.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "+105",
+                "Under Total Odds": "-125"
             },
             "MatchupID": "ea799920_8714ddbe_MLB",
             "Info Table": {
@@ -425,14 +365,14 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+2.5",
-                "Away Spread Odds": "-130",
+                "Away Spread Odds": "-135",
                 "Away ML": "+240",
                 "Home Spread": "-2.5",
-                "Home Spread Odds": "+110",
+                "Home Spread Odds": "+115",
                 "Home ML": "-290",
-                "Total": "7.5",
-                "Over Total Odds": "-125",
-                "Under Total Odds": "+105"
+                "Total": "8.5",
+                "Over Total Odds": "+110",
+                "Under Total Odds": "-130"
             },
             "MatchupID": "2b1ac347_4e2f3aa1_MLB",
             "Info Table": {
