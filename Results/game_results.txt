@@ -1,28 +1,28 @@
 Indiana @ Boston (NBA): Cover Rating - 2.8, Over Score - 5.7
 Bet on Boston to cover the spread.
-Colorado @ Oakland (MLB): Cover Rating - 0.8, Over Score - 5.8
+Colorado @ Oakland (MLB): Cover Rating - 3.0, Over Score - 8.8
 Bet on Colorado to cover the spread.
-Toronto @ Detroit (MLB): Cover Rating - 0.1, Over Score - 5.3
+Toronto @ Detroit (MLB): Cover Rating - 3.1, Over Score - 5.3
 Bet on Detroit to cover the spread.
-Baltimore @ Chi Sox (MLB): Cover Rating - 1.5, Over Score - 5.4
+Baltimore @ Chi Sox (MLB): Cover Rating - 4.5, Over Score - 5.4
 Bet on Chi Sox to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
+Baltimore @ Chi Sox (MLB): Cover Rating - 4.5, Bet on Chi Sox to cover the spread.
+Toronto @ Detroit (MLB): Cover Rating - 3.1, Bet on Detroit to cover the spread.
+Colorado @ Oakland (MLB): Cover Rating - 3.0, Bet on Colorado to cover the spread.
 Indiana @ Boston (NBA): Cover Rating - 2.8, Bet on Boston to cover the spread.
-Baltimore @ Chi Sox (MLB): Cover Rating - 1.5, Bet on Chi Sox to cover the spread.
-Colorado @ Oakland (MLB): Cover Rating - 0.8, Bet on Colorado to cover the spread.
-Toronto @ Detroit (MLB): Cover Rating - 0.1, Bet on Detroit to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Colorado @ Oakland (MLB): Over Score - 5.8
+Colorado @ Oakland (MLB): Over Score - 8.8
 Indiana @ Boston (NBA): Over Score - 5.7
 Baltimore @ Chi Sox (MLB): Over Score - 5.4
 Toronto @ Detroit (MLB): Over Score - 5.3
          date league  cover_rating  ...  total  home_team  away_team
 0  2024-05-23    NBA      2.800000  ...  225.0    Indiana     Boston
-1  2024-05-23    MLB      0.828571  ...    6.5   Colorado    Oakland
-2  2024-05-23    MLB      0.133333  ...    7.5    Toronto    Detroit
-3  2024-05-23    MLB      1.533333  ...    8.5  Baltimore    Chi Sox
+1  2024-05-23    MLB      2.999399  ...    8.5   Colorado    Oakland
+2  2024-05-23    MLB      3.133333  ...    7.5    Toronto    Detroit
+3  2024-05-23    MLB      4.533333  ...    8.0  Baltimore    Chi Sox
 
 [4 rows x 10 columns]
 Avoided Overriding DailyPredictions
