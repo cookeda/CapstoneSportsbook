@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "Bovada_486a5e3b_9666114b_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-800",
-                "Away ML": "-20000",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+475",
-                "Home ML": "+1900",
-                "Total": "14.5",
-                "Over Total Odds": "+260",
-                "Under Total Odds": "-375"
-            },
-            "MatchupID": "486a5e3b_9666114b_MLB",
-            "Info Table": {
-                "Away Team": "San Francisco Giants",
-                "Away Team Rank Name": "SF Giants",
-                "Away Abv": "SF",
-                "Away ID": "486a5e3b",
-                "Home Team": "Pittsburgh Pirates",
-                "Home Team Rank Name": "Pittsburgh",
-                "Home Abv": "PIT",
-                "Home ID": "9666114b",
-                "Start Time": "Extra",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_8f2512bc_8b214a89_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "-130",
-                "Away ML": "-230",
+                "Away Spread Odds": "+135",
+                "Away ML": "-205",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+100",
-                "Home ML": "+175",
-                "Total": "9.0",
-                "Over Total Odds": "+260",
-                "Under Total Odds": "-110"
+                "Home Spread Odds": "-175",
+                "Home ML": "+155",
+                "Total": "6.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-125"
             },
             "MatchupID": "8f2512bc_8b214a89_MLB",
             "Info Table": {
@@ -54,7 +24,7 @@
                 "Home Team Rank Name": "Oakland",
                 "Home Abv": "OAK",
                 "Home ID": "8b214a89",
-                "Start Time": "Top 2",
+                "Start Time": "Top 6",
                 "League": "MLB"
             }
         }
@@ -65,14 +35,14 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "+135",
-                "Away ML": "+255",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "-160",
-                "Home ML": "-320",
-                "Total": "7.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "+100"
+                "Away Spread Odds": "-125",
+                "Away ML": "+200",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "-105",
+                "Home ML": "-275",
+                "Total": "5.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-125"
             },
             "MatchupID": "2b1ac347_4e2f3aa1_MLB",
             "Info Table": {
@@ -84,7 +54,7 @@
                 "Home Team Rank Name": "LA Dodgers",
                 "Home Abv": "LAD",
                 "Home ID": "4e2f3aa1",
-                "Start Time": "10:10 PM",
+                "Start Time": "Bot 3",
                 "League": "MLB"
             }
         }

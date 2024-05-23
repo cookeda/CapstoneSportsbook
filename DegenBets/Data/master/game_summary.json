@@ -1,30 +1,23 @@
 {
     "48eb7bb_f5328492_NBA": {
         "team_to_cover": "Dallas",
-        "cover_rating": 2.1,
-        "over_score": 5.3,
+        "cover_rating": 4.2,
+        "over_score": 5.8,
         "cover_grade": 2,
-        "total_rating": -3
-    },
-    "486a5e3b_9666114b_MLB": {
-        "team_to_cover": "Pittsburgh",
-        "cover_rating": 3.0,
-        "over_score": 8.7,
-        "cover_grade": 3,
-        "total_rating": 0
-    },
-    "8f2512bc_8b214a89_MLB": {
-        "team_to_cover": "Colorado",
-        "cover_rating": 5.5,
-        "over_score": 5.0,
-        "cover_grade": 0,
         "total_rating": -2
     },
-    "629b9e5b_629b9e5b_MLB": {
-        "team_to_cover": "Unknown",
-        "cover_rating": 2.0,
-        "over_score": 4.0,
+    "8f2512bc_8b214a89_MLB": {
+        "team_to_cover": "Oakland",
+        "cover_rating": 4.5,
+        "over_score": 6.0,
+        "cover_grade": 0,
+        "total_rating": 0
+    },
+    "2b1ac347_4e2f3aa1_MLB": {
+        "team_to_cover": "LA Dodgers",
+        "cover_rating": 3.4,
+        "over_score": 5.8,
         "cover_grade": 1,
-        "total_rating": -1
+        "total_rating": -2
     }
 }
