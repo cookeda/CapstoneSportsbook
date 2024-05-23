@@ -2,7 +2,7 @@ Indiana @ Boston (NBA): Cover Rating - 2.8, Over Score - 5.7
 Bet on Boston to cover the spread.
 Seattle @ NY Yankees (MLB): Cover Rating - 4.1, Over Score - 5.2
 Bet on Seattle to cover the spread.
-SF Giants @ Pittsburgh (MLB): Cover Rating - 4.4, Over Score - 4.8
+SF Giants @ Pittsburgh (MLB): Cover Rating - 4.4, Over Score - 5.8
 Bet on SF Giants to cover the spread.
 Texas @ Philadelphia (MLB): Cover Rating - 0.4, Over Score - 5.8
 Bet on Texas to cover the spread.
@@ -29,6 +29,7 @@ Baltimore @ Chi Sox (MLB): Cover Rating - 0.5, Bet on Baltimore to cover the spr
 Texas @ Philadelphia (MLB): Cover Rating - 0.4, Bet on Texas to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
+SF Giants @ Pittsburgh (MLB): Over Score - 5.8
 Colorado @ Oakland (MLB): Over Score - 5.8
 Texas @ Philadelphia (MLB): Over Score - 5.8
 Indiana @ Boston (NBA): Over Score - 5.7
@@ -36,11 +37,10 @@ San Diego @ Cincinnati (MLB): Over Score - 5.4
 Baltimore @ Chi Sox (MLB): Over Score - 5.4
 Toronto @ Detroit (MLB): Over Score - 5.3
 Seattle @ NY Yankees (MLB): Over Score - 5.2
-SF Giants @ Pittsburgh (MLB): Over Score - 4.8
 Atlanta @ Chi Cubs (MLB): Over Score - 4.7
          date league  cover_rating  ...  total  home_team     away_team
 0  2024-05-23    NBA      2.800000  ...  224.5    Indiana        Boston
-1  2024-05-23    MLB      4.133333  ...    8.0    Seattle    NY Yankees
+1  2024-05-23    MLB      4.133333  ...    7.5    Seattle    NY Yankees
 2  2024-05-23    MLB      4.400000  ...    8.0  SF Giants    Pittsburgh
 3  2024-05-23    MLB      0.400000  ...    8.0      Texas  Philadelphia
 4  2024-05-23    MLB      3.000000  ...    9.5  San Diego    Cincinnati
