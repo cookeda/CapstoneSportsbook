@@ -1,23 +1,23 @@
-Dallas @ Minnesota (NBA): Cover Rating - 4.2, Over Score - 5.8
-Bet on Dallas to cover the spread.
-Colorado @ Oakland (MLB): Cover Rating - 4.5, Over Score - 6.0
-Bet on Oakland to cover the spread.
-Arizona @ LA Dodgers (MLB): Cover Rating - 3.4, Over Score - 5.8
+Indiana @ Boston (NBA): Cover Rating - 2.8, Over Score - 5.7
+Bet on Boston to cover the spread.
+Colorado @ Oakland (MLB): Cover Rating - 3.0, Over Score - 9.0
+Bet on Colorado to cover the spread.
+Arizona @ LA Dodgers (MLB): Cover Rating - 4.7, Over Score - 5.8
 Bet on LA Dodgers to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Colorado @ Oakland (MLB): Cover Rating - 4.5, Bet on Oakland to cover the spread.
-Dallas @ Minnesota (NBA): Cover Rating - 4.2, Bet on Dallas to cover the spread.
-Arizona @ LA Dodgers (MLB): Cover Rating - 3.4, Bet on LA Dodgers to cover the spread.
+Arizona @ LA Dodgers (MLB): Cover Rating - 4.7, Bet on LA Dodgers to cover the spread.
+Colorado @ Oakland (MLB): Cover Rating - 3.0, Bet on Colorado to cover the spread.
+Indiana @ Boston (NBA): Cover Rating - 2.8, Bet on Boston to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Colorado @ Oakland (MLB): Over Score - 6.0
-Dallas @ Minnesota (NBA): Over Score - 5.8
+Colorado @ Oakland (MLB): Over Score - 9.0
 Arizona @ LA Dodgers (MLB): Over Score - 5.8
+Indiana @ Boston (NBA): Over Score - 5.7
          date league  cover_rating  ...  total  home_team   away_team
-0  2024-05-22    NBA      4.188889  ...  216.5     Dallas   Minnesota
-1  2024-05-22    MLB      4.533333  ...    6.5   Colorado     Oakland
-2  2024-05-22    MLB      3.400000  ...    5.5    Arizona  LA Dodgers
+0  2024-05-23    NBA      2.800000  ...  224.5    Indiana      Boston
+1  2024-05-23    MLB      2.999199  ...    8.0   Colorado     Oakland
+2  2024-05-23    MLB      4.742857  ...    6.5    Arizona  LA Dodgers
 
 [3 rows x 10 columns]
 Avoided Overriding DailyPredictions
