@@ -28841,3 +28841,45 @@ Sorting complete.
 Script started at: 2024-05-24 03:00:01.632192
 Script ended at: 2024-05-24 03:01:10.469833
 Total execution time: 0:01:08.837641
+[main ca97ccb1] Automated Server Update
+ 13 files changed, 531 insertions(+), 448 deletions(-)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   716d9d09..ca97ccb1  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/14 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:00<00:05,  2.28it/s] 14%|█▍        | 2/14 [00:00<00:04,  2.52it/s] 21%|██▏       | 3/14 [00:01<00:04,  2.67it/s] 29%|██▊       | 4/14 [00:01<00:03,  2.74it/s] 36%|███▌      | 5/14 [00:01<00:03,  2.78it/s] 43%|████▎     | 6/14 [00:02<00:02,  2.81it/s] 50%|█████     | 7/14 [00:02<00:02,  2.81it/s]100%|██████████| 1/1 [00:02<00:00,  2.46s/it]100%|██████████| 1/1 [00:02<00:00,  2.46s/it]
+ 57%|█████▋    | 8/14 [00:02<00:02,  2.78it/s] 64%|██████▍   | 9/14 [00:03<00:01,  2.80it/s] 71%|███████▏  | 10/14 [00:03<00:01,  2.80it/s] 79%|███████▊  | 11/14 [00:03<00:01,  2.82it/s] 86%|████████▌ | 12/14 [00:04<00:00,  2.83it/s] 93%|█████████▎| 13/14 [00:04<00:00,  2.82it/s]100%|██████████| 14/14 [00:05<00:00,  2.82it/s]100%|██████████| 14/14 [00:05<00:00,  2.77it/s]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/14 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:01<00:20,  1.58s/it]  7%|▋         | 1/14 [00:00<00:07,  1.76it/s]  0%|          | 0/1 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s] 14%|█▍        | 2/14 [00:02<00:11,  1.02it/s] 14%|█▍        | 2/14 [00:01<00:06,  1.95it/s]100%|██████████| 1/1 [00:00<00:00,  1.81it/s]100%|██████████| 1/1 [00:00<00:00,  1.81it/s]
+ 21%|██▏       | 3/14 [00:02<00:08,  1.31it/s]100%|██████████| 1/1 [00:00<00:00,  1.77it/s]100%|██████████| 1/1 [00:00<00:00,  1.77it/s]
+ 21%|██▏       | 3/14 [00:01<00:05,  2.07it/s] 29%|██▊       | 4/14 [00:03<00:06,  1.52it/s] 29%|██▊       | 4/14 [00:01<00:04,  2.27it/s] 36%|███▌      | 5/14 [00:03<00:05,  1.71it/s] 36%|███▌      | 5/14 [00:02<00:04,  2.10it/s] 43%|████▎     | 6/14 [00:04<00:04,  1.85it/s] 50%|█████     | 7/14 [00:04<00:03,  1.96it/s] 57%|█████▋    | 8/14 [00:04<00:02,  2.06it/s] 64%|██████▍   | 9/14 [00:05<00:02,  2.13it/s] 71%|███████▏  | 10/14 [00:05<00:01,  2.19it/s] 79%|███████▊  | 11/14 [00:06<00:01,  2.23it/s] 86%|████████▌ | 12/14 [00:06<00:00,  2.25it/s] 93%|█████████▎| 13/14 [00:07<00:00,  2.25it/s]100%|██████████| 14/14 [00:07<00:00,  2.22it/s]100%|██████████| 14/14 [00:07<00:00,  1.85it/s]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+ 43%|████▎     | 6/14 [00:15<00:38,  4.84s/it] 50%|█████     | 7/14 [00:16<00:24,  3.49s/it] 57%|█████▋    | 8/14 [00:17<00:15,  2.60s/it] 64%|██████▍   | 9/14 [00:17<00:09,  1.91s/it] 71%|███████▏  | 10/14 [00:17<00:05,  1.43s/it] 79%|███████▊  | 11/14 [00:18<00:03,  1.11s/it] 86%|████████▌ | 12/14 [00:18<00:01,  1.13it/s] 93%|█████████▎| 13/14 [00:44<00:08,  8.48s/it]100%|██████████| 14/14 [01:10<00:00, 13.77s/it]100%|██████████| 14/14 [01:10<00:00,  5.04s/it]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID 300faa7b_dd4357ee_MLB
+Warning: No game summary found for matchup ID Unknown_Unknown_MLB
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-24 04:00:01.727532
+Script ended at: 2024-05-24 04:01:36.254297
+Total execution time: 0:01:34.526765
