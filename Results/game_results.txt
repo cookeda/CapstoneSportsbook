@@ -2,6 +2,8 @@ Dallas @ Minnesota (NBA): Cover Rating - 3.7, Over Score - 5.4
 Bet on Dallas to cover the spread.
 Toronto @ Detroit (MLB): Cover Rating - 3.1, Over Score - 5.3
 Bet on Detroit to cover the spread.
+Kansas City @ Tampa Bay (MLB): Cover Rating - 2.3, Over Score - 5.2
+Bet on Tampa Bay to cover the spread.
 LA Dodgers @ Cincinnati (MLB): Cover Rating - 0.9, Over Score - 5.2
 Bet on Cincinnati to cover the spread.
 Milwaukee @ Boston (MLB): Cover Rating - 6.7, Over Score - 5.2
@@ -34,6 +36,7 @@ Baltimore @ Chi Sox (MLB): Cover Rating - 4.5, Bet on Chi Sox to cover the sprea
 Dallas @ Minnesota (NBA): Cover Rating - 3.7, Bet on Dallas to cover the spread.
 Chi Cubs @ St. Louis (MLB): Cover Rating - 3.3, Bet on St. Louis to cover the spread.
 Toronto @ Detroit (MLB): Cover Rating - 3.1, Bet on Detroit to cover the spread.
+Kansas City @ Tampa Bay (MLB): Cover Rating - 2.3, Bet on Tampa Bay to cover the spread.
 Cleveland @ LA Angels (MLB): Cover Rating - 2.3, Bet on LA Angels to cover the spread.
 NY Yankees @ San Diego (MLB): Cover Rating - 2.0, Bet on San Diego to cover the spread.
 LA Dodgers @ Cincinnati (MLB): Cover Rating - 0.9, Bet on Cincinnati to cover the spread.
@@ -52,22 +55,24 @@ Texas @ Minnesota (MLB): Over Score - 5.4
 Houston @ Oakland (MLB): Over Score - 5.3
 Toronto @ Detroit (MLB): Over Score - 5.3
 LA Dodgers @ Cincinnati (MLB): Over Score - 5.2
+Kansas City @ Tampa Bay (MLB): Over Score - 5.2
 Milwaukee @ Boston (MLB): Over Score - 5.2
 Chi Cubs @ St. Louis (MLB): Over Score - 5.2
           date league  cover_rating  ...  total     home_team   away_team
-0   2024-05-23    NBA      3.727273  ...  207.5        Dallas   Minnesota
-1   2024-05-23    MLB      3.133333  ...    8.5       Toronto     Detroit
-2   2024-05-23    MLB      0.933333  ...   10.0    LA Dodgers  Cincinnati
-3   2024-05-23    MLB      6.733333  ...    9.0     Milwaukee      Boston
-4   2024-05-23    MLB      0.600000  ...    8.5         Texas   Minnesota
-5   2024-05-23    MLB      5.066667  ...    7.5     SF Giants     NY Mets
-6   2024-05-23    MLB      4.533333  ...    8.0     Baltimore     Chi Sox
-7   2024-05-23    MLB      3.266667  ...    7.5      Chi Cubs   St. Louis
-8   2024-05-23    MLB      0.866667  ...   10.5  Philadelphia    Colorado
-9   2024-05-23    MLB      2.266667  ...    8.0     Cleveland   LA Angels
-10  2024-05-23    MLB      5.866667  ...    8.0         Miami     Arizona
-11  2024-05-23    MLB      2.000000  ...    7.5    NY Yankees   San Diego
-12  2024-05-23    MLB     11.800000  ...    8.0       Houston     Oakland
+0   2024-05-24    NBA      3.727273  ...  207.5        Dallas   Minnesota
+1   2024-05-24    MLB      3.133333  ...    8.5       Toronto     Detroit
+2   2024-05-24    MLB      2.333333  ...    8.0   Kansas City   Tampa Bay
+3   2024-05-24    MLB      0.933333  ...   10.0    LA Dodgers  Cincinnati
+4   2024-05-24    MLB      6.733333  ...    9.5     Milwaukee      Boston
+5   2024-05-24    MLB      0.600000  ...    8.5         Texas   Minnesota
+6   2024-05-24    MLB      5.066667  ...    7.5     SF Giants     NY Mets
+7   2024-05-24    MLB      4.533333  ...    8.0     Baltimore     Chi Sox
+8   2024-05-24    MLB      3.266667  ...    7.5      Chi Cubs   St. Louis
+9   2024-05-24    MLB      0.866667  ...   10.5  Philadelphia    Colorado
+10  2024-05-24    MLB      2.266667  ...    8.0     Cleveland   LA Angels
+11  2024-05-24    MLB      5.866667  ...    8.0         Miami     Arizona
+12  2024-05-24    MLB      2.000000  ...    7.5    NY Yankees   San Diego
+13  2024-05-24    MLB     11.800000  ...    8.5       Houston     Oakland
 
-[13 rows x 10 columns]
+[14 rows x 10 columns]
 Avoided Overriding DailyPredictions
