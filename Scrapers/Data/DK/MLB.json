@@ -35,14 +35,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+136",
-                "Away ML": "−115",
+                "Away Spread Odds": "+140",
+                "Away ML": "−110",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "−175",
-                "Home ML": "−105",
+                "Home ML": "−110",
                 "Total": "8",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
             "MatchupID": "db2ee960_16f4bf06_MLB",
             "Info Table": {
@@ -101,8 +101,8 @@
                 "Home Spread Odds": "−175",
                 "Home ML": "−130",
                 "Total": "9.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
             },
             "MatchupID": "c5227021_8a2d1e91_MLB",
             "Info Table": {
@@ -131,8 +131,8 @@
                 "Home Spread Odds": "−175",
                 "Home ML": "−155",
                 "Total": "8.5",
-                "Over Total Odds": "−108",
-                "Under Total Odds": "−112"
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "e841daaf_f5328492_MLB",
             "Info Table": {
@@ -191,8 +191,8 @@
                 "Home Spread Odds": "−175",
                 "Home ML": "+210",
                 "Total": "8",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "e8bdce10_ea799920_MLB",
             "Info Table": {
@@ -275,11 +275,11 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+150",
-                "Away ML": "−108",
+                "Away Spread Odds": "+154",
+                "Away ML": "−105",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "−175",
-                "Home ML": "−112",
+                "Home ML": "−115",
                 "Total": "8",
                 "Over Total Odds": "−112",
                 "Under Total Odds": "−108"
@@ -295,6 +295,36 @@
                 "Home Abv": "LAA",
                 "Home ID": "fe8acdeb",
                 "Start Time": "9:38PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_6424b504_3f4235d4_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+150",
+                "Away ML": "−118",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−175",
+                "Home ML": "+102",
+                "Total": "7.5",
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
+            },
+            "MatchupID": "6424b504_3f4235d4_MLB",
+            "Info Table": {
+                "Away Team": "NY Yankees",
+                "Away Team Rank Name": "NY Yankees",
+                "Away Abv": "NYY",
+                "Away ID": "6424b504",
+                "Home Team": "SD Padres",
+                "Home Team Rank Name": "San Diego",
+                "Home Abv": "SD",
+                "Home ID": "3f4235d4",
+                "Start Time": "9:40PM",
                 "League": "MLB"
             }
         }
@@ -331,36 +361,6 @@
     ],
     [
         {
-            "BetTableId": "DK_6424b504_3f4235d4_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+145",
-                "Away ML": "−122",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "+102",
-                "Total": "7.5",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
-            },
-            "MatchupID": "6424b504_3f4235d4_MLB",
-            "Info Table": {
-                "Away Team": "NY Yankees",
-                "Away Team Rank Name": "NY Yankees",
-                "Away Abv": "NYY",
-                "Away ID": "6424b504",
-                "Home Team": "SD Padres",
-                "Home Team Rank Name": "San Diego",
-                "Home Abv": "SD",
-                "Home ID": "3f4235d4",
-                "Start Time": "9:40PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_4005c299_8b214a89_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -371,8 +371,8 @@
                 "Home Spread Odds": "−175",
                 "Home ML": "+145",
                 "Total": "8.5",
-                "Over Total Odds": "−102",
-                "Under Total Odds": "−118"
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−115"
             },
             "MatchupID": "4005c299_8b214a89_MLB",
             "Info Table": {
