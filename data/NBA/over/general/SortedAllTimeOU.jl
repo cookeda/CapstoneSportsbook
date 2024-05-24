@@ -1,7 +1,7 @@
 {"Team": "Atlanta", "Over %": "50.9%"} 49.1%
 {"Team": "Atlanta", "Over %": "50.9%"} 49.1%
-{"Team": "Boston", "Over %": "49.8%"} 50.2%
-{"Team": "Boston", "Over %": "49.8%"} 50.2%
+{"Team": "Boston", "Over %": "49.9%"} 50.1%
+{"Team": "Boston", "Over %": "49.9%"} 50.1%
 {"Team": "Brooklyn", "Over %": "49.0%"} 51.1%
 {"Team": "Brooklyn", "Over %": "49.0%"} 51.1%
 {"Team": "Charlotte", "Over %": "49.8%"} 50.2%
