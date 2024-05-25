@@ -1,19 +1,20 @@
 [
     {
-        "MatchupID": "48eb7bb_f5328492_NBA",
+        "MatchupID": "8a2d1e91_dc435e0a_NBA",
         "Info Table": {
-            "Away Team": "DAL Mavericks",
-            "Away Team Rank Name": "Dallas",
-            "Away Abv": "DAL",
-            "Away ID": "48eb7bb",
-            "Home Team": "MIN Timberwolves",
-            "Home Team Rank Name": "Minnesota",
-            "Home Abv": "MIN",
-            "Home ID": "f5328492",
+            "Away Team": "BOS Celtics",
+            "Away Team Rank Name": "Boston",
+            "Away Abv": "BOS",
+            "Away ID": "8a2d1e91",
+            "Home Team": "IND Pacers",
+            "Home Team Rank Name": "Indiana",
+            "Home Abv": "IND",
+            "Home ID": "dc435e0a",
             "Start Time": "Today · 8:30 PM",
             "League": "NBA"
         },
         "Odds Table": {
+<<<<<<< HEAD
             "Away Spread": "+6.0 (Bovada)",
             "Away Spread Odds": "-105 (ESPN)",
             "Away ML": "+195 (Bovada)",
@@ -23,6 +24,17 @@
             "Total": "208.0 (Bovada)",
             "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "-105 (ESPN)"
+=======
+            "Away Spread": "-7 (DK)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "-250 (ESPN)",
+            "Home Spread": "+7.5 (ESPN)",
+            "Home Spread Odds": "-110 (ESPN)",
+            "Home ML": "+230 (Bovada)",
+            "Total": "222.5 (ESPN)",
+            "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-105 (Bovada)"
+>>>>>>> d332eb2a0b2cc835d95287fc0ba52dc976f0337c
         }
     }
 ]
