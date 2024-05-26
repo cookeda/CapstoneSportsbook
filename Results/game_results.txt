@@ -1,38 +1,33 @@
-Boston @ Indiana (NBA): Cover Rating - 1.0, Over Score - 5.8
+Boston @ Indiana (NBA): Cover Rating - 4.9, Over Score - 5.8
 Bet on Indiana to cover the spread.
-Chi Cubs @ St. Louis (MLB): Cover Rating - 3.0, Over Score - 8.2
-Bet on Chi Cubs to cover the spread.
 Philadelphia @ Colorado (MLB): Cover Rating - 4.3, Over Score - 5.3
 Bet on Colorado to cover the spread.
-Cleveland @ LA Angels (MLB): Cover Rating - 2.1, Over Score - 5.8
+Cleveland @ LA Angels (MLB): Cover Rating - 2.1, Over Score - 6.3
 Bet on LA Angels to cover the spread.
-NY Yankees @ San Diego (MLB): Cover Rating - 3.3, Over Score - 6.0
+NY Yankees @ San Diego (MLB): Cover Rating - 3.0, Over Score - 6.0
 Bet on NY Yankees to cover the spread.
-Miami @ Arizona (MLB): Cover Rating - 3.1, Over Score - 5.3
+Miami @ Arizona (MLB): Cover Rating - 5.7, Over Score - 5.8
 Bet on Miami to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
+Miami @ Arizona (MLB): Cover Rating - 5.7, Bet on Miami to cover the spread.
+Boston @ Indiana (NBA): Cover Rating - 4.9, Bet on Indiana to cover the spread.
 Philadelphia @ Colorado (MLB): Cover Rating - 4.3, Bet on Colorado to cover the spread.
-NY Yankees @ San Diego (MLB): Cover Rating - 3.3, Bet on NY Yankees to cover the spread.
-Miami @ Arizona (MLB): Cover Rating - 3.1, Bet on Miami to cover the spread.
-Chi Cubs @ St. Louis (MLB): Cover Rating - 3.0, Bet on Chi Cubs to cover the spread.
+NY Yankees @ San Diego (MLB): Cover Rating - 3.0, Bet on NY Yankees to cover the spread.
 Cleveland @ LA Angels (MLB): Cover Rating - 2.1, Bet on LA Angels to cover the spread.
-Boston @ Indiana (NBA): Cover Rating - 1.0, Bet on Indiana to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Chi Cubs @ St. Louis (MLB): Over Score - 8.2
+Cleveland @ LA Angels (MLB): Over Score - 6.3
 NY Yankees @ San Diego (MLB): Over Score - 6.0
-Cleveland @ LA Angels (MLB): Over Score - 5.8
 Boston @ Indiana (NBA): Over Score - 5.8
-Miami @ Arizona (MLB): Over Score - 5.3
+Miami @ Arizona (MLB): Over Score - 5.8
 Philadelphia @ Colorado (MLB): Over Score - 5.3
          date league  cover_rating  ...  total     home_team  away_team
-0  2024-05-25    NBA      0.963636  ...  232.5        Boston    Indiana
-1  2024-05-25    MLB      3.001101  ...    8.0      Chi Cubs  St. Louis
-2  2024-05-25    MLB      4.333333  ...   11.5  Philadelphia   Colorado
-3  2024-05-25    MLB      2.066667  ...    6.5     Cleveland  LA Angels
-4  2024-05-25    MLB      3.266667  ...    7.5    NY Yankees  San Diego
-5  2024-05-25    MLB      3.133333  ...    9.5         Miami    Arizona
+0  2024-05-25    NBA      4.866667  ...  207.5        Boston    Indiana
+1  2024-05-25    MLB      4.333333  ...    8.5  Philadelphia   Colorado
+2  2024-05-25    MLB      2.066667  ...   10.5     Cleveland  LA Angels
+3  2024-05-25    MLB      3.003403  ...    6.5    NY Yankees  San Diego
+4  2024-05-25    MLB      5.680000  ...    9.5         Miami    Arizona
 
-[6 rows x 10 columns]
+[5 rows x 10 columns]
 Avoided Overriding DailyPredictions
