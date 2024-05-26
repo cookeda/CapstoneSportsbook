@@ -1,5 +1,57 @@
 [
     {
+        "MatchupID": "f5328492_48eb7bb_NBA",
+        "Info Table": {
+            "Away Team": "MIN Timberwolves",
+            "Away Team Rank Name": "Minnesota",
+            "Away Abv": "MIN",
+            "Away ID": "f5328492",
+            "Home Team": "DAL Mavericks",
+            "Home Team Rank Name": "Dallas",
+            "Home Abv": "DAL",
+            "Home ID": "48eb7bb",
+            "Start Time": "Today · 8:00 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+2.5 (ESPN)",
+            "Away Spread Odds": "-115 (ESPN)",
+            "Away ML": "+115 (ESPN)",
+            "Home Spread": "-2.5 (ESPN)",
+            "Home Spread Odds": "-105 (ESPN)",
+            "Home ML": "-135 (ESPN)",
+            "Total": "207.5 (ESPN)",
+            "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_Unknown_NBA",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "-999",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "-999 (Bovada)",
+            "Home Spread": "-999 (Bovada)",
+            "Home Spread Odds": "99 (Bovada)",
+            "Home ML": "-999 (Bovada)",
+            "Total": "-999 (Bovada)",
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
+        }
+    },
+    {
         "MatchupID": "8a2d1e91_dc435e0a_NBA",
         "Info Table": {
             "Away Team": "BOS Celtics",
@@ -10,19 +62,19 @@
             "Home Team Rank Name": "Indiana",
             "Home Abv": "IND",
             "Home ID": "dc435e0a",
-            "Start Time": "East Conf. Finals, Game 3: BOS Leads 2-0",
+            "Start Time": "Live Game",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+6.5 (Bovada)",
+            "Away Spread": "-1.5 (DK)",
             "Away Spread Odds": "−120 (DK)",
             "Away ML": "−620 (DK)",
-            "Home Spread": "+6.5 (Bovada)",
-            "Home Spread Odds": "-105 (Bovada)",
-            "Home ML": "+400 (Bovada)",
-            "Total": "222.5 (Bovada)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "−110 (DK)",
+            "Home ML": "+400 (DK)",
+            "Total": "207.5 (DK)",
             "Over Total Odds": "−110 (DK)",
-            "Under Total Odds": "+105 (Bovada)"
+            "Under Total Odds": "−110 (DK)"
         }
     }
 ]
