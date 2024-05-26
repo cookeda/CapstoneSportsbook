@@ -1,13 +1,9 @@
 Boston @ Indiana (NBA): Cover Rating - 5.0, Over Score - 5.8
 Bet on Indiana to cover the spread.
-Kansas City @ Tampa Bay (MLB): Cover Rating - 3.0, Over Score - 8.4
-Bet on Kansas City to cover the spread.
-Atlanta @ Pittsburgh (MLB): Cover Rating - 0.5, Over Score - 5.6
-Bet on Atlanta to cover the spread.
-LA Dodgers @ Cincinnati (MLB): Cover Rating - 3.3, Over Score - 5.4
+LA Dodgers @ Cincinnati (MLB): Cover Rating - 3.3, Over Score - 5.9
 Bet on Cincinnati to cover the spread.
-Chi Cubs @ St. Louis (MLB): Cover Rating - 3.3, Over Score - 5.2
-Bet on St. Louis to cover the spread.
+Chi Cubs @ St. Louis (MLB): Cover Rating - 0.7, Over Score - 5.2
+Bet on Chi Cubs to cover the spread.
 Philadelphia @ Colorado (MLB): Cover Rating - 0.7, Over Score - 5.3
 Bet on Philadelphia to cover the spread.
 Cleveland @ LA Angels (MLB): Cover Rating - 2.1, Over Score - 5.8
@@ -22,32 +18,26 @@ NY Yankees @ San Diego (MLB): Cover Rating - 7.3, Bet on NY Yankees to cover the
 Miami @ Arizona (MLB): Cover Rating - 6.1, Bet on Miami to cover the spread.
 Boston @ Indiana (NBA): Cover Rating - 5.0, Bet on Indiana to cover the spread.
 LA Dodgers @ Cincinnati (MLB): Cover Rating - 3.3, Bet on Cincinnati to cover the spread.
-Chi Cubs @ St. Louis (MLB): Cover Rating - 3.3, Bet on St. Louis to cover the spread.
-Kansas City @ Tampa Bay (MLB): Cover Rating - 3.0, Bet on Kansas City to cover the spread.
 Cleveland @ LA Angels (MLB): Cover Rating - 2.1, Bet on LA Angels to cover the spread.
+Chi Cubs @ St. Louis (MLB): Cover Rating - 0.7, Bet on Chi Cubs to cover the spread.
 Philadelphia @ Colorado (MLB): Cover Rating - 0.7, Bet on Philadelphia to cover the spread.
-Atlanta @ Pittsburgh (MLB): Cover Rating - 0.5, Bet on Atlanta to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Kansas City @ Tampa Bay (MLB): Over Score - 8.4
+LA Dodgers @ Cincinnati (MLB): Over Score - 5.9
 Cleveland @ LA Angels (MLB): Over Score - 5.8
 Boston @ Indiana (NBA): Over Score - 5.8
-Atlanta @ Pittsburgh (MLB): Over Score - 5.6
-LA Dodgers @ Cincinnati (MLB): Over Score - 5.4
 Miami @ Arizona (MLB): Over Score - 5.3
 Philadelphia @ Colorado (MLB): Over Score - 5.3
 Chi Cubs @ St. Louis (MLB): Over Score - 5.2
 NY Yankees @ San Diego (MLB): Over Score - 4.5
          date league  cover_rating  ...  total     home_team   away_team
-0  2024-05-25    NBA      4.973333  ...  222.0        Boston     Indiana
-1  2024-05-25    MLB      3.002803  ...    8.0   Kansas City   Tampa Bay
-2  2024-05-25    MLB      0.480000  ...    5.5       Atlanta  Pittsburgh
-3  2024-05-25    MLB      3.266667  ...    9.5    LA Dodgers  Cincinnati
-4  2024-05-25    MLB      3.266667  ...    8.5      Chi Cubs   St. Louis
-5  2024-05-25    MLB      0.666667  ...   10.5  Philadelphia    Colorado
-6  2024-05-25    MLB      2.066667  ...    8.0     Cleveland   LA Angels
-7  2024-05-25    MLB      7.266667  ...    7.0    NY Yankees   San Diego
-8  2024-05-25    MLB      6.133333  ...    9.5         Miami     Arizona
+0  2024-05-25    NBA      4.973333  ...  221.0        Boston     Indiana
+1  2024-05-25    MLB      3.266667  ...   10.5    LA Dodgers  Cincinnati
+2  2024-05-25    MLB      0.733333  ...    7.5      Chi Cubs   St. Louis
+3  2024-05-25    MLB      0.666667  ...   10.5  Philadelphia    Colorado
+4  2024-05-25    MLB      2.066667  ...    8.0     Cleveland   LA Angels
+5  2024-05-25    MLB      7.266667  ...    7.0    NY Yankees   San Diego
+6  2024-05-25    MLB      6.133333  ...    9.5         Miami     Arizona
 
-[9 rows x 10 columns]
+[7 rows x 10 columns]
 Avoided Overriding DailyPredictions
