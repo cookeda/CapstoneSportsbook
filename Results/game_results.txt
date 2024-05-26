@@ -1,5 +1,6 @@
-Boston @ Indiana (NBA): Cover Rating - 5.0, Over Score - 5.8
+Boston @ Indiana (NBA): Cover Rating - 4.9, Over Score - 5.8
 Bet on Indiana to cover the spread.
+<<<<<<< HEAD
 SF Giants @ NY Mets (MLB): Cover Rating - 10.3, Over Score - 5.7
 Bet on SF Giants to cover the spread.
 Texas @ Minnesota (MLB): Cover Rating - 4.4, Over Score - 5.2
@@ -63,6 +64,36 @@ Milwaukee @ Boston (MLB): Over Score - 4.1
 9   2024-05-25    MLB      2.933333  ...    8.0     Cleveland   LA Angels
 10  2024-05-25    MLB      3.266667  ...    7.5    NY Yankees   San Diego
 11  2024-05-25    MLB     11.133333  ...    9.0         Miami     Arizona
+=======
+Philadelphia @ Colorado (MLB): Cover Rating - 3.0, Over Score - 8.3
+Bet on Philadelphia to cover the spread.
+Cleveland @ LA Angels (MLB): Cover Rating - 3.0, Over Score - 8.8
+Bet on Cleveland to cover the spread.
+NY Yankees @ San Diego (MLB): Cover Rating - 3.0, Over Score - 8.5
+Bet on San Diego to cover the spread.
+Miami @ Arizona (MLB): Cover Rating - 6.1, Over Score - 5.8
+Bet on Miami to cover the spread.
 
-[12 rows x 10 columns]
+Ranked Cover Recommendations Across All Leagues:
+Miami @ Arizona (MLB): Cover Rating - 6.1, Bet on Miami to cover the spread.
+Boston @ Indiana (NBA): Cover Rating - 4.9, Bet on Indiana to cover the spread.
+NY Yankees @ San Diego (MLB): Cover Rating - 3.0, Bet on San Diego to cover the spread.
+Cleveland @ LA Angels (MLB): Cover Rating - 3.0, Bet on Cleveland to cover the spread.
+Philadelphia @ Colorado (MLB): Cover Rating - 3.0, Bet on Philadelphia to cover the spread.
+
+Ranked Games by Over Score Across All Leagues:
+Cleveland @ LA Angels (MLB): Over Score - 8.8
+NY Yankees @ San Diego (MLB): Over Score - 8.5
+Philadelphia @ Colorado (MLB): Over Score - 8.3
+Boston @ Indiana (NBA): Over Score - 5.8
+Miami @ Arizona (MLB): Over Score - 5.8
+         date league  cover_rating  ...  total     home_team  away_team
+0  2024-05-26    NBA      4.866667  ...  207.5        Boston    Indiana
+1  2024-05-26    MLB      2.999499  ...    8.0  Philadelphia   Colorado
+2  2024-05-26    MLB      3.002903  ...    8.0     Cleveland  LA Angels
+3  2024-05-26    MLB      3.028571  ...    7.5    NY Yankees  San Diego
+4  2024-05-26    MLB      6.133333  ...    7.5         Miami    Arizona
+>>>>>>> cfd267f0c90856540ef7f92b7bace5938eeac3b6
+
+[5 rows x 10 columns]
 Avoided Overriding DailyPredictions

@@ -1,8 +1,9 @@
 {
     "8a2d1e91_dc435e0a_NBA": {
         "team_to_cover": "Indiana",
-        "cover_rating": 5.0,
+        "cover_rating": 4.9,
         "over_score": 5.8,
+<<<<<<< HEAD
         "cover_grade": 2,
         "total_rating": 0
     },
@@ -59,11 +60,21 @@
         "team_to_cover": "Philadelphia",
         "cover_rating": 5.7,
         "over_score": 5.3,
+=======
+        "cover_grade": 3,
+        "total_rating": -1
+    },
+    "fe2ec146_8f2512bc_MLB": {
+        "team_to_cover": "Philadelphia",
+        "cover_rating": 3.0,
+        "over_score": 8.3,
+>>>>>>> cfd267f0c90856540ef7f92b7bace5938eeac3b6
         "cover_grade": 2,
         "total_rating": -2
     },
     "5a31e1ff_fe8acdeb_MLB": {
         "team_to_cover": "Cleveland",
+<<<<<<< HEAD
         "cover_rating": 2.9,
         "over_score": 5.8,
         "cover_grade": 1,
@@ -74,13 +85,32 @@
         "cover_rating": 3.3,
         "over_score": 5.5,
         "cover_grade": 1,
+=======
+        "cover_rating": 3.0,
+        "over_score": 8.8,
+        "cover_grade": 2,
+        "total_rating": 0
+    },
+    "6424b504_3f4235d4_MLB": {
+        "team_to_cover": "San Diego",
+        "cover_rating": 3.0,
+        "over_score": 8.5,
+        "cover_grade": 2,
+>>>>>>> cfd267f0c90856540ef7f92b7bace5938eeac3b6
         "total_rating": -3
     },
     "8d47be6d_2b1ac347_MLB": {
         "team_to_cover": "Miami",
+<<<<<<< HEAD
         "cover_rating": 11.1,
         "over_score": 5.3,
         "cover_grade": 3,
         "total_rating": -2
+=======
+        "cover_rating": 6.1,
+        "over_score": 5.8,
+        "cover_grade": 0,
+        "total_rating": -1
+>>>>>>> cfd267f0c90856540ef7f92b7bace5938eeac3b6
     }
 }
