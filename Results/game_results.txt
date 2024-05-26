@@ -8,7 +8,7 @@ Atlanta @ Pittsburgh (MLB): Cover Rating - 4.5, Over Score - 4.9
 Bet on Pittsburgh to cover the spread.
 Seattle @ Washington (MLB): Cover Rating - 8.8, Over Score - 5.0
 Bet on Washington to cover the spread.
-Milwaukee @ Boston (MLB): Cover Rating - 7.2, Over Score - 4.1
+Milwaukee @ Boston (MLB): Cover Rating - 7.2, Over Score - 5.1
 Bet on Milwaukee to cover the spread.
 Kansas City @ Tampa Bay (MLB): Cover Rating - 7.1, Over Score - 5.5
 Bet on Kansas City to cover the spread.
@@ -60,25 +60,25 @@ Minnesota @ Dallas (NBA): Over Score - 5.4
 LA Dodgers @ Cincinnati (MLB): Over Score - 5.3
 Chi Cubs @ St. Louis (MLB): Over Score - 5.3
 Toronto @ Detroit (MLB): Over Score - 5.2
+Milwaukee @ Boston (MLB): Over Score - 5.1
 Texas @ Minnesota (MLB): Over Score - 5.1
 Seattle @ Washington (MLB): Over Score - 5.0
 Atlanta @ Pittsburgh (MLB): Over Score - 4.9
 Houston @ Oakland (MLB): Over Score - 4.4
 Miami @ Arizona (MLB): Over Score - 4.2
-Milwaukee @ Boston (MLB): Over Score - 4.1
           date league  cover_rating  ...  total     home_team   away_team
 0   2024-05-26    NBA      0.400000  ...  207.5     Minnesota      Dallas
 1   2024-05-26    MLB      3.200000  ...    8.0       Toronto     Detroit
 2   2024-05-26    MLB      1.533333  ...    8.5    LA Dodgers  Cincinnati
 3   2024-05-26    MLB      4.466667  ...    8.0       Atlanta  Pittsburgh
 4   2024-05-26    MLB      8.800000  ...    9.0       Seattle  Washington
-5   2024-05-26    MLB      7.200000  ...    9.5     Milwaukee      Boston
-6   2024-05-26    MLB      7.066667  ...    7.5   Kansas City   Tampa Bay
+5   2024-05-26    MLB      7.200000  ...    9.0     Milwaukee      Boston
+6   2024-05-26    MLB      7.066667  ...    8.0   Kansas City   Tampa Bay
 7   2024-05-26    MLB      3.400000  ...    7.5     SF Giants     NY Mets
 8   2024-05-26    MLB      3.533333  ...    7.0     Baltimore     Chi Sox
 9   2024-05-26    MLB      0.600000  ...    8.0         Texas   Minnesota
 10  2024-05-26    MLB      0.866667  ...   10.0  Philadelphia    Colorado
-11  2024-05-26    MLB      2.200000  ...    8.5     Cleveland   LA Angels
+11  2024-05-26    MLB      2.200000  ...    8.0     Cleveland   LA Angels
 12  2024-05-26    MLB      9.666667  ...    9.0       Houston     Oakland
 13  2024-05-26    MLB      1.600000  ...    8.0    NY Yankees   San Diego
 14  2024-05-26    MLB      6.066667  ...    8.5         Miami     Arizona
