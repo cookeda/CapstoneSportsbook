@@ -1,7 +1,7 @@
 {"Team": "Atlanta", "Cover %": "34.2%"} -5.9
 {"Team": "Atlanta", "Cover %": "34.2%"} -5.9
-{"Team": "Boston", "Cover %": "52.4%"} 8.0
-{"Team": "Boston", "Cover %": "52.4%"} 8.0
+{"Team": "Boston", "Cover %": "51.2%"} 7.9
+{"Team": "Boston", "Cover %": "51.2%"} 7.9
 {"Team": "Brooklyn", "Cover %": "35.0%"} -7.0
 {"Team": "Brooklyn", "Cover %": "35.0%"} -7.0
 {"Team": "Charlotte", "Cover %": "36.6%"} -12.4
