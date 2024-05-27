@@ -1,23 +1,18 @@
 Minnesota @ Dallas (NBA): Cover Rating - 0.0, Over Score - 5.4
 Bet on Dallas to cover the spread.
-NY Yankees @ San Diego (MLB): Cover Rating - 1.0, Over Score - 8.4
-Bet on NY Yankees to cover the spread.
-Chi Cubs @ St. Louis (MLB): Cover Rating - 5.7, Over Score - 5.3
+Chi Cubs @ St. Louis (MLB): Cover Rating - 10.7, Over Score - 5.3
 Bet on Chi Cubs to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Chi Cubs @ St. Louis (MLB): Cover Rating - 5.7, Bet on Chi Cubs to cover the spread.
-NY Yankees @ San Diego (MLB): Cover Rating - 1.0, Bet on NY Yankees to cover the spread.
+Chi Cubs @ St. Louis (MLB): Cover Rating - 10.7, Bet on Chi Cubs to cover the spread.
 Minnesota @ Dallas (NBA): Cover Rating - 0.0, Bet on Dallas to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Yankees @ San Diego (MLB): Over Score - 8.4
 Minnesota @ Dallas (NBA): Over Score - 5.4
 Chi Cubs @ St. Louis (MLB): Over Score - 5.3
-         date league  cover_rating  ...  total   home_team  away_team
-0  2024-05-26    NBA  8.881784e-16  ...  208.5   Minnesota     Dallas
-1  2024-05-26    MLB  1.028571e+00  ...    6.5  NY Yankees  San Diego
-2  2024-05-26    MLB  5.733333e+00  ...    8.0    Chi Cubs  St. Louis
+         date league  cover_rating  ...  total  home_team  away_team
+0  2024-05-26    NBA  8.881784e-16  ...  207.5  Minnesota     Dallas
+1  2024-05-26    MLB  1.073333e+01  ...    8.0   Chi Cubs  St. Louis
 
-[3 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions
