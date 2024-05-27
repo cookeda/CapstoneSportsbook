@@ -32437,3 +32437,75 @@ Sorting complete.
 Script started at: 2024-05-27 17:00:01.785878
 Script ended at: 2024-05-27 17:00:45.012789
 Total execution time: 0:00:43.226911
+[main e08b3237] Automated Server Update
+ 26 files changed, 1009 insertions(+), 1779 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (95%)
+ rewrite Results/game_results.txt (70%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   0274ad77..e08b3237  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:02<00:15,  2.52s/it] 29%|██▊       | 2/7 [00:05<00:12,  2.56s/it] 43%|████▎     | 3/7 [00:07<00:10,  2.62s/it] 57%|█████▋    | 4/7 [00:15<00:13,  4.47s/it] 71%|███████▏  | 5/7 [00:17<00:07,  3.81s/it] 86%|████████▌ | 6/7 [00:18<00:02,  2.83s/it]100%|██████████| 7/7 [00:19<00:00,  2.03s/it]100%|██████████| 7/7 [00:19<00:00,  2.72s/it]
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 264, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 248, in main
+    all_matchups = scraper.scrape_all()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 189, in scrape_all
+    specific_tbody = WebDriverWait(driver, 5).until(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x5615e87f1dc3 <unknown>
+#1 0x5615e84e04e7 <unknown>
+#2 0x5615e852b35d <unknown>
+#3 0x5615e852b411 <unknown>
+#4 0x5615e856e774 <unknown>
+#5 0x5615e854d47d <unknown>
+#6 0x5615e856bc29 <unknown>
+#7 0x5615e854d1f3 <unknown>
+#8 0x5615e851e28a <unknown>
+#9 0x5615e851ec5e <unknown>
+#10 0x5615e87b60eb <unknown>
+#11 0x5615e87ba03b <unknown>
+#12 0x5615e87a2201 <unknown>
+#13 0x5615e87baba2 <unknown>
+#14 0x5615e87870bf <unknown>
+#15 0x5615e87e0f18 <unknown>
+#16 0x5615e87e10f0 <unknown>
+#17 0x5615e87f0f14 <unknown>
+#18 0x7f60463c2ac3 <unknown>
+
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/7 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/5 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.27it/s]100%|██████████| 1/1 [00:00<00:00,  2.27it/s]
+ 20%|██        | 1/5 [00:00<00:01,  2.01it/s] 40%|████      | 2/5 [00:00<00:01,  2.32it/s]100%|██████████| 1/1 [00:00<00:00,  1.97it/s]100%|██████████| 1/1 [00:00<00:00,  1.97it/s]
+ 60%|██████    | 3/5 [00:01<00:00,  2.44it/s] 14%|█▍        | 1/7 [00:02<00:16,  2.71s/it] 80%|████████  | 4/5 [00:01<00:00,  2.52it/s]100%|██████████| 5/5 [00:02<00:00,  2.55it/s]100%|██████████| 5/5 [00:02<00:00,  2.47it/s]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.76it/s]100%|██████████| 2/2 [00:00<00:00,  2.12it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+ 29%|██▊       | 2/7 [00:05<00:13,  2.69s/it]Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+ 43%|████▎     | 3/7 [00:08<00:11,  2.83s/it] 57%|█████▋    | 4/7 [00:11<00:09,  3.04s/it] 71%|███████▏  | 5/7 [00:14<00:06,  3.00s/it] 86%|████████▌ | 6/7 [00:15<00:02,  2.24s/it]100%|██████████| 7/7 [00:15<00:00,  1.69s/it]100%|██████████| 7/7 [00:15<00:00,  2.28s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-27 18:00:01.593476
+Script ended at: 2024-05-27 18:01:09.874769
+Total execution time: 0:01:08.281293
