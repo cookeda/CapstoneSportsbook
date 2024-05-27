@@ -32087,3 +32087,39 @@ Total execution time: 0:00:32.465318
  19 files changed, 451 insertions(+), 380 deletions(-)
 To https://github.com/cookeda/CapstoneSportsbook.git
    da50e582..148fc2cb  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:00<00:04,  2.41it/s] 18%|█▊        | 2/11 [00:00<00:03,  2.62it/s] 27%|██▋       | 3/11 [00:01<00:02,  2.73it/s] 36%|███▋      | 4/11 [00:01<00:02,  2.78it/s] 45%|████▌     | 5/11 [00:01<00:02,  2.80it/s] 55%|█████▍    | 6/11 [00:02<00:01,  2.83it/s]100%|██████████| 1/1 [00:02<00:00,  2.49s/it]100%|██████████| 1/1 [00:02<00:00,  2.50s/it]
+ 64%|██████▎   | 7/11 [00:02<00:01,  2.79it/s] 73%|███████▎  | 8/11 [00:02<00:01,  2.83it/s] 82%|████████▏ | 9/11 [00:03<00:00,  2.82it/s] 91%|█████████ | 10/11 [00:03<00:00,  2.78it/s]100%|██████████| 11/11 [00:03<00:00,  2.79it/s]100%|██████████| 11/11 [00:03<00:00,  2.78it/s]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:01<00:10,  1.03s/it] 18%|█▊        | 2/11 [00:01<00:07,  1.28it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/11 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:00<00:05,  1.80it/s] 27%|██▋       | 3/11 [00:02<00:05,  1.42it/s]100%|██████████| 1/1 [00:00<00:00,  1.52it/s]100%|██████████| 1/1 [00:00<00:00,  1.52it/s]
+ 18%|█▊        | 2/11 [00:01<00:05,  1.73it/s]100%|██████████| 1/1 [00:00<00:00,  1.38it/s]100%|██████████| 1/1 [00:00<00:00,  1.38it/s]
+ 36%|███▋      | 4/11 [00:02<00:04,  1.42it/s] 27%|██▋       | 3/11 [00:01<00:04,  1.98it/s] 45%|████▌     | 5/11 [00:03<00:03,  1.63it/s] 36%|███▋      | 4/11 [00:01<00:03,  2.19it/s] 55%|█████▍    | 6/11 [00:03<00:02,  1.79it/s] 45%|████▌     | 5/11 [00:02<00:02,  2.33it/s] 64%|██████▎   | 7/11 [00:04<00:02,  1.90it/s] 55%|█████▍    | 6/11 [00:02<00:02,  2.41it/s] 73%|███████▎  | 8/11 [00:04<00:01,  1.98it/s] 64%|██████▎   | 7/11 [00:03<00:01,  2.47it/s] 73%|███████▎  | 8/11 [00:03<00:01,  2.50it/s] 82%|████████▏ | 9/11 [00:05<00:00,  2.02it/s] 82%|████████▏ | 9/11 [00:03<00:00,  2.46it/s] 91%|█████████ | 10/11 [00:05<00:00,  2.05it/s] 91%|█████████ | 10/11 [00:04<00:00,  2.52it/s]100%|██████████| 11/11 [00:06<00:00,  2.10it/s]100%|██████████| 11/11 [00:06<00:00,  1.78it/s]
+100%|██████████| 11/11 [00:04<00:00,  2.53it/s]100%|██████████| 11/11 [00:04<00:00,  2.35it/s]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Script started at: 2024-05-27 10:00:01.684362
+Script ended at: 2024-05-27 10:00:29.401749
+Total execution time: 0:00:27.717387

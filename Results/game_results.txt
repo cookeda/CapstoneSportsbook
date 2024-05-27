@@ -1,16 +1,16 @@
 Boston @ Indiana (NBA): Cover Rating - 5.0, Over Score - 5.9
 Bet on Indiana to cover the spread.
-Boston @ Baltimore (MLB): Cover Rating - 11.7, Over Score - 4.4
+Boston @ Baltimore (MLB): Cover Rating - 11.7, Over Score - 5.4
 Bet on Boston to cover the spread.
 Kansas City @ Minnesota (MLB): Cover Rating - 11.4, Over Score - 4.9
 Bet on Kansas City to cover the spread.
 Toronto @ Chi Sox (MLB): Cover Rating - 3.2, Over Score - 5.1
 Bet on Chi Sox to cover the spread.
-Washington @ Atlanta (MLB): Cover Rating - 8.3, Over Score - 4.7
+Washington @ Atlanta (MLB): Cover Rating - 8.3, Over Score - 3.7
 Bet on Washington to cover the spread.
 Cleveland @ Colorado (MLB): Cover Rating - 1.5, Over Score - 5.4
 Bet on Cleveland to cover the spread.
-LA Dodgers @ NY Mets (MLB): Cover Rating - 1.9, Over Score - 5.1
+LA Dodgers @ NY Mets (MLB): Cover Rating - 1.9, Over Score - 4.1
 Bet on LA Dodgers to cover the spread.
 St. Louis @ Cincinnati (MLB): Cover Rating - 4.1, Over Score - 5.5
 Bet on St. Louis to cover the spread.
@@ -42,26 +42,26 @@ Boston @ Indiana (NBA): Over Score - 5.9
 Chi Cubs @ Milwaukee (MLB): Over Score - 5.9
 Miami @ San Diego (MLB): Over Score - 5.5
 St. Louis @ Cincinnati (MLB): Over Score - 5.5
+Boston @ Baltimore (MLB): Over Score - 5.4
 Cleveland @ Colorado (MLB): Over Score - 5.4
 Philadelphia @ SF Giants (MLB): Over Score - 5.2
-LA Dodgers @ NY Mets (MLB): Over Score - 5.1
 Toronto @ Chi Sox (MLB): Over Score - 5.1
 Kansas City @ Minnesota (MLB): Over Score - 4.9
 Houston @ Seattle (MLB): Over Score - 4.8
-Washington @ Atlanta (MLB): Over Score - 4.7
-Boston @ Baltimore (MLB): Over Score - 4.4
+LA Dodgers @ NY Mets (MLB): Over Score - 4.1
+Washington @ Atlanta (MLB): Over Score - 3.7
           date league  cover_rating  ...  total     home_team   away_team
 0   2024-05-27    NBA      4.960000  ...  222.5        Boston     Indiana
 1   2024-05-27    MLB     11.733333  ...    9.0        Boston   Baltimore
-2   2024-05-27    MLB     11.400000  ...    8.0   Kansas City   Minnesota
-3   2024-05-27    MLB      3.200000  ...    8.5       Toronto     Chi Sox
+2   2024-05-27    MLB     11.400000  ...    7.5   Kansas City   Minnesota
+3   2024-05-27    MLB      3.200000  ...    9.0       Toronto     Chi Sox
 4   2024-05-27    MLB      8.266667  ...    9.0    Washington     Atlanta
-5   2024-05-27    MLB      1.533333  ...   10.5     Cleveland    Colorado
+5   2024-05-27    MLB      1.533333  ...   11.0     Cleveland    Colorado
 6   2024-05-27    MLB      1.933333  ...    8.5    LA Dodgers     NY Mets
 7   2024-05-27    MLB      4.133333  ...    9.5     St. Louis  Cincinnati
 8   2024-05-27    MLB      0.933333  ...    8.0      Chi Cubs   Milwaukee
-9   2024-05-27    MLB      2.000000  ...    8.5  Philadelphia   SF Giants
-10  2024-05-27    MLB     11.466667  ...    8.0         Miami   San Diego
+9   2024-05-27    MLB      2.000000  ...    8.0  Philadelphia   SF Giants
+10  2024-05-27    MLB     11.466667  ...    7.5         Miami   San Diego
 11  2024-05-27    MLB      6.333333  ...    7.5       Houston     Seattle
 
 [12 rows x 10 columns]
