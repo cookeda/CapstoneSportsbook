@@ -1,53 +1,53 @@
 {
-    "f5328492_48eb7bb_NBA": {
+    "8a2d1e91_dc435e0a_NBA": {
         "Info Table": {
-            "Away Team": "Minnesota Timberwolves",
-            "Away Team Rank Name": "Minnesota",
-            "Away Abv": "MIN",
-            "Away ID": "f5328492",
-            "Home Team": "Dallas Mavericks",
-            "Home Team Rank Name": "Dallas",
-            "Home Abv": "DAL",
-            "Home ID": "48eb7bb",
-            "Start Time": "3Q",
+            "Away Team": "Boston Celtics",
+            "Away Team Rank Name": "Boston",
+            "Away Abv": "BOS",
+            "Away ID": "8a2d1e91",
+            "Home Team": "Indiana Pacers",
+            "Home Team Rank Name": "Indiana",
+            "Home Abv": "IND",
+            "Home ID": "dc435e0a",
+            "Start Time": "8:00 PM",
             "League": "NBA"
         },
         "Bet Tables": [
             {
                 "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-130",
-                "Away ML": "-105",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+100",
-                "Home ML": "-125",
-                "Total": "221.5",
-                "Over Total Odds": "-120",
+                "Away Spread": "-7.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "-300",
+                "Home Spread": "+7.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "+250",
+                "Total": "222.0",
+                "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
             },
             {
                 "Book Name": "DK",
-                "Away Spread": "+2.5",
-                "Away Spread Odds": "−120",
-                "Away ML": "+124",
-                "Home Spread": "-2.5",
-                "Home Spread Odds": "−110",
-                "Home ML": "−160",
-                "Total": "223.5",
+                "Away Spread": "-8",
+                "Away Spread Odds": "−105",
+                "Away ML": "−310",
+                "Home Spread": "+8",
+                "Home Spread Odds": "−115",
+                "Home ML": "+250",
+                "Total": "222.5",
                 "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
+                "Under Total Odds": "−110"
             },
             {
                 "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-115",
-                "Away ML": "+110",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "-115",
-                "Home ML": "-140",
+                "Away Spread": "-7.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "-310",
+                "Home Spread": "+7.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "+250",
                 "Total": "222.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-115"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             }
         ]
     },
@@ -61,45 +61,45 @@
             "Home Team Rank Name": "St. Louis",
             "Home Abv": "STL",
             "Home ID": "ccadb94e",
-            "Start Time": "Top 2",
+            "Start Time": "Top 5",
             "League": "MLB"
         },
         "Bet Tables": [
             {
                 "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-210",
-                "Away ML": "+110",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+160",
-                "Home ML": "-145",
-                "Total": "7.0",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-115"
+                "Away Spread": "+2.0",
+                "Away Spread Odds": "-105",
+                "Away ML": "+400",
+                "Home Spread": "+2.0",
+                "Home Spread Odds": "-125",
+                "Home ML": "-650",
+                "Total": "6.0",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-125"
             },
             {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−190",
-                "Away ML": "+124",
+                "Away Spread Odds": "+124",
+                "Away ML": "+340",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+145",
-                "Home ML": "−160",
-                "Total": "6.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
+                "Home Spread Odds": "−160",
+                "Home ML": "−500",
+                "Total": "5.5",
+                "Over Total Odds": "−120",
+                "Under Total Odds": "−110"
             },
             {
                 "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-190",
-                "Away ML": "+120",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+150",
-                "Home ML": "-150",
-                "Total": "6.5",
-                "Over Total Odds": "-130",
-                "Under Total Odds": "+100"
+                "Away Spread": "+2.5",
+                "Away Spread Odds": "-160",
+                "Away ML": "+320",
+                "Home Spread": "-2.5",
+                "Home Spread Odds": "+125",
+                "Home ML": "-475",
+                "Total": "5.5",
+                "Over Total Odds": "-140",
+                "Under Total Odds": "+110"
             }
         ]
     }
