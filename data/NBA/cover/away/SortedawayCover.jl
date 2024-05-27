@@ -32,8 +32,8 @@
 {"Team": "Miami", "Cover %": "60.5%"} 0.4
 {"Team": "Milwaukee", "Cover %": "39.5%"} -2.1
 {"Team": "Milwaukee", "Cover %": "39.5%"} -2.1
-{"Team": "Minnesota", "Cover %": "57.5%"} 5.1
-{"Team": "Minnesota", "Cover %": "57.5%"} 5.1
+{"Team": "Minnesota", "Cover %": "56.3%"} 4.8
+{"Team": "Minnesota", "Cover %": "56.3%"} 4.8
 {"Team": "New Orleans", "Cover %": "59.5%"} 5.4
 {"Team": "New Orleans", "Cover %": "59.5%"} 5.4
 {"Team": "New York", "Cover %": "55.6%"} 1.7
