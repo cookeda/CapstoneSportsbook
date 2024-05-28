@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "fe2ec146_486a5e3b_MLB",
-        "Info Table": {
-            "Away Team": "PHI Phillies",
-            "Away Team Rank Name": "Philadelphia",
-            "Away Abv": "PHI",
-            "Away ID": "fe2ec146",
-            "Home Team": "SF Giants",
-            "Home Team Rank Name": "SF Giants",
-            "Home Abv": "SF",
-            "Home ID": "486a5e3b",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+2.0 (Bovada)",
-            "Away Spread Odds": "+140 (ESPN)",
-            "Away ML": "+450 (Bovada)",
-            "Home Spread": "+2.0 (Bovada)",
-            "Home Spread Odds": "+110 (Bovada)",
-            "Home ML": "−600 (DK)",
-            "Total": "12.5 (ESPN)",
-            "Over Total Odds": "+100 (ESPN)",
-            "Under Total Odds": "+105 (DK)"
-        }
-    },
-    {
         "MatchupID": "8d47be6d_3f4235d4_MLB",
         "Info Table": {
             "Away Team": "MIA Marlins",
@@ -41,14 +15,14 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "−145 (DK)",
-            "Away ML": "+165 (DK)",
+            "Away Spread Odds": "-285 (Bovada)",
+            "Away ML": "+135 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "+120 (ESPN)",
-            "Home ML": "-190 (ESPN)",
-            "Total": "7.5 (Bovada)",
-            "Over Total Odds": "-120 (ESPN)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Home Spread Odds": "+230 (DK)",
+            "Home ML": "−160 (DK)",
+            "Total": "5.5 (ESPN)",
+            "Over Total Odds": "+124 (DK)",
+            "Under Total Odds": "-150 (ESPN)"
         }
     },
     {
@@ -67,10 +41,10 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "+140 (Bovada)",
+            "Away Spread Odds": "+140 (ESPN)",
             "Away ML": "-130 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "-160 (ESPN)",
+            "Home Spread Odds": "+230 (DK)",
             "Home ML": "+110 (ESPN)",
             "Total": "7.5 (ESPN)",
             "Over Total Odds": "-105 (ESPN)",
