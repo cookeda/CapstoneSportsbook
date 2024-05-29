@@ -22,6 +22,13 @@ subprocess.run(['python', 'script.py'])
 os.chdir('../Scrapers/Data Processing')
 subprocess.run(['python', 'script.py'])
 
+# Generate summary and merge results
+os.chdir('../../Results/')
+subprocess.run(['python', 'script.py'])
+
+os.chdir('../OddsHistory/History')
+subprocess.run(['python', 'sorting_algorithm.py'], stdout=open('../../Results/xHitRate.txt', 'w', encoding='utf-8'))
+
 
 # Uncomment the following line to enable the auto update command
 # os.chdir('../../DegenBets')
