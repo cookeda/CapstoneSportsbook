@@ -5,13 +5,8 @@
 {"Team": "Chi Cubs", "Over %": "47.5%"} +0.3
 {"Team": "Chi Sox", "Over %": "47.6%"} +0.3
 {"Team": "Cincinnati", "Over %": "49.2%"} +0.4
-<<<<<<< HEAD
-{"Team": "Cleveland", "Over %": "48.2%"} +0.3
-{"Team": "Colorado", "Over %": "48.6%"} +0.4
-=======
 {"Team": "Cleveland", "Over %": "48.3%"} +0.3
 {"Team": "Colorado", "Over %": "48.7%"} +0.4
->>>>>>> 345592d21021fe3e7575d8f960c0a4738812af44
 {"Team": "Detroit", "Over %": "50.0%"} +0.5
 {"Team": "Houston", "Over %": "48.3%"} +0.4
 {"Team": "Kansas City", "Over %": "47.8%"} +0.3
@@ -31,9 +26,5 @@
 {"Team": "St. Louis", "Over %": "49.0%"} +0.4
 {"Team": "Tampa Bay", "Over %": "48.7%"} +0.4
 {"Team": "Texas", "Over %": "48.6%"} +0.5
-<<<<<<< HEAD
-{"Team": "Toronto", "Over %": "48.7%"} +0.4
-=======
 {"Team": "Toronto", "Over %": "48.6%"} +0.4
->>>>>>> 345592d21021fe3e7575d8f960c0a4738812af44
 {"Team": "Washington", "Over %": "49.3%"} +0.5
