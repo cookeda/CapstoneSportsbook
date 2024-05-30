@@ -14,15 +14,41 @@
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+5.0 (Bovada)",
+            "Away Spread": "+5 (DK)",
             "Away Spread Odds": "+100 (ESPN)",
             "Away ML": "+165 (ESPN)",
             "Home Spread": "-4.5 (ESPN)",
+            "Home Spread Odds": "−108 (DK)",
+            "Home ML": "−192 (DK)",
+            "Total": "209.5 (ESPN)",
+            "Over Total Odds": "−112 (DK)",
+            "Under Total Odds": "-105 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_f5328492_NBA",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "Minnesota Timberwolves",
+            "Home Team Rank Name": "Minnesota",
+            "Home Abv": "MIN",
+            "Home ID": "f5328492",
+            "Start Time": "8:30 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+5.0 (Bovada)",
+            "Away Spread Odds": "-120 (Bovada)",
+            "Away ML": "+160 (Bovada)",
+            "Home Spread": "-5.0 (Bovada)",
             "Home Spread Odds": "+100 (Bovada)",
             "Home ML": "-185 (Bovada)",
             "Total": "210.0 (Bovada)",
             "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "-105 (ESPN)"
+            "Under Total Odds": "-110 (Bovada)"
         }
     }
 ]
