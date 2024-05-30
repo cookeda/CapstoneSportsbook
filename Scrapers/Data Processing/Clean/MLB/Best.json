@@ -15,40 +15,14 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "-160 (ESPN)",
-            "Away ML": "+130 (ESPN)",
+            "Away Spread Odds": "-150 (ESPN)",
+            "Away ML": "+135 (ESPN)",
             "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+164 (DK)",
-            "Home ML": "−142 (DK)",
+            "Home Spread Odds": "+170 (DK)",
+            "Home ML": "-155 (ESPN)",
             "Total": "8.5 (ESPN)",
             "Over Total Odds": "+100 (ESPN)",
-            "Under Total Odds": "+100 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "db2ee960_f5328492_MLB",
-        "Info Table": {
-            "Away Team": "KC Royals",
-            "Away Team Rank Name": "Kansas City",
-            "Away Abv": "KC",
-            "Away ID": "db2ee960",
-            "Home Team": "MIN Twins",
-            "Home Team Rank Name": "Minnesota",
-            "Home Abv": "MIN",
-            "Home ID": "f5328492",
-            "Start Time": "Today · 1:10 PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "−198 (DK)",
-            "Away ML": "+105 (ESPN)",
-            "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+170 (Bovada)",
-            "Home ML": "-125 (ESPN)",
-            "Total": "8.0 (Bovada)",
-            "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "+100 (ESPN)"
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -70,7 +44,7 @@
             "Away Spread Odds": "-195 (Bovada)",
             "Away ML": "+105 (ESPN)",
             "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+165 (ESPN)",
+            "Home Spread Odds": "+170 (DK)",
             "Home ML": "−122 (DK)",
             "Total": "8.5 (ESPN)",
             "Over Total Odds": "+100 (ESPN)",
@@ -94,13 +68,13 @@
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
             "Away Spread Odds": "-180 (ESPN)",
-            "Away ML": "+120 (ESPN)",
+            "Away ML": "+115 (ESPN)",
             "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+164 (DK)",
-            "Home ML": "-140 (ESPN)",
+            "Home Spread Odds": "+170 (DK)",
+            "Home ML": "-132 (Bovada)",
             "Total": "7.5 (ESPN)",
-            "Over Total Odds": "−108 (DK)",
-            "Under Total Odds": "+100 (Bovada)"
+            "Over Total Odds": "+105 (ESPN)",
+            "Under Total Odds": "+102 (DK)"
         }
     },
     {
@@ -125,8 +99,8 @@
             "Home Spread Odds": "+175 (Bovada)",
             "Home ML": "−122 (DK)",
             "Total": "7.5 (ESPN)",
-            "Over Total Odds": "+110 (ESPN)",
-            "Under Total Odds": "-125 (Bovada)"
+            "Over Total Odds": "+105 (ESPN)",
+            "Under Total Odds": "-125 (ESPN)"
         }
     },
     {
@@ -145,14 +119,14 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "+150 (ESPN)",
-            "Away ML": "-120 (Bovada)",
+            "Away Spread Odds": "+160 (Bovada)",
+            "Away ML": "-115 (Bovada)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+164 (DK)",
+            "Home Spread Odds": "+170 (DK)",
             "Home ML": "+105 (ESPN)",
             "Total": "7.0 (Bovada)",
-            "Over Total Odds": "−108 (DK)",
-            "Under Total Odds": "+120 (ESPN)"
+            "Over Total Odds": "−105 (DK)",
+            "Under Total Odds": "+115 (ESPN)"
         }
     },
     {
@@ -171,14 +145,14 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "-125 (ESPN)",
+            "Away Spread Odds": "-125 (Bovada)",
             "Away ML": "+165 (ESPN)",
             "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+164 (DK)",
-            "Home ML": "-195 (ESPN)",
-            "Total": "9 (DK)",
-            "Over Total Odds": "+100 (DK)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Home Spread Odds": "+170 (DK)",
+            "Home ML": "−192 (DK)",
+            "Total": "8.5 (ESPN)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "+100 (DK)"
         }
     },
     {
@@ -197,14 +171,40 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "-185 (ESPN)",
+            "Away Spread Odds": "-105 (ESPN)",
+            "Away ML": "-170 (ESPN)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "+164 (DK)",
-            "Home ML": "+155 (ESPN)",
+            "Home Spread Odds": "+170 (DK)",
+            "Home ML": "+145 (ESPN)",
             "Total": "8.5 (ESPN)",
             "Over Total Odds": "−108 (DK)",
             "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "db2ee960_f5328492_MLB",
+        "Info Table": {
+            "Away Team": "Kansas City Royals",
+            "Away Team Rank Name": "Kansas City",
+            "Away Abv": "KC",
+            "Away ID": "db2ee960",
+            "Home Team": "Minnesota Twins",
+            "Home Team Rank Name": "Minnesota",
+            "Home Abv": "MIN",
+            "Home ID": "f5328492",
+            "Start Time": "1:10 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-200 (Bovada)",
+            "Away ML": "+105 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+170 (Bovada)",
+            "Home ML": "-125 (Bovada)",
+            "Total": "7.5 (Bovada)",
+            "Over Total Odds": "-120 (Bovada)",
+            "Under Total Odds": "+100 (Bovada)"
         }
     }
 ]
