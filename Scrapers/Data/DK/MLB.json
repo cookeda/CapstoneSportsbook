@@ -41,8 +41,8 @@
                 "Home Spread Odds": "+170",
                 "Home ML": "−122",
                 "Total": "8.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
             "MatchupID": "d10f1db8_c5227021_MLB",
             "Info Table": {
@@ -121,41 +121,11 @@
     ],
     [
         {
-            "BetTableId": "DK_18a9d733_8a2d1e91_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+170",
-                "Away ML": "+102",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+170",
-                "Home ML": "−122",
-                "Total": "8",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
-            },
-            "MatchupID": "18a9d733_8a2d1e91_MLB",
-            "Info Table": {
-                "Away Team": "DET Tigers",
-                "Away Team Rank Name": "Detroit",
-                "Away Abv": "DET",
-                "Away ID": "18a9d733",
-                "Home Team": "BOS Red Sox",
-                "Home Team Rank Name": "Boston",
-                "Home Abv": "BOS",
-                "Home ID": "8a2d1e91",
-                "Start Time": "7:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_2b1ac347_c625b23e_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+145",
+                "Away Spread Odds": "+150",
                 "Away ML": "−120",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+170",
@@ -174,6 +144,36 @@
                 "Home Team Rank Name": "NY Mets",
                 "Home Abv": "NYM",
                 "Home ID": "c625b23e",
+                "Start Time": "7:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_18a9d733_8a2d1e91_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+170",
+                "Away ML": "+102",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "+170",
+                "Home ML": "−122",
+                "Total": "7.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "18a9d733_8a2d1e91_MLB",
+            "Info Table": {
+                "Away Team": "DET Tigers",
+                "Away Team Rank Name": "Detroit",
+                "Away Abv": "DET",
+                "Away ID": "18a9d733",
+                "Home Team": "BOS Red Sox",
+                "Home Team Rank Name": "Boston",
+                "Home Abv": "BOS",
+                "Home ID": "8a2d1e91",
                 "Start Time": "7:10PM",
                 "League": "MLB"
             }
