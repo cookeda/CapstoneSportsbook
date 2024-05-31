@@ -35951,3 +35951,98 @@ Results Script
 Script started at: 2024-05-30 23:00:02.150691
 Script ended at: 2024-05-30 23:00:52.841812
 Total execution time: 0:00:50.691121
+[main 92853436] Automated Server Update
+ 25 files changed, 648 insertions(+), 478 deletions(-)
+ rewrite Results/game_results.txt (61%)
+ rewrite Scrapers/Data Processing/Clean/NBA/Aggregate.json (75%)
+ rewrite Scrapers/Data Processing/Clean/NBA/Best.json (66%)
+ rewrite Scrapers/Data/Bovada/NBA.json (81%)
+ rewrite Scrapers/Data/Bovada/NBA_Lite.json (93%)
+ rewrite Scrapers/Data/DK/NBA.json (61%)
+ rewrite Scrapers/Data/DK/NBA_Lite.json (74%)
+ rewrite Scrapers/Data/ESPN/NBA.json (82%)
+ rewrite Scrapers/Data/ESPN/NBA_Lite.json (93%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   4eba8e0f..92853436  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Traceback (most recent call last):
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 65, in __extract_zip
+    archive.extractall(to_directory)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1647, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1702, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/shutil.py", line 195, in copyfileobj
+    buf = fsrc_read(length)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 927, in read
+    data = self._read1(n)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 995, in _read1
+    data += self._read2(n - len(data))
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/zipfile.py", line 1030, in _read2
+    raise EOFError
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 264, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 248, in main
+    all_matchups = scraper.scrape_all()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 185, in scrape_all
+    driver = self.init_driver()
+  File "/media/myfiles/CapstoneSportsbook/Scrapers/Books/DK/nba_dk.py", line 166, in init_driver
+    service = Service(ChromeDriverManager().install())
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/webdriver_manager/core/file_manager.py", line 67, in __extract_zip
+    if e.args[0] not in [26, 13] and e.args[1] not in [
+IndexError: tuple index out of range
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.52s/it]100%|██████████| 1/1 [00:02<00:00,  2.52s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.11it/s]100%|██████████| 1/1 [00:00<00:00,  2.11it/s]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.07it/s]100%|██████████| 1/1 [00:00<00:00,  2.07it/s]
+100%|██████████| 1/1 [00:02<00:00,  2.66s/it]100%|██████████| 1/1 [00:02<00:00,  2.66s/it]
+100%|██████████| 1/1 [00:00<00:00,  2.21it/s]100%|██████████| 1/1 [00:00<00:00,  2.21it/s]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID Unknown_Unknown_NBA
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Script started at: 2024-05-31 00:00:02.634192
+Script ended at: 2024-05-31 00:00:31.210647
+Total execution time: 0:00:28.576455
