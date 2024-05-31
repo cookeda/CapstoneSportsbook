@@ -28,9 +28,9 @@ data['Date'] = pd.to_datetime(data['Date'])
 data['CoverResult'] = data['CoverResult'].astype(int)
 data['TotalResult'] = data['TotalResult'].astype(int)
 
-main_intervals = [(0, 3), (3, 6), (6, 9), (9, 12), (12, 15)]
-over_ranges = [(6, 6.5), (6.5, 7), (7, 7.5), (7.5, 8), (8, 8.5), (8.5, 9), (9, 9.5), (9.5, 10), (10, 10.5)]
-under_ranges = [(5.5, 6), (5, 5.5), (4.5, 5), (4, 4.5), (3.5, 4), (3, 3.5), (2.5, 3), (2, 2.5), (1.5, 2), (1, 1.5), (0.5, 1), (0,0.5)]
+main_intervals = [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), (9, 10), (10, 11), (11, 12), (12, 13), (13, 14), (14, 15), (15, 16)]
+over_ranges = [(6.0, 6.19), (6.2, 6.39), (6.4, 6.59), (6.6, 6.79), (6.8, 6.99), (7, 7.19), (7.2, 7.39), (7.4, 7.59), (7.6, 7.79), (7.8, 7.99), (8.0, 8.19), (8.2, 8.39), (8.4, 8.59), (8.6, 8.79), (8.8, 8.99), (9, 9.19), (9.2, 9.5), (9.5, 10), (10, 10.5)]
+under_ranges = [(5.8, 5.99), (5.6, 5.79), (5.4, 5.59), (5.2, 5.39), (5.0, 5.19), (4.8, 4.99), (4.6, 4.79), (4.4, 4.59), (4.2, 4.39), (4.0, 4.19), (3.8, 3.99), (3.6, 3.79), (3.4, 3.59), (3.2, 3.39), (3.0, 3.19), (2.8, 2.99), (2.5, 2.79), (2, 2.49), (1.5, 1.99), (1, 1.49), (0.5, 0.99), (0, 0.49)]
 
 data['CoverRatingWindow'] = data['CoverRating'].apply(lambda x: map_to_subinterval(x, main_intervals))
 data['TotalRatingWindow'] = data['TotalRating'].apply(lambda x: map_total_to_window(x, over_ranges, under_ranges))
@@ -56,46 +56,14 @@ total_stats = data.groupby(['League', 'TotalRatingWindow']).agg(
     xHitRate=('TotalResult', 'mean')
 ).reset_index()
 
-final_stats = pd.concat([cover_stats, total_stats], axis=0).reset_index(drop=True)
-final_stats.dropna()
-
-cover_stats.to_csv('cover_stats.csv')
-total_stats.to_csv('total_stats.csv')
-final_stats.to_csv('final_stats.csv')
-
-# Write the processed results to a JSON file
-json_file_path = 'game_stats.json'
-with open(json_file_path, 'w', encoding='utf-8') as json_file:
-    json.dump(cover_stats.to_dict('records'), json_file, indent=4, ensure_ascii=False)
-
-json_file_path = 'total_stats.json'
-with open(json_file_path, 'w', encoding='utf-8') as json_file:
-    json.dump(total_stats.to_dict('records'), json_file, indent=4, ensure_ascii=False)
-
-json_file_path = 'final_stats.json'
-with open(json_file_path, 'w', encoding='utf-8') as json_file:
-    json.dump(final_stats.to_dict('records'), json_file, indent=4, ensure_ascii=False)
-
-
-# print("Recommended Cover Bet Rating Windows for Today by League:")
-# print(cover_stats.sort_values(by=['League', 'CoverScoreAvg'], ascending=False).groupby('League').head(10))
-# print("\nRecommended Total Bet Rating Windows for Today by League:")
-# print(total_stats.sort_values(by=['League', 'TotalScoreAvg'], ascending=False).groupby('League').head(10))
-
-# Additional computations for bet count and expected hit rate
-# data['BetCount'] = 1
-# cover_stats = data.groupby(['League', 'CoverRatingWindow']).agg(
-#     CoverScoreAvg=('CoverScore', 'mean'),
-#     BetCount=('BetCount', 'sum'),
-#     xHitRate=('CoverResult', 'mean')
-# ).reset_index()
-# total_stats = data.groupby(['League', 'TotalRatingWindow']).agg(
-#     TotalScoreAvg=('TotalScore', 'mean'),
-#     BetCount=('BetCount', 'sum'),
-#     xHitRate=('TotalResult', 'mean')
-# ).reset_index()
+cover_stats_sorted = cover_stats.sort_values(by=['League', 'CoverRatingWindow'], ascending=[True, True])
+total_stats_sorted = total_stats.sort_values(by=['League', 'TotalRatingWindow'], ascending=[True, True])
 
 print("Recommended Cover Bet Rating Windows for Today by League:")
-print(cover_stats.sort_values(by=['League', 'CoverScoreAvg'], ascending=False).groupby('League').head(10))
+print(cover_stats_sorted)
 print("\nRecommended Total Bet Rating Windows for Today by League:")
-print(total_stats.sort_values(by=['League', 'TotalScoreAvg'], ascending=False).groupby('League').head(10))
+print(total_stats_sorted)
+
+# Save sorted dataframes to CSV
+cover_stats_sorted.to_csv('cover_stats_sorted.csv', index=False)
+total_stats_sorted.to_csv('total_stats_sorted.csv', index=False)
