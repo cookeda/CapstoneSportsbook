@@ -7,8 +7,8 @@
 {"Team": "Cincinnati", "Cover %": "50.2%"} +0.0
 {"Team": "Cleveland", "Cover %": "49.5%"} +0.0
 {"Team": "Colorado", "Cover %": "50.5%"} +0.0
-{"Team": "Detroit", "Cover %": "48.5%"} -0.2
-{"Team": "Houston", "Cover %": "50.6%"} +0.0
+{"Team": "Detroit", "Cover %": "48.6%"} -0.2
+{"Team": "Houston", "Cover %": "50.7%"} +0.0
 {"Team": "Kansas City", "Cover %": "51.5%"} +0.2
 {"Team": "LA Angels", "Cover %": "48.5%"} -0.1
 {"Team": "LA Dodgers", "Cover %": "49.9%"} +0.0
