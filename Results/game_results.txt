@@ -1,6 +1,6 @@
 Dallas @ Boston (NBA): Cover Rating - 3.0, Over Score - 5.7
 Bet on Dallas to cover the spread.
-Cincinnati @ Chi Cubs (MLB): Cover Rating - 10.5, Over Score - 4.1
+Cincinnati @ Chi Cubs (MLB): Cover Rating - 10.5, Over Score - 5.1
 Bet on Cincinnati to cover the spread.
 St. Louis @ Philadelphia (MLB): Cover Rating - 0.4, Over Score - 5.5
 Bet on St. Louis to cover the spread.
@@ -60,11 +60,11 @@ San Diego @ Kansas City (MLB): Over Score - 5.3
 Detroit @ Boston (MLB): Over Score - 5.2
 Pittsburgh @ Toronto (MLB): Over Score - 5.2
 Minnesota @ Houston (MLB): Over Score - 5.2
+Cincinnati @ Chi Cubs (MLB): Over Score - 5.1
 Oakland @ Atlanta (MLB): Over Score - 4.9
 Texas @ Miami (MLB): Over Score - 4.9
 NY Yankees @ SF Giants (MLB): Over Score - 4.9
 Arizona @ NY Mets (MLB): Over Score - 4.8
-Cincinnati @ Chi Cubs (MLB): Over Score - 4.1
 LA Angels @ Seattle (MLB): Over Score - 3.9
           date league  cover_rating  ...  total   home_team     away_team
 0   2024-05-31    NBA      3.015385  ...  214.5      Dallas        Boston
@@ -75,7 +75,7 @@ LA Angels @ Seattle (MLB): Over Score - 3.9
 5   2024-05-31    MLB      7.800000  ...    7.5  Washington     Cleveland
 6   2024-05-31    MLB     12.200000  ...    8.5     Detroit        Boston
 7   2024-05-31    MLB      2.466667  ...    7.0     Arizona       NY Mets
-8   2024-05-31    MLB      2.066667  ...    9.0       Texas         Miami
+8   2024-05-31    MLB      2.066667  ...    8.5       Texas         Miami
 9   2024-05-31    MLB      7.866667  ...    8.0     Oakland       Atlanta
 10  2024-05-31    MLB      2.866667  ...    8.0     Chi Sox     Milwaukee
 11  2024-05-31    MLB      5.200000  ...    8.0   San Diego   Kansas City
