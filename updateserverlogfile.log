@@ -37058,3 +37058,50 @@ Results Script
 Script started at: 2024-05-31 22:00:01.949910
 Script ended at: 2024-05-31 22:02:01.257154
 Total execution time: 0:01:59.307244
+[main 996b70b8] Automated Server Update
+ 18 files changed, 1159 insertions(+), 2581 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (80%)
+ rewrite Results/game_results.txt (70%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   6330fc4d..996b70b8  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.55s/it]100%|██████████| 1/1 [00:02<00:00,  2.55s/it]
+ 20%|██        | 1/5 [00:11<00:44, 11.14s/it] 40%|████      | 2/5 [00:28<00:44, 14.90s/it] 60%|██████    | 3/5 [00:31<00:19,  9.50s/it] 80%|████████  | 4/5 [00:34<00:06,  6.83s/it]100%|██████████| 5/5 [00:37<00:00,  5.37s/it]100%|██████████| 5/5 [00:37<00:00,  7.45s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/5 [00:00<?, ?it/s]  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:01,  2.44it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s] 40%|████      | 2/5 [00:00<00:01,  2.41it/s]100%|██████████| 1/1 [00:00<00:00,  2.01it/s]100%|██████████| 1/1 [00:00<00:00,  2.01it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.76it/s]100%|██████████| 1/1 [00:00<00:00,  1.76it/s]
+ 60%|██████    | 3/5 [00:01<00:00,  2.31it/s] 80%|████████  | 4/5 [00:01<00:00,  2.46it/s]100%|██████████| 5/5 [00:02<00:00,  2.55it/s]100%|██████████| 5/5 [00:02<00:00,  2.48it/s]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+ 20%|██        | 1/5 [00:11<00:46, 11.69s/it] 40%|████      | 2/5 [00:19<00:28,  9.38s/it] 60%|██████    | 3/5 [00:22<00:12,  6.47s/it] 80%|████████  | 4/5 [00:25<00:05,  5.14s/it]100%|██████████| 5/5 [00:28<00:00,  4.36s/it]100%|██████████| 5/5 [00:28<00:00,  5.71s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Script started at: 2024-05-31 23:00:02.601626
+Script ended at: 2024-05-31 23:01:29.059763
+Total execution time: 0:01:26.458137
