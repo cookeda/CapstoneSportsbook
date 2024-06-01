@@ -1,38 +1,28 @@
 Dallas @ Boston (NBA): Cover Rating - 3.0, Over Score - 5.7
 Bet on Dallas to cover the spread.
-Chi Sox @ Milwaukee (MLB): Cover Rating - 3.7, Over Score - 9.0
-Bet on Chi Sox to cover the spread.
-San Diego @ Kansas City (MLB): Cover Rating - 2.0, Over Score - 8.3
-Bet on San Diego to cover the spread.
-Colorado @ LA Dodgers (MLB): Cover Rating - 2.8, Over Score - 6.6
-Bet on Colorado to cover the spread.
-LA Angels @ Seattle (MLB): Cover Rating - 10.6, Over Score - 5.4
+LA Dodgers @ LA Dodgers (MLB): Cover Rating - 4.0, Over Score - 6.1
+Bet on LA Dodgers to cover the spread.
+LA Angels @ Seattle (MLB): Cover Rating - 5.6, Over Score - 4.9
 Bet on LA Angels to cover the spread.
-NY Yankees @ SF Giants (MLB): Cover Rating - 3.7, Over Score - 4.9
+NY Yankees @ SF Giants (MLB): Cover Rating - 6.5, Over Score - 4.9
 Bet on NY Yankees to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-LA Angels @ Seattle (MLB): Cover Rating - 10.6, Bet on LA Angels to cover the spread.
-NY Yankees @ SF Giants (MLB): Cover Rating - 3.7, Bet on NY Yankees to cover the spread.
-Chi Sox @ Milwaukee (MLB): Cover Rating - 3.7, Bet on Chi Sox to cover the spread.
+NY Yankees @ SF Giants (MLB): Cover Rating - 6.5, Bet on NY Yankees to cover the spread.
+LA Angels @ Seattle (MLB): Cover Rating - 5.6, Bet on LA Angels to cover the spread.
+LA Dodgers @ LA Dodgers (MLB): Cover Rating - 4.0, Bet on LA Dodgers to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 3.0, Bet on Dallas to cover the spread.
-Colorado @ LA Dodgers (MLB): Cover Rating - 2.8, Bet on Colorado to cover the spread.
-San Diego @ Kansas City (MLB): Cover Rating - 2.0, Bet on San Diego to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Chi Sox @ Milwaukee (MLB): Over Score - 9.0
-San Diego @ Kansas City (MLB): Over Score - 8.3
-Colorado @ LA Dodgers (MLB): Over Score - 6.6
+LA Dodgers @ LA Dodgers (MLB): Over Score - 6.1
 Dallas @ Boston (NBA): Over Score - 5.7
-LA Angels @ Seattle (MLB): Over Score - 5.4
 NY Yankees @ SF Giants (MLB): Over Score - 4.9
-         date league  cover_rating  ...  total   home_team    away_team
-0  2024-05-31    NBA      3.015385  ...  214.5      Dallas       Boston
-1  2024-05-31    MLB      3.690909  ...    8.0     Chi Sox    Milwaukee
-2  2024-05-31    MLB      1.999700  ...    8.0   San Diego  Kansas City
-3  2024-05-31    MLB      2.800000  ...    8.5    Colorado   LA Dodgers
-4  2024-05-31    MLB     10.600000  ...    7.5   LA Angels      Seattle
-5  2024-05-31    MLB      3.720000  ...    9.5  NY Yankees    SF Giants
+LA Angels @ Seattle (MLB): Over Score - 4.9
+         date league  cover_rating  ...  total   home_team   away_team
+0  2024-06-01    NBA      3.015385  ...  214.5      Dallas      Boston
+1  2024-06-01    MLB      4.003804  ...    5.5  LA Dodgers  LA Dodgers
+2  2024-06-01    MLB      5.600000  ...    5.5   LA Angels     Seattle
+3  2024-06-01    MLB      6.514286  ...   10.5  NY Yankees   SF Giants
 
-[6 rows x 10 columns]
+[4 rows x 10 columns]
 Avoided Overriding DailyPredictions
