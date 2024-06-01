@@ -46,11 +46,7 @@ class Statistics:
         return result_dict
 
     def getDictMOV(self, league, stat, hora):
-        if league == "NBA":
-            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
-        #elif league == "CBB":
-        #    direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
-        elif league == "MLB":
+        if league == "NBA" or league == "CBB" or league == "MLB" or league == "NFL":
             direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         else:
             print("Invalid League")
@@ -206,11 +202,10 @@ def main():
     # Load games from all leagues
     leagues = {
         'NBA': Game.gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA', stats),
-        #'CBB': Game.gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB', stats),
-        'MLB': Game.gameInputFromLite("../Scrapers/Data/DK/MLB_Lite.json", 'MLB', stats)
-        # 'NFL': Game.gameInputFromJSON("../Scrapers/Data/DK/NFL.json", 'NFL', stats),
+        'CBB': Game.gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB', stats),
+        'MLB': Game.gameInputFromLite("../Scrapers/Data/DK/MLB_Lite.json", 'MLB', stats),
+        'NFL': Game.gameInputFromLite("../Scrapers/Data/DK/NFL_Lite.json", 'NFL', stats),
         # 'NHL': Game.gameInputFromJSON("../Scrapers/Data/DK/NHL.json", 'NHL', stats),
-        # 'NBA': Game.gameInputFromJSON("../Scrapers/Data/DK/NBA.json", 'NBA', stats)
     }
 
     # Process games for each league

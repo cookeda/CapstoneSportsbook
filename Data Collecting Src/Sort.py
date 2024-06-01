@@ -42,7 +42,7 @@ def cleanfile(file):
 def main():
     i = 0
     league = "NBA"
-    while i < 2:
+    while i < 3:
         sortFile("10YearCover.jl", "cover", "general", league)
         sortFile("AllTimeCover.jl", "cover", "general", league)
         sortFile("PointAverages.jl", "over", "general", league) # New
@@ -57,6 +57,8 @@ def main():
         i += 1
         if i == 1:
             league = "MLB"
+        if i == 2:
+            league = "NFL"
 
 if __name__ == '__main__':
     main()
