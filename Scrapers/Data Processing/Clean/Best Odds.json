@@ -42,9 +42,9 @@
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
             "Away Spread Odds": "-150 (ESPN)",
-            "Away ML": "+137 (Bovada)",
+            "Away ML": "+136 (DK)",
             "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+135 (Bovada)",
+            "Home Spread Odds": "+130 (ESPN)",
             "Home ML": "-155 (ESPN)",
             "Total": "8 (DK)",
             "Over Total Odds": "−105 (DK)",
@@ -74,7 +74,7 @@
             "Home ML": "-165 (ESPN)",
             "Total": "7.5 (ESPN)",
             "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "−102 (DK)"
+            "Under Total Odds": "−108 (DK)"
         }
     },
     {
@@ -327,8 +327,8 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "-175 (ESPN)",
-            "Away ML": "+127 (Bovada)",
+            "Away Spread Odds": "-165 (ESPN)",
+            "Away ML": "+130 (ESPN)",
             "Home Spread": "-1.5 (ESPN)",
             "Home Spread Odds": "+150 (Bovada)",
             "Home ML": "−148 (DK)",
@@ -413,6 +413,32 @@
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "−102 (DK)",
             "Under Total Odds": "+100 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_8714ddbe_MLB",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "Toronto Blue Jays",
+            "Home Team Rank Name": "Toronto",
+            "Home Abv": "TOR",
+            "Home ID": "8714ddbe",
+            "Start Time": "3:07 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-160 (Bovada)",
+            "Away ML": "+137 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+135 (Bovada)",
+            "Home ML": "-163 (Bovada)",
+            "Total": "7.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     }
 ]
