@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "ccadb94e_fe2ec146_MLB",
-        "Info Table": {
-            "Away Team": "STL Cardinals",
-            "Away Team Rank Name": "St. Louis",
-            "Away Abv": "STL",
-            "Away ID": "ccadb94e",
-            "Home Team": "PHI Phillies",
-            "Home Team Rank Name": "Philadelphia",
-            "Home Abv": "PHI",
-            "Home ID": "fe2ec146",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+3.0 (Bovada)",
-            "Away Spread Odds": "+170 (ESPN)",
-            "Away ML": "+1100 (DK)",
-            "Home Spread": "+3.0 (Bovada)",
-            "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "-2500 (ESPN)",
-            "Total": "6.5 (ESPN)",
-            "Over Total Odds": "+105 (Bovada)",
-            "Under Total Odds": "+100 (ESPN)"
-        }
-    },
-    {
         "MatchupID": "fe8acdeb_300faa7b_MLB",
         "Info Table": {
             "Away Team": "LA Angels",
@@ -40,15 +14,15 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+5.5 (ESPN)",
-            "Away Spread Odds": "-105 (Bovada)",
-            "Away ML": "+3000 (DK)",
-            "Home Spread": "+5.0 (Bovada)",
-            "Home Spread Odds": "+130 (ESPN)",
-            "Home ML": "-460 (Bovada)",
-            "Total": "7.5 (ESPN)",
-            "Over Total Odds": "+110 (ESPN)",
-            "Under Total Odds": "-135 (Bovada)"
+            "Away Spread": "-999 (ESPN)",
+            "Away Spread Odds": "-999 (ESPN)",
+            "Away ML": "-999 (ESPN)",
+            "Home Spread": "-999 (ESPN)",
+            "Home Spread Odds": "+150 (DK)",
+            "Home ML": "-999 (ESPN)",
+            "Total": "99 (ESPN)",
+            "Over Total Odds": "-999 (ESPN)",
+            "Under Total Odds": "-999 (ESPN)"
         }
     },
     {
@@ -92,15 +66,15 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (ESPN)",
-            "Away Spread Odds": "+165 (ESPN)",
-            "Away ML": "−108 (DK)",
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "+160 (ESPN)",
+            "Away ML": "-108 (Bovada)",
             "Home Spread": "+1.5 (ESPN)",
-            "Home Spread Odds": "-195 (Bovada)",
-            "Home ML": "-109 (Bovada)",
+            "Home Spread Odds": "+180 (Bovada)",
+            "Home ML": "-110 (ESPN)",
             "Total": "7.5 (ESPN)",
             "Over Total Odds": "+100 (ESPN)",
-            "Under Total Odds": "-120 (ESPN)"
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -122,11 +96,37 @@
             "Away Spread Odds": "+115 (Bovada)",
             "Away ML": "+260 (ESPN)",
             "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+120 (ESPN)",
-            "Home ML": "-305 (Bovada)",
+            "Home Spread Odds": "+150 (DK)",
+            "Home ML": "−305 (DK)",
             "Total": "7.5 (ESPN)",
             "Over Total Odds": "+100 (ESPN)",
             "Under Total Odds": "-115 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "Unknown_Unknown_MLB",
+        "Info Table": {
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "-999",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "-999 (Bovada)",
+            "Home Spread": "-999 (Bovada)",
+            "Home Spread Odds": "99 (Bovada)",
+            "Home ML": "-999 (Bovada)",
+            "Total": "-999 (Bovada)",
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     }
 ]
