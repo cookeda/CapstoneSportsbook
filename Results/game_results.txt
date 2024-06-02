@@ -1,33 +1,23 @@
 Dallas @ Boston (NBA): Cover Rating - 3.0, Over Score - 5.7
 Bet on Dallas to cover the spread.
-NY Yankees @ SF Giants (MLB): Cover Rating - 2.6, Over Score - 5.6
-Bet on SF Giants to cover the spread.
-LA Angels @ Seattle (MLB): Cover Rating - 6.0, Over Score - 5.1
-Bet on LA Angels to cover the spread.
-Colorado @ LA Dodgers (MLB): Cover Rating - 1.9, Over Score - 5.9
-Bet on Colorado to cover the spread.
+NY Yankees @ SF Giants (MLB): Cover Rating - 3.0, Over Score - 8.1
+Bet on NY Yankees to cover the spread.
 St. Louis @ Philadelphia (MLB): Cover Rating - 1.7, Over Score - 5.4
 Bet on Philadelphia to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-LA Angels @ Seattle (MLB): Cover Rating - 6.0, Bet on LA Angels to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 3.0, Bet on Dallas to cover the spread.
-NY Yankees @ SF Giants (MLB): Cover Rating - 2.6, Bet on SF Giants to cover the spread.
-Colorado @ LA Dodgers (MLB): Cover Rating - 1.9, Bet on Colorado to cover the spread.
+NY Yankees @ SF Giants (MLB): Cover Rating - 3.0, Bet on NY Yankees to cover the spread.
 St. Louis @ Philadelphia (MLB): Cover Rating - 1.7, Bet on Philadelphia to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Colorado @ LA Dodgers (MLB): Over Score - 5.9
+NY Yankees @ SF Giants (MLB): Over Score - 8.1
 Dallas @ Boston (NBA): Over Score - 5.7
-NY Yankees @ SF Giants (MLB): Over Score - 5.6
 St. Louis @ Philadelphia (MLB): Over Score - 5.4
-LA Angels @ Seattle (MLB): Over Score - 5.1
          date league  cover_rating  ...  total   home_team     away_team
 0  2024-06-02    NBA      3.015385  ...  214.5      Dallas        Boston
-1  2024-06-02    MLB      2.600000  ...    9.5  NY Yankees     SF Giants
-2  2024-06-02    MLB      6.000000  ...    2.5   LA Angels       Seattle
-3  2024-06-02    MLB      1.942857  ...    5.5    Colorado    LA Dodgers
-4  2024-06-02    MLB      1.666667  ...    9.5   St. Louis  Philadelphia
+1  2024-06-02    MLB      3.002102  ...    8.0  NY Yankees     SF Giants
+2  2024-06-02    MLB      1.666667  ...    9.5   St. Louis  Philadelphia
 
-[5 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions

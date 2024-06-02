@@ -39093,3 +39093,73 @@ Results Script
 Script started at: 2024-06-02 18:00:02.132939
 Script ended at: 2024-06-02 18:00:38.781188
 Total execution time: 0:00:36.648249
+[main e21704f9] Automated Server Update
+ 16 files changed, 601 insertions(+), 650 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (78%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   5df085bf..e21704f9  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.58s/it]100%|██████████| 1/1 [00:02<00:00,  2.58s/it]
+ 50%|█████     | 1/2 [00:15<00:15, 15.54s/it]100%|██████████| 2/2 [00:18<00:00,  8.16s/it]100%|██████████| 2/2 [00:18<00:00,  9.27s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/2 [00:00<?, ?it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.12it/s]100%|██████████| 1/1 [00:00<00:00,  2.12it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.20it/s]100%|██████████| 1/1 [00:00<00:00,  2.19it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.68it/s]100%|██████████| 1/1 [00:00<00:00,  2.68it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.11it/s]100%|██████████| 1/1 [00:00<00:00,  2.11it/s]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+ 50%|█████     | 1/2 [00:11<00:11, 11.08s/it]100%|██████████| 2/2 [00:11<00:00,  4.96s/it]100%|██████████| 2/2 [00:11<00:00,  5.88s/it]
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 109, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 80, in main
+    df['cover_grade'] = dynamic_process_ratings(df, 'cover_rating', df['league'])
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 49, in dynamic_process_ratings
+    df['grade'] = pd.cut(df[column], bins=[-np.inf] + list(thresholds), labels=labels, right=False)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 257, in cut
+    fac, bins = _bins_to_cuts(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 443, in _bins_to_cuts
+    raise ValueError(
+ValueError: Bin edges must be unique: Index([-inf, 2.558, 3.0, 3.0], dtype='float64').
+You can drop duplicate edges by setting the 'duplicates' kwarg
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Traceback (most recent call last):
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 109, in <module>
+    main()
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 80, in main
+    df['cover_grade'] = dynamic_process_ratings(df, 'cover_rating', df['league'])
+  File "/media/myfiles/CapstoneSportsbook/Results/summary.py", line 49, in dynamic_process_ratings
+    df['grade'] = pd.cut(df[column], bins=[-np.inf] + list(thresholds), labels=labels, right=False)
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 257, in cut
+    fac, bins = _bins_to_cuts(
+  File "/home/rkdconnor/anaconda3/envs/Capstone/lib/python3.10/site-packages/pandas/core/reshape/tile.py", line 443, in _bins_to_cuts
+    raise ValueError(
+ValueError: Bin edges must be unique: Index([-inf, 2.558, 3.0, 3.0], dtype='float64').
+You can drop duplicate edges by setting the 'duplicates' kwarg
+Results Script
+Script started at: 2024-06-02 19:00:02.503319
+Script ended at: 2024-06-02 19:00:52.318287
+Total execution time: 0:00:49.814968

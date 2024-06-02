@@ -4,15 +4,15 @@
             "BetTableId": "DK_6424b504_486a5e3b_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+200",
-                "Away ML": "−125",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−270",
-                "Home ML": "−105",
-                "Total": "9.5",
-                "Over Total Odds": "+130",
-                "Under Total Odds": "−166"
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "−15000",
+                "Home Spread": "-999",
+                "Home Spread Odds": "-999",
+                "Home ML": "+2500",
+                "Total": "8",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
             },
             "MatchupID": "6424b504_486a5e3b_MLB",
             "Info Table": {
@@ -31,78 +31,18 @@
     ],
     [
         {
-            "BetTableId": "DK_fe8acdeb_300faa7b_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−215",
-                "Away ML": "+500",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "−270",
-                "Home ML": "−810",
-                "Total": "2.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
-            },
-            "MatchupID": "fe8acdeb_300faa7b_MLB",
-            "Info Table": {
-                "Away Team": "LA Angels",
-                "Away Team Rank Name": "LA Angels",
-                "Away Abv": "LAA",
-                "Away ID": "fe8acdeb",
-                "Home Team": "SEA Mariners",
-                "Home Team Rank Name": "Seattle",
-                "Home Abv": "SEA",
-                "Home ID": "300faa7b",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_8f2512bc_4e2f3aa1_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+3.5",
-                "Away Spread Odds": "−110",
-                "Away ML": "+1500",
-                "Home Spread": "-3.5",
-                "Home Spread Odds": "−270",
-                "Home ML": "−4000",
-                "Total": "5.5",
-                "Over Total Odds": "−120",
-                "Under Total Odds": "−110"
-            },
-            "MatchupID": "8f2512bc_4e2f3aa1_MLB",
-            "Info Table": {
-                "Away Team": "COL Rockies",
-                "Away Team Rank Name": "Colorado",
-                "Away Abv": "COL",
-                "Away ID": "8f2512bc",
-                "Home Team": "LA Dodgers",
-                "Home Team Rank Name": "LA Dodgers",
-                "Home Abv": "LAD",
-                "Home ID": "4e2f3aa1",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_ccadb94e_fe2ec146_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "−162",
-                "Away ML": "+120",
+                "Away ML": "+114",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−270",
-                "Home ML": "−142",
+                "Home Spread Odds": "-999",
+                "Home ML": "−135",
                 "Total": "9.5",
-                "Over Total Odds": "−108",
-                "Under Total Odds": "−112"
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "ccadb94e_fe2ec146_MLB",
             "Info Table": {
