@@ -38982,3 +38982,53 @@ Results Script
 Script started at: 2024-06-02 16:00:01.771756
 Script ended at: 2024-06-02 16:03:14.742277
 Total execution time: 0:03:12.970521
+[main 1a499290] Automated Server Update
+ 17 files changed, 2233 insertions(+), 2513 deletions(-)
+ rewrite OddsHistory/History/Predictions.csv (91%)
+ rewrite Results/game_results.txt (74%)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   5c7d578f..1a499290  main -> main
+From https://github.com/cookeda/CapstoneSportsbook
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.55s/it]100%|██████████| 1/1 [00:02<00:00,  2.55s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:02<00:07,  2.49s/it] 50%|█████     | 2/4 [00:05<00:05,  2.64s/it] 75%|███████▌  | 3/4 [00:08<00:02,  2.77s/it]100%|██████████| 4/4 [00:09<00:00,  2.02s/it]100%|██████████| 4/4 [00:09<00:00,  2.26s/it]
+Reformatted JSON saved to: ../../Data/DK/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/DK/MLB_Lite.json
+Scraping DraftKings for: NBA, MLB
+DK Data processing complete.
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  2.10it/s]0it [00:00, ?it/s]0it [00:00, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s] 67%|██████▋   | 2/3 [00:00<00:00,  2.30it/s]100%|██████████| 1/1 [00:00<00:00,  2.33it/s]100%|██████████| 1/1 [00:00<00:00,  2.33it/s]
+100%|██████████| 3/3 [00:01<00:00,  2.45it/s]100%|██████████| 3/3 [00:01<00:00,  2.38it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.65it/s]100%|██████████| 1/1 [00:00<00:00,  2.65it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.16it/s]100%|██████████| 1/1 [00:00<00:00,  2.16it/s]
+Reformatted JSON saved to: ../../Data/Bovada/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/Bovada/MLB_Lite.json
+Scraping Bovada for: NBA, MLB
+Bovada Data processing complete.
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:04<00:14,  4.99s/it] 50%|█████     | 2/4 [00:08<00:08,  4.07s/it] 75%|███████▌  | 3/4 [00:11<00:03,  3.52s/it]100%|██████████| 4/4 [00:12<00:00,  2.47s/it]100%|██████████| 4/4 [00:12<00:00,  3.03s/it]
+Reformatted JSON saved to: ../../Data/ESPN/NBA_Lite.json
+Reformatted JSON saved to: ../../Data/ESPN/MLB_Lite.json
+Scraping ESPN for: NBA, MLB
+ESPN Data processing complete.
+DK data scraped for the first time today
+All book data scraped
+Warning: No game summary found for matchup ID c625b23e_dd4357ee_MLB
+Warning: No game summary found for matchup ID Unknown_Unknown_MLB
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Reformatted JSON saved to: ../../DegenBets/Data/script/matchups.json
+Sorting Odds
+Sorting complete.
+Warning: No game summary found for matchup ID Unknown_486a5e3b_MLB
+Merging complete. Data saved to 'merged_data.json'.
+/media/myfiles/CapstoneSportsbook/Results/summary.py:77: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = df._append({'matchup_id': matchup_id, 'league': league, 'cover_rating': cover_rating, 'over_score': over_score, 'team_to_cover': team_to_cover}, ignore_index=True)
+Data written to ../DegenBets/Data/master/game_summary.json
+Results Script
+Script started at: 2024-06-02 17:00:01.662300
+Script ended at: 2024-06-02 17:00:52.412306
+Total execution time: 0:00:50.750006
