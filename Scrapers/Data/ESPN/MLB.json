@@ -5,14 +5,14 @@
             "Odds Table": {
                 "Book Name": "ESPN",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-300",
-                "Away ML": "+110",
+                "Away Spread Odds": "-600",
+                "Away ML": "+150",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+220",
-                "Home ML": "-140",
-                "Total": "14.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "-130"
+                "Home Spread Odds": "+380",
+                "Home ML": "-190",
+                "Total": "11.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "-110"
             },
             "MatchupID": "fdd0d44c_d10f1db8_MLB",
             "Info Table": {
@@ -24,66 +24,6 @@
                 "Home Team Rank Name": "Chi Cubs",
                 "Home Abv": "CHC",
                 "Home ID": "d10f1db8",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_6424b504_486a5e3b_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+170",
-                "Away ML": "-450",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "-220",
-                "Home ML": "+300",
-                "Total": "8.5",
-                "Over Total Odds": "-130",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "6424b504_486a5e3b_MLB",
-            "Info Table": {
-                "Away Team": "NY Yankees",
-                "Away Team Rank Name": "NY Yankees",
-                "Away Abv": "NYY",
-                "Away ID": "6424b504",
-                "Home Team": "SF Giants",
-                "Home Team Rank Name": "SF Giants",
-                "Home Abv": "SF",
-                "Home ID": "486a5e3b",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "ESPN_8f2512bc_4e2f3aa1_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "+3.5",
-                "Away Spread Odds": "+110",
-                "Away ML": "+1500",
-                "Home Spread": "-3.5",
-                "Home Spread Odds": "-140",
-                "Home ML": "-4000",
-                "Total": "7.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "-110"
-            },
-            "MatchupID": "8f2512bc_4e2f3aa1_MLB",
-            "Info Table": {
-                "Away Team": "COL Rockies",
-                "Away Team Rank Name": "Colorado",
-                "Away Abv": "COL",
-                "Away ID": "8f2512bc",
-                "Home Team": "LA Dodgers",
-                "Home Team Rank Name": "LA Dodgers",
-                "Home Abv": "LAD",
-                "Home ID": "4e2f3aa1",
                 "Start Time": "Live Game",
                 "League": "MLB"
             }
