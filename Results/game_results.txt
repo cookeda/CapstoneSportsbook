@@ -6,7 +6,7 @@ Detroit @ Boston (MLB): Cover Rating - 12.0, Over Score - 4.4
 Bet on Detroit to cover the spread.
 Tampa Bay @ Baltimore (MLB): Cover Rating - 3.4, Over Score - 5.5
 Bet on Tampa Bay to cover the spread.
-Oakland @ Atlanta (MLB): Cover Rating - 5.8, Over Score - 3.8
+Oakland @ Atlanta (MLB): Cover Rating - 5.8, Over Score - 5.3
 Bet on Oakland to cover the spread.
 Pittsburgh @ Toronto (MLB): Cover Rating - 11.3, Over Score - 5.2
 Bet on Pittsburgh to cover the spread.
@@ -58,6 +58,7 @@ Washington @ Cleveland (MLB): Over Score - 5.6
 Tampa Bay @ Baltimore (MLB): Over Score - 5.5
 St. Louis @ Philadelphia (MLB): Over Score - 5.4
 San Diego @ Kansas City (MLB): Over Score - 5.4
+Oakland @ Atlanta (MLB): Over Score - 5.3
 Cincinnati @ Chi Cubs (MLB): Over Score - 5.3
 Pittsburgh @ Toronto (MLB): Over Score - 5.2
 Minnesota @ Houston (MLB): Over Score - 5.1
@@ -65,7 +66,6 @@ NY Yankees @ SF Giants (MLB): Over Score - 5.0
 Arizona @ NY Mets (MLB): Over Score - 4.9
 Detroit @ Boston (MLB): Over Score - 4.4
 LA Angels @ Seattle (MLB): Over Score - 4.0
-Oakland @ Atlanta (MLB): Over Score - 3.8
           date league  cover_rating  ...  total   home_team     away_team
 0   2024-06-02    NBA      3.015385  ...  214.5      Dallas        Boston
 1   2024-06-02    MLB     10.533333  ...    8.5   Minnesota       Houston
