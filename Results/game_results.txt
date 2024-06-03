@@ -4,7 +4,7 @@ Milwaukee @ Philadelphia (MLB): Cover Rating - 5.6, Over Score - 5.7
 Bet on Milwaukee to cover the spread.
 NY Mets @ Washington (MLB): Cover Rating - 7.2, Over Score - 5.8
 Bet on Washington to cover the spread.
-Baltimore @ Toronto (MLB): Cover Rating - 0.5, Over Score - 5.5
+Baltimore @ Toronto (MLB): Cover Rating - 0.5, Over Score - 4.5
 Bet on Baltimore to cover the spread.
 Detroit @ Texas (MLB): Cover Rating - 0.3, Over Score - 4.3
 Bet on Detroit to cover the spread.
@@ -34,16 +34,16 @@ NY Mets @ Washington (MLB): Over Score - 5.8
 SF Giants @ Arizona (MLB): Over Score - 5.8
 Milwaukee @ Philadelphia (MLB): Over Score - 5.7
 Dallas @ Boston (NBA): Over Score - 5.7
-Baltimore @ Toronto (MLB): Over Score - 5.5
 Cincinnati @ Colorado (MLB): Over Score - 5.5
 St. Louis @ Houston (MLB): Over Score - 4.8
+Baltimore @ Toronto (MLB): Over Score - 4.5
 Detroit @ Texas (MLB): Over Score - 4.3
          date league  cover_rating  ...  total   home_team     away_team
 0  2024-06-03    NBA      3.015385  ...  214.5      Dallas        Boston
-1  2024-06-03    MLB      5.600000  ...    8.5   Milwaukee  Philadelphia
+1  2024-06-03    MLB      5.600000  ...    8.0   Milwaukee  Philadelphia
 2  2024-06-03    MLB      7.200000  ...    8.0     NY Mets    Washington
 3  2024-06-03    MLB      0.466667  ...    7.5   Baltimore       Toronto
-4  2024-06-03    MLB      0.333333  ...    7.5     Detroit         Texas
+4  2024-06-03    MLB      0.333333  ...    7.0     Detroit         Texas
 5  2024-06-03    MLB      8.133333  ...    8.0   St. Louis       Houston
 6  2024-06-03    MLB      1.000000  ...   11.0  Cincinnati      Colorado
 7  2024-06-03    MLB      0.733333  ...    8.0   San Diego     LA Angels
