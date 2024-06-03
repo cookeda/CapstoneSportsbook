@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "ESPN_6424b504_486a5e3b_MLB",
-            "Odds Table": {
-                "Book Name": "ESPN",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
-                "Away ML": "-20000",
-                "Home Spread": "-999",
-                "Home Spread Odds": "-999",
-                "Home ML": "+3000",
-                "Total": "99",
-                "Over Total Odds": "-999",
-                "Under Total Odds": "-999"
-            },
-            "MatchupID": "6424b504_486a5e3b_MLB",
-            "Info Table": {
-                "Away Team": "NY Yankees",
-                "Away Team Rank Name": "NY Yankees",
-                "Away Abv": "NYY",
-                "Away ID": "6424b504",
-                "Home Team": "SF Giants",
-                "Home Team Rank Name": "SF Giants",
-                "Home Abv": "SF",
-                "Home ID": "486a5e3b",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "ESPN_ccadb94e_fe2ec146_MLB",
             "Odds Table": {
                 "Book Name": "ESPN",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-160",
-                "Away ML": "+125",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+135",
-                "Home ML": "-145",
-                "Total": "9.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+150",
+                "Away ML": "-110",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "-190",
+                "Home ML": "-120",
+                "Total": "11.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-120"
             },
             "MatchupID": "ccadb94e_fe2ec146_MLB",
             "Info Table": {
@@ -54,7 +24,7 @@
                 "Home Team Rank Name": "Philadelphia",
                 "Home Abv": "PHI",
                 "Home ID": "fe2ec146",
-                "Start Time": "Today \u00b7 7:10 PM",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }

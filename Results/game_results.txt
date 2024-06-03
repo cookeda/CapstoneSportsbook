@@ -1,23 +1,18 @@
 Dallas @ Boston (NBA): Cover Rating - 3.0, Over Score - 5.7
 Bet on Dallas to cover the spread.
-NY Yankees @ SF Giants (MLB): Cover Rating - 3.0, Over Score - 8.1
-Bet on NY Yankees to cover the spread.
-St. Louis @ Philadelphia (MLB): Cover Rating - 1.7, Over Score - 5.4
-Bet on Philadelphia to cover the spread.
+St. Louis @ Philadelphia (MLB): Cover Rating - 3.3, Over Score - 5.4
+Bet on St. Louis to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
+St. Louis @ Philadelphia (MLB): Cover Rating - 3.3, Bet on St. Louis to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 3.0, Bet on Dallas to cover the spread.
-NY Yankees @ SF Giants (MLB): Cover Rating - 3.0, Bet on NY Yankees to cover the spread.
-St. Louis @ Philadelphia (MLB): Cover Rating - 1.7, Bet on Philadelphia to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Yankees @ SF Giants (MLB): Over Score - 8.1
 Dallas @ Boston (NBA): Over Score - 5.7
 St. Louis @ Philadelphia (MLB): Over Score - 5.4
-         date league  cover_rating  ...  total   home_team     away_team
-0  2024-06-02    NBA      3.015385  ...  214.5      Dallas        Boston
-1  2024-06-02    MLB      3.002102  ...    8.0  NY Yankees     SF Giants
-2  2024-06-02    MLB      1.666667  ...    9.5   St. Louis  Philadelphia
+         date league  cover_rating  ...  total  home_team     away_team
+0  2024-06-02    NBA      3.015385  ...  214.5     Dallas        Boston
+1  2024-06-02    MLB      3.333333  ...   11.5  St. Louis  Philadelphia
 
-[3 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions

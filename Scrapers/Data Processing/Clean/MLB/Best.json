@@ -1,31 +1,5 @@
 [
     {
-        "MatchupID": "6424b504_486a5e3b_MLB",
-        "Info Table": {
-            "Away Team": "NY Yankees",
-            "Away Team Rank Name": "NY Yankees",
-            "Away Abv": "NYY",
-            "Away ID": "6424b504",
-            "Home Team": "SF Giants",
-            "Home Team Rank Name": "SF Giants",
-            "Home Abv": "SF",
-            "Home ID": "486a5e3b",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-2.0 (Bovada)",
-            "Away Spread Odds": "-185 (Bovada)",
-            "Away ML": "-6600 (Bovada)",
-            "Home Spread": "-2.0 (Bovada)",
-            "Home Spread Odds": "+140 (Bovada)",
-            "Home ML": "+3000 (ESPN)",
-            "Total": "99 (ESPN)",
-            "Over Total Odds": "+550 (Bovada)",
-            "Under Total Odds": "-999 (ESPN)"
-        }
-    },
-    {
         "MatchupID": "ccadb94e_fe2ec146_MLB",
         "Info Table": {
             "Away Team": "STL Cardinals",
@@ -36,19 +10,19 @@
             "Home Team Rank Name": "Philadelphia",
             "Home Abv": "PHI",
             "Home ID": "fe2ec146",
-            "Start Time": "Today · 7:10 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (ESPN)",
-            "Away Spread Odds": "-160 (ESPN)",
-            "Away ML": "+125 (ESPN)",
-            "Home Spread": "-1.5 (ESPN)",
-            "Home Spread Odds": "+135 (ESPN)",
-            "Home ML": "−135 (DK)",
-            "Total": "9.5 (ESPN)",
-            "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "-105 (ESPN)"
+            "Away Spread": "+1.5 (DK)",
+            "Away Spread Odds": "+170 (Bovada)",
+            "Away ML": "+100 (Bovada)",
+            "Home Spread": "+1.5 (ESPN)",
+            "Home Spread Odds": "+170 (DK)",
+            "Home ML": "-120 (ESPN)",
+            "Total": "11.5 (ESPN)",
+            "Over Total Odds": "-110 (ESPN)",
+            "Under Total Odds": "-120 (ESPN)"
         }
     }
 ]
