@@ -26,34 +26,6 @@
                 "Under Total Odds": "-110"
             },
             {
-                "Book Name": "ESPN",
-                "Away Spread": "+6.5",
-                "Away Spread Odds": "-110",
-                "Away ML": "+210",
-                "Home Spread": "-6.5",
-                "Home Spread Odds": "-110",
-                "Home ML": "-250",
-                "Total": "214.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
-            }
-        ]
-    },
-    "Unknown_Unknown_NBA": {
-        "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
-            "Start Time": "-999",
-            "League": "NBA"
-        },
-        "Bet Tables": [
-            {
                 "Book Name": "DK",
                 "Away Spread": "+6.5",
                 "Away Spread Odds": "−110",
@@ -64,6 +36,18 @@
                 "Total": "214.5",
                 "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
+            },
+            {
+                "Book Name": "ESPN",
+                "Away Spread": "+6.5",
+                "Away Spread Odds": "-110",
+                "Away ML": "+210",
+                "Home Spread": "-6.5",
+                "Home Spread Odds": "-110",
+                "Home ML": "-250",
+                "Total": "214.5",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             }
         ]
     }
