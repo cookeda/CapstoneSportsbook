@@ -6,6 +6,8 @@ Kansas City @ Cleveland (MLB): Cover Rating - 0.3, Over Score - 5.3
 Bet on Cleveland to cover the spread.
 Tampa Bay @ Miami (MLB): Cover Rating - 0.5, Over Score - 4.8
 Bet on Miami to cover the spread.
+Milwaukee @ Philadelphia (MLB): Cover Rating - 8.6, Over Score - 4.7
+Bet on Milwaukee to cover the spread.
 NY Mets @ Washington (MLB): Cover Rating - 7.2, Over Score - 5.8
 Bet on Washington to cover the spread.
 Minnesota @ NY Yankees (MLB): Cover Rating - 2.1, Over Score - 5.2
@@ -22,6 +24,7 @@ SF Giants @ Arizona (MLB): Cover Rating - 0.3, Over Score - 5.8
 Bet on Arizona to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
+Milwaukee @ Philadelphia (MLB): Cover Rating - 8.6, Bet on Milwaukee to cover the spread.
 NY Mets @ Washington (MLB): Cover Rating - 7.2, Bet on Washington to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 3.0, Bet on Dallas to cover the spread.
 Minnesota @ NY Yankees (MLB): Cover Rating - 2.1, Bet on Minnesota to cover the spread.
@@ -45,19 +48,21 @@ Seattle @ Oakland (MLB): Over Score - 5.3
 LA Dodgers @ Pittsburgh (MLB): Over Score - 5.3
 Minnesota @ NY Yankees (MLB): Over Score - 5.2
 Tampa Bay @ Miami (MLB): Over Score - 4.8
+Milwaukee @ Philadelphia (MLB): Over Score - 4.7
 Atlanta @ Boston (MLB): Over Score - 4.6
-          date league  cover_rating  ...  total    home_team   away_team
-0   2024-06-04    NBA      3.015385  ...  214.5       Dallas      Boston
-1   2024-06-04    MLB      1.866667  ...    7.5   LA Dodgers  Pittsburgh
-2   2024-06-04    MLB      0.333333  ...    8.5  Kansas City   Cleveland
-3   2024-06-04    MLB      0.466667  ...    7.5    Tampa Bay       Miami
-4   2024-06-04    MLB      7.200000  ...    8.5      NY Mets  Washington
-5   2024-06-04    MLB      2.133333  ...    8.0    Minnesota  NY Yankees
-6   2024-06-04    MLB      2.000000  ...    8.0      Atlanta      Boston
-7   2024-06-04    MLB      0.001502  ...    9.0      Chi Sox    Chi Cubs
-8   2024-06-04    MLB      1.000000  ...   10.5   Cincinnati    Colorado
-9   2024-06-04    MLB      1.133333  ...    7.5      Seattle     Oakland
-10  2024-06-04    MLB      0.266667  ...    9.0    SF Giants     Arizona
+          date league  cover_rating  ...  total    home_team     away_team
+0   2024-06-04    NBA      3.015385  ...  214.5       Dallas        Boston
+1   2024-06-04    MLB      1.866667  ...    7.5   LA Dodgers    Pittsburgh
+2   2024-06-04    MLB      0.333333  ...    8.5  Kansas City     Cleveland
+3   2024-06-04    MLB      0.466667  ...    7.5    Tampa Bay         Miami
+4   2024-06-04    MLB      8.600000  ...    8.5    Milwaukee  Philadelphia
+5   2024-06-04    MLB      7.200000  ...    8.5      NY Mets    Washington
+6   2024-06-04    MLB      2.133333  ...    8.0    Minnesota    NY Yankees
+7   2024-06-04    MLB      2.000000  ...    8.0      Atlanta        Boston
+8   2024-06-04    MLB      0.001502  ...    9.0      Chi Sox      Chi Cubs
+9   2024-06-04    MLB      1.000000  ...   10.5   Cincinnati      Colorado
+10  2024-06-04    MLB      1.133333  ...    7.5      Seattle       Oakland
+11  2024-06-04    MLB      0.266667  ...    9.0    SF Giants       Arizona
 
-[11 rows x 10 columns]
+[12 rows x 10 columns]
 Avoided Overriding DailyPredictions
