@@ -1,11 +1,11 @@
 [
     {
-        "MatchupID": "48eb7bb_8a2d1e91_NBA",
+        "MatchupID": "Unknown_8a2d1e91_NBA",
         "Info Table": {
-            "Away Team": "DAL Mavericks",
-            "Away Team Rank Name": "Dallas",
-            "Away Abv": "DAL",
-            "Away ID": "48eb7bb",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "BOS Celtics",
             "Home Team Rank Name": "Boston",
             "Home Abv": "BOS",
@@ -16,13 +16,39 @@
         "Odds Table": {
             "Away Spread": "+6.5 (ESPN)",
             "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "+205 (Bovada)",
+            "Away ML": "+205 (ESPN)",
             "Home Spread": "-6.5 (ESPN)",
             "Home Spread Odds": "-105 (Bovada)",
-            "Home ML": "−230 (DK)",
+            "Home ML": "-240 (Bovada)",
             "Total": "214.5 (ESPN)",
             "Over Total Odds": "-110 (ESPN)",
             "Under Total Odds": "-110 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "48eb7bb_8a2d1e91_NBA",
+        "Info Table": {
+            "Away Team": "DAL Mavericks",
+            "Away Team Rank Name": "Dallas",
+            "Away Abv": "DAL",
+            "Away ID": "48eb7bb",
+            "Home Team": "BOS Celtics",
+            "Home Team Rank Name": "Boston",
+            "Home Abv": "BOS",
+            "Home ID": "8a2d1e91",
+            "Start Time": "8:40PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+6.5 (DK)",
+            "Away Spread Odds": "−110 (DK)",
+            "Away ML": "+190 (DK)",
+            "Home Spread": "-6.5 (DK)",
+            "Home Spread Odds": "−110 (DK)",
+            "Home ML": "−230 (DK)",
+            "Total": "214.5 (DK)",
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "−110 (DK)"
         }
     }
 ]
