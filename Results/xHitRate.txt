@@ -1,4 +1,5 @@
 Recommended Cover Bet Rating Windows for Today by League:
+<<<<<<< HEAD
    League CoverRatingWindow  CoverScoreAvg  BetCount  xHitRate
 0     MLB           0.0-1.0       0.063960        54  0.555556
 1     MLB           1.0-2.0       0.164951        68  0.573529
@@ -60,3 +61,30 @@ Recommended Total Bet Rating Windows for Today by League:
 31    NBA        Under 5.4-5.59       0.160555        20  0.500000
 32    NBA        Under 5.6-5.79       0.049737        20  0.300000
 33    NBA        Under 5.8-5.99       0.693056         6  0.666667
+=======
+  League CoverRatingWindow  CoverScoreAvg  BetCount  xHitRate
+6    NBA           3.0-6.0       0.308068        37  0.513514
+7    NBA           6.0-9.0       0.055908         6  0.500000
+5    NBA           0.0-3.0       0.039701        47  0.404255
+4    MLB          9.0-12.0       1.741060       119  0.512605
+3    MLB           6.0-9.0       0.546424       105  0.590476
+2    MLB           3.0-6.0       0.368058       201  0.512438
+0    MLB           0.0-3.0       0.157540       227  0.511013
+1    MLB         12.0-15.0       0.123850        23  0.565217
+
+Recommended Total Bet Rating Windows for Today by League:
+   League     TotalRatingWindow  TotalScoreAvg  BetCount  xHitRate
+14    NBA           Under 5.5-6       0.146663        36  0.416667
+13    NBA           Under 5-5.5       0.109565        48  0.375000
+12    NBA           Under 4.5-5       0.068893         6  0.500000
+11    MLB           Under 5.5-6       0.484083       142  0.471831
+10    MLB           Under 5-5.5       0.475713       236  0.461864
+2     MLB            Over 6.5-7       0.430010         9  0.666667
+8     MLB           Under 4-4.5       0.387846        56  0.482143
+9     MLB           Under 4.5-5       0.351287       141  0.468085
+7     MLB           Under 3.5-4       0.310482        31  0.419355
+1     MLB            Over 6-6.5       0.289112        46  0.304348
+5     MLB            Over 8.5-9       0.105806         4  0.500000
+0     MLB  Out of defined range       0.044778         3  0.333333
+6     MLB           Under 3-3.5       0.041453         5  0.600000
+>>>>>>> 574e88699cee05caf2e07b1c677dd3415a374965

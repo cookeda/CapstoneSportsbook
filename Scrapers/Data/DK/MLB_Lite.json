@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "c5227021_fe2ec146_MLB": {
         "Home Team": "Philadelphia",
         "Home Abv": "PHI",
@@ -14,6 +15,57 @@
         "Over Odds": "-999",
         "Under Odds": "-999",
         "Time": "Live Game",
+=======
+    "4e2f3aa1_9666114b_MLB": {
+        "Home Team": "Pittsburgh",
+        "Home Abv": "PIT",
+        "Away Team": "LA Dodgers",
+        "Away Abv": "LAD",
+        "Home Spread": "+1.5",
+        "Home Spread Odds": "−110",
+        "Home ML": "+160",
+        "Away Spread": "-1.5",
+        "Away Spread Odds": "−110",
+        "Away ML": "−192",
+        "Total Points": "7.5",
+        "Over Odds": "−115",
+        "Under Odds": "−105",
+        "Time": "6:40PM",
+        "League": "MLB"
+    },
+    "db2ee960_5a31e1ff_MLB": {
+        "Home Team": "Cleveland",
+        "Home Abv": "CLE",
+        "Away Team": "Kansas City",
+        "Away Abv": "KC",
+        "Home Spread": "+1.5",
+        "Home Spread Odds": "−110",
+        "Home ML": "−118",
+        "Away Spread": "-1.5",
+        "Away Spread Odds": "+160",
+        "Away ML": "−102",
+        "Total Points": "8.5",
+        "Over Odds": "−115",
+        "Under Odds": "−105",
+        "Time": "6:40PM",
+        "League": "MLB"
+    },
+    "16f4bf06_8d47be6d_MLB": {
+        "Home Team": "Miami",
+        "Home Abv": "MIA",
+        "Away Team": "Tampa Bay",
+        "Away Abv": "TB",
+        "Home Spread": "+1.5",
+        "Home Spread Odds": "−110",
+        "Home ML": "−102",
+        "Away Spread": "-1.5",
+        "Away Spread Odds": "+145",
+        "Away ML": "−118",
+        "Total Points": "7.5",
+        "Over Odds": "+100",
+        "Under Odds": "−120",
+        "Time": "6:40PM",
+>>>>>>> 574e88699cee05caf2e07b1c677dd3415a374965
         "League": "MLB"
     },
     "c625b23e_dd4357ee_MLB": {
@@ -21,6 +73,7 @@
         "Home Abv": "WSH",
         "Away Team": "NY Mets",
         "Away Abv": "NYM",
+<<<<<<< HEAD
         "Home Spread": "-1.5",
         "Home Spread Odds": "-999",
         "Home ML": "−125",
@@ -28,11 +81,21 @@
         "Away Spread Odds": "−205",
         "Away ML": "+105",
         "Total Points": "8",
+=======
+        "Home Spread": "+1.5",
+        "Home Spread Odds": "−110",
+        "Home ML": "−105",
+        "Away Spread": "-1.5",
+        "Away Spread Odds": "+142",
+        "Away ML": "−115",
+        "Total Points": "8.5",
+>>>>>>> 574e88699cee05caf2e07b1c677dd3415a374965
         "Over Odds": "−112",
         "Under Odds": "−108",
         "Time": "6:45PM",
         "League": "MLB"
     },
+<<<<<<< HEAD
     "e8bdce10_8714ddbe_MLB": {
         "Home Team": "Toronto",
         "Home Abv": "TOR",
@@ -44,12 +107,26 @@
         "Away Spread": "-1.5",
         "Away Spread Odds": "+136",
         "Away ML": "−122",
+=======
+    "f5328492_6424b504_MLB": {
+        "Home Team": "NY Yankees",
+        "Home Abv": "NYY",
+        "Away Team": "Minnesota",
+        "Away Abv": "MIN",
+        "Home Spread": "-1.5",
+        "Home Spread Odds": "−110",
+        "Home ML": "−170",
+        "Away Spread": "+1.5",
+        "Away Spread Odds": "−155",
+        "Away ML": "+142",
+>>>>>>> 574e88699cee05caf2e07b1c677dd3415a374965
         "Total Points": "8",
-        "Over Odds": "−105",
-        "Under Odds": "−115",
-        "Time": "7:00PM",
+        "Over Odds": "−102",
+        "Under Odds": "−118",
+        "Time": "7:05PM",
         "League": "MLB"
     },
+<<<<<<< HEAD
     "18a9d733_e841daaf_MLB": {
         "Home Team": "Texas",
         "Home Abv": "TEX",
@@ -78,10 +155,40 @@
         "Away Spread": "+1.5",
         "Away Spread Odds": "−148",
         "Away ML": "+145",
+=======
+    "354ef58_8a2d1e91_MLB": {
+        "Home Team": "Boston",
+        "Home Abv": "BOS",
+        "Away Team": "Atlanta",
+        "Away Abv": "ATL",
+        "Home Spread": "+1.5",
+        "Home Spread Odds": "−110",
+        "Home ML": "+142",
+        "Away Spread": "-1.5",
+        "Away Spread Odds": "−105",
+        "Away ML": "−170",
+>>>>>>> 574e88699cee05caf2e07b1c677dd3415a374965
         "Total Points": "8",
         "Over Odds": "−115",
         "Under Odds": "−105",
-        "Time": "8:10PM",
+        "Time": "7:10PM",
+        "League": "MLB"
+    },
+    "ea799920_d10f1db8_MLB": {
+        "Home Team": "Chi Cubs",
+        "Home Abv": "CHC",
+        "Away Team": "Chi Sox",
+        "Away Abv": "CWS",
+        "Home Spread": "-999",
+        "Home Spread Odds": "−110",
+        "Home ML": "−285",
+        "Away Spread": "-999",
+        "Away Spread Odds": "-999",
+        "Away ML": "+230",
+        "Total Points": "9",
+        "Over Odds": "-999",
+        "Under Odds": "-999",
+        "Time": "Live Game",
         "League": "MLB"
     },
     "fdd0d44c_8f2512bc_MLB": {
@@ -90,29 +197,56 @@
         "Away Team": "Cincinnati",
         "Away Abv": "CIN",
         "Home Spread": "+1.5",
+<<<<<<< HEAD
         "Home Spread Odds": "-999",
         "Home ML": "+105",
+=======
+        "Home Spread Odds": "−110",
+        "Home ML": "+114",
+>>>>>>> 574e88699cee05caf2e07b1c677dd3415a374965
         "Away Spread": "-1.5",
-        "Away Spread Odds": "+124",
-        "Away ML": "−125",
+        "Away Spread Odds": "+114",
+        "Away ML": "−135",
         "Total Points": "10.5",
-        "Over Odds": "−115",
-        "Under Odds": "−105",
+        "Over Odds": "−112",
+        "Under Odds": "−108",
         "Time": "8:40PM",
         "League": "MLB"
     },
-    "3f4235d4_fe8acdeb_MLB": {
-        "Home Team": "LA Angels",
-        "Home Abv": "LAA",
-        "Away Team": "San Diego",
-        "Away Abv": "SD",
+    "300faa7b_8b214a89_MLB": {
+        "Home Team": "Oakland",
+        "Home Abv": "OAK",
+        "Away Team": "Seattle",
+        "Away Abv": "SEA",
         "Home Spread": "+1.5",
+<<<<<<< HEAD
         "Home Spread Odds": "-999",
         "Home ML": "+114",
+=======
+        "Home Spread Odds": "−110",
+        "Home ML": "+136",
+>>>>>>> 574e88699cee05caf2e07b1c677dd3415a374965
         "Away Spread": "-1.5",
-        "Away Spread Odds": "+124",
-        "Away ML": "−135",
-        "Total Points": "8.5",
+        "Away Spread Odds": "+110",
+        "Away ML": "−162",
+        "Total Points": "7.5",
+        "Over Odds": "−105",
+        "Under Odds": "−115",
+        "Time": "9:40PM",
+        "League": "MLB"
+    },
+    "486a5e3b_2b1ac347_MLB": {
+        "Home Team": "Arizona",
+        "Home Abv": "ARI",
+        "Away Team": "SF Giants",
+        "Away Abv": "SF",
+        "Home Spread": "+1.5",
+        "Home Spread Odds": "−110",
+        "Home ML": "−120",
+        "Away Spread": "-1.5",
+        "Away Spread Odds": "+164",
+        "Away ML": "+100",
+        "Total Points": "9",
         "Over Odds": "−105",
         "Under Odds": "−115",
         "Time": "9:40PM",
