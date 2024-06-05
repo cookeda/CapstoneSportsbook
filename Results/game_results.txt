@@ -1,6 +1,6 @@
 Dallas @ Boston (NBA): Cover Rating - 3.0, Over Score - 5.7
 Bet on Dallas to cover the spread.
-Atlanta @ Boston (MLB): Cover Rating - 3.0, Over Score - 3.6
+Atlanta @ Boston (MLB): Cover Rating - 3.0, Over Score - 4.6
 Bet on Boston to cover the spread.
 St. Louis @ Houston (MLB): Cover Rating - 5.1, Over Score - 4.9
 Bet on St. Louis to cover the spread.
@@ -57,10 +57,10 @@ LA Dodgers @ Pittsburgh (MLB): Over Score - 5.3
 Detroit @ Texas (MLB): Over Score - 5.2
 Minnesota @ NY Yankees (MLB): Over Score - 5.2
 St. Louis @ Houston (MLB): Over Score - 4.9
-Atlanta @ Boston (MLB): Over Score - 3.6
+Atlanta @ Boston (MLB): Over Score - 4.6
           date league  cover_rating  ...  total   home_team   away_team
 0   2024-06-05    NBA      3.015385  ...  214.5      Dallas      Boston
-1   2024-06-05    MLB      3.000000  ...    9.0     Atlanta      Boston
+1   2024-06-05    MLB      3.000000  ...    9.5     Atlanta      Boston
 2   2024-06-05    MLB      5.133333  ...    8.5   St. Louis     Houston
 3   2024-06-05    MLB      3.533333  ...   11.5  Cincinnati    Colorado
 4   2024-06-05    MLB      5.666667  ...    8.5   SF Giants     Arizona
