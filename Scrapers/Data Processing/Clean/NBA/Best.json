@@ -1,28 +1,54 @@
 [
     {
-        "MatchupID": "48eb7bb_8a2d1e91_NBA",
+        "MatchupID": "Unknown_Unknown_NBA",
         "Info Table": {
-            "Away Team": "DAL Mavericks",
-            "Away Team Rank Name": "Dallas",
-            "Away Abv": "DAL",
-            "Away ID": "48eb7bb",
-            "Home Team": "BOS Celtics",
-            "Home Team Rank Name": "Boston",
-            "Home Abv": "BOS",
-            "Home ID": "8a2d1e91",
-            "Start Time": "Jun 6, 2024 · 8:30 PM",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "-999",
+            "Home Team Rank Name": "Unknown",
+            "Home Abv": "Unknown",
+            "Home ID": "Unknown",
+            "Start Time": "-999",
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+6.5 (ESPN)",
-            "Away Spread Odds": "-110 (ESPN)",
-            "Away ML": "+205 (ESPN)",
-            "Home Spread": "-6.5 (ESPN)",
+            "Away Spread": "-999 (ESPN)",
+            "Away Spread Odds": "-999 (ESPN)",
+            "Away ML": "-999 (ESPN)",
+            "Home Spread": "-999 (ESPN)",
+            "Home Spread Odds": "-999 (ESPN)",
+            "Home ML": "-999 (ESPN)",
+            "Total": "99 (ESPN)",
+            "Over Total Odds": "-999 (ESPN)",
+            "Under Total Odds": "-999 (ESPN)"
+        }
+    },
+    {
+        "MatchupID": "48eb7bb_8a2d1e91_NBA",
+        "Info Table": {
+            "Away Team": "Dallas Mavericks",
+            "Away Team Rank Name": "Dallas",
+            "Away Abv": "DAL",
+            "Away ID": "48eb7bb",
+            "Home Team": "Boston Celtics",
+            "Home Team Rank Name": "Boston",
+            "Home Abv": "BOS",
+            "Home ID": "8a2d1e91",
+            "Start Time": "8:30 PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+6.5 (Bovada)",
+            "Away Spread Odds": "−110 (DK)",
+            "Away ML": "+200 (Bovada)",
+            "Home Spread": "-6.5 (Bovada)",
             "Home Spread Odds": "-105 (Bovada)",
             "Home ML": "−230 (DK)",
             "Total": "215.0 (Bovada)",
-            "Over Total Odds": "-110 (ESPN)",
-            "Under Total Odds": "-110 (ESPN)"
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     }
 ]
