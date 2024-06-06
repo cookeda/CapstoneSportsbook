@@ -8,7 +8,7 @@ Seattle @ Oakland (MLB): Cover Rating - 10.3, Over Score - 5.1
 Bet on Oakland to cover the spread.
 LA Dodgers @ Pittsburgh (MLB): Cover Rating - 7.3, Over Score - 4.3
 Bet on Pittsburgh to cover the spread.
-Atlanta @ Washington (MLB): Cover Rating - 10.3, Over Score - 4.0
+Atlanta @ Washington (MLB): Cover Rating - 10.3, Over Score - 5.0
 Bet on Washington to cover the spread.
 Minnesota @ NY Yankees (MLB): Cover Rating - 1.1, Over Score - 5.2
 Bet on NY Yankees to cover the spread.
@@ -42,16 +42,16 @@ Arizona @ San Diego (MLB): Over Score - 5.4
 Chi Cubs @ Cincinnati (MLB): Over Score - 5.3
 Minnesota @ NY Yankees (MLB): Over Score - 5.2
 Seattle @ Oakland (MLB): Over Score - 5.1
+Atlanta @ Washington (MLB): Over Score - 5.0
 Colorado @ St. Louis (MLB): Over Score - 4.5
 LA Dodgers @ Pittsburgh (MLB): Over Score - 4.3
 Boston @ Chi Sox (MLB): Over Score - 4.2
-Atlanta @ Washington (MLB): Over Score - 4.0
           date league  cover_rating  ...  total    home_team   away_team
 0   2024-06-06    NBA      3.015385  ...  215.5       Dallas      Boston
 1   2024-06-06    MLB      2.200000  ...    8.5    Baltimore     Toronto
 2   2024-06-06    MLB      5.600000  ...    7.5  Kansas City   Cleveland
 3   2024-06-06    MLB     10.266667  ...    8.0      Seattle     Oakland
-4   2024-06-06    MLB      7.333333  ...    9.0   LA Dodgers  Pittsburgh
+4   2024-06-06    MLB      7.333333  ...    9.5   LA Dodgers  Pittsburgh
 5   2024-06-06    MLB     10.266667  ...    8.5      Atlanta  Washington
 6   2024-06-06    MLB      1.133333  ...    8.5    Minnesota  NY Yankees
 7   2024-06-06    MLB      5.600000  ...    9.5     Chi Cubs  Cincinnati
