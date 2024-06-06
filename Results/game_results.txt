@@ -1,53 +1,33 @@
 Dallas @ Boston (NBA): Cover Rating - 3.0, Over Score - 5.7
 Bet on Dallas to cover the spread.
-LA Dodgers @ Pittsburgh (MLB): Cover Rating - 10.2, Over Score - 5.7
-Bet on LA Dodgers to cover the spread.
-Tampa Bay @ Miami (MLB): Cover Rating - 8.0, Over Score - 8.9
-Bet on Tampa Bay to cover the spread.
-Minnesota @ NY Yankees (MLB): Cover Rating - 1.0, Over Score - 5.6
-Bet on Minnesota to cover the spread.
-Baltimore @ Toronto (MLB): Cover Rating - 2.9, Over Score - 6.2
-Bet on Baltimore to cover the spread.
-Chi Sox @ Chi Cubs (MLB): Cover Rating - 3.4, Over Score - 5.5
+Chi Sox @ Chi Cubs (MLB): Cover Rating - 6.0, Over Score - 6.0
 Bet on Chi Cubs to cover the spread.
-Detroit @ Texas (MLB): Cover Rating - 10.8, Over Score - 5.1
+Detroit @ Texas (MLB): Cover Rating - 3.4, Over Score - 5.1
 Bet on Detroit to cover the spread.
-San Diego @ LA Angels (MLB): Cover Rating - 4.5, Over Score - 5.6
+San Diego @ LA Angels (MLB): Cover Rating - 0.5, Over Score - 6.1
 Bet on San Diego to cover the spread.
-Seattle @ Oakland (MLB): Cover Rating - 5.1, Over Score - 5.2
+Seattle @ Oakland (MLB): Cover Rating - 7.1, Over Score - 5.2
 Bet on Oakland to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Detroit @ Texas (MLB): Cover Rating - 10.8, Bet on Detroit to cover the spread.
-LA Dodgers @ Pittsburgh (MLB): Cover Rating - 10.2, Bet on LA Dodgers to cover the spread.
-Tampa Bay @ Miami (MLB): Cover Rating - 8.0, Bet on Tampa Bay to cover the spread.
-Seattle @ Oakland (MLB): Cover Rating - 5.1, Bet on Oakland to cover the spread.
-San Diego @ LA Angels (MLB): Cover Rating - 4.5, Bet on San Diego to cover the spread.
-Chi Sox @ Chi Cubs (MLB): Cover Rating - 3.4, Bet on Chi Cubs to cover the spread.
+Seattle @ Oakland (MLB): Cover Rating - 7.1, Bet on Oakland to cover the spread.
+Chi Sox @ Chi Cubs (MLB): Cover Rating - 6.0, Bet on Chi Cubs to cover the spread.
+Detroit @ Texas (MLB): Cover Rating - 3.4, Bet on Detroit to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 3.0, Bet on Dallas to cover the spread.
-Baltimore @ Toronto (MLB): Cover Rating - 2.9, Bet on Baltimore to cover the spread.
-Minnesota @ NY Yankees (MLB): Cover Rating - 1.0, Bet on Minnesota to cover the spread.
+San Diego @ LA Angels (MLB): Cover Rating - 0.5, Bet on San Diego to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Tampa Bay @ Miami (MLB): Over Score - 8.9
-Baltimore @ Toronto (MLB): Over Score - 6.2
-LA Dodgers @ Pittsburgh (MLB): Over Score - 5.7
+San Diego @ LA Angels (MLB): Over Score - 6.1
+Chi Sox @ Chi Cubs (MLB): Over Score - 6.0
 Dallas @ Boston (NBA): Over Score - 5.7
-San Diego @ LA Angels (MLB): Over Score - 5.6
-Minnesota @ NY Yankees (MLB): Over Score - 5.6
-Chi Sox @ Chi Cubs (MLB): Over Score - 5.5
 Seattle @ Oakland (MLB): Over Score - 5.2
 Detroit @ Texas (MLB): Over Score - 5.1
-         date league  cover_rating  ...  total   home_team   away_team
-0  2024-06-05    NBA      3.015385  ...  214.5      Dallas      Boston
-1  2024-06-05    MLB     10.244444  ...   16.5  LA Dodgers  Pittsburgh
-2  2024-06-05    MLB      8.000901  ...    8.5   Tampa Bay       Miami
-3  2024-06-05    MLB      1.000000  ...   13.5   Minnesota  NY Yankees
-4  2024-06-05    MLB      2.866667  ...    6.5   Baltimore     Toronto
-5  2024-06-05    MLB      3.428571  ...   12.5     Chi Sox    Chi Cubs
-6  2024-06-05    MLB     10.760000  ...    7.5     Detroit       Texas
-7  2024-06-05    MLB      4.533333  ...    7.5   San Diego   LA Angels
-8  2024-06-05    MLB      5.133333  ...    8.0     Seattle     Oakland
+         date league  cover_rating  ...  total  home_team  away_team
+0  2024-06-05    NBA      3.015385  ...  214.5     Dallas     Boston
+1  2024-06-05    MLB      6.000000  ...   10.5    Chi Sox   Chi Cubs
+2  2024-06-05    MLB      3.422222  ...    8.5    Detroit      Texas
+3  2024-06-05    MLB      0.533333  ...    7.5  San Diego  LA Angels
+4  2024-06-05    MLB      7.133333  ...    6.5    Seattle    Oakland
 
-[9 rows x 10 columns]
+[5 rows x 10 columns]
 Avoided Overriding DailyPredictions
