@@ -1,7 +1,7 @@
 {"Team": "Atlanta", "PPG": "118.3", "Last 3": "112.3", "Home": "121.9", "Away": "114.8"}
 {"Team": "Atlanta", "PPG": "118.3", "Last 3": "112.3", "Home": "121.9", "Away": "114.8"}
-{"Team": "Boston", "PPG": "119.2", "Last 3": "115.0", "Home": "121.8", "Away": "116.6"}
-{"Team": "Boston", "PPG": "119.2", "Last 3": "115.0", "Home": "121.8", "Away": "116.6"}
+{"Team": "Boston", "PPG": "119.1", "Last 3": "108.7", "Home": "121.5", "Away": "116.6"}
+{"Team": "Boston", "PPG": "119.1", "Last 3": "108.7", "Home": "121.5", "Away": "116.6"}
 {"Team": "Brooklyn", "PPG": "110.4", "Last 3": "99.7", "Home": "112.2", "Away": "108.5"}
 {"Team": "Brooklyn", "PPG": "110.4", "Last 3": "99.7", "Home": "112.2", "Away": "108.5"}
 {"Team": "Charlotte", "PPG": "106.6", "Last 3": "111.0", "Home": "108.1", "Away": "105.1"}
@@ -10,8 +10,8 @@
 {"Team": "Chicago", "PPG": "112.2", "Last 3": "113.7", "Home": "112.0", "Away": "112.5"}
 {"Team": "Cleveland", "PPG": "110.8", "Last 3": "97.7", "Home": "112.6", "Away": "109.0"}
 {"Team": "Cleveland", "PPG": "110.8", "Last 3": "97.7", "Home": "112.6", "Away": "109.0"}
-{"Team": "Dallas", "PPG": "116.2", "Last 3": "113.3", "Home": "116.9", "Away": "115.5"}
-{"Team": "Dallas", "PPG": "116.2", "Last 3": "113.3", "Home": "116.9", "Away": "115.5"}
+{"Team": "Dallas", "PPG": "115.9", "Last 3": "104.3", "Home": "116.9", "Away": "114.9"}
+{"Team": "Dallas", "PPG": "115.9", "Last 3": "104.3", "Home": "116.9", "Away": "114.9"}
 {"Team": "Denver", "PPG": "113.2", "Last 3": "90.7", "Home": "115.9", "Away": "110.5"}
 {"Team": "Denver", "PPG": "113.2", "Last 3": "90.7", "Home": "115.9", "Away": "110.5"}
 {"Team": "Detroit", "PPG": "109.9", "Last 3": "102.3", "Home": "110.3", "Away": "109.5"}
