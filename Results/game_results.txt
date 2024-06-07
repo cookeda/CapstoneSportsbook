@@ -12,7 +12,7 @@ LA Dodgers @ NY Yankees (MLB): Cover Rating - 10.2, Over Score - 5.2
 Bet on NY Yankees to cover the spread.
 Cleveland @ Miami (MLB): Cover Rating - 1.9, Over Score - 6.1
 Bet on Miami to cover the spread.
-Chi Cubs @ Cincinnati (MLB): Cover Rating - 5.5, Over Score - 4.4
+Chi Cubs @ Cincinnati (MLB): Cover Rating - 5.5, Over Score - 5.4
 Bet on Chi Cubs to cover the spread.
 SF Giants @ Texas (MLB): Cover Rating - 3.9, Over Score - 5.3
 Bet on Texas to cover the spread.
@@ -53,6 +53,7 @@ Milwaukee @ Detroit (MLB): Over Score - 5.6
 Dallas @ Boston (NBA): Over Score - 5.6
 Minnesota @ Pittsburgh (MLB): Over Score - 5.6
 Colorado @ St. Louis (MLB): Over Score - 5.4
+Chi Cubs @ Cincinnati (MLB): Over Score - 5.4
 Boston @ Chi Sox (MLB): Over Score - 5.3
 SF Giants @ Texas (MLB): Over Score - 5.3
 Arizona @ San Diego (MLB): Over Score - 5.3
@@ -61,20 +62,19 @@ LA Dodgers @ NY Yankees (MLB): Over Score - 5.2
 Houston @ LA Angels (MLB): Over Score - 5.1
 Seattle @ Kansas City (MLB): Over Score - 5.0
 Atlanta @ Washington (MLB): Over Score - 4.9
-Chi Cubs @ Cincinnati (MLB): Over Score - 4.4
           date league  cover_rating  ...  total   home_team    away_team
 0   2024-06-07    NBA      3.100000  ...  214.5      Dallas       Boston
 1   2024-06-07    MLB      9.333333  ...    8.0   Minnesota   Pittsburgh
-2   2024-06-07    MLB      2.133333  ...    8.0   Milwaukee      Detroit
+2   2024-06-07    MLB      2.133333  ...    8.5   Milwaukee      Detroit
 3   2024-06-07    MLB      2.200000  ...    7.5     Atlanta   Washington
 4   2024-06-07    MLB      2.200000  ...    8.5   Baltimore    Tampa Bay
 5   2024-06-07    MLB     10.200000  ...    9.0  LA Dodgers   NY Yankees
 6   2024-06-07    MLB      1.866667  ...    7.5   Cleveland        Miami
 7   2024-06-07    MLB      5.466667  ...    8.5    Chi Cubs   Cincinnati
-8   2024-06-07    MLB      3.933333  ...    8.0   SF Giants        Texas
+8   2024-06-07    MLB      3.933333  ...    7.5   SF Giants        Texas
 9   2024-06-07    MLB      2.000000  ...    8.0      Boston      Chi Sox
 10  2024-06-07    MLB     11.133333  ...    9.0     Seattle  Kansas City
-11  2024-06-07    MLB      5.466667  ...    7.5    Colorado    St. Louis
+11  2024-06-07    MLB      5.466667  ...    8.0    Colorado    St. Louis
 12  2024-06-07    MLB     10.866667  ...    8.5     Houston    LA Angels
 13  2024-06-07    MLB      4.266667  ...    8.0     Toronto      Oakland
 14  2024-06-07    MLB      7.000000  ...    7.0     Arizona    San Diego
