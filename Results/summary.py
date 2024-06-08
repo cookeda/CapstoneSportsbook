@@ -44,7 +44,21 @@ def get_matchup_id_for_game(game_info):
 def dynamic_process_ratings(df, column, league):
     # This function replaces the previous static mapping with a dynamic one
     # Define thresholds for star ratings dynamically based on percentiles
-    thresholds = np.percentile(df[column], [33, 66, 100])  # Calculate thresholds as 33rd, 66th, and 100th percentiles
+    # thresholds = np.percentile(df[column], [33, 66, 100])  # Calculate thresholds as 33rd, 66th, and 100th percentiles
+    # labels = [1, 2, 3] if column == 'cover_rating' else [-1, -2, -3]
+    # df['grade'] = pd.cut(df[column], bins=[-np.inf] + list(thresholds), labels=labels, right=False)
+    # return df['grade']
+
+    df[column] = pd.to_numeric(df[column], errors='coerce')
+    df = df.dropna(subset=[column])  # Drop rows with NaN values in the column
+
+    # Check if the column is empty after cleaning
+    if df[column].empty:
+        print(f"No valid data in column '{column}' for league '{league}'.")
+        return pd.Series([0]*len(df), index=df.index)
+
+    # Calculate thresholds as 33rd, 66th, and 100th percentiles
+    thresholds = np.percentile(df[column], [33, 66, 100])
     labels = [1, 2, 3] if column == 'cover_rating' else [-1, -2, -3]
     df['grade'] = pd.cut(df[column], bins=[-np.inf] + list(thresholds), labels=labels, right=False)
     return df['grade']

@@ -302,57 +302,57 @@ def main():
     cleanfile(direct + "results.txt")
     parlay = []
     d = dt.today()
-    generalCover = generalAlg("Cover", "NBA")
-    generalOver = generalAlg("Over", "NBA")
-    generalCover2 = generalAlg("Cover", "CBB")
-    generalOver2 = generalAlg("Over", "CBB")
+    # generalCover = generalAlg("Cover", "NBA")
+    # generalOver = generalAlg("Over", "NBA")
+    # generalCover2 = generalAlg("Cover", "CBB")
+    # generalOver2 = generalAlg("Over", "CBB")
     generalCover3 = generalAlg("Cover", "MLB")
     generalOver3 = generalAlg("Over", "MLB")
 
     # For Home
-    homeCover = getDictPercent(direct + "NBA/cover/home/SortedhomeCover.jl")
+    # homeCover = getDictPercent(direct + "NBA/cover/home/SortedhomeCover.jl")
     #homeCover2 = getDictPercent(direct + "CBB/cover/home/SortedhomeCover.jl")
     homeCover3 = getDictPercent(direct + "MLB/cover/home/SortedhomeCover.jl")
 
-    homeOver = getDictPercent(direct + "NBA/over/home/SortedhomeOver.jl")
+    # homeOver = getDictPercent(direct + "NBA/over/home/SortedhomeOver.jl")
     #homeOver2 = getDictPercent(direct + "CBB/over/home/SortedhomeOver.jl")
     homeOver3 = getDictPercent(direct + "MLB/over/home/SortedhomeOver.jl")
 
-    homeMOV = getDictMOV("../data/NBA/cover/home/SortedhomeCover.jl")
+    # homeMOV = getDictMOV("../data/NBA/cover/home/SortedhomeCover.jl")
     #homeMOV2 = getDictMOV("../data/CBB/cover/home/SortedhomeCover.jl")
     homeMOV3 = getDictMOV("../data/MLB/cover/home/SortedhomeCover.jl")
 
     # For Away
-    awayCover = getDictPercent(direct + "NBA/cover/away/SortedawayCover.jl")
+    # awayCover = getDictPercent(direct + "NBA/cover/away/SortedawayCover.jl")
     #awayCover2 = getDictPercent(direct + "CBB/cover/away/SortedawayCover.jl")
     awayCover3 = getDictPercent(direct + "MLB/cover/away/SortedawayCover.jl")
 
-    awayOver = getDictPercent(direct + "NBA/over/away/SortedawayOver.jl")
+    # awayOver = getDictPercent(direct + "NBA/over/away/SortedawayOver.jl")
     #awayOver2 = getDictPercent(direct + "CBB/over/away/SortedawayOver.jl")
     awayOver3 = getDictPercent(direct + "MLB/over/away/SortedawayOver.jl")
 
-    awayMOV = getDictMOV("../data/NBA/cover/away/SortedawayCover.jl")
+    # awayMOV = getDictMOV("../data/NBA/cover/away/SortedawayCover.jl")
     #awayMOV2 = getDictMOV("../data/CBB/cover/away/SortedawayCover.jl")
     awayMOV3 = getDictMOV("../data/MLB/cover/away/SortedawayCover.jl")
 
-    ppgNBA = getListPPG("../data/NBA/over/general/SortedPointAverages.jl")
+    # ppgNBA = getListPPG("../data/NBA/over/general/SortedPointAverages.jl")
     #ppgCBB = getListPPG("../data/CBB/over/general/SortedPointAverages.jl")
     ppgMLB = getListPPG("../data/MLB/over/general/SortedPointAverages.jl")
 
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
-    choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
+    # choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
     #choCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(homeOver2))
     choMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
 
-    chcNBA = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
+    # chcNBA = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
     #chcCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(homeCover2))
     chcMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(homeCover3))
 
-    caoNBA = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
+    # caoNBA = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
     #caoCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(awayOver2))
     caoMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(awayOver3))
 
-    cacNBA = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
+    # cacNBA = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
     #cacCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(awayCover2))
     cacMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(awayCover3))
 
