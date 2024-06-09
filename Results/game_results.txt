@@ -1,33 +1,28 @@
 Dallas @ Boston (NBA): Cover Rating - 3.1, Over Score - 5.6
 Bet on Dallas to cover the spread.
-Houston @ LA Angels (MLB): Cover Rating - 10.5, Over Score - 5.0
+Houston @ LA Angels (MLB): Cover Rating - 10.5, Over Score - 5.5
 Bet on LA Angels to cover the spread.
-Toronto @ Oakland (MLB): Cover Rating - 4.1, Over Score - 5.1
-Bet on Oakland to cover the spread.
-Arizona @ San Diego (MLB): Cover Rating - 1.7, Over Score - 5.5
-Bet on San Diego to cover the spread.
-LA Dodgers @ NY Yankees (MLB): Cover Rating - 9.8, Over Score - 5.2
+Arizona @ San Diego (MLB): Cover Rating - 3.0, Over Score - 8.5
+Bet on Arizona to cover the spread.
+LA Dodgers @ NY Yankees (MLB): Cover Rating - 9.8, Over Score - 4.2
 Bet on NY Yankees to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 Houston @ LA Angels (MLB): Cover Rating - 10.5, Bet on LA Angels to cover the spread.
 LA Dodgers @ NY Yankees (MLB): Cover Rating - 9.8, Bet on NY Yankees to cover the spread.
-Toronto @ Oakland (MLB): Cover Rating - 4.1, Bet on Oakland to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 3.1, Bet on Dallas to cover the spread.
-Arizona @ San Diego (MLB): Cover Rating - 1.7, Bet on San Diego to cover the spread.
+Arizona @ San Diego (MLB): Cover Rating - 3.0, Bet on Arizona to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
+Arizona @ San Diego (MLB): Over Score - 8.5
 Dallas @ Boston (NBA): Over Score - 5.6
-Arizona @ San Diego (MLB): Over Score - 5.5
-LA Dodgers @ NY Yankees (MLB): Over Score - 5.2
-Toronto @ Oakland (MLB): Over Score - 5.1
-Houston @ LA Angels (MLB): Over Score - 5.0
+Houston @ LA Angels (MLB): Over Score - 5.5
+LA Dodgers @ NY Yankees (MLB): Over Score - 4.2
          date league  cover_rating  ...  total   home_team   away_team
 0  2024-06-09    NBA      3.100000  ...  215.0      Dallas      Boston
-1  2024-06-09    MLB     10.466667  ...   11.5     Houston   LA Angels
-2  2024-06-09    MLB      4.133333  ...    7.5     Toronto     Oakland
-3  2024-06-09    MLB      1.654545  ...   15.5     Arizona   San Diego
-4  2024-06-09    MLB      9.800000  ...    7.5  LA Dodgers  NY Yankees
+1  2024-06-09    MLB     10.466667  ...   14.5     Houston   LA Angels
+2  2024-06-09    MLB      3.001902  ...    8.5     Arizona   San Diego
+3  2024-06-09    MLB      9.800000  ...    7.5  LA Dodgers  NY Yankees
 
-[5 rows x 10 columns]
+[4 rows x 10 columns]
 Avoided Overriding DailyPredictions
