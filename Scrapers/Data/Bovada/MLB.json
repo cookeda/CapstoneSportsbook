@@ -1,15 +1,105 @@
 [
     [
         {
+            "BetTableId": "Bovada_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-999",
+                "Away Spread Odds": "99",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "99",
+                "Home ML": "-999",
+                "Total": "-999",
+                "Over Total Odds": "99",
+                "Under Total Odds": "99"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "-999",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-999",
+                "Away Spread Odds": "99",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "99",
+                "Home ML": "-999",
+                "Total": "-999",
+                "Over Total Odds": "99",
+                "Under Total Odds": "99"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "-999",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-999",
+                "Away Spread Odds": "99",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "99",
+                "Home ML": "-999",
+                "Total": "-999",
+                "Over Total Odds": "99",
+                "Under Total Odds": "99"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "-999",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "Bovada_c625b23e_fe2ec146_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-145",
-                "Away ML": "+125",
+                "Away Spread Odds": "-140",
+                "Away ML": "+130",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+125",
-                "Home ML": "-149",
+                "Home Spread Odds": "+120",
+                "Home ML": "-155",
                 "Total": "11.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -126,10 +216,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+130",
-                "Away ML": "-132",
+                "Away ML": "-133",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-150",
-                "Home ML": "+110",
+                "Home ML": "+111",
                 "Total": "8.0",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
@@ -185,11 +275,11 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+155",
-                "Away ML": "-111",
+                "Away Spread Odds": "+150",
+                "Away ML": "-112",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-180",
-                "Home ML": "-109",
+                "Home Spread Odds": "-175",
+                "Home ML": "-108",
                 "Total": "9.0",
                 "Over Total Odds": "+100",
                 "Under Total Odds": "-120"
@@ -325,6 +415,36 @@
                 "Home Abv": "STL",
                 "Home ID": "ccadb94e",
                 "Start Time": "2:15 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_4005c299_fe8acdeb_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+105",
+                "Away ML": "-159",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "-125",
+                "Home ML": "+133",
+                "Total": "8.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
+            },
+            "MatchupID": "4005c299_fe8acdeb_MLB",
+            "Info Table": {
+                "Away Team": "Houston Astros",
+                "Away Team Rank Name": "Houston",
+                "Away Abv": "HOU",
+                "Away ID": "4005c299",
+                "Home Team": "Los Angeles Angels",
+                "Home Team Rank Name": "LA Angels",
+                "Home Abv": "LAA",
+                "Home ID": "fe8acdeb",
+                "Start Time": "4:07 PM",
                 "League": "MLB"
             }
         }
