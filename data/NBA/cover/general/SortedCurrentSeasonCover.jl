@@ -10,8 +10,8 @@
 {"Team": "Chicago", "Cover %": "50.6%"} -1.5
 {"Team": "Cleveland", "Cover %": "47.8%"} 1.4
 {"Team": "Cleveland", "Cover %": "47.8%"} 1.4
-{"Team": "Dallas", "Cover %": "59.0%"} 2.3
-{"Team": "Dallas", "Cover %": "59.0%"} 2.3
+{"Team": "Dallas", "Cover %": "59.0%"} 2.2
+{"Team": "Dallas", "Cover %": "59.0%"} 2.2
 {"Team": "Denver", "Cover %": "46.7%"} 4.3
 {"Team": "Denver", "Cover %": "46.7%"} 4.3
 {"Team": "Detroit", "Cover %": "49.4%"} -9.1
