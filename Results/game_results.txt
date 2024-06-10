@@ -2,7 +2,7 @@ Boston @ Dallas (NBA): Cover Rating - 1.9, Over Score - 5.2
 Bet on Boston to cover the spread.
 Baltimore @ Tampa Bay (MLB): Cover Rating - 1.9, Over Score - 5.1
 Bet on Tampa Bay to cover the spread.
-Colorado @ Minnesota (MLB): Cover Rating - 3.0, Over Score - 5.3
+Colorado @ Minnesota (MLB): Cover Rating - 2.4, Over Score - 5.3
 Bet on Colorado to cover the spread.
 NY Yankees @ Kansas City (MLB): Cover Rating - 4.1, Over Score - 5.3
 Bet on Kansas City to cover the spread.
@@ -20,8 +20,8 @@ Toronto @ Milwaukee (MLB): Cover Rating - 10.5, Bet on Milwaukee to cover the sp
 Chi Sox @ Seattle (MLB): Cover Rating - 4.8, Bet on Seattle to cover the spread.
 Houston @ SF Giants (MLB): Cover Rating - 4.5, Bet on SF Giants to cover the spread.
 NY Yankees @ Kansas City (MLB): Cover Rating - 4.1, Bet on Kansas City to cover the spread.
-Colorado @ Minnesota (MLB): Cover Rating - 3.0, Bet on Colorado to cover the spread.
 Oakland @ San Diego (MLB): Cover Rating - 2.9, Bet on Oakland to cover the spread.
+Colorado @ Minnesota (MLB): Cover Rating - 2.4, Bet on Colorado to cover the spread.
 Baltimore @ Tampa Bay (MLB): Cover Rating - 1.9, Bet on Tampa Bay to cover the spread.
 Boston @ Dallas (NBA): Cover Rating - 1.9, Bet on Boston to cover the spread.
 
@@ -37,7 +37,7 @@ Houston @ SF Giants (MLB): Over Score - 4.9
          date league  cover_rating  ...  total   home_team    away_team
 0  2024-06-10    NBA      1.866667  ...  213.0      Boston       Dallas
 1  2024-06-10    MLB      1.933333  ...    7.5   Baltimore    Tampa Bay
-2  2024-06-10    MLB      3.000601  ...    8.0    Colorado    Minnesota
+2  2024-06-10    MLB      2.400000  ...    8.0    Colorado    Minnesota
 3  2024-06-10    MLB      4.133333  ...    8.5  NY Yankees  Kansas City
 4  2024-06-10    MLB     10.466667  ...    8.5     Toronto    Milwaukee
 5  2024-06-10    MLB      4.800000  ...    7.0     Chi Sox      Seattle

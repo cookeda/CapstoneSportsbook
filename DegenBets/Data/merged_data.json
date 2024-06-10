@@ -43,7 +43,7 @@
         "Home ML Book": "(DK)",
         "Away Spread": "-1.5",
         "Away Spread Book": "(Bovada)",
-        "Away Spread Odds": "+120",
+        "Away Spread Odds": "+115",
         "Away Spread Odds Book": "(Bovada)",
         "Away ML": "-153",
         "Away ML Book": "(Bovada)",
@@ -56,8 +56,8 @@
         "Time": "6:50 PM",
         "League": "MLB",
         "team_to_cover": "Tampa Bay",
-        "cover_rating": 2.1,
-        "over_score": 5.0,
+        "cover_rating": 1.9,
+        "over_score": 5.1,
         "cover_grade": 1,
         "total_rating": -1
     },
@@ -74,8 +74,8 @@
         "Home ML Book": "(Bovada)",
         "Away Spread": "+1.5",
         "Away Spread Book": "(Bovada)",
-        "Away Spread Odds": "-120",
-        "Away Spread Odds Book": "(Bovada)",
+        "Away Spread Odds": "−118",
+        "Away Spread Odds Book": "(DK)",
         "Away ML": "+180",
         "Away ML Book": "(DK)",
         "Total Points": "8.5",
@@ -87,8 +87,8 @@
         "Time": "7:40 PM",
         "League": "MLB",
         "team_to_cover": "Colorado",
-        "cover_rating": 3.0,
-        "over_score": 5.4,
+        "cover_rating": 2.4,
+        "over_score": 5.3,
         "cover_grade": 1,
         "total_rating": -3
     },
@@ -105,7 +105,7 @@
         "Home ML Book": "(DK)",
         "Away Spread": "-1.5",
         "Away Spread Book": "(Bovada)",
-        "Away Spread Odds": "+125",
+        "Away Spread Odds": "+130",
         "Away Spread Odds Book": "(Bovada)",
         "Away ML": "−130",
         "Away ML Book": "(DK)",
@@ -118,10 +118,10 @@
         "Time": "8:10 PM",
         "League": "MLB",
         "team_to_cover": "Kansas City",
-        "cover_rating": 10.3,
+        "cover_rating": 4.1,
         "over_score": 5.3,
-        "cover_grade": 3,
-        "total_rating": -2
+        "cover_grade": 2,
+        "total_rating": -3
     },
     "8714ddbe_c5227021_MLB": {
         "Home Team": "Milwaukee",
@@ -182,7 +182,7 @@
         "team_to_cover": "Seattle",
         "cover_rating": 4.8,
         "over_score": 5.1,
-        "cover_grade": 2,
+        "cover_grade": 3,
         "total_rating": -1
     },
     "8b214a89_3f4235d4_MLB": {
@@ -211,9 +211,9 @@
         "Time": "9:40 PM",
         "League": "MLB",
         "team_to_cover": "Oakland",
-        "cover_rating": 5.9,
+        "cover_rating": 2.9,
         "over_score": 5.4,
-        "cover_grade": 3,
+        "cover_grade": 2,
         "total_rating": -3
     },
     "4005c299_486a5e3b_MLB": {
@@ -243,8 +243,8 @@
         "League": "MLB",
         "team_to_cover": "SF Giants",
         "cover_rating": 4.5,
-        "over_score": 4.8,
-        "cover_grade": 2,
+        "over_score": 4.9,
+        "cover_grade": 3,
         "total_rating": -1
     }
 }
