@@ -25,6 +25,6 @@
 {"Team": "Seattle", "Cover %": "49.6%"} -0.1
 {"Team": "St. Louis", "Cover %": "48.6%"} -0.1
 {"Team": "Tampa Bay", "Cover %": "50.0%"} +0.0
-{"Team": "Texas", "Cover %": "50.3%"} +0.2
+{"Team": "Texas", "Cover %": "50.4%"} +0.2
 {"Team": "Toronto", "Cover %": "50.3%"} +0.1
 {"Team": "Washington", "Cover %": "49.9%"} +0.1
