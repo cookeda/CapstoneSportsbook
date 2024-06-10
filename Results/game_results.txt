@@ -1,6 +1,6 @@
 Boston @ Dallas (NBA): Cover Rating - 1.9, Over Score - 5.2
 Bet on Boston to cover the spread.
-Baltimore @ Tampa Bay (MLB): Cover Rating - 1.9, Over Score - 5.1
+Baltimore @ Tampa Bay (MLB): Cover Rating - 1.9, Over Score - 6.1
 Bet on Tampa Bay to cover the spread.
 Colorado @ Minnesota (MLB): Cover Rating - 2.4, Over Score - 5.3
 Bet on Colorado to cover the spread.
@@ -26,20 +26,20 @@ Baltimore @ Tampa Bay (MLB): Cover Rating - 1.9, Bet on Tampa Bay to cover the s
 Boston @ Dallas (NBA): Cover Rating - 1.9, Bet on Boston to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
+Baltimore @ Tampa Bay (MLB): Over Score - 6.1
 Toronto @ Milwaukee (MLB): Over Score - 5.9
 Colorado @ Minnesota (MLB): Over Score - 5.3
 NY Yankees @ Kansas City (MLB): Over Score - 5.3
 Boston @ Dallas (NBA): Over Score - 5.2
-Baltimore @ Tampa Bay (MLB): Over Score - 5.1
 Houston @ SF Giants (MLB): Over Score - 4.9
 Oakland @ San Diego (MLB): Over Score - 4.4
 Chi Sox @ Seattle (MLB): Over Score - 4.1
          date league  cover_rating  ...  total   home_team    away_team
 0  2024-06-10    NBA      1.866667  ...  213.0      Boston       Dallas
-1  2024-06-10    MLB      1.933333  ...    7.5   Baltimore    Tampa Bay
-2  2024-06-10    MLB      2.400000  ...    8.5    Colorado    Minnesota
+1  2024-06-10    MLB      1.933333  ...    7.0   Baltimore    Tampa Bay
+2  2024-06-10    MLB      2.400000  ...    8.0    Colorado    Minnesota
 3  2024-06-10    MLB      4.133333  ...    8.5  NY Yankees  Kansas City
-4  2024-06-10    MLB     10.466667  ...    8.5     Toronto    Milwaukee
+4  2024-06-10    MLB     10.466667  ...    8.0     Toronto    Milwaukee
 5  2024-06-10    MLB      4.800000  ...    7.0     Chi Sox      Seattle
 6  2024-06-10    MLB      2.933333  ...    7.0     Oakland    San Diego
 7  2024-06-10    MLB      4.466667  ...    8.0     Houston    SF Giants
