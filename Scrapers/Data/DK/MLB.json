@@ -418,5 +418,35 @@
                 "League": "MLB"
             }
         }
+    ],
+    [
+        {
+            "BetTableId": "DK_e841daaf_4e2f3aa1_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "+136",
+                "Home Spread": "-999",
+                "Home Spread Odds": "−148",
+                "Home ML": "−162",
+                "Total": "9",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
+            },
+            "MatchupID": "e841daaf_4e2f3aa1_MLB",
+            "Info Table": {
+                "Away Team": "TEX Rangers",
+                "Away Team Rank Name": "Texas",
+                "Away Abv": "TEX",
+                "Away ID": "e841daaf",
+                "Home Team": "LA Dodgers",
+                "Home Team Rank Name": "LA Dodgers",
+                "Home Abv": "LAD",
+                "Home ID": "4e2f3aa1",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
     ]
 ]

@@ -3,7 +3,7 @@
 {"Team": "Baltimore", "Over %": "48.9%"} +0.4
 {"Team": "Boston", "Over %": "50.0%"} +0.6
 {"Team": "Chi Cubs", "Over %": "47.6%"} +0.3
-{"Team": "Chi Sox", "Over %": "47.7%"} +0.3
+{"Team": "Chi Sox", "Over %": "47.8%"} +0.3
 {"Team": "Cincinnati", "Over %": "49.2%"} +0.4
 {"Team": "Cleveland", "Over %": "48.3%"} +0.3
 {"Team": "Colorado", "Over %": "48.6%"} +0.4
