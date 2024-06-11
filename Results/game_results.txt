@@ -16,7 +16,7 @@ Colorado @ Minnesota (MLB): Cover Rating - 2.3, Over Score - 5.3
 Bet on Colorado to cover the spread.
 Pittsburgh @ St. Louis (MLB): Cover Rating - 2.9, Over Score - 5.6
 Bet on St. Louis to cover the spread.
-NY Yankees @ Kansas City (MLB): Cover Rating - 4.1, Over Score - 5.2
+NY Yankees @ Kansas City (MLB): Cover Rating - 4.1, Over Score - 4.2
 Bet on Kansas City to cover the spread.
 Toronto @ Milwaukee (MLB): Cover Rating - 10.5, Over Score - 5.8
 Bet on Milwaukee to cover the spread.
@@ -60,20 +60,20 @@ Atlanta @ Baltimore (MLB): Over Score - 5.3
 Oakland @ San Diego (MLB): Over Score - 5.3
 Colorado @ Minnesota (MLB): Over Score - 5.3
 Chi Sox @ Seattle (MLB): Over Score - 5.2
-NY Yankees @ Kansas City (MLB): Over Score - 5.2
 Boston @ Dallas (NBA): Over Score - 5.2
 Miami @ NY Mets (MLB): Over Score - 5.1
 Philadelphia @ Boston (MLB): Over Score - 4.9
 Houston @ SF Giants (MLB): Over Score - 4.8
 Cleveland @ Cincinnati (MLB): Over Score - 4.3
+NY Yankees @ Kansas City (MLB): Over Score - 4.2
           date league  cover_rating  ...  total     home_team    away_team
 0   2024-06-11    NBA      1.150000  ...  213.0        Boston       Dallas
-1   2024-06-11    MLB     10.333333  ...    8.0       Atlanta    Baltimore
-2   2024-06-11    MLB      2.333333  ...    8.0    Washington      Detroit
+1   2024-06-11    MLB     10.333333  ...    7.5       Atlanta    Baltimore
+2   2024-06-11    MLB      2.333333  ...    8.5    Washington      Detroit
 3   2024-06-11    MLB      6.266667  ...    7.5      Chi Cubs    Tampa Bay
 4   2024-06-11    MLB      0.800000  ...    8.0  Philadelphia       Boston
 5   2024-06-11    MLB      6.266667  ...    7.5         Miami      NY Mets
-6   2024-06-11    MLB      2.466667  ...    9.5     Cleveland   Cincinnati
+6   2024-06-11    MLB      2.466667  ...    9.0     Cleveland   Cincinnati
 7   2024-06-11    MLB      2.266667  ...    8.5      Colorado    Minnesota
 8   2024-06-11    MLB      2.866667  ...    7.5    Pittsburgh    St. Louis
 9   2024-06-11    MLB      4.133333  ...    9.5    NY Yankees  Kansas City
