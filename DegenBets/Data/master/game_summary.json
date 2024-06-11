@@ -45,7 +45,7 @@
         "team_to_cover": "Cincinnati",
         "cover_rating": 2.5,
         "over_score": 5.3,
-        "cover_grade": 1,
+        "cover_grade": 2,
         "total_rating": -2
     },
     "8f2512bc_f5328492_MLB": {
@@ -65,16 +65,16 @@
     "6424b504_db2ee960_MLB": {
         "team_to_cover": "Kansas City",
         "cover_rating": 4.1,
-        "over_score": 4.2,
+        "over_score": 5.2,
         "cover_grade": 2,
-        "total_rating": -1
+        "total_rating": -2
     },
     "8714ddbe_c5227021_MLB": {
         "team_to_cover": "Milwaukee",
         "cover_rating": 10.5,
         "over_score": 5.8,
         "cover_grade": 3,
-        "total_rating": -3
+        "total_rating": 0
     },
     "ea799920_300faa7b_MLB": {
         "team_to_cover": "Seattle",
@@ -106,9 +106,9 @@
     },
     "e841daaf_4e2f3aa1_MLB": {
         "team_to_cover": "LA Dodgers",
-        "cover_rating": 3.0,
-        "over_score": 8.5,
-        "cover_grade": 2,
-        "total_rating": 0
+        "cover_rating": 0.9,
+        "over_score": 5.5,
+        "cover_grade": 1,
+        "total_rating": -3
     }
 }
