@@ -4,9 +4,9 @@ Atlanta @ Baltimore (MLB): Cover Rating - 10.3, Over Score - 5.3
 Bet on Baltimore to cover the spread.
 Washington @ Detroit (MLB): Cover Rating - 2.3, Over Score - 5.6
 Bet on Detroit to cover the spread.
-Chi Cubs @ Tampa Bay (MLB): Cover Rating - 6.3, Over Score - 5.6
+Chi Cubs @ Tampa Bay (MLB): Cover Rating - 6.3, Over Score - 4.6
 Bet on Chi Cubs to cover the spread.
-Philadelphia @ Boston (MLB): Cover Rating - 2.8, Over Score - 4.9
+Philadelphia @ Boston (MLB): Cover Rating - 0.8, Over Score - 4.9
 Bet on Boston to cover the spread.
 Miami @ NY Mets (MLB): Cover Rating - 6.3, Over Score - 5.1
 Bet on Miami to cover the spread.
@@ -42,16 +42,15 @@ Oakland @ San Diego (MLB): Cover Rating - 5.8, Bet on Oakland to cover the sprea
 Chi Sox @ Seattle (MLB): Cover Rating - 4.9, Bet on Seattle to cover the spread.
 NY Yankees @ Kansas City (MLB): Cover Rating - 4.1, Bet on Kansas City to cover the spread.
 Pittsburgh @ St. Louis (MLB): Cover Rating - 2.9, Bet on St. Louis to cover the spread.
-Philadelphia @ Boston (MLB): Cover Rating - 2.8, Bet on Boston to cover the spread.
 Cleveland @ Cincinnati (MLB): Cover Rating - 2.5, Bet on Cincinnati to cover the spread.
 Washington @ Detroit (MLB): Cover Rating - 2.3, Bet on Detroit to cover the spread.
 Colorado @ Minnesota (MLB): Cover Rating - 2.3, Bet on Colorado to cover the spread.
 Boston @ Dallas (NBA): Cover Rating - 1.2, Bet on Boston to cover the spread.
 Texas @ LA Dodgers (MLB): Cover Rating - 0.9, Bet on LA Dodgers to cover the spread.
+Philadelphia @ Boston (MLB): Cover Rating - 0.8, Bet on Boston to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Toronto @ Milwaukee (MLB): Over Score - 5.8
-Chi Cubs @ Tampa Bay (MLB): Over Score - 5.6
 Washington @ Detroit (MLB): Over Score - 5.6
 Texas @ LA Dodgers (MLB): Over Score - 5.5
 LA Angels @ Arizona (MLB): Over Score - 5.5
@@ -66,12 +65,13 @@ Miami @ NY Mets (MLB): Over Score - 5.1
 Philadelphia @ Boston (MLB): Over Score - 4.9
 Houston @ SF Giants (MLB): Over Score - 4.8
 Pittsburgh @ St. Louis (MLB): Over Score - 4.6
+Chi Cubs @ Tampa Bay (MLB): Over Score - 4.6
           date league  cover_rating  ...  total     home_team    away_team
 0   2024-06-11    NBA      1.150000  ...  213.0        Boston       Dallas
 1   2024-06-11    MLB     10.333333  ...    7.5       Atlanta    Baltimore
 2   2024-06-11    MLB      2.333333  ...    8.0    Washington      Detroit
 3   2024-06-11    MLB      6.266667  ...    7.5      Chi Cubs    Tampa Bay
-4   2024-06-11    MLB      2.800000  ...    8.0  Philadelphia       Boston
+4   2024-06-11    MLB      0.800000  ...    8.0  Philadelphia       Boston
 5   2024-06-11    MLB      6.266667  ...    7.5         Miami      NY Mets
 6   2024-06-11    MLB      2.466667  ...    9.0     Cleveland   Cincinnati
 7   2024-06-11    MLB      2.266667  ...    8.5      Colorado    Minnesota
