@@ -1,38 +1,28 @@
 Boston @ Dallas (NBA): Cover Rating - 1.9, Over Score - 5.2
 Bet on Boston to cover the spread.
-NY Yankees @ Kansas City (MLB): Cover Rating - 4.1, Over Score - 5.3
-Bet on Kansas City to cover the spread.
-Toronto @ Milwaukee (MLB): Cover Rating - 6.5, Over Score - 6.4
-Bet on Milwaukee to cover the spread.
-Chi Sox @ Seattle (MLB): Cover Rating - 1.8, Over Score - 5.1
+Chi Sox @ Seattle (MLB): Cover Rating - 0.8, Over Score - 5.1
 Bet on Seattle to cover the spread.
-Oakland @ San Diego (MLB): Cover Rating - 5.9, Over Score - 5.4
+Oakland @ San Diego (MLB): Cover Rating - 7.9, Over Score - 5.9
 Bet on Oakland to cover the spread.
-Houston @ SF Giants (MLB): Cover Rating - 4.5, Over Score - 5.4
-Bet on SF Giants to cover the spread.
+Houston @ SF Giants (MLB): Cover Rating - 0.5, Over Score - 4.9
+Bet on Houston to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Toronto @ Milwaukee (MLB): Cover Rating - 6.5, Bet on Milwaukee to cover the spread.
-Oakland @ San Diego (MLB): Cover Rating - 5.9, Bet on Oakland to cover the spread.
-Houston @ SF Giants (MLB): Cover Rating - 4.5, Bet on SF Giants to cover the spread.
-NY Yankees @ Kansas City (MLB): Cover Rating - 4.1, Bet on Kansas City to cover the spread.
+Oakland @ San Diego (MLB): Cover Rating - 7.9, Bet on Oakland to cover the spread.
 Boston @ Dallas (NBA): Cover Rating - 1.9, Bet on Boston to cover the spread.
-Chi Sox @ Seattle (MLB): Cover Rating - 1.8, Bet on Seattle to cover the spread.
+Chi Sox @ Seattle (MLB): Cover Rating - 0.8, Bet on Seattle to cover the spread.
+Houston @ SF Giants (MLB): Cover Rating - 0.5, Bet on Houston to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Toronto @ Milwaukee (MLB): Over Score - 6.4
-Oakland @ San Diego (MLB): Over Score - 5.4
-Houston @ SF Giants (MLB): Over Score - 5.4
-NY Yankees @ Kansas City (MLB): Over Score - 5.3
+Oakland @ San Diego (MLB): Over Score - 5.9
 Boston @ Dallas (NBA): Over Score - 5.2
 Chi Sox @ Seattle (MLB): Over Score - 5.1
-         date league  cover_rating  ...  total   home_team    away_team
-0  2024-06-10    NBA      1.866667  ...  213.0      Boston       Dallas
-1  2024-06-10    MLB      4.057143  ...    6.5  NY Yankees  Kansas City
-2  2024-06-10    MLB      6.466667  ...    5.5     Toronto    Milwaukee
-3  2024-06-10    MLB      1.800000  ...    5.5     Chi Sox      Seattle
-4  2024-06-10    MLB      5.933333  ...    7.5     Oakland    San Diego
-5  2024-06-10    MLB      4.466667  ...    7.5     Houston    SF Giants
+Houston @ SF Giants (MLB): Over Score - 4.9
+         date league  cover_rating  ...  total  home_team  away_team
+0  2024-06-10    NBA      1.866667  ...  213.0     Boston     Dallas
+1  2024-06-10    MLB      0.800000  ...    4.5    Chi Sox    Seattle
+2  2024-06-10    MLB      7.933333  ...    6.5    Oakland  San Diego
+3  2024-06-10    MLB      0.533333  ...    3.5    Houston  SF Giants
 
-[6 rows x 10 columns]
+[4 rows x 10 columns]
 Avoided Overriding DailyPredictions
