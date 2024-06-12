@@ -65,7 +65,7 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+164",
+                "Away Spread Odds": "+160",
                 "Away ML": "−102",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "−118",
@@ -125,7 +125,7 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−192",
+                "Away Spread Odds": "−185",
                 "Away ML": "+114",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "−118",
@@ -161,8 +161,8 @@
                 "Home Spread Odds": "−118",
                 "Home ML": "−135",
                 "Total": "7.5",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
             },
             "MatchupID": "dd4357ee_18a9d733_MLB",
             "Info Table": {
@@ -245,11 +245,11 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+170",
-                "Away ML": "+100",
+                "Away Spread Odds": "+160",
+                "Away ML": "−105",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "−118",
-                "Home ML": "−120",
+                "Home ML": "−115",
                 "Total": "8.5",
                 "Over Total Odds": "−102",
                 "Under Total Odds": "−118"
@@ -331,6 +331,36 @@
     ],
     [
         {
+            "BetTableId": "DK_6424b504_db2ee960_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "−110",
+                "Away ML": "−162",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−118",
+                "Home ML": "+136",
+                "Total": "10.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "6424b504_db2ee960_MLB",
+            "Info Table": {
+                "Away Team": "NY Yankees",
+                "Away Team Rank Name": "NY Yankees",
+                "Away Abv": "NYY",
+                "Away ID": "6424b504",
+                "Home Team": "KC Royals",
+                "Home Team Rank Name": "Kansas City",
+                "Home Abv": "KC",
+                "Home ID": "db2ee960",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_ea799920_300faa7b_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -385,6 +415,36 @@
                 "Home Abv": "ARI",
                 "Home ID": "2b1ac347",
                 "Start Time": "9:40PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_e841daaf_4e2f3aa1_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−142",
+                "Away ML": "+140",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "−118",
+                "Home ML": "−166",
+                "Total": "8.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "e841daaf_4e2f3aa1_MLB",
+            "Info Table": {
+                "Away Team": "TEX Rangers",
+                "Away Team Rank Name": "Texas",
+                "Away Abv": "TEX",
+                "Away ID": "e841daaf",
+                "Home Team": "LA Dodgers",
+                "Home Team Rank Name": "LA Dodgers",
+                "Home Abv": "LAD",
+                "Home ID": "4e2f3aa1",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
