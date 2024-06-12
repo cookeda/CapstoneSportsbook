@@ -1,4 +1,4 @@
-Boston @ Dallas (NBA): Cover Rating - 0.7, Over Score - 5.2
+Boston @ Dallas (NBA): Cover Rating - 0.4, Over Score - 5.2
 Bet on Boston to cover the spread.
 Colorado @ Minnesota (MLB): Cover Rating - 5.4, Over Score - 5.4
 Bet on Colorado to cover the spread.
@@ -16,10 +16,10 @@ Chi Cubs @ Tampa Bay (MLB): Cover Rating - 0.2, Over Score - 5.5
 Bet on Chi Cubs to cover the spread.
 Philadelphia @ Boston (MLB): Cover Rating - 0.3, Over Score - 4.8
 Bet on Philadelphia to cover the spread.
-Miami @ NY Mets (MLB): Cover Rating - 9.4, Over Score - 5.0
-Bet on Miami to cover the spread.
 Cleveland @ Cincinnati (MLB): Cover Rating - 0.5, Over Score - 5.2
 Bet on Cleveland to cover the spread.
+Miami @ NY Mets (MLB): Cover Rating - 9.4, Over Score - 5.0
+Bet on Miami to cover the spread.
 Pittsburgh @ St. Louis (MLB): Cover Rating - 9.1, Over Score - 5.5
 Bet on Pittsburgh to cover the spread.
 NY Yankees @ Kansas City (MLB): Cover Rating - 1.2, Over Score - 5.3
@@ -44,8 +44,8 @@ Texas @ LA Dodgers (MLB): Cover Rating - 1.6, Bet on Texas to cover the spread.
 Atlanta @ Baltimore (MLB): Cover Rating - 1.5, Bet on Atlanta to cover the spread.
 Houston @ SF Giants (MLB): Cover Rating - 1.4, Bet on SF Giants to cover the spread.
 NY Yankees @ Kansas City (MLB): Cover Rating - 1.2, Bet on NY Yankees to cover the spread.
-Boston @ Dallas (NBA): Cover Rating - 0.7, Bet on Boston to cover the spread.
 Cleveland @ Cincinnati (MLB): Cover Rating - 0.5, Bet on Cleveland to cover the spread.
+Boston @ Dallas (NBA): Cover Rating - 0.4, Bet on Boston to cover the spread.
 Philadelphia @ Boston (MLB): Cover Rating - 0.3, Bet on Philadelphia to cover the spread.
 Chi Cubs @ Tampa Bay (MLB): Cover Rating - 0.2, Bet on Chi Cubs to cover the spread.
 
@@ -67,7 +67,7 @@ Philadelphia @ Boston (MLB): Over Score - 4.8
 Atlanta @ Baltimore (MLB): Over Score - 4.2
 Houston @ SF Giants (MLB): Over Score - 3.7
           date league  cover_rating  ...  total     home_team    away_team
-0   2024-06-12    NBA      0.720000  ...  213.0        Boston       Dallas
+0   2024-06-12    NBA      0.433333  ...  213.0        Boston       Dallas
 1   2024-06-12    MLB      5.400000  ...    8.0      Colorado    Minnesota
 2   2024-06-12    MLB      7.400000  ...    9.0       Toronto    Milwaukee
 3   2024-06-12    MLB      1.400000  ...    7.5       Houston    SF Giants
@@ -76,8 +76,8 @@ Houston @ SF Giants (MLB): Over Score - 3.7
 6   2024-06-12    MLB      9.666667  ...    7.5    Washington      Detroit
 7   2024-06-12    MLB      0.200000  ...    7.5      Chi Cubs    Tampa Bay
 8   2024-06-12    MLB      0.266667  ...    8.5  Philadelphia       Boston
-9   2024-06-12    MLB      9.400000  ...    7.5         Miami      NY Mets
-10  2024-06-12    MLB      0.533333  ...    8.0     Cleveland   Cincinnati
+9   2024-06-12    MLB      0.533333  ...    8.0     Cleveland   Cincinnati
+10  2024-06-12    MLB      9.400000  ...    8.0         Miami      NY Mets
 11  2024-06-12    MLB      9.066667  ...    8.0    Pittsburgh    St. Louis
 12  2024-06-12    MLB      1.200000  ...   10.5    NY Yankees  Kansas City
 13  2024-06-12    MLB      1.800000  ...    7.5       Chi Sox      Seattle
