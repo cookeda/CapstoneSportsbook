@@ -1,6 +1,6 @@
 Boston @ Dallas (NBA): Cover Rating - 3.5, Over Score - 5.2
 Bet on Boston to cover the spread.
-Atlanta @ Baltimore (MLB): Cover Rating - 10.5, Over Score - 4.1
+Atlanta @ Baltimore (MLB): Cover Rating - 10.5, Over Score - 5.1
 Bet on Baltimore to cover the spread.
 Washington @ Detroit (MLB): Cover Rating - 6.8, Over Score - 5.7
 Bet on Washington to cover the spread.
@@ -45,11 +45,11 @@ Pittsburgh @ St. Louis (MLB): Over Score - 5.4
 NY Yankees @ Kansas City (MLB): Over Score - 5.4
 Boston @ Dallas (NBA): Over Score - 5.2
 Miami @ NY Mets (MLB): Over Score - 5.1
+Atlanta @ Baltimore (MLB): Over Score - 5.1
 Chi Sox @ Seattle (MLB): Over Score - 5.1
 Oakland @ Minnesota (MLB): Over Score - 5.1
 Philadelphia @ Boston (MLB): Over Score - 5.0
 Chi Cubs @ Tampa Bay (MLB): Over Score - 4.4
-Atlanta @ Baltimore (MLB): Over Score - 4.1
           date league  cover_rating  ...  total     home_team    away_team
 0   2024-06-13    NBA      3.500000  ...  211.5        Boston       Dallas
 1   2024-06-13    MLB     10.533333  ...    9.0       Atlanta    Baltimore
