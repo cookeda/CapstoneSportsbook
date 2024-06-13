@@ -2,7 +2,7 @@ Boston @ Dallas (NBA): Cover Rating - 3.5, Over Score - 5.2
 Bet on Boston to cover the spread.
 Atlanta @ Baltimore (MLB): Cover Rating - 10.5, Over Score - 4.1
 Bet on Baltimore to cover the spread.
-Washington @ Detroit (MLB): Cover Rating - 6.8, Over Score - 5.7
+Washington @ Detroit (MLB): Cover Rating - 6.8, Over Score - 4.7
 Bet on Washington to cover the spread.
 NY Yankees @ Kansas City (MLB): Cover Rating - 1.7, Over Score - 5.4
 Bet on Kansas City to cover the spread.
@@ -12,7 +12,7 @@ Chi Cubs @ Tampa Bay (MLB): Cover Rating - 2.7, Over Score - 5.4
 Bet on Tampa Bay to cover the spread.
 Philadelphia @ Boston (MLB): Cover Rating - 3.0, Over Score - 5.0
 Bet on Boston to cover the spread.
-Miami @ NY Mets (MLB): Cover Rating - 6.1, Over Score - 5.1
+Miami @ NY Mets (MLB): Cover Rating - 3.1, Over Score - 5.1
 Bet on Miami to cover the spread.
 Oakland @ Minnesota (MLB): Cover Rating - 2.4, Over Score - 5.1
 Bet on Oakland to cover the spread.
@@ -20,27 +20,25 @@ Chi Sox @ Seattle (MLB): Cover Rating - 1.7, Over Score - 5.1
 Bet on Seattle to cover the spread.
 LA Angels @ Arizona (MLB): Cover Rating - 6.8, Over Score - 5.6
 Bet on LA Angels to cover the spread.
-Texas @ LA Dodgers (MLB): Cover Rating - 4.3, Over Score - 5.5
+Texas @ LA Dodgers (MLB): Cover Rating - 1.3, Over Score - 4.5
 Bet on LA Dodgers to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 Atlanta @ Baltimore (MLB): Cover Rating - 10.5, Bet on Baltimore to cover the spread.
 Washington @ Detroit (MLB): Cover Rating - 6.8, Bet on Washington to cover the spread.
 LA Angels @ Arizona (MLB): Cover Rating - 6.8, Bet on LA Angels to cover the spread.
-Miami @ NY Mets (MLB): Cover Rating - 6.1, Bet on Miami to cover the spread.
-Texas @ LA Dodgers (MLB): Cover Rating - 4.3, Bet on LA Dodgers to cover the spread.
 Boston @ Dallas (NBA): Cover Rating - 3.5, Bet on Boston to cover the spread.
+Miami @ NY Mets (MLB): Cover Rating - 3.1, Bet on Miami to cover the spread.
 Pittsburgh @ St. Louis (MLB): Cover Rating - 3.0, Bet on St. Louis to cover the spread.
 Philadelphia @ Boston (MLB): Cover Rating - 3.0, Bet on Boston to cover the spread.
 Chi Cubs @ Tampa Bay (MLB): Cover Rating - 2.7, Bet on Tampa Bay to cover the spread.
 Oakland @ Minnesota (MLB): Cover Rating - 2.4, Bet on Oakland to cover the spread.
 Chi Sox @ Seattle (MLB): Cover Rating - 1.7, Bet on Seattle to cover the spread.
 NY Yankees @ Kansas City (MLB): Cover Rating - 1.7, Bet on Kansas City to cover the spread.
+Texas @ LA Dodgers (MLB): Cover Rating - 1.3, Bet on LA Dodgers to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Washington @ Detroit (MLB): Over Score - 5.7
 LA Angels @ Arizona (MLB): Over Score - 5.6
-Texas @ LA Dodgers (MLB): Over Score - 5.5
 Pittsburgh @ St. Louis (MLB): Over Score - 5.4
 NY Yankees @ Kansas City (MLB): Over Score - 5.4
 Chi Cubs @ Tampa Bay (MLB): Over Score - 5.4
@@ -49,20 +47,22 @@ Miami @ NY Mets (MLB): Over Score - 5.1
 Chi Sox @ Seattle (MLB): Over Score - 5.1
 Oakland @ Minnesota (MLB): Over Score - 5.1
 Philadelphia @ Boston (MLB): Over Score - 5.0
+Washington @ Detroit (MLB): Over Score - 4.7
+Texas @ LA Dodgers (MLB): Over Score - 4.5
 Atlanta @ Baltimore (MLB): Over Score - 4.1
           date league  cover_rating  ...  total     home_team    away_team
 0   2024-06-13    NBA      3.500000  ...  211.5        Boston       Dallas
 1   2024-06-13    MLB     10.533333  ...    9.5       Atlanta    Baltimore
-2   2024-06-13    MLB      6.800000  ...    9.0    Washington      Detroit
+2   2024-06-13    MLB      6.800000  ...    9.5    Washington      Detroit
 3   2024-06-13    MLB      1.733333  ...   10.5    NY Yankees  Kansas City
 4   2024-06-13    MLB      3.000000  ...    8.5    Pittsburgh    St. Louis
-5   2024-06-13    MLB      2.733333  ...    8.0      Chi Cubs    Tampa Bay
+5   2024-06-13    MLB      2.733333  ...    7.5      Chi Cubs    Tampa Bay
 6   2024-06-13    MLB      3.000000  ...    8.5  Philadelphia       Boston
-7   2024-06-13    MLB      6.133333  ...    8.5         Miami      NY Mets
+7   2024-06-13    MLB      3.133333  ...    8.5         Miami      NY Mets
 8   2024-06-13    MLB      2.400000  ...    8.0       Oakland    Minnesota
 9   2024-06-13    MLB      1.733333  ...    6.5       Chi Sox      Seattle
 10  2024-06-13    MLB      6.800000  ...    8.5     LA Angels      Arizona
-11  2024-06-13    MLB      4.266667  ...    8.5         Texas   LA Dodgers
+11  2024-06-13    MLB      1.266667  ...    9.0         Texas   LA Dodgers
 
 [12 rows x 10 columns]
 Avoided Overriding DailyPredictions
