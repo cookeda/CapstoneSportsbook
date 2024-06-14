@@ -1,6 +1,6 @@
 Boston @ Dallas (NBA): Cover Rating - 3.5, Over Score - 5.2
 Bet on Boston to cover the spread.
-NY Yankees @ Boston (MLB): Cover Rating - 0.8, Over Score - 5.6
+NY Yankees @ Boston (MLB): Cover Rating - 0.8, Over Score - 4.1
 Bet on NY Yankees to cover the spread.
 Philadelphia @ Baltimore (MLB): Cover Rating - 2.1, Over Score - 5.4
 Bet on Philadelphia to cover the spread.
@@ -10,7 +10,7 @@ San Diego @ NY Mets (MLB): Cover Rating - 0.8, Over Score - 5.3
 Bet on San Diego to cover the spread.
 Tampa Bay @ Atlanta (MLB): Cover Rating - 5.5, Over Score - 5.0
 Bet on Tampa Bay to cover the spread.
-Oakland @ Minnesota (MLB): Cover Rating - 6.0, Over Score - 5.1
+Oakland @ Minnesota (MLB): Cover Rating - 8.4, Over Score - 5.1
 Bet on Oakland to cover the spread.
 Detroit @ Houston (MLB): Cover Rating - 0.1, Over Score - 5.6
 Bet on Houston to cover the spread.
@@ -25,7 +25,7 @@ Ranked Cover Recommendations Across All Leagues:
 Cleveland @ Toronto (MLB): Cover Rating - 10.1, Bet on Cleveland to cover the spread.
 Cincinnati @ Milwaukee (MLB): Cover Rating - 8.7, Bet on Cincinnati to cover the spread.
 Kansas City @ LA Dodgers (MLB): Cover Rating - 8.6, Bet on Kansas City to cover the spread.
-Oakland @ Minnesota (MLB): Cover Rating - 6.0, Bet on Oakland to cover the spread.
+Oakland @ Minnesota (MLB): Cover Rating - 8.4, Bet on Oakland to cover the spread.
 Tampa Bay @ Atlanta (MLB): Cover Rating - 5.5, Bet on Tampa Bay to cover the spread.
 Boston @ Dallas (NBA): Cover Rating - 3.5, Bet on Boston to cover the spread.
 Chi Sox @ Arizona (MLB): Cover Rating - 2.2, Bet on Chi Sox to cover the spread.
@@ -38,7 +38,6 @@ Ranked Games by Over Score Across All Leagues:
 Cincinnati @ Milwaukee (MLB): Over Score - 6.0
 Chi Sox @ Arizona (MLB): Over Score - 5.6
 Detroit @ Houston (MLB): Over Score - 5.6
-NY Yankees @ Boston (MLB): Over Score - 5.6
 Kansas City @ LA Dodgers (MLB): Over Score - 5.4
 Philadelphia @ Baltimore (MLB): Over Score - 5.4
 San Diego @ NY Mets (MLB): Over Score - 5.3
@@ -46,6 +45,7 @@ Cleveland @ Toronto (MLB): Over Score - 5.3
 Boston @ Dallas (NBA): Over Score - 5.2
 Oakland @ Minnesota (MLB): Over Score - 5.1
 Tampa Bay @ Atlanta (MLB): Over Score - 5.0
+NY Yankees @ Boston (MLB): Over Score - 4.1
           date league  cover_rating  ...  total     home_team   away_team
 0   2024-06-14    NBA      3.500000  ...  211.5        Boston      Dallas
 1   2024-06-14    MLB      0.800000  ...    9.5    NY Yankees      Boston
@@ -53,7 +53,7 @@ Tampa Bay @ Atlanta (MLB): Over Score - 5.0
 3   2024-06-14    MLB     10.133333  ...    8.0     Cleveland     Toronto
 4   2024-06-14    MLB      0.800000  ...    8.0     San Diego     NY Mets
 5   2024-06-14    MLB      5.466667  ...    8.5     Tampa Bay     Atlanta
-6   2024-06-14    MLB      6.000601  ...    8.5       Oakland   Minnesota
+6   2024-06-14    MLB      8.400000  ...    8.5       Oakland   Minnesota
 7   2024-06-14    MLB      0.066667  ...    7.5       Detroit     Houston
 8   2024-06-14    MLB      8.666667  ...    7.5    Cincinnati   Milwaukee
 9   2024-06-14    MLB      2.200000  ...    9.0       Chi Sox     Arizona
