@@ -6,7 +6,7 @@ NY Yankees @ Boston (MLB): Cover Rating - 2.6, Over Score - 4.1
 Bet on NY Yankees to cover the spread.
 Miami @ Washington (MLB): Cover Rating - 3.9, Over Score - 5.2
 Bet on Miami to cover the spread.
-Philadelphia @ Baltimore (MLB): Cover Rating - 4.1, Over Score - 4.4
+Philadelphia @ Baltimore (MLB): Cover Rating - 4.1, Over Score - 5.4
 Bet on Philadelphia to cover the spread.
 Cleveland @ Toronto (MLB): Cover Rating - 12.1, Over Score - 5.3
 Bet on Cleveland to cover the spread.
@@ -16,7 +16,7 @@ Tampa Bay @ Atlanta (MLB): Cover Rating - 7.5, Over Score - 5.0
 Bet on Tampa Bay to cover the spread.
 Oakland @ Minnesota (MLB): Cover Rating - 10.3, Over Score - 5.0
 Bet on Oakland to cover the spread.
-Detroit @ Houston (MLB): Cover Rating - 1.9, Over Score - 5.6
+Detroit @ Houston (MLB): Cover Rating - 1.9, Over Score - 4.6
 Bet on Detroit to cover the spread.
 Cincinnati @ Milwaukee (MLB): Cover Rating - 10.7, Over Score - 6.0
 Bet on Cincinnati to cover the spread.
@@ -53,8 +53,8 @@ Ranked Games by Over Score Across All Leagues:
 Cincinnati @ Milwaukee (MLB): Over Score - 6.0
 Pittsburgh @ Colorado (MLB): Over Score - 5.6
 Chi Sox @ Arizona (MLB): Over Score - 5.6
-Detroit @ Houston (MLB): Over Score - 5.6
 LA Angels @ SF Giants (MLB): Over Score - 5.5
+Philadelphia @ Baltimore (MLB): Over Score - 5.4
 Kansas City @ LA Dodgers (MLB): Over Score - 5.4
 Cleveland @ Toronto (MLB): Over Score - 5.3
 San Diego @ NY Mets (MLB): Over Score - 5.2
@@ -64,13 +64,13 @@ Boston @ Dallas (NBA): Over Score - 5.2
 Oakland @ Minnesota (MLB): Over Score - 5.0
 Tampa Bay @ Atlanta (MLB): Over Score - 5.0
 Texas @ Seattle (MLB): Over Score - 4.7
-Philadelphia @ Baltimore (MLB): Over Score - 4.4
+Detroit @ Houston (MLB): Over Score - 4.6
 NY Yankees @ Boston (MLB): Over Score - 4.1
           date league  cover_rating  ...  total     home_team   away_team
-0   2024-06-14    NBA      3.500000  ...  211.5        Boston      Dallas
+0   2024-06-14    NBA      3.500000  ...  211.0        Boston      Dallas
 1   2024-06-14    MLB      9.866667  ...    7.5     St. Louis    Chi Cubs
 2   2024-06-14    MLB      2.600000  ...    9.5    NY Yankees      Boston
-3   2024-06-14    MLB      3.933333  ...    8.5         Miami  Washington
+3   2024-06-14    MLB      3.933333  ...    8.0         Miami  Washington
 4   2024-06-14    MLB      4.066667  ...    7.0  Philadelphia   Baltimore
 5   2024-06-14    MLB     12.133333  ...    8.0     Cleveland     Toronto
 6   2024-06-14    MLB      2.800000  ...    7.5     San Diego     NY Mets
@@ -82,7 +82,7 @@ NY Yankees @ Boston (MLB): Over Score - 4.1
 12  2024-06-14    MLB      1.066667  ...    9.0       Chi Sox     Arizona
 13  2024-06-14    MLB     10.666667  ...    7.5   Kansas City  LA Dodgers
 14  2024-06-14    MLB      4.000000  ...    7.0         Texas     Seattle
-15  2024-06-14    MLB     11.066667  ...    8.0     LA Angels   SF Giants
+15  2024-06-14    MLB     11.066667  ...    8.5     LA Angels   SF Giants
 
 [16 rows x 10 columns]
 Avoided Overriding DailyPredictions
