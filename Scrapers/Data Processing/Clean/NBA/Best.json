@@ -26,12 +26,12 @@
         }
     },
     {
-        "MatchupID": "8a2d1e91_48eb7bb_NBA",
+        "MatchupID": "Unknown_48eb7bb_NBA",
         "Info Table": {
-            "Away Team": "Boston Celtics",
-            "Away Team Rank Name": "Boston",
-            "Away Abv": "BOS",
-            "Away ID": "8a2d1e91",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Dallas Mavericks",
             "Home Team Rank Name": "Dallas",
             "Home Abv": "DAL",
@@ -40,15 +40,41 @@
             "League": "NBA"
         },
         "Odds Table": {
-            "Away Spread": "+1 (DK)",
+            "Away Spread": "-1.0 (Bovada)",
             "Away Spread Odds": "-105 (Bovada)",
             "Away ML": "-110 (Bovada)",
             "Home Spread": "+1.0 (Bovada)",
-            "Home Spread Odds": "−105 (DK)",
+            "Home Spread Odds": "-115 (Bovada)",
             "Home ML": "-110 (Bovada)",
             "Total": "211.5 (Bovada)",
-            "Over Total Odds": "−110 (DK)",
+            "Over Total Odds": "-115 (Bovada)",
             "Under Total Odds": "-105 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "8a2d1e91_48eb7bb_NBA",
+        "Info Table": {
+            "Away Team": "BOS Celtics",
+            "Away Team Rank Name": "Boston",
+            "Away Abv": "BOS",
+            "Away ID": "8a2d1e91",
+            "Home Team": "DAL Mavericks",
+            "Home Team Rank Name": "Dallas",
+            "Home Abv": "DAL",
+            "Home ID": "48eb7bb",
+            "Start Time": "8:40PM",
+            "League": "NBA"
+        },
+        "Odds Table": {
+            "Away Spread": "+1 (DK)",
+            "Away Spread Odds": "−115 (DK)",
+            "Away ML": "−110 (DK)",
+            "Home Spread": "-1 (DK)",
+            "Home Spread Odds": "−105 (DK)",
+            "Home ML": "−110 (DK)",
+            "Total": "211.5 (DK)",
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "−110 (DK)"
         }
     }
 ]
