@@ -1,9 +1,9 @@
 {
-    "8a2d1e91_48eb7bb_NBA": {
+    "48eb7bb_8a2d1e91_NBA": {
         "team_to_cover": "Dallas",
-        "cover_rating": 0.8,
-        "over_score": 5.2,
-        "cover_grade": 1,
+        "cover_rating": 3.1,
+        "over_score": 5.5,
+        "cover_grade": 2,
         "total_rating": -1
     },
     "fe2ec146_e8bdce10_MLB": {
@@ -13,61 +13,33 @@
         "cover_grade": 2,
         "total_rating": 0
     },
-    "6424b504_8a2d1e91_MLB": {
-        "team_to_cover": "NY Yankees",
-        "cover_rating": 1.7,
-        "over_score": 5.6,
-        "cover_grade": 2,
-        "total_rating": -3
-    },
-    "18a9d733_4005c299_MLB": {
-        "team_to_cover": "Detroit",
-        "cover_rating": 5.3,
-        "over_score": 5.6,
-        "cover_grade": 3,
-        "total_rating": -3
-    },
     "8b214a89_f5328492_MLB": {
         "team_to_cover": "Oakland",
         "cover_rating": 5.3,
-        "over_score": 5.0,
-        "cover_grade": 3,
-        "total_rating": -1
-    },
-    "fdd0d44c_c5227021_MLB": {
-        "team_to_cover": "Milwaukee",
-        "cover_rating": 1.7,
-        "over_score": 6.0,
-        "cover_grade": 2,
-        "total_rating": -3
-    },
-    "3f4235d4_c625b23e_MLB": {
-        "team_to_cover": "San Diego",
-        "cover_rating": 6.8,
-        "over_score": 5.7,
+        "over_score": 8.0,
         "cover_grade": 0,
         "total_rating": -3
     },
     "9666114b_8f2512bc_MLB": {
         "team_to_cover": "Colorado",
-        "cover_rating": 3.9,
+        "cover_rating": 4.0,
         "over_score": 5.6,
-        "cover_grade": 2,
-        "total_rating": -3
+        "cover_grade": 3,
+        "total_rating": -1
     },
     "ea799920_2b1ac347_MLB": {
         "team_to_cover": "Arizona",
-        "cover_rating": 0.9,
-        "over_score": 5.6,
-        "cover_grade": 1,
+        "cover_rating": 4.0,
+        "over_score": 6.1,
+        "cover_grade": 3,
         "total_rating": -3
     },
     "db2ee960_4e2f3aa1_MLB": {
         "team_to_cover": "Kansas City",
-        "cover_rating": 5.7,
-        "over_score": 5.4,
-        "cover_grade": 3,
-        "total_rating": -1
+        "cover_rating": 1.4,
+        "over_score": 5.9,
+        "cover_grade": 1,
+        "total_rating": -2
     },
     "e841daaf_300faa7b_MLB": {
         "team_to_cover": "Seattle",
@@ -77,10 +49,10 @@
         "total_rating": -1
     },
     "fe8acdeb_486a5e3b_MLB": {
-        "team_to_cover": "LA Angels",
-        "cover_rating": 6.1,
-        "over_score": 5.5,
-        "cover_grade": 3,
+        "team_to_cover": "SF Giants",
+        "cover_rating": 1.5,
+        "over_score": 6.0,
+        "cover_grade": 1,
         "total_rating": -2
     }
 }
