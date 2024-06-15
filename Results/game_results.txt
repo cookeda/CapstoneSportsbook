@@ -8,7 +8,7 @@ Philadelphia @ Baltimore (MLB): Cover Rating - 4.1, Over Score - 5.4
 Bet on Philadelphia to cover the spread.
 Miami @ Washington (MLB): Cover Rating - 3.9, Over Score - 5.2
 Bet on Miami to cover the spread.
-LA Angels @ SF Giants (MLB): Cover Rating - 11.1, Over Score - 4.5
+LA Angels @ SF Giants (MLB): Cover Rating - 11.1, Over Score - 5.5
 Bet on LA Angels to cover the spread.
 Tampa Bay @ Atlanta (MLB): Cover Rating - 10.5, Over Score - 4.0
 Bet on Tampa Bay to cover the spread.
@@ -48,6 +48,7 @@ Cincinnati @ Milwaukee (MLB): Over Score - 6.0
 Pittsburgh @ Colorado (MLB): Over Score - 5.6
 Detroit @ Houston (MLB): Over Score - 5.6
 Dallas @ Boston (NBA): Over Score - 5.5
+LA Angels @ SF Giants (MLB): Over Score - 5.5
 Philadelphia @ Baltimore (MLB): Over Score - 5.4
 Kansas City @ LA Dodgers (MLB): Over Score - 5.4
 San Diego @ NY Mets (MLB): Over Score - 5.2
@@ -55,16 +56,15 @@ Miami @ Washington (MLB): Over Score - 5.2
 St. Louis @ Chi Cubs (MLB): Over Score - 5.2
 NY Yankees @ Boston (MLB): Over Score - 5.1
 Oakland @ Minnesota (MLB): Over Score - 5.0
-LA Angels @ SF Giants (MLB): Over Score - 4.5
 Tampa Bay @ Atlanta (MLB): Over Score - 4.0
 Texas @ Seattle (MLB): Over Score - 3.7
           date league  cover_rating  ...  total     home_team   away_team
 0   2024-06-15    NBA      3.100000  ...  209.5        Dallas      Boston
-1   2024-06-15    MLB      7.266667  ...    8.5       Oakland   Minnesota
+1   2024-06-15    MLB      7.266667  ...    8.0       Oakland   Minnesota
 2   2024-06-15    MLB      9.866667  ...    8.0     St. Louis    Chi Cubs
 3   2024-06-15    MLB      4.066667  ...    8.5  Philadelphia   Baltimore
 4   2024-06-15    MLB      3.933333  ...    8.5         Miami  Washington
-5   2024-06-15    MLB     11.066667  ...    8.5     LA Angels   SF Giants
+5   2024-06-15    MLB     11.066667  ...    8.0     LA Angels   SF Giants
 6   2024-06-15    MLB     10.466667  ...    8.5     Tampa Bay     Atlanta
 7   2024-06-15    MLB     10.666667  ...    8.5    Cincinnati   Milwaukee
 8   2024-06-15    MLB     10.933333  ...    7.5       Detroit     Houston
