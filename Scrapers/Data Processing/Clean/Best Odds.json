@@ -43,9 +43,9 @@
             "Away Spread": "+7.0 (Bovada)",
             "Away Spread Odds": "-105 (Bovada)",
             "Away ML": "+240 (Bovada)",
-            "Home Spread": "-7.0 (Bovada)",
-            "Home Spread Odds": "−112 (DK)",
-            "Home ML": "−285 (DK)",
+            "Home Spread": "-6.5 (DK)",
+            "Home Spread Odds": "−110 (DK)",
+            "Home ML": "−265 (DK)",
             "Total": "209.5 (Bovada)",
             "Over Total Odds": "−108 (DK)",
             "Under Total Odds": "-110 (Bovada)"
@@ -67,14 +67,14 @@
         },
         "Odds Table": {
             "Away Spread": "-999 (ESPN)",
-            "Away Spread Odds": "-999 (ESPN)",
+            "Away Spread Odds": "99 (Bovada)",
             "Away ML": "-999 (ESPN)",
             "Home Spread": "-999 (ESPN)",
-            "Home Spread Odds": "-999 (ESPN)",
+            "Home Spread Odds": "99 (Bovada)",
             "Home ML": "-999 (ESPN)",
             "Total": "99 (ESPN)",
-            "Over Total Odds": "-999 (ESPN)",
-            "Under Total Odds": "-999 (ESPN)"
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     },
     {
@@ -120,10 +120,10 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-135 (Bovada)",
-            "Away ML": "+144 (Bovada)",
+            "Away ML": "+145 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+115 (Bovada)",
-            "Home ML": "−170 (DK)",
+            "Home ML": "-175 (Bovada)",
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
             "Under Total Odds": "−115 (DK)"
@@ -178,7 +178,7 @@
             "Home ML": "−122 (DK)",
             "Total": "9.0 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "−102 (DK)"
+            "Under Total Odds": "−105 (DK)"
         }
     },
     {
@@ -203,8 +203,8 @@
             "Home Spread Odds": "+120 (Bovada)",
             "Home ML": "−180 (DK)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "−105 (DK)"
         }
     },
     {
@@ -327,7 +327,7 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "-105 (Bovada)",
+            "Away Spread Odds": "−108 (DK)",
             "Away ML": "−170 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+105 (DK)",
@@ -386,7 +386,7 @@
             "Home ML": "−205 (DK)",
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "−102 (DK)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -413,6 +413,58 @@
             "Total": "10.5 (Bovada)",
             "Over Total Odds": "−105 (DK)",
             "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "5a31e1ff_8714ddbe_MLB",
+        "Info Table": {
+            "Away Team": "CLE Guardians",
+            "Away Team Rank Name": "Cleveland",
+            "Away Abv": "CLE",
+            "Away ID": "5a31e1ff",
+            "Home Team": "TOR Blue Jays",
+            "Home Team Rank Name": "Toronto",
+            "Home Abv": "TOR",
+            "Home ID": "8714ddbe",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (DK)",
+            "Away Spread Odds": "-999 (DK)",
+            "Away ML": "+100 (DK)",
+            "Home Spread": "-999 (DK)",
+            "Home Spread Odds": "+105 (DK)",
+            "Home ML": "−120 (DK)",
+            "Total": "9 (DK)",
+            "Over Total Odds": "-999 (DK)",
+            "Under Total Odds": "-999 (DK)"
+        }
+    },
+    {
+        "MatchupID": "ea799920_2b1ac347_MLB",
+        "Info Table": {
+            "Away Team": "CHI White Sox",
+            "Away Team Rank Name": "Chi Sox",
+            "Away Abv": "CWS",
+            "Away ID": "ea799920",
+            "Home Team": "ARI Diamondbacks",
+            "Home Team Rank Name": "Arizona",
+            "Home Abv": "ARI",
+            "Home ID": "2b1ac347",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (DK)",
+            "Away Spread Odds": "-999 (DK)",
+            "Away ML": "+130 (DK)",
+            "Home Spread": "-999 (DK)",
+            "Home Spread Odds": "+105 (DK)",
+            "Home ML": "−155 (DK)",
+            "Total": "9 (DK)",
+            "Over Total Odds": "-999 (DK)",
+            "Under Total Odds": "-999 (DK)"
         }
     }
 ]
