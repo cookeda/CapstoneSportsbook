@@ -15,14 +15,14 @@
         },
         "Odds Table": {
             "Away Spread": "-999 (ESPN)",
-            "Away Spread Odds": "-999 (ESPN)",
+            "Away Spread Odds": "99 (Bovada)",
             "Away ML": "-999 (ESPN)",
             "Home Spread": "-999 (ESPN)",
-            "Home Spread Odds": "-999 (ESPN)",
+            "Home Spread Odds": "99 (Bovada)",
             "Home ML": "-999 (ESPN)",
             "Total": "99 (ESPN)",
-            "Over Total Odds": "-999 (ESPN)",
-            "Under Total Odds": "-999 (ESPN)"
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     },
     {
@@ -67,14 +67,14 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+160 (DK)",
-            "Away ML": "-101 (Bovada)",
+            "Away Spread Odds": "+164 (DK)",
+            "Away ML": "+100 (DK)",
             "Home Spread": "+1.5 (DK)",
             "Home Spread Odds": "+175 (Bovada)",
-            "Home ML": "−118 (DK)",
+            "Home ML": "-119 (Bovada)",
             "Total": "8.0 (Bovada)",
-            "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "−105 (DK)"
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "−110 (DK)"
         }
     },
     {
@@ -94,7 +94,7 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-195 (Bovada)",
-            "Away ML": "+116 (Bovada)",
+            "Away ML": "+117 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+165 (Bovada)",
             "Home ML": "−135 (DK)",
@@ -119,7 +119,7 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+164 (DK)",
+            "Away Spread Odds": "+160 (DK)",
             "Away ML": "+101 (Bovada)",
             "Home Spread": "+1.5 (DK)",
             "Home Spread Odds": "+170 (Bovada)",
@@ -146,13 +146,13 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "−192 (DK)",
-            "Away ML": "+110 (Bovada)",
+            "Away ML": "+110 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+165 (Bovada)",
             "Home ML": "−130 (DK)",
             "Total": "7.5 (Bovada)",
-            "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "−105 (DK)"
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -171,11 +171,11 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+145 (Bovada)",
-            "Away ML": "-122 (Bovada)",
+            "Away Spread Odds": "+142 (DK)",
+            "Away ML": "−125 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+140 (DK)",
-            "Home ML": "+105 (DK)",
+            "Home ML": "+106 (Bovada)",
             "Total": "7.5 (DK)",
             "Over Total Odds": "+105 (DK)",
             "Under Total Odds": "+100 (Bovada)"
@@ -203,8 +203,34 @@
             "Home Spread Odds": "+155 (Bovada)",
             "Home ML": "-135 (Bovada)",
             "Total": "9.0 (Bovada)",
-            "Over Total Odds": "−112 (DK)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Over Total Odds": "−115 (DK)",
+            "Under Total Odds": "+100 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "18a9d733_4005c299_MLB",
+        "Info Table": {
+            "Away Team": "Detroit Tigers",
+            "Away Team Rank Name": "Detroit",
+            "Away Abv": "DET",
+            "Away ID": "18a9d733",
+            "Home Team": "Houston Astros",
+            "Home Team Rank Name": "Houston",
+            "Home Abv": "HOU",
+            "Home ID": "4005c299",
+            "Start Time": "2:10 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "+114 (DK)",
+            "Home Spread": "-999 (Bovada)",
+            "Home Spread Odds": "+140 (DK)",
+            "Home ML": "-135 (Bovada)",
+            "Total": "9 (DK)",
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     },
     {
@@ -223,14 +249,40 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-120 (Bovada)",
-            "Away ML": "+165 (Bovada)",
+            "Away Spread Odds": "−122 (DK)",
+            "Away ML": "+164 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+140 (DK)",
-            "Home ML": "−166 (DK)",
-            "Total": "9.0 (Bovada)",
-            "Over Total Odds": "+100 (Bovada)",
+            "Home ML": "-170 (Bovada)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "−110 (DK)",
             "Under Total Odds": "+100 (DK)"
+        }
+    },
+    {
+        "MatchupID": "9666114b_8f2512bc_MLB",
+        "Info Table": {
+            "Away Team": "Pittsburgh Pirates",
+            "Away Team Rank Name": "Pittsburgh",
+            "Away Abv": "PIT",
+            "Away ID": "9666114b",
+            "Home Team": "Colorado Rockies",
+            "Home Team Rank Name": "Colorado",
+            "Home Abv": "COL",
+            "Home ID": "8f2512bc",
+            "Start Time": "3:10 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "-143 (Bovada)",
+            "Home Spread": "-999 (Bovada)",
+            "Home Spread Odds": "99 (Bovada)",
+            "Home ML": "+120 (Bovada)",
+            "Total": "-999 (Bovada)",
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     },
     {
@@ -280,9 +332,9 @@
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+140 (DK)",
             "Home ML": "−180 (DK)",
-            "Total": "8.5 (Bovada)",
-            "Over Total Odds": "−102 (DK)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Total": "8.0 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "−102 (DK)"
         }
     },
     {
@@ -301,7 +353,7 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+110 (Bovada)",
+            "Away Spread Odds": "+105 (Bovada)",
             "Away ML": "+210 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+140 (DK)",
@@ -340,26 +392,26 @@
     {
         "MatchupID": "6424b504_8a2d1e91_MLB",
         "Info Table": {
-            "Away Team": "New York Yankees",
+            "Away Team": "NY Yankees",
             "Away Team Rank Name": "NY Yankees",
             "Away Abv": "NYY",
             "Away ID": "6424b504",
-            "Home Team": "Boston Red Sox",
+            "Home Team": "BOS Red Sox",
             "Home Team Rank Name": "Boston",
             "Home Abv": "BOS",
             "Home ID": "8a2d1e91",
-            "Start Time": "7:10 PM",
+            "Start Time": "7:10PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+110 (Bovada)",
-            "Away ML": "−142 (DK)",
-            "Home Spread": "+1.5 (Bovada)",
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+105 (DK)",
+            "Away ML": "−148 (DK)",
+            "Home Spread": "+1.5 (DK)",
             "Home Spread Odds": "+140 (DK)",
-            "Home ML": "+122 (Bovada)",
-            "Total": "9.0 (Bovada)",
-            "Over Total Odds": "-110 (Bovada)",
+            "Home ML": "+124 (DK)",
+            "Total": "9 (DK)",
+            "Over Total Odds": "−115 (DK)",
             "Under Total Odds": "−105 (DK)"
         }
     }
