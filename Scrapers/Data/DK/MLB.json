@@ -160,9 +160,9 @@
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+140",
                 "Home ML": "+105",
-                "Total": "7.5",
-                "Over Total Odds": "+105",
-                "Under Total Odds": "−125"
+                "Total": "7",
+                "Over Total Odds": "−122",
+                "Under Total Odds": "+102"
             },
             "MatchupID": "3f4235d4_c625b23e_MLB",
             "Info Table": {
@@ -191,8 +191,8 @@
                 "Home Spread Odds": "+140",
                 "Home ML": "−135",
                 "Total": "9",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Over Total Odds": "−120",
+                "Under Total Odds": "+100"
             },
             "MatchupID": "fdd0d44c_c5227021_MLB",
             "Info Table": {
@@ -215,14 +215,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−142",
+                "Away Spread Odds": "−135",
                 "Away ML": "+145",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+140",
-                "Home ML": "−175",
+                "Home ML": "−185",
                 "Total": "8.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
             },
             "MatchupID": "8b214a89_f5328492_MLB",
             "Info Table": {
@@ -271,15 +271,45 @@
     ],
     [
         {
+            "BetTableId": "DK_9666114b_8f2512bc_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "−142",
+                "Home Spread": "-999",
+                "Home Spread Odds": "+140",
+                "Home ML": "+120",
+                "Total": "9",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
+            },
+            "MatchupID": "9666114b_8f2512bc_MLB",
+            "Info Table": {
+                "Away Team": "PIT Pirates",
+                "Away Team Rank Name": "Pittsburgh",
+                "Away Abv": "PIT",
+                "Away ID": "9666114b",
+                "Home Team": "COL Rockies",
+                "Home Team Rank Name": "Colorado",
+                "Home Abv": "COL",
+                "Home ID": "8f2512bc",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_fe8acdeb_486a5e3b_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−148",
-                "Away ML": "+150",
+                "Away Spread Odds": "−142",
+                "Away ML": "+154",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+140",
-                "Home ML": "−180",
+                "Home ML": "−185",
                 "Total": "8",
                 "Over Total Odds": "−118",
                 "Under Total Odds": "−102"
@@ -311,8 +341,8 @@
                 "Home Spread Odds": "+140",
                 "Home ML": "−258",
                 "Total": "8",
-                "Over Total Odds": "−108",
-                "Under Total Odds": "−112"
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−115"
             },
             "MatchupID": "db2ee960_4e2f3aa1_MLB",
             "Info Table": {
@@ -341,8 +371,8 @@
                 "Home Spread Odds": "+140",
                 "Home ML": "−180",
                 "Total": "8",
-                "Over Total Odds": "−118",
-                "Under Total Odds": "−102"
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "ea799920_2b1ac347_MLB",
             "Info Table": {
@@ -395,7 +425,7 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+105",
+                "Away Spread Odds": "+110",
                 "Away ML": "−148",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+140",
