@@ -1,58 +1,18 @@
 Dallas @ Boston (NBA): Cover Rating - 3.0, Over Score - 5.5
 Bet on Dallas to cover the spread.
-Cincinnati @ Pittsburgh (MLB): Cover Rating - 8.5, Over Score - 5.6
-Bet on Cincinnati to cover the spread.
-San Diego @ Philadelphia (MLB): Cover Rating - 10.4, Over Score - 5.3
-Bet on San Diego to cover the spread.
-St. Louis @ Miami (MLB): Cover Rating - 2.0, Over Score - 4.7
-Bet on St. Louis to cover the spread.
-Boston @ Toronto (MLB): Cover Rating - 12.3, Over Score - 5.3
-Bet on Boston to cover the spread.
-Detroit @ Atlanta (MLB): Cover Rating - 8.5, Over Score - 5.6
-Bet on Detroit to cover the spread.
-NY Mets @ Texas (MLB): Cover Rating - 10.8, Over Score - 5.4
-Bet on NY Mets to cover the spread.
-SF Giants @ Chi Cubs (MLB): Cover Rating - 9.9, Over Score - 5.7
-Bet on SF Giants to cover the spread.
-LA Dodgers @ Colorado (MLB): Cover Rating - 3.5, Over Score - 5.4
-Bet on Colorado to cover the spread.
-Milwaukee @ LA Angels (MLB): Cover Rating - 2.4, Over Score - 5.7
-Bet on Milwaukee to cover the spread.
+Unknown @ Unknown (MLB): Cover Rating - 1.0, Over Score - 1.0
+Bet on Unknown to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Boston @ Toronto (MLB): Cover Rating - 12.3, Bet on Boston to cover the spread.
-NY Mets @ Texas (MLB): Cover Rating - 10.8, Bet on NY Mets to cover the spread.
-San Diego @ Philadelphia (MLB): Cover Rating - 10.4, Bet on San Diego to cover the spread.
-SF Giants @ Chi Cubs (MLB): Cover Rating - 9.9, Bet on SF Giants to cover the spread.
-Cincinnati @ Pittsburgh (MLB): Cover Rating - 8.5, Bet on Cincinnati to cover the spread.
-Detroit @ Atlanta (MLB): Cover Rating - 8.5, Bet on Detroit to cover the spread.
-LA Dodgers @ Colorado (MLB): Cover Rating - 3.5, Bet on Colorado to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 3.0, Bet on Dallas to cover the spread.
-Milwaukee @ LA Angels (MLB): Cover Rating - 2.4, Bet on Milwaukee to cover the spread.
-St. Louis @ Miami (MLB): Cover Rating - 2.0, Bet on St. Louis to cover the spread.
+Unknown @ Unknown (MLB): Cover Rating - 1.0, Bet on Unknown to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-SF Giants @ Chi Cubs (MLB): Over Score - 5.7
-Milwaukee @ LA Angels (MLB): Over Score - 5.7
-Detroit @ Atlanta (MLB): Over Score - 5.6
-Cincinnati @ Pittsburgh (MLB): Over Score - 5.6
 Dallas @ Boston (NBA): Over Score - 5.5
-LA Dodgers @ Colorado (MLB): Over Score - 5.4
-NY Mets @ Texas (MLB): Over Score - 5.4
-Boston @ Toronto (MLB): Over Score - 5.3
-San Diego @ Philadelphia (MLB): Over Score - 5.3
-St. Louis @ Miami (MLB): Over Score - 4.7
-         date league  cover_rating  ...  total   home_team     away_team
-0  2024-06-17    NBA      2.953846  ...  209.5      Dallas        Boston
-1  2024-06-17    MLB      8.533333  ...    8.0  Cincinnati    Pittsburgh
-2  2024-06-17    MLB     10.400000  ...    9.5   San Diego  Philadelphia
-3  2024-06-17    MLB      2.000000  ...    7.5   St. Louis         Miami
-4  2024-06-17    MLB     12.333333  ...    7.5      Boston       Toronto
-5  2024-06-17    MLB      8.466667  ...    8.0     Detroit       Atlanta
-6  2024-06-17    MLB     10.800000  ...    8.5     NY Mets         Texas
-7  2024-06-17    MLB      9.866667  ...    9.5   SF Giants      Chi Cubs
-8  2024-06-17    MLB      3.466667  ...   12.0  LA Dodgers      Colorado
-9  2024-06-17    MLB      2.400000  ...    8.5   Milwaukee     LA Angels
+Unknown @ Unknown (MLB): Over Score - 1.0
+         date league  cover_rating  ...  total  home_team  away_team
+0  2024-06-17    NBA      2.953846  ...  209.5     Dallas     Boston
+1  2024-06-17    MLB      1.000000  ...    8.0    Unknown    Unknown
 
-[10 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions
