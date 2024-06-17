@@ -6,10 +6,10 @@
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "−130",
-                "Away ML": "+160",
+                "Away ML": "+164",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+110",
-                "Home ML": "−192",
+                "Home ML": "−198",
                 "Total": "8",
                 "Over Total Odds": "−102",
                 "Under Total Odds": "−118"
@@ -71,8 +71,8 @@
                 "Home Spread Odds": "+110",
                 "Home ML": "+136",
                 "Total": "7.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "−120"
+                "Over Total Odds": "−102",
+                "Under Total Odds": "−118"
             },
             "MatchupID": "ccadb94e_8d47be6d_MLB",
             "Info Table": {
@@ -175,6 +175,36 @@
                 "Home Abv": "TEX",
                 "Home ID": "e841daaf",
                 "Start Time": "8:05PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_486a5e3b_d10f1db8_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−192",
+                "Away ML": "+105",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+110",
+                "Home ML": "−125",
+                "Total": "9.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "486a5e3b_d10f1db8_MLB",
+            "Info Table": {
+                "Away Team": "SF Giants",
+                "Away Team Rank Name": "SF Giants",
+                "Away Abv": "SF",
+                "Away ID": "486a5e3b",
+                "Home Team": "CHI Cubs",
+                "Home Team Rank Name": "Chi Cubs",
+                "Home Abv": "CHC",
+                "Home ID": "d10f1db8",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
