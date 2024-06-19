@@ -3,13 +3,13 @@ import time
 
 
 #process1 = subprocess.Popen(["python", "cbb_dk.py"]) # Create and launch process pop.py using python interpreter
-process3 = subprocess.Popen(["python", "nba_dk.py"])
+#process3 = subprocess.Popen(["python", "nba_dk.py"])
 process2 = subprocess.Popen(["python", "mlb_dk.py"])
 print("Scraping DraftKings for: NBA, MLB")
 
 #process1.wait()
+#process2.wait()
 process2.wait()
-process3.wait()
 time.sleep(3)
 
 
