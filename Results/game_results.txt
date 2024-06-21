@@ -1,6 +1,6 @@
 Dallas @ Boston (NBA): Cover Rating - 0.8, Over Score - 6.0
 Bet on Boston to cover the spread.
-NY Mets @ Chi Cubs (MLB): Cover Rating - 10.7, Over Score - 5.9
+NY Mets @ Chi Cubs (MLB): Cover Rating - 6.2, Over Score - 5.9
 Bet on NY Mets to cover the spread.
 Arizona @ Philadelphia (MLB): Cover Rating - 4.1, Over Score - 5.3
 Bet on Arizona to cover the spread.
@@ -10,9 +10,9 @@ Tampa Bay @ Pittsburgh (MLB): Cover Rating - 4.9, Over Score - 5.5
 Bet on Pittsburgh to cover the spread.
 Atlanta @ NY Yankees (MLB): Cover Rating - 5.1, Over Score - 5.1
 Bet on NY Yankees to cover the spread.
-Seattle @ Miami (MLB): Cover Rating - 1.7, Over Score - 5.9
+Seattle @ Miami (MLB): Cover Rating - 3.7, Over Score - 5.9
 Bet on Seattle to cover the spread.
-Boston @ Cincinnati (MLB): Cover Rating - 2.7, Over Score - 5.3
+Boston @ Cincinnati (MLB): Cover Rating - 2.7, Over Score - 4.3
 Bet on Boston to cover the spread.
 Toronto @ Cleveland (MLB): Cover Rating - 3.8, Over Score - 4.5
 Bet on Toronto to cover the spread.
@@ -32,17 +32,17 @@ Bet on LA Angels to cover the spread.
 Ranked Cover Recommendations Across All Leagues:
 Milwaukee @ San Diego (MLB): Cover Rating - 11.6, Bet on Milwaukee to cover the spread.
 Kansas City @ Texas (MLB): Cover Rating - 10.9, Bet on Kansas City to cover the spread.
-NY Mets @ Chi Cubs (MLB): Cover Rating - 10.7, Bet on NY Mets to cover the spread.
 Chi Sox @ Detroit (MLB): Cover Rating - 10.1, Bet on Chi Sox to cover the spread.
 LA Angels @ LA Dodgers (MLB): Cover Rating - 7.6, Bet on LA Angels to cover the spread.
+NY Mets @ Chi Cubs (MLB): Cover Rating - 6.2, Bet on NY Mets to cover the spread.
 Minnesota @ Oakland (MLB): Cover Rating - 5.1, Bet on Oakland to cover the spread.
 Atlanta @ NY Yankees (MLB): Cover Rating - 5.1, Bet on NY Yankees to cover the spread.
 Tampa Bay @ Pittsburgh (MLB): Cover Rating - 4.9, Bet on Pittsburgh to cover the spread.
 Arizona @ Philadelphia (MLB): Cover Rating - 4.1, Bet on Arizona to cover the spread.
 Toronto @ Cleveland (MLB): Cover Rating - 3.8, Bet on Toronto to cover the spread.
+Seattle @ Miami (MLB): Cover Rating - 3.7, Bet on Seattle to cover the spread.
 Boston @ Cincinnati (MLB): Cover Rating - 2.7, Bet on Boston to cover the spread.
 Baltimore @ Houston (MLB): Cover Rating - 2.4, Bet on Baltimore to cover the spread.
-Seattle @ Miami (MLB): Cover Rating - 1.7, Bet on Seattle to cover the spread.
 Washington @ Colorado (MLB): Cover Rating - 1.3, Bet on Washington to cover the spread.
 Dallas @ Boston (NBA): Cover Rating - 0.8, Bet on Boston to cover the spread.
 
@@ -56,20 +56,20 @@ Milwaukee @ San Diego (MLB): Over Score - 5.6
 Tampa Bay @ Pittsburgh (MLB): Over Score - 5.5
 Washington @ Colorado (MLB): Over Score - 5.4
 Arizona @ Philadelphia (MLB): Over Score - 5.3
-Boston @ Cincinnati (MLB): Over Score - 5.3
 Minnesota @ Oakland (MLB): Over Score - 5.2
 Atlanta @ NY Yankees (MLB): Over Score - 5.1
 Kansas City @ Texas (MLB): Over Score - 4.6
 Baltimore @ Houston (MLB): Over Score - 4.5
 Toronto @ Cleveland (MLB): Over Score - 4.5
+Boston @ Cincinnati (MLB): Over Score - 4.3
           date league  cover_rating  ...  total    home_team     away_team
 0   2024-06-21    NBA      0.788571  ...  194.5       Dallas        Boston
-1   2024-06-21    MLB     10.733333  ...    8.0      NY Mets      Chi Cubs
+1   2024-06-21    MLB      6.244444  ...   13.5      NY Mets      Chi Cubs
 2   2024-06-21    MLB      4.133333  ...    9.5      Arizona  Philadelphia
 3   2024-06-21    MLB     10.133333  ...    7.5      Chi Sox       Detroit
 4   2024-06-21    MLB      4.866667  ...    8.5    Tampa Bay    Pittsburgh
 5   2024-06-21    MLB      5.066667  ...    7.5      Atlanta    NY Yankees
-6   2024-06-21    MLB      1.666667  ...    7.5      Seattle         Miami
+6   2024-06-21    MLB      3.666667  ...    7.5      Seattle         Miami
 7   2024-06-21    MLB      2.733333  ...    9.0       Boston    Cincinnati
 8   2024-06-21    MLB      3.800000  ...    9.0      Toronto     Cleveland
 9   2024-06-21    MLB     10.933333  ...    8.0  Kansas City         Texas
