@@ -91,6 +91,36 @@
     ],
     [
         {
+            "BetTableId": "DK_16f4bf06_9666114b_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "+100",
+                "Home Spread": "-999",
+                "Home Spread Odds": "+130",
+                "Home ML": "−120",
+                "Total": "9",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
+            },
+            "MatchupID": "16f4bf06_9666114b_MLB",
+            "Info Table": {
+                "Away Team": "TB Rays",
+                "Away Team Rank Name": "Tampa Bay",
+                "Away Abv": "TB",
+                "Away ID": "16f4bf06",
+                "Home Team": "PIT Pirates",
+                "Home Team Rank Name": "Pittsburgh",
+                "Home Abv": "PIT",
+                "Home ID": "9666114b",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_354ef58_6424b504_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -181,12 +211,42 @@
     ],
     [
         {
+            "BetTableId": "DK_8714ddbe_5a31e1ff_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "+100",
+                "Home Spread": "-999",
+                "Home Spread Odds": "+130",
+                "Home ML": "−120",
+                "Total": "9",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
+            },
+            "MatchupID": "8714ddbe_5a31e1ff_MLB",
+            "Info Table": {
+                "Away Team": "TOR Blue Jays",
+                "Away Team Rank Name": "Toronto",
+                "Away Abv": "TOR",
+                "Away ID": "8714ddbe",
+                "Home Team": "CLE Guardians",
+                "Home Team Rank Name": "Cleveland",
+                "Home Abv": "CLE",
+                "Home ID": "5a31e1ff",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_db2ee960_e841daaf_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "−166",
-                "Away ML": "+124",
+                "Away ML": "+130",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+130",
                 "Home ML": "−148",
