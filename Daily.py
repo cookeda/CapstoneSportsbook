@@ -14,21 +14,21 @@ def main():
 
     # Scrape Adv League Data
     os.chdir("../OddsHistory")
-    try:
-        os.remove("NBA.json")
-    except FileNotFoundError:
-        pass
+    #try:
+     #   os.remove("NBA.json")
+    #except FileNotFoundError:
+    #    pass
     try:
         os.remove("MLB.json")
     except FileNotFoundError:
         pass
-    subprocess.run(['scrapy', 'crawl', 'NBA', '-o', 'NBA.json'])
+   # subprocess.run(['scrapy', 'crawl', 'NBA', '-o', 'NBA.json'])
     subprocess.run(['scrapy', 'crawl', 'MLB', '-o', 'MLB.json'])
 
     # Scrape League Data
     os.chdir("../Data Collecting Src")
     subprocess.run(['python', 'MLBScrape.py'])
-    subprocess.run(['python', 'NBAScrape.py'])
+    #subprocess.run(['python', 'NBAScrape.py'])
     #subprocess.run(['python3.10', 'CBBScrape.py'])
     subprocess.run(['python', 'Sort.py'])
     os.chdir("../")
