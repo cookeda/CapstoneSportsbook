@@ -66,10 +66,10 @@
                 "Book Name": "DK",
                 "Away Spread": "-999",
                 "Away Spread Odds": "-999",
-                "Away ML": "−105",
+                "Away ML": "−102",
                 "Home Spread": "-999",
                 "Home Spread Odds": "+130",
-                "Home ML": "−115",
+                "Home ML": "−118",
                 "Total": "9",
                 "Over Total Odds": "-999",
                 "Under Total Odds": "-999"
@@ -84,7 +84,7 @@
                 "Home Team Rank Name": "Chi Cubs",
                 "Home Abv": "CHC",
                 "Home ID": "d10f1db8",
-                "Start Time": "Live Game",
+                "Start Time": "2:20PM",
                 "League": "MLB"
             }
         }
@@ -126,7 +126,7 @@
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+154",
-                "Away ML": "−108",
+                "Away ML": "−110",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+130",
                 "Home ML": "−112",
@@ -145,6 +145,36 @@
                 "Home Abv": "PIT",
                 "Home ID": "9666114b",
                 "Start Time": "4:05PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_db2ee960_e841daaf_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−205",
+                "Away ML": "+105",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+130",
+                "Home ML": "−125",
+                "Total": "8.5",
+                "Over Total Odds": "+100",
+                "Under Total Odds": "−120"
+            },
+            "MatchupID": "db2ee960_e841daaf_MLB",
+            "Info Table": {
+                "Away Team": "KC Royals",
+                "Away Team Rank Name": "Kansas City",
+                "Away Abv": "KC",
+                "Away ID": "db2ee960",
+                "Home Team": "TEX Rangers",
+                "Home Team Rank Name": "Texas",
+                "Home Abv": "TEX",
+                "Home ID": "e841daaf",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
@@ -221,8 +251,8 @@
                 "Home Spread Odds": "+130",
                 "Home ML": "+142",
                 "Total": "7.5",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "−120"
+                "Over Total Odds": "−102",
+                "Under Total Odds": "−118"
             },
             "MatchupID": "300faa7b_8d47be6d_MLB",
             "Info Table": {
@@ -251,8 +281,8 @@
                 "Home Spread Odds": "+130",
                 "Home ML": "+110",
                 "Total": "9.5",
-                "Over Total Odds": "−120",
-                "Under Total Odds": "+100"
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
             },
             "MatchupID": "8a2d1e91_fdd0d44c_MLB",
             "Info Table": {
@@ -305,11 +335,11 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−170",
-                "Away ML": "+114",
+                "Away Spread Odds": "−162",
+                "Away ML": "+120",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+130",
-                "Home ML": "−135",
+                "Home ML": "−142",
                 "Total": "9",
                 "Over Total Odds": "−102",
                 "Under Total Odds": "−118"
@@ -385,6 +415,36 @@
                 "Home Abv": "COL",
                 "Home ID": "8f2512bc",
                 "Start Time": "9:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_fe8acdeb_4e2f3aa1_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "+130",
+                "Away ML": "+280",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+130",
+                "Home ML": "−355",
+                "Total": "8.5",
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−115"
+            },
+            "MatchupID": "fe8acdeb_4e2f3aa1_MLB",
+            "Info Table": {
+                "Away Team": "LA Angels",
+                "Away Team Rank Name": "LA Angels",
+                "Away Abv": "LAA",
+                "Away ID": "fe8acdeb",
+                "Home Team": "LA Dodgers",
+                "Home Team Rank Name": "LA Dodgers",
+                "Home Abv": "LAD",
+                "Home ID": "4e2f3aa1",
+                "Start Time": "10:10PM",
                 "League": "MLB"
             }
         }
