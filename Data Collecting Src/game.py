@@ -29,11 +29,11 @@ class Statistics:
         return result_dict
 
     def getDictPercent(self, league, stat, hora):
-        if league == "NBA":
-            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
+        #if league == "NBA":
+        #    direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         #elif league == "CBB":
         #    direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
-        elif league == "MLB":
+        if league == "MLB":
             direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         else:
             print("Invalid League")
@@ -46,11 +46,11 @@ class Statistics:
         return result_dict
 
     def getDictMOV(self, league, stat, hora):
-        if league == "NBA":
-            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
+        #if league == "NBA":
+         #   direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         #elif league == "CBB":
         #    direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
-        elif league == "MLB":
+        if league == "MLB":
             direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         else:
             print("Invalid League")
@@ -208,7 +208,7 @@ def main():
 
     # Load games from all leagues
     leagues = {
-        'NBA': Game.gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA', stats),
+        #'NBA': Game.gameInputFromLite("../Scrapers/Data/DK/NBA_Lite.json", 'NBA', stats),
         #'CBB': Game.gameInputFromLite("../Scrapers/Data/DK/CBB_Lite.json", 'CBB', stats),
         'MLB': Game.gameInputFromLite("../Scrapers/Data/DK/MLB_Lite.json", 'MLB', stats)
         # 'NFL': Game.gameInputFromJSON("../Scrapers/Data/DK/NFL.json", 'NFL', stats),
