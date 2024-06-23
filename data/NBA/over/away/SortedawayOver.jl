@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"Team": "Atlanta", "Over %": "48.8%"} 51.2%
 {"Team": "Atlanta", "Over %": "48.8%"} 51.2%
 {"Team": "Boston", "Over %": "46.9%"} 53.1%
@@ -58,3 +59,5 @@
 {"Team": "Utah", "Over %": "56.1%"} 43.9%
 {"Team": "Washington", "Over %": "56.1%"} 43.9%
 {"Team": "Washington", "Over %": "56.1%"} 43.9%
+=======
+>>>>>>> 4e11ceb133d712b0a430882affa0b024c88984b0

@@ -310,6 +310,7 @@ def main():
     generalOver3 = generalAlg("Over", "MLB")
 
     # For Home
+<<<<<<< HEAD
     # homeCover = getDictPercent(direct + "NBA/cover/home/SortedhomeCover.jl")
     #homeCover2 = getDictPercent(direct + "CBB/cover/home/SortedhomeCover.jl")
     homeCover3 = getDictPercent(direct + "MLB/cover/home/SortedhomeCover.jl")
@@ -319,10 +320,22 @@ def main():
     homeOver3 = getDictPercent(direct + "MLB/over/home/SortedhomeOver.jl")
 
     # homeMOV = getDictMOV("../data/NBA/cover/home/SortedhomeCover.jl")
+=======
+    #homeCover = getDictPercent(direct + "NBA/cover/home/SortedhomeCover.jl")
+    #homeCover2 = getDictPercent(direct + "CBB/cover/home/SortedhomeCover.jl")
+    homeCover3 = getDictPercent(direct + "MLB/cover/home/SortedhomeCover.jl")
+
+    #homeOver = getDictPercent(direct + "NBA/over/home/SortedhomeOver.jl")
+    #homeOver2 = getDictPercent(direct + "CBB/over/home/SortedhomeOver.jl")
+    homeOver3 = getDictPercent(direct + "MLB/over/home/SortedhomeOver.jl")
+
+    #homeMOV = getDictMOV("../data/NBA/cover/home/SortedhomeCover.jl")
+>>>>>>> 4e11ceb133d712b0a430882affa0b024c88984b0
     #homeMOV2 = getDictMOV("../data/CBB/cover/home/SortedhomeCover.jl")
     homeMOV3 = getDictMOV("../data/MLB/cover/home/SortedhomeCover.jl")
 
     # For Away
+<<<<<<< HEAD
     # awayCover = getDictPercent(direct + "NBA/cover/away/SortedawayCover.jl")
     #awayCover2 = getDictPercent(direct + "CBB/cover/away/SortedawayCover.jl")
     awayCover3 = getDictPercent(direct + "MLB/cover/away/SortedawayCover.jl")
@@ -336,10 +349,26 @@ def main():
     awayMOV3 = getDictMOV("../data/MLB/cover/away/SortedawayCover.jl")
 
     # ppgNBA = getListPPG("../data/NBA/over/general/SortedPointAverages.jl")
+=======
+    #awayCover = getDictPercent(direct + "NBA/cover/away/SortedawayCover.jl")
+    #awayCover2 = getDictPercent(direct + "CBB/cover/away/SortedawayCover.jl")
+    awayCover3 = getDictPercent(direct + "MLB/cover/away/SortedawayCover.jl")
+
+    #awayOver = getDictPercent(direct + "NBA/over/away/SortedawayOver.jl")
+    #awayOver2 = getDictPercent(direct + "CBB/over/away/SortedawayOver.jl")
+    awayOver3 = getDictPercent(direct + "MLB/over/away/SortedawayOver.jl")
+
+    #awayMOV = getDictMOV("../data/NBA/cover/away/SortedawayCover.jl")
+    #awayMOV2 = getDictMOV("../data/CBB/cover/away/SortedawayCover.jl")
+    awayMOV3 = getDictMOV("../data/MLB/cover/away/SortedawayCover.jl")
+
+    #ppgNBA = getListPPG("../data/NBA/over/general/SortedPointAverages.jl")
+>>>>>>> 4e11ceb133d712b0a430882affa0b024c88984b0
     #ppgCBB = getListPPG("../data/CBB/over/general/SortedPointAverages.jl")
     ppgMLB = getListPPG("../data/MLB/over/general/SortedPointAverages.jl")
 
     # Variables stand for Combine Home/Away Over/Cover (ex: Combine Home Over = cho)
+<<<<<<< HEAD
     # choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
     #choCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(homeOver2))
     choMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
@@ -353,6 +382,21 @@ def main():
     caoMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(awayOver3))
 
     # cacNBA = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
+=======
+    #choNBA = combineOnRanking(sortByRank(generalOver), sortByRank(homeOver))
+    #choCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(homeOver2))
+    choMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(homeOver3))
+
+    #chcNBA = combineOnRanking(sortByRank(generalCover), sortByRank(homeCover))
+    #chcCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(homeCover2))
+    chcMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(homeCover3))
+
+    #caoNBA = combineOnRanking(sortByRank(generalOver), sortByRank(awayOver))
+    #caoCBB = combineOnRanking(sortByRank(generalOver2), sortByRank(awayOver2))
+    caoMLB = combineOnRanking(sortByRank(generalOver3), sortByRank(awayOver3))
+
+    #cacNBA = combineOnRanking(sortByRank(generalCover), sortByRank(awayCover))
+>>>>>>> 4e11ceb133d712b0a430882affa0b024c88984b0
     #cacCBB = combineOnRanking(sortByRank(generalCover2), sortByRank(awayCover2))
     cacMLB = combineOnRanking(sortByRank(generalCover3), sortByRank(awayCover3))
 

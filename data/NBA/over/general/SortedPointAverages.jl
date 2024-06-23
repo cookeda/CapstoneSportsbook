@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"Team": "Atlanta", "PPG": "118.3", "Last 3": "112.3", "Home": "121.9", "Away": "114.8"}
 {"Team": "Atlanta", "PPG": "118.3", "Last 3": "112.3", "Home": "121.9", "Away": "114.8"}
 {"Team": "Boston", "PPG": "118.4", "Last 3": "98.7", "Home": "120.9", "Away": "115.7"}
@@ -58,3 +59,5 @@
 {"Team": "Utah", "PPG": "115.7", "Last 3": "116.7", "Home": "119.5", "Away": "111.8"}
 {"Team": "Washington", "PPG": "113.7", "Last 3": "123.3", "Home": "112.8", "Away": "114.7"}
 {"Team": "Washington", "PPG": "113.7", "Last 3": "123.3", "Home": "112.8", "Away": "114.7"}
+=======
+>>>>>>> 4e11ceb133d712b0a430882affa0b024c88984b0

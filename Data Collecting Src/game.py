@@ -29,11 +29,11 @@ class Statistics:
         return result_dict
 
     def getDictPercent(self, league, stat, hora):
-        if league == "NBA":
-            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
+        #if league == "NBA":
+        #    direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         #elif league == "CBB":
         #    direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
-        elif league == "MLB":
+        if league == "MLB":
             direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         else:
             print("Invalid League")
@@ -46,11 +46,11 @@ class Statistics:
         return result_dict
 
     def getDictMOV(self, league, stat, hora):
-        if league == "NBA":
-            direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
+        #if league == "NBA":
+         #   direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         #elif league == "CBB":
         #    direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
-        elif league == "MLB":
+        if league == "MLB":
             direct = "../data/" + league + "/" + stat.lower() + "/" + hora + "/Sorted" + hora + stat + ".jl"
         else:
             print("Invalid League")
