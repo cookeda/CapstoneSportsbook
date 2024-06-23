@@ -116,6 +116,17 @@ def load_team_mappings(directory):
 def get_city_name_from_abbreviation(abbreviation, mapping_dict):
     return mapping_dict.get(abbreviation, abbreviation)  # Return "Unknown" if not found
 
+def movePreditionsToDailyPredictions():
+    f = open("../OddsHistory/History/IfYouSeeThisItWorked.txt", "x")
+    f.write(dt.today())
+    f.close()
+    predictions_columns = ['date', 'league', 'cover_rating', 'betting_advice', 'over_score', 'home_spread',
+                           'away_spread', 'total', 'away_team', 'home_team']
+    predictions = load_from_csv("../OddsHistory/History/Predictions.csv", predictions_columns)
+    save_to_csv(predictions, "../OddsHistory/History/DailyPredictions.csv")
+
+
+
 # Takes all history and outputs data.
 # Will add most recent game matchups to history.
 def compare_and_update():
@@ -174,6 +185,7 @@ def main():
 
     # Check if yesterday's data already exists
     if not comparison_csv['date'].str.contains(yesterday).any():
+        movePreditionsToDailyPredictions()
         df = getMatchups(scrapeYesterday(yesterday), yesterday)
         save_to_csv(df, "../OddsHistory/History/MatchupHistory.csv")
         compare_and_update()
