@@ -120,10 +120,10 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+100 (Bovada)",
-            "Away ML": "−175 (DK)",
+            "Away ML": "-170 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-120 (Bovada)",
-            "Home ML": "+145 (Bovada)",
+            "Home ML": "+142 (DK)",
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "−112 (DK)",
             "Under Total Odds": "-105 (Bovada)"
@@ -146,9 +146,9 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "+160 (DK)",
-            "Away ML": "-109 (Bovada)",
+            "Away ML": "-107 (Bovada)",
             "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "+195 (Bovada)",
+            "Home Spread Odds": "+190 (Bovada)",
             "Home ML": "−108 (DK)",
             "Total": "7.5 (Bovada)",
             "Over Total Odds": "-105 (Bovada)",
@@ -171,40 +171,14 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+145 (DK)",
+            "Away Spread Odds": "+150 (DK)",
             "Away ML": "-104 (Bovada)",
             "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "+175 (Bovada)",
-            "Home ML": "−112 (DK)",
-            "Total": "9.5 (Bovada)",
-            "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "−102 (DK)"
-        }
-    },
-    {
-        "MatchupID": "8714ddbe_8a2d1e91_MLB",
-        "Info Table": {
-            "Away Team": "Toronto Blue Jays",
-            "Away Team Rank Name": "Toronto",
-            "Away Abv": "TOR",
-            "Away ID": "8714ddbe",
-            "Home Team": "Boston Red Sox",
-            "Home Team Rank Name": "Boston",
-            "Home Abv": "BOS",
-            "Home ID": "8a2d1e91",
-            "Start Time": "7:10 PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "99 (Bovada)",
-            "Away ML": "+120 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "99 (Bovada)",
-            "Home ML": "−142 (DK)",
-            "Total": "8.5 (DK)",
-            "Over Total Odds": "+225 (Bovada)",
-            "Under Total Odds": "+100 (DK)"
+            "Home Spread Odds": "+170 (Bovada)",
+            "Home ML": "−115 (DK)",
+            "Total": "10.0 (Bovada)",
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "−110 (DK)"
         }
     },
     {
@@ -224,13 +198,13 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+136 (DK)",
-            "Away ML": "-122 (Bovada)",
+            "Away ML": "-121 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-160 (Bovada)",
             "Home ML": "+105 (DK)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "−112 (DK)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -250,13 +224,13 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-105 (Bovada)",
-            "Away ML": "+200 (Bovada)",
+            "Away ML": "+200 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "-115 (Bovada)",
-            "Home ML": "-245 (Bovada)",
+            "Home ML": "-240 (Bovada)",
             "Total": "9.5 (Bovada)",
-            "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "−118 (DK)"
+            "Over Total Odds": "−102 (DK)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -279,10 +253,36 @@
             "Away ML": "+180 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+100 (Bovada)",
-            "Home ML": "-216 (Bovada)",
+            "Home ML": "-214 (Bovada)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "−115 (DK)"
+            "Over Total Odds": "−108 (DK)",
+            "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "8714ddbe_8a2d1e91_MLB",
+        "Info Table": {
+            "Away Team": "TOR Blue Jays",
+            "Away Team Rank Name": "Toronto",
+            "Away Abv": "TOR",
+            "Away ID": "8714ddbe",
+            "Home Team": "BOS Red Sox",
+            "Home Team Rank Name": "Boston",
+            "Home Abv": "BOS",
+            "Home ID": "8a2d1e91",
+            "Start Time": "7:10PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (DK)",
+            "Away Spread Odds": "−166 (DK)",
+            "Away ML": "+120 (DK)",
+            "Home Spread": "-1.5 (DK)",
+            "Home Spread Odds": "−198 (DK)",
+            "Home ML": "−142 (DK)",
+            "Total": "8.5 (DK)",
+            "Over Total Odds": "−120 (DK)",
+            "Under Total Odds": "+100 (DK)"
         }
     },
     {
@@ -353,7 +353,7 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "−192 (DK)",
+            "Away Spread Odds": "−185 (DK)",
             "Away ML": "+110 (DK)",
             "Home Spread": "-1.5 (DK)",
             "Home Spread Odds": "−198 (DK)",
