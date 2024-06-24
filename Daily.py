@@ -54,5 +54,10 @@ def main():
     # Display start and end times
     print("Start Time:", start_time)
     print("End Time:", end_time)
+
+    f = open("../IfYouSeeThisItWorked.txt", "x")
+    f.write("Auto Ran at 9")
+    f.close()
+
 if __name__ == "__main__":
     main()
