@@ -300,7 +300,7 @@ if __name__ == '__main__':
     #dailypd = load_from_csv("../OddsHistory/History/DailyPredictions.csv", column_names)
 
     current_time = datetime.now().strftime('%H:%M')
-    if "08:30" <= current_time < "09:30":
+    if "05:30" <= current_time < "06:30":
         save_to_csv(df, "../OddsHistory/History/DailyPredictions.csv]")
     else:
         print("Avoided Overriding DailyPredictions")

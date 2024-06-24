@@ -185,7 +185,6 @@ def main():
 
     # Check if yesterday's data already exists
     if not comparison_csv['date'].str.contains(yesterday).any():
-        movePreditionsToDailyPredictions()
         df = getMatchups(scrapeYesterday(yesterday), yesterday)
         save_to_csv(df, "../OddsHistory/History/MatchupHistory.csv")
         compare_and_update()
