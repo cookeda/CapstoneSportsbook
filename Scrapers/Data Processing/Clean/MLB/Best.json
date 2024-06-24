@@ -15,14 +15,14 @@
         },
         "Odds Table": {
             "Away Spread": "-999 (ESPN)",
-            "Away Spread Odds": "99 (Bovada)",
+            "Away Spread Odds": "-999 (ESPN)",
             "Away ML": "-999 (ESPN)",
             "Home Spread": "-999 (ESPN)",
-            "Home Spread Odds": "99 (Bovada)",
+            "Home Spread Odds": "-999 (ESPN)",
             "Home ML": "-999 (ESPN)",
             "Total": "99 (ESPN)",
-            "Over Total Odds": "99 (Bovada)",
-            "Under Total Odds": "99 (Bovada)"
+            "Over Total Odds": "-999 (ESPN)",
+            "Under Total Odds": "-999 (ESPN)"
         }
     },
     {
@@ -67,10 +67,10 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+100 (Bovada)",
+            "Away Spread Odds": "-105 (Bovada)",
             "Away ML": "−170 (DK)",
             "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "-120 (Bovada)",
+            "Home Spread Odds": "-115 (Bovada)",
             "Home ML": "+144 (Bovada)",
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "−112 (DK)",
@@ -125,8 +125,8 @@
             "Home Spread Odds": "+175 (Bovada)",
             "Home ML": "−112 (DK)",
             "Total": "9.5 (Bovada)",
-            "Over Total Odds": "−112 (DK)",
-            "Under Total Odds": "+100 (Bovada)"
+            "Over Total Odds": "-120 (Bovada)",
+            "Under Total Odds": "+102 (DK)"
         }
     },
     {
@@ -177,34 +177,34 @@
             "Home Spread Odds": "-115 (Bovada)",
             "Home ML": "−245 (DK)",
             "Total": "9.5 (Bovada)",
-            "Over Total Odds": "+100 (DK)",
+            "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
         "MatchupID": "dd4357ee_3f4235d4_MLB",
         "Info Table": {
-            "Away Team": "WAS Nationals",
+            "Away Team": "Washington Nationals",
             "Away Team Rank Name": "Washington",
             "Away Abv": "WSH",
             "Away ID": "dd4357ee",
-            "Home Team": "SD Padres",
+            "Home Team": "San Diego Padres",
             "Home Team Rank Name": "San Diego",
             "Home Abv": "SD",
             "Home ID": "3f4235d4",
-            "Start Time": "9:40PM",
+            "Start Time": "9:40 PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-999 (DK)",
-            "Away Spread Odds": "-999 (DK)",
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-120 (Bovada)",
             "Away ML": "+180 (DK)",
-            "Home Spread": "-999 (DK)",
-            "Home Spread Odds": "-999 (DK)",
-            "Home ML": "−218 (DK)",
-            "Total": "8.5 (DK)",
-            "Over Total Odds": "−105 (DK)",
-            "Under Total Odds": "−115 (DK)"
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+100 (Bovada)",
+            "Home ML": "-214 (Bovada)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     }
 ]
