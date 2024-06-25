@@ -3,7 +3,7 @@
         "team_to_cover": "Cleveland",
         "cover_rating": 10.8,
         "over_score": 4.6,
-        "cover_grade": 3,
+        "cover_grade": 0,
         "total_rating": -1
     },
     "fe2ec146_18a9d733_MLB": {
@@ -27,12 +27,26 @@
         "cover_grade": 2,
         "total_rating": -1
     },
+    "9666114b_fdd0d44c_MLB": {
+        "team_to_cover": "Pittsburgh",
+        "cover_rating": 10.7,
+        "over_score": 5.1,
+        "cover_grade": 3,
+        "total_rating": -2
+    },
+    "8714ddbe_8a2d1e91_MLB": {
+        "team_to_cover": "Toronto",
+        "cover_rating": 10.3,
+        "over_score": 4.1,
+        "cover_grade": 3,
+        "total_rating": -1
+    },
     "354ef58_ccadb94e_MLB": {
         "team_to_cover": "St. Louis",
         "cover_rating": 4.9,
         "over_score": 5.0,
         "cover_grade": 3,
-        "total_rating": -2
+        "total_rating": -1
     },
     "4e2f3aa1_ea799920_MLB": {
         "team_to_cover": "LA Dodgers",
@@ -53,7 +67,7 @@
         "cover_rating": 4.7,
         "over_score": 5.3,
         "cover_grade": 2,
-        "total_rating": -3
+        "total_rating": -2
     },
     "e841daaf_c5227021_MLB": {
         "team_to_cover": "Texas",
@@ -63,17 +77,31 @@
         "total_rating": 0
     },
     "8b214a89_fe8acdeb_MLB": {
-        "team_to_cover": "LA Angels",
-        "cover_rating": 662.7,
+        "team_to_cover": "Oakland",
+        "cover_rating": 4.3,
         "over_score": 5.3,
-        "cover_grade": 0,
-        "total_rating": -3
+        "cover_grade": 2,
+        "total_rating": -2
     },
     "f5328492_2b1ac347_MLB": {
         "team_to_cover": "Minnesota",
         "cover_rating": 1.9,
-        "over_score": 4.5,
+        "over_score": 5.5,
         "cover_grade": 1,
-        "total_rating": -1
+        "total_rating": -3
+    },
+    "dd4357ee_3f4235d4_MLB": {
+        "team_to_cover": "Washington",
+        "cover_rating": 2.5,
+        "over_score": 5.5,
+        "cover_grade": 2,
+        "total_rating": -3
+    },
+    "d10f1db8_486a5e3b_MLB": {
+        "team_to_cover": "Chi Cubs",
+        "cover_rating": 1.4,
+        "over_score": 5.2,
+        "cover_grade": 1,
+        "total_rating": -2
     }
 }
