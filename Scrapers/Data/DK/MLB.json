@@ -101,8 +101,8 @@
                 "Home Spread Odds": "+130",
                 "Home ML": "+120",
                 "Total": "8.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
             "MatchupID": "6424b504_c625b23e_MLB",
             "Info Table": {
@@ -131,8 +131,8 @@
                 "Home Spread Odds": "+130",
                 "Home ML": "−130",
                 "Total": "9",
-                "Over Total Odds": "+100",
-                "Under Total Odds": "−120"
+                "Over Total Odds": "−102",
+                "Under Total Odds": "−118"
             },
             "MatchupID": "9666114b_fdd0d44c_MLB",
             "Info Table": {
@@ -185,11 +185,11 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+124",
-                "Away ML": "−135",
+                "Away Spread Odds": "+130",
+                "Away ML": "−130",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+130",
-                "Home ML": "+114",
+                "Home ML": "+110",
                 "Total": "8.5",
                 "Over Total Odds": "−108",
                 "Under Total Odds": "−112"
@@ -245,14 +245,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−118",
-                "Away ML": "+164",
+                "Away Spread Odds": "−115",
+                "Away ML": "+170",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+130",
-                "Home ML": "−198",
+                "Home ML": "−205",
                 "Total": "9.5",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
             },
             "MatchupID": "8d47be6d_db2ee960_MLB",
             "Info Table": {
@@ -311,8 +311,8 @@
                 "Home Spread Odds": "+130",
                 "Home ML": "−115",
                 "Total": "9",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "e841daaf_c5227021_MLB",
             "Info Table": {
@@ -371,8 +371,8 @@
                 "Home Spread Odds": "+130",
                 "Home ML": "+102",
                 "Total": "7.5",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
             },
             "MatchupID": "dd4357ee_3f4235d4_MLB",
             "Info Table": {
@@ -415,6 +415,36 @@
                 "Home Abv": "ARI",
                 "Home ID": "2b1ac347",
                 "Start Time": "9:40PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_d10f1db8_486a5e3b_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−205",
+                "Away ML": "+105",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+130",
+                "Home ML": "−125",
+                "Total": "8",
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
+            },
+            "MatchupID": "d10f1db8_486a5e3b_MLB",
+            "Info Table": {
+                "Away Team": "CHI Cubs",
+                "Away Team Rank Name": "Chi Cubs",
+                "Away Abv": "CHC",
+                "Away ID": "d10f1db8",
+                "Home Team": "SF Giants",
+                "Home Team Rank Name": "SF Giants",
+                "Home Abv": "SF",
+                "Home ID": "486a5e3b",
+                "Start Time": "9:45PM",
                 "League": "MLB"
             }
         }
