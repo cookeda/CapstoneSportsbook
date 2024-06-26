@@ -1,9 +1,9 @@
 Seattle @ Tampa Bay (MLB): Cover Rating - 3.1, Over Score - 5.5
 Bet on Tampa Bay to cover the spread.
-Pittsburgh @ Cincinnati (MLB): Cover Rating - 5.7, Over Score - 5.1
-Bet on Pittsburgh to cover the spread.
 Philadelphia @ Detroit (MLB): Cover Rating - 1.2, Over Score - 5.6
 Bet on Detroit to cover the spread.
+Pittsburgh @ Cincinnati (MLB): Cover Rating - 5.7, Over Score - 5.1
+Bet on Pittsburgh to cover the spread.
 Atlanta @ St. Louis (MLB): Cover Rating - 9.9, Over Score - 5.0
 Bet on St. Louis to cover the spread.
 Colorado @ Houston (MLB): Cover Rating - 1.7, Over Score - 5.3
@@ -64,8 +64,8 @@ Toronto @ Boston (MLB): Over Score - 5.1
 Atlanta @ St. Louis (MLB): Over Score - 5.0
           date league  cover_rating  ... total     home_team    away_team
 0   2024-06-26    MLB      3.066667  ...   7.5       Seattle    Tampa Bay
-1   2024-06-26    MLB      5.666667  ...   9.5    Pittsburgh   Cincinnati
-2   2024-06-26    MLB      1.200000  ...   9.0  Philadelphia      Detroit
+1   2024-06-26    MLB      1.200000  ...   9.0  Philadelphia      Detroit
+2   2024-06-26    MLB      5.666667  ...   9.5    Pittsburgh   Cincinnati
 3   2024-06-26    MLB      9.866667  ...   8.0       Atlanta    St. Louis
 4   2024-06-26    MLB      1.733333  ...   8.0      Colorado      Houston
 5   2024-06-26    MLB     10.400000  ...   8.0         Texas    Milwaukee
@@ -80,4 +80,3 @@ Atlanta @ St. Louis (MLB): Over Score - 5.0
 14  2024-06-26    MLB      5.400000  ...   7.5      Chi Cubs    SF Giants
 
 [15 rows x 10 columns]
-Avoided Overriding DailyPredictions
