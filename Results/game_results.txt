@@ -18,7 +18,7 @@ Washington @ San Diego (MLB): Cover Rating - 6.5, Over Score - 5.5
 Bet on Washington to cover the spread.
 Cleveland @ Baltimore (MLB): Cover Rating - 5.8, Over Score - 5.6
 Bet on Cleveland to cover the spread.
-NY Yankees @ NY Mets (MLB): Cover Rating - 2.7, Over Score - 5.3
+NY Yankees @ NY Mets (MLB): Cover Rating - 2.7, Over Score - 4.3
 Bet on NY Mets to cover the spread.
 Toronto @ Boston (MLB): Cover Rating - 5.3, Over Score - 5.1
 Bet on Toronto to cover the spread.
@@ -55,13 +55,13 @@ Washington @ San Diego (MLB): Over Score - 5.5
 Minnesota @ Arizona (MLB): Over Score - 5.5
 Colorado @ Houston (MLB): Over Score - 5.3
 Oakland @ LA Angels (MLB): Over Score - 5.3
-NY Yankees @ NY Mets (MLB): Over Score - 5.3
 LA Dodgers @ Chi Sox (MLB): Over Score - 5.2
 Miami @ Kansas City (MLB): Over Score - 5.2
 Chi Cubs @ SF Giants (MLB): Over Score - 5.2
 Pittsburgh @ Cincinnati (MLB): Over Score - 5.1
 Toronto @ Boston (MLB): Over Score - 5.1
 Atlanta @ St. Louis (MLB): Over Score - 5.0
+NY Yankees @ NY Mets (MLB): Over Score - 4.3
           date league  cover_rating  ... total     home_team    away_team
 0   2024-06-26    MLB      3.066667  ...   7.5       Seattle    Tampa Bay
 1   2024-06-26    MLB      1.200000  ...   9.0  Philadelphia      Detroit
@@ -73,10 +73,11 @@ Atlanta @ St. Louis (MLB): Over Score - 5.0
 7   2024-06-26    MLB      0.733333  ...   9.0       Oakland    LA Angels
 8   2024-06-26    MLB      6.466667  ...   7.5    Washington    San Diego
 9   2024-06-26    MLB      5.800000  ...   9.5     Cleveland    Baltimore
-10  2024-06-26    MLB      2.666667  ...   9.0    NY Yankees      NY Mets
+10  2024-06-26    MLB      2.666667  ...   8.5    NY Yankees      NY Mets
 11  2024-06-26    MLB      5.266667  ...   9.5       Toronto       Boston
 12  2024-06-26    MLB      1.666667  ...   8.5    LA Dodgers      Chi Sox
 13  2024-06-26    MLB      3.133333  ...   9.0     Minnesota      Arizona
 14  2024-06-26    MLB      5.400000  ...   7.5      Chi Cubs    SF Giants
 
 [15 rows x 10 columns]
+Avoided Overriding DailyPredictions
