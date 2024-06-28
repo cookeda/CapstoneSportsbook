@@ -1,33 +1,23 @@
-Miami @ Philadelphia (MLB): Cover Rating - 0.4, Over Score - 8.1
-Bet on Philadelphia to cover the spread.
-NY Yankees @ Toronto (MLB): Cover Rating - 5.4, Over Score - 5.8
-Bet on NY Yankees to cover the spread.
-Cincinnati @ St. Louis (MLB): Cover Rating - 3.4, Over Score - 5.2
+Cincinnati @ St. Louis (MLB): Cover Rating - 6.2, Over Score - 5.2
 Bet on Cincinnati to cover the spread.
-Cleveland @ Kansas City (MLB): Cover Rating - 1.1, Over Score - 5.9
+Cleveland @ Kansas City (MLB): Cover Rating - 10.1, Over Score - 5.9
 Bet on Cleveland to cover the spread.
-Detroit @ LA Angels (MLB): Cover Rating - 4.1, Over Score - 5.7
-Bet on LA Angels to cover the spread.
+Detroit @ LA Angels (MLB): Cover Rating - 4.9, Over Score - 5.7
+Bet on Detroit to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-NY Yankees @ Toronto (MLB): Cover Rating - 5.4, Bet on NY Yankees to cover the spread.
-Detroit @ LA Angels (MLB): Cover Rating - 4.1, Bet on LA Angels to cover the spread.
-Cincinnati @ St. Louis (MLB): Cover Rating - 3.4, Bet on Cincinnati to cover the spread.
-Cleveland @ Kansas City (MLB): Cover Rating - 1.1, Bet on Cleveland to cover the spread.
-Miami @ Philadelphia (MLB): Cover Rating - 0.4, Bet on Philadelphia to cover the spread.
+Cleveland @ Kansas City (MLB): Cover Rating - 10.1, Bet on Cleveland to cover the spread.
+Cincinnati @ St. Louis (MLB): Cover Rating - 6.2, Bet on Cincinnati to cover the spread.
+Detroit @ LA Angels (MLB): Cover Rating - 4.9, Bet on Detroit to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Miami @ Philadelphia (MLB): Over Score - 8.1
 Cleveland @ Kansas City (MLB): Over Score - 5.9
-NY Yankees @ Toronto (MLB): Over Score - 5.8
 Detroit @ LA Angels (MLB): Over Score - 5.7
 Cincinnati @ St. Louis (MLB): Over Score - 5.2
-         date league  cover_rating  ... total   home_team     away_team
-0  2024-06-27    MLB      0.400000  ...   8.5       Miami  Philadelphia
-1  2024-06-27    MLB      5.446154  ...  12.5  NY Yankees       Toronto
-2  2024-06-27    MLB      3.400000  ...  13.5  Cincinnati     St. Louis
-3  2024-06-27    MLB      1.133333  ...   5.5   Cleveland   Kansas City
-4  2024-06-27    MLB      4.066667  ...   8.5     Detroit     LA Angels
+         date league  cover_rating  ... total   home_team    away_team
+0  2024-06-27    MLB      6.211765  ...  14.5  Cincinnati    St. Louis
+1  2024-06-27    MLB     10.133333  ...   5.5   Cleveland  Kansas City
+2  2024-06-27    MLB      4.933333  ...   7.5     Detroit    LA Angels
 
-[5 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
