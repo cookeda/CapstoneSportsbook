@@ -18,7 +18,7 @@ Cleveland @ Kansas City (MLB): Cover Rating - 0.9, Over Score - 5.4
 Bet on Kansas City to cover the spread.
 Chi Cubs @ Milwaukee (MLB): Cover Rating - 7.7, Over Score - 5.6
 Bet on Chi Cubs to cover the spread.
-Cincinnati @ St. Louis (MLB): Cover Rating - 9.2, Over Score - 5.2
+Cincinnati @ St. Louis (MLB): Cover Rating - 9.2, Over Score - 4.2
 Bet on Cincinnati to cover the spread.
 Detroit @ LA Angels (MLB): Cover Rating - 6.1, Over Score - 4.7
 Bet on LA Angels to cover the spread.
@@ -54,22 +54,22 @@ Cleveland @ Kansas City (MLB): Over Score - 5.4
 Oakland @ Arizona (MLB): Over Score - 5.3
 NY Yankees @ Toronto (MLB): Over Score - 5.3
 San Diego @ Boston (MLB): Over Score - 5.2
-Cincinnati @ St. Louis (MLB): Over Score - 5.2
 Miami @ Philadelphia (MLB): Over Score - 5.1
 Pittsburgh @ Atlanta (MLB): Over Score - 5.1
 Detroit @ LA Angels (MLB): Over Score - 4.7
 Houston @ NY Mets (MLB): Over Score - 4.7
 Texas @ Baltimore (MLB): Over Score - 4.4
 Colorado @ Chi Sox (MLB): Over Score - 4.4
+Cincinnati @ St. Louis (MLB): Over Score - 4.2
 Minnesota @ Seattle (MLB): Over Score - 3.9
           date league  cover_rating  ... total   home_team     away_team
 0   2024-06-28    MLB      1.400000  ...   8.0       Miami  Philadelphia
 1   2024-06-28    MLB      9.866667  ...   7.5  Washington     Tampa Bay
-2   2024-06-28    MLB      1.733333  ...   8.5       Texas     Baltimore
+2   2024-06-28    MLB      1.733333  ...   9.0       Texas     Baltimore
 3   2024-06-28    MLB      0.933333  ...   8.0  NY Yankees       Toronto
 4   2024-06-28    MLB      9.066667  ...   9.5   San Diego        Boston
 5   2024-06-28    MLB      1.266667  ...   8.0     Houston       NY Mets
-6   2024-06-28    MLB      7.800000  ...   8.5    Colorado       Chi Sox
+6   2024-06-28    MLB      7.800000  ...   9.0    Colorado       Chi Sox
 7   2024-06-28    MLB      5.866667  ...   9.0  Pittsburgh       Atlanta
 8   2024-06-28    MLB      0.866667  ...   9.5   Cleveland   Kansas City
 9   2024-06-28    MLB      7.733333  ...   8.5    Chi Cubs     Milwaukee
