@@ -3,7 +3,7 @@
         "team_to_cover": "Chi Sox",
         "cover_rating": 4.2,
         "over_score": 4.4,
-        "cover_grade": 1,
+        "cover_grade": 2,
         "total_rating": -1
     },
     "fdd0d44c_ccadb94e_MLB": {
@@ -25,14 +25,14 @@
         "cover_rating": 4.4,
         "over_score": 5.1,
         "cover_grade": 2,
-        "total_rating": -2
+        "total_rating": -1
     },
     "9666114b_354ef58_MLB": {
         "team_to_cover": "Pittsburgh",
         "cover_rating": 5.9,
         "over_score": 5.1,
         "cover_grade": 2,
-        "total_rating": -2
+        "total_rating": -1
     },
     "3f4235d4_8a2d1e91_MLB": {
         "team_to_cover": "San Diego",
@@ -69,9 +69,23 @@
         "cover_grade": 3,
         "total_rating": -3
     },
+    "8b214a89_2b1ac347_MLB": {
+        "team_to_cover": "Oakland",
+        "cover_rating": 2.7,
+        "over_score": 5.3,
+        "cover_grade": 1,
+        "total_rating": -2
+    },
     "e841daaf_e8bdce10_MLB": {
         "team_to_cover": "Baltimore",
         "cover_rating": 1.3,
+        "over_score": 5.4,
+        "cover_grade": 1,
+        "total_rating": -3
+    },
+    "4e2f3aa1_486a5e3b_MLB": {
+        "team_to_cover": "SF Giants",
+        "cover_rating": 1.4,
         "over_score": 5.4,
         "cover_grade": 1,
         "total_rating": -3
