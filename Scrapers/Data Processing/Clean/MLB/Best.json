@@ -26,29 +26,29 @@
         }
     },
     {
-        "MatchupID": "4005c299_8714ddbe_MLB",
+        "MatchupID": "Unknown_8714ddbe_MLB",
         "Info Table": {
-            "Away Team": "Houston Astros",
-            "Away Team Rank Name": "Houston",
-            "Away Abv": "HOU",
-            "Away ID": "4005c299",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Toronto Blue Jays",
             "Home Team Rank Name": "Toronto",
             "Home Abv": "TOR",
             "Home ID": "8714ddbe",
-            "Start Time": "Bot 2",
+            "Start Time": "Top 7",
             "League": "MLB"
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+170 (Bovada)",
-            "Away ML": "-105 (Bovada)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "−210 (DK)",
-            "Home ML": "−120 (DK)",
-            "Total": "6.5 (Bovada)",
-            "Over Total Odds": "-125 (Bovada)",
-            "Under Total Odds": "+105 (DK)"
+            "Away Spread Odds": "+110 (Bovada)",
+            "Away ML": "-325 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "-145 (Bovada)",
+            "Home ML": "+230 (Bovada)",
+            "Total": "3.5 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-120 (Bovada)"
         }
     },
     {
@@ -68,13 +68,13 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+140 (Bovada)",
-            "Away ML": "-120 (Bovada)",
+            "Away ML": "−120 (DK)",
             "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "-165 (Bovada)",
-            "Home ML": "+102 (DK)",
+            "Home Spread Odds": "−135 (DK)",
+            "Home ML": "+101 (Bovada)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "−112 (DK)"
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "−115 (DK)"
         }
     },
     {
@@ -93,14 +93,40 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+100 (DK)",
+            "Away Spread Odds": "-105 (Bovada)",
             "Away ML": "−155 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-115 (Bovada)",
-            "Home ML": "+131 (Bovada)",
+            "Home ML": "+134 (Bovada)",
             "Total": "11.5 (Bovada)",
             "Over Total Odds": "-110 (Bovada)",
             "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "4005c299_8714ddbe_MLB",
+        "Info Table": {
+            "Away Team": "HOU Astros",
+            "Away Team Rank Name": "Houston",
+            "Away Abv": "HOU",
+            "Away ID": "4005c299",
+            "Home Team": "TOR Blue Jays",
+            "Home Team Rank Name": "Toronto",
+            "Home Abv": "TOR",
+            "Home ID": "8714ddbe",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+105 (DK)",
+            "Away ML": "−345 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "−135 (DK)",
+            "Home ML": "+250 (DK)",
+            "Total": "3.5 (DK)",
+            "Over Total Odds": "−120 (DK)",
+            "Under Total Odds": "−110 (DK)"
         }
     }
 ]
