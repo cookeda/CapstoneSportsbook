@@ -17,6 +17,7 @@ Houston @ Toronto (MLB): Over Score - 3.8
          date league  cover_rating  ... total  home_team   away_team
 0  2024-07-01    MLB      3.666667  ...   9.0    Houston     Toronto
 1  2024-07-01    MLB      9.600000  ...   8.0    NY Mets  Washington
-2  2024-07-01    MLB      1.666667  ...  11.5  Milwaukee    Colorado
+2  2024-07-01    MLB      1.666667  ...  11.0  Milwaukee    Colorado
 
 [3 rows x 10 columns]
+Avoided Overriding DailyPredictions
