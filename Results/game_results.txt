@@ -26,8 +26,6 @@ Baltimore @ Seattle (MLB): Cover Rating - 0.3, Over Score - 5.4
 Bet on Seattle to cover the spread.
 LA Angels @ Oakland (MLB): Cover Rating - 0.5, Over Score - 5.5
 Bet on Oakland to cover the spread.
-Arizona @ LA Dodgers (MLB): Cover Rating - 0.5, Over Score - 5.4
-Bet on LA Dodgers to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 Detroit @ Minnesota (MLB): Cover Rating - 9.0, Bet on Detroit to cover the spread.
@@ -42,7 +40,6 @@ Boston @ Miami (MLB): Cover Rating - 1.1, Bet on Boston to cover the spread.
 Houston @ Toronto (MLB): Cover Rating - 0.7, Bet on Toronto to cover the spread.
 Milwaukee @ Colorado (MLB): Cover Rating - 0.7, Bet on Colorado to cover the spread.
 LA Angels @ Oakland (MLB): Cover Rating - 0.5, Bet on Oakland to cover the spread.
-Arizona @ LA Dodgers (MLB): Cover Rating - 0.5, Bet on LA Dodgers to cover the spread.
 Baltimore @ Seattle (MLB): Cover Rating - 0.3, Bet on Seattle to cover the spread.
 San Diego @ Texas (MLB): Cover Rating - 0.1, Bet on Texas to cover the spread.
 
@@ -53,7 +50,6 @@ NY Mets @ Washington (MLB): Over Score - 5.7
 Detroit @ Minnesota (MLB): Over Score - 5.6
 SF Giants @ Atlanta (MLB): Over Score - 5.6
 LA Angels @ Oakland (MLB): Over Score - 5.5
-Arizona @ LA Dodgers (MLB): Over Score - 5.4
 Baltimore @ Seattle (MLB): Over Score - 5.4
 Cincinnati @ NY Yankees (MLB): Over Score - 5.4
 Philadelphia @ Chi Cubs (MLB): Over Score - 5.2
@@ -63,7 +59,7 @@ Tampa Bay @ Kansas City (MLB): Over Score - 4.5
 Houston @ Toronto (MLB): Over Score - 3.8
 San Diego @ Texas (MLB): Over Score - 3.7
           date league  cover_rating  ... total     home_team    away_team
-0   2024-07-02    MLB      1.866667  ...   9.0       Chi Sox    Cleveland
+0   2024-07-02    MLB      1.866667  ...   8.5       Chi Sox    Cleveland
 1   2024-07-02    MLB      1.133333  ...   8.0        Boston        Miami
 2   2024-07-02    MLB      2.533333  ...   8.0     St. Louis   Pittsburgh
 3   2024-07-02    MLB      6.600000  ...   9.0       NY Mets   Washington
@@ -77,7 +73,6 @@ San Diego @ Texas (MLB): Over Score - 3.7
 11  2024-07-02    MLB      0.666667  ...  11.5     Milwaukee     Colorado
 12  2024-07-02    MLB      0.266667  ...   7.0     Baltimore      Seattle
 13  2024-07-02    MLB      0.533333  ...   7.5     LA Angels      Oakland
-14  2024-07-02    MLB      0.533333  ...   9.0       Arizona   LA Dodgers
 
-[15 rows x 10 columns]
+[14 rows x 10 columns]
 Avoided Overriding DailyPredictions
