@@ -55,13 +55,6 @@
         "cover_grade": 1,
         "total_rating": -2
     },
-    "fe2ec146_d10f1db8_MLB": {
-        "team_to_cover": "Philadelphia",
-        "cover_rating": 6.0,
-        "over_score": 8.2,
-        "cover_grade": 3,
-        "total_rating": 0
-    },
     "3f4235d4_e841daaf_MLB": {
         "team_to_cover": "Texas",
         "cover_rating": 0.1,
@@ -69,12 +62,19 @@
         "cover_grade": 1,
         "total_rating": -1
     },
+    "fe2ec146_d10f1db8_MLB": {
+        "team_to_cover": "Philadelphia",
+        "cover_rating": 6.0,
+        "over_score": 8.2,
+        "cover_grade": 3,
+        "total_rating": 0
+    },
     "16f4bf06_db2ee960_MLB": {
         "team_to_cover": "Tampa Bay",
         "cover_rating": 1.1,
-        "over_score": 5.5,
+        "over_score": 4.5,
         "cover_grade": 2,
-        "total_rating": -2
+        "total_rating": -1
     },
     "c5227021_8f2512bc_MLB": {
         "team_to_cover": "Colorado",
