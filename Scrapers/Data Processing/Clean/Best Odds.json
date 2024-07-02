@@ -78,55 +78,55 @@
         }
     },
     {
-        "MatchupID": "c625b23e_dd4357ee_MLB",
+        "MatchupID": "Unknown_8f2512bc_MLB",
         "Info Table": {
-            "Away Team": "New York Mets",
-            "Away Team Rank Name": "NY Mets",
-            "Away Abv": "NYM",
-            "Away ID": "c625b23e",
-            "Home Team": "Washington Nationals",
-            "Home Team Rank Name": "Washington",
-            "Home Abv": "WSH",
-            "Home ID": "dd4357ee",
-            "Start Time": "Extra",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
+            "Home Team": "Colorado Rockies",
+            "Home Team Rank Name": "Colorado",
+            "Home Abv": "COL",
+            "Home ID": "8f2512bc",
+            "Start Time": "Top 9",
             "League": "MLB"
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+255 (Bovada)",
-            "Away ML": "−4800 (DK)",
+            "Away Spread Odds": "+160 (Bovada)",
+            "Away ML": "+135 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+102 (DK)",
-            "Home ML": "+1600 (Bovada)",
+            "Home Spread Odds": "-210 (Bovada)",
+            "Home ML": "-175 (Bovada)",
             "Total": "15.5 (Bovada)",
-            "Over Total Odds": "+350 (Bovada)",
-            "Under Total Odds": "-550 (Bovada)"
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-120 (Bovada)"
         }
     },
     {
         "MatchupID": "c5227021_8f2512bc_MLB",
         "Info Table": {
-            "Away Team": "Milwaukee Brewers",
+            "Away Team": "MIL Brewers",
             "Away Team Rank Name": "Milwaukee",
             "Away Abv": "MIL",
             "Away ID": "c5227021",
-            "Home Team": "Colorado Rockies",
+            "Home Team": "COL Rockies",
             "Home Team Rank Name": "Colorado",
             "Home Abv": "COL",
             "Home ID": "8f2512bc",
-            "Start Time": "Bot 5",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+150 (DK)",
-            "Away ML": "−125 (DK)",
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+300 (DK)",
+            "Away ML": "+150 (DK)",
             "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "+102 (DK)",
-            "Home ML": "+105 (Bovada)",
-            "Total": "14.5 (DK)",
-            "Over Total Odds": "+350 (Bovada)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Home Spread Odds": "−425 (DK)",
+            "Home ML": "−195 (DK)",
+            "Total": "9 (DK)",
+            "Over Total Odds": "-999 (DK)",
+            "Under Total Odds": "-999 (DK)"
         }
     }
 ]
