@@ -3,22 +3,22 @@
         "team_to_cover": "Chi Sox",
         "cover_rating": 3.1,
         "over_score": 5.7,
-        "cover_grade": 1,
+        "cover_grade": 2,
         "total_rating": -3
     },
     "8a2d1e91_8d47be6d_MLB": {
         "team_to_cover": "Boston",
         "cover_rating": 3.1,
         "over_score": 6.0,
-        "cover_grade": 1,
-        "total_rating": -3
+        "cover_grade": 2,
+        "total_rating": 0
     },
     "ccadb94e_9666114b_MLB": {
         "team_to_cover": "St. Louis",
         "cover_rating": 4.5,
         "over_score": 5.1,
         "cover_grade": 2,
-        "total_rating": -1
+        "total_rating": -2
     },
     "c625b23e_dd4357ee_MLB": {
         "team_to_cover": "Washington",
@@ -45,15 +45,15 @@
         "team_to_cover": "SF Giants",
         "cover_rating": 7.4,
         "over_score": 5.6,
-        "cover_grade": 2,
+        "cover_grade": 3,
         "total_rating": -3
     },
     "fe2ec146_d10f1db8_MLB": {
         "team_to_cover": "Philadelphia",
-        "cover_rating": 8.0,
-        "over_score": 8.2,
-        "cover_grade": 3,
-        "total_rating": 0
+        "cover_rating": 1.2,
+        "over_score": 4.2,
+        "cover_grade": 1,
+        "total_rating": -1
     },
     "3f4235d4_e841daaf_MLB": {
         "team_to_cover": "San Diego",
@@ -80,7 +80,7 @@
         "team_to_cover": "Milwaukee",
         "cover_rating": 3.3,
         "over_score": 5.8,
-        "cover_grade": 1,
+        "cover_grade": 2,
         "total_rating": -3
     },
     "fe8acdeb_8b214a89_MLB": {
@@ -95,6 +95,13 @@
         "cover_rating": 10.7,
         "over_score": 5.4,
         "cover_grade": 3,
+        "total_rating": -2
+    },
+    "2b1ac347_4e2f3aa1_MLB": {
+        "team_to_cover": "Arizona",
+        "cover_rating": 1.5,
+        "over_score": 5.4,
+        "cover_grade": 1,
         "total_rating": -2
     }
 }
