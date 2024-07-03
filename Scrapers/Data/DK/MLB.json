@@ -1,119 +1,29 @@
 [
     [
         {
-            "BetTableId": "DK_c5227021_8f2512bc_MLB",
+            "BetTableId": "DK_16f4bf06_db2ee960_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
-                "Away ML": "−8500",
-                "Home Spread": "-999",
-                "Home Spread Odds": "+120",
-                "Home ML": "+2000",
+                "Away Spread": "-3.5",
+                "Away Spread Odds": "−520",
+                "Away ML": "−100000",
+                "Home Spread": "+3.5",
+                "Home Spread Odds": "+350",
+                "Home ML": "+4000",
                 "Total": "8.5",
                 "Over Total Odds": "-999",
                 "Under Total Odds": "-999"
             },
-            "MatchupID": "c5227021_8f2512bc_MLB",
+            "MatchupID": "16f4bf06_db2ee960_MLB",
             "Info Table": {
-                "Away Team": "MIL Brewers",
-                "Away Team Rank Name": "Milwaukee",
-                "Away Abv": "MIL",
-                "Away ID": "c5227021",
-                "Home Team": "COL Rockies",
-                "Home Team Rank Name": "Colorado",
-                "Home Abv": "COL",
-                "Home ID": "8f2512bc",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_e8bdce10_300faa7b_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
-                "Away ML": "−3200",
-                "Home Spread": "-999",
-                "Home Spread Odds": "+120",
-                "Home ML": "+1300",
-                "Total": "8",
-                "Over Total Odds": "-999",
-                "Under Total Odds": "-999"
-            },
-            "MatchupID": "e8bdce10_300faa7b_MLB",
-            "Info Table": {
-                "Away Team": "BAL Orioles",
-                "Away Team Rank Name": "Baltimore",
-                "Away Abv": "BAL",
-                "Away ID": "e8bdce10",
-                "Home Team": "SEA Mariners",
-                "Home Team Rank Name": "Seattle",
-                "Home Abv": "SEA",
-                "Home ID": "300faa7b",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_fe8acdeb_8b214a89_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+3.5",
-                "Away Spread Odds": "+150",
-                "Away ML": "+2000",
-                "Home Spread": "-3.5",
-                "Home Spread Odds": "+120",
-                "Home ML": "−8500",
-                "Total": "10.5",
-                "Over Total Odds": "−160",
-                "Under Total Odds": "+124"
-            },
-            "MatchupID": "fe8acdeb_8b214a89_MLB",
-            "Info Table": {
-                "Away Team": "LA Angels",
-                "Away Team Rank Name": "LA Angels",
-                "Away Abv": "LAA",
-                "Away ID": "fe8acdeb",
-                "Home Team": "OAK Athletics",
-                "Home Team Rank Name": "Oakland",
-                "Home Abv": "OAK",
-                "Home ID": "8b214a89",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_2b1ac347_4e2f3aa1_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−330",
-                "Away ML": "+130",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "+120",
-                "Home ML": "−166",
-                "Total": "6.5",
-                "Over Total Odds": "−160",
-                "Under Total Odds": "+124"
-            },
-            "MatchupID": "2b1ac347_4e2f3aa1_MLB",
-            "Info Table": {
-                "Away Team": "ARI Diamondbacks",
-                "Away Team Rank Name": "Arizona",
-                "Away Abv": "ARI",
-                "Away ID": "2b1ac347",
-                "Home Team": "LA Dodgers",
-                "Home Team Rank Name": "LA Dodgers",
-                "Home Abv": "LAD",
-                "Home ID": "4e2f3aa1",
+                "Away Team": "TB Rays",
+                "Away Team Rank Name": "Tampa Bay",
+                "Away Abv": "TB",
+                "Away ID": "16f4bf06",
+                "Home Team": "KC Royals",
+                "Home Team Rank Name": "Kansas City",
+                "Home Abv": "KC",
+                "Home ID": "db2ee960",
                 "Start Time": "Live Game",
                 "League": "MLB"
             }
