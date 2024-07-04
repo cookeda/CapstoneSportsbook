@@ -15,14 +15,14 @@
         },
         "Odds Table": {
             "Away Spread": "-999 (ESPN)",
-            "Away Spread Odds": "99 (Bovada)",
+            "Away Spread Odds": "-999 (ESPN)",
             "Away ML": "-999 (ESPN)",
             "Home Spread": "-999 (ESPN)",
-            "Home Spread Odds": "99 (Bovada)",
+            "Home Spread Odds": "-999 (ESPN)",
             "Home ML": "-999 (ESPN)",
             "Total": "99 (ESPN)",
-            "Over Total Odds": "99 (Bovada)",
-            "Under Total Odds": "99 (Bovada)"
+            "Over Total Odds": "-999 (ESPN)",
+            "Under Total Odds": "-999 (ESPN)"
         }
     },
     {
@@ -41,14 +41,14 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+145 (Bovada)",
-            "Away ML": "-115 (Bovada)",
+            "Away Spread Odds": "+142 (DK)",
+            "Away ML": "-114 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "−166 (DK)",
-            "Home ML": "−102 (DK)",
+            "Home Spread Odds": "-165 (Bovada)",
+            "Home ML": "−105 (DK)",
             "Total": "9.0 (Bovada)",
             "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "−108 (DK)"
+            "Under Total Odds": "−110 (DK)"
         }
     },
     {
@@ -93,10 +93,10 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-135 (Bovada)",
-            "Away ML": "+151 (Bovada)",
+            "Away Spread Odds": "-130 (Bovada)",
+            "Away ML": "+159 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+115 (Bovada)",
+            "Home Spread Odds": "+110 (Bovada)",
             "Home ML": "−180 (DK)",
             "Total": "9.0 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
@@ -156,6 +156,32 @@
         }
     },
     {
+        "MatchupID": "ea799920_5a31e1ff_MLB",
+        "Info Table": {
+            "Away Team": "Chicago White Sox",
+            "Away Team Rank Name": "Chi Sox",
+            "Away Abv": "CWS",
+            "Away ID": "ea799920",
+            "Home Team": "Cleveland Guardians",
+            "Home Team Rank Name": "Cleveland",
+            "Home Abv": "CLE",
+            "Home ID": "5a31e1ff",
+            "Start Time": "1:10 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "+115 (Bovada)",
+            "Away ML": "+215 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "-135 (Bovada)",
+            "Home ML": "-265 (Bovada)",
+            "Total": "9.0 (Bovada)",
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "-120 (Bovada)"
+        }
+    },
+    {
         "MatchupID": "18a9d733_f5328492_MLB",
         "Info Table": {
             "Away Team": "Detroit Tigers",
@@ -178,7 +204,7 @@
             "Home ML": "-190 (Bovada)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "−105 (DK)"
+            "Under Total Odds": "−102 (DK)"
         }
     },
     {
@@ -196,15 +222,15 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (DK)",
-            "Away Spread Odds": "+130 (DK)",
+            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread Odds": "+130 (Bovada)",
             "Away ML": "-134 (Bovada)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "99 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "-150 (Bovada)",
             "Home ML": "+114 (DK)",
-            "Total": "7.5 (DK)",
-            "Over Total Odds": "99 (Bovada)",
-            "Under Total Odds": "99 (Bovada)"
+            "Total": "7.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -227,7 +253,7 @@
             "Away ML": "+120 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+155 (Bovada)",
-            "Home ML": "-139 (Bovada)",
+            "Home ML": "-140 (Bovada)",
             "Total": "8 (DK)",
             "Over Total Odds": "−108 (DK)",
             "Under Total Odds": "-105 (Bovada)"
@@ -387,32 +413,6 @@
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "-110 (Bovada)",
             "Under Total Odds": "-110 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "ea799920_5a31e1ff_MLB",
-        "Info Table": {
-            "Away Team": "CHI White Sox",
-            "Away Team Rank Name": "Chi Sox",
-            "Away Abv": "CWS",
-            "Away ID": "ea799920",
-            "Home Team": "CLE Guardians",
-            "Home Team Rank Name": "Cleveland",
-            "Home Abv": "CLE",
-            "Home ID": "5a31e1ff",
-            "Start Time": "1:10PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "+114 (DK)",
-            "Away ML": "+215 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "−166 (DK)",
-            "Home ML": "−265 (DK)",
-            "Total": "9 (DK)",
-            "Over Total Odds": "+100 (DK)",
-            "Under Total Odds": "−120 (DK)"
         }
     }
 ]
