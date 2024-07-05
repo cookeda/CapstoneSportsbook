@@ -1,6 +1,6 @@
 NY Mets @ Pittsburgh (MLB): Cover Rating - 11.4, Over Score - 5.8
 Bet on NY Mets to cover the spread.
-St. Louis @ Washington (MLB): Cover Rating - 5.5, Over Score - 5.0
+St. Louis @ Washington (MLB): Cover Rating - 5.5, Over Score - 4.0
 Bet on Washington to cover the spread.
 Boston @ NY Yankees (MLB): Cover Rating - 5.5, Over Score - 5.6
 Bet on Boston to cover the spread.
@@ -54,13 +54,13 @@ Arizona @ San Diego (MLB): Over Score - 5.5
 Detroit @ Cincinnati (MLB): Over Score - 5.4
 Kansas City @ Colorado (MLB): Over Score - 5.3
 Philadelphia @ Atlanta (MLB): Over Score - 5.1
-St. Louis @ Washington (MLB): Over Score - 5.0
 Tampa Bay @ Texas (MLB): Over Score - 4.9
 Houston @ Minnesota (MLB): Over Score - 4.8
+St. Louis @ Washington (MLB): Over Score - 4.0
 Toronto @ Seattle (MLB): Over Score - 3.7
           date league  cover_rating  ... total     home_team   away_team
 0   2024-07-05    MLB     11.400000  ...   8.0       NY Mets  Pittsburgh
-1   2024-07-05    MLB      5.466667  ...   8.5     St. Louis  Washington
+1   2024-07-05    MLB      5.466667  ...   9.0     St. Louis  Washington
 2   2024-07-05    MLB      5.533333  ...   8.0        Boston  NY Yankees
 3   2024-07-05    MLB      3.600000  ...   8.0     SF Giants   Cleveland
 4   2024-07-05    MLB     11.000000  ...   9.0       Detroit  Cincinnati
@@ -68,7 +68,7 @@ Toronto @ Seattle (MLB): Over Score - 3.7
 6   2024-07-05    MLB     10.666667  ...   7.5  Philadelphia     Atlanta
 7   2024-07-05    MLB      1.066667  ...   8.5     Tampa Bay       Texas
 8   2024-07-05    MLB      2.933333  ...  10.5   Kansas City    Colorado
-9   2024-07-05    MLB      9.600000  ...   8.0       Houston   Minnesota
+9   2024-07-05    MLB      9.600000  ...   8.5       Houston   Minnesota
 10  2024-07-05    MLB      3.666667  ...   8.5     Baltimore     Oakland
 11  2024-07-05    MLB      9.866667  ...   7.0       Toronto     Seattle
 12  2024-07-05    MLB      2.200000  ...   8.5       Arizona   San Diego
