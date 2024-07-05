@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "Bovada_c5227021_8f2512bc_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "-220",
-                "Away ML": "+135",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+190",
-                "Home ML": "-175",
-                "Total": "11.0",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-125"
-            },
-            "MatchupID": "c5227021_8f2512bc_MLB",
-            "Info Table": {
-                "Away Team": "Milwaukee Brewers",
-                "Away Team Rank Name": "Milwaukee",
-                "Away Abv": "MIL",
-                "Away ID": "c5227021",
-                "Home Team": "Colorado Rockies",
-                "Home Team Rank Name": "Colorado",
-                "Home Abv": "COL",
-                "Home ID": "8f2512bc",
-                "Start Time": "Bot 6",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_16f4bf06_db2ee960_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "-4.0",
-                "Away Spread Odds": "+100",
-                "Away ML": "-2000",
-                "Home Spread": "-4.0",
-                "Home Spread Odds": "-130",
-                "Home ML": "+900",
-                "Total": "15.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Away Spread": "-3.0",
+                "Away Spread Odds": "-115",
+                "Away ML": "-2800",
+                "Home Spread": "-3.0",
+                "Home Spread Odds": "-115",
+                "Home ML": "+1100",
+                "Total": "18.5",
+                "Over Total Odds": "+105",
+                "Under Total Odds": "-135"
             },
             "MatchupID": "16f4bf06_db2ee960_MLB",
             "Info Table": {
@@ -54,7 +24,7 @@
                 "Home Team Rank Name": "Kansas City",
                 "Home Abv": "KC",
                 "Home ID": "db2ee960",
-                "Start Time": "Bot 5",
+                "Start Time": "Top 8",
                 "League": "MLB"
             }
         }
@@ -64,15 +34,15 @@
             "BetTableId": "Bovada_2b1ac347_4e2f3aa1_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "-3.5",
-                "Away Spread Odds": "-105",
-                "Away ML": "-600",
-                "Home Spread": "-3.5",
-                "Home Spread Odds": "-125",
-                "Home ML": "+375",
-                "Total": "10.0",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-105"
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "-130",
+                "Away ML": "-300",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+100",
+                "Home ML": "+220",
+                "Total": "11.0",
+                "Over Total Odds": "+105",
+                "Under Total Odds": "+105"
             },
             "MatchupID": "2b1ac347_4e2f3aa1_MLB",
             "Info Table": {
@@ -84,7 +54,7 @@
                 "Home Team Rank Name": "LA Dodgers",
                 "Home Abv": "LAD",
                 "Home ID": "4e2f3aa1",
-                "Start Time": "Top 3",
+                "Start Time": "Top 6",
                 "League": "MLB"
             }
         }
