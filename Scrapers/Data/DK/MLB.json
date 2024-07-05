@@ -1,36 +1,6 @@
 [
     [
         {
-            "BetTableId": "DK_d10f1db8_fe8acdeb_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-2.5",
-                "Away Spread Odds": "−180",
-                "Away ML": "−1600",
-                "Home Spread": "+3.5",
-                "Home Spread Odds": "−180",
-                "Home ML": "+800",
-                "Total": "7.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−120"
-            },
-            "MatchupID": "d10f1db8_fe8acdeb_MLB",
-            "Info Table": {
-                "Away Team": "CHI Cubs",
-                "Away Team Rank Name": "Chi Cubs",
-                "Away Abv": "CHC",
-                "Away ID": "d10f1db8",
-                "Home Team": "LA Angels",
-                "Home Team Rank Name": "LA Angels",
-                "Home Abv": "LAA",
-                "Home ID": "fe8acdeb",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_c625b23e_9666114b_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -38,8 +8,8 @@
                 "Away Spread Odds": "−180",
                 "Away ML": "+120",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−180",
-                "Home ML": "−135",
+                "Home Spread Odds": "+150",
+                "Home ML": "−142",
                 "Total": "8",
                 "Over Total Odds": "−105",
                 "Under Total Odds": "−115"
@@ -66,10 +36,10 @@
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+100",
-                "Away ML": "−155",
+                "Away ML": "−162",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "+130",
+                "Home Spread Odds": "+150",
+                "Home ML": "+136",
                 "Total": "8.5",
                 "Over Total Odds": "−118",
                 "Under Total Odds": "−102"
@@ -98,11 +68,11 @@
                 "Away Spread Odds": "−175",
                 "Away ML": "+120",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−142",
                 "Total": "8",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
             },
             "MatchupID": "8a2d1e91_6424b504_MLB",
             "Info Table": {
@@ -128,9 +98,9 @@
                 "Away Spread Odds": "−135",
                 "Away ML": "+154",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−185",
-                "Total": "8.5",
+                "Total": "8",
                 "Over Total Odds": "−102",
                 "Under Total Odds": "−118"
             },
@@ -158,11 +128,11 @@
                 "Away Spread Odds": "−185",
                 "Away ML": "+110",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−130",
                 "Total": "9",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−102",
+                "Under Total Odds": "−118"
             },
             "MatchupID": "18a9d733_fdd0d44c_MLB",
             "Info Table": {
@@ -188,7 +158,7 @@
                 "Away Spread Odds": "−192",
                 "Away ML": "+114",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−135",
                 "Total": "8",
                 "Over Total Odds": "−105",
@@ -216,10 +186,10 @@
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "−185",
-                "Away ML": "+114",
+                "Away ML": "+120",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "−135",
+                "Home Spread Odds": "+150",
+                "Home ML": "−142",
                 "Total": "7.5",
                 "Over Total Odds": "−110",
                 "Under Total Odds": "−110"
@@ -245,11 +215,11 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+150",
-                "Away ML": "−112",
+                "Away Spread Odds": "+145",
+                "Away ML": "−115",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "−112",
+                "Home Spread Odds": "+150",
+                "Home ML": "−105",
                 "Total": "8.5",
                 "Over Total Odds": "−112",
                 "Under Total Odds": "−108"
@@ -278,7 +248,7 @@
                 "Away Spread Odds": "−118",
                 "Away ML": "−180",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "+150",
                 "Total": "10.5",
                 "Over Total Odds": "−105",
@@ -308,7 +278,7 @@
                 "Away Spread Odds": "−162",
                 "Away ML": "+130",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−155",
                 "Total": "8",
                 "Over Total Odds": "−118",
@@ -338,7 +308,7 @@
                 "Away Spread Odds": "−105",
                 "Away ML": "−166",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "+140",
                 "Total": "8.5",
                 "Over Total Odds": "−118",
@@ -368,7 +338,7 @@
                 "Away Spread Odds": "−192",
                 "Away ML": "+114",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−135",
                 "Total": "7",
                 "Over Total Odds": "−120",
@@ -398,7 +368,7 @@
                 "Away Spread Odds": "+145",
                 "Away ML": "−115",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−105",
                 "Total": "8.5",
                 "Over Total Odds": "−105",
@@ -428,7 +398,7 @@
                 "Away Spread Odds": "−120",
                 "Away ML": "+170",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
+                "Home Spread Odds": "+150",
                 "Home ML": "−205",
                 "Total": "7.5",
                 "Over Total Odds": "−110",
