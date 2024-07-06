@@ -14,7 +14,7 @@
         "Away Spread Book": "(Bovada)",
         "Away Spread Odds": "-130",
         "Away Spread Odds Book": "(Bovada)",
-        "Away ML": "+147",
+        "Away ML": "+148",
         "Away ML Book": "(Bovada)",
         "Total Points": "9.0",
         "Total Points Book": "(Bovada)",
@@ -27,7 +27,7 @@
         "team_to_cover": "Boston",
         "cover_rating": 5.5,
         "over_score": 5.6,
-        "cover_grade": 3,
+        "cover_grade": 2,
         "total_rating": -2
     },
     "4005c299_f5328492_MLB": {
@@ -101,7 +101,7 @@
         "Home Spread Book": "(Bovada)",
         "Home Spread Odds": "+114",
         "Home Spread Odds Book": "(DK)",
-        "Home ML": "+116",
+        "Home ML": "+117",
         "Home ML Book": "(Bovada)",
         "Away Spread": "-1.5",
         "Away Spread Book": "(Bovada)",
@@ -276,7 +276,7 @@
         "cover_rating": 3.6,
         "over_score": 6.2,
         "cover_grade": 2,
-        "total_rating": 0
+        "total_rating": -3
     },
     "8714ddbe_300faa7b_MLB": {
         "Home Team": "Seattle",
@@ -287,13 +287,13 @@
         "Home Spread Book": "(Bovada)",
         "Home Spread Odds": "+165",
         "Home Spread Odds Book": "(Bovada)",
-        "Home ML": "−125",
-        "Home ML Book": "(DK)",
+        "Home ML": "-125",
+        "Home ML Book": "(Bovada)",
         "Away Spread": "+1.5",
         "Away Spread Book": "(Bovada)",
         "Away Spread Odds": "-195",
         "Away Spread Odds Book": "(Bovada)",
-        "Away ML": "+108",
+        "Away ML": "+105",
         "Away ML Book": "(Bovada)",
         "Total Points": "8.0",
         "Total Points Book": "(Bovada)",
@@ -324,7 +324,7 @@
         "Away Spread Book": "(Bovada)",
         "Away Spread Odds": "+154",
         "Away Spread Odds Book": "(DK)",
-        "Away ML": "-106",
+        "Away ML": "-107",
         "Away ML Book": "(Bovada)",
         "Total Points": "8.5",
         "Total Points Book": "(Bovada)",
@@ -338,7 +338,7 @@
         "cover_rating": 1.7,
         "over_score": 5.7,
         "cover_grade": 1,
-        "total_rating": -3
+        "total_rating": -2
     },
     "fe2ec146_354ef58_MLB": {
         "Home Team": "Atlanta",
@@ -432,5 +432,36 @@
         "over_score": 5.5,
         "cover_grade": 0,
         "total_rating": -2
+    },
+    "18a9d733_fdd0d44c_MLB": {
+        "Home Team": "Cincinnati",
+        "Home Abv": "CIN",
+        "Away Team": "Detroit",
+        "Away Abv": "DET",
+        "Home Spread": "-999",
+        "Home Spread Book": "(DK)",
+        "Home Spread Odds": "+114",
+        "Home Spread Odds Book": "(DK)",
+        "Home ML": "−148",
+        "Home ML Book": "(DK)",
+        "Away Spread": "-999",
+        "Away Spread Book": "(DK)",
+        "Away Spread Odds": "-999",
+        "Away Spread Odds Book": "(DK)",
+        "Away ML": "+124",
+        "Away ML Book": "(DK)",
+        "Total Points": "9",
+        "Total Points Book": "(DK)",
+        "Over Odds": "-999",
+        "Over Odds Book": "(DK)",
+        "Under Odds": "-999",
+        "Under Odds Book": "(DK)",
+        "Time": "Live Game",
+        "League": "MLB",
+        "team_to_cover": "Detroit",
+        "cover_rating": 8.0,
+        "over_score": 8.4,
+        "cover_grade": 3,
+        "total_rating": 0
     }
 }
