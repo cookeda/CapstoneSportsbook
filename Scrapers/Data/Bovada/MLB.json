@@ -1,78 +1,18 @@
 [
     [
         {
-            "BetTableId": "Bovada_c5227021_4e2f3aa1_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "+340",
-                "Away ML": "+1200",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "-525",
-                "Home ML": "-3300",
-                "Total": "8.5",
-                "Over Total Odds": "+600",
-                "Under Total Odds": "-1100"
-            },
-            "MatchupID": "c5227021_4e2f3aa1_MLB",
-            "Info Table": {
-                "Away Team": "Milwaukee Brewers",
-                "Away Team Rank Name": "Milwaukee",
-                "Away Abv": "MIL",
-                "Away ID": "c5227021",
-                "Home Team": "Los Angeles Dodgers",
-                "Home Team Rank Name": "LA Dodgers",
-                "Home Abv": "LAD",
-                "Home ID": "4e2f3aa1",
-                "Start Time": "Top 9",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_fe2ec146_354ef58_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+4.0",
-                "Away Spread Odds": "-185",
-                "Away ML": "+1500",
-                "Home Spread": "+4.0",
-                "Home Spread Odds": "+140",
-                "Home ML": "-6600",
-                "Total": "6.5",
-                "Over Total Odds": "+600",
-                "Under Total Odds": "-1200"
-            },
-            "MatchupID": "fe2ec146_354ef58_MLB",
-            "Info Table": {
-                "Away Team": "Philadelphia Phillies",
-                "Away Team Rank Name": "Philadelphia",
-                "Away Abv": "PHI",
-                "Away ID": "fe2ec146",
-                "Home Team": "Atlanta Braves",
-                "Home Team Rank Name": "Atlanta",
-                "Home Abv": "ATL",
-                "Home ID": "354ef58",
-                "Start Time": "Top 9",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_db2ee960_8f2512bc_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "+100",
-                "Away ML": "+220",
+                "Away Spread Odds": "+120",
+                "Away ML": "+340",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-130",
-                "Home ML": "-300",
-                "Total": "8.0",
-                "Over Total Odds": "+600",
-                "Under Total Odds": "-105"
+                "Home Spread Odds": "-155",
+                "Home ML": "-525",
+                "Total": "5.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-125"
             },
             "MatchupID": "db2ee960_8f2512bc_MLB",
             "Info Table": {
@@ -84,7 +24,37 @@
                 "Home Team Rank Name": "Colorado",
                 "Home Abv": "COL",
                 "Home ID": "8f2512bc",
-                "Start Time": "Top 4",
+                "Start Time": "Bot 7",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_2b1ac347_3f4235d4_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+170",
+                "Away ML": "-170",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "-225",
+                "Home ML": "+130",
+                "Total": "6.5",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-105"
+            },
+            "MatchupID": "2b1ac347_3f4235d4_MLB",
+            "Info Table": {
+                "Away Team": "Arizona Diamondbacks",
+                "Away Team Rank Name": "Arizona",
+                "Away Abv": "ARI",
+                "Away ID": "2b1ac347",
+                "Home Team": "San Diego Padres",
+                "Home Team Rank Name": "San Diego",
+                "Home Abv": "SD",
+                "Home ID": "3f4235d4",
+                "Start Time": "Top 5",
                 "League": "MLB"
             }
         }
