@@ -94,12 +94,12 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+125 (Bovada)",
-            "Away ML": "-132 (Bovada)",
+            "Away ML": "-133 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+120 (DK)",
             "Home ML": "+114 (DK)",
             "Total": "9.0 (Bovada)",
-            "Over Total Odds": "-105 (Bovada)",
+            "Over Total Odds": "+100 (Bovada)",
             "Under Total Odds": "−110 (DK)"
         }
     },
@@ -120,10 +120,10 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "−142 (DK)",
-            "Away ML": "+150 (DK)",
+            "Away ML": "+145 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+125 (Bovada)",
-            "Home ML": "-170 (Bovada)",
+            "Home ML": "-172 (Bovada)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "−110 (DK)",
             "Under Total Odds": "-105 (Bovada)"
@@ -146,13 +146,39 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+130 (Bovada)",
-            "Away ML": "-126 (Bovada)",
+            "Away ML": "-125 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+120 (DK)",
             "Home ML": "+110 (DK)",
             "Total": "9.0 (Bovada)",
-            "Over Total Odds": "−112 (DK)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "−108 (DK)"
+        }
+    },
+    {
+        "MatchupID": "ea799920_8d47be6d_MLB",
+        "Info Table": {
+            "Away Team": "Chicago White Sox",
+            "Away Team Rank Name": "Chi Sox",
+            "Away Abv": "CWS",
+            "Away ID": "ea799920",
+            "Home Team": "Miami Marlins",
+            "Home Team Rank Name": "Miami",
+            "Home Abv": "MIA",
+            "Home ID": "8d47be6d",
+            "Start Time": "1:40 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (Bovada)",
+            "Away Spread Odds": "99 (Bovada)",
+            "Away ML": "+120 (Bovada)",
+            "Home Spread": "-999 (Bovada)",
+            "Home Spread Odds": "+120 (DK)",
+            "Home ML": "−142 (DK)",
+            "Total": "8 (DK)",
+            "Over Total Odds": "99 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     },
     {
@@ -171,13 +197,13 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+124 (DK)",
-            "Away ML": "−135 (DK)",
+            "Away Spread Odds": "+125 (Bovada)",
+            "Away ML": "-140 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+120 (DK)",
-            "Home ML": "+118 (Bovada)",
+            "Home ML": "+120 (DK)",
             "Total": "8.0 (Bovada)",
-            "Over Total Odds": "−112 (DK)",
+            "Over Total Odds": "−115 (DK)",
             "Under Total Odds": "+100 (Bovada)"
         }
     },
@@ -301,14 +327,14 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+100 (Bovada)",
+            "Away Spread Odds": "−102 (DK)",
             "Away ML": "−155 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+120 (DK)",
-            "Home ML": "+131 (Bovada)",
+            "Home ML": "+134 (Bovada)",
             "Total": "10.0 (Bovada)",
-            "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "−108 (DK)"
+            "Over Total Odds": "−112 (DK)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -331,7 +357,7 @@
             "Away ML": "−192 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+120 (DK)",
-            "Home ML": "+162 (Bovada)",
+            "Home ML": "+164 (Bovada)",
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "−118 (DK)",
             "Under Total Odds": "+100 (Bovada)"
@@ -382,7 +408,7 @@
             "Away Spread Odds": "−142 (DK)",
             "Away ML": "+136 (DK)",
             "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+125 (Bovada)",
+            "Home Spread Odds": "+130 (Bovada)",
             "Home ML": "-160 (Bovada)",
             "Total": "9.5 (Bovada)",
             "Over Total Odds": "-115 (Bovada)",
@@ -406,7 +432,7 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-160 (Bovada)",
-            "Away ML": "+139 (Bovada)",
+            "Away ML": "+140 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+135 (Bovada)",
             "Home ML": "−162 (DK)",
@@ -418,53 +444,27 @@
     {
         "MatchupID": "8a2d1e91_6424b504_MLB",
         "Info Table": {
-            "Away Team": "Boston Red Sox",
+            "Away Team": "BOS Red Sox",
             "Away Team Rank Name": "Boston",
             "Away Abv": "BOS",
             "Away ID": "8a2d1e91",
-            "Home Team": "New York Yankees",
+            "Home Team": "NY Yankees",
             "Home Team Rank Name": "NY Yankees",
             "Home Abv": "NYY",
             "Home ID": "6424b504",
-            "Start Time": "7:10 PM",
+            "Start Time": "7:10PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-165 (Bovada)",
-            "Away ML": "+128 (Bovada)",
-            "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+140 (Bovada)",
-            "Home ML": "−148 (DK)",
-            "Total": "8.5 (Bovada)",
-            "Over Total Odds": "−112 (DK)",
-            "Under Total Odds": "+100 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "ea799920_8d47be6d_MLB",
-        "Info Table": {
-            "Away Team": "CHI White Sox",
-            "Away Team Rank Name": "Chi Sox",
-            "Away Abv": "CWS",
-            "Away ID": "ea799920",
-            "Home Team": "MIA Marlins",
-            "Home Team Rank Name": "Miami",
-            "Home Abv": "MIA",
-            "Home ID": "8d47be6d",
-            "Start Time": "1:40PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-999 (DK)",
-            "Away Spread Odds": "-999 (DK)",
-            "Away ML": "+120 (DK)",
-            "Home Spread": "-999 (DK)",
+            "Away Spread": "+1.5 (DK)",
+            "Away Spread Odds": "−166 (DK)",
+            "Away ML": "+124 (DK)",
+            "Home Spread": "-1.5 (DK)",
             "Home Spread Odds": "+120 (DK)",
-            "Home ML": "−142 (DK)",
-            "Total": "8 (DK)",
-            "Over Total Odds": "−115 (DK)",
-            "Under Total Odds": "−105 (DK)"
+            "Home ML": "−148 (DK)",
+            "Total": "8.5 (DK)",
+            "Over Total Odds": "−112 (DK)",
+            "Under Total Odds": "−108 (DK)"
         }
     }
 ]
