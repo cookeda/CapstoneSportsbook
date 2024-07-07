@@ -26,32 +26,6 @@
         }
     },
     {
-        "MatchupID": "db2ee960_8f2512bc_MLB",
-        "Info Table": {
-            "Away Team": "Kansas City Royals",
-            "Away Team Rank Name": "Kansas City",
-            "Away Abv": "KC",
-            "Away ID": "db2ee960",
-            "Home Team": "Colorado Rockies",
-            "Home Team Rank Name": "Colorado",
-            "Home Abv": "COL",
-            "Home ID": "8f2512bc",
-            "Start Time": "Bot 7",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+124 (DK)",
-            "Away ML": "+390 (DK)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "-155 (Bovada)",
-            "Home ML": "-525 (Bovada)",
-            "Total": "5.5 (Bovada)",
-            "Over Total Odds": "+110 (DK)",
-            "Under Total Odds": "-125 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "2b1ac347_3f4235d4_MLB",
         "Info Table": {
             "Away Team": "Arizona Diamondbacks",
@@ -62,19 +36,19 @@
             "Home Team Rank Name": "San Diego",
             "Home Abv": "SD",
             "Home ID": "3f4235d4",
-            "Start Time": "Top 5",
+            "Start Time": "Bot 7",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+170 (Bovada)",
-            "Away ML": "−154 (DK)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "−160 (DK)",
-            "Home ML": "+130 (Bovada)",
+            "Away Spread": "-2.5 (Bovada)",
+            "Away Spread Odds": "-135 (Bovada)",
+            "Away ML": "-1000 (Bovada)",
+            "Home Spread": "+2.5 (DK)",
+            "Home Spread Odds": "+114 (DK)",
+            "Home ML": "+600 (DK)",
             "Total": "6.5 (Bovada)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "+100 (DK)"
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "−110 (DK)"
         }
     }
 ]
