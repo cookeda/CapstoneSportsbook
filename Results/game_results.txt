@@ -6,7 +6,7 @@ Cleveland @ Detroit (MLB): Cover Rating - 2.3, Over Score - 5.6
 Bet on Detroit to cover the spread.
 Colorado @ Cincinnati (MLB): Cover Rating - 5.1, Over Score - 4.3
 Bet on Colorado to cover the spread.
-Minnesota @ Chi Sox (MLB): Cover Rating - 1.7, Over Score - 5.2
+Minnesota @ Chi Sox (MLB): Cover Rating - 1.7, Over Score - 4.2
 Bet on Chi Sox to cover the spread.
 Texas @ LA Angels (MLB): Cover Rating - 9.8, Over Score - 5.3
 Bet on LA Angels to cover the spread.
@@ -26,16 +26,16 @@ Ranked Games by Over Score Across All Leagues:
 NY Mets @ Pittsburgh (MLB): Over Score - 5.8
 Cleveland @ Detroit (MLB): Over Score - 5.6
 Texas @ LA Angels (MLB): Over Score - 5.3
-Minnesota @ Chi Sox (MLB): Over Score - 5.2
 Atlanta @ Arizona (MLB): Over Score - 5.2
 St. Louis @ Washington (MLB): Over Score - 5.0
 Colorado @ Cincinnati (MLB): Over Score - 4.3
+Minnesota @ Chi Sox (MLB): Over Score - 4.2
          date league  cover_rating  ... total  home_team   away_team
 0  2024-07-08    MLB      2.600000  ...   8.5    NY Mets  Pittsburgh
 1  2024-07-08    MLB     10.466667  ...   9.0  St. Louis  Washington
 2  2024-07-08    MLB      2.333333  ...   8.5  Cleveland     Detroit
 3  2024-07-08    MLB      5.066667  ...   9.5   Colorado  Cincinnati
-4  2024-07-08    MLB      1.733333  ...   9.5  Minnesota     Chi Sox
+4  2024-07-08    MLB      1.733333  ...   9.0  Minnesota     Chi Sox
 5  2024-07-08    MLB      9.800000  ...   8.5      Texas   LA Angels
 6  2024-07-08    MLB      1.466667  ...   8.0    Atlanta     Arizona
 
