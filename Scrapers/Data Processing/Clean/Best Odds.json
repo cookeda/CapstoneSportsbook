@@ -78,32 +78,6 @@
         }
     },
     {
-        "MatchupID": "8f2512bc_Unknown_MLB",
-        "Info Table": {
-            "Away Team": "Colorado Rockies",
-            "Away Team Rank Name": "Colorado",
-            "Away Abv": "COL",
-            "Away ID": "8f2512bc",
-            "Home Team": "-999",
-            "Home Team Rank Name": "Unknown",
-            "Home Abv": "Unknown",
-            "Home ID": "Unknown",
-            "Start Time": "Top 8",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+2.0 (Bovada)",
-            "Away Spread Odds": "+140 (Bovada)",
-            "Away ML": "+1600 (Bovada)",
-            "Home Spread": "+2.0 (Bovada)",
-            "Home Spread Odds": "-185 (Bovada)",
-            "Home ML": "-7500 (Bovada)",
-            "Total": "2.5 (Bovada)",
-            "Over Total Odds": "+105 (Bovada)",
-            "Under Total Odds": "-135 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "f5328492_ea799920_MLB",
         "Info Table": {
             "Away Team": "Minnesota Twins",
@@ -114,19 +88,19 @@
             "Home Team Rank Name": "Chi Sox",
             "Home Abv": "CWS",
             "Home ID": "ea799920",
-            "Start Time": "Top 4",
+            "Start Time": "Top 7",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "-125 (Bovada)",
-            "Away ML": "-225 (Bovada)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "+220 (DK)",
-            "Home ML": "+190 (DK)",
-            "Total": "8.5 (Bovada)",
-            "Over Total Odds": "+105 (Bovada)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "+135 (Bovada)",
+            "Away ML": "+400 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "−140 (DK)",
+            "Home ML": "−475 (DK)",
+            "Total": "10.5 (DK)",
+            "Over Total Odds": "+100 (DK)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -140,19 +114,19 @@
             "Home Team Rank Name": "LA Angels",
             "Home Abv": "LAA",
             "Home ID": "fe8acdeb",
-            "Start Time": "9:38 PM",
+            "Start Time": "Bot 2",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+110 (Bovada)",
-            "Away ML": "−155 (DK)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "+220 (DK)",
-            "Home ML": "+132 (Bovada)",
-            "Total": "8.5 (Bovada)",
-            "Over Total Odds": "-120 (Bovada)",
-            "Under Total Odds": "+100 (Bovada)"
+            "Away Spread": "-2.5 (Bovada)",
+            "Away Spread Odds": "+100 (Bovada)",
+            "Away ML": "-325 (Bovada)",
+            "Home Spread": "+2.5 (DK)",
+            "Home Spread Odds": "-130 (Bovada)",
+            "Home ML": "+280 (DK)",
+            "Total": "9.0 (Bovada)",
+            "Over Total Odds": "-125 (Bovada)",
+            "Under Total Odds": "+100 (DK)"
         }
     },
     {
@@ -166,45 +140,19 @@
             "Home Team Rank Name": "Arizona",
             "Home Abv": "ARI",
             "Home ID": "2b1ac347",
-            "Start Time": "9:40 PM",
+            "Start Time": "Top 2",
             "League": "MLB"
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+136 (DK)",
-            "Away ML": "−118 (DK)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "+220 (DK)",
-            "Home ML": "+100 (Bovada)",
-            "Total": "9.5 (Bovada)",
-            "Over Total Odds": "−105 (DK)",
-            "Under Total Odds": "-110 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "8f2512bc_fdd0d44c_MLB",
-        "Info Table": {
-            "Away Team": "COL Rockies",
-            "Away Team Rank Name": "Colorado",
-            "Away Abv": "COL",
-            "Away ID": "8f2512bc",
-            "Home Team": "CIN Reds",
-            "Home Team Rank Name": "Cincinnati",
-            "Home Abv": "CIN",
-            "Home ID": "fdd0d44c",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+2.5 (DK)",
-            "Away Spread Odds": "−298 (DK)",
-            "Away ML": "+1600 (DK)",
-            "Home Spread": "-2.5 (DK)",
-            "Home Spread Odds": "+220 (DK)",
-            "Home ML": "−4800 (DK)",
-            "Total": "2.5 (DK)",
-            "Over Total Odds": "−115 (DK)",
-            "Under Total Odds": "−115 (DK)"
+            "Away Spread Odds": "+125 (Bovada)",
+            "Away ML": "-145 (Bovada)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "−140 (DK)",
+            "Home ML": "+124 (DK)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "-125 (Bovada)",
+            "Under Total Odds": "+100 (DK)"
         }
     }
 ]
