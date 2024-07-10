@@ -84,7 +84,7 @@
                 "Home Team Rank Name": "Chi Sox",
                 "Home Abv": "CWS",
                 "Home ID": "ea799920",
-                "Start Time": "Live Game",
+                "Start Time": "5:30PM",
                 "League": "MLB"
             }
         }
@@ -96,13 +96,13 @@
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "−148",
-                "Away ML": "+142",
+                "Away ML": "+145",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "−205",
-                "Home ML": "−170",
+                "Home ML": "−175",
                 "Total": "8.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             },
             "MatchupID": "d10f1db8_e8bdce10_MLB",
             "Info Table": {
@@ -241,36 +241,6 @@
     ],
     [
         {
-            "BetTableId": "DK_dd4357ee_c625b23e_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−125",
-                "Away ML": "+160",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "−205",
-                "Home ML": "−192",
-                "Total": "9",
-                "Over Total Odds": "−120",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "dd4357ee_c625b23e_MLB",
-            "Info Table": {
-                "Away Team": "WAS Nationals",
-                "Away Team Rank Name": "Washington",
-                "Away Abv": "WSH",
-                "Away ID": "dd4357ee",
-                "Home Team": "NY Mets",
-                "Home Team Rank Name": "NY Mets",
-                "Home Abv": "NYM",
-                "Home ID": "c625b23e",
-                "Start Time": "7:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_8b214a89_8a2d1e91_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -301,13 +271,43 @@
     ],
     [
         {
+            "BetTableId": "DK_dd4357ee_c625b23e_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−125",
+                "Away ML": "+160",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "−205",
+                "Home ML": "−192",
+                "Total": "9",
+                "Over Total Odds": "−120",
+                "Under Total Odds": "+100"
+            },
+            "MatchupID": "dd4357ee_c625b23e_MLB",
+            "Info Table": {
+                "Away Team": "WAS Nationals",
+                "Away Team Rank Name": "Washington",
+                "Away Abv": "WSH",
+                "Away ID": "dd4357ee",
+                "Home Team": "NY Mets",
+                "Home Team Rank Name": "NY Mets",
+                "Home Abv": "NYM",
+                "Home ID": "c625b23e",
+                "Start Time": "7:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_8f2512bc_fdd0d44c_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−135",
                 "Away ML": "+150",
-                "Home Spread": "-999",
+                "Home Spread": "-1.5",
                 "Home Spread Odds": "−205",
                 "Home ML": "−180",
                 "Total": "9",
