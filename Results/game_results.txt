@@ -1,38 +1,23 @@
-Kansas City @ St. Louis (MLB): Cover Rating - 0.7, Over Score - 5.5
-Bet on Kansas City to cover the spread.
-Miami @ Houston (MLB): Cover Rating - 1.0, Over Score - 5.4
-Bet on Miami to cover the spread.
-Pittsburgh @ Milwaukee (MLB): Cover Rating - 10.0, Over Score - 6.4
-Bet on Pittsburgh to cover the spread.
-Texas @ LA Angels (MLB): Cover Rating - 4.8, Over Score - 5.3
+Texas @ LA Angels (MLB): Cover Rating - 0.9, Over Score - 5.3
 Bet on LA Angels to cover the spread.
-Atlanta @ Arizona (MLB): Cover Rating - 1.5, Over Score - 5.2
-Bet on Atlanta to cover the spread.
-Toronto @ SF Giants (MLB): Cover Rating - 10.3, Over Score - 5.7
+Atlanta @ Arizona (MLB): Cover Rating - 0.5, Over Score - 5.7
+Bet on Arizona to cover the spread.
+Toronto @ SF Giants (MLB): Cover Rating - 3.3, Over Score - 5.7
 Bet on Toronto to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Toronto @ SF Giants (MLB): Cover Rating - 10.3, Bet on Toronto to cover the spread.
-Pittsburgh @ Milwaukee (MLB): Cover Rating - 10.0, Bet on Pittsburgh to cover the spread.
-Texas @ LA Angels (MLB): Cover Rating - 4.8, Bet on LA Angels to cover the spread.
-Atlanta @ Arizona (MLB): Cover Rating - 1.5, Bet on Atlanta to cover the spread.
-Miami @ Houston (MLB): Cover Rating - 1.0, Bet on Miami to cover the spread.
-Kansas City @ St. Louis (MLB): Cover Rating - 0.7, Bet on Kansas City to cover the spread.
+Toronto @ SF Giants (MLB): Cover Rating - 3.3, Bet on Toronto to cover the spread.
+Texas @ LA Angels (MLB): Cover Rating - 0.9, Bet on LA Angels to cover the spread.
+Atlanta @ Arizona (MLB): Cover Rating - 0.5, Bet on Arizona to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Pittsburgh @ Milwaukee (MLB): Over Score - 6.4
 Toronto @ SF Giants (MLB): Over Score - 5.7
-Kansas City @ St. Louis (MLB): Over Score - 5.5
-Miami @ Houston (MLB): Over Score - 5.4
+Atlanta @ Arizona (MLB): Over Score - 5.7
 Texas @ LA Angels (MLB): Over Score - 5.3
-Atlanta @ Arizona (MLB): Over Score - 5.2
-         date league  cover_rating  ... total    home_team  away_team
-0  2024-07-10    MLB      0.666667  ...  13.5  Kansas City  St. Louis
-1  2024-07-10    MLB      1.040000  ...  11.5        Miami    Houston
-2  2024-07-10    MLB     10.000000  ...   7.5   Pittsburgh  Milwaukee
-3  2024-07-10    MLB      4.800000  ...   7.5        Texas  LA Angels
-4  2024-07-10    MLB      1.533333  ...   8.5      Atlanta    Arizona
-5  2024-07-10    MLB     10.266667  ...   6.5      Toronto  SF Giants
+         date league  cover_rating  ... total  home_team  away_team
+0  2024-07-10    MLB      0.880000  ...  11.5      Texas  LA Angels
+1  2024-07-10    MLB      0.466667  ...   9.5    Atlanta    Arizona
+2  2024-07-10    MLB      3.266667  ...   5.5    Toronto  SF Giants
 
-[6 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
