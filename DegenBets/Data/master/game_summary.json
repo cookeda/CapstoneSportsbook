@@ -25,7 +25,7 @@
         "cover_rating": 1.0,
         "over_score": 5.9,
         "cover_grade": 1,
-        "total_rating": 0
+        "total_rating": -3
     },
     "8714ddbe_486a5e3b_MLB": {
         "team_to_cover": "Toronto",
@@ -46,7 +46,7 @@
         "cover_rating": 663.1,
         "over_score": 5.4,
         "cover_grade": 0,
-        "total_rating": -3
+        "total_rating": -2
     },
     "6424b504_16f4bf06_MLB": {
         "team_to_cover": "NY Yankees",
@@ -68,5 +68,19 @@
         "over_score": 4.9,
         "cover_grade": 1,
         "total_rating": -1
+    },
+    "300faa7b_fe8acdeb_MLB": {
+        "team_to_cover": "LA Angels",
+        "cover_rating": 4.9,
+        "over_score": 7.0,
+        "cover_grade": 2,
+        "total_rating": 0
+    },
+    "354ef58_2b1ac347_MLB": {
+        "team_to_cover": "Atlanta",
+        "cover_rating": 1.5,
+        "over_score": 5.2,
+        "cover_grade": 1,
+        "total_rating": -2
     }
 }
