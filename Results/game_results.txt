@@ -1,12 +1,10 @@
-Toronto @ SF Giants (MLB): Cover Rating - 6.2, Over Score - 5.7
-Bet on Toronto to cover the spread.
-LA Dodgers @ Philadelphia (MLB): Cover Rating - 3.7, Over Score - 4.3
+LA Dodgers @ Philadelphia (MLB): Cover Rating - 3.8, Over Score - 5.3
 Bet on LA Dodgers to cover the spread.
-Chi Cubs @ Baltimore (MLB): Cover Rating - 3.9, Over Score - 5.4
+Chi Cubs @ Baltimore (MLB): Cover Rating - 3.9, Over Score - 5.9
 Bet on Chi Cubs to cover the spread.
 NY Yankees @ Tampa Bay (MLB): Cover Rating - 2.9, Over Score - 5.6
 Bet on NY Yankees to cover the spread.
-Oakland @ Boston (MLB): Cover Rating - 7.3, Over Score - 5.1
+Oakland @ Boston (MLB): Cover Rating - 5.3, Over Score - 5.1
 Bet on Oakland to cover the spread.
 Miami @ Houston (MLB): Cover Rating - 4.2, Over Score - 3.9
 Bet on Miami to cover the spread.
@@ -16,33 +14,30 @@ Atlanta @ Arizona (MLB): Cover Rating - 1.5, Over Score - 5.2
 Bet on Atlanta to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Oakland @ Boston (MLB): Cover Rating - 7.3, Bet on Oakland to cover the spread.
-Toronto @ SF Giants (MLB): Cover Rating - 6.2, Bet on Toronto to cover the spread.
+Oakland @ Boston (MLB): Cover Rating - 5.3, Bet on Oakland to cover the spread.
 Seattle @ LA Angels (MLB): Cover Rating - 4.9, Bet on LA Angels to cover the spread.
 Miami @ Houston (MLB): Cover Rating - 4.2, Bet on Miami to cover the spread.
 Chi Cubs @ Baltimore (MLB): Cover Rating - 3.9, Bet on Chi Cubs to cover the spread.
-LA Dodgers @ Philadelphia (MLB): Cover Rating - 3.7, Bet on LA Dodgers to cover the spread.
+LA Dodgers @ Philadelphia (MLB): Cover Rating - 3.8, Bet on LA Dodgers to cover the spread.
 NY Yankees @ Tampa Bay (MLB): Cover Rating - 2.9, Bet on NY Yankees to cover the spread.
 Atlanta @ Arizona (MLB): Cover Rating - 1.5, Bet on Atlanta to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Toronto @ SF Giants (MLB): Over Score - 5.7
+Chi Cubs @ Baltimore (MLB): Over Score - 5.9
 NY Yankees @ Tampa Bay (MLB): Over Score - 5.6
-Chi Cubs @ Baltimore (MLB): Over Score - 5.4
+LA Dodgers @ Philadelphia (MLB): Over Score - 5.3
 Atlanta @ Arizona (MLB): Over Score - 5.2
 Oakland @ Boston (MLB): Over Score - 5.1
 Seattle @ LA Angels (MLB): Over Score - 4.5
-LA Dodgers @ Philadelphia (MLB): Over Score - 4.3
 Miami @ Houston (MLB): Over Score - 3.9
          date league  cover_rating  ... total   home_team     away_team
-0  2024-07-11    MLB      6.160000  ...   7.5     Toronto     SF Giants
-1  2024-07-11    MLB      3.666667  ...   9.5  LA Dodgers  Philadelphia
-2  2024-07-11    MLB      3.866667  ...   8.5    Chi Cubs     Baltimore
-3  2024-07-11    MLB      2.933333  ...   8.0  NY Yankees     Tampa Bay
-4  2024-07-11    MLB      7.333333  ...  10.0     Oakland        Boston
-5  2024-07-11    MLB      4.200000  ...   8.5       Miami       Houston
-6  2024-07-11    MLB      4.866667  ...   9.0     Seattle     LA Angels
-7  2024-07-11    MLB      1.533333  ...   8.0     Atlanta       Arizona
+0  2024-07-11    MLB      3.800000  ...   8.5  LA Dodgers  Philadelphia
+1  2024-07-11    MLB      3.866667  ...   6.5    Chi Cubs     Baltimore
+2  2024-07-11    MLB      2.933333  ...   7.5  NY Yankees     Tampa Bay
+3  2024-07-11    MLB      5.333333  ...  10.0     Oakland        Boston
+4  2024-07-11    MLB      4.200000  ...   8.5       Miami       Houston
+5  2024-07-11    MLB      4.866667  ...   9.0     Seattle     LA Angels
+6  2024-07-11    MLB      1.533333  ...   8.0     Atlanta       Arizona
 
-[8 rows x 10 columns]
+[7 rows x 10 columns]
 Avoided Overriding DailyPredictions
