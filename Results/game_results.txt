@@ -1,23 +1,18 @@
-Miami @ Houston (MLB): Cover Rating - 4.1, Over Score - 4.9
-Bet on Miami to cover the spread.
-Seattle @ LA Angels (MLB): Cover Rating - 0.0, Over Score - 6.0
-Bet on Seattle to cover the spread.
-Atlanta @ Arizona (MLB): Cover Rating - 1.5, Over Score - 5.2
+Seattle @ LA Angels (MLB): Cover Rating - 10.0, Over Score - 5.5
+Bet on LA Angels to cover the spread.
+Atlanta @ Arizona (MLB): Cover Rating - 5.5, Over Score - 5.7
 Bet on Atlanta to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Miami @ Houston (MLB): Cover Rating - 4.1, Bet on Miami to cover the spread.
-Atlanta @ Arizona (MLB): Cover Rating - 1.5, Bet on Atlanta to cover the spread.
-Seattle @ LA Angels (MLB): Cover Rating - 0.0, Bet on Seattle to cover the spread.
+Seattle @ LA Angels (MLB): Cover Rating - 10.0, Bet on LA Angels to cover the spread.
+Atlanta @ Arizona (MLB): Cover Rating - 5.5, Bet on Atlanta to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Seattle @ LA Angels (MLB): Over Score - 6.0
-Atlanta @ Arizona (MLB): Over Score - 5.2
-Miami @ Houston (MLB): Over Score - 4.9
+Atlanta @ Arizona (MLB): Over Score - 5.7
+Seattle @ LA Angels (MLB): Over Score - 5.5
          date league  cover_rating  ... total  home_team  away_team
-0  2024-07-11    MLB      4.085714  ...  11.5      Miami    Houston
-1  2024-07-11    MLB      0.044444  ...  12.5    Seattle  LA Angels
-2  2024-07-11    MLB      1.533333  ...   6.5    Atlanta    Arizona
+0  2024-07-11    MLB      9.973333  ...  10.5    Seattle  LA Angels
+1  2024-07-11    MLB      5.533333  ...   4.5    Atlanta    Arizona
 
-[3 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions
