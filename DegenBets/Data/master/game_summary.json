@@ -34,6 +34,13 @@
         "cover_grade": 3,
         "total_rating": -3
     },
+    "8d47be6d_fdd0d44c_MLB": {
+        "team_to_cover": "Cincinnati",
+        "cover_rating": 0.5,
+        "over_score": 3.9,
+        "cover_grade": 1,
+        "total_rating": -1
+    },
     "dd4357ee_c5227021_MLB": {
         "team_to_cover": "Washington",
         "cover_rating": 5.5,
@@ -41,11 +48,11 @@
         "cover_grade": 2,
         "total_rating": 0
     },
-    "8d47be6d_fdd0d44c_MLB": {
-        "team_to_cover": "Cincinnati",
-        "cover_rating": 0.5,
-        "over_score": 4.9,
-        "cover_grade": 1,
+    "db2ee960_8a2d1e91_MLB": {
+        "team_to_cover": "Kansas City",
+        "cover_rating": 5.7,
+        "over_score": 4.0,
+        "cover_grade": 3,
         "total_rating": -1
     },
     "8f2512bc_c625b23e_MLB": {
@@ -54,13 +61,6 @@
         "over_score": 5.5,
         "cover_grade": 1,
         "total_rating": -3
-    },
-    "db2ee960_8a2d1e91_MLB": {
-        "team_to_cover": "Kansas City",
-        "cover_rating": 5.7,
-        "over_score": 5.0,
-        "cover_grade": 3,
-        "total_rating": -1
     },
     "5a31e1ff_16f4bf06_MLB": {
         "team_to_cover": "Tampa Bay",
@@ -86,9 +86,9 @@
     "f5328492_486a5e3b_MLB": {
         "team_to_cover": "SF Giants",
         "cover_rating": 3.5,
-        "over_score": 4.4,
+        "over_score": 5.4,
         "cover_grade": 2,
-        "total_rating": -1
+        "total_rating": -2
     },
     "300faa7b_fe8acdeb_MLB": {
         "team_to_cover": "LA Angels",
@@ -100,8 +100,8 @@
     "8714ddbe_2b1ac347_MLB": {
         "team_to_cover": "Toronto",
         "cover_rating": 5.6,
-        "over_score": 5.3,
+        "over_score": 4.3,
         "cover_grade": 3,
-        "total_rating": -2
+        "total_rating": -1
     }
 }
