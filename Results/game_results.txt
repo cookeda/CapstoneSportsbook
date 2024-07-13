@@ -10,11 +10,11 @@ NY Yankees @ Baltimore (MLB): Cover Rating - 5.7, Over Score - 5.7
 Bet on NY Yankees to cover the spread.
 Washington @ Milwaukee (MLB): Cover Rating - 5.5, Over Score - 5.8
 Bet on Washington to cover the spread.
-Miami @ Cincinnati (MLB): Cover Rating - 0.5, Over Score - 3.9
+Miami @ Cincinnati (MLB): Cover Rating - 0.5, Over Score - 4.9
 Bet on Cincinnati to cover the spread.
 Colorado @ NY Mets (MLB): Cover Rating - 2.2, Over Score - 5.5
 Bet on Colorado to cover the spread.
-Kansas City @ Boston (MLB): Cover Rating - 5.7, Over Score - 4.0
+Kansas City @ Boston (MLB): Cover Rating - 5.7, Over Score - 5.0
 Bet on Kansas City to cover the spread.
 Cleveland @ Tampa Bay (MLB): Cover Rating - 1.9, Over Score - 5.5
 Bet on Tampa Bay to cover the spread.
@@ -22,7 +22,7 @@ Texas @ Houston (MLB): Cover Rating - 10.1, Over Score - 4.9
 Bet on Houston to cover the spread.
 Atlanta @ San Diego (MLB): Cover Rating - 3.5, Over Score - 4.3
 Bet on San Diego to cover the spread.
-Minnesota @ SF Giants (MLB): Cover Rating - 3.5, Over Score - 4.4
+Minnesota @ SF Giants (MLB): Cover Rating - 3.5, Over Score - 5.4
 Bet on SF Giants to cover the spread.
 Seattle @ LA Angels (MLB): Cover Rating - 9.9, Over Score - 5.5
 Bet on LA Angels to cover the spread.
@@ -53,15 +53,15 @@ LA Dodgers @ Detroit (MLB): Over Score - 5.6
 Cleveland @ Tampa Bay (MLB): Over Score - 5.5
 Seattle @ LA Angels (MLB): Over Score - 5.5
 Colorado @ NY Mets (MLB): Over Score - 5.5
+Minnesota @ SF Giants (MLB): Over Score - 5.4
 Toronto @ Arizona (MLB): Over Score - 5.3
 Pittsburgh @ Chi Sox (MLB): Over Score - 5.2
 Oakland @ Philadelphia (MLB): Over Score - 5.1
 Chi Cubs @ St. Louis (MLB): Over Score - 5.1
+Kansas City @ Boston (MLB): Over Score - 5.0
+Miami @ Cincinnati (MLB): Over Score - 4.9
 Texas @ Houston (MLB): Over Score - 4.9
-Minnesota @ SF Giants (MLB): Over Score - 4.4
 Atlanta @ San Diego (MLB): Over Score - 4.3
-Kansas City @ Boston (MLB): Over Score - 4.0
-Miami @ Cincinnati (MLB): Over Score - 3.9
           date league  cover_rating  ... total    home_team     away_team
 0   2024-07-13    MLB      3.066667  ...   9.0   LA Dodgers       Detroit
 1   2024-07-13    MLB      3.600000  ...   8.5   Pittsburgh       Chi Sox
@@ -74,10 +74,9 @@ Miami @ Cincinnati (MLB): Over Score - 3.9
 8   2024-07-13    MLB      5.733333  ...   9.0  Kansas City        Boston
 9   2024-07-13    MLB      1.933333  ...   8.0    Cleveland     Tampa Bay
 10  2024-07-13    MLB     10.066667  ...   8.5        Texas       Houston
-11  2024-07-13    MLB      3.466667  ...   7.0      Atlanta     San Diego
-12  2024-07-13    MLB      3.466667  ...   8.5    Minnesota     SF Giants
+11  2024-07-13    MLB      3.466667  ...   7.5      Atlanta     San Diego
+12  2024-07-13    MLB      3.466667  ...   8.0    Minnesota     SF Giants
 13  2024-07-13    MLB      9.866667  ...   8.0      Seattle     LA Angels
 14  2024-07-13    MLB      5.600000  ...   9.0      Toronto       Arizona
 
 [15 rows x 10 columns]
-Avoided Overriding DailyPredictions
