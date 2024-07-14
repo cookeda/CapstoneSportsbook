@@ -10,8 +10,15 @@
         "team_to_cover": "Kansas City",
         "cover_rating": 5.7,
         "over_score": 5.0,
-        "cover_grade": 0,
+        "cover_grade": 3,
         "total_rating": -1
+    },
+    "8b214a89_fe2ec146_MLB": {
+        "team_to_cover": "Philadelphia",
+        "cover_rating": 6.6,
+        "over_score": 5.1,
+        "cover_grade": 0,
+        "total_rating": -2
     },
     "8d47be6d_fdd0d44c_MLB": {
         "team_to_cover": "Cincinnati",
@@ -24,8 +31,22 @@
         "team_to_cover": "Tampa Bay",
         "cover_rating": 1.9,
         "over_score": 5.5,
-        "cover_grade": 2,
+        "cover_grade": 1,
         "total_rating": -3
+    },
+    "4e2f3aa1_18a9d733_MLB": {
+        "team_to_cover": "Detroit",
+        "cover_rating": 3.1,
+        "over_score": 4.6,
+        "cover_grade": 2,
+        "total_rating": -1
+    },
+    "8f2512bc_c625b23e_MLB": {
+        "team_to_cover": "Colorado",
+        "cover_rating": 2.2,
+        "over_score": 4.5,
+        "cover_grade": 2,
+        "total_rating": -1
     },
     "dd4357ee_c5227021_MLB": {
         "team_to_cover": "Washington",
@@ -39,14 +60,14 @@
         "cover_rating": 0.7,
         "over_score": 5.1,
         "cover_grade": 1,
-        "total_rating": -1
+        "total_rating": -2
     },
     "f5328492_486a5e3b_MLB": {
         "team_to_cover": "Minnesota",
         "cover_rating": 5.5,
         "over_score": 5.4,
         "cover_grade": 3,
-        "total_rating": -2
+        "total_rating": -3
     },
     "354ef58_3f4235d4_MLB": {
         "team_to_cover": "San Diego",
@@ -57,9 +78,9 @@
     },
     "8714ddbe_2b1ac347_MLB": {
         "team_to_cover": "Toronto",
-        "cover_rating": 5.6,
+        "cover_rating": 3.0,
         "over_score": 5.3,
-        "cover_grade": 3,
+        "cover_grade": 2,
         "total_rating": -2
     }
 }
