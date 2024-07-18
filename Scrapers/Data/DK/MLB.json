@@ -151,36 +151,6 @@
     ],
     [
         {
-            "BetTableId": "DK_c625b23e_8d47be6d_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+120",
-                "Away ML": "−130",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−180",
-                "Home ML": "+110",
-                "Total": "8",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
-            },
-            "MatchupID": "c625b23e_8d47be6d_MLB",
-            "Info Table": {
-                "Away Team": "NY Mets",
-                "Away Team Rank Name": "NY Mets",
-                "Away Abv": "NYM",
-                "Away ID": "c625b23e",
-                "Home Team": "MIA Marlins",
-                "Home Team Rank Name": "Miami",
-                "Home Abv": "MIA",
-                "Home ID": "8d47be6d",
-                "Start Time": "7:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_3f4235d4_5a31e1ff_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -204,6 +174,36 @@
                 "Home Team Rank Name": "Cleveland",
                 "Home Abv": "CLE",
                 "Home ID": "5a31e1ff",
+                "Start Time": "7:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_c625b23e_8d47be6d_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+120",
+                "Away ML": "−130",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−180",
+                "Home ML": "+110",
+                "Total": "8",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "c625b23e_8d47be6d_MLB",
+            "Info Table": {
+                "Away Team": "NY Mets",
+                "Away Team Rank Name": "NY Mets",
+                "Away Abv": "NYM",
+                "Away ID": "c625b23e",
+                "Home Team": "MIA Marlins",
+                "Home Team Rank Name": "Miami",
+                "Home Abv": "MIA",
+                "Home ID": "8d47be6d",
                 "Start Time": "7:10PM",
                 "League": "MLB"
             }
