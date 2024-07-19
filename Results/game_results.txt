@@ -1,6 +1,8 @@
+Arizona @ Chi Cubs (MLB): Cover Rating - 3.0, Over Score - 8.2
+Bet on Arizona to cover the spread.
 Philadelphia @ Pittsburgh (MLB): Cover Rating - 3.3, Over Score - 5.3
 Bet on Pittsburgh to cover the spread.
-Cincinnati @ Washington (MLB): Cover Rating - 3.5, Over Score - 4.1
+Cincinnati @ Washington (MLB): Cover Rating - 3.5, Over Score - 5.1
 Bet on Washington to cover the spread.
 Tampa Bay @ NY Yankees (MLB): Cover Rating - 0.9, Over Score - 5.6
 Bet on NY Yankees to cover the spread.
@@ -34,6 +36,7 @@ Cincinnati @ Washington (MLB): Cover Rating - 3.5, Bet on Washington to cover th
 LA Angels @ Oakland (MLB): Cover Rating - 3.5, Bet on Oakland to cover the spread.
 Philadelphia @ Pittsburgh (MLB): Cover Rating - 3.3, Bet on Pittsburgh to cover the spread.
 Baltimore @ Texas (MLB): Cover Rating - 3.1, Bet on Texas to cover the spread.
+Arizona @ Chi Cubs (MLB): Cover Rating - 3.0, Bet on Arizona to cover the spread.
 NY Mets @ Miami (MLB): Cover Rating - 2.3, Bet on Miami to cover the spread.
 Detroit @ Toronto (MLB): Cover Rating - 2.3, Bet on Toronto to cover the spread.
 Houston @ Seattle (MLB): Cover Rating - 1.8, Bet on Seattle to cover the spread.
@@ -41,6 +44,7 @@ Tampa Bay @ NY Yankees (MLB): Cover Rating - 0.9, Bet on NY Yankees to cover the
 St. Louis @ Atlanta (MLB): Cover Rating - 0.5, Bet on Atlanta to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
+Arizona @ Chi Cubs (MLB): Over Score - 8.2
 NY Mets @ Miami (MLB): Over Score - 6.5
 SF Giants @ Colorado (MLB): Over Score - 6.1
 Tampa Bay @ NY Yankees (MLB): Over Score - 5.6
@@ -49,25 +53,26 @@ LA Angels @ Oakland (MLB): Over Score - 5.5
 Chi Sox @ Kansas City (MLB): Over Score - 5.4
 Philadelphia @ Pittsburgh (MLB): Over Score - 5.3
 Baltimore @ Texas (MLB): Over Score - 5.2
+Cincinnati @ Washington (MLB): Over Score - 5.1
 St. Louis @ Atlanta (MLB): Over Score - 4.9
 Boston @ LA Dodgers (MLB): Over Score - 4.6
 San Diego @ Cleveland (MLB): Over Score - 4.6
 Houston @ Seattle (MLB): Over Score - 4.4
-Cincinnati @ Washington (MLB): Over Score - 4.1
           date league  cover_rating  ... total     home_team    away_team
-0   2024-07-18    MLB      3.333333  ...   8.0  Philadelphia   Pittsburgh
-1   2024-07-18    MLB      3.533333  ...   8.5    Cincinnati   Washington
-2   2024-07-18    MLB      0.866667  ...   8.0     Tampa Bay   NY Yankees
-3   2024-07-18    MLB      2.266667  ...   7.5       Detroit      Toronto
-4   2024-07-18    MLB      5.466667  ...   8.0     San Diego    Cleveland
-5   2024-07-18    MLB      2.333333  ...   8.5       NY Mets        Miami
-6   2024-07-18    MLB      0.466667  ...   7.5     St. Louis      Atlanta
-7   2024-07-18    MLB      3.066667  ...   8.0     Baltimore        Texas
-8   2024-07-18    MLB      5.466667  ...   8.5       Chi Sox  Kansas City
-9   2024-07-18    MLB      8.600000  ...  10.0     SF Giants     Colorado
-10  2024-07-18    MLB      3.533333  ...   8.5     LA Angels      Oakland
-11  2024-07-18    MLB      6.266667  ...   8.5        Boston   LA Dodgers
-12  2024-07-18    MLB      1.800000  ...   7.0       Houston      Seattle
+0   2024-07-19    MLB      3.000901  ...   9.0       Arizona     Chi Cubs
+1   2024-07-19    MLB      3.333333  ...   8.0  Philadelphia   Pittsburgh
+2   2024-07-19    MLB      3.533333  ...   9.0    Cincinnati   Washington
+3   2024-07-19    MLB      0.866667  ...   8.0     Tampa Bay   NY Yankees
+4   2024-07-19    MLB      2.266667  ...   7.5       Detroit      Toronto
+5   2024-07-19    MLB      5.466667  ...   8.0     San Diego    Cleveland
+6   2024-07-19    MLB      2.333333  ...   8.5       NY Mets        Miami
+7   2024-07-19    MLB      0.466667  ...   7.5     St. Louis      Atlanta
+8   2024-07-19    MLB      3.066667  ...   8.0     Baltimore        Texas
+9   2024-07-19    MLB      5.466667  ...   8.5       Chi Sox  Kansas City
+10  2024-07-19    MLB      8.600000  ...  10.0     SF Giants     Colorado
+11  2024-07-19    MLB      3.533333  ...   8.5     LA Angels      Oakland
+12  2024-07-19    MLB      6.266667  ...   8.5        Boston   LA Dodgers
+13  2024-07-19    MLB      1.800000  ...   7.0       Houston      Seattle
 
-[13 rows x 10 columns]
+[14 rows x 10 columns]
 Avoided Overriding DailyPredictions
