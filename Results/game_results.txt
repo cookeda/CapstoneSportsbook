@@ -24,17 +24,17 @@ LA Angels @ Oakland (MLB): Cover Rating - 1.5, Over Score - 5.5
 Bet on LA Angels to cover the spread.
 Boston @ LA Dodgers (MLB): Cover Rating - 11.3, Over Score - 5.6
 Bet on Boston to cover the spread.
-Houston @ Seattle (MLB): Cover Rating - 3.2, Over Score - 4.4
-Bet on Houston to cover the spread.
+Houston @ Seattle (MLB): Cover Rating - 5.8, Over Score - 3.4
+Bet on Seattle to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 Boston @ LA Dodgers (MLB): Cover Rating - 11.3, Bet on Boston to cover the spread.
 Arizona @ Chi Cubs (MLB): Cover Rating - 10.6, Bet on Arizona to cover the spread.
 San Diego @ Cleveland (MLB): Cover Rating - 10.5, Bet on San Diego to cover the spread.
+Houston @ Seattle (MLB): Cover Rating - 5.8, Bet on Seattle to cover the spread.
 SF Giants @ Colorado (MLB): Cover Rating - 5.6, Bet on Colorado to cover the spread.
 St. Louis @ Atlanta (MLB): Cover Rating - 4.5, Bet on St. Louis to cover the spread.
 Tampa Bay @ NY Yankees (MLB): Cover Rating - 4.1, Bet on Tampa Bay to cover the spread.
-Houston @ Seattle (MLB): Cover Rating - 3.2, Bet on Houston to cover the spread.
 Detroit @ Toronto (MLB): Cover Rating - 2.7, Bet on Detroit to cover the spread.
 NY Mets @ Miami (MLB): Cover Rating - 2.7, Bet on NY Mets to cover the spread.
 Baltimore @ Texas (MLB): Cover Rating - 1.9, Bet on Baltimore to cover the spread.
@@ -57,22 +57,22 @@ Arizona @ Chi Cubs (MLB): Over Score - 5.2
 Cincinnati @ Washington (MLB): Over Score - 5.1
 St. Louis @ Atlanta (MLB): Over Score - 4.9
 Chi Sox @ Kansas City (MLB): Over Score - 4.4
-Houston @ Seattle (MLB): Over Score - 4.4
+Houston @ Seattle (MLB): Over Score - 3.4
           date league  cover_rating  ... total     home_team    away_team
 0   2024-07-19    MLB     10.600000  ...   7.5       Arizona     Chi Cubs
 1   2024-07-19    MLB      1.666667  ...   8.0  Philadelphia   Pittsburgh
 2   2024-07-19    MLB      1.466667  ...   9.0    Cincinnati   Washington
 3   2024-07-19    MLB      4.133333  ...   8.0     Tampa Bay   NY Yankees
 4   2024-07-19    MLB      2.733333  ...   7.5       Detroit      Toronto
-5   2024-07-19    MLB      2.666667  ...   8.5       NY Mets        Miami
+5   2024-07-19    MLB      2.666667  ...   8.0       NY Mets        Miami
 6   2024-07-19    MLB     10.466667  ...   7.5     San Diego    Cleveland
 7   2024-07-19    MLB      4.533333  ...   8.0     St. Louis      Atlanta
-8   2024-07-19    MLB      1.933333  ...   8.0     Baltimore        Texas
+8   2024-07-19    MLB      1.933333  ...   7.5     Baltimore        Texas
 9   2024-07-19    MLB      0.466667  ...   8.5       Chi Sox  Kansas City
 10  2024-07-19    MLB      5.600000  ...  10.5     SF Giants     Colorado
 11  2024-07-19    MLB      1.466667  ...   8.5     LA Angels      Oakland
 12  2024-07-19    MLB     11.266667  ...   8.5        Boston   LA Dodgers
-13  2024-07-19    MLB      3.200000  ...   7.0       Houston      Seattle
+13  2024-07-19    MLB      5.800000  ...   7.0       Houston      Seattle
 
 [14 rows x 10 columns]
 Avoided Overriding DailyPredictions
