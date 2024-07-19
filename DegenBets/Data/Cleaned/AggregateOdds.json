@@ -67,12 +67,12 @@
             }
         ]
     },
-    "2b1ac347_d10f1db8_MLB": {
+    "Unknown_d10f1db8_MLB": {
         "Info Table": {
-            "Away Team": "Arizona Diamondbacks",
-            "Away Team Rank Name": "Arizona",
-            "Away Abv": "ARI",
-            "Away ID": "2b1ac347",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Chicago Cubs",
             "Home Team Rank Name": "Chi Cubs",
             "Home Abv": "CHC",
@@ -92,18 +92,6 @@
                 "Total": "7.5",
                 "Over Total Odds": "-105",
                 "Under Total Odds": "-115"
-            },
-            {
-                "Book Name": "DK",
-                "Away Spread": "-999",
-                "Away Spread Odds": "-999",
-                "Away ML": "−115",
-                "Home Spread": "-999",
-                "Home Spread Odds": "-999",
-                "Home ML": "−105",
-                "Total": "9",
-                "Over Total Odds": "-999",
-                "Under Total Odds": "-999"
             }
         ]
     },
@@ -165,10 +153,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+135",
-                "Away ML": "-124",
+                "Away ML": "-123",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-160",
-                "Home ML": "+104",
+                "Home ML": "+103",
                 "Total": "9.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -176,14 +164,14 @@
             {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+140",
+                "Away Spread Odds": "+136",
                 "Away ML": "−122",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-999",
                 "Home ML": "+102",
                 "Total": "9",
-                "Over Total Odds": "−102",
-                "Under Total Odds": "−118"
+                "Over Total Odds": "−108",
+                "Under Total Odds": "−112"
             }
         ]
     },
@@ -210,8 +198,8 @@
                 "Home Spread Odds": "+125",
                 "Home ML": "-172",
                 "Total": "8.0",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             },
             {
                 "Book Name": "DK",
@@ -222,8 +210,8 @@
                 "Home Spread Odds": "-999",
                 "Home ML": "−170",
                 "Total": "8",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
             }
         ]
     },
@@ -290,20 +278,20 @@
                 "Home Spread Odds": "-150",
                 "Home ML": "+112",
                 "Total": "8.5",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-115"
             },
             {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+124",
-                "Away ML": "−130",
+                "Away Spread Odds": "+130",
+                "Away ML": "−135",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-999",
-                "Home ML": "+110",
+                "Home ML": "+114",
                 "Total": "8.5",
-                "Over Total Odds": "−102",
-                "Under Total Odds": "−118"
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−115"
             }
         ]
     },
@@ -445,10 +433,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-120",
-                "Away ML": "+171",
+                "Away ML": "+172",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+100",
-                "Home ML": "-211",
+                "Home ML": "-212",
                 "Total": "8.5",
                 "Over Total Odds": "-120",
                 "Under Total Odds": "+100"
@@ -456,14 +444,14 @@
             {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−118",
+                "Away Spread Odds": "−122",
                 "Away ML": "+170",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "-999",
                 "Home ML": "−205",
                 "Total": "8.5",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Over Total Odds": "−120",
+                "Under Total Odds": "+100"
             }
         ]
     },
@@ -624,6 +612,34 @@
                 "Total": "7",
                 "Over Total Odds": "−115",
                 "Under Total Odds": "−105"
+            }
+        ]
+    },
+    "2b1ac347_d10f1db8_MLB": {
+        "Info Table": {
+            "Away Team": "ARI Diamondbacks",
+            "Away Team Rank Name": "Arizona",
+            "Away Abv": "ARI",
+            "Away ID": "2b1ac347",
+            "Home Team": "CHI Cubs",
+            "Home Team Rank Name": "Chi Cubs",
+            "Home Abv": "CHC",
+            "Home ID": "d10f1db8",
+            "Start Time": "2:20PM",
+            "League": "MLB"
+        },
+        "Bet Tables": [
+            {
+                "Book Name": "DK",
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "−115",
+                "Home Spread": "-999",
+                "Home Spread Odds": "-999",
+                "Home ML": "−105",
+                "Total": "9",
+                "Over Total Odds": "-999",
+                "Under Total Odds": "-999"
             }
         ]
     },

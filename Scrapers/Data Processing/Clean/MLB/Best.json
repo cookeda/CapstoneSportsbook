@@ -26,12 +26,12 @@
         }
     },
     {
-        "MatchupID": "2b1ac347_d10f1db8_MLB",
+        "MatchupID": "Unknown_d10f1db8_MLB",
         "Info Table": {
-            "Away Team": "Arizona Diamondbacks",
-            "Away Team Rank Name": "Arizona",
-            "Away Abv": "ARI",
-            "Away ID": "2b1ac347",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Chicago Cubs",
             "Home Team Rank Name": "Chi Cubs",
             "Home Abv": "CHC",
@@ -45,8 +45,8 @@
             "Away ML": "-110 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-195 (Bovada)",
-            "Home ML": "−105 (DK)",
-            "Total": "9 (DK)",
+            "Home ML": "-110 (Bovada)",
+            "Total": "7.5 (Bovada)",
             "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "-115 (Bovada)"
         }
@@ -93,13 +93,13 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+140 (DK)",
+            "Away Spread Odds": "+136 (DK)",
             "Away ML": "−122 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-160 (Bovada)",
-            "Home ML": "+104 (Bovada)",
+            "Home ML": "+103 (Bovada)",
             "Total": "9.0 (Bovada)",
-            "Over Total Odds": "−102 (DK)",
+            "Over Total Odds": "−108 (DK)",
             "Under Total Odds": "-110 (Bovada)"
         }
     },
@@ -125,8 +125,8 @@
             "Home Spread Odds": "+125 (Bovada)",
             "Home ML": "−170 (DK)",
             "Total": "8.0 (Bovada)",
-            "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "-105 (Bovada)"
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -172,13 +172,13 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+130 (Bovada)",
-            "Away ML": "−130 (DK)",
+            "Away ML": "-134 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-150 (Bovada)",
-            "Home ML": "+112 (Bovada)",
+            "Home ML": "+114 (DK)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "−102 (DK)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -275,13 +275,13 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "−118 (DK)",
-            "Away ML": "+171 (Bovada)",
+            "Away Spread Odds": "-120 (Bovada)",
+            "Away ML": "+172 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+100 (Bovada)",
             "Home ML": "−205 (DK)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "−115 (DK)",
+            "Over Total Odds": "-120 (Bovada)",
             "Under Total Odds": "+100 (Bovada)"
         }
     },
@@ -387,6 +387,32 @@
             "Total": "7.0 (Bovada)",
             "Over Total Odds": "-115 (Bovada)",
             "Under Total Odds": "-105 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "2b1ac347_d10f1db8_MLB",
+        "Info Table": {
+            "Away Team": "ARI Diamondbacks",
+            "Away Team Rank Name": "Arizona",
+            "Away Abv": "ARI",
+            "Away ID": "2b1ac347",
+            "Home Team": "CHI Cubs",
+            "Home Team Rank Name": "Chi Cubs",
+            "Home Abv": "CHC",
+            "Home ID": "d10f1db8",
+            "Start Time": "2:20PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-999 (DK)",
+            "Away Spread Odds": "-999 (DK)",
+            "Away ML": "−115 (DK)",
+            "Home Spread": "-999 (DK)",
+            "Home Spread Odds": "-999 (DK)",
+            "Home ML": "−105 (DK)",
+            "Total": "9 (DK)",
+            "Over Total Odds": "-999 (DK)",
+            "Under Total Odds": "-999 (DK)"
         }
     }
 ]
