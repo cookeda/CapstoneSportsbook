@@ -6,6 +6,13 @@
         "cover_grade": 2,
         "total_rating": -3
     },
+    "ccadb94e_354ef58_MLB": {
+        "team_to_cover": "Atlanta",
+        "cover_rating": 4.5,
+        "over_score": 4.9,
+        "cover_grade": 2,
+        "total_rating": -1
+    },
     "18a9d733_8714ddbe_MLB": {
         "team_to_cover": "Detroit",
         "cover_rating": 11.7,
@@ -25,7 +32,7 @@
         "cover_rating": 4.7,
         "over_score": 6.5,
         "cover_grade": 2,
-        "total_rating": -3
+        "total_rating": 0
     },
     "fe2ec146_9666114b_MLB": {
         "team_to_cover": "Philadelphia",
@@ -45,7 +52,7 @@
         "team_to_cover": "Baltimore",
         "cover_rating": 1.9,
         "over_score": 5.2,
-        "cover_grade": 1,
+        "cover_grade": 2,
         "total_rating": -2
     },
     "ea799920_db2ee960_MLB": {
@@ -78,23 +85,23 @@
     },
     "2b1ac347_d10f1db8_MLB": {
         "team_to_cover": "Arizona",
-        "cover_rating": 8.0,
-        "over_score": 8.2,
-        "cover_grade": 3,
-        "total_rating": 0
+        "cover_rating": 1.6,
+        "over_score": 5.2,
+        "cover_grade": 1,
+        "total_rating": -2
     },
-    "ccadb94e_354ef58_MLB": {
-        "team_to_cover": "Atlanta",
-        "cover_rating": 4.5,
-        "over_score": 4.9,
+    "486a5e3b_8f2512bc_MLB": {
+        "team_to_cover": "Colorado",
+        "cover_rating": 3.6,
+        "over_score": 6.1,
         "cover_grade": 2,
-        "total_rating": -1
+        "total_rating": -3
     },
     "4005c299_300faa7b_MLB": {
         "team_to_cover": "Seattle",
         "cover_rating": 5.8,
         "over_score": 4.4,
-        "cover_grade": 2,
+        "cover_grade": 3,
         "total_rating": -1
     }
 }
