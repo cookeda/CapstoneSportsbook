@@ -1,60 +1,30 @@
 [
     [
         {
-            "BetTableId": "Bovada_Unknown_f5328492_MLB",
+            "BetTableId": "Bovada_Unknown_300faa7b_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+320",
-                "Away ML": "-1400",
+                "Away Spread Odds": "+260",
+                "Away ML": "-450",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "-485",
-                "Home ML": "+700",
-                "Total": "11.5",
-                "Over Total Odds": "-165",
-                "Under Total Odds": "+125"
+                "Home Spread Odds": "-375",
+                "Home ML": "+300",
+                "Total": "6.0",
+                "Over Total Odds": "-105",
+                "Under Total Odds": "-125"
             },
-            "MatchupID": "Unknown_f5328492_MLB",
+            "MatchupID": "Unknown_300faa7b_MLB",
             "Info Table": {
                 "Away Team": "-999",
                 "Away Team Rank Name": "Unknown",
                 "Away Abv": "Unknown",
                 "Away ID": "Unknown",
-                "Home Team": "Minnesota Twins",
-                "Home Team Rank Name": "Minnesota",
-                "Home Abv": "MIN",
-                "Home ID": "f5328492",
-                "Start Time": "Extra",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_4005c299_300faa7b_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+130",
-                "Away ML": "-185",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "-170",
-                "Home ML": "+140",
-                "Total": "5.0",
-                "Over Total Odds": "-165",
-                "Under Total Odds": "-135"
-            },
-            "MatchupID": "4005c299_300faa7b_MLB",
-            "Info Table": {
-                "Away Team": "Houston Astros",
-                "Away Team Rank Name": "Houston",
-                "Away Abv": "HOU",
-                "Away ID": "4005c299",
                 "Home Team": "Seattle Mariners",
                 "Home Team Rank Name": "Seattle",
                 "Home Abv": "SEA",
                 "Home ID": "300faa7b",
-                "Start Time": "Top 5",
+                "Start Time": "Top 8",
                 "League": "MLB"
             }
         }
