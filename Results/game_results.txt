@@ -6,7 +6,7 @@ Philadelphia @ Pittsburgh (MLB): Cover Rating - 1.7, Over Score - 5.3
 Bet on Philadelphia to cover the spread.
 St. Louis @ Atlanta (MLB): Cover Rating - 4.5, Over Score - 4.9
 Bet on St. Louis to cover the spread.
-Cincinnati @ Washington (MLB): Cover Rating - 1.5, Over Score - 5.1
+Cincinnati @ Washington (MLB): Cover Rating - 1.5, Over Score - 4.1
 Bet on Cincinnati to cover the spread.
 Detroit @ Toronto (MLB): Cover Rating - 11.7, Over Score - 5.6
 Bet on Detroit to cover the spread.
@@ -56,11 +56,11 @@ Milwaukee @ Minnesota (MLB): Over Score - 5.5
 Chi Sox @ Kansas City (MLB): Over Score - 5.4
 Philadelphia @ Pittsburgh (MLB): Over Score - 5.3
 Arizona @ Chi Cubs (MLB): Over Score - 5.2
-Cincinnati @ Washington (MLB): Over Score - 5.1
 St. Louis @ Atlanta (MLB): Over Score - 4.9
 Tampa Bay @ NY Yankees (MLB): Over Score - 4.6
 LA Angels @ Oakland (MLB): Over Score - 4.5
 Baltimore @ Texas (MLB): Over Score - 4.2
+Cincinnati @ Washington (MLB): Over Score - 4.1
 Houston @ Seattle (MLB): Over Score - 3.4
           date league  cover_rating  ... total     home_team    away_team
 0   2024-07-21    MLB     11.133333  ...   8.0     Milwaukee    Minnesota
@@ -80,3 +80,4 @@ Houston @ Seattle (MLB): Over Score - 3.4
 14  2024-07-21    MLB      2.266667  ...   9.0        Boston   LA Dodgers
 
 [15 rows x 10 columns]
+Avoided Overriding DailyPredictions
