@@ -1,17 +1,17 @@
 {
-    "18a9d733_5a31e1ff_MLB": {
-        "team_to_cover": "Cleveland",
-        "cover_rating": 9.6,
-        "over_score": 5.9,
-        "cover_grade": 3,
-        "total_rating": -3
-    },
     "c625b23e_8d47be6d_MLB": {
         "team_to_cover": "Miami",
         "cover_rating": 2.3,
-        "over_score": 6.5,
+        "over_score": 7.0,
         "cover_grade": 2,
         "total_rating": 0
+    },
+    "18a9d733_5a31e1ff_MLB": {
+        "team_to_cover": "Cleveland",
+        "cover_rating": 7.8,
+        "over_score": 6.4,
+        "cover_grade": 3,
+        "total_rating": -3
     },
     "ccadb94e_9666114b_MLB": {
         "team_to_cover": "Pittsburgh",
@@ -27,17 +27,10 @@
         "cover_grade": 3,
         "total_rating": -1
     },
-    "fe2ec146_f5328492_MLB": {
-        "team_to_cover": "Minnesota",
-        "cover_rating": 3.5,
-        "over_score": 5.3,
-        "cover_grade": 2,
-        "total_rating": -2
-    },
     "ea799920_e841daaf_MLB": {
         "team_to_cover": "Texas",
         "cover_rating": 1.5,
-        "over_score": 3.9,
+        "over_score": 4.9,
         "cover_grade": 2,
         "total_rating": -1
     },
@@ -45,6 +38,13 @@
         "team_to_cover": "Chi Cubs",
         "cover_rating": 3.1,
         "over_score": 5.5,
+        "cover_grade": 2,
+        "total_rating": -2
+    },
+    "fe2ec146_f5328492_MLB": {
+        "team_to_cover": "Minnesota",
+        "cover_rating": 3.5,
+        "over_score": 5.3,
         "cover_grade": 2,
         "total_rating": -2
     },
