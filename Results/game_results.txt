@@ -1,6 +1,6 @@
 Tampa Bay @ NY Yankees (MLB): Cover Rating - 4.1, Over Score - 5.6
 Bet on Tampa Bay to cover the spread.
-NY Mets @ Miami (MLB): Cover Rating - 2.7, Over Score - 6.5
+NY Mets @ Miami (MLB): Cover Rating - 4.7, Over Score - 6.5
 Bet on NY Mets to cover the spread.
 St. Louis @ Pittsburgh (MLB): Cover Rating - 2.0, Over Score - 5.1
 Bet on St. Louis to cover the spread.
@@ -29,13 +29,13 @@ Ranked Cover Recommendations Across All Leagues:
 Cincinnati @ Atlanta (MLB): Cover Rating - 11.5, Bet on Cincinnati to cover the spread.
 LA Angels @ Seattle (MLB): Cover Rating - 10.5, Bet on LA Angels to cover the spread.
 Houston @ Oakland (MLB): Cover Rating - 5.9, Bet on Oakland to cover the spread.
+NY Mets @ Miami (MLB): Cover Rating - 4.7, Bet on NY Mets to cover the spread.
 Detroit @ Cleveland (MLB): Cover Rating - 4.6, Bet on Cleveland to cover the spread.
 Tampa Bay @ NY Yankees (MLB): Cover Rating - 4.1, Bet on Tampa Bay to cover the spread.
 Boston @ Colorado (MLB): Cover Rating - 3.9, Bet on Boston to cover the spread.
 SF Giants @ LA Dodgers (MLB): Cover Rating - 3.8, Bet on SF Giants to cover the spread.
 Arizona @ Kansas City (MLB): Cover Rating - 3.7, Bet on Arizona to cover the spread.
 Chi Sox @ Texas (MLB): Cover Rating - 3.5, Bet on Chi Sox to cover the spread.
-NY Mets @ Miami (MLB): Cover Rating - 2.7, Bet on NY Mets to cover the spread.
 St. Louis @ Pittsburgh (MLB): Cover Rating - 2.0, Bet on St. Louis to cover the spread.
 Milwaukee @ Chi Cubs (MLB): Cover Rating - 1.9, Bet on Milwaukee to cover the spread.
 Philadelphia @ Minnesota (MLB): Cover Rating - 1.5, Bet on Philadelphia to cover the spread.
@@ -56,7 +56,7 @@ Houston @ Oakland (MLB): Over Score - 4.8
 LA Angels @ Seattle (MLB): Over Score - 4.1
           date league  cover_rating  ... total     home_team    away_team
 0   2024-07-22    MLB      4.133333  ...   8.5     Tampa Bay   NY Yankees
-1   2024-07-22    MLB      2.666667  ...   8.5       NY Mets        Miami
+1   2024-07-22    MLB      4.666667  ...   8.5       NY Mets        Miami
 2   2024-07-22    MLB      2.000801  ...   8.5     St. Louis   Pittsburgh
 3   2024-07-22    MLB      4.600000  ...   7.5       Detroit    Cleveland
 4   2024-07-22    MLB     11.466667  ...   8.0    Cincinnati      Atlanta
@@ -70,3 +70,4 @@ LA Angels @ Seattle (MLB): Over Score - 4.1
 12  2024-07-22    MLB      3.800000  ...   8.5     SF Giants   LA Dodgers
 
 [13 rows x 10 columns]
+Avoided Overriding DailyPredictions
