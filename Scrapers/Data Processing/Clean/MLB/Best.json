@@ -26,29 +26,133 @@
         }
     },
     {
-        "MatchupID": "8a2d1e91_4e2f3aa1_MLB",
+        "MatchupID": "16f4bf06_6424b504_MLB",
+        "Info Table": {
+            "Away Team": "Tampa Bay Rays",
+            "Away Team Rank Name": "Tampa Bay",
+            "Away Abv": "TB",
+            "Away ID": "16f4bf06",
+            "Home Team": "New York Yankees",
+            "Home Team Rank Name": "NY Yankees",
+            "Home Abv": "NYY",
+            "Home ID": "6424b504",
+            "Start Time": "1:05 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "−155 (DK)",
+            "Away ML": "+130 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+135 (Bovada)",
+            "Home ML": "-155 (Bovada)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "-105 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "c625b23e_8d47be6d_MLB",
+        "Info Table": {
+            "Away Team": "New York Mets",
+            "Away Team Rank Name": "NY Mets",
+            "Away Abv": "NYM",
+            "Away ID": "c625b23e",
+            "Home Team": "Miami Marlins",
+            "Home Team Rank Name": "Miami",
+            "Home Abv": "MIA",
+            "Home ID": "8d47be6d",
+            "Start Time": "6:40 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread Odds": "+102 (DK)",
+            "Away ML": "−162 (DK)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "+130 (DK)",
+            "Home ML": "+138 (Bovada)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-105 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "ccadb94e_9666114b_MLB",
+        "Info Table": {
+            "Away Team": "St. Louis Cardinals",
+            "Away Team Rank Name": "St. Louis",
+            "Away Abv": "STL",
+            "Away ID": "ccadb94e",
+            "Home Team": "Pittsburgh Pirates",
+            "Home Team Rank Name": "Pittsburgh",
+            "Home Abv": "PIT",
+            "Home ID": "9666114b",
+            "Start Time": "6:40 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-180 (Bovada)",
+            "Away ML": "+114 (DK)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+155 (Bovada)",
+            "Home ML": "-134 (Bovada)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "fdd0d44c_354ef58_MLB",
+        "Info Table": {
+            "Away Team": "CIN Reds",
+            "Away Team Rank Name": "Cincinnati",
+            "Away Abv": "CIN",
+            "Away ID": "fdd0d44c",
+            "Home Team": "ATL Braves",
+            "Home Team Rank Name": "Atlanta",
+            "Home Abv": "ATL",
+            "Home ID": "354ef58",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (DK)",
+            "Away Spread Odds": "−162 (DK)",
+            "Away ML": "+130 (DK)",
+            "Home Spread": "-1.5 (DK)",
+            "Home Spread Odds": "+130 (DK)",
+            "Home ML": "−155 (DK)",
+            "Total": "8 (DK)",
+            "Over Total Odds": "−102 (DK)",
+            "Under Total Odds": "−118 (DK)"
+        }
+    },
+    {
+        "MatchupID": "8a2d1e91_8f2512bc_MLB",
         "Info Table": {
             "Away Team": "BOS Red Sox",
             "Away Team Rank Name": "Boston",
             "Away Abv": "BOS",
             "Away ID": "8a2d1e91",
-            "Home Team": "LA Dodgers",
-            "Home Team Rank Name": "LA Dodgers",
-            "Home Abv": "LAD",
-            "Home ID": "4e2f3aa1",
-            "Start Time": "Live Game",
+            "Home Team": "COL Rockies",
+            "Home Team Rank Name": "Colorado",
+            "Home Abv": "COL",
+            "Home ID": "8f2512bc",
+            "Start Time": "8:40PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+2.5 (DK)",
-            "Away Spread Odds": "+114 (DK)",
-            "Away ML": "+800 (DK)",
-            "Home Spread": "-2.5 (DK)",
-            "Home Spread Odds": "−145 (DK)",
-            "Home ML": "−1600 (DK)",
-            "Total": "11.5 (DK)",
-            "Over Total Odds": "+130 (DK)",
-            "Under Total Odds": "−166 (DK)"
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "−120 (DK)",
+            "Away ML": "−185 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "+130 (DK)",
+            "Home ML": "+154 (DK)",
+            "Total": "10.5 (DK)",
+            "Over Total Odds": "−102 (DK)",
+            "Under Total Odds": "−118 (DK)"
         }
     }
 ]

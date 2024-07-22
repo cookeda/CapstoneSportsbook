@@ -1,16 +1,37 @@
 {
-    "fe8acdeb_8b214a89_MLB": {
-        "team_to_cover": "Oakland",
-        "cover_rating": 3.7,
-        "over_score": 6.0,
-        "cover_grade": 0,
+    "16f4bf06_6424b504_MLB": {
+        "team_to_cover": "Tampa Bay",
+        "cover_rating": 4.1,
+        "over_score": 5.6,
+        "cover_grade": 3,
+        "total_rating": -2
+    },
+    "c625b23e_8d47be6d_MLB": {
+        "team_to_cover": "NY Mets",
+        "cover_rating": 2.7,
+        "over_score": 6.5,
+        "cover_grade": 1,
         "total_rating": 0
     },
-    "8a2d1e91_4e2f3aa1_MLB": {
-        "team_to_cover": "LA Dodgers",
-        "cover_rating": 2.7,
-        "over_score": 5.6,
+    "ccadb94e_9666114b_MLB": {
+        "team_to_cover": "St. Louis",
+        "cover_rating": 2.0,
+        "over_score": 5.1,
         "cover_grade": 1,
         "total_rating": -1
+    },
+    "fdd0d44c_354ef58_MLB": {
+        "team_to_cover": "Cincinnati",
+        "cover_rating": 11.5,
+        "over_score": 5.0,
+        "cover_grade": 0,
+        "total_rating": -1
+    },
+    "8a2d1e91_8f2512bc_MLB": {
+        "team_to_cover": "Boston",
+        "cover_rating": 3.9,
+        "over_score": 5.7,
+        "cover_grade": 2,
+        "total_rating": -3
     }
 }

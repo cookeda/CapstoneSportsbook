@@ -1,13 +1,33 @@
-Boston @ LA Dodgers (MLB): Cover Rating - 0.8, Over Score - 6.1
+Tampa Bay @ NY Yankees (MLB): Cover Rating - 4.1, Over Score - 5.6
+Bet on Tampa Bay to cover the spread.
+NY Mets @ Miami (MLB): Cover Rating - 2.7, Over Score - 6.5
+Bet on NY Mets to cover the spread.
+St. Louis @ Pittsburgh (MLB): Cover Rating - 2.0, Over Score - 5.1
+Bet on St. Louis to cover the spread.
+Cincinnati @ Atlanta (MLB): Cover Rating - 11.5, Over Score - 5.0
+Bet on Cincinnati to cover the spread.
+Boston @ Colorado (MLB): Cover Rating - 3.9, Over Score - 5.7
 Bet on Boston to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Boston @ LA Dodgers (MLB): Cover Rating - 0.8, Bet on Boston to cover the spread.
+Cincinnati @ Atlanta (MLB): Cover Rating - 11.5, Bet on Cincinnati to cover the spread.
+Tampa Bay @ NY Yankees (MLB): Cover Rating - 4.1, Bet on Tampa Bay to cover the spread.
+Boston @ Colorado (MLB): Cover Rating - 3.9, Bet on Boston to cover the spread.
+NY Mets @ Miami (MLB): Cover Rating - 2.7, Bet on NY Mets to cover the spread.
+St. Louis @ Pittsburgh (MLB): Cover Rating - 2.0, Bet on St. Louis to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Boston @ LA Dodgers (MLB): Over Score - 6.1
-         date league  cover_rating  ... total  home_team   away_team
-0  2024-07-21    MLB          0.76  ...  11.5     Boston  LA Dodgers
+NY Mets @ Miami (MLB): Over Score - 6.5
+Boston @ Colorado (MLB): Over Score - 5.7
+Tampa Bay @ NY Yankees (MLB): Over Score - 5.6
+St. Louis @ Pittsburgh (MLB): Over Score - 5.1
+Cincinnati @ Atlanta (MLB): Over Score - 5.0
+         date league  cover_rating  ... total   home_team   away_team
+0  2024-07-21    MLB      4.133333  ...   8.5   Tampa Bay  NY Yankees
+1  2024-07-21    MLB      2.666667  ...   8.5     NY Mets       Miami
+2  2024-07-21    MLB      2.000801  ...   8.5   St. Louis  Pittsburgh
+3  2024-07-21    MLB     11.466667  ...   8.0  Cincinnati     Atlanta
+4  2024-07-21    MLB      3.866667  ...  10.5      Boston    Colorado
 
-[1 rows x 10 columns]
+[5 rows x 10 columns]
 Avoided Overriding DailyPredictions
