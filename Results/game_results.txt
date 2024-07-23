@@ -20,7 +20,7 @@ Milwaukee @ Chi Cubs (MLB): Cover Rating - 1.9, Over Score - 5.5
 Bet on Milwaukee to cover the spread.
 Arizona @ Kansas City (MLB): Cover Rating - 5.3, Over Score - 5.3
 Bet on Kansas City to cover the spread.
-Boston @ Colorado (MLB): Cover Rating - 3.9, Over Score - 4.7
+Boston @ Colorado (MLB): Cover Rating - 3.9, Over Score - 5.7
 Bet on Boston to cover the spread.
 LA Angels @ Seattle (MLB): Cover Rating - 10.5, Over Score - 5.1
 Bet on LA Angels to cover the spread.
@@ -51,6 +51,7 @@ Baltimore @ Miami (MLB): Over Score - 6.4
 SF Giants @ LA Dodgers (MLB): Over Score - 6.1
 NY Mets @ NY Yankees (MLB): Over Score - 6.0
 Detroit @ Cleveland (MLB): Over Score - 5.9
+Boston @ Colorado (MLB): Over Score - 5.7
 Milwaukee @ Chi Cubs (MLB): Over Score - 5.5
 Tampa Bay @ Toronto (MLB): Over Score - 5.4
 Philadelphia @ Minnesota (MLB): Over Score - 5.3
@@ -60,7 +61,6 @@ LA Angels @ Seattle (MLB): Over Score - 5.1
 St. Louis @ Pittsburgh (MLB): Over Score - 5.1
 Cincinnati @ Atlanta (MLB): Over Score - 5.0
 Houston @ Oakland (MLB): Over Score - 4.8
-Boston @ Colorado (MLB): Over Score - 4.7
 Chi Sox @ Texas (MLB): Over Score - 3.9
           date league  cover_rating  ... total     home_team    away_team
 0   2024-07-23    MLB      4.533333  ...   7.5     St. Louis   Pittsburgh
@@ -74,7 +74,7 @@ Chi Sox @ Texas (MLB): Over Score - 3.9
 8   2024-07-23    MLB      3.533333  ...   7.0       Chi Sox        Texas
 9   2024-07-23    MLB      1.866667  ...   8.5     Milwaukee     Chi Cubs
 10  2024-07-23    MLB      5.333333  ...   9.5       Arizona  Kansas City
-11  2024-07-23    MLB      3.866667  ...  11.0        Boston     Colorado
+11  2024-07-23    MLB      3.866667  ...  11.5        Boston     Colorado
 12  2024-07-23    MLB     10.533333  ...   7.0     LA Angels      Seattle
 13  2024-07-23    MLB      5.866667  ...   9.0       Houston      Oakland
 14  2024-07-23    MLB      3.800000  ...   9.0     SF Giants   LA Dodgers
