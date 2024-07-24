@@ -1,36 +1,6 @@
 [
     [
         {
-            "BetTableId": "Bovada_Unknown_Unknown_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "-999",
-                "Away Spread Odds": "99",
-                "Away ML": "-999",
-                "Home Spread": "-999",
-                "Home Spread Odds": "99",
-                "Home ML": "-999",
-                "Total": "-999",
-                "Over Total Odds": "99",
-                "Under Total Odds": "99"
-            },
-            "MatchupID": "Unknown_Unknown_MLB",
-            "Info Table": {
-                "Away Team": "-999",
-                "Away Team Rank Name": "Unknown",
-                "Away Abv": "Unknown",
-                "Away ID": "Unknown",
-                "Home Team": "-999",
-                "Home Team Rank Name": "Unknown",
-                "Home Abv": "Unknown",
-                "Home ID": "Unknown",
-                "Start Time": "-999",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_fdd0d44c_354ef58_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
@@ -96,10 +66,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "+115",
-                "Away ML": "-154",
+                "Away ML": "-153",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "-135",
-                "Home ML": "+129",
+                "Home ML": "+128",
                 "Total": "8.0",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
@@ -475,6 +445,36 @@
                 "Home Abv": "KC",
                 "Home ID": "db2ee960",
                 "Start Time": "8:10 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_486a5e3b_4e2f3aa1_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-130",
+                "Away ML": "+168",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+110",
+                "Home ML": "-206",
+                "Total": "8.0",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
+            },
+            "MatchupID": "486a5e3b_4e2f3aa1_MLB",
+            "Info Table": {
+                "Away Team": "San Francisco Giants",
+                "Away Team Rank Name": "SF Giants",
+                "Away Abv": "SF",
+                "Away ID": "486a5e3b",
+                "Home Team": "Los Angeles Dodgers",
+                "Home Team Rank Name": "LA Dodgers",
+                "Home Abv": "LAD",
+                "Home ID": "4e2f3aa1",
+                "Start Time": "10:10 PM",
                 "League": "MLB"
             }
         }
