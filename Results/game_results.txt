@@ -1,28 +1,18 @@
-Tampa Bay @ Toronto (MLB): Cover Rating - 6.1, Over Score - 5.9
-Bet on Tampa Bay to cover the spread.
-SF Giants @ LA Dodgers (MLB): Cover Rating - 1.2, Over Score - 6.6
-Bet on LA Dodgers to cover the spread.
-Atlanta @ NY Mets (MLB): Cover Rating - 1.3, Over Score - 3.9
-Bet on Atlanta to cover the spread.
-Oakland @ LA Angels (MLB): Cover Rating - 4.7, Over Score - 5.3
+Atlanta @ NY Mets (MLB): Cover Rating - 3.7, Over Score - 3.9
+Bet on NY Mets to cover the spread.
+Oakland @ LA Angels (MLB): Cover Rating - 9.7, Over Score - 5.3
 Bet on LA Angels to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Tampa Bay @ Toronto (MLB): Cover Rating - 6.1, Bet on Tampa Bay to cover the spread.
-Oakland @ LA Angels (MLB): Cover Rating - 4.7, Bet on LA Angels to cover the spread.
-Atlanta @ NY Mets (MLB): Cover Rating - 1.3, Bet on Atlanta to cover the spread.
-SF Giants @ LA Dodgers (MLB): Cover Rating - 1.2, Bet on LA Dodgers to cover the spread.
+Oakland @ LA Angels (MLB): Cover Rating - 9.7, Bet on LA Angels to cover the spread.
+Atlanta @ NY Mets (MLB): Cover Rating - 3.7, Bet on NY Mets to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-SF Giants @ LA Dodgers (MLB): Over Score - 6.6
-Tampa Bay @ Toronto (MLB): Over Score - 5.9
 Oakland @ LA Angels (MLB): Over Score - 5.3
 Atlanta @ NY Mets (MLB): Over Score - 3.9
-         date league  cover_rating  ... total  home_team   away_team
-0  2024-07-25    MLB      6.120000  ...  13.5  Tampa Bay     Toronto
-1  2024-07-25    MLB      1.200000  ...   7.5  SF Giants  LA Dodgers
-2  2024-07-25    MLB      1.333333  ...   7.0    Atlanta     NY Mets
-3  2024-07-25    MLB      4.733333  ...   9.5    Oakland   LA Angels
+         date league  cover_rating  ... total  home_team  away_team
+0  2024-07-25    MLB      3.666667  ...   7.0    Atlanta    NY Mets
+1  2024-07-25    MLB      9.733333  ...   9.5    Oakland  LA Angels
 
-[4 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions
