@@ -78,55 +78,29 @@
         }
     },
     {
-        "MatchupID": "2b1ac347_db2ee960_MLB",
-        "Info Table": {
-            "Away Team": "Arizona Diamondbacks",
-            "Away Team Rank Name": "Arizona",
-            "Away Abv": "ARI",
-            "Away ID": "2b1ac347",
-            "Home Team": "Kansas City Royals",
-            "Home Team Rank Name": "Kansas City",
-            "Home Abv": "KC",
-            "Home ID": "db2ee960",
-            "Start Time": "FINAL",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-3.5 (Bovada)",
-            "Away Spread Odds": "-400 (Bovada)",
-            "Away ML": "-6600 (Bovada)",
-            "Home Spread": "-3.5 (Bovada)",
-            "Home Spread Odds": "+275 (Bovada)",
-            "Home ML": "+1500 (Bovada)",
-            "Total": "14.5 (Bovada)",
-            "Over Total Odds": "+650 (Bovada)",
-            "Under Total Odds": "-1200 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "486a5e3b_4e2f3aa1_MLB",
         "Info Table": {
-            "Away Team": "SF Giants",
+            "Away Team": "San Francisco Giants",
             "Away Team Rank Name": "SF Giants",
             "Away Abv": "SF",
             "Away ID": "486a5e3b",
-            "Home Team": "LA Dodgers",
+            "Home Team": "Los Angeles Dodgers",
             "Home Team Rank Name": "LA Dodgers",
             "Home Abv": "LAD",
             "Home ID": "4e2f3aa1",
-            "Start Time": "Live Game",
+            "Start Time": "Top 7",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "−120 (DK)",
-            "Away ML": "+240 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "−110 (DK)",
-            "Home ML": "−330 (DK)",
-            "Total": "6.5 (DK)",
-            "Over Total Odds": "+105 (DK)",
-            "Under Total Odds": "−135 (DK)"
+            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread Odds": "+165 (DK)",
+            "Away ML": "-220 (Bovada)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "-210 (Bovada)",
+            "Home ML": "+170 (DK)",
+            "Total": "5.5 (Bovada)",
+            "Over Total Odds": "+105 (Bovada)",
+            "Under Total Odds": "-135 (Bovada)"
         }
     }
 ]
