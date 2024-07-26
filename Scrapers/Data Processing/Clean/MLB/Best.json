@@ -26,12 +26,12 @@
         }
     },
     {
-        "MatchupID": "Unknown_fe2ec146_MLB",
+        "MatchupID": "5a31e1ff_fe2ec146_MLB",
         "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
+            "Away Team": "Cleveland Guardians",
+            "Away Team Rank Name": "Cleveland",
+            "Away Abv": "CLE",
+            "Away ID": "5a31e1ff",
             "Home Team": "Philadelphia Phillies",
             "Home Team Rank Name": "Philadelphia",
             "Home Abv": "PHI",
@@ -41,10 +41,10 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-150 (Bovada)",
-            "Away ML": "+141 (Bovada)",
+            "Away Spread Odds": "-140 (Bovada)",
+            "Away ML": "+145 (DK)",
             "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+130 (Bovada)",
+            "Home Spread Odds": "+120 (Bovada)",
             "Home ML": "-170 (Bovada)",
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "-110 (Bovada)",
@@ -68,10 +68,10 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+105 (Bovada)",
-            "Away ML": "-168 (Bovada)",
+            "Away ML": "−166 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+120 (DK)",
-            "Home ML": "+142 (DK)",
+            "Home ML": "+140 (Bovada)",
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "−110 (DK)",
             "Under Total Odds": "-105 (Bovada)"
@@ -172,13 +172,13 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+130 (DK)",
-            "Away ML": "-126 (Bovada)",
+            "Away ML": "-128 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+120 (DK)",
             "Home ML": "+110 (DK)",
-            "Total": "9.5 (Bovada)",
-            "Over Total Odds": "−115 (DK)",
-            "Under Total Odds": "+100 (Bovada)"
+            "Total": "10.0 (Bovada)",
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "−108 (DK)"
         }
     },
     {
@@ -197,14 +197,14 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-165 (Bovada)",
-            "Away ML": "+122 (Bovada)",
+            "Away Spread Odds": "−162 (DK)",
+            "Away ML": "+124 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+140 (Bovada)",
-            "Home ML": "−142 (DK)",
+            "Home ML": "-145 (Bovada)",
             "Total": "9.0 (Bovada)",
             "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "−102 (DK)"
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -223,10 +223,10 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-195 (Bovada)",
+            "Away Spread Odds": "−198 (DK)",
             "Away ML": "+110 (DK)",
             "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+165 (Bovada)",
+            "Home Spread Odds": "+170 (Bovada)",
             "Home ML": "-128 (Bovada)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "-105 (Bovada)",
@@ -282,7 +282,7 @@
             "Home ML": "+133 (Bovada)",
             "Total": "7.5 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "−118 (DK)"
+            "Under Total Odds": "+105 (DK)"
         }
     },
     {
@@ -335,32 +335,6 @@
             "Total": "8.0 (Bovada)",
             "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "-115 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "5a31e1ff_fe2ec146_MLB",
-        "Info Table": {
-            "Away Team": "CLE Guardians",
-            "Away Team Rank Name": "Cleveland",
-            "Away Abv": "CLE",
-            "Away ID": "5a31e1ff",
-            "Home Team": "PHI Phillies",
-            "Home Team Rank Name": "Philadelphia",
-            "Home Abv": "PHI",
-            "Home ID": "fe2ec146",
-            "Start Time": "6:40PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "−142 (DK)",
-            "Away ML": "+145 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "+120 (DK)",
-            "Home ML": "−175 (DK)",
-            "Total": "8 (DK)",
-            "Over Total Odds": "−112 (DK)",
-            "Under Total Odds": "−108 (DK)"
         }
     }
 ]
