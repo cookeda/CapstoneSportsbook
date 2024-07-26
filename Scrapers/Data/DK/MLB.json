@@ -102,7 +102,7 @@
                 "Home ML": "−198",
                 "Total": "9",
                 "Over Total Odds": "−110",
-                "Under Total Odds": "-999"
+                "Under Total Odds": "−110"
             },
             "MatchupID": "3f4235d4_e8bdce10_MLB",
             "Info Table": {
@@ -241,36 +241,6 @@
     ],
     [
         {
-            "BetTableId": "DK_300faa7b_ea799920_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+110",
-                "Away ML": "−155",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "+124",
-                "Home ML": "+130",
-                "Total": "7",
-                "Over Total Odds": "−125",
-                "Under Total Odds": "+105"
-            },
-            "MatchupID": "300faa7b_ea799920_MLB",
-            "Info Table": {
-                "Away Team": "SEA Mariners",
-                "Away Team Rank Name": "Seattle",
-                "Away Abv": "SEA",
-                "Away ID": "300faa7b",
-                "Home Team": "CHI White Sox",
-                "Home Team Rank Name": "Chi Sox",
-                "Home Abv": "CWS",
-                "Home ID": "ea799920",
-                "Start Time": "8:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_8d47be6d_c5227021_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -294,6 +264,36 @@
                 "Home Team Rank Name": "Milwaukee",
                 "Home Abv": "MIL",
                 "Home ID": "c5227021",
+                "Start Time": "8:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_300faa7b_ea799920_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+110",
+                "Away ML": "−155",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "+124",
+                "Home ML": "+130",
+                "Total": "7",
+                "Over Total Odds": "−120",
+                "Under Total Odds": "+100"
+            },
+            "MatchupID": "300faa7b_ea799920_MLB",
+            "Info Table": {
+                "Away Team": "SEA Mariners",
+                "Away Team Rank Name": "Seattle",
+                "Away Abv": "SEA",
+                "Away ID": "300faa7b",
+                "Home Team": "CHI White Sox",
+                "Home Team Rank Name": "Chi Sox",
+                "Home Abv": "CWS",
+                "Home ID": "ea799920",
                 "Start Time": "8:10PM",
                 "League": "MLB"
             }
