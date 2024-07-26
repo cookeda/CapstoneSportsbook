@@ -78,29 +78,29 @@
         }
     },
     {
-        "MatchupID": "354ef58_c625b23e_MLB",
+        "MatchupID": "Unknown_c625b23e_MLB",
         "Info Table": {
-            "Away Team": "Atlanta Braves",
-            "Away Team Rank Name": "Atlanta",
-            "Away Abv": "ATL",
-            "Away ID": "354ef58",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "New York Mets",
             "Home Team Rank Name": "NY Mets",
             "Home Abv": "NYM",
             "Home ID": "c625b23e",
-            "Start Time": "Bot 3",
+            "Start Time": "Bot 7",
             "League": "MLB"
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+114 (DK)",
-            "Away ML": "−175 (DK)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "-135 (Bovada)",
-            "Home ML": "+145 (Bovada)",
-            "Total": "6.5 (DK)",
-            "Over Total Odds": "+105 (DK)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Away Spread Odds": "+305 (Bovada)",
+            "Away ML": "+105 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "-460 (Bovada)",
+            "Home ML": "-135 (Bovada)",
+            "Total": "6.0 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -118,15 +118,41 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "+150 (DK)",
             "Away ML": "−105 (DK)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "−145 (DK)",
-            "Home ML": "-110 (Bovada)",
-            "Total": "10 (DK)",
-            "Over Total Odds": "+100 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "+175 (Bovada)",
+            "Home ML": "-113 (Bovada)",
+            "Total": "9.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
             "Under Total Odds": "-105 (Bovada)"
+        }
+    },
+    {
+        "MatchupID": "354ef58_c625b23e_MLB",
+        "Info Table": {
+            "Away Team": "ATL Braves",
+            "Away Team Rank Name": "Atlanta",
+            "Away Abv": "ATL",
+            "Away ID": "354ef58",
+            "Home Team": "NY Mets",
+            "Home Team Rank Name": "NY Mets",
+            "Home Abv": "NYM",
+            "Home ID": "c625b23e",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+300 (DK)",
+            "Away ML": "+105 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "−425 (DK)",
+            "Home ML": "−135 (DK)",
+            "Total": "6.5 (DK)",
+            "Over Total Odds": "+114 (DK)",
+            "Under Total Odds": "−145 (DK)"
         }
     }
 ]
