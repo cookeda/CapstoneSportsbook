@@ -1,9 +1,9 @@
 Cincinnati @ Tampa Bay (MLB): Cover Rating - 2.0, Over Score - 4.4
 Bet on Tampa Bay to cover the spread.
-San Diego @ Baltimore (MLB): Cover Rating - 0.5, Over Score - 5.6
-Bet on Baltimore to cover the spread.
 Cleveland @ Philadelphia (MLB): Cover Rating - 5.4, Over Score - 5.3
 Bet on Cleveland to cover the spread.
+San Diego @ Baltimore (MLB): Cover Rating - 0.5, Over Score - 5.6
+Bet on Baltimore to cover the spread.
 Texas @ Toronto (MLB): Cover Rating - 3.0, Over Score - 5.1
 Bet on Toronto to cover the spread.
 Atlanta @ NY Mets (MLB): Cover Rating - 3.7, Over Score - 4.9
@@ -64,8 +64,8 @@ Seattle @ Chi Sox (MLB): Over Score - 4.2
 Washington @ St. Louis (MLB): Over Score - 4.2
           date league  cover_rating  ... total   home_team     away_team
 0   2024-07-28    MLB      2.000000  ...   7.5  Cincinnati     Tampa Bay
-1   2024-07-28    MLB      0.466667  ...   9.5   San Diego     Baltimore
-2   2024-07-28    MLB      5.400000  ...  10.0   Cleveland  Philadelphia
+1   2024-07-28    MLB      5.400000  ...   9.5   Cleveland  Philadelphia
+2   2024-07-28    MLB      0.466667  ...   9.5   San Diego     Baltimore
 3   2024-07-28    MLB      3.000000  ...   8.5       Texas       Toronto
 4   2024-07-28    MLB      3.666667  ...   8.0     Atlanta       NY Mets
 5   2024-07-28    MLB      1.133333  ...   8.0   Minnesota       Detroit
