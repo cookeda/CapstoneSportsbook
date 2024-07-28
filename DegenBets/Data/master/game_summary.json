@@ -1,37 +1,30 @@
 {
-    "8d47be6d_c5227021_MLB": {
-        "team_to_cover": "Miami",
-        "cover_rating": 4.0,
-        "over_score": 6.2,
-        "cover_grade": 2,
-        "total_rating": 0
-    },
     "8f2512bc_486a5e3b_MLB": {
         "team_to_cover": "Colorado",
         "cover_rating": 10.0,
         "over_score": 6.1,
         "cover_grade": 3,
-        "total_rating": -3
+        "total_rating": 0
     },
     "8b214a89_fe8acdeb_MLB": {
         "team_to_cover": "LA Angels",
-        "cover_rating": 2.9,
+        "cover_rating": 0.7,
         "over_score": 5.3,
         "cover_grade": 1,
-        "total_rating": -1
+        "total_rating": -2
     },
     "9666114b_2b1ac347_MLB": {
         "team_to_cover": "Pittsburgh",
         "cover_rating": 11.0,
         "over_score": 6.0,
         "cover_grade": 0,
-        "total_rating": -2
+        "total_rating": -3
     },
     "6424b504_8a2d1e91_MLB": {
         "team_to_cover": "NY Yankees",
         "cover_rating": 2.2,
         "over_score": 5.3,
-        "cover_grade": 1,
-        "total_rating": -1
+        "cover_grade": 2,
+        "total_rating": -2
     }
 }
