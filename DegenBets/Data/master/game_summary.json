@@ -1,63 +1,49 @@
 {
-    "5a31e1ff_fe2ec146_MLB": {
-        "team_to_cover": "Cleveland",
-        "cover_rating": 10.1,
-        "over_score": 5.3,
-        "cover_grade": 3,
-        "total_rating": -2
-    },
-    "f5328492_18a9d733_MLB": {
-        "team_to_cover": "Minnesota",
-        "cover_rating": 5.5,
-        "over_score": 6.2,
-        "cover_grade": 2,
-        "total_rating": 0
-    },
     "8f2512bc_486a5e3b_MLB": {
         "team_to_cover": "Colorado",
         "cover_rating": 7.1,
         "over_score": 5.6,
         "cover_grade": 2,
-        "total_rating": -3
+        "total_rating": -2
     },
     "d10f1db8_db2ee960_MLB": {
         "team_to_cover": "Kansas City",
-        "cover_rating": 0.8,
-        "over_score": 5.2,
+        "cover_rating": 0.5,
+        "over_score": 5.7,
         "cover_grade": 1,
-        "total_rating": -1
+        "total_rating": 0
     },
     "4e2f3aa1_4005c299_MLB": {
         "team_to_cover": "LA Dodgers",
-        "cover_rating": 6.3,
+        "cover_rating": 3.1,
         "over_score": 5.6,
-        "cover_grade": 2,
-        "total_rating": -3
+        "cover_grade": 1,
+        "total_rating": -2
     },
     "8d47be6d_c5227021_MLB": {
-        "team_to_cover": "Milwaukee",
-        "cover_rating": 3.1,
+        "team_to_cover": "Miami",
+        "cover_rating": 3.9,
         "over_score": 5.7,
         "cover_grade": 1,
-        "total_rating": -3
+        "total_rating": 0
     },
     "6424b504_8a2d1e91_MLB": {
         "team_to_cover": "NY Yankees",
         "cover_rating": 11.2,
         "over_score": 5.3,
         "cover_grade": 0,
-        "total_rating": -2
+        "total_rating": -1
     },
     "300faa7b_ea799920_MLB": {
         "team_to_cover": "Chi Sox",
-        "cover_rating": 5.1,
-        "over_score": 5.2,
-        "cover_grade": 1,
-        "total_rating": -1
+        "cover_rating": 5.0,
+        "over_score": 5.7,
+        "cover_grade": 2,
+        "total_rating": 0
     },
     "9666114b_2b1ac347_MLB": {
         "team_to_cover": "Pittsburgh",
-        "cover_rating": 11.0,
+        "cover_rating": 10.3,
         "over_score": 5.5,
         "cover_grade": 3,
         "total_rating": -2
@@ -73,7 +59,7 @@
         "team_to_cover": "Oakland",
         "cover_rating": 4.3,
         "over_score": 4.3,
-        "cover_grade": 1,
+        "cover_grade": 2,
         "total_rating": -1
     }
 }
