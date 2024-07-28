@@ -26,7 +26,7 @@ Oakland @ LA Angels (MLB): Cover Rating - 0.7, Over Score - 5.3
 Bet on LA Angels to cover the spread.
 Pittsburgh @ Arizona (MLB): Cover Rating - 3.0, Over Score - 5.5
 Bet on Arizona to cover the spread.
-NY Yankees @ Boston (MLB): Cover Rating - 2.8, Over Score - 4.3
+NY Yankees @ Boston (MLB): Cover Rating - 2.8, Over Score - 5.3
 Bet on Boston to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
@@ -54,12 +54,12 @@ San Diego @ Baltimore (MLB): Over Score - 5.6
 Pittsburgh @ Arizona (MLB): Over Score - 5.5
 Oakland @ LA Angels (MLB): Over Score - 5.3
 Cleveland @ Philadelphia (MLB): Over Score - 5.3
+NY Yankees @ Boston (MLB): Over Score - 5.3
 Chi Cubs @ Kansas City (MLB): Over Score - 5.2
 Texas @ Toronto (MLB): Over Score - 5.1
 LA Dodgers @ Houston (MLB): Over Score - 5.1
 Atlanta @ NY Mets (MLB): Over Score - 4.9
 Cincinnati @ Tampa Bay (MLB): Over Score - 4.4
-NY Yankees @ Boston (MLB): Over Score - 4.3
 Seattle @ Chi Sox (MLB): Over Score - 4.2
 Washington @ St. Louis (MLB): Over Score - 4.2
           date league  cover_rating  ... total   home_team     away_team
@@ -68,7 +68,7 @@ Washington @ St. Louis (MLB): Over Score - 4.2
 2   2024-07-28    MLB      0.466667  ...   9.5   San Diego     Baltimore
 3   2024-07-28    MLB      3.000000  ...   8.5       Texas       Toronto
 4   2024-07-28    MLB      3.666667  ...   8.0     Atlanta       NY Mets
-5   2024-07-28    MLB      1.133333  ...   8.0   Minnesota       Detroit
+5   2024-07-28    MLB      1.133333  ...   8.5   Minnesota       Detroit
 6   2024-07-28    MLB      4.133333  ...   8.0       Miami     Milwaukee
 7   2024-07-28    MLB      1.800000  ...   8.5    Chi Cubs   Kansas City
 8   2024-07-28    MLB     10.066667  ...   7.0     Seattle       Chi Sox
@@ -80,3 +80,4 @@ Washington @ St. Louis (MLB): Over Score - 4.2
 14  2024-07-28    MLB      2.800000  ...   9.5  NY Yankees        Boston
 
 [15 rows x 10 columns]
+Avoided Overriding DailyPredictions
