@@ -41,8 +41,8 @@
                 "Home Spread Odds": "−155",
                 "Home ML": "−142",
                 "Total": "9.5",
-                "Over Total Odds": "−115",
-                "Under Total Odds": "−105"
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
             },
             "MatchupID": "5a31e1ff_fe2ec146_MLB",
             "Info Table": {
@@ -181,6 +181,36 @@
     ],
     [
         {
+            "BetTableId": "DK_8d47be6d_c5227021_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−118",
+                "Away ML": "+170",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "−155",
+                "Home ML": "−205",
+                "Total": "8",
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−105"
+            },
+            "MatchupID": "8d47be6d_c5227021_MLB",
+            "Info Table": {
+                "Away Team": "MIA Marlins",
+                "Away Team Rank Name": "Miami",
+                "Away Abv": "MIA",
+                "Away ID": "8d47be6d",
+                "Home Team": "MIL Brewers",
+                "Home Team Rank Name": "Milwaukee",
+                "Home Abv": "MIL",
+                "Home ID": "c5227021",
+                "Start Time": "2:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "DK_d10f1db8_db2ee960_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -204,36 +234,6 @@
                 "Home Team Rank Name": "Kansas City",
                 "Home Abv": "KC",
                 "Home ID": "db2ee960",
-                "Start Time": "2:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_8d47be6d_c5227021_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−118",
-                "Away ML": "+170",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "−155",
-                "Home ML": "−205",
-                "Total": "8.5",
-                "Over Total Odds": "−102",
-                "Under Total Odds": "−118"
-            },
-            "MatchupID": "8d47be6d_c5227021_MLB",
-            "Info Table": {
-                "Away Team": "MIA Marlins",
-                "Away Team Rank Name": "Miami",
-                "Away Abv": "MIA",
-                "Away ID": "8d47be6d",
-                "Home Team": "MIL Brewers",
-                "Home Team Rank Name": "Milwaukee",
-                "Home Abv": "MIL",
-                "Home ID": "c5227021",
                 "Start Time": "2:10PM",
                 "League": "MLB"
             }
@@ -425,14 +425,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+142",
+                "Away Spread Odds": "+145",
                 "Away ML": "−112",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "−155",
                 "Home ML": "−108",
                 "Total": "9.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "+102",
+                "Under Total Odds": "−122"
             },
             "MatchupID": "6424b504_8a2d1e91_MLB",
             "Info Table": {
