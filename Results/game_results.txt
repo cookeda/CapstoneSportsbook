@@ -1,13 +1,43 @@
-NY Yankees @ Boston (MLB): Cover Rating - 6.3, Over Score - 5.8
-Bet on NY Yankees to cover the spread.
+Cleveland @ Detroit (MLB): Cover Rating - 2.3, Over Score - 5.6
+Bet on Detroit to cover the spread.
+Minnesota @ NY Mets (MLB): Cover Rating - 3.3, Over Score - 5.3
+Bet on NY Mets to cover the spread.
+Seattle @ Boston (MLB): Cover Rating - 3.8, Over Score - 5.3
+Bet on Boston to cover the spread.
+Texas @ St. Louis (MLB): Cover Rating - 9.8, Over Score - 5.1
+Bet on St. Louis to cover the spread.
+Kansas City @ Chi Sox (MLB): Cover Rating - 1.5, Over Score - 4.9
+Bet on Chi Sox to cover the spread.
+Atlanta @ Milwaukee (MLB): Cover Rating - 1.5, Over Score - 5.5
+Bet on Milwaukee to cover the spread.
+Washington @ Arizona (MLB): Cover Rating - 6.5, Over Score - 5.4
+Bet on Washington to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-NY Yankees @ Boston (MLB): Cover Rating - 6.3, Bet on NY Yankees to cover the spread.
+Texas @ St. Louis (MLB): Cover Rating - 9.8, Bet on St. Louis to cover the spread.
+Washington @ Arizona (MLB): Cover Rating - 6.5, Bet on Washington to cover the spread.
+Seattle @ Boston (MLB): Cover Rating - 3.8, Bet on Boston to cover the spread.
+Minnesota @ NY Mets (MLB): Cover Rating - 3.3, Bet on NY Mets to cover the spread.
+Cleveland @ Detroit (MLB): Cover Rating - 2.3, Bet on Detroit to cover the spread.
+Kansas City @ Chi Sox (MLB): Cover Rating - 1.5, Bet on Chi Sox to cover the spread.
+Atlanta @ Milwaukee (MLB): Cover Rating - 1.5, Bet on Milwaukee to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Yankees @ Boston (MLB): Over Score - 5.8
-         date league  cover_rating  ... total   home_team  away_team
-0  2024-07-28    MLB      6.327273  ...  10.5  NY Yankees     Boston
+Cleveland @ Detroit (MLB): Over Score - 5.6
+Atlanta @ Milwaukee (MLB): Over Score - 5.5
+Washington @ Arizona (MLB): Over Score - 5.4
+Seattle @ Boston (MLB): Over Score - 5.3
+Minnesota @ NY Mets (MLB): Over Score - 5.3
+Texas @ St. Louis (MLB): Over Score - 5.1
+Kansas City @ Chi Sox (MLB): Over Score - 4.9
+         date league  cover_rating  ... total    home_team  away_team
+0  2024-07-28    MLB      2.333333  ...   7.0    Cleveland    Detroit
+1  2024-07-28    MLB      3.333333  ...   8.5    Minnesota    NY Mets
+2  2024-07-28    MLB      3.800000  ...   8.5      Seattle     Boston
+3  2024-07-28    MLB      9.800000  ...   8.5        Texas  St. Louis
+4  2024-07-28    MLB      1.533333  ...   9.0  Kansas City    Chi Sox
+5  2024-07-28    MLB      1.466667  ...   8.5      Atlanta  Milwaukee
+6  2024-07-28    MLB      6.466667  ...   9.0   Washington    Arizona
 
-[1 rows x 10 columns]
+[7 rows x 10 columns]
 Avoided Overriding DailyPredictions
