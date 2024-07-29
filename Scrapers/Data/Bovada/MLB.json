@@ -31,15 +31,45 @@
     ],
     [
         {
+            "BetTableId": "Bovada_8714ddbe_e8bdce10_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-999",
+                "Away Spread Odds": "99",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "99",
+                "Home ML": "-999",
+                "Total": "1.5",
+                "Over Total Odds": "+190",
+                "Under Total Odds": "-260"
+            },
+            "MatchupID": "8714ddbe_e8bdce10_MLB",
+            "Info Table": {
+                "Away Team": "Toronto Blue Jays",
+                "Away Team Rank Name": "Toronto",
+                "Away Abv": "TOR",
+                "Away ID": "8714ddbe",
+                "Home Team": "Baltimore Orioles",
+                "Home Team Rank Name": "Baltimore",
+                "Home Abv": "BAL",
+                "Home ID": "e8bdce10",
+                "Start Time": "6:05 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "Bovada_5a31e1ff_18a9d733_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+155",
-                "Away ML": "-119",
+                "Away Spread Odds": "+150",
+                "Away ML": "-121",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "-180",
-                "Home ML": "-101",
+                "Home Spread Odds": "-175",
+                "Home ML": "+101",
                 "Total": "7.0",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
@@ -126,10 +156,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-200",
-                "Away ML": "+105",
+                "Away ML": "+104",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "-125",
+                "Home ML": "-124",
                 "Total": "8.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -156,13 +186,13 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-200",
-                "Away ML": "+106",
+                "Away ML": "+107",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+170",
-                "Home ML": "-126",
+                "Home ML": "-128",
                 "Total": "8.5",
-                "Over Total Odds": "-115",
-                "Under Total Odds": "-105"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             },
             "MatchupID": "300faa7b_8a2d1e91_MLB",
             "Info Table": {
@@ -251,8 +281,8 @@
                 "Home Spread Odds": "-115",
                 "Home ML": "+144",
                 "Total": "9.0",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
+                "Over Total Odds": "+100",
+                "Under Total Odds": "-120"
             },
             "MatchupID": "db2ee960_ea799920_MLB",
             "Info Table": {
@@ -295,6 +325,36 @@
                 "Home Abv": "HOU",
                 "Home ID": "4005c299",
                 "Start Time": "8:10 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_dd4357ee_2b1ac347_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-145",
+                "Away ML": "+143",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+125",
+                "Home ML": "-174",
+                "Total": "9.0",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
+            },
+            "MatchupID": "dd4357ee_2b1ac347_MLB",
+            "Info Table": {
+                "Away Team": "Washington Nationals",
+                "Away Team Rank Name": "Washington",
+                "Away Abv": "WSH",
+                "Away ID": "dd4357ee",
+                "Home Team": "Arizona Diamondbacks",
+                "Home Team Rank Name": "Arizona",
+                "Home Abv": "ARI",
+                "Home ID": "2b1ac347",
+                "Start Time": "9:40 PM",
                 "League": "MLB"
             }
         }
