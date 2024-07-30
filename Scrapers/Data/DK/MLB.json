@@ -294,6 +294,36 @@
                 "Home Team Rank Name": "Houston",
                 "Home Abv": "HOU",
                 "Home ID": "4005c299",
+                "Start Time": "8:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_354ef58_c5227021_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−205",
+                "Away ML": "+105",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "−120",
+                "Home ML": "−125",
+                "Total": "9",
+                "Over Total Odds": "−120",
+                "Under Total Odds": "+100"
+            },
+            "MatchupID": "354ef58_c5227021_MLB",
+            "Info Table": {
+                "Away Team": "ATL Braves",
+                "Away Team Rank Name": "Atlanta",
+                "Away Abv": "ATL",
+                "Away ID": "354ef58",
+                "Home Team": "MIL Brewers",
+                "Home Team Rank Name": "Milwaukee",
+                "Home Abv": "MIL",
+                "Home ID": "c5227021",
                 "Start Time": "Live Game",
                 "League": "MLB"
             }
