@@ -2,7 +2,7 @@ Cleveland @ Detroit (MLB): Cover Rating - 2.3, Over Score - 5.6
 Bet on Detroit to cover the spread.
 Toronto @ Baltimore (MLB): Cover Rating - 4.3, Over Score - 5.4
 Bet on Baltimore to cover the spread.
-NY Yankees @ Philadelphia (MLB): Cover Rating - 3.7, Over Score - 4.3
+NY Yankees @ Philadelphia (MLB): Cover Rating - 3.7, Over Score - 5.3
 Bet on Philadelphia to cover the spread.
 Miami @ Tampa Bay (MLB): Cover Rating - 6.3, Over Score - 5.3
 Bet on Miami to cover the spread.
@@ -53,6 +53,7 @@ LA Dodgers @ San Diego (MLB): Over Score - 5.6
 Toronto @ Baltimore (MLB): Over Score - 5.4
 Washington @ Arizona (MLB): Over Score - 5.4
 Miami @ Tampa Bay (MLB): Over Score - 5.3
+NY Yankees @ Philadelphia (MLB): Over Score - 5.3
 Seattle @ Boston (MLB): Over Score - 5.3
 Minnesota @ NY Mets (MLB): Over Score - 5.3
 Oakland @ SF Giants (MLB): Over Score - 5.2
@@ -60,14 +61,13 @@ Pittsburgh @ Houston (MLB): Over Score - 5.1
 Texas @ St. Louis (MLB): Over Score - 5.1
 Kansas City @ Chi Sox (MLB): Over Score - 4.9
 Atlanta @ Milwaukee (MLB): Over Score - 4.5
-NY Yankees @ Philadelphia (MLB): Over Score - 4.3
 Chi Cubs @ Cincinnati (MLB): Over Score - 3.9
           date league  cover_rating  ... total    home_team     away_team
-0   2024-07-30    MLB      2.333333  ...   8.0    Cleveland       Detroit
+0   2024-07-30    MLB      2.333333  ...   8.5    Cleveland       Detroit
 1   2024-07-30    MLB      4.266667  ...   8.5      Toronto     Baltimore
-2   2024-07-30    MLB      3.733333  ...   9.0   NY Yankees  Philadelphia
+2   2024-07-30    MLB      3.733333  ...   9.5   NY Yankees  Philadelphia
 3   2024-07-30    MLB      6.266667  ...   7.5        Miami     Tampa Bay
-4   2024-07-30    MLB      3.800000  ...  10.0      Seattle        Boston
+4   2024-07-30    MLB      3.800000  ...  10.5      Seattle        Boston
 5   2024-07-30    MLB      5.666667  ...   8.5    Minnesota       NY Mets
 6   2024-07-30    MLB      3.600000  ...   9.0     Chi Cubs    Cincinnati
 7   2024-07-30    MLB      9.800000  ...   8.5        Texas     St. Louis
