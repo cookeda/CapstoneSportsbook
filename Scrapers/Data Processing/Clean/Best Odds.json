@@ -78,133 +78,29 @@
         }
     },
     {
-        "MatchupID": "8714ddbe_e8bdce10_MLB",
+        "MatchupID": "Unknown_fe2ec146_MLB",
         "Info Table": {
-            "Away Team": "Toronto Blue Jays",
-            "Away Team Rank Name": "Toronto",
-            "Away Abv": "TOR",
-            "Away ID": "8714ddbe",
-            "Home Team": "Baltimore Orioles",
-            "Home Team Rank Name": "Baltimore",
-            "Home Abv": "BAL",
-            "Home ID": "e8bdce10",
-            "Start Time": "Top 8",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+3.5 (Bovada)",
-            "Away Spread Odds": "+170 (DK)",
-            "Away ML": "+1400 (Bovada)",
-            "Home Spread": "+3.5 (Bovada)",
-            "Home Spread Odds": "-210 (Bovada)",
-            "Home ML": "-999 (DK)",
-            "Total": "9.0 (Bovada)",
-            "Over Total Odds": "+120 (Bovada)",
-            "Under Total Odds": "+124 (DK)"
-        }
-    },
-    {
-        "MatchupID": "6424b504_fe2ec146_MLB",
-        "Info Table": {
-            "Away Team": "New York Yankees",
-            "Away Team Rank Name": "NY Yankees",
-            "Away Abv": "NYY",
-            "Away ID": "6424b504",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Philadelphia Phillies",
             "Home Team Rank Name": "Philadelphia",
             "Home Abv": "PHI",
             "Home ID": "fe2ec146",
-            "Start Time": "Bot 7",
+            "Start Time": "Extra",
             "League": "MLB"
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+180 (Bovada)",
-            "Away ML": "−180 (DK)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "−220 (DK)",
-            "Home ML": "+140 (Bovada)",
+            "Away Spread Odds": "+375 (Bovada)",
+            "Away ML": "+175 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "-600 (Bovada)",
+            "Home ML": "-230 (Bovada)",
             "Total": "11.5 (Bovada)",
-            "Over Total Odds": "+120 (Bovada)",
-            "Under Total Odds": "−110 (DK)"
-        }
-    },
-    {
-        "MatchupID": "8d47be6d_16f4bf06_MLB",
-        "Info Table": {
-            "Away Team": "Miami Marlins",
-            "Away Team Rank Name": "Miami",
-            "Away Abv": "MIA",
-            "Away ID": "8d47be6d",
-            "Home Team": "Tampa Bay Rays",
-            "Home Team Rank Name": "Tampa Bay",
-            "Home Abv": "TB",
-            "Home ID": "16f4bf06",
-            "Start Time": "Bot 7",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+3.0 (Bovada)",
-            "Away Spread Odds": "+210 (DK)",
-            "Away ML": "+1600 (DK)",
-            "Home Spread": "+3.0 (Bovada)",
-            "Home Spread Odds": "-130 (Bovada)",
-            "Home ML": "-3300 (Bovada)",
-            "Total": "10.5 (DK)",
-            "Over Total Odds": "+135 (DK)",
-            "Under Total Odds": "-115 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "d10f1db8_fdd0d44c_MLB",
-        "Info Table": {
-            "Away Team": "Chicago Cubs",
-            "Away Team Rank Name": "Chi Cubs",
-            "Away Abv": "CHC",
-            "Away ID": "d10f1db8",
-            "Home Team": "Cincinnati Reds",
-            "Home Team Rank Name": "Cincinnati",
-            "Home Abv": "CIN",
-            "Home ID": "fdd0d44c",
-            "Start Time": "Bot 6",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+3.0 (Bovada)",
-            "Away Spread Odds": "+124 (DK)",
-            "Away ML": "+650 (Bovada)",
-            "Home Spread": "+3.0 (Bovada)",
-            "Home Spread Odds": "+110 (Bovada)",
-            "Home ML": "−1150 (DK)",
-            "Total": "9.5 (Bovada)",
-            "Over Total Odds": "+120 (Bovada)",
-            "Under Total Odds": "-110 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "f5328492_c625b23e_MLB",
-        "Info Table": {
-            "Away Team": "Minnesota Twins",
-            "Away Team Rank Name": "Minnesota",
-            "Away Abv": "MIN",
-            "Away ID": "f5328492",
-            "Home Team": "New York Mets",
-            "Home Team Rank Name": "NY Mets",
-            "Home Abv": "NYM",
-            "Home ID": "c625b23e",
-            "Start Time": "Top 8",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "+110 (Bovada)",
-            "Away ML": "+340 (DK)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "-135 (Bovada)",
-            "Home ML": "-485 (Bovada)",
-            "Total": "3.5 (DK)",
-            "Over Total Odds": "+120 (DK)",
-            "Under Total Odds": "-135 (Bovada)"
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "-125 (Bovada)"
         }
     },
     {
@@ -218,19 +114,19 @@
             "Home Team Rank Name": "Boston",
             "Home Abv": "BOS",
             "Home ID": "8a2d1e91",
-            "Start Time": "Top 6",
+            "Start Time": "Bot 9",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-4.5 (Bovada)",
-            "Away Spread Odds": "−105 (DK)",
-            "Away ML": "−1600 (DK)",
-            "Home Spread": "+4.5 (DK)",
-            "Home Spread Odds": "-115 (Bovada)",
-            "Home ML": "+1000 (Bovada)",
-            "Total": "15.0 (Bovada)",
-            "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "+114 (DK)"
+            "Away Spread": "+0.5 (Bovada)",
+            "Away Spread Odds": "-310 (Bovada)",
+            "Away ML": "-999 (Bovada)",
+            "Home Spread": "+0.5 (Bovada)",
+            "Home Spread Odds": "+225 (Bovada)",
+            "Home ML": "-999 (Bovada)",
+            "Total": "-999 (Bovada)",
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "99 (Bovada)"
         }
     },
     {
@@ -244,19 +140,19 @@
             "Home Team Rank Name": "Milwaukee",
             "Home Abv": "MIL",
             "Home ID": "c5227021",
-            "Start Time": "Bot 3",
+            "Start Time": "Bot 7",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-4.0 (Bovada)",
-            "Away Spread Odds": "+110 (DK)",
-            "Away ML": "−1050 (DK)",
+            "Away Spread": "-4.5 (Bovada)",
+            "Away Spread Odds": "+114 (DK)",
+            "Away ML": "−1950 (DK)",
             "Home Spread": "+4.5 (DK)",
-            "Home Spread Odds": "-110 (Bovada)",
-            "Home ML": "+650 (Bovada)",
-            "Total": "9.5 (Bovada)",
-            "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "−115 (DK)"
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "+1400 (Bovada)",
+            "Total": "7.5 (Bovada)",
+            "Over Total Odds": "−125 (DK)",
+            "Under Total Odds": "−105 (DK)"
         }
     },
     {
@@ -270,19 +166,19 @@
             "Home Team Rank Name": "Chi Sox",
             "Home Abv": "CWS",
             "Home ID": "ea799920",
-            "Start Time": "Bot 4",
+            "Start Time": "Top 8",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+135 (Bovada)",
-            "Away ML": "−145 (DK)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "-175 (Bovada)",
-            "Home ML": "+115 (Bovada)",
-            "Total": "7.5 (DK)",
-            "Over Total Odds": "+114 (DK)",
-            "Under Total Odds": "-125 (Bovada)"
+            "Away Spread": "-2.0 (Bovada)",
+            "Away Spread Odds": "+100 (DK)",
+            "Away ML": "-1400 (Bovada)",
+            "Home Spread": "+2.5 (DK)",
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "+800 (DK)",
+            "Total": "7.5 (Bovada)",
+            "Over Total Odds": "-135 (Bovada)",
+            "Under Total Odds": "+105 (DK)"
         }
     },
     {
@@ -296,19 +192,19 @@
             "Home Team Rank Name": "Houston",
             "Home Abv": "HOU",
             "Home ID": "4005c299",
-            "Start Time": "Top 4",
+            "Start Time": "Top 7",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "-105 (Bovada)",
-            "Away ML": "-200 (Bovada)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "-125 (Bovada)",
-            "Home ML": "+160 (DK)",
-            "Total": "7.5 (Bovada)",
-            "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "−115 (DK)"
+            "Away Spread": "-2.5 (Bovada)",
+            "Away Spread Odds": "-150 (Bovada)",
+            "Away ML": "−920 (DK)",
+            "Home Spread": "+2.5 (DK)",
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "+550 (Bovada)",
+            "Total": "9.5 (DK)",
+            "Over Total Odds": "−115 (DK)",
+            "Under Total Odds": "+105 (Bovada)"
         }
     },
     {
@@ -322,19 +218,19 @@
             "Home Team Rank Name": "St. Louis",
             "Home Abv": "STL",
             "Home ID": "ccadb94e",
-            "Start Time": "Bot 3",
+            "Start Time": "Bot 6",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-165 (Bovada)",
-            "Away ML": "+155 (Bovada)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "+125 (Bovada)",
-            "Home ML": "−200 (DK)",
-            "Total": "8.5 (Bovada)",
-            "Over Total Odds": "-115 (Bovada)",
-            "Under Total Odds": "+100 (DK)"
+            "Away Spread": "+6.5 (Bovada)",
+            "Away Spread Odds": "+114 (DK)",
+            "Away ML": "+650 (Bovada)",
+            "Home Spread": "+6.5 (Bovada)",
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "-999 (DK)",
+            "Total": "11.5 (DK)",
+            "Over Total Odds": "+105 (DK)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -348,17 +244,17 @@
             "Home Team Rank Name": "LA Angels",
             "Home Abv": "LAA",
             "Home ID": "fe8acdeb",
-            "Start Time": "9:38 PM",
+            "Start Time": "Bot 1",
             "League": "MLB"
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-180 (Bovada)",
-            "Away ML": "+114 (DK)",
-            "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+155 (Bovada)",
-            "Home ML": "-134 (Bovada)",
-            "Total": "9.0 (Bovada)",
+            "Away Spread Odds": "-125 (Bovada)",
+            "Away ML": "+165 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "−210 (DK)",
+            "Total": "13.5 (DK)",
             "Over Total Odds": "+100 (DK)",
             "Under Total Odds": "-115 (Bovada)"
         }
@@ -374,19 +270,19 @@
             "Home Team Rank Name": "San Diego",
             "Home Abv": "SD",
             "Home ID": "3f4235d4",
-            "Start Time": "9:40 PM",
+            "Start Time": "Top 1",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+130 (Bovada)",
-            "Away ML": "−130 (DK)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "-150 (Bovada)",
-            "Home ML": "+111 (Bovada)",
-            "Total": "7.5 (Bovada)",
-            "Over Total Odds": "+105 (Bovada)",
-            "Under Total Odds": "-125 (Bovada)"
+            "Away Spread": "-5.0 (Bovada)",
+            "Away Spread Odds": "+105 (DK)",
+            "Away ML": "-1600 (Bovada)",
+            "Home Spread": "+5.5 (DK)",
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "+800 (DK)",
+            "Total": "11.5 (Bovada)",
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -400,45 +296,71 @@
             "Home Team Rank Name": "Arizona",
             "Home Abv": "ARI",
             "Home ID": "2b1ac347",
-            "Start Time": "9:40 PM",
+            "Start Time": "Top 2",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-145 (Bovada)",
-            "Away ML": "+140 (DK)",
-            "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+125 (Bovada)",
-            "Home ML": "-164 (Bovada)",
-            "Total": "9.0 (Bovada)",
-            "Over Total Odds": "-110 (Bovada)",
+            "Away Spread": "+2.5 (Bovada)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "+320 (Bovada)",
+            "Home Spread": "+2.5 (Bovada)",
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "−445 (DK)",
+            "Total": "9.5 (Bovada)",
+            "Over Total Odds": "−125 (DK)",
             "Under Total Odds": "−105 (DK)"
+        }
+    },
+    {
+        "MatchupID": "6424b504_fe2ec146_MLB",
+        "Info Table": {
+            "Away Team": "NY Yankees",
+            "Away Team Rank Name": "NY Yankees",
+            "Away Abv": "NYY",
+            "Away ID": "6424b504",
+            "Home Team": "PHI Phillies",
+            "Home Team Rank Name": "Philadelphia",
+            "Home Abv": "PHI",
+            "Home ID": "fe2ec146",
+            "Start Time": "Live Game",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+420 (DK)",
+            "Away ML": "+135 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "−660 (DK)",
+            "Home ML": "−175 (DK)",
+            "Total": "11.5 (DK)",
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "−120 (DK)"
         }
     },
     {
         "MatchupID": "8b214a89_486a5e3b_MLB",
         "Info Table": {
-            "Away Team": "Oakland Athletics",
+            "Away Team": "OAK Athletics",
             "Away Team Rank Name": "Oakland",
             "Away Abv": "OAK",
             "Away ID": "8b214a89",
-            "Home Team": "San Francisco Giants",
+            "Home Team": "SF Giants",
             "Home Team Rank Name": "SF Giants",
             "Home Abv": "SF",
             "Home ID": "486a5e3b",
-            "Start Time": "9:45 PM",
+            "Start Time": "Live Game",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-130 (Bovada)",
-            "Away ML": "+160 (DK)",
-            "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "+110 (Bovada)",
-            "Home ML": "−192 (DK)",
-            "Total": "8.0 (Bovada)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "−112 (DK)"
+            "Away Spread": "+1.5 (DK)",
+            "Away Spread Odds": "−160 (DK)",
+            "Away ML": "+145 (DK)",
+            "Home Spread": "-1.5 (DK)",
+            "Home Spread Odds": "+340 (DK)",
+            "Home ML": "−188 (DK)",
+            "Total": "7.5 (DK)",
+            "Over Total Odds": "+114 (DK)",
+            "Under Total Odds": "−145 (DK)"
         }
     }
 ]
