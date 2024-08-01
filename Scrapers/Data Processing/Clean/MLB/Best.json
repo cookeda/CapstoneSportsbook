@@ -42,10 +42,10 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+105 (Bovada)",
-            "Away ML": "−162 (DK)",
+            "Away ML": "-165 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "−122 (DK)",
-            "Home ML": "+139 (Bovada)",
+            "Home Spread Odds": "−120 (DK)",
+            "Home ML": "+140 (DK)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
             "Under Total Odds": "−115 (DK)"
@@ -71,7 +71,7 @@
             "Away ML": "+170 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+105 (Bovada)",
-            "Home ML": "-200 (Bovada)",
+            "Home ML": "-199 (Bovada)",
             "Total": "9.0 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
             "Under Total Odds": "−115 (DK)"
@@ -92,13 +92,13 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-999 (Bovada)",
-            "Away Spread Odds": "99 (Bovada)",
-            "Away ML": "-102 (Bovada)",
-            "Home Spread": "-999 (Bovada)",
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+160 (DK)",
+            "Away ML": "−102 (DK)",
+            "Home Spread": "+1.5 (DK)",
             "Home Spread Odds": "99 (Bovada)",
-            "Home ML": "−115 (DK)",
-            "Total": "9 (DK)",
+            "Home ML": "-117 (Bovada)",
+            "Total": "7.5 (DK)",
             "Over Total Odds": "99 (Bovada)",
             "Under Total Odds": "99 (Bovada)"
         }
@@ -106,27 +106,53 @@
     {
         "MatchupID": "8f2512bc_fe8acdeb_MLB",
         "Info Table": {
-            "Away Team": "COL Rockies",
+            "Away Team": "Colorado Rockies",
             "Away Team Rank Name": "Colorado",
             "Away Abv": "COL",
             "Away ID": "8f2512bc",
-            "Home Team": "LA Angels",
+            "Home Team": "Los Angeles Angels",
             "Home Team Rank Name": "LA Angels",
             "Home Abv": "LAA",
             "Home ID": "fe8acdeb",
-            "Start Time": "9:38PM",
+            "Start Time": "9:38 PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "−185 (DK)",
-            "Away ML": "+110 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "−122 (DK)",
-            "Home ML": "−130 (DK)",
-            "Total": "8.5 (DK)",
-            "Over Total Odds": "−112 (DK)",
-            "Under Total Odds": "−108 (DK)"
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-185 (Bovada)",
+            "Away ML": "+107 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+160 (Bovada)",
+            "Home ML": "−125 (DK)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "-120 (Bovada)",
+            "Under Total Odds": "+102 (DK)"
+        }
+    },
+    {
+        "MatchupID": "e8bdce10_5a31e1ff_MLB",
+        "Info Table": {
+            "Away Team": "BAL Orioles",
+            "Away Team Rank Name": "Baltimore",
+            "Away Abv": "BAL",
+            "Away ID": "e8bdce10",
+            "Home Team": "CLE Guardians",
+            "Home Team Rank Name": "Cleveland",
+            "Home Abv": "CLE",
+            "Home ID": "5a31e1ff",
+            "Start Time": "6:40PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+142 (DK)",
+            "Away ML": "−110 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "−120 (DK)",
+            "Home ML": "−110 (DK)",
+            "Total": "9.5 (DK)",
+            "Over Total Odds": "+100 (DK)",
+            "Under Total Odds": "−120 (DK)"
         }
     }
 ]

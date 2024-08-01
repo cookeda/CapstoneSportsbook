@@ -1,36 +1,6 @@
 [
     [
         {
-            "BetTableId": "Bovada_Unknown_Unknown_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "-999",
-                "Away Spread Odds": "99",
-                "Away ML": "-999",
-                "Home Spread": "-999",
-                "Home Spread Odds": "99",
-                "Home ML": "-999",
-                "Total": "-999",
-                "Over Total Odds": "99",
-                "Under Total Odds": "99"
-            },
-            "MatchupID": "Unknown_Unknown_MLB",
-            "Info Table": {
-                "Away Team": "-999",
-                "Away Team Rank Name": "Unknown",
-                "Away Abv": "Unknown",
-                "Away ID": "Unknown",
-                "Home Team": "-999",
-                "Home Team Rank Name": "Unknown",
-                "Home Abv": "Unknown",
-                "Home ID": "Unknown",
-                "Start Time": "-999",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "Bovada_db2ee960_18a9d733_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
@@ -66,10 +36,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-125",
-                "Away ML": "+165",
+                "Away ML": "+164",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+105",
-                "Home ML": "-200",
+                "Home ML": "-199",
                 "Total": "9.0",
                 "Over Total Odds": "+100",
                 "Under Total Odds": "-120"
@@ -96,10 +66,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "-999",
                 "Away Spread Odds": "99",
-                "Away ML": "-102",
+                "Away ML": "-103",
                 "Home Spread": "-999",
                 "Home Spread Odds": "99",
-                "Home ML": "-118",
+                "Home ML": "-117",
                 "Total": "-999",
                 "Over Total Odds": "99",
                 "Under Total Odds": "99"
@@ -115,6 +85,66 @@
                 "Home Abv": "CHC",
                 "Home ID": "d10f1db8",
                 "Start Time": "8:05 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_8f2512bc_fe8acdeb_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-185",
+                "Away ML": "+107",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "+160",
+                "Home ML": "-128",
+                "Total": "8.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
+            },
+            "MatchupID": "8f2512bc_fe8acdeb_MLB",
+            "Info Table": {
+                "Away Team": "Colorado Rockies",
+                "Away Team Rank Name": "Colorado",
+                "Away Abv": "COL",
+                "Away ID": "8f2512bc",
+                "Home Team": "Los Angeles Angels",
+                "Home Team Rank Name": "LA Angels",
+                "Home Abv": "LAA",
+                "Home ID": "fe8acdeb",
+                "Start Time": "9:38 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "Bovada_Unknown_Unknown_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "-999",
+                "Away Spread Odds": "99",
+                "Away ML": "-999",
+                "Home Spread": "-999",
+                "Home Spread Odds": "99",
+                "Home ML": "-999",
+                "Total": "-999",
+                "Over Total Odds": "99",
+                "Under Total Odds": "99"
+            },
+            "MatchupID": "Unknown_Unknown_MLB",
+            "Info Table": {
+                "Away Team": "-999",
+                "Away Team Rank Name": "Unknown",
+                "Away Abv": "Unknown",
+                "Away ID": "Unknown",
+                "Home Team": "-999",
+                "Home Team Rank Name": "Unknown",
+                "Home Abv": "Unknown",
+                "Home ID": "Unknown",
+                "Start Time": "-999",
                 "League": "MLB"
             }
         }
