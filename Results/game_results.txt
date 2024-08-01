@@ -2,7 +2,7 @@ Kansas City @ Detroit (MLB): Cover Rating - 0.1, Over Score - 5.3
 Bet on Kansas City to cover the spread.
 Baltimore @ Cleveland (MLB): Cover Rating - 0.5, Over Score - 5.1
 Bet on Cleveland to cover the spread.
-Miami @ Atlanta (MLB): Cover Rating - 5.7, Over Score - 3.9
+Miami @ Atlanta (MLB): Cover Rating - 5.7, Over Score - 4.9
 Bet on Miami to cover the spread.
 St. Louis @ Chi Cubs (MLB): Cover Rating - 0.9, Over Score - 5.1
 Bet on Chi Cubs to cover the spread.
@@ -20,13 +20,13 @@ Ranked Games by Over Score Across All Leagues:
 Kansas City @ Detroit (MLB): Over Score - 5.3
 Baltimore @ Cleveland (MLB): Over Score - 5.1
 St. Louis @ Chi Cubs (MLB): Over Score - 5.1
+Miami @ Atlanta (MLB): Over Score - 4.9
 Colorado @ LA Angels (MLB): Over Score - 4.7
-Miami @ Atlanta (MLB): Over Score - 3.9
          date league  cover_rating  ... total    home_team  away_team
 0  2024-08-01    MLB      0.066667  ...   8.5  Kansas City    Detroit
 1  2024-08-01    MLB      0.466667  ...   9.5    Baltimore  Cleveland
-2  2024-08-01    MLB      5.733333  ...   9.0        Miami    Atlanta
-3  2024-08-01    MLB      0.933333  ...   7.5    St. Louis   Chi Cubs
+2  2024-08-01    MLB      5.733333  ...   8.5        Miami    Atlanta
+3  2024-08-01    MLB      0.933333  ...   8.0    St. Louis   Chi Cubs
 4  2024-08-01    MLB      2.000000  ...   8.5     Colorado  LA Angels
 
 [5 rows x 10 columns]
