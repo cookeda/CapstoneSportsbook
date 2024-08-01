@@ -1,48 +1,18 @@
 [
     [
         {
-            "BetTableId": "DK_4e2f3aa1_3f4235d4_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+6.5",
-                "Away Spread Odds": "+230",
-                "Away ML": "-999",
-                "Home Spread": "-6.5",
-                "Home Spread Odds": "−315",
-                "Home ML": "-999",
-                "Total": "9.5",
-                "Over Total Odds": "−130",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "4e2f3aa1_3f4235d4_MLB",
-            "Info Table": {
-                "Away Team": "LA Dodgers",
-                "Away Team Rank Name": "LA Dodgers",
-                "Away Abv": "LAD",
-                "Away ID": "4e2f3aa1",
-                "Home Team": "SD Padres",
-                "Home Team Rank Name": "San Diego",
-                "Home Abv": "SD",
-                "Home ID": "3f4235d4",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_8f2512bc_fe8acdeb_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−298",
-                "Away ML": "+120",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "−315",
-                "Home ML": "−154",
-                "Total": "5.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−125"
+                "Away Spread": "-999",
+                "Away Spread Odds": "-999",
+                "Away ML": "−475",
+                "Home Spread": "-999",
+                "Home Spread Odds": "−122",
+                "Home ML": "+325",
+                "Total": "3.5",
+                "Over Total Odds": "+220",
+                "Under Total Odds": "−298"
             },
             "MatchupID": "8f2512bc_fe8acdeb_MLB",
             "Info Table": {
@@ -54,36 +24,6 @@
                 "Home Team Rank Name": "LA Angels",
                 "Home Abv": "LAA",
                 "Home ID": "fe8acdeb",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_8b214a89_486a5e3b_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−145",
-                "Away ML": "+380",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "−280",
-                "Home ML": "−580",
-                "Total": "3.5",
-                "Over Total Odds": "+114",
-                "Under Total Odds": "−145"
-            },
-            "MatchupID": "8b214a89_486a5e3b_MLB",
-            "Info Table": {
-                "Away Team": "OAK Athletics",
-                "Away Team Rank Name": "Oakland",
-                "Away Abv": "OAK",
-                "Away ID": "8b214a89",
-                "Home Team": "SF Giants",
-                "Home Team Rank Name": "SF Giants",
-                "Home Abv": "SF",
-                "Home ID": "486a5e3b",
                 "Start Time": "Live Game",
                 "League": "MLB"
             }
