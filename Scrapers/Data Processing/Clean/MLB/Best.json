@@ -26,12 +26,12 @@
         }
     },
     {
-        "MatchupID": "db2ee960_18a9d733_MLB",
+        "MatchupID": "Unknown_18a9d733_MLB",
         "Info Table": {
-            "Away Team": "Kansas City Royals",
-            "Away Team Rank Name": "Kansas City",
-            "Away Abv": "KC",
-            "Away ID": "db2ee960",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Detroit Tigers",
             "Home Team Rank Name": "Detroit",
             "Home Abv": "DET",
@@ -44,11 +44,11 @@
             "Away Spread Odds": "+105 (Bovada)",
             "Away ML": "-165 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "−120 (DK)",
-            "Home ML": "+140 (DK)",
+            "Home Spread Odds": "-125 (Bovada)",
+            "Home ML": "+139 (Bovada)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "-115 (Bovada)"
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
         }
     },
     {
@@ -92,15 +92,15 @@
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (DK)",
-            "Away Spread Odds": "+160 (DK)",
+            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread Odds": "+160 (Bovada)",
             "Away ML": "+102 (Bovada)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "99 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "−120 (DK)",
             "Home ML": "−118 (DK)",
-            "Total": "7.5 (DK)",
-            "Over Total Odds": "99 (Bovada)",
-            "Under Total Odds": "99 (Bovada)"
+            "Total": "7.5 (Bovada)",
+            "Over Total Odds": "−118 (DK)",
+            "Under Total Odds": "+100 (Bovada)"
         }
     },
     {
@@ -127,6 +127,32 @@
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "-120 (Bovada)",
             "Under Total Odds": "+102 (DK)"
+        }
+    },
+    {
+        "MatchupID": "db2ee960_18a9d733_MLB",
+        "Info Table": {
+            "Away Team": "KC Royals",
+            "Away Team Rank Name": "Kansas City",
+            "Away Abv": "KC",
+            "Away ID": "db2ee960",
+            "Home Team": "DET Tigers",
+            "Home Team Rank Name": "Detroit",
+            "Home Abv": "DET",
+            "Home ID": "18a9d733",
+            "Start Time": "6:40PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+100 (DK)",
+            "Away ML": "−166 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "−120 (DK)",
+            "Home ML": "+140 (DK)",
+            "Total": "8.5 (DK)",
+            "Over Total Odds": "−110 (DK)",
+            "Under Total Odds": "−110 (DK)"
         }
     },
     {

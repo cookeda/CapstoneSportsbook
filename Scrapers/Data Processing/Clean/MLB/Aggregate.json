@@ -1,10 +1,10 @@
 {
-    "db2ee960_18a9d733_MLB": {
+    "Unknown_18a9d733_MLB": {
         "Info Table": {
-            "Away Team": "Kansas City Royals",
-            "Away Team Rank Name": "Kansas City",
-            "Away Abv": "KC",
-            "Away ID": "db2ee960",
+            "Away Team": "-999",
+            "Away Team Rank Name": "Unknown",
+            "Away Abv": "Unknown",
+            "Away ID": "Unknown",
             "Home Team": "Detroit Tigers",
             "Home Team Rank Name": "Detroit",
             "Home Abv": "DET",
@@ -22,20 +22,8 @@
                 "Home Spread Odds": "-125",
                 "Home ML": "+139",
                 "Total": "8.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
-            },
-            {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+100",
-                "Away ML": "−166",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−120",
-                "Home ML": "+140",
-                "Total": "8.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             }
         ]
     },
@@ -95,15 +83,15 @@
         "Bet Tables": [
             {
                 "Book Name": "Bovada",
-                "Away Spread": "-999",
-                "Away Spread Odds": "99",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+160",
                 "Away ML": "+102",
-                "Home Spread": "-999",
-                "Home Spread Odds": "99",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "-185",
                 "Home ML": "-122",
-                "Total": "-999",
-                "Over Total Odds": "99",
-                "Under Total Odds": "99"
+                "Total": "7.5",
+                "Over Total Odds": "-120",
+                "Under Total Odds": "+100"
             },
             {
                 "Book Name": "DK",
@@ -196,6 +184,34 @@
                 "Total": "99",
                 "Over Total Odds": "-999",
                 "Under Total Odds": "-999"
+            }
+        ]
+    },
+    "db2ee960_18a9d733_MLB": {
+        "Info Table": {
+            "Away Team": "KC Royals",
+            "Away Team Rank Name": "Kansas City",
+            "Away Abv": "KC",
+            "Away ID": "db2ee960",
+            "Home Team": "DET Tigers",
+            "Home Team Rank Name": "Detroit",
+            "Home Abv": "DET",
+            "Home ID": "18a9d733",
+            "Start Time": "6:40PM",
+            "League": "MLB"
+        },
+        "Bet Tables": [
+            {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+100",
+                "Away ML": "−166",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−120",
+                "Home ML": "+140",
+                "Total": "8.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
             }
         ]
     },
