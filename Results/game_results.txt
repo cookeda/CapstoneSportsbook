@@ -1,28 +1,18 @@
-Baltimore @ Cleveland (MLB): Cover Rating - 0.1, Over Score - 9.1
-Bet on Baltimore to cover the spread.
-Miami @ Atlanta (MLB): Cover Rating - 5.3, Over Score - 5.4
-Bet on Miami to cover the spread.
-St. Louis @ Chi Cubs (MLB): Cover Rating - 5.1, Over Score - 5.6
+St. Louis @ Chi Cubs (MLB): Cover Rating - 6.1, Over Score - 5.1
 Bet on St. Louis to cover the spread.
-Colorado @ LA Angels (MLB): Cover Rating - 1.0, Over Score - 4.7
+Colorado @ LA Angels (MLB): Cover Rating - 5.0, Over Score - 6.2
 Bet on LA Angels to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Miami @ Atlanta (MLB): Cover Rating - 5.3, Bet on Miami to cover the spread.
-St. Louis @ Chi Cubs (MLB): Cover Rating - 5.1, Bet on St. Louis to cover the spread.
-Colorado @ LA Angels (MLB): Cover Rating - 1.0, Bet on LA Angels to cover the spread.
-Baltimore @ Cleveland (MLB): Cover Rating - 0.1, Bet on Baltimore to cover the spread.
+St. Louis @ Chi Cubs (MLB): Cover Rating - 6.1, Bet on St. Louis to cover the spread.
+Colorado @ LA Angels (MLB): Cover Rating - 5.0, Bet on LA Angels to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Baltimore @ Cleveland (MLB): Over Score - 9.1
-St. Louis @ Chi Cubs (MLB): Over Score - 5.6
-Miami @ Atlanta (MLB): Over Score - 5.4
-Colorado @ LA Angels (MLB): Over Score - 4.7
+Colorado @ LA Angels (MLB): Over Score - 6.2
+St. Louis @ Chi Cubs (MLB): Over Score - 5.1
          date league  cover_rating  ... total  home_team  away_team
-0  2024-08-01    MLB      0.123077  ...  13.5  Baltimore  Cleveland
-1  2024-08-01    MLB      5.314286  ...   6.5      Miami    Atlanta
-2  2024-08-01    MLB      5.066667  ...   6.5  St. Louis   Chi Cubs
-3  2024-08-01    MLB      1.000000  ...   9.0   Colorado  LA Angels
+0  2024-08-01    MLB      6.066667  ...   7.5  St. Louis   Chi Cubs
+1  2024-08-01    MLB      5.000000  ...   8.5   Colorado  LA Angels
 
-[4 rows x 10 columns]
+[2 rows x 10 columns]
 Avoided Overriding DailyPredictions
