@@ -74,7 +74,7 @@
             "Home ML": "+114 (DK)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "−112 (DK)"
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -125,8 +125,8 @@
             "Home Spread Odds": "-160 (Bovada)",
             "Home ML": "+102 (Bovada)",
             "Total": "9.0 (Bovada)",
-            "Over Total Odds": "−118 (DK)",
-            "Under Total Odds": "+100 (Bovada)"
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "−102 (DK)"
         }
     },
     {
@@ -146,12 +146,12 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-145 (Bovada)",
-            "Away ML": "+137 (Bovada)",
+            "Away ML": "+140 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+125 (Bovada)",
             "Home ML": "−162 (DK)",
             "Total": "9.0 (Bovada)",
-            "Over Total Odds": "−105 (DK)",
+            "Over Total Odds": "−108 (DK)",
             "Under Total Odds": "-110 (Bovada)"
         }
     },
@@ -256,7 +256,33 @@
             "Home ML": "+131 (Bovada)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "-110 (Bovada)",
-            "Under Total Odds": "−108 (DK)"
+            "Under Total Odds": "−105 (DK)"
+        }
+    },
+    {
+        "MatchupID": "fe2ec146_300faa7b_MLB",
+        "Info Table": {
+            "Away Team": "Philadelphia Phillies",
+            "Away Team Rank Name": "Philadelphia",
+            "Away Abv": "PHI",
+            "Away ID": "fe2ec146",
+            "Home Team": "Seattle Mariners",
+            "Home Team Rank Name": "Seattle",
+            "Home Abv": "SEA",
+            "Home ID": "300faa7b",
+            "Start Time": "9:40 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "+164 (DK)",
+            "Away ML": "+100 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "+180 (Bovada)",
+            "Home ML": "-112 (Bovada)",
+            "Total": "8.0 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
@@ -270,7 +296,7 @@
             "Home Team Rank Name": "LA Angels",
             "Home Abv": "LAA",
             "Home ID": "fe8acdeb",
-            "Start Time": "Live Game",
+            "Start Time": "9:38PM",
             "League": "MLB"
         },
         "Odds Table": {
@@ -286,32 +312,6 @@
         }
     },
     {
-        "MatchupID": "fe2ec146_300faa7b_MLB",
-        "Info Table": {
-            "Away Team": "PHI Phillies",
-            "Away Team Rank Name": "Philadelphia",
-            "Away Abv": "PHI",
-            "Away ID": "fe2ec146",
-            "Home Team": "SEA Mariners",
-            "Home Team Rank Name": "Seattle",
-            "Home Abv": "SEA",
-            "Home ID": "300faa7b",
-            "Start Time": "9:40PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-1.5 (DK)",
-            "Away Spread Odds": "+164 (DK)",
-            "Away ML": "+100 (DK)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "-999 (DK)",
-            "Home ML": "−120 (DK)",
-            "Total": "8 (DK)",
-            "Over Total Odds": "−115 (DK)",
-            "Under Total Odds": "−105 (DK)"
-        }
-    },
-    {
         "MatchupID": "8f2512bc_3f4235d4_MLB",
         "Info Table": {
             "Away Team": "COL Rockies",
@@ -322,7 +322,7 @@
             "Home Team Rank Name": "San Diego",
             "Home Abv": "SD",
             "Home ID": "3f4235d4",
-            "Start Time": "Live Game",
+            "Start Time": "9:40PM",
             "League": "MLB"
         },
         "Odds Table": {
