@@ -6,10 +6,10 @@
                 "Book Name": "DK",
                 "Away Spread": "-999",
                 "Away Spread Odds": "-999",
-                "Away ML": "−115",
+                "Away ML": "−112",
                 "Home Spread": "-999",
                 "Home Spread Odds": "-999",
-                "Home ML": "−105",
+                "Home ML": "−108",
                 "Total": "9",
                 "Over Total Odds": "-999",
                 "Under Total Odds": "-999"
@@ -64,15 +64,15 @@
             "BetTableId": "DK_db2ee960_18a9d733_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−218",
-                "Away ML": "+100",
-                "Home Spread": "-1.5",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+180",
+                "Away ML": "−102",
+                "Home Spread": "+1.5",
                 "Home Spread Odds": "-999",
-                "Home ML": "−120",
+                "Home ML": "−118",
                 "Total": "7",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Over Total Odds": "−112",
+                "Under Total Odds": "−108"
             },
             "MatchupID": "db2ee960_18a9d733_MLB",
             "Info Table": {
@@ -181,36 +181,6 @@
     ],
     [
         {
-            "BetTableId": "DK_16f4bf06_4005c299_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−155",
-                "Away ML": "+140",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "-999",
-                "Home ML": "−166",
-                "Total": "8",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
-            },
-            "MatchupID": "16f4bf06_4005c299_MLB",
-            "Info Table": {
-                "Away Team": "TB Rays",
-                "Away Team Rank Name": "Tampa Bay",
-                "Away Abv": "TB",
-                "Away ID": "16f4bf06",
-                "Home Team": "HOU Astros",
-                "Home Team Rank Name": "Houston",
-                "Home Abv": "HOU",
-                "Home ID": "4005c299",
-                "Start Time": "8:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_ea799920_f5328492_MLB",
             "Odds Table": {
                 "Book Name": "DK",
@@ -234,6 +204,36 @@
                 "Home Team Rank Name": "Minnesota",
                 "Home Abv": "MIN",
                 "Home ID": "f5328492",
+                "Start Time": "8:10PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_16f4bf06_4005c299_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "−155",
+                "Away ML": "+140",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "-999",
+                "Home ML": "−166",
+                "Total": "8",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
+            },
+            "MatchupID": "16f4bf06_4005c299_MLB",
+            "Info Table": {
+                "Away Team": "TB Rays",
+                "Away Team Rank Name": "Tampa Bay",
+                "Away Abv": "TB",
+                "Away ID": "16f4bf06",
+                "Home Team": "HOU Astros",
+                "Home Team Rank Name": "Houston",
+                "Home Abv": "HOU",
+                "Home ID": "4005c299",
                 "Start Time": "8:10PM",
                 "League": "MLB"
             }
