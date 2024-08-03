@@ -1,33 +1,28 @@
-Toronto @ NY Yankees (MLB): Cover Rating - 0.1, Over Score - 5.8
-Bet on Toronto to cover the spread.
-NY Mets @ LA Angels (MLB): Cover Rating - 1.5, Over Score - 6.0
+NY Mets @ LA Angels (MLB): Cover Rating - 6.5, Over Score - 6.5
 Bet on NY Mets to cover the spread.
-LA Dodgers @ Oakland (MLB): Cover Rating - 7.1, Over Score - 5.8
+LA Dodgers @ Oakland (MLB): Cover Rating - 5.1, Over Score - 8.3
 Bet on LA Dodgers to cover the spread.
-Colorado @ San Diego (MLB): Cover Rating - 5.4, Over Score - 5.9
+Colorado @ San Diego (MLB): Cover Rating - 1.2, Over Score - 8.9
 Bet on Colorado to cover the spread.
-Philadelphia @ Seattle (MLB): Cover Rating - 5.0, Over Score - 5.4
+Philadelphia @ Seattle (MLB): Cover Rating - 3.0, Over Score - 7.9
 Bet on Philadelphia to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-LA Dodgers @ Oakland (MLB): Cover Rating - 7.1, Bet on LA Dodgers to cover the spread.
-Colorado @ San Diego (MLB): Cover Rating - 5.4, Bet on Colorado to cover the spread.
-Philadelphia @ Seattle (MLB): Cover Rating - 5.0, Bet on Philadelphia to cover the spread.
-NY Mets @ LA Angels (MLB): Cover Rating - 1.5, Bet on NY Mets to cover the spread.
-Toronto @ NY Yankees (MLB): Cover Rating - 0.1, Bet on Toronto to cover the spread.
+NY Mets @ LA Angels (MLB): Cover Rating - 6.5, Bet on NY Mets to cover the spread.
+LA Dodgers @ Oakland (MLB): Cover Rating - 5.1, Bet on LA Dodgers to cover the spread.
+Philadelphia @ Seattle (MLB): Cover Rating - 3.0, Bet on Philadelphia to cover the spread.
+Colorado @ San Diego (MLB): Cover Rating - 1.2, Bet on Colorado to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Mets @ LA Angels (MLB): Over Score - 6.0
-Colorado @ San Diego (MLB): Over Score - 5.9
-LA Dodgers @ Oakland (MLB): Over Score - 5.8
-Toronto @ NY Yankees (MLB): Over Score - 5.8
-Philadelphia @ Seattle (MLB): Over Score - 5.4
-         date league  cover_rating  ... total     home_team   away_team
-0  2024-08-02    MLB      0.080000  ...  14.5       Toronto  NY Yankees
-1  2024-08-02    MLB      1.485714  ...   9.5       NY Mets   LA Angels
-2  2024-08-02    MLB      7.057143  ...  11.5    LA Dodgers     Oakland
-3  2024-08-02    MLB      5.400000  ...   6.5      Colorado   San Diego
-4  2024-08-02    MLB      5.011765  ...  12.5  Philadelphia     Seattle
+Colorado @ San Diego (MLB): Over Score - 8.9
+LA Dodgers @ Oakland (MLB): Over Score - 8.3
+Philadelphia @ Seattle (MLB): Over Score - 7.9
+NY Mets @ LA Angels (MLB): Over Score - 6.5
+         date league  cover_rating  ... total     home_team  away_team
+0  2024-08-03    MLB      6.485714  ...   6.5       NY Mets  LA Angels
+1  2024-08-03    MLB      5.057143  ...   9.0    LA Dodgers    Oakland
+2  2024-08-03    MLB      1.240000  ...   9.0      Colorado  San Diego
+3  2024-08-03    MLB      3.000100  ...   8.5  Philadelphia    Seattle
 
-[5 rows x 10 columns]
+[4 rows x 10 columns]
 Avoided Overriding DailyPredictions
