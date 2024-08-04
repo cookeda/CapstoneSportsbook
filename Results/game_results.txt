@@ -18,7 +18,7 @@ Tampa Bay @ Houston (MLB): Cover Rating - 4.9, Over Score - 5.2
 Bet on Tampa Bay to cover the spread.
 Boston @ Texas (MLB): Cover Rating - 6.5, Over Score - 4.9
 Bet on Boston to cover the spread.
-LA Dodgers @ Oakland (MLB): Cover Rating - 3.9, Over Score - 4.3
+LA Dodgers @ Oakland (MLB): Cover Rating - 3.9, Over Score - 5.3
 Bet on Oakland to cover the spread.
 NY Mets @ LA Angels (MLB): Cover Rating - 2.9, Over Score - 6.0
 Bet on LA Angels to cover the spread.
@@ -53,6 +53,7 @@ Colorado @ San Diego (MLB): Over Score - 5.9
 Milwaukee @ Washington (MLB): Over Score - 5.4
 Chi Sox @ Minnesota (MLB): Over Score - 5.4
 Kansas City @ Detroit (MLB): Over Score - 5.3
+LA Dodgers @ Oakland (MLB): Over Score - 5.3
 Toronto @ NY Yankees (MLB): Over Score - 5.3
 Tampa Bay @ Houston (MLB): Over Score - 5.2
 Arizona @ Pittsburgh (MLB): Over Score - 5.2
@@ -61,23 +62,21 @@ Philadelphia @ Seattle (MLB): Over Score - 4.9
 Boston @ Texas (MLB): Over Score - 4.9
 Miami @ Atlanta (MLB): Over Score - 4.9
 SF Giants @ Cincinnati (MLB): Over Score - 4.6
-LA Dodgers @ Oakland (MLB): Over Score - 4.3
           date league  cover_rating  ... total     home_team   away_team
 0   2024-08-04    MLB      9.800000  ...   9.5     SF Giants  Cincinnati
 1   2024-08-04    MLB      3.866667  ...   9.0       Toronto  NY Yankees
 2   2024-08-04    MLB      0.066667  ...   7.5       Arizona  Pittsburgh
 3   2024-08-04    MLB      9.666667  ...   9.0     Milwaukee  Washington
-4   2024-08-04    MLB      0.733333  ...   7.5         Miami     Atlanta
+4   2024-08-04    MLB      0.733333  ...   8.0         Miami     Atlanta
 5   2024-08-04    MLB      3.466667  ...   8.0     Baltimore   Cleveland
 6   2024-08-04    MLB      2.933333  ...   8.5   Kansas City     Detroit
 7   2024-08-04    MLB      0.266667  ...   9.0       Chi Sox   Minnesota
 8   2024-08-04    MLB      4.933333  ...   8.5     Tampa Bay     Houston
 9   2024-08-04    MLB      6.466667  ...   8.0        Boston       Texas
-10  2024-08-04    MLB      3.866667  ...   9.0    LA Dodgers     Oakland
+10  2024-08-04    MLB      3.866667  ...   8.5    LA Dodgers     Oakland
 11  2024-08-04    MLB      2.866667  ...  10.0       NY Mets   LA Angels
 12  2024-08-04    MLB      3.933333  ...   7.0  Philadelphia     Seattle
 13  2024-08-04    MLB      5.400000  ...   7.5      Colorado   San Diego
 14  2024-08-04    MLB      5.066667  ...   8.5     St. Louis    Chi Cubs
 
 [15 rows x 10 columns]
-Avoided Overriding DailyPredictions
