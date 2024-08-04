@@ -1,16 +1,12 @@
 Toronto @ NY Yankees (MLB): Cover Rating - 4.1, Over Score - 5.8
 Bet on Toronto to cover the spread.
-Chi Sox @ Minnesota (MLB): Cover Rating - 4.8, Over Score - 5.9
-Bet on Chi Sox to cover the spread.
-Boston @ Texas (MLB): Cover Rating - 6.5, Over Score - 5.4
-Bet on Boston to cover the spread.
-NY Mets @ LA Angels (MLB): Cover Rating - 11.1, Over Score - 6.5
+NY Mets @ LA Angels (MLB): Cover Rating - 11.1, Over Score - 6.0
 Bet on NY Mets to cover the spread.
-LA Dodgers @ Oakland (MLB): Cover Rating - 3.1, Over Score - 5.8
+LA Dodgers @ Oakland (MLB): Cover Rating - 1.1, Over Score - 5.8
 Bet on LA Dodgers to cover the spread.
-Philadelphia @ Seattle (MLB): Cover Rating - 3.1, Over Score - 4.9
+Philadelphia @ Seattle (MLB): Cover Rating - 1.1, Over Score - 4.9
 Bet on Philadelphia to cover the spread.
-Colorado @ San Diego (MLB): Cover Rating - 7.4, Over Score - 5.9
+Colorado @ San Diego (MLB): Cover Rating - 7.1, Over Score - 5.9
 Bet on Colorado to cover the spread.
 St. Louis @ Chi Cubs (MLB): Cover Rating - 10.1, Over Score - 5.1
 Bet on St. Louis to cover the spread.
@@ -18,31 +14,25 @@ Bet on St. Louis to cover the spread.
 Ranked Cover Recommendations Across All Leagues:
 NY Mets @ LA Angels (MLB): Cover Rating - 11.1, Bet on NY Mets to cover the spread.
 St. Louis @ Chi Cubs (MLB): Cover Rating - 10.1, Bet on St. Louis to cover the spread.
-Colorado @ San Diego (MLB): Cover Rating - 7.4, Bet on Colorado to cover the spread.
-Boston @ Texas (MLB): Cover Rating - 6.5, Bet on Boston to cover the spread.
-Chi Sox @ Minnesota (MLB): Cover Rating - 4.8, Bet on Chi Sox to cover the spread.
+Colorado @ San Diego (MLB): Cover Rating - 7.1, Bet on Colorado to cover the spread.
 Toronto @ NY Yankees (MLB): Cover Rating - 4.1, Bet on Toronto to cover the spread.
-LA Dodgers @ Oakland (MLB): Cover Rating - 3.1, Bet on LA Dodgers to cover the spread.
-Philadelphia @ Seattle (MLB): Cover Rating - 3.1, Bet on Philadelphia to cover the spread.
+LA Dodgers @ Oakland (MLB): Cover Rating - 1.1, Bet on LA Dodgers to cover the spread.
+Philadelphia @ Seattle (MLB): Cover Rating - 1.1, Bet on Philadelphia to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Mets @ LA Angels (MLB): Over Score - 6.5
-Chi Sox @ Minnesota (MLB): Over Score - 5.9
+NY Mets @ LA Angels (MLB): Over Score - 6.0
 Colorado @ San Diego (MLB): Over Score - 5.9
 LA Dodgers @ Oakland (MLB): Over Score - 5.8
 Toronto @ NY Yankees (MLB): Over Score - 5.8
-Boston @ Texas (MLB): Over Score - 5.4
 St. Louis @ Chi Cubs (MLB): Over Score - 5.1
 Philadelphia @ Seattle (MLB): Over Score - 4.9
          date league  cover_rating  ... total     home_team   away_team
 0  2024-08-04    MLB      4.133333  ...   7.5       Toronto  NY Yankees
-1  2024-08-04    MLB      4.840000  ...  18.5       Chi Sox   Minnesota
-2  2024-08-04    MLB      6.488889  ...  10.5        Boston       Texas
-3  2024-08-04    MLB     11.133333  ...  10.5       NY Mets   LA Angels
-4  2024-08-04    MLB      3.133333  ...  10.5    LA Dodgers     Oakland
-5  2024-08-04    MLB      3.066667  ...   5.5  Philadelphia     Seattle
-6  2024-08-04    MLB      7.400000  ...   7.5      Colorado   San Diego
-7  2024-08-04    MLB     10.066667  ...   9.0     St. Louis    Chi Cubs
+1  2024-08-04    MLB     11.133333  ...   8.5       NY Mets   LA Angels
+2  2024-08-04    MLB      1.133333  ...   7.5    LA Dodgers     Oakland
+3  2024-08-04    MLB      1.066667  ...   2.5  Philadelphia     Seattle
+4  2024-08-04    MLB      7.109091  ...   9.5      Colorado   San Diego
+5  2024-08-04    MLB     10.066667  ...   9.0     St. Louis    Chi Cubs
 
-[8 rows x 10 columns]
+[6 rows x 10 columns]
 Avoided Overriding DailyPredictions
