@@ -6,7 +6,7 @@ Arizona @ Pittsburgh (MLB): Cover Rating - 0.1, Over Score - 5.2
 Bet on Arizona to cover the spread.
 Milwaukee @ Washington (MLB): Cover Rating - 9.7, Over Score - 5.4
 Bet on Washington to cover the spread.
-Miami @ Atlanta (MLB): Cover Rating - 0.7, Over Score - 4.9
+Miami @ Atlanta (MLB): Cover Rating - 0.7, Over Score - 3.9
 Bet on Miami to cover the spread.
 Baltimore @ Cleveland (MLB): Cover Rating - 3.5, Over Score - 6.1
 Bet on Cleveland to cover the spread.
@@ -60,11 +60,11 @@ Arizona @ Pittsburgh (MLB): Over Score - 5.2
 St. Louis @ Chi Cubs (MLB): Over Score - 5.1
 Philadelphia @ Seattle (MLB): Over Score - 4.9
 Boston @ Texas (MLB): Over Score - 4.9
-Miami @ Atlanta (MLB): Over Score - 4.9
 SF Giants @ Cincinnati (MLB): Over Score - 4.6
+Miami @ Atlanta (MLB): Over Score - 3.9
           date league  cover_rating  ... total     home_team   away_team
 0   2024-08-04    MLB      9.800000  ...   9.5     SF Giants  Cincinnati
-1   2024-08-04    MLB      3.866667  ...   9.0       Toronto  NY Yankees
+1   2024-08-04    MLB      3.866667  ...   9.5       Toronto  NY Yankees
 2   2024-08-04    MLB      0.066667  ...   7.5       Arizona  Pittsburgh
 3   2024-08-04    MLB      9.666667  ...   9.0     Milwaukee  Washington
 4   2024-08-04    MLB      0.733333  ...   8.0         Miami     Atlanta
