@@ -1,6 +1,6 @@
-NY Mets @ St. Louis (MLB): Cover Rating - 2.9, Over Score - 4.8
+NY Mets @ St. Louis (MLB): Cover Rating - 2.9, Over Score - 5.8
 Bet on St. Louis to cover the spread.
-Arizona @ Cleveland (MLB): Cover Rating - 9.7, Over Score - 4.6
+Arizona @ Cleveland (MLB): Cover Rating - 9.7, Over Score - 5.6
 Bet on Cleveland to cover the spread.
 Cincinnati @ Miami (MLB): Cover Rating - 2.3, Over Score - 5.8
 Bet on Miami to cover the spread.
@@ -30,16 +30,16 @@ Boston @ Kansas City (MLB): Cover Rating - 0.5, Bet on Kansas City to cover the 
 
 Ranked Games by Over Score Across All Leagues:
 Cincinnati @ Miami (MLB): Over Score - 5.8
+NY Mets @ St. Louis (MLB): Over Score - 5.8
 SF Giants @ Washington (MLB): Over Score - 5.8
+Arizona @ Cleveland (MLB): Over Score - 5.6
 Philadelphia @ LA Dodgers (MLB): Over Score - 5.5
 Boston @ Kansas City (MLB): Over Score - 5.5
 Chi Sox @ Oakland (MLB): Over Score - 5.4
 Minnesota @ Chi Cubs (MLB): Over Score - 5.3
-NY Mets @ St. Louis (MLB): Over Score - 4.8
-Arizona @ Cleveland (MLB): Over Score - 4.6
 Houston @ Texas (MLB): Over Score - 4.3
          date league  cover_rating  ... total     home_team    away_team
-0  2024-08-05    MLB      2.866667  ...   8.5       NY Mets    St. Louis
+0  2024-08-05    MLB      2.866667  ...   9.0       NY Mets    St. Louis
 1  2024-08-05    MLB      9.733333  ...   8.5       Arizona    Cleveland
 2  2024-08-05    MLB      2.266667  ...   8.5    Cincinnati        Miami
 3  2024-08-05    MLB      8.600000  ...   9.0     SF Giants   Washington
@@ -47,7 +47,7 @@ Houston @ Texas (MLB): Over Score - 4.3
 5  2024-08-05    MLB      3.733333  ...   8.0     Minnesota     Chi Cubs
 6  2024-08-05    MLB      0.533333  ...  10.0        Boston  Kansas City
 7  2024-08-05    MLB      1.733333  ...   8.0       Chi Sox      Oakland
-8  2024-08-05    MLB      5.066667  ...   8.0  Philadelphia   LA Dodgers
+8  2024-08-05    MLB      5.066667  ...   7.5  Philadelphia   LA Dodgers
 
 [9 rows x 10 columns]
 Avoided Overriding DailyPredictions
