@@ -1,33 +1,23 @@
-Houston @ Texas (MLB): Cover Rating - 3.4, Over Score - 4.8
-Bet on Houston to cover the spread.
-Minnesota @ Chi Cubs (MLB): Cover Rating - 6.3, Over Score - 5.3
-Bet on Minnesota to cover the spread.
-Boston @ Kansas City (MLB): Cover Rating - 2.8, Over Score - 5.5
-Bet on Kansas City to cover the spread.
-Chi Sox @ Oakland (MLB): Cover Rating - 3.6, Over Score - 5.4
-Bet on Chi Sox to cover the spread.
-Philadelphia @ LA Dodgers (MLB): Cover Rating - 10.1, Over Score - 5.5
+Houston @ Texas (MLB): Cover Rating - 10.6, Over Score - 4.3
+Bet on Texas to cover the spread.
+Chi Sox @ Oakland (MLB): Cover Rating - 6.4, Over Score - 5.4
+Bet on Oakland to cover the spread.
+Philadelphia @ LA Dodgers (MLB): Cover Rating - 2.1, Over Score - 5.5
 Bet on Philadelphia to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Philadelphia @ LA Dodgers (MLB): Cover Rating - 10.1, Bet on Philadelphia to cover the spread.
-Minnesota @ Chi Cubs (MLB): Cover Rating - 6.3, Bet on Minnesota to cover the spread.
-Chi Sox @ Oakland (MLB): Cover Rating - 3.6, Bet on Chi Sox to cover the spread.
-Houston @ Texas (MLB): Cover Rating - 3.4, Bet on Houston to cover the spread.
-Boston @ Kansas City (MLB): Cover Rating - 2.8, Bet on Kansas City to cover the spread.
+Houston @ Texas (MLB): Cover Rating - 10.6, Bet on Texas to cover the spread.
+Chi Sox @ Oakland (MLB): Cover Rating - 6.4, Bet on Oakland to cover the spread.
+Philadelphia @ LA Dodgers (MLB): Cover Rating - 2.1, Bet on Philadelphia to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Philadelphia @ LA Dodgers (MLB): Over Score - 5.5
-Boston @ Kansas City (MLB): Over Score - 5.5
 Chi Sox @ Oakland (MLB): Over Score - 5.4
-Minnesota @ Chi Cubs (MLB): Over Score - 5.3
-Houston @ Texas (MLB): Over Score - 4.8
-         date league  cover_rating  ... total     home_team    away_team
-0  2024-08-05    MLB      3.400000  ...   4.5       Houston        Texas
-1  2024-08-05    MLB      6.266667  ...   2.5     Minnesota     Chi Cubs
-2  2024-08-05    MLB      2.800000  ...  10.5        Boston  Kansas City
-3  2024-08-05    MLB      3.560000  ...   8.5       Chi Sox      Oakland
-4  2024-08-05    MLB     10.066667  ...   7.5  Philadelphia   LA Dodgers
+Houston @ Texas (MLB): Over Score - 4.3
+         date league  cover_rating  ... total     home_team   away_team
+0  2024-08-05    MLB     10.600000  ...   7.5       Houston       Texas
+1  2024-08-05    MLB      6.440000  ...   7.5       Chi Sox     Oakland
+2  2024-08-05    MLB      2.066667  ...  10.5  Philadelphia  LA Dodgers
 
-[5 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
