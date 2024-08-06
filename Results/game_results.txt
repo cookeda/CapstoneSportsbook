@@ -6,9 +6,7 @@ Cincinnati @ Miami (MLB): Cover Rating - 0.7, Over Score - 5.8
 Bet on Cincinnati to cover the spread.
 SF Giants @ Washington (MLB): Cover Rating - 7.6, Over Score - 5.8
 Bet on Washington to cover the spread.
-LA Angels @ NY Yankees (MLB): Cover Rating - 3.8, Over Score - 5.7
-Bet on LA Angels to cover the spread.
-Baltimore @ Toronto (MLB): Cover Rating - 0.9, Over Score - 5.7
+Baltimore @ Toronto (MLB): Cover Rating - 0.9, Over Score - 4.7
 Bet on Baltimore to cover the spread.
 Milwaukee @ Atlanta (MLB): Cover Rating - 9.3, Over Score - 5.3
 Bet on Milwaukee to cover the spread.
@@ -35,7 +33,6 @@ SF Giants @ Washington (MLB): Cover Rating - 7.6, Bet on Washington to cover the
 Houston @ Texas (MLB): Cover Rating - 7.6, Bet on Texas to cover the spread.
 Arizona @ Cleveland (MLB): Cover Rating - 6.7, Bet on Cleveland to cover the spread.
 Detroit @ Seattle (MLB): Cover Rating - 5.6, Bet on Detroit to cover the spread.
-LA Angels @ NY Yankees (MLB): Cover Rating - 3.8, Bet on LA Angels to cover the spread.
 Boston @ Kansas City (MLB): Cover Rating - 2.5, Bet on Boston to cover the spread.
 San Diego @ Pittsburgh (MLB): Cover Rating - 2.3, Bet on San Diego to cover the spread.
 Tampa Bay @ St. Louis (MLB): Cover Rating - 2.2, Bet on Tampa Bay to cover the spread.
@@ -50,8 +47,6 @@ Ranked Games by Over Score Across All Leagues:
 NY Mets @ Colorado (MLB): Over Score - 6.1
 Cincinnati @ Miami (MLB): Over Score - 5.8
 SF Giants @ Washington (MLB): Over Score - 5.8
-Baltimore @ Toronto (MLB): Over Score - 5.7
-LA Angels @ NY Yankees (MLB): Over Score - 5.7
 Arizona @ Cleveland (MLB): Over Score - 5.6
 Philadelphia @ LA Dodgers (MLB): Over Score - 5.5
 Boston @ Kansas City (MLB): Over Score - 5.5
@@ -61,23 +56,23 @@ Milwaukee @ Atlanta (MLB): Over Score - 5.3
 Minnesota @ Chi Cubs (MLB): Over Score - 5.3
 San Diego @ Pittsburgh (MLB): Over Score - 5.3
 Detroit @ Seattle (MLB): Over Score - 5.2
+Baltimore @ Toronto (MLB): Over Score - 4.7
 Houston @ Texas (MLB): Over Score - 4.3
           date league  cover_rating  ... total     home_team    away_team
 0   2024-08-06    MLB      2.266667  ...   8.0     San Diego   Pittsburgh
 1   2024-08-06    MLB      6.733333  ...   8.0       Arizona    Cleveland
-2   2024-08-06    MLB      0.733333  ...   7.5    Cincinnati        Miami
+2   2024-08-06    MLB      0.733333  ...   8.0    Cincinnati        Miami
 3   2024-08-06    MLB      7.600000  ...   9.0     SF Giants   Washington
-4   2024-08-06    MLB      3.800000  ...   9.0     LA Angels   NY Yankees
-5   2024-08-06    MLB      0.866667  ...   8.5     Baltimore      Toronto
-6   2024-08-06    MLB      9.333333  ...   9.0     Milwaukee      Atlanta
-7   2024-08-06    MLB      2.200000  ...   7.5     Tampa Bay    St. Louis
-8   2024-08-06    MLB      0.733333  ...   6.0     Minnesota     Chi Cubs
-9   2024-08-06    MLB      7.600000  ...   8.5       Houston        Texas
-10  2024-08-06    MLB      2.466667  ...   8.5        Boston  Kansas City
-11  2024-08-06    MLB      0.600000  ...  11.5       NY Mets     Colorado
-12  2024-08-06    MLB      1.733333  ...   8.5       Chi Sox      Oakland
-13  2024-08-06    MLB      5.600000  ...   7.5       Detroit      Seattle
-14  2024-08-06    MLB      0.933333  ...   8.5  Philadelphia   LA Dodgers
+4   2024-08-06    MLB      0.866667  ...   8.5     Baltimore      Toronto
+5   2024-08-06    MLB      9.333333  ...   9.0     Milwaukee      Atlanta
+6   2024-08-06    MLB      2.200000  ...   7.5     Tampa Bay    St. Louis
+7   2024-08-06    MLB      0.733333  ...   6.0     Minnesota     Chi Cubs
+8   2024-08-06    MLB      7.600000  ...   8.5       Houston        Texas
+9   2024-08-06    MLB      2.466667  ...   8.5        Boston  Kansas City
+10  2024-08-06    MLB      0.600000  ...  11.5       NY Mets     Colorado
+11  2024-08-06    MLB      1.733333  ...   8.5       Chi Sox      Oakland
+12  2024-08-06    MLB      5.600000  ...   7.5       Detroit      Seattle
+13  2024-08-06    MLB      0.933333  ...   8.5  Philadelphia   LA Dodgers
 
-[15 rows x 10 columns]
+[14 rows x 10 columns]
 Avoided Overriding DailyPredictions
