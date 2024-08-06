@@ -1,4 +1,4 @@
-San Diego @ Pittsburgh (MLB): Cover Rating - 0.3, Over Score - 5.3
+San Diego @ Pittsburgh (MLB): Cover Rating - 2.3, Over Score - 5.3
 Bet on San Diego to cover the spread.
 Cincinnati @ Miami (MLB): Cover Rating - 0.7, Over Score - 5.8
 Bet on Cincinnati to cover the spread.
@@ -37,6 +37,7 @@ Arizona @ Cleveland (MLB): Cover Rating - 6.7, Bet on Cleveland to cover the spr
 Detroit @ Seattle (MLB): Cover Rating - 5.6, Bet on Detroit to cover the spread.
 LA Angels @ NY Yankees (MLB): Cover Rating - 3.8, Bet on LA Angels to cover the spread.
 Boston @ Kansas City (MLB): Cover Rating - 2.5, Bet on Boston to cover the spread.
+San Diego @ Pittsburgh (MLB): Cover Rating - 2.3, Bet on San Diego to cover the spread.
 Tampa Bay @ St. Louis (MLB): Cover Rating - 2.2, Bet on Tampa Bay to cover the spread.
 NY Mets @ Colorado (MLB): Cover Rating - 1.4, Bet on NY Mets to cover the spread.
 Chi Sox @ Oakland (MLB): Cover Rating - 1.3, Bet on Chi Sox to cover the spread.
@@ -44,7 +45,6 @@ Philadelphia @ LA Dodgers (MLB): Cover Rating - 0.9, Bet on LA Dodgers to cover 
 Baltimore @ Toronto (MLB): Cover Rating - 0.9, Bet on Baltimore to cover the spread.
 Cincinnati @ Miami (MLB): Cover Rating - 0.7, Bet on Cincinnati to cover the spread.
 Minnesota @ Chi Cubs (MLB): Cover Rating - 0.7, Bet on Chi Cubs to cover the spread.
-San Diego @ Pittsburgh (MLB): Cover Rating - 0.3, Bet on San Diego to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Cincinnati @ Miami (MLB): Over Score - 5.8
@@ -63,9 +63,9 @@ Milwaukee @ Atlanta (MLB): Over Score - 4.3
 Minnesota @ Chi Cubs (MLB): Over Score - 4.3
 Houston @ Texas (MLB): Over Score - 4.3
           date league  cover_rating  ... total     home_team    away_team
-0   2024-08-06    MLB      0.266667  ...   8.0     San Diego   Pittsburgh
+0   2024-08-06    MLB      2.266667  ...   8.0     San Diego   Pittsburgh
 1   2024-08-06    MLB      0.733333  ...   8.0    Cincinnati        Miami
-2   2024-08-06    MLB      6.733333  ...   8.0       Arizona    Cleveland
+2   2024-08-06    MLB      6.733333  ...   8.5       Arizona    Cleveland
 3   2024-08-06    MLB      7.600000  ...   9.0     SF Giants   Washington
 4   2024-08-06    MLB      3.800000  ...   9.0     LA Angels   NY Yankees
 5   2024-08-06    MLB      0.866667  ...   8.5     Baltimore      Toronto
@@ -80,3 +80,4 @@ Houston @ Texas (MLB): Over Score - 4.3
 14  2024-08-06    MLB      0.933333  ...   8.5  Philadelphia   LA Dodgers
 
 [15 rows x 10 columns]
+Avoided Overriding DailyPredictions
