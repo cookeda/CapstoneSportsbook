@@ -10,7 +10,7 @@ LA Angels @ NY Yankees (MLB): Cover Rating - 3.8, Over Score - 5.7
 Bet on LA Angels to cover the spread.
 Baltimore @ Toronto (MLB): Cover Rating - 0.9, Over Score - 5.7
 Bet on Baltimore to cover the spread.
-Milwaukee @ Atlanta (MLB): Cover Rating - 9.3, Over Score - 4.3
+Milwaukee @ Atlanta (MLB): Cover Rating - 9.3, Over Score - 5.3
 Bet on Milwaukee to cover the spread.
 Tampa Bay @ St. Louis (MLB): Cover Rating - 2.2, Over Score - 5.4
 Bet on Tampa Bay to cover the spread.
@@ -57,10 +57,10 @@ Philadelphia @ LA Dodgers (MLB): Over Score - 5.5
 Boston @ Kansas City (MLB): Over Score - 5.5
 Tampa Bay @ St. Louis (MLB): Over Score - 5.4
 Chi Sox @ Oakland (MLB): Over Score - 5.4
+Milwaukee @ Atlanta (MLB): Over Score - 5.3
 Minnesota @ Chi Cubs (MLB): Over Score - 5.3
 San Diego @ Pittsburgh (MLB): Over Score - 5.3
 Detroit @ Seattle (MLB): Over Score - 5.2
-Milwaukee @ Atlanta (MLB): Over Score - 4.3
 Houston @ Texas (MLB): Over Score - 4.3
           date league  cover_rating  ... total     home_team    away_team
 0   2024-08-06    MLB      2.266667  ...   8.0     San Diego   Pittsburgh
@@ -69,7 +69,7 @@ Houston @ Texas (MLB): Over Score - 4.3
 3   2024-08-06    MLB      7.600000  ...   9.0     SF Giants   Washington
 4   2024-08-06    MLB      3.800000  ...   9.0     LA Angels   NY Yankees
 5   2024-08-06    MLB      0.866667  ...   8.5     Baltimore      Toronto
-6   2024-08-06    MLB      9.333333  ...   8.5     Milwaukee      Atlanta
+6   2024-08-06    MLB      9.333333  ...   9.0     Milwaukee      Atlanta
 7   2024-08-06    MLB      2.200000  ...   7.5     Tampa Bay    St. Louis
 8   2024-08-06    MLB      0.733333  ...   6.0     Minnesota     Chi Cubs
 9   2024-08-06    MLB      7.600000  ...   8.5       Houston        Texas
