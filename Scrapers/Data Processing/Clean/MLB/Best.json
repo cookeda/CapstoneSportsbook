@@ -68,7 +68,7 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+136 (DK)",
-            "Away ML": "-120 (Bovada)",
+            "Away ML": "−115 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-160 (Bovada)",
             "Home ML": "+100 (Bovada)",
@@ -93,11 +93,11 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "-115 (Bovada)",
+            "Away Spread Odds": "−115 (DK)",
             "Away ML": "+180 (DK)",
             "Home Spread": "-1.5 (Bovada)",
-            "Home Spread Odds": "-105 (Bovada)",
-            "Home ML": "-212 (Bovada)",
+            "Home Spread Odds": "+100 (Bovada)",
+            "Home ML": "-200 (Bovada)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "-115 (Bovada)",
             "Under Total Odds": "-105 (Bovada)"
@@ -198,7 +198,7 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+105 (Bovada)",
-            "Away ML": "-164 (Bovada)",
+            "Away ML": "-163 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "-125 (Bovada)",
             "Home ML": "+140 (DK)",
@@ -307,7 +307,7 @@
             "Home Spread Odds": "+145 (Bovada)",
             "Home ML": "-147 (Bovada)",
             "Total": "8.5 (Bovada)",
-            "Over Total Odds": "−108 (DK)",
+            "Over Total Odds": "-110 (Bovada)",
             "Under Total Odds": "-110 (Bovada)"
         }
     },
@@ -364,6 +364,32 @@
         }
     },
     {
+        "MatchupID": "fe2ec146_4e2f3aa1_MLB",
+        "Info Table": {
+            "Away Team": "Philadelphia Phillies",
+            "Away Team Rank Name": "Philadelphia",
+            "Away Abv": "PHI",
+            "Away ID": "fe2ec146",
+            "Home Team": "Los Angeles Dodgers",
+            "Home Team Rank Name": "LA Dodgers",
+            "Home Abv": "LAD",
+            "Home ID": "4e2f3aa1",
+            "Start Time": "10:10 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-170 (Bovada)",
+            "Away ML": "+121 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+145 (Bovada)",
+            "Home ML": "−142 (DK)",
+            "Total": "9.0 (Bovada)",
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "−118 (DK)"
+        }
+    },
+    {
         "MatchupID": "2b1ac347_5a31e1ff_MLB",
         "Info Table": {
             "Away Team": "ARI Diamondbacks",
@@ -379,40 +405,14 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (DK)",
-            "Away Spread Odds": "+142 (DK)",
-            "Away ML": "−115 (DK)",
+            "Away Spread Odds": "+140 (DK)",
+            "Away ML": "−110 (DK)",
             "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "−170 (DK)",
-            "Home ML": "−105 (DK)",
+            "Home Spread Odds": "−166 (DK)",
+            "Home ML": "−110 (DK)",
             "Total": "7.5 (DK)",
-            "Over Total Odds": "−105 (DK)",
+            "Over Total Odds": "+100 (DK)",
             "Under Total Odds": "−110 (DK)"
-        }
-    },
-    {
-        "MatchupID": "fe2ec146_4e2f3aa1_MLB",
-        "Info Table": {
-            "Away Team": "PHI Phillies",
-            "Away Team Rank Name": "Philadelphia",
-            "Away Abv": "PHI",
-            "Away ID": "fe2ec146",
-            "Home Team": "LA Dodgers",
-            "Home Team Rank Name": "LA Dodgers",
-            "Home Abv": "LAD",
-            "Home ID": "4e2f3aa1",
-            "Start Time": "10:10PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "−175 (DK)",
-            "Away ML": "+120 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "−170 (DK)",
-            "Home ML": "−142 (DK)",
-            "Total": "9 (DK)",
-            "Over Total Odds": "−102 (DK)",
-            "Under Total Odds": "−118 (DK)"
         }
     }
 ]
