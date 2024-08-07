@@ -71,8 +71,8 @@
                 "Home Spread Odds": "-160",
                 "Home ML": "+100",
                 "Total": "9.0",
-                "Over Total Odds": "-110",
-                "Under Total Odds": "-110"
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
             },
             "MatchupID": "4005c299_e841daaf_MLB",
             "Info Table": {
@@ -95,11 +95,11 @@
             "Odds Table": {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-120",
-                "Away ML": "+175",
+                "Away Spread Odds": "-110",
+                "Away ML": "+176",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+100",
-                "Home ML": "-215",
+                "Home Spread Odds": "-110",
+                "Home ML": "-216",
                 "Total": "8.5",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
@@ -241,6 +241,36 @@
     ],
     [
         {
+            "BetTableId": "Bovada_fe8acdeb_6424b504_MLB",
+            "Odds Table": {
+                "Book Name": "Bovada",
+                "Away Spread": "+1.5",
+                "Away Spread Odds": "-105",
+                "Away ML": "+195",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "-115",
+                "Home ML": "-240",
+                "Total": "8.5",
+                "Over Total Odds": "-115",
+                "Under Total Odds": "-105"
+            },
+            "MatchupID": "fe8acdeb_6424b504_MLB",
+            "Info Table": {
+                "Away Team": "Los Angeles Angels",
+                "Away Team Rank Name": "LA Angels",
+                "Away Abv": "LAA",
+                "Away ID": "fe8acdeb",
+                "Home Team": "New York Yankees",
+                "Home Team Rank Name": "NY Yankees",
+                "Home Abv": "NYY",
+                "Home ID": "6424b504",
+                "Start Time": "7:05 PM",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
             "BetTableId": "Bovada_e8bdce10_8714ddbe_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
@@ -280,9 +310,9 @@
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+140",
                 "Home ML": "-157",
-                "Total": "7.5",
-                "Over Total Odds": "-120",
-                "Under Total Odds": "+100"
+                "Total": "8.0",
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-110"
             },
             "MatchupID": "c5227021_354ef58_MLB",
             "Info Table": {
@@ -306,10 +336,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
                 "Away Spread Odds": "-220",
-                "Away ML": "-102",
+                "Away ML": "-101",
                 "Home Spread": "-1.5",
                 "Home Spread Odds": "+180",
-                "Home ML": "-118",
+                "Home ML": "-119",
                 "Total": "7.5",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
@@ -355,36 +385,6 @@
                 "Home Abv": "KC",
                 "Home ID": "db2ee960",
                 "Start Time": "8:10 PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_c625b23e_8f2512bc_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "-105",
-                "Away ML": "-159",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "-115",
-                "Home ML": "+133",
-                "Total": "11.5",
-                "Over Total Odds": "-105",
-                "Under Total Odds": "-115"
-            },
-            "MatchupID": "c625b23e_8f2512bc_MLB",
-            "Info Table": {
-                "Away Team": "New York Mets",
-                "Away Team Rank Name": "NY Mets",
-                "Away Abv": "NYM",
-                "Away ID": "c625b23e",
-                "Home Team": "Colorado Rockies",
-                "Home Team Rank Name": "Colorado",
-                "Home Abv": "COL",
-                "Home ID": "8f2512bc",
-                "Start Time": "8:40 PM",
                 "League": "MLB"
             }
         }
