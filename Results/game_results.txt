@@ -1,38 +1,23 @@
-San Diego @ Pittsburgh (MLB): Cover Rating - 3.6, Over Score - 5.8
-Bet on Pittsburgh to cover the spread.
-Boston @ Kansas City (MLB): Cover Rating - 3.0, Over Score - 8.5
-Bet on Kansas City to cover the spread.
-NY Mets @ Colorado (MLB): Cover Rating - 5.2, Over Score - 6.1
-Bet on NY Mets to cover the spread.
-Chi Sox @ Oakland (MLB): Cover Rating - 10.7, Over Score - 5.9
-Bet on Oakland to cover the spread.
-Detroit @ Seattle (MLB): Cover Rating - 1.6, Over Score - 5.7
+San Diego @ Pittsburgh (MLB): Cover Rating - 3.0, Over Score - 8.3
+Bet on San Diego to cover the spread.
+Detroit @ Seattle (MLB): Cover Rating - 3.0, Over Score - 8.2
 Bet on Detroit to cover the spread.
-Philadelphia @ LA Dodgers (MLB): Cover Rating - 5.1, Over Score - 6.0
-Bet on Philadelphia to cover the spread.
+Philadelphia @ LA Dodgers (MLB): Cover Rating - 4.0, Over Score - 5.5
+Bet on LA Dodgers to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Chi Sox @ Oakland (MLB): Cover Rating - 10.7, Bet on Oakland to cover the spread.
-NY Mets @ Colorado (MLB): Cover Rating - 5.2, Bet on NY Mets to cover the spread.
-Philadelphia @ LA Dodgers (MLB): Cover Rating - 5.1, Bet on Philadelphia to cover the spread.
-San Diego @ Pittsburgh (MLB): Cover Rating - 3.6, Bet on Pittsburgh to cover the spread.
-Boston @ Kansas City (MLB): Cover Rating - 3.0, Bet on Kansas City to cover the spread.
-Detroit @ Seattle (MLB): Cover Rating - 1.6, Bet on Detroit to cover the spread.
+Philadelphia @ LA Dodgers (MLB): Cover Rating - 4.0, Bet on LA Dodgers to cover the spread.
+San Diego @ Pittsburgh (MLB): Cover Rating - 3.0, Bet on San Diego to cover the spread.
+Detroit @ Seattle (MLB): Cover Rating - 3.0, Bet on Detroit to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Boston @ Kansas City (MLB): Over Score - 8.5
-NY Mets @ Colorado (MLB): Over Score - 6.1
-Philadelphia @ LA Dodgers (MLB): Over Score - 6.0
-Chi Sox @ Oakland (MLB): Over Score - 5.9
-San Diego @ Pittsburgh (MLB): Over Score - 5.8
-Detroit @ Seattle (MLB): Over Score - 5.7
-         date league  cover_rating  ... total     home_team    away_team
-0  2024-08-06    MLB      3.577778  ...   6.5     San Diego   Pittsburgh
-1  2024-08-06    MLB      2.999299  ...   8.5        Boston  Kansas City
-2  2024-08-06    MLB      5.240000  ...   9.5       NY Mets     Colorado
-3  2024-08-06    MLB     10.733333  ...   6.5       Chi Sox      Oakland
-4  2024-08-06    MLB      1.600000  ...   7.5       Detroit      Seattle
-5  2024-08-06    MLB      5.066667  ...   4.5  Philadelphia   LA Dodgers
+San Diego @ Pittsburgh (MLB): Over Score - 8.3
+Detroit @ Seattle (MLB): Over Score - 8.2
+Philadelphia @ LA Dodgers (MLB): Over Score - 5.5
+         date league  cover_rating  ... total     home_team   away_team
+0  2024-08-07    MLB      3.001902  ...   9.0     San Diego  Pittsburgh
+1  2024-08-07    MLB      3.000901  ...   8.5       Detroit     Seattle
+2  2024-08-07    MLB      3.971429  ...   7.5  Philadelphia  LA Dodgers
 
-[6 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
