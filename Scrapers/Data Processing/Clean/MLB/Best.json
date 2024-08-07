@@ -26,58 +26,6 @@
         }
     },
     {
-        "MatchupID": "3f4235d4_9666114b_MLB",
-        "Info Table": {
-            "Away Team": "San Diego Padres",
-            "Away Team Rank Name": "San Diego",
-            "Away Abv": "SD",
-            "Away ID": "3f4235d4",
-            "Home Team": "Pittsburgh Pirates",
-            "Home Team Rank Name": "Pittsburgh",
-            "Home Abv": "PIT",
-            "Home ID": "9666114b",
-            "Start Time": "Bot 9",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-6.0 (Bovada)",
-            "Away Spread Odds": "-135 (Bovada)",
-            "Away ML": "-999 (DK)",
-            "Home Spread": "-6.0 (Bovada)",
-            "Home Spread Odds": "+105 (Bovada)",
-            "Home ML": "+1200 (Bovada)",
-            "Total": "9 (DK)",
-            "Over Total Odds": "+650 (Bovada)",
-            "Under Total Odds": "-999 (DK)"
-        }
-    },
-    {
-        "MatchupID": "18a9d733_300faa7b_MLB",
-        "Info Table": {
-            "Away Team": "Detroit Tigers",
-            "Away Team Rank Name": "Detroit",
-            "Away Abv": "DET",
-            "Away ID": "18a9d733",
-            "Home Team": "Seattle Mariners",
-            "Home Team Rank Name": "Seattle",
-            "Home Abv": "SEA",
-            "Home ID": "300faa7b",
-            "Start Time": "Bot 9",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-2.5 (Bovada)",
-            "Away Spread Odds": "-435 (Bovada)",
-            "Away ML": "-3300 (Bovada)",
-            "Home Spread": "-2.5 (Bovada)",
-            "Home Spread Odds": "+290 (Bovada)",
-            "Home ML": "+1500 (DK)",
-            "Total": "8.5 (DK)",
-            "Over Total Odds": "+650 (Bovada)",
-            "Under Total Odds": "-385 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "fe2ec146_4e2f3aa1_MLB",
         "Info Table": {
             "Away Team": "Philadelphia Phillies",
@@ -88,19 +36,19 @@
             "Home Team Rank Name": "LA Dodgers",
             "Home Abv": "LAD",
             "Home ID": "4e2f3aa1",
-            "Start Time": "Bot 6",
+            "Start Time": "Bot 9",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-3.0 (Bovada)",
-            "Away Spread Odds": "+145 (DK)",
-            "Away ML": "−950 (DK)",
+            "Away Spread": "-3.5 (DK)",
+            "Away Spread Odds": "+165 (Bovada)",
+            "Away ML": "-3300 (Bovada)",
             "Home Spread": "+3.5 (DK)",
-            "Home Spread Odds": "-105 (Bovada)",
-            "Home ML": "+900 (Bovada)",
-            "Total": "7.5 (Bovada)",
-            "Over Total Odds": "+650 (Bovada)",
-            "Under Total Odds": "-120 (Bovada)"
+            "Home Spread Odds": "+190 (DK)",
+            "Home ML": "+1300 (DK)",
+            "Total": "9 (DK)",
+            "Over Total Odds": "+150 (Bovada)",
+            "Under Total Odds": "-200 (Bovada)"
         }
     }
 ]
