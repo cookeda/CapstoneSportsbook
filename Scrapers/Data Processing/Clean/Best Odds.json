@@ -78,81 +78,107 @@
         }
     },
     {
-        "MatchupID": "486a5e3b_dd4357ee_MLB",
-        "Info Table": {
-            "Away Team": "SF Giants",
-            "Away Team Rank Name": "SF Giants",
-            "Away Abv": "SF",
-            "Away ID": "486a5e3b",
-            "Home Team": "WAS Nationals",
-            "Home Team Rank Name": "Washington",
-            "Home Abv": "WSH",
-            "Home ID": "dd4357ee",
-            "Start Time": "Live Game",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-1.5 (DK)",
-            "Away Spread Odds": "+136 (DK)",
-            "Away ML": "−120 (DK)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "−162 (DK)",
-            "Home ML": "+100 (DK)",
-            "Total": "9 (DK)",
-            "Over Total Odds": "−105 (DK)",
-            "Under Total Odds": "−115 (DK)"
-        }
-    },
-    {
         "MatchupID": "c5227021_354ef58_MLB",
         "Info Table": {
-            "Away Team": "MIL Brewers",
+            "Away Team": "Milwaukee Brewers",
             "Away Team Rank Name": "Milwaukee",
             "Away Abv": "MIL",
             "Away ID": "c5227021",
-            "Home Team": "ATL Braves",
+            "Home Team": "Atlanta Braves",
             "Home Team Rank Name": "Atlanta",
             "Home Abv": "ATL",
             "Home ID": "354ef58",
-            "Start Time": "Live Game",
+            "Start Time": "12:20 PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "−166 (DK)",
-            "Away ML": "+124 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "−162 (DK)",
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-165 (Bovada)",
+            "Away ML": "+120 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+140 (Bovada)",
             "Home ML": "−142 (DK)",
-            "Total": "9 (DK)",
-            "Over Total Odds": "−120 (DK)",
+            "Total": "9.0 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
             "Under Total Odds": "+100 (DK)"
+        }
+    },
+    {
+        "MatchupID": "3f4235d4_9666114b_MLB",
+        "Info Table": {
+            "Away Team": "San Diego Padres",
+            "Away Team Rank Name": "San Diego",
+            "Away Abv": "SD",
+            "Away ID": "3f4235d4",
+            "Home Team": "Pittsburgh Pirates",
+            "Home Team Rank Name": "Pittsburgh",
+            "Home Abv": "PIT",
+            "Home ID": "9666114b",
+            "Start Time": "12:35 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "+1.5 (Bovada)",
+            "Away Spread Odds": "-210 (Bovada)",
+            "Away ML": "-105 (Bovada)",
+            "Home Spread": "-1.5 (Bovada)",
+            "Home Spread Odds": "+175 (Bovada)",
+            "Home ML": "-115 (Bovada)",
+            "Total": "8.5 (Bovada)",
+            "Over Total Odds": "-115 (Bovada)",
+            "Under Total Odds": "-105 (Bovada)"
         }
     },
     {
         "MatchupID": "c625b23e_8f2512bc_MLB",
         "Info Table": {
-            "Away Team": "NY Mets",
+            "Away Team": "New York Mets",
             "Away Team Rank Name": "NY Mets",
             "Away Abv": "NYM",
             "Away ID": "c625b23e",
-            "Home Team": "COL Rockies",
+            "Home Team": "Colorado Rockies",
             "Home Team Rank Name": "Colorado",
             "Home Abv": "COL",
             "Home ID": "8f2512bc",
-            "Start Time": "Live Game",
+            "Start Time": "3:10 PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "-1.5 (DK)",
-            "Away Spread Odds": "−108 (DK)",
-            "Away ML": "−162 (DK)",
-            "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "−162 (DK)",
-            "Home ML": "+136 (DK)",
-            "Total": "11 (DK)",
-            "Over Total Odds": "−108 (DK)",
+            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread Odds": "-105 (Bovada)",
+            "Away ML": "-154 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "-115 (Bovada)",
+            "Home ML": "+130 (DK)",
+            "Total": "11.0 (Bovada)",
+            "Over Total Odds": "-105 (Bovada)",
             "Under Total Odds": "−112 (DK)"
+        }
+    },
+    {
+        "MatchupID": "486a5e3b_dd4357ee_MLB",
+        "Info Table": {
+            "Away Team": "San Francisco Giants",
+            "Away Team Rank Name": "SF Giants",
+            "Away Abv": "SF",
+            "Away ID": "486a5e3b",
+            "Home Team": "Washington Nationals",
+            "Home Team Rank Name": "Washington",
+            "Home Abv": "WSH",
+            "Home ID": "dd4357ee",
+            "Start Time": "4:05 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread Odds": "+136 (DK)",
+            "Away ML": "−120 (DK)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "-160 (Bovada)",
+            "Home ML": "+103 (Bovada)",
+            "Total": "9.0 (Bovada)",
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -172,10 +198,10 @@
         "Odds Table": {
             "Away Spread": "+1.5 (DK)",
             "Away Spread Odds": "+110 (DK)",
-            "Away ML": "+225 (DK)",
+            "Away ML": "+230 (DK)",
             "Home Spread": "-1.5 (DK)",
             "Home Spread Odds": "−162 (DK)",
-            "Home ML": "−278 (DK)",
+            "Home ML": "−285 (DK)",
             "Total": "8.5 (DK)",
             "Over Total Odds": "−122 (DK)",
             "Under Total Odds": "+102 (DK)"
@@ -192,7 +218,7 @@
             "Home Team Rank Name": "Toronto",
             "Home Abv": "TOR",
             "Home ID": "8714ddbe",
-            "Start Time": "Live Game",
+            "Start Time": "7:07PM",
             "League": "MLB"
         },
         "Odds Table": {
