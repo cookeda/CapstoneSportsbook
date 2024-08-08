@@ -1,8 +1,8 @@
-SF Giants @ Washington (MLB): Cover Rating - 10.6, Over Score - 5.8
+SF Giants @ Washington (MLB): Cover Rating - 10.6, Over Score - 4.8
 Bet on Washington to cover the spread.
 Milwaukee @ Atlanta (MLB): Cover Rating - 6.3, Over Score - 5.3
 Bet on Milwaukee to cover the spread.
-San Diego @ Pittsburgh (MLB): Cover Rating - 2.7, Over Score - 4.3
+San Diego @ Pittsburgh (MLB): Cover Rating - 2.7, Over Score - 5.3
 Bet on Pittsburgh to cover the spread.
 NY Mets @ Colorado (MLB): Cover Rating - 1.6, Over Score - 6.1
 Bet on Colorado to cover the spread.
@@ -10,22 +10,22 @@ Cincinnati @ Miami (MLB): Cover Rating - 0.3, Over Score - 5.8
 Bet on Miami to cover the spread.
 LA Angels @ NY Yankees (MLB): Cover Rating - 2.8, Over Score - 5.7
 Bet on LA Angels to cover the spread.
-Baltimore @ Toronto (MLB): Cover Rating - 2.1, Over Score - 5.7
+Baltimore @ Toronto (MLB): Cover Rating - 2.1, Over Score - 4.7
 Bet on Toronto to cover the spread.
 Tampa Bay @ St. Louis (MLB): Cover Rating - 0.8, Over Score - 5.4
 Bet on St. Louis to cover the spread.
 Philadelphia @ Arizona (MLB): Cover Rating - 3.2, Over Score - 5.5
 Bet on Arizona to cover the spread.
-Detroit @ Seattle (MLB): Cover Rating - 5.6, Over Score - 4.2
+Detroit @ Seattle (MLB): Cover Rating - 2.6, Over Score - 4.2
 Bet on Detroit to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
 SF Giants @ Washington (MLB): Cover Rating - 10.6, Bet on Washington to cover the spread.
 Milwaukee @ Atlanta (MLB): Cover Rating - 6.3, Bet on Milwaukee to cover the spread.
-Detroit @ Seattle (MLB): Cover Rating - 5.6, Bet on Detroit to cover the spread.
 Philadelphia @ Arizona (MLB): Cover Rating - 3.2, Bet on Arizona to cover the spread.
 LA Angels @ NY Yankees (MLB): Cover Rating - 2.8, Bet on LA Angels to cover the spread.
 San Diego @ Pittsburgh (MLB): Cover Rating - 2.7, Bet on Pittsburgh to cover the spread.
+Detroit @ Seattle (MLB): Cover Rating - 2.6, Bet on Detroit to cover the spread.
 Baltimore @ Toronto (MLB): Cover Rating - 2.1, Bet on Toronto to cover the spread.
 NY Mets @ Colorado (MLB): Cover Rating - 1.6, Bet on Colorado to cover the spread.
 Tampa Bay @ St. Louis (MLB): Cover Rating - 0.8, Bet on St. Louis to cover the spread.
@@ -34,13 +34,13 @@ Cincinnati @ Miami (MLB): Cover Rating - 0.3, Bet on Miami to cover the spread.
 Ranked Games by Over Score Across All Leagues:
 NY Mets @ Colorado (MLB): Over Score - 6.1
 Cincinnati @ Miami (MLB): Over Score - 5.8
-SF Giants @ Washington (MLB): Over Score - 5.8
-Baltimore @ Toronto (MLB): Over Score - 5.7
 LA Angels @ NY Yankees (MLB): Over Score - 5.7
 Philadelphia @ Arizona (MLB): Over Score - 5.5
 Tampa Bay @ St. Louis (MLB): Over Score - 5.4
 Milwaukee @ Atlanta (MLB): Over Score - 5.3
-San Diego @ Pittsburgh (MLB): Over Score - 4.3
+San Diego @ Pittsburgh (MLB): Over Score - 5.3
+SF Giants @ Washington (MLB): Over Score - 4.8
+Baltimore @ Toronto (MLB): Over Score - 4.7
 Detroit @ Seattle (MLB): Over Score - 4.2
          date league  cover_rating  ... total     home_team   away_team
 0  2024-08-08    MLB     10.600000  ...   8.5     SF Giants  Washington
@@ -52,7 +52,7 @@ Detroit @ Seattle (MLB): Over Score - 4.2
 6  2024-08-08    MLB      2.133333  ...   9.0     Baltimore     Toronto
 7  2024-08-08    MLB      0.800000  ...   8.0     Tampa Bay   St. Louis
 8  2024-08-08    MLB      3.200000  ...   9.5  Philadelphia     Arizona
-9  2024-08-08    MLB      5.600000  ...   7.5       Detroit     Seattle
+9  2024-08-08    MLB      2.600000  ...   7.5       Detroit     Seattle
 
 [10 rows x 10 columns]
 Avoided Overriding DailyPredictions
