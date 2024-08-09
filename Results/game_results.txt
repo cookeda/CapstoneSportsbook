@@ -1,6 +1,6 @@
 LA Angels @ Washington (MLB): Cover Rating - 3.9, Over Score - 5.4
 Bet on Washington to cover the spread.
-Texas @ NY Yankees (MLB): Cover Rating - 0.9, Over Score - 4.3
+Texas @ NY Yankees (MLB): Cover Rating - 0.9, Over Score - 5.3
 Bet on NY Yankees to cover the spread.
 San Diego @ Miami (MLB): Cover Rating - 2.5, Over Score - 5.9
 Bet on Miami to cover the spread.
@@ -40,21 +40,21 @@ Pittsburgh @ LA Dodgers (MLB): Over Score - 5.6
 Philadelphia @ Arizona (MLB): Over Score - 5.5
 LA Angels @ Washington (MLB): Over Score - 5.4
 NY Mets @ Seattle (MLB): Over Score - 5.4
+Texas @ NY Yankees (MLB): Over Score - 5.3
 Atlanta @ Colorado (MLB): Over Score - 5.3
 St. Louis @ Kansas City (MLB): Over Score - 5.2
 Chi Cubs @ Chi Sox (MLB): Over Score - 5.0
 Cincinnati @ Milwaukee (MLB): Over Score - 4.7
 Houston @ Boston (MLB): Over Score - 4.7
-Texas @ NY Yankees (MLB): Over Score - 4.3
           date league  cover_rating  ... total     home_team    away_team
 0   2024-08-09    MLB      3.866667  ...   9.0     LA Angels   Washington
-1   2024-08-09    MLB      0.866667  ...   8.5         Texas   NY Yankees
+1   2024-08-09    MLB      0.866667  ...   9.0         Texas   NY Yankees
 2   2024-08-09    MLB      2.466667  ...   8.5     San Diego        Miami
 3   2024-08-09    MLB      4.600000  ...  10.0       Houston       Boston
 4   2024-08-09    MLB      3.866667  ...   7.5      Chi Cubs      Chi Sox
 5   2024-08-09    MLB      5.600000  ...   8.5    Cincinnati    Milwaukee
 6   2024-08-09    MLB     10.866667  ...   9.0     St. Louis  Kansas City
-7   2024-08-09    MLB      8.600000  ...  11.0       Atlanta     Colorado
+7   2024-08-09    MLB      8.600000  ...  10.5       Atlanta     Colorado
 8   2024-08-09    MLB      3.200000  ...   8.5  Philadelphia      Arizona
 9   2024-08-09    MLB      5.266667  ...   8.0    Pittsburgh   LA Dodgers
 10  2024-08-09    MLB      3.200000  ...   7.5       NY Mets      Seattle
