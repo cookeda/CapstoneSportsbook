@@ -10,12 +10,12 @@ Houston @ Boston (MLB): Cover Rating - 4.6, Over Score - 4.7
 Bet on Houston to cover the spread.
 Chi Cubs @ Chi Sox (MLB): Cover Rating - 3.9, Over Score - 5.0
 Bet on Chi Sox to cover the spread.
-St. Louis @ Kansas City (MLB): Cover Rating - 2.0, Over Score - 5.2
+St. Louis @ Kansas City (MLB): Cover Rating - 10.9, Over Score - 4.2
 Bet on Kansas City to cover the spread.
 Cincinnati @ Milwaukee (MLB): Cover Rating - 5.6, Over Score - 5.7
 Bet on Cincinnati to cover the spread.
-Cleveland @ Minnesota (MLB): Cover Rating - 6.3, Over Score - 5.3
-Bet on Cleveland to cover the spread.
+Cleveland @ Minnesota (MLB): Cover Rating - 2.7, Over Score - 5.3
+Bet on Minnesota to cover the spread.
 Atlanta @ Colorado (MLB): Cover Rating - 8.6, Over Score - 5.3
 Bet on Colorado to cover the spread.
 Philadelphia @ Arizona (MLB): Cover Rating - 3.2, Over Score - 5.5
@@ -28,8 +28,8 @@ Detroit @ SF Giants (MLB): Cover Rating - 6.0, Over Score - 5.7
 Bet on Detroit to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
+St. Louis @ Kansas City (MLB): Cover Rating - 10.9, Bet on Kansas City to cover the spread.
 Atlanta @ Colorado (MLB): Cover Rating - 8.6, Bet on Colorado to cover the spread.
-Cleveland @ Minnesota (MLB): Cover Rating - 6.3, Bet on Cleveland to cover the spread.
 Oakland @ Toronto (MLB): Cover Rating - 6.1, Bet on Oakland to cover the spread.
 Detroit @ SF Giants (MLB): Cover Rating - 6.0, Bet on Detroit to cover the spread.
 NY Mets @ Seattle (MLB): Cover Rating - 5.8, Bet on NY Mets to cover the spread.
@@ -38,10 +38,10 @@ Houston @ Boston (MLB): Cover Rating - 4.6, Bet on Houston to cover the spread.
 LA Angels @ Washington (MLB): Cover Rating - 3.9, Bet on Washington to cover the spread.
 Chi Cubs @ Chi Sox (MLB): Cover Rating - 3.9, Bet on Chi Sox to cover the spread.
 Philadelphia @ Arizona (MLB): Cover Rating - 3.2, Bet on Arizona to cover the spread.
+Cleveland @ Minnesota (MLB): Cover Rating - 2.7, Bet on Minnesota to cover the spread.
 San Diego @ Miami (MLB): Cover Rating - 2.5, Bet on Miami to cover the spread.
 Pittsburgh @ LA Dodgers (MLB): Cover Rating - 2.3, Bet on Pittsburgh to cover the spread.
 Baltimore @ Tampa Bay (MLB): Cover Rating - 2.1, Bet on Tampa Bay to cover the spread.
-St. Louis @ Kansas City (MLB): Cover Rating - 2.0, Bet on Kansas City to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Baltimore @ Tampa Bay (MLB): Over Score - 6.0
@@ -54,10 +54,10 @@ LA Angels @ Washington (MLB): Over Score - 5.4
 NY Mets @ Seattle (MLB): Over Score - 5.4
 Cleveland @ Minnesota (MLB): Over Score - 5.3
 Atlanta @ Colorado (MLB): Over Score - 5.3
-St. Louis @ Kansas City (MLB): Over Score - 5.2
 Oakland @ Toronto (MLB): Over Score - 5.1
 Chi Cubs @ Chi Sox (MLB): Over Score - 5.0
 Houston @ Boston (MLB): Over Score - 4.7
+St. Louis @ Kansas City (MLB): Over Score - 4.2
           date league  cover_rating  ... total     home_team    away_team
 0   2024-08-09    MLB      3.866667  ...   9.0     LA Angels   Washington
 1   2024-08-09    MLB      2.133333  ...   8.0     Baltimore    Tampa Bay
@@ -65,10 +65,10 @@ Houston @ Boston (MLB): Over Score - 4.7
 3   2024-08-09    MLB      2.466667  ...   8.0     San Diego        Miami
 4   2024-08-09    MLB      4.600000  ...   9.5       Houston       Boston
 5   2024-08-09    MLB      3.866667  ...   8.5      Chi Cubs      Chi Sox
-6   2024-08-09    MLB      1.999800  ...   9.0     St. Louis  Kansas City
+6   2024-08-09    MLB     10.866667  ...   8.5     St. Louis  Kansas City
 7   2024-08-09    MLB      5.600000  ...   8.5    Cincinnati    Milwaukee
-8   2024-08-09    MLB      6.333333  ...   8.0     Cleveland    Minnesota
-9   2024-08-09    MLB      8.600000  ...  10.5       Atlanta     Colorado
+8   2024-08-09    MLB      2.666667  ...   8.0     Cleveland    Minnesota
+9   2024-08-09    MLB      8.600000  ...  10.0       Atlanta     Colorado
 10  2024-08-09    MLB      3.200000  ...   8.5  Philadelphia      Arizona
 11  2024-08-09    MLB      2.266667  ...   8.0    Pittsburgh   LA Dodgers
 12  2024-08-09    MLB      5.800000  ...   8.5       NY Mets      Seattle
