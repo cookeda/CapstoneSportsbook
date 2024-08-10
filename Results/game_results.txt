@@ -10,7 +10,7 @@ Cincinnati @ Milwaukee (MLB): Cover Rating - 10.6, Over Score - 5.7
 Bet on Cincinnati to cover the spread.
 Cleveland @ Minnesota (MLB): Cover Rating - 2.3, Over Score - 5.3
 Bet on Cleveland to cover the spread.
-Chi Cubs @ Chi Sox (MLB): Cover Rating - 6.1, Over Score - 5.0
+Chi Cubs @ Chi Sox (MLB): Cover Rating - 6.1, Over Score - 4.0
 Bet on Chi Cubs to cover the spread.
 Philadelphia @ Arizona (MLB): Cover Rating - 1.8, Over Score - 5.5
 Bet on Philadelphia to cover the spread.
@@ -43,20 +43,20 @@ Cleveland @ Minnesota (MLB): Over Score - 5.3
 Atlanta @ Colorado (MLB): Over Score - 5.3
 St. Louis @ Kansas City (MLB): Over Score - 5.2
 Oakland @ Toronto (MLB): Over Score - 5.1
-Chi Cubs @ Chi Sox (MLB): Over Score - 5.0
 LA Angels @ Washington (MLB): Over Score - 4.4
 NY Mets @ Seattle (MLB): Over Score - 4.4
+Chi Cubs @ Chi Sox (MLB): Over Score - 4.0
           date league  cover_rating  ... total     home_team    away_team
 0   2024-08-10    MLB     11.066667  ...   9.0       Oakland      Toronto
 1   2024-08-10    MLB      4.533333  ...   8.5     San Diego        Miami
 2   2024-08-10    MLB      1.133333  ...   9.5     LA Angels   Washington
 3   2024-08-10    MLB      3.133333  ...   9.0     St. Louis  Kansas City
-4   2024-08-10    MLB     10.600000  ...   8.5    Cincinnati    Milwaukee
+4   2024-08-10    MLB     10.600000  ...   8.0    Cincinnati    Milwaukee
 5   2024-08-10    MLB      2.333333  ...   8.5     Cleveland    Minnesota
 6   2024-08-10    MLB      6.133333  ...   9.0      Chi Cubs      Chi Sox
 7   2024-08-10    MLB      1.800000  ...   8.5  Philadelphia      Arizona
-8   2024-08-10    MLB      0.600000  ...  10.0       Atlanta     Colorado
-9   2024-08-10    MLB      1.266667  ...   7.5    Pittsburgh   LA Dodgers
+8   2024-08-10    MLB      0.600000  ...  10.5       Atlanta     Colorado
+9   2024-08-10    MLB      1.266667  ...   8.0    Pittsburgh   LA Dodgers
 10  2024-08-10    MLB     10.800000  ...   7.5       NY Mets      Seattle
 
 [11 rows x 10 columns]
