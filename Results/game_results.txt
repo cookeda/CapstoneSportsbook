@@ -1,38 +1,23 @@
-St. Louis @ Kansas City (MLB): Cover Rating - 0.5, Over Score - 8.2
-Bet on Kansas City to cover the spread.
-Atlanta @ Colorado (MLB): Cover Rating - 3.4, Over Score - 5.8
-Bet on Atlanta to cover the spread.
-Philadelphia @ Arizona (MLB): Cover Rating - 7.8, Over Score - 5.5
-Bet on Philadelphia to cover the spread.
 Pittsburgh @ LA Dodgers (MLB): Cover Rating - 10.1, Over Score - 6.1
 Bet on Pittsburgh to cover the spread.
-NY Mets @ Seattle (MLB): Cover Rating - 5.8, Over Score - 5.9
+NY Mets @ Seattle (MLB): Cover Rating - 10.5, Over Score - 5.9
 Bet on NY Mets to cover the spread.
 Detroit @ SF Giants (MLB): Cover Rating - 2.0, Over Score - 6.2
 Bet on Detroit to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
+NY Mets @ Seattle (MLB): Cover Rating - 10.5, Bet on NY Mets to cover the spread.
 Pittsburgh @ LA Dodgers (MLB): Cover Rating - 10.1, Bet on Pittsburgh to cover the spread.
-Philadelphia @ Arizona (MLB): Cover Rating - 7.8, Bet on Philadelphia to cover the spread.
-NY Mets @ Seattle (MLB): Cover Rating - 5.8, Bet on NY Mets to cover the spread.
-Atlanta @ Colorado (MLB): Cover Rating - 3.4, Bet on Atlanta to cover the spread.
 Detroit @ SF Giants (MLB): Cover Rating - 2.0, Bet on Detroit to cover the spread.
-St. Louis @ Kansas City (MLB): Cover Rating - 0.5, Bet on Kansas City to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-St. Louis @ Kansas City (MLB): Over Score - 8.2
 Detroit @ SF Giants (MLB): Over Score - 6.2
 Pittsburgh @ LA Dodgers (MLB): Over Score - 6.1
 NY Mets @ Seattle (MLB): Over Score - 5.9
-Atlanta @ Colorado (MLB): Over Score - 5.8
-Philadelphia @ Arizona (MLB): Over Score - 5.5
-         date league  cover_rating  ... total     home_team    away_team
-0  2024-08-09    MLB      0.520000  ...   9.0     St. Louis  Kansas City
-1  2024-08-09    MLB      3.400000  ...  12.5       Atlanta     Colorado
-2  2024-08-09    MLB      7.800000  ...   5.5  Philadelphia      Arizona
-3  2024-08-09    MLB     10.061538  ...  10.5    Pittsburgh   LA Dodgers
-4  2024-08-09    MLB      5.800000  ...   7.5       NY Mets      Seattle
-5  2024-08-09    MLB      2.000000  ...   6.5       Detroit    SF Giants
+         date league  cover_rating  ... total   home_team   away_team
+0  2024-08-10    MLB     10.072727  ...  16.5  Pittsburgh  LA Dodgers
+1  2024-08-10    MLB     10.480000  ...   3.5     NY Mets     Seattle
+2  2024-08-10    MLB      2.000000  ...   5.5     Detroit   SF Giants
 
-[6 rows x 10 columns]
+[3 rows x 10 columns]
 Avoided Overriding DailyPredictions
