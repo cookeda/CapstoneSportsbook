@@ -1,6 +1,6 @@
-Texas @ NY Yankees (MLB): Cover Rating - 0.9, Over Score - 5.3
+Texas @ NY Yankees (MLB): Cover Rating - 0.9, Over Score - 4.3
 Bet on NY Yankees to cover the spread.
-Oakland @ Toronto (MLB): Cover Rating - 6.1, Over Score - 5.1
+Oakland @ Toronto (MLB): Cover Rating - 6.1, Over Score - 5.6
 Bet on Oakland to cover the spread.
 Detroit @ SF Giants (MLB): Cover Rating - 3.0, Over Score - 5.7
 Bet on Detroit to cover the spread.
@@ -8,7 +8,7 @@ San Diego @ Miami (MLB): Cover Rating - 0.5, Over Score - 4.9
 Bet on Miami to cover the spread.
 Houston @ Boston (MLB): Cover Rating - 4.4, Over Score - 4.7
 Bet on Boston to cover the spread.
-LA Angels @ Washington (MLB): Cover Rating - 3.9, Over Score - 5.4
+LA Angels @ Washington (MLB): Cover Rating - 3.9, Over Score - 4.4
 Bet on Washington to cover the spread.
 St. Louis @ Kansas City (MLB): Cover Rating - 1.9, Over Score - 4.2
 Bet on Kansas City to cover the spread.
@@ -50,21 +50,21 @@ Ranked Games by Over Score Across All Leagues:
 Baltimore @ Tampa Bay (MLB): Over Score - 6.0
 Cincinnati @ Milwaukee (MLB): Over Score - 5.7
 Detroit @ SF Giants (MLB): Over Score - 5.7
+Oakland @ Toronto (MLB): Over Score - 5.6
 Pittsburgh @ LA Dodgers (MLB): Over Score - 5.6
 Philadelphia @ Arizona (MLB): Over Score - 5.5
-LA Angels @ Washington (MLB): Over Score - 5.4
 NY Mets @ Seattle (MLB): Over Score - 5.4
 Cleveland @ Minnesota (MLB): Over Score - 5.3
-Texas @ NY Yankees (MLB): Over Score - 5.3
 Atlanta @ Colorado (MLB): Over Score - 5.3
-Oakland @ Toronto (MLB): Over Score - 5.1
 Chi Cubs @ Chi Sox (MLB): Over Score - 5.0
 San Diego @ Miami (MLB): Over Score - 4.9
 Houston @ Boston (MLB): Over Score - 4.7
+LA Angels @ Washington (MLB): Over Score - 4.4
+Texas @ NY Yankees (MLB): Over Score - 4.3
 St. Louis @ Kansas City (MLB): Over Score - 4.2
           date league  cover_rating  ... total     home_team    away_team
-0   2024-08-10    MLB      0.866667  ...   9.0         Texas   NY Yankees
-1   2024-08-10    MLB      6.066667  ...   9.0       Oakland      Toronto
+0   2024-08-10    MLB      0.866667  ...   9.5         Texas   NY Yankees
+1   2024-08-10    MLB      6.066667  ...   5.5       Oakland      Toronto
 2   2024-08-10    MLB      3.000000  ...   7.5       Detroit    SF Giants
 3   2024-08-10    MLB      0.466667  ...   9.0     San Diego        Miami
 4   2024-08-10    MLB      4.400000  ...  10.5       Houston       Boston
