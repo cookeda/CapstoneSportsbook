@@ -1,28 +1,13 @@
-Atlanta @ Colorado (MLB): Cover Rating - 10.3, Over Score - 5.8
-Bet on Colorado to cover the spread.
-Philadelphia @ Arizona (MLB): Cover Rating - 0.1, Over Score - 6.0
-Bet on Philadelphia to cover the spread.
-Pittsburgh @ LA Dodgers (MLB): Cover Rating - 0.1, Over Score - 6.1
-Bet on Pittsburgh to cover the spread.
-NY Mets @ Seattle (MLB): Cover Rating - 5.3, Over Score - 5.9
+NY Mets @ Seattle (MLB): Cover Rating - 10.3, Over Score - 5.9
 Bet on NY Mets to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Atlanta @ Colorado (MLB): Cover Rating - 10.3, Bet on Colorado to cover the spread.
-NY Mets @ Seattle (MLB): Cover Rating - 5.3, Bet on NY Mets to cover the spread.
-Philadelphia @ Arizona (MLB): Cover Rating - 0.1, Bet on Philadelphia to cover the spread.
-Pittsburgh @ LA Dodgers (MLB): Cover Rating - 0.1, Bet on Pittsburgh to cover the spread.
+NY Mets @ Seattle (MLB): Cover Rating - 10.3, Bet on NY Mets to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Pittsburgh @ LA Dodgers (MLB): Over Score - 6.1
-Philadelphia @ Arizona (MLB): Over Score - 6.0
 NY Mets @ Seattle (MLB): Over Score - 5.9
-Atlanta @ Colorado (MLB): Over Score - 5.8
-         date league  cover_rating  ... total     home_team   away_team
-0  2024-08-10    MLB     10.257143  ...  19.5       Atlanta    Colorado
-1  2024-08-10    MLB      0.126316  ...  12.5  Philadelphia     Arizona
-2  2024-08-10    MLB      0.114286  ...   5.5    Pittsburgh  LA Dodgers
-3  2024-08-10    MLB      5.342857  ...   5.5       NY Mets     Seattle
+         date league  cover_rating  ... total  home_team  away_team
+0  2024-08-11    MLB     10.266667  ...   4.5    NY Mets    Seattle
 
-[4 rows x 10 columns]
+[1 rows x 10 columns]
 Avoided Overriding DailyPredictions
