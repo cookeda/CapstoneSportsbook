@@ -1,78 +1,18 @@
 [
     [
         {
-            "BetTableId": "DK_3f4235d4_8d47be6d_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+135",
-                "Away ML": "−560",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "+370",
-                "Total": "16.5",
-                "Over Total Odds": "−130",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "3f4235d4_8d47be6d_MLB",
-            "Info Table": {
-                "Away Team": "SD Padres",
-                "Away Team Rank Name": "San Diego",
-                "Away Abv": "SD",
-                "Away ID": "3f4235d4",
-                "Home Team": "MIA Marlins",
-                "Home Team Rank Name": "Miami",
-                "Home Abv": "MIA",
-                "Home ID": "8d47be6d",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "DK_e841daaf_6424b504_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "-7.5",
-                "Away Spread Odds": "−175",
-                "Away ML": "−100000",
-                "Home Spread": "+7.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "+4000",
-                "Total": "11.5",
-                "Over Total Odds": "−130",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "e841daaf_6424b504_MLB",
-            "Info Table": {
-                "Away Team": "TEX Rangers",
-                "Away Team Rank Name": "Texas",
-                "Away Abv": "TEX",
-                "Away ID": "e841daaf",
-                "Home Team": "NY Yankees",
-                "Home Team Rank Name": "NY Yankees",
-                "Home Abv": "NYY",
-                "Home ID": "6424b504",
-                "Start Time": "Live Game",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_fe8acdeb_dd4357ee_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+160",
-                "Away ML": "−110",
+                "Away Spread Odds": "+114",
+                "Away ML": "−195",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "−120",
-                "Total": "7.5",
-                "Over Total Odds": "−125",
-                "Under Total Odds": "−105"
+                "Home Spread Odds": "−145",
+                "Home ML": "+145",
+                "Total": "9.5",
+                "Over Total Odds": "−130",
+                "Under Total Odds": "+100"
             },
             "MatchupID": "fe8acdeb_dd4357ee_MLB",
             "Info Table": {
@@ -91,48 +31,18 @@
     ],
     [
         {
-            "BetTableId": "DK_ccadb94e_db2ee960_MLB",
-            "Odds Table": {
-                "Book Name": "DK",
-                "Away Spread": "+1.5",
-                "Away Spread Odds": "−198",
-                "Away ML": "+102",
-                "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "−122",
-                "Total": "8.5",
-                "Over Total Odds": "−120",
-                "Under Total Odds": "+100"
-            },
-            "MatchupID": "ccadb94e_db2ee960_MLB",
-            "Info Table": {
-                "Away Team": "STL Cardinals",
-                "Away Team Rank Name": "St. Louis",
-                "Away Abv": "STL",
-                "Away ID": "ccadb94e",
-                "Home Team": "KC Royals",
-                "Home Team Rank Name": "Kansas City",
-                "Home Abv": "KC",
-                "Home ID": "db2ee960",
-                "Start Time": "7:10PM",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
             "BetTableId": "DK_fdd0d44c_c5227021_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "−180",
-                "Away ML": "+120",
+                "Away Spread Odds": "−245",
+                "Away ML": "+124",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "−142",
-                "Total": "8",
-                "Over Total Odds": "−118",
-                "Under Total Odds": "−102"
+                "Home Spread Odds": "−145",
+                "Home ML": "−160",
+                "Total": "4.5",
+                "Over Total Odds": "−115",
+                "Under Total Odds": "−115"
             },
             "MatchupID": "fdd0d44c_c5227021_MLB",
             "Info Table": {
@@ -144,37 +54,37 @@
                 "Home Team Rank Name": "Milwaukee",
                 "Home Abv": "MIL",
                 "Home ID": "c5227021",
-                "Start Time": "7:10PM",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
     ],
     [
         {
-            "BetTableId": "DK_5a31e1ff_f5328492_MLB",
+            "BetTableId": "DK_ccadb94e_db2ee960_MLB",
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "+160",
-                "Away ML": "−105",
+                "Away Spread Odds": "+130",
+                "Away ML": "−145",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "−115",
+                "Home Spread Odds": "−145",
+                "Home ML": "+114",
                 "Total": "8.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
+                "Over Total Odds": "−125",
+                "Under Total Odds": "−105"
             },
-            "MatchupID": "5a31e1ff_f5328492_MLB",
+            "MatchupID": "ccadb94e_db2ee960_MLB",
             "Info Table": {
-                "Away Team": "CLE Guardians",
-                "Away Team Rank Name": "Cleveland",
-                "Away Abv": "CLE",
-                "Away ID": "5a31e1ff",
-                "Home Team": "MIN Twins",
-                "Home Team Rank Name": "Minnesota",
-                "Home Abv": "MIN",
-                "Home ID": "f5328492",
-                "Start Time": "7:10PM",
+                "Away Team": "STL Cardinals",
+                "Away Team Rank Name": "St. Louis",
+                "Away Abv": "STL",
+                "Away ID": "ccadb94e",
+                "Home Team": "KC Royals",
+                "Home Team Rank Name": "Kansas City",
+                "Home Abv": "KC",
+                "Home ID": "db2ee960",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
@@ -185,14 +95,14 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "−142",
-                "Away ML": "−225",
+                "Away Spread Odds": "+124",
+                "Away ML": "−135",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "+185",
-                "Total": "9",
-                "Over Total Odds": "−112",
-                "Under Total Odds": "−108"
+                "Home Spread Odds": "−145",
+                "Home ML": "+105",
+                "Total": "8.5",
+                "Over Total Odds": "−105",
+                "Under Total Odds": "−125"
             },
             "MatchupID": "d10f1db8_ea799920_MLB",
             "Info Table": {
@@ -204,7 +114,7 @@
                 "Home Team Rank Name": "Chi Sox",
                 "Home Abv": "CWS",
                 "Home ID": "ea799920",
-                "Start Time": "7:15PM",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
@@ -214,14 +124,14 @@
             "BetTableId": "DK_e8bdce10_16f4bf06_MLB",
             "Odds Table": {
                 "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+124",
-                "Away ML": "−135",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−175",
-                "Home ML": "+114",
-                "Total": "7.5",
-                "Over Total Odds": "+100",
+                "Away Spread": "-4.5",
+                "Away Spread Odds": "−110",
+                "Away ML": "−1450",
+                "Home Spread": "+4.5",
+                "Home Spread Odds": "−145",
+                "Home ML": "+750",
+                "Total": "9.5",
+                "Over Total Odds": "−110",
                 "Under Total Odds": "−120"
             },
             "MatchupID": "e8bdce10_16f4bf06_MLB",
@@ -234,7 +144,37 @@
                 "Home Team Rank Name": "Tampa Bay",
                 "Home Abv": "TB",
                 "Home ID": "16f4bf06",
-                "Start Time": "7:15PM",
+                "Start Time": "Live Game",
+                "League": "MLB"
+            }
+        }
+    ],
+    [
+        {
+            "BetTableId": "DK_5a31e1ff_f5328492_MLB",
+            "Odds Table": {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+105",
+                "Away ML": "−166",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−145",
+                "Home ML": "+130",
+                "Total": "8.5",
+                "Over Total Odds": "−125",
+                "Under Total Odds": "−105"
+            },
+            "MatchupID": "5a31e1ff_f5328492_MLB",
+            "Info Table": {
+                "Away Team": "CLE Guardians",
+                "Away Team Rank Name": "Cleveland",
+                "Away Abv": "CLE",
+                "Away ID": "5a31e1ff",
+                "Home Team": "MIN Twins",
+                "Home Team Rank Name": "Minnesota",
+                "Home Abv": "MIN",
+                "Home ID": "f5328492",
+                "Start Time": "Live Game",
                 "League": "MLB"
             }
         }
@@ -245,11 +185,11 @@
             "Odds Table": {
                 "Book Name": "DK",
                 "Away Spread": "-1.5",
-                "Away Spread Odds": "−130",
-                "Away ML": "−198",
+                "Away Spread Odds": "−135",
+                "Away ML": "−205",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−154",
-                "Home ML": "+164",
+                "Home Spread Odds": "−145",
+                "Home ML": "+170",
                 "Total": "10.5",
                 "Over Total Odds": "−118",
                 "Under Total Odds": "−102"
@@ -278,7 +218,7 @@
                 "Away Spread Odds": "+160",
                 "Away ML": "−102",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−154",
+                "Home Spread Odds": "−145",
                 "Home ML": "−118",
                 "Total": "8.5",
                 "Over Total Odds": "−108",
@@ -308,7 +248,7 @@
                 "Away Spread Odds": "+150",
                 "Away ML": "−112",
                 "Home Spread": "+1.5",
-                "Home Spread Odds": "−154",
+                "Home Spread Odds": "−145",
                 "Home ML": "−108",
                 "Total": "8",
                 "Over Total Odds": "−112",
@@ -338,11 +278,11 @@
                 "Away Spread Odds": "−198",
                 "Away ML": "+114",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "−154",
+                "Home Spread Odds": "−145",
                 "Home ML": "−135",
                 "Total": "7.5",
-                "Over Total Odds": "−105",
-                "Under Total Odds": "−115"
+                "Over Total Odds": "−102",
+                "Under Total Odds": "−118"
             },
             "MatchupID": "c625b23e_300faa7b_MLB",
             "Info Table": {
