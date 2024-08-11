@@ -9,9 +9,9 @@
     "e841daaf_6424b504_MLB": {
         "team_to_cover": "Texas",
         "cover_rating": 4.1,
-        "over_score": 4.3,
+        "over_score": 5.3,
         "cover_grade": 2,
-        "total_rating": -1
+        "total_rating": -2
     },
     "4005c299_8a2d1e91_MLB": {
         "team_to_cover": "Houston",
@@ -38,7 +38,7 @@
         "team_to_cover": "Baltimore",
         "cover_rating": 2.9,
         "over_score": 6.0,
-        "cover_grade": 1,
+        "cover_grade": 2,
         "total_rating": 0
     },
     "5a31e1ff_f5328492_MLB": {
@@ -47,6 +47,13 @@
         "over_score": 5.3,
         "cover_grade": 1,
         "total_rating": -2
+    },
+    "fdd0d44c_c5227021_MLB": {
+        "team_to_cover": "Cincinnati",
+        "cover_rating": 1.6,
+        "over_score": 5.7,
+        "cover_grade": 1,
+        "total_rating": -3
     },
     "354ef58_8f2512bc_MLB": {
         "team_to_cover": "Colorado",
@@ -58,15 +65,15 @@
     "18a9d733_486a5e3b_MLB": {
         "team_to_cover": "Detroit",
         "cover_rating": 11.0,
-        "over_score": 5.7,
+        "over_score": 4.7,
         "cover_grade": 3,
-        "total_rating": -3
+        "total_rating": -1
     },
     "9666114b_4e2f3aa1_MLB": {
         "team_to_cover": "Pittsburgh",
         "cover_rating": 5.3,
         "over_score": 5.6,
-        "cover_grade": 2,
+        "cover_grade": 3,
         "total_rating": -3
     },
     "fe2ec146_2b1ac347_MLB": {
@@ -74,7 +81,7 @@
         "cover_rating": 1.8,
         "over_score": 5.5,
         "cover_grade": 1,
-        "total_rating": -2
+        "total_rating": -3
     },
     "c625b23e_300faa7b_MLB": {
         "team_to_cover": "NY Mets",
