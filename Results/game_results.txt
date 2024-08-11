@@ -51,7 +51,7 @@ LA Angels @ Washington (MLB): Over Score - 4.4
 Texas @ NY Yankees (MLB): Over Score - 4.3
 Atlanta @ Colorado (MLB): Over Score - 4.3
           date league  cover_rating  ... total     home_team   away_team
-0   2024-08-11    MLB     10.133333  ...   9.0     LA Angels  Washington
+0   2024-08-11    MLB     10.133333  ...   8.5     LA Angels  Washington
 1   2024-08-11    MLB      4.133333  ...   9.5         Texas  NY Yankees
 2   2024-08-11    MLB      0.600000  ...  10.0       Houston      Boston
 3   2024-08-11    MLB     11.066667  ...   8.5       Oakland     Toronto
@@ -65,4 +65,3 @@ Atlanta @ Colorado (MLB): Over Score - 4.3
 11  2024-08-11    MLB     10.800000  ...   7.5       NY Mets     Seattle
 
 [12 rows x 10 columns]
-Avoided Overriding DailyPredictions
