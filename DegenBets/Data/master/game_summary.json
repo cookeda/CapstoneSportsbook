@@ -1,16 +1,65 @@
 {
-    "9666114b_4e2f3aa1_MLB": {
-        "team_to_cover": "Pittsburgh",
-        "cover_rating": 10.3,
-        "over_score": 6.1,
-        "cover_grade": 1,
-        "total_rating": 0
+    "ccadb94e_fdd0d44c_MLB": {
+        "team_to_cover": "Cincinnati",
+        "cover_rating": 9.7,
+        "over_score": 4.9,
+        "cover_grade": 3,
+        "total_rating": -1
     },
-    "c625b23e_300faa7b_MLB": {
-        "team_to_cover": "NY Mets",
-        "cover_rating": 10.8,
+    "d10f1db8_5a31e1ff_MLB": {
+        "team_to_cover": "Cleveland",
+        "cover_rating": 10.2,
         "over_score": 5.4,
         "cover_grade": 0,
+        "total_rating": -3
+    },
+    "4005c299_16f4bf06_MLB": {
+        "team_to_cover": "Tampa Bay",
+        "cover_rating": 3.7,
+        "over_score": 5.0,
+        "cover_grade": 1,
+        "total_rating": -2
+    },
+    "e841daaf_8a2d1e91_MLB": {
+        "team_to_cover": "Texas",
+        "cover_rating": 5.3,
+        "over_score": 5.1,
+        "cover_grade": 2,
+        "total_rating": -2
+    },
+    "db2ee960_f5328492_MLB": {
+        "team_to_cover": "Kansas City",
+        "cover_rating": 5.7,
+        "over_score": 5.0,
+        "cover_grade": 3,
+        "total_rating": -2
+    },
+    "6424b504_ea799920_MLB": {
+        "team_to_cover": "NY Yankees",
+        "cover_rating": 1.9,
+        "over_score": 5.2,
+        "cover_grade": 1,
+        "total_rating": -2
+    },
+    "4e2f3aa1_c5227021_MLB": {
+        "team_to_cover": "Milwaukee",
+        "cover_rating": 4.1,
+        "over_score": 5.8,
+        "cover_grade": 2,
+        "total_rating": 0
+    },
+    "8714ddbe_fe8acdeb_MLB": {
+        "team_to_cover": "LA Angels",
+        "cover_rating": 3.8,
+        "over_score": 5.3,
+        "cover_grade": 2,
+        "total_rating": -3
+    },
+    "354ef58_486a5e3b_MLB": {
+        "team_to_cover": "SF Giants",
+        "cover_rating": 3.8,
+        "over_score": 4.1,
+        "cover_grade": 2,
         "total_rating": -1
     }
 }
