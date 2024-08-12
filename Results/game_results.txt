@@ -14,7 +14,7 @@ LA Dodgers @ Milwaukee (MLB): Cover Rating - 4.1, Over Score - 5.8
 Bet on Milwaukee to cover the spread.
 Toronto @ LA Angels (MLB): Cover Rating - 3.8, Over Score - 5.3
 Bet on LA Angels to cover the spread.
-Colorado @ Arizona (MLB): Cover Rating - 2.4, Over Score - 5.7
+Colorado @ Arizona (MLB): Cover Rating - 0.4, Over Score - 5.7
 Bet on Colorado to cover the spread.
 Pittsburgh @ San Diego (MLB): Cover Rating - 6.0, Over Score - 5.7
 Bet on Pittsburgh to cover the spread.
@@ -31,8 +31,8 @@ LA Dodgers @ Milwaukee (MLB): Cover Rating - 4.1, Bet on Milwaukee to cover the 
 Toronto @ LA Angels (MLB): Cover Rating - 3.8, Bet on LA Angels to cover the spread.
 Atlanta @ SF Giants (MLB): Cover Rating - 3.8, Bet on SF Giants to cover the spread.
 Houston @ Tampa Bay (MLB): Cover Rating - 3.7, Bet on Tampa Bay to cover the spread.
-Colorado @ Arizona (MLB): Cover Rating - 2.4, Bet on Colorado to cover the spread.
 NY Yankees @ Chi Sox (MLB): Cover Rating - 1.9, Bet on NY Yankees to cover the spread.
+Colorado @ Arizona (MLB): Cover Rating - 0.4, Bet on Colorado to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 LA Dodgers @ Milwaukee (MLB): Over Score - 5.8
@@ -48,14 +48,14 @@ St. Louis @ Cincinnati (MLB): Over Score - 4.9
 Houston @ Tampa Bay (MLB): Over Score - 4.0
           date league  cover_rating  ... total    home_team   away_team
 0   2024-08-12    MLB     10.200000  ...   8.0     Chi Cubs   Cleveland
-1   2024-08-12    MLB      9.666667  ...   9.0    St. Louis  Cincinnati
+1   2024-08-12    MLB      9.666667  ...   8.5    St. Louis  Cincinnati
 2   2024-08-12    MLB      3.666667  ...   7.5      Houston   Tampa Bay
 3   2024-08-12    MLB      5.266667  ...   9.5        Texas      Boston
 4   2024-08-12    MLB      5.733333  ...   8.5  Kansas City   Minnesota
 5   2024-08-12    MLB      1.933333  ...   9.0   NY Yankees     Chi Sox
 6   2024-08-12    MLB      4.066667  ...   8.0   LA Dodgers   Milwaukee
 7   2024-08-12    MLB      3.800000  ...   9.0      Toronto   LA Angels
-8   2024-08-12    MLB      2.400000  ...   8.5     Colorado     Arizona
+8   2024-08-12    MLB      0.400000  ...   8.5     Colorado     Arizona
 9   2024-08-12    MLB      6.000000  ...   8.0   Pittsburgh   San Diego
 10  2024-08-12    MLB      3.800000  ...   6.5      Atlanta   SF Giants
 
