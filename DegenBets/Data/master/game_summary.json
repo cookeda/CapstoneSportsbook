@@ -1,17 +1,17 @@
 {
-    "ccadb94e_fdd0d44c_MLB": {
-        "team_to_cover": "Cincinnati",
-        "cover_rating": 9.7,
-        "over_score": 4.9,
-        "cover_grade": 3,
-        "total_rating": -1
-    },
     "d10f1db8_5a31e1ff_MLB": {
         "team_to_cover": "Cleveland",
         "cover_rating": 10.2,
         "over_score": 5.4,
         "cover_grade": 0,
         "total_rating": -3
+    },
+    "ccadb94e_fdd0d44c_MLB": {
+        "team_to_cover": "Cincinnati",
+        "cover_rating": 9.7,
+        "over_score": 4.9,
+        "cover_grade": 3,
+        "total_rating": -1
     },
     "4005c299_16f4bf06_MLB": {
         "team_to_cover": "Tampa Bay",
@@ -72,8 +72,8 @@
     "354ef58_486a5e3b_MLB": {
         "team_to_cover": "SF Giants",
         "cover_rating": 3.8,
-        "over_score": 4.1,
+        "over_score": 5.1,
         "cover_grade": 2,
-        "total_rating": -1
+        "total_rating": -2
     }
 }
