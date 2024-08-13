@@ -1,59 +1,52 @@
 {
-    "ccadb94e_fdd0d44c_MLB": {
-        "team_to_cover": "St. Louis",
-        "cover_rating": 4.2,
-        "over_score": 4.9,
-        "cover_grade": 2,
-        "total_rating": -1
-    },
     "d10f1db8_5a31e1ff_MLB": {
         "team_to_cover": "Chi Cubs",
         "cover_rating": 3.8,
-        "over_score": 5.9,
+        "over_score": 5.4,
         "cover_grade": 2,
-        "total_rating": 0
+        "total_rating": -3
     },
     "4005c299_16f4bf06_MLB": {
         "team_to_cover": "Houston",
-        "cover_rating": 3.1,
-        "over_score": 5.5,
-        "cover_grade": 2,
-        "total_rating": -2
-    },
-    "e841daaf_8a2d1e91_MLB": {
-        "team_to_cover": "Texas",
-        "cover_rating": 10.3,
-        "over_score": 5.6,
-        "cover_grade": 0,
-        "total_rating": -3
-    },
-    "db2ee960_f5328492_MLB": {
-        "team_to_cover": "Kansas City",
-        "cover_rating": 1.7,
+        "cover_rating": 1.1,
         "over_score": 5.0,
         "cover_grade": 1,
         "total_rating": -1
     },
+    "e841daaf_8a2d1e91_MLB": {
+        "team_to_cover": "Texas",
+        "cover_rating": 5.3,
+        "over_score": 5.1,
+        "cover_grade": 3,
+        "total_rating": -2
+    },
+    "db2ee960_f5328492_MLB": {
+        "team_to_cover": "Kansas City",
+        "cover_rating": 5.3,
+        "over_score": 5.0,
+        "cover_grade": 3,
+        "total_rating": -1
+    },
     "6424b504_ea799920_MLB": {
         "team_to_cover": "NY Yankees",
-        "cover_rating": 6.9,
+        "cover_rating": 1.9,
         "over_score": 5.2,
-        "cover_grade": 3,
+        "cover_grade": 2,
         "total_rating": -2
     },
     "4e2f3aa1_c5227021_MLB": {
         "team_to_cover": "LA Dodgers",
-        "cover_rating": 0.9,
-        "over_score": 5.8,
+        "cover_rating": 1.0,
+        "over_score": 6.3,
         "cover_grade": 1,
-        "total_rating": -3
+        "total_rating": 0
     },
     "8714ddbe_fe8acdeb_MLB": {
         "team_to_cover": "Toronto",
         "cover_rating": 1.2,
         "over_score": 5.3,
-        "cover_grade": 1,
-        "total_rating": -2
+        "cover_grade": 2,
+        "total_rating": -3
     },
     "8f2512bc_2b1ac347_MLB": {
         "team_to_cover": "Colorado",
@@ -66,14 +59,14 @@
         "team_to_cover": "Pittsburgh",
         "cover_rating": 8.0,
         "over_score": 5.7,
-        "cover_grade": 3,
+        "cover_grade": 0,
         "total_rating": -3
     },
     "354ef58_486a5e3b_MLB": {
         "team_to_cover": "Atlanta",
         "cover_rating": 1.2,
         "over_score": 5.1,
-        "cover_grade": 1,
-        "total_rating": -1
+        "cover_grade": 2,
+        "total_rating": -2
     }
 }
