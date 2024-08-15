@@ -104,6 +104,32 @@
         }
     },
     {
+        "MatchupID": "300faa7b_18a9d733_MLB",
+        "Info Table": {
+            "Away Team": "Seattle Mariners",
+            "Away Team Rank Name": "Seattle",
+            "Away Abv": "SEA",
+            "Away ID": "300faa7b",
+            "Home Team": "Detroit Tigers",
+            "Home Team Rank Name": "Detroit",
+            "Home Abv": "DET",
+            "Home ID": "18a9d733",
+            "Start Time": "1:10 PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (Bovada)",
+            "Away Spread Odds": "+105 (Bovada)",
+            "Away ML": "-154 (Bovada)",
+            "Home Spread": "+1.5 (Bovada)",
+            "Home Spread Odds": "-125 (Bovada)",
+            "Home ML": "+129 (Bovada)",
+            "Total": "8.0 (Bovada)",
+            "Over Total Odds": "-110 (Bovada)",
+            "Under Total Odds": "-110 (Bovada)"
+        }
+    },
+    {
         "MatchupID": "4e2f3aa1_c5227021_MLB",
         "Info Table": {
             "Away Team": "Los Angeles Dodgers",
@@ -146,13 +172,13 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "+164 (DK)",
-            "Away ML": "-104 (Bovada)",
+            "Away ML": "+101 (Bovada)",
             "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "+190 (Bovada)",
+            "Home Spread Odds": "+180 (Bovada)",
             "Home ML": "−115 (DK)",
             "Total": "7.5 (Bovada)",
-            "Over Total Odds": "+102 (DK)",
-            "Under Total Odds": "-120 (Bovada)"
+            "Over Total Odds": "+100 (Bovada)",
+            "Under Total Odds": "+105 (DK)"
         }
     },
     {
@@ -182,32 +208,6 @@
         }
     },
     {
-        "MatchupID": "f5328492_e841daaf_MLB",
-        "Info Table": {
-            "Away Team": "Minnesota Twins",
-            "Away Team Rank Name": "Minnesota",
-            "Away Abv": "MIN",
-            "Away ID": "f5328492",
-            "Home Team": "Texas Rangers",
-            "Home Team Rank Name": "Texas",
-            "Home Abv": "TEX",
-            "Home ID": "e841daaf",
-            "Start Time": "8:05 PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+140 (Bovada)",
-            "Away ML": "-118 (Bovada)",
-            "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "+114 (DK)",
-            "Home ML": "+105 (DK)",
-            "Total": "8.5 (Bovada)",
-            "Over Total Odds": "-105 (Bovada)",
-            "Under Total Odds": "-115 (Bovada)"
-        }
-    },
-    {
         "MatchupID": "dd4357ee_fe2ec146_MLB",
         "Info Table": {
             "Away Team": "WAS Nationals",
@@ -231,6 +231,32 @@
             "Total": "8.5 (DK)",
             "Over Total Odds": "−102 (DK)",
             "Under Total Odds": "−118 (DK)"
+        }
+    },
+    {
+        "MatchupID": "f5328492_e841daaf_MLB",
+        "Info Table": {
+            "Away Team": "MIN Twins",
+            "Away Team Rank Name": "Minnesota",
+            "Away Abv": "MIN",
+            "Away ID": "f5328492",
+            "Home Team": "TEX Rangers",
+            "Home Team Rank Name": "Texas",
+            "Home Abv": "TEX",
+            "Home ID": "e841daaf",
+            "Start Time": "8:05PM",
+            "League": "MLB"
+        },
+        "Odds Table": {
+            "Away Spread": "-1.5 (DK)",
+            "Away Spread Odds": "+136 (DK)",
+            "Away ML": "−122 (DK)",
+            "Home Spread": "+1.5 (DK)",
+            "Home Spread Odds": "+114 (DK)",
+            "Home ML": "+102 (DK)",
+            "Total": "8 (DK)",
+            "Over Total Odds": "−118 (DK)",
+            "Under Total Odds": "−102 (DK)"
         }
     }
 ]
