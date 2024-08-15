@@ -1,5 +1,7 @@
 Oakland @ NY Mets (MLB): Cover Rating - 10.5, Over Score - 5.1
 Bet on Oakland to cover the spread.
+Seattle @ Detroit (MLB): Cover Rating - 1.5, Over Score - 5.6
+Bet on Seattle to cover the spread.
 LA Dodgers @ Milwaukee (MLB): Cover Rating - 0.9, Over Score - 5.8
 Bet on LA Dodgers to cover the spread.
 Atlanta @ SF Giants (MLB): Cover Rating - 1.2, Over Score - 4.1
@@ -16,23 +18,26 @@ Oakland @ NY Mets (MLB): Cover Rating - 10.5, Bet on Oakland to cover the spread
 Washington @ Philadelphia (MLB): Cover Rating - 5.2, Bet on Washington to cover the spread.
 Boston @ Baltimore (MLB): Cover Rating - 5.1, Bet on Boston to cover the spread.
 Minnesota @ Texas (MLB): Cover Rating - 4.7, Bet on Texas to cover the spread.
+Seattle @ Detroit (MLB): Cover Rating - 1.5, Bet on Seattle to cover the spread.
 Atlanta @ SF Giants (MLB): Cover Rating - 1.2, Bet on Atlanta to cover the spread.
 LA Dodgers @ Milwaukee (MLB): Cover Rating - 0.9, Bet on LA Dodgers to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 LA Dodgers @ Milwaukee (MLB): Over Score - 5.8
 Boston @ Baltimore (MLB): Over Score - 5.7
+Seattle @ Detroit (MLB): Over Score - 5.6
 Washington @ Philadelphia (MLB): Over Score - 5.2
 Oakland @ NY Mets (MLB): Over Score - 5.1
 Minnesota @ Texas (MLB): Over Score - 4.8
 Atlanta @ SF Giants (MLB): Over Score - 4.1
          date league  cover_rating  ... total   home_team     away_team
 0  2024-08-15    MLB     10.466667  ...   8.5     Oakland       NY Mets
-1  2024-08-15    MLB      0.933333  ...   8.0  LA Dodgers     Milwaukee
-2  2024-08-15    MLB      1.200000  ...   7.0     Atlanta     SF Giants
-3  2024-08-15    MLB      5.133333  ...   8.5      Boston     Baltimore
-4  2024-08-15    MLB      5.200000  ...   8.5  Washington  Philadelphia
-5  2024-08-15    MLB      4.666667  ...   8.5   Minnesota         Texas
+1  2024-08-15    MLB      1.533333  ...   8.0     Seattle       Detroit
+2  2024-08-15    MLB      0.933333  ...   8.0  LA Dodgers     Milwaukee
+3  2024-08-15    MLB      1.200000  ...   7.0     Atlanta     SF Giants
+4  2024-08-15    MLB      5.133333  ...   8.5      Boston     Baltimore
+5  2024-08-15    MLB      5.200000  ...   8.5  Washington  Philadelphia
+6  2024-08-15    MLB      4.666667  ...   8.0   Minnesota         Texas
 
-[6 rows x 10 columns]
+[7 rows x 10 columns]
 Avoided Overriding DailyPredictions
