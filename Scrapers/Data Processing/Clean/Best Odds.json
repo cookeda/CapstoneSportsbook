@@ -67,14 +67,14 @@
         },
         "Odds Table": {
             "Away Spread": "-999 (ESPN)",
-            "Away Spread Odds": "99 (Bovada)",
+            "Away Spread Odds": "-999 (ESPN)",
             "Away ML": "-999 (ESPN)",
             "Home Spread": "-999 (ESPN)",
-            "Home Spread Odds": "99 (Bovada)",
+            "Home Spread Odds": "-999 (ESPN)",
             "Home ML": "-999 (ESPN)",
             "Total": "99 (ESPN)",
-            "Over Total Odds": "99 (Bovada)",
-            "Under Total Odds": "99 (Bovada)"
+            "Over Total Odds": "-999 (ESPN)",
+            "Under Total Odds": "-999 (ESPN)"
         }
     },
     {
@@ -94,7 +94,7 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-135 (Bovada)",
-            "Away ML": "+153 (Bovada)",
+            "Away ML": "+155 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+115 (Bovada)",
             "Home ML": "−180 (DK)",
@@ -145,11 +145,11 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "+115 (Bovada)",
-            "Away ML": "-155 (Bovada)",
+            "Away Spread Odds": "+114 (DK)",
+            "Away ML": "−155 (DK)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+114 (DK)",
-            "Home ML": "+130 (Bovada)",
+            "Home ML": "+134 (Bovada)",
             "Total": "8 (DK)",
             "Over Total Odds": "−108 (DK)",
             "Under Total Odds": "+100 (Bovada)"
@@ -172,12 +172,12 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "+164 (DK)",
-            "Away ML": "+101 (Bovada)",
+            "Away ML": "-101 (Bovada)",
             "Home Spread": "+1.5 (DK)",
-            "Home Spread Odds": "+180 (Bovada)",
-            "Home ML": "−115 (DK)",
+            "Home Spread Odds": "+185 (Bovada)",
+            "Home ML": "−118 (DK)",
             "Total": "7.5 (Bovada)",
-            "Over Total Odds": "+100 (Bovada)",
+            "Over Total Odds": "+105 (Bovada)",
             "Under Total Odds": "+105 (DK)"
         }
     },
@@ -198,7 +198,7 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-170 (Bovada)",
-            "Away ML": "+122 (Bovada)",
+            "Away ML": "+123 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+145 (Bovada)",
             "Home ML": "−142 (DK)",
@@ -210,27 +210,27 @@
     {
         "MatchupID": "dd4357ee_fe2ec146_MLB",
         "Info Table": {
-            "Away Team": "WAS Nationals",
+            "Away Team": "Washington Nationals",
             "Away Team Rank Name": "Washington",
             "Away Abv": "WSH",
             "Away ID": "dd4357ee",
-            "Home Team": "PHI Phillies",
+            "Home Team": "Philadelphia Phillies",
             "Home Team Rank Name": "Philadelphia",
             "Home Abv": "PHI",
             "Home ID": "fe2ec146",
-            "Start Time": "Live Game",
+            "Start Time": "6:40 PM",
             "League": "MLB"
         },
         "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
+            "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "+114 (DK)",
             "Away ML": "+230 (DK)",
-            "Home Spread": "-1.5 (DK)",
+            "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+114 (DK)",
-            "Home ML": "−285 (DK)",
-            "Total": "8.5 (DK)",
+            "Home ML": "-280 (Bovada)",
+            "Total": "8.5 (Bovada)",
             "Over Total Odds": "−102 (DK)",
-            "Under Total Odds": "−118 (DK)"
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -254,9 +254,9 @@
             "Home Spread": "+1.5 (DK)",
             "Home Spread Odds": "+114 (DK)",
             "Home ML": "+102 (DK)",
-            "Total": "8 (DK)",
-            "Over Total Odds": "−118 (DK)",
-            "Under Total Odds": "−102 (DK)"
+            "Total": "8.5 (DK)",
+            "Over Total Odds": "−102 (DK)",
+            "Under Total Odds": "−118 (DK)"
         }
     }
 ]
