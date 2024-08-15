@@ -1,28 +1,13 @@
-NY Yankees @ Chi Sox (MLB): Cover Rating - 6.2, Over Score - 8.2
-Bet on NY Yankees to cover the spread.
-LA Dodgers @ Milwaukee (MLB): Cover Rating - 9.9, Over Score - 6.3
-Bet on LA Dodgers to cover the spread.
-Toronto @ LA Angels (MLB): Cover Rating - 6.1, Over Score - 5.8
-Bet on Toronto to cover the spread.
-Atlanta @ SF Giants (MLB): Cover Rating - 6.1, Over Score - 5.1
-Bet on Atlanta to cover the spread.
+Atlanta @ SF Giants (MLB): Cover Rating - 4.0, Over Score - 5.1
+Bet on SF Giants to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-LA Dodgers @ Milwaukee (MLB): Cover Rating - 9.9, Bet on LA Dodgers to cover the spread.
-NY Yankees @ Chi Sox (MLB): Cover Rating - 6.2, Bet on NY Yankees to cover the spread.
-Toronto @ LA Angels (MLB): Cover Rating - 6.1, Bet on Toronto to cover the spread.
-Atlanta @ SF Giants (MLB): Cover Rating - 6.1, Bet on Atlanta to cover the spread.
+Atlanta @ SF Giants (MLB): Cover Rating - 4.0, Bet on SF Giants to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-NY Yankees @ Chi Sox (MLB): Over Score - 8.2
-LA Dodgers @ Milwaukee (MLB): Over Score - 6.3
-Toronto @ LA Angels (MLB): Over Score - 5.8
 Atlanta @ SF Giants (MLB): Over Score - 5.1
-         date league  cover_rating  ... total   home_team  away_team
-0  2024-08-14    MLB      6.186667  ...   8.5  NY Yankees    Chi Sox
-1  2024-08-14    MLB      9.933333  ...   9.5  LA Dodgers  Milwaukee
-2  2024-08-14    MLB      6.054545  ...  11.5     Toronto  LA Angels
-3  2024-08-14    MLB      6.054545  ...  11.5     Atlanta  SF Giants
+         date league  cover_rating  ... total  home_team  away_team
+0  2024-08-15    MLB      3.968421  ...  13.5    Atlanta  SF Giants
 
-[4 rows x 10 columns]
+[1 rows x 10 columns]
 Avoided Overriding DailyPredictions
