@@ -1,18 +1,13 @@
-Washington @ Philadelphia (MLB): Cover Rating - 0.0, Over Score - 5.7
-Bet on Washington to cover the spread.
-Minnesota @ Texas (MLB): Cover Rating - 0.7, Over Score - 4.8
+Minnesota @ Texas (MLB): Cover Rating - 9.7, Over Score - 4.8
 Bet on Texas to cover the spread.
 
 Ranked Cover Recommendations Across All Leagues:
-Minnesota @ Texas (MLB): Cover Rating - 0.7, Bet on Texas to cover the spread.
-Washington @ Philadelphia (MLB): Cover Rating - 0.0, Bet on Washington to cover the spread.
+Minnesota @ Texas (MLB): Cover Rating - 9.7, Bet on Texas to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
-Washington @ Philadelphia (MLB): Over Score - 5.7
 Minnesota @ Texas (MLB): Over Score - 4.8
-         date league  cover_rating  ... total   home_team     away_team
-0  2024-08-15    MLB      0.040000  ...  14.5  Washington  Philadelphia
-1  2024-08-15    MLB      0.666667  ...   9.5   Minnesota         Texas
+         date league  cover_rating  ... total  home_team  away_team
+0  2024-08-15    MLB      9.666667  ...   6.5  Minnesota      Texas
 
-[2 rows x 10 columns]
+[1 rows x 10 columns]
 Avoided Overriding DailyPredictions

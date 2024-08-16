@@ -1,60 +1,30 @@
 [
     [
         {
-            "BetTableId": "Bovada_8a2d1e91_e8bdce10_MLB",
+            "BetTableId": "Bovada_f5328492_e841daaf_MLB",
             "Odds Table": {
                 "Book Name": "Bovada",
-                "Away Spread": "+4.0",
-                "Away Spread Odds": "-300",
-                "Away ML": "+1400",
-                "Home Spread": "+4.0",
-                "Home Spread Odds": "+220",
-                "Home ML": "-5000",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+300",
+                "Away ML": "+115",
+                "Home Spread": "-1.5",
+                "Home Spread Odds": "-450",
+                "Home ML": "-150",
                 "Total": "6.5",
-                "Over Total Odds": "+350",
-                "Under Total Odds": "-550"
+                "Over Total Odds": "-110",
+                "Under Total Odds": "-120"
             },
-            "MatchupID": "8a2d1e91_e8bdce10_MLB",
+            "MatchupID": "f5328492_e841daaf_MLB",
             "Info Table": {
-                "Away Team": "Boston Red Sox",
-                "Away Team Rank Name": "Boston",
-                "Away Abv": "BOS",
-                "Away ID": "8a2d1e91",
-                "Home Team": "Baltimore Orioles",
-                "Home Team Rank Name": "Baltimore",
-                "Home Abv": "BAL",
-                "Home ID": "e8bdce10",
-                "Start Time": "Top 9",
-                "League": "MLB"
-            }
-        }
-    ],
-    [
-        {
-            "BetTableId": "Bovada_dd4357ee_fe2ec146_MLB",
-            "Odds Table": {
-                "Book Name": "Bovada",
-                "Away Spread": "+8.0",
-                "Away Spread Odds": "+145",
-                "Away ML": "+1500",
-                "Home Spread": "+8.0",
-                "Home Spread Odds": "-190",
-                "Home ML": "-6600",
-                "Total": "14.5",
-                "Over Total Odds": "+350",
-                "Under Total Odds": "-115"
-            },
-            "MatchupID": "dd4357ee_fe2ec146_MLB",
-            "Info Table": {
-                "Away Team": "Washington Nationals",
-                "Away Team Rank Name": "Washington",
-                "Away Abv": "WSH",
-                "Away ID": "dd4357ee",
-                "Home Team": "Philadelphia Phillies",
-                "Home Team Rank Name": "Philadelphia",
-                "Home Abv": "PHI",
-                "Home ID": "fe2ec146",
-                "Start Time": "Top 8",
+                "Away Team": "Minnesota Twins",
+                "Away Team Rank Name": "Minnesota",
+                "Away Abv": "MIN",
+                "Away ID": "f5328492",
+                "Home Team": "Texas Rangers",
+                "Home Team Rank Name": "Texas",
+                "Home Abv": "TEX",
+                "Home ID": "e841daaf",
+                "Start Time": "Top 7",
                 "League": "MLB"
             }
         }
