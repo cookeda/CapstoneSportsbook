@@ -1396,3 +1396,7 @@ Traceback (most recent call last):
   File "/media/myfiles/CapstoneSportsbook/Daily.py", line 12, in main
     os.chdir("media/myfiles/CapstoneSportsbook/Data Collecting Src")
 FileNotFoundError: [Errno 2] No such file or directory: 'media/myfiles/CapstoneSportsbook/Data Collecting Src'
+[main 1bf348f3b] Automated Server Update
+ 2 files changed, 13 insertions(+)
+To https://github.com/cookeda/CapstoneSportsbook.git
+   be4a744d6..1bf348f3b  main -> main
