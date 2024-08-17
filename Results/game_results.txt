@@ -4,7 +4,7 @@ NY Yankees @ Detroit (MLB): Cover Rating - 0.5, Over Score - 5.7
 Bet on Detroit to cover the spread.
 Toronto @ Chi Cubs (MLB): Cover Rating - 3.0, Over Score - 8.1
 Bet on Toronto to cover the spread.
-Arizona @ Tampa Bay (MLB): Cover Rating - 2.4, Over Score - 5.4
+Arizona @ Tampa Bay (MLB): Cover Rating - 2.4, Over Score - 4.4
 Bet on Tampa Bay to cover the spread.
 Miami @ NY Mets (MLB): Cover Rating - 5.7, Over Score - 5.0
 Bet on Miami to cover the spread.
@@ -49,7 +49,6 @@ Cleveland @ Milwaukee (MLB): Over Score - 5.8
 SF Giants @ Oakland (MLB): Over Score - 5.8
 NY Yankees @ Detroit (MLB): Over Score - 5.7
 San Diego @ Colorado (MLB): Over Score - 5.5
-Arizona @ Tampa Bay (MLB): Over Score - 5.4
 Seattle @ Pittsburgh (MLB): Over Score - 5.3
 LA Dodgers @ St. Louis (MLB): Over Score - 5.3
 Washington @ Philadelphia (MLB): Over Score - 5.2
@@ -57,6 +56,7 @@ Chi Sox @ Houston (MLB): Over Score - 5.2
 Atlanta @ LA Angels (MLB): Over Score - 5.2
 Miami @ NY Mets (MLB): Over Score - 5.0
 Minnesota @ Texas (MLB): Over Score - 4.8
+Arizona @ Tampa Bay (MLB): Over Score - 4.4
 Kansas City @ Cincinnati (MLB): Over Score - 3.8
           date league  cover_rating  ... total    home_team     away_team
 0   2024-08-17    MLB      9.600000  ...   8.5      Seattle    Pittsburgh
@@ -66,7 +66,7 @@ Kansas City @ Cincinnati (MLB): Over Score - 3.8
 4   2024-08-17    MLB      5.666667  ...   8.5        Miami       NY Mets
 5   2024-08-17    MLB      2.200000  ...   9.0   Washington  Philadelphia
 6   2024-08-17    MLB      5.733333  ...   9.5  Kansas City    Cincinnati
-7   2024-08-17    MLB      0.666667  ...   8.0    Minnesota         Texas
+7   2024-08-17    MLB      0.666667  ...   8.5    Minnesota         Texas
 8   2024-08-17    MLB     10.266667  ...   8.0    SF Giants       Oakland
 9   2024-08-17    MLB      6.600000  ...   8.0      Chi Sox       Houston
 10  2024-08-17    MLB      3.333333  ...   7.5    Cleveland     Milwaukee
