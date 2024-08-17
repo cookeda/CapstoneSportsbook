@@ -10,7 +10,7 @@ Miami @ NY Mets (MLB): Cover Rating - 5.7, Over Score - 5.0
 Bet on Miami to cover the spread.
 Washington @ Philadelphia (MLB): Cover Rating - 2.2, Over Score - 5.2
 Bet on Washington to cover the spread.
-Kansas City @ Cincinnati (MLB): Cover Rating - 5.7, Over Score - 3.8
+Kansas City @ Cincinnati (MLB): Cover Rating - 5.7, Over Score - 4.8
 Bet on Kansas City to cover the spread.
 Minnesota @ Texas (MLB): Cover Rating - 0.7, Over Score - 4.8
 Bet on Texas to cover the spread.
@@ -60,8 +60,8 @@ Atlanta @ LA Angels (MLB): Over Score - 5.2
 Toronto @ Chi Cubs (MLB): Over Score - 5.1
 Miami @ NY Mets (MLB): Over Score - 5.0
 Minnesota @ Texas (MLB): Over Score - 4.8
+Kansas City @ Cincinnati (MLB): Over Score - 4.8
 Arizona @ Tampa Bay (MLB): Over Score - 4.4
-Kansas City @ Cincinnati (MLB): Over Score - 3.8
           date league  cover_rating  ... total    home_team     away_team
 0   2024-08-17    MLB      9.600000  ...   8.5      Seattle    Pittsburgh
 1   2024-08-17    MLB      0.466667  ...   9.0   NY Yankees       Detroit
@@ -80,4 +80,3 @@ Kansas City @ Cincinnati (MLB): Over Score - 3.8
 14  2024-08-17    MLB      7.866667  ...   8.0      Atlanta     LA Angels
 
 [15 rows x 10 columns]
-Avoided Overriding DailyPredictions
