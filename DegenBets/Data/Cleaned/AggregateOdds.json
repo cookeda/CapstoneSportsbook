@@ -67,12 +67,12 @@
             }
         ]
     },
-    "Unknown_9666114b_MLB": {
+    "300faa7b_9666114b_MLB": {
         "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
+            "Away Team": "Seattle Mariners",
+            "Away Team Rank Name": "Seattle",
+            "Away Abv": "SEA",
+            "Away ID": "300faa7b",
             "Home Team": "Pittsburgh Pirates",
             "Home Team Rank Name": "Pittsburgh",
             "Home Abv": "PIT",
@@ -92,6 +92,18 @@
                 "Total": "8.5",
                 "Over Total Odds": "-115",
                 "Under Total Odds": "-105"
+            },
+            {
+                "Book Name": "DK",
+                "Away Spread": "-1.5",
+                "Away Spread Odds": "+110",
+                "Away ML": "−155",
+                "Home Spread": "+1.5",
+                "Home Spread Odds": "−130",
+                "Home ML": "+130",
+                "Total": "8.5",
+                "Over Total Odds": "−110",
+                "Under Total Odds": "−110"
             }
         ]
     },
@@ -512,11 +524,11 @@
             {
                 "Book Name": "Bovada",
                 "Away Spread": "+1.5",
-                "Away Spread Odds": "-220",
-                "Away ML": "-102",
+                "Away Spread Odds": "-225",
+                "Away ML": "-103",
                 "Home Spread": "-1.5",
-                "Home Spread Odds": "+180",
-                "Home ML": "-118",
+                "Home Spread Odds": "+185",
+                "Home ML": "-117",
                 "Total": "7.5",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -593,10 +605,10 @@
                 "Book Name": "Bovada",
                 "Away Spread": "-1.5",
                 "Away Spread Odds": "-125",
-                "Away ML": "-213",
+                "Away ML": "-214",
                 "Home Spread": "+1.5",
                 "Home Spread Odds": "+105",
-                "Home ML": "+173",
+                "Home ML": "+174",
                 "Total": "8.0",
                 "Over Total Odds": "-110",
                 "Under Total Odds": "-110"
@@ -652,34 +664,6 @@
                 "Total": "99",
                 "Over Total Odds": "-999",
                 "Under Total Odds": "-999"
-            }
-        ]
-    },
-    "300faa7b_9666114b_MLB": {
-        "Info Table": {
-            "Away Team": "SEA Mariners",
-            "Away Team Rank Name": "Seattle",
-            "Away Abv": "SEA",
-            "Away ID": "300faa7b",
-            "Home Team": "PIT Pirates",
-            "Home Team Rank Name": "Pittsburgh",
-            "Home Abv": "PIT",
-            "Home ID": "9666114b",
-            "Start Time": "1:05PM",
-            "League": "MLB"
-        },
-        "Bet Tables": [
-            {
-                "Book Name": "DK",
-                "Away Spread": "-1.5",
-                "Away Spread Odds": "+110",
-                "Away ML": "−155",
-                "Home Spread": "+1.5",
-                "Home Spread Odds": "−130",
-                "Home ML": "+130",
-                "Total": "8.5",
-                "Over Total Odds": "−110",
-                "Under Total Odds": "−110"
             }
         ]
     },
