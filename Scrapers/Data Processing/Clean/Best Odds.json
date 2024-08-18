@@ -78,12 +78,12 @@
         }
     },
     {
-        "MatchupID": "Unknown_c625b23e_MLB",
+        "MatchupID": "8d47be6d_c625b23e_MLB",
         "Info Table": {
-            "Away Team": "-999",
-            "Away Team Rank Name": "Unknown",
-            "Away Abv": "Unknown",
-            "Away ID": "Unknown",
+            "Away Team": "Miami Marlins",
+            "Away Team Rank Name": "Miami",
+            "Away Abv": "MIA",
+            "Away ID": "8d47be6d",
             "Home Team": "New York Mets",
             "Home Team Rank Name": "NY Mets",
             "Home Abv": "NYM",
@@ -94,13 +94,13 @@
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
             "Away Spread Odds": "-125 (Bovada)",
-            "Away ML": "+167 (Bovada)",
+            "Away ML": "+166 (Bovada)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+105 (Bovada)",
-            "Home ML": "-204 (Bovada)",
+            "Home ML": "−198 (DK)",
             "Total": "8.5 (Bovada)",
             "Over Total Odds": "+100 (Bovada)",
-            "Under Total Odds": "-120 (Bovada)"
+            "Under Total Odds": "−112 (DK)"
         }
     },
     {
@@ -119,13 +119,13 @@
         },
         "Odds Table": {
             "Away Spread": "+1.5 (Bovada)",
-            "Away Spread Odds": "−166 (DK)",
+            "Away Spread Odds": "-170 (Bovada)",
             "Away ML": "+120 (DK)",
             "Home Spread": "-1.5 (Bovada)",
             "Home Spread Odds": "+140 (Bovada)",
             "Home ML": "-142 (Bovada)",
             "Total": "9.0 (Bovada)",
-            "Over Total Odds": "−105 (DK)",
+            "Over Total Odds": "-110 (Bovada)",
             "Under Total Odds": "-110 (Bovada)"
         }
     },
@@ -177,8 +177,8 @@
             "Home Spread Odds": "+115 (Bovada)",
             "Home ML": "-177 (Bovada)",
             "Total": "9.5 (Bovada)",
-            "Over Total Odds": "−105 (DK)",
-            "Under Total Odds": "-110 (Bovada)"
+            "Over Total Odds": "-105 (Bovada)",
+            "Under Total Odds": "-115 (Bovada)"
         }
     },
     {
@@ -379,10 +379,10 @@
         },
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
-            "Away Spread Odds": "-130 (Bovada)",
+            "Away Spread Odds": "−130 (DK)",
             "Away ML": "−205 (DK)",
             "Home Spread": "+1.5 (Bovada)",
-            "Home Spread Odds": "+110 (Bovada)",
+            "Home Spread Odds": "+115 (Bovada)",
             "Home ML": "+170 (DK)",
             "Total": "11.5 (Bovada)",
             "Over Total Odds": "−105 (DK)",
@@ -406,7 +406,7 @@
         "Odds Table": {
             "Away Spread": "-1.5 (Bovada)",
             "Away Spread Odds": "+100 (Bovada)",
-            "Away ML": "-163 (Bovada)",
+            "Away ML": "-164 (Bovada)",
             "Home Spread": "+1.5 (Bovada)",
             "Home Spread Odds": "+105 (DK)",
             "Home ML": "+140 (DK)",
@@ -465,32 +465,6 @@
             "Total": "7.5 (Bovada)",
             "Over Total Odds": "−112 (DK)",
             "Under Total Odds": "-105 (Bovada)"
-        }
-    },
-    {
-        "MatchupID": "8d47be6d_c625b23e_MLB",
-        "Info Table": {
-            "Away Team": "MIA Marlins",
-            "Away Team Rank Name": "Miami",
-            "Away Abv": "MIA",
-            "Away ID": "8d47be6d",
-            "Home Team": "NY Mets",
-            "Home Team Rank Name": "NY Mets",
-            "Home Abv": "NYM",
-            "Home ID": "c625b23e",
-            "Start Time": "12:05PM",
-            "League": "MLB"
-        },
-        "Odds Table": {
-            "Away Spread": "+1.5 (DK)",
-            "Away Spread Odds": "−125 (DK)",
-            "Away ML": "+164 (DK)",
-            "Home Spread": "-1.5 (DK)",
-            "Home Spread Odds": "+105 (DK)",
-            "Home ML": "−198 (DK)",
-            "Total": "8.5 (DK)",
-            "Over Total Odds": "−108 (DK)",
-            "Under Total Odds": "−112 (DK)"
         }
     }
 ]
