@@ -6,11 +6,11 @@ Seattle @ Pittsburgh (MLB): Cover Rating - 4.6, Over Score - 5.3
 Bet on Pittsburgh to cover the spread.
 Boston @ Baltimore (MLB): Cover Rating - 5.1, Over Score - 5.7
 Bet on Boston to cover the spread.
-Kansas City @ Cincinnati (MLB): Cover Rating - 1.7, Over Score - 4.8
+Kansas City @ Cincinnati (MLB): Cover Rating - 1.7, Over Score - 3.8
 Bet on Kansas City to cover the spread.
 Arizona @ Tampa Bay (MLB): Cover Rating - 2.6, Over Score - 5.4
 Bet on Arizona to cover the spread.
-Chi Sox @ Houston (MLB): Cover Rating - 1.6, Over Score - 4.2
+Chi Sox @ Houston (MLB): Cover Rating - 1.6, Over Score - 5.2
 Bet on Houston to cover the spread.
 Cleveland @ Milwaukee (MLB): Cover Rating - 10.7, Over Score - 5.8
 Bet on Cleveland to cover the spread.
@@ -54,20 +54,20 @@ NY Yankees @ Detroit (MLB): Over Score - 5.7
 Arizona @ Tampa Bay (MLB): Over Score - 5.4
 Seattle @ Pittsburgh (MLB): Over Score - 5.3
 LA Dodgers @ St. Louis (MLB): Over Score - 5.3
+Chi Sox @ Houston (MLB): Over Score - 5.2
 Atlanta @ LA Angels (MLB): Over Score - 5.2
 Miami @ NY Mets (MLB): Over Score - 5.0
 Minnesota @ Texas (MLB): Over Score - 4.8
-Kansas City @ Cincinnati (MLB): Over Score - 4.8
 San Diego @ Colorado (MLB): Over Score - 4.5
 Washington @ Philadelphia (MLB): Over Score - 4.2
-Chi Sox @ Houston (MLB): Over Score - 4.2
 Toronto @ Chi Cubs (MLB): Over Score - 4.1
+Kansas City @ Cincinnati (MLB): Over Score - 3.8
           date league  cover_rating  ... total    home_team     away_team
 0   2024-08-18    MLB     10.666667  ...   8.5        Miami       NY Mets
 1   2024-08-18    MLB     10.200000  ...   9.0   Washington  Philadelphia
 2   2024-08-18    MLB      4.600000  ...   8.0      Seattle    Pittsburgh
 3   2024-08-18    MLB      5.133333  ...   9.5       Boston     Baltimore
-4   2024-08-18    MLB      1.733333  ...   9.5  Kansas City    Cincinnati
+4   2024-08-18    MLB      1.733333  ...   9.0  Kansas City    Cincinnati
 5   2024-08-18    MLB      2.600000  ...   7.5      Arizona     Tampa Bay
 6   2024-08-18    MLB      1.600000  ...   8.0      Chi Sox       Houston
 7   2024-08-18    MLB     10.666667  ...   8.5    Cleveland     Milwaukee
