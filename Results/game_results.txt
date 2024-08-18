@@ -1,9 +1,11 @@
 Miami @ NY Mets (MLB): Cover Rating - 7.7, Over Score - 5.0
 Bet on Miami to cover the spread.
-Seattle @ Pittsburgh (MLB): Cover Rating - 4.6, Over Score - 5.3
-Bet on Pittsburgh to cover the spread.
 Washington @ Philadelphia (MLB): Cover Rating - 10.2, Over Score - 5.2
 Bet on Washington to cover the spread.
+Seattle @ Pittsburgh (MLB): Cover Rating - 4.6, Over Score - 5.3
+Bet on Pittsburgh to cover the spread.
+Boston @ Baltimore (MLB): Cover Rating - 5.1, Over Score - 5.7
+Bet on Boston to cover the spread.
 Kansas City @ Cincinnati (MLB): Cover Rating - 1.7, Over Score - 4.8
 Bet on Kansas City to cover the spread.
 Arizona @ Tampa Bay (MLB): Cover Rating - 2.6, Over Score - 5.4
@@ -34,6 +36,7 @@ Washington @ Philadelphia (MLB): Cover Rating - 10.2, Bet on Washington to cover
 Toronto @ Chi Cubs (MLB): Cover Rating - 10.0, Bet on Toronto to cover the spread.
 Miami @ NY Mets (MLB): Cover Rating - 7.7, Bet on Miami to cover the spread.
 San Diego @ Colorado (MLB): Cover Rating - 6.3, Bet on San Diego to cover the spread.
+Boston @ Baltimore (MLB): Cover Rating - 5.1, Bet on Boston to cover the spread.
 Minnesota @ Texas (MLB): Cover Rating - 4.7, Bet on Texas to cover the spread.
 Seattle @ Pittsburgh (MLB): Cover Rating - 4.6, Bet on Pittsburgh to cover the spread.
 LA Dodgers @ St. Louis (MLB): Cover Rating - 4.5, Bet on St. Louis to cover the spread.
@@ -45,6 +48,7 @@ Chi Sox @ Houston (MLB): Cover Rating - 1.6, Bet on Houston to cover the spread.
 
 Ranked Games by Over Score Across All Leagues:
 Cleveland @ Milwaukee (MLB): Over Score - 5.8
+Boston @ Baltimore (MLB): Over Score - 5.7
 NY Yankees @ Detroit (MLB): Over Score - 5.7
 San Diego @ Colorado (MLB): Over Score - 5.5
 Arizona @ Tampa Bay (MLB): Over Score - 5.4
@@ -60,19 +64,20 @@ Kansas City @ Cincinnati (MLB): Over Score - 4.8
 Toronto @ Chi Cubs (MLB): Over Score - 4.1
           date league  cover_rating  ... total    home_team     away_team
 0   2024-08-18    MLB      7.666667  ...   8.5        Miami       NY Mets
-1   2024-08-18    MLB      4.600000  ...   8.0      Seattle    Pittsburgh
-2   2024-08-18    MLB     10.200000  ...   9.5   Washington  Philadelphia
-3   2024-08-18    MLB      1.733333  ...  10.0  Kansas City    Cincinnati
-4   2024-08-18    MLB      2.600000  ...   7.5      Arizona     Tampa Bay
-5   2024-08-18    MLB      1.600000  ...   8.0      Chi Sox       Houston
-6   2024-08-18    MLB     10.666667  ...   8.0    Cleveland     Milwaukee
-7   2024-08-18    MLB      4.466667  ...   8.0   LA Dodgers     St. Louis
-8   2024-08-18    MLB     10.000000  ...   6.5      Toronto      Chi Cubs
-9   2024-08-18    MLB      4.666667  ...   8.0    Minnesota         Texas
-10  2024-08-18    MLB      6.266667  ...  11.5    San Diego      Colorado
-11  2024-08-18    MLB      3.266667  ...   7.5    SF Giants       Oakland
-12  2024-08-18    MLB      2.866667  ...   9.0      Atlanta     LA Angels
-13  2024-08-18    MLB     11.533333  ...   7.5   NY Yankees       Detroit
+1   2024-08-18    MLB     10.200000  ...   9.5   Washington  Philadelphia
+2   2024-08-18    MLB      4.600000  ...   8.0      Seattle    Pittsburgh
+3   2024-08-18    MLB      5.133333  ...   9.0       Boston     Baltimore
+4   2024-08-18    MLB      1.733333  ...  10.0  Kansas City    Cincinnati
+5   2024-08-18    MLB      2.600000  ...   7.5      Arizona     Tampa Bay
+6   2024-08-18    MLB      1.600000  ...   8.0      Chi Sox       Houston
+7   2024-08-18    MLB     10.666667  ...   8.0    Cleveland     Milwaukee
+8   2024-08-18    MLB      4.466667  ...   8.0   LA Dodgers     St. Louis
+9   2024-08-18    MLB     10.000000  ...   6.5      Toronto      Chi Cubs
+10  2024-08-18    MLB      4.666667  ...   8.0    Minnesota         Texas
+11  2024-08-18    MLB      6.266667  ...  11.5    San Diego      Colorado
+12  2024-08-18    MLB      3.266667  ...   7.5    SF Giants       Oakland
+13  2024-08-18    MLB      2.866667  ...   9.0      Atlanta     LA Angels
+14  2024-08-18    MLB     11.533333  ...   7.5   NY Yankees       Detroit
 
-[14 rows x 10 columns]
+[15 rows x 10 columns]
 Avoided Overriding DailyPredictions
