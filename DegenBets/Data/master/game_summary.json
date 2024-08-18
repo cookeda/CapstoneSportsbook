@@ -1,30 +1,16 @@
 {
-    "2b1ac347_16f4bf06_MLB": {
-        "team_to_cover": "Arizona",
-        "cover_rating": 3.0,
-        "over_score": 8.4,
-        "cover_grade": 1,
-        "total_rating": 0
-    },
-    "db2ee960_fdd0d44c_MLB": {
-        "team_to_cover": "Cincinnati",
-        "cover_rating": 3.8,
-        "over_score": 5.3,
-        "cover_grade": 2,
-        "total_rating": -2
-    },
-    "f5328492_e841daaf_MLB": {
-        "team_to_cover": "Texas",
-        "cover_rating": 0.7,
-        "over_score": 4.8,
-        "cover_grade": 1,
-        "total_rating": -1
-    },
     "3f4235d4_8f2512bc_MLB": {
         "team_to_cover": "Colorado",
         "cover_rating": 3.7,
-        "over_score": 5.5,
-        "cover_grade": 2,
+        "over_score": 6.0,
+        "cover_grade": 1,
+        "total_rating": -3
+    },
+    "354ef58_fe8acdeb_MLB": {
+        "team_to_cover": "LA Angels",
+        "cover_rating": 9.9,
+        "over_score": 5.7,
+        "cover_grade": 3,
         "total_rating": -2
     },
     "486a5e3b_8b214a89_MLB": {
@@ -32,20 +18,13 @@
         "cover_rating": 10.3,
         "over_score": 6.3,
         "cover_grade": 0,
-        "total_rating": -3
-    },
-    "354ef58_fe8acdeb_MLB": {
-        "team_to_cover": "LA Angels",
-        "cover_rating": 4.9,
-        "over_score": 5.2,
-        "cover_grade": 3,
-        "total_rating": -1
+        "total_rating": 0
     },
     "6424b504_18a9d733_MLB": {
         "team_to_cover": "NY Yankees",
         "cover_rating": 6.5,
         "over_score": 5.7,
-        "cover_grade": 3,
-        "total_rating": -3
+        "cover_grade": 2,
+        "total_rating": -2
     }
 }
