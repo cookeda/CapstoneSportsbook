@@ -6,6 +6,8 @@ LA Angels @ Kansas City (MLB): Cover Rating - 6.7, Over Score - 5.6
 Bet on LA Angels to cover the spread.
 Tampa Bay @ Oakland (MLB): Cover Rating - 0.8, Over Score - 5.4
 Bet on Tampa Bay to cover the spread.
+Minnesota @ San Diego (MLB): Cover Rating - 10.9, Over Score - 4.6
+Bet on Minnesota to cover the spread.
 Chi Sox @ SF Giants (MLB): Cover Rating - 0.7, Over Score - 5.5
 Bet on Chi Sox to cover the spread.
 Seattle @ LA Dodgers (MLB): Cover Rating - 3.8, Over Score - 5.5
@@ -14,6 +16,7 @@ Bet on Seattle to cover the spread.
 Ranked Cover Recommendations Across All Leagues:
 Boston @ Houston (MLB): Cover Rating - 11.3, Bet on Boston to cover the spread.
 Baltimore @ NY Mets (MLB): Cover Rating - 11.3, Bet on Baltimore to cover the spread.
+Minnesota @ San Diego (MLB): Cover Rating - 10.9, Bet on Minnesota to cover the spread.
 LA Angels @ Kansas City (MLB): Cover Rating - 6.7, Bet on LA Angels to cover the spread.
 Seattle @ LA Dodgers (MLB): Cover Rating - 3.8, Bet on Seattle to cover the spread.
 Tampa Bay @ Oakland (MLB): Cover Rating - 0.8, Bet on Tampa Bay to cover the spread.
@@ -26,13 +29,15 @@ Seattle @ LA Dodgers (MLB): Over Score - 5.5
 Chi Sox @ SF Giants (MLB): Over Score - 5.5
 Tampa Bay @ Oakland (MLB): Over Score - 5.4
 Boston @ Houston (MLB): Over Score - 5.2
+Minnesota @ San Diego (MLB): Over Score - 4.6
          date league  cover_rating  ... total  home_team    away_team
 0  2024-08-18    MLB     11.266667  ...   8.5  Baltimore      NY Mets
 1  2024-08-18    MLB     11.333333  ...   8.0     Boston      Houston
 2  2024-08-18    MLB      6.733333  ...   9.0  LA Angels  Kansas City
 3  2024-08-18    MLB      0.800000  ...   7.5  Tampa Bay      Oakland
-4  2024-08-18    MLB      0.733333  ...   8.0    Chi Sox    SF Giants
-5  2024-08-18    MLB      3.800000  ...   8.5    Seattle   LA Dodgers
+4  2024-08-18    MLB     10.866667  ...   7.0  Minnesota    San Diego
+5  2024-08-18    MLB      0.733333  ...   8.0    Chi Sox    SF Giants
+6  2024-08-18    MLB      3.800000  ...   8.5    Seattle   LA Dodgers
 
-[6 rows x 10 columns]
+[7 rows x 10 columns]
 Avoided Overriding DailyPredictions
